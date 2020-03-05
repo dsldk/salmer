@@ -1,0 +1,69 @@
+<div class="notebox" i18n:domain="generic_literature_site">
+    <ul class="inline no-list-style">
+        <li>
+            <label class="checkbox-inline" for="person-note-checkbox">
+              <input type="checkbox"
+                     id="person-note-checkbox"
+                     data-toggle="persName"
+                     ${req.cookies.get('.persName')} />
+              <span class="checkbox-label-text" i18n:translate="">Personer</span>
+            </label>
+        </li>
+        <li>
+            <label class="checkbox-inline" for="publication-note-checkbox">
+              <input type="checkbox"
+                     id="publication-note-checkbox"
+                     data-toggle="bibl"
+                     ${req.cookies.get('.bibl')} />
+              <span class="checkbox-label-text" i18n:translate="">Værker</span>
+            </label>
+        </li>
+        <li>
+            <label class="checkbox-inline" for="character-note-checkbox">
+              <input type="checkbox"
+                     id="character-note-checkbox"
+                     data-toggle="fictionalpersName"
+                     ${req.cookies.get('.fictionalpersName')} />
+              <span class="checkbox-label-text" i18n:translate="">Karakterer</span>
+            </label>
+        </li>
+        <li>
+            <label class="checkbox-inline" for="location-note-checkbox">
+              <input type="checkbox"
+                     id="location-note-checkbox"
+                     data-toggle="placeName"
+                     ${req.cookies.get('.placeName')} />
+              <span class="checkbox-label-text" i18n:translate="">Steder</span>
+            </label>
+        </li>
+        <li>
+            <label class="checkbox-inline" for="real-note-checkbox">
+              <input type="checkbox"
+                   id="real-note-checkbox"
+                   data-toggle="note"
+                   ${req.cookies.get('.realnote')} />
+              <span class="checkbox-label-text" i18n:translate="">Kommentar</span>
+            </label>
+        </li>
+        <li>
+            <label class="checkbox-inline" for="text-critical-note-checkbox">
+              <input type="checkbox"
+                   id="text-critical-note-checkbox"
+                   data-toggle="appnote"
+                   ${req.cookies.get('.textcriticalnote')} />
+              <span class="checkbox-label-text" i18n:translate="">Tekstkritik</span>
+            </label>
+        </li>
+        <li>
+            <label class="checkbox-inline" for="click-lookup-note-checkbox">
+              <input type="checkbox"
+                   id="click-lookup-note-checkbox"
+                   ${req.cookies.get('.clickLookup')} />
+              <span class="checkbox-label-text" i18n:translate="">Ordbog</span>
+            </label>
+        </li>
+
+       <!-- <div style="width:500px;background-color:white;"
+             tal:content="req.cookies">${request}</div> -->
+    </ul>
+</div>

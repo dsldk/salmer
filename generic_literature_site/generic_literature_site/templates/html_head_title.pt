@@ -1,0 +1,3 @@
+<title tal:condition="title">${title}</title>
+<title tal:condition="not:title" i18n:translate=""
+    i18n:domain="generic_literature_site">Georg Brandes: Hovedstrømninger</title>

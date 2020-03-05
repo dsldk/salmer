@@ -1,0 +1,2 @@
+Ret de inkluderede filer i section.xsl
+section.xsl skal gemmes, når nogle af de andre filer opdateres (indsæt f.eks. et blanktegn i section.xsl og gem)

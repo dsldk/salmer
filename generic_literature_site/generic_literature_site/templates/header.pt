@@ -1,0 +1,16 @@
+<div class="main-top-section background-cover"
+    i18n:domain="generic_literature_site">
+    <div class="container">
+      <input type="checkbox" id="search-field-toggle" tal:attributes="checked python:'checked' if view.__name__ == 'search_results_view' else None;"/>
+      <label for="search-field-toggle"><span class="sr-only" i18n:translate="">Vis/skjul søgefelt</span></label>
+        <div id="search-field">
+            <form id="search-mobile" action="/search" method="get">
+                <div class="search-line input-group">
+                    <span class="input-group-addon"><img src="/static/search.png" alt=""/></span>
+                    <input type="text" class="form-control" name="q" placeholder="Søg i Brandes' tekster" tal:attributes="value python:search_string  if view.__name__ == 'search_results_view' else '';" i18n:attributes="placeholder"/>
+                    <button class="btn btn-primary arrow-r" type="submit"></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

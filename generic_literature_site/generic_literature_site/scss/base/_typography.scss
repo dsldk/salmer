@@ -1,0 +1,21 @@
+html, body {
+  font-size:1em;
+}
+
+@mixin no-list-style {
+  list-style:none;
+  padding-left:0;
+  margin-bottom:0;
+}
+
+ul, ol {
+  &.no-list-style {
+    @include no-list-style
+  }
+  &.inline {
+    &,
+    li {
+      display:inline;
+    }
+  }
+}

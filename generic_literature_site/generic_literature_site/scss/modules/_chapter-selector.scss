@@ -1,0 +1,27 @@
+// chapter dropdown, chapter_dropdown.pt
+.chapter-selector-wrapper {
+  flex: 1 0 auto;
+}
+
+.chapter-dropdown {
+  margin:0 1em;
+}
+.chapter-selector,
+.language-selector,
+.meta-selector {
+  margin:0 0 2em;
+  display:flex;
+  justify-content:center;
+  select {
+    flex: 1 1 0px;
+  }
+}
+
+.chapter-selector {
+  .arrow-l,
+  .arrow-r {
+    border-radius:0;
+    height: 35px;
+    width: 35px;
+  }
+}

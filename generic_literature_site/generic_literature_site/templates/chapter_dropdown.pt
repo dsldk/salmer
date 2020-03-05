@@ -1,0 +1,23 @@
+<div class="chapter-selector-wrapper" tal:condition="len(chapters_of_document)>1">
+    <form action="/" method="get">
+        <div class="chapter-selector">
+            <tal metal:use-macro='load:previous_icon.pt'></tal>
+            <select class="chapter-dropdown select-css" name="chapter">
+                <tal:loop repeat="i chapters_of_document">
+                    <option name="chapter" value="${i.no}" data-ajax-url="${get_location(i.no)}"
+                        selected="${str(i.no)==str(current_section_and_chapter) and 'selected'}"
+                        > ${i.name}
+                    </option>
+                </tal:loop>
+            </select>
+                                <tal metal:use-macro='load:next_icon.pt'></tal>
+
+        </div>
+
+        <input type="hidden" name="previously_selected_chapter"
+            value="${current_chapter}"/>
+        <input type="hidden" name="previously_selected_section"
+            value="${current_section}"/>
+        <input type="hidden" name="id" value="${document_id}"/>
+    </form>
+</div>

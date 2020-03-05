@@ -1,0 +1,8 @@
+.ui-widget-content a {
+  color:#003b5c;
+  &:hover,
+  &:focus {
+    color:#c2005c;
+    text-decoration:none;
+  }
+}

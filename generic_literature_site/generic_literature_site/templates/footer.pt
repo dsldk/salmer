@@ -1,0 +1,22 @@
+<div class="footer" i18n:domain="generic_literature_site">
+	<div class="container">
+		<div class="footer__main">
+				<div class="footer__main-logo">
+            <a href="http://brandes.dsl.dk">
+                <img
+                    id="dsl-logo"
+                    src="/static/dsl_logo.svg"
+                    alt="Det Danske Sprog- og Litteraturselskab"
+										i18n:attributes="alt"
+                />
+            </a>
+        </div>
+
+			<p>
+				&copy; <a href="http://dsl.dk">Det Danske Sprog- og Litteraturselskab</a> med støtte fra <a href="http://carlsbergfondet.dk">Carlsbergfondet</a>
+				<span class="star">&#8226;</span>
+				<a href="http://dsl.dk/om-dsl/privatlivspolitik">Privatlivspolitik</a>
+			</p>
+		</div>
+	</div>
+</div>

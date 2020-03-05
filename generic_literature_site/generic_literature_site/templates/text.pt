@@ -1,0 +1,5 @@
+<tal metal:use-macro='load:chapter_dropdown.pt'></tal>
+<div class="theActualDocument">
+  <div tal:content="structure pages" id="region-content"/>
+  <tal metal:use-macro='load:previous_next_chapters.pt'></tal>
+</div>

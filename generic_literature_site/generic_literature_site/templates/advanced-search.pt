@@ -1,0 +1,80 @@
+<div metal:use-macro="layout" i18n:domain="generic_literature_site">
+    <div metal:fill-slot="content">
+        <div class="documentFrame">
+            <div class="search">
+            <div class="form">
+                <p><h1 i18n:translate="">Avanceret søgning</h1></p>
+            <form action="/search" method="get">
+                <div class="row">
+                    <div class="row search-text" style="margin-top:10px;text-align:left;padding-left:0;margin-left:17px;" >
+                        <span class="input-label" i18n:translate="">Fritekst</span>
+                        <input name="q" id="search-field" type="text">
+                        <img src="/static/info.png"
+                             title="Her skrives et eller flere ord der skal søges på, f.eks 'Sønderjylland'. Søgningen foretages både i originalteksten og i oversættelsen."
+                             i18n:attributes="title">
+
+                        <div class="advanced-divider">
+                            <div class="left"></div>
+                            <div class="text" i18n:translate="">Sprog</div>
+                            <div class="right"></div>
+                        </div>
+                        <div class="checkbox-options">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <input name="checkbox-all-languages" id="checkbox-all-languages"
+                                           class="all-options" type="checkbox">
+                                    <label for="checkbox-all-languages" i18n:translate="">ALLE SPROG</label>
+                                    <br>
+                                </div>
+                                <div class="col-md-3">
+                                    <input name="language" id="checkbox-gammeldansk" value="gammeldansk"
+                                           type="checkbox">
+                                    <label for="checkbox-gammeldansk" i18n:translate="">gammeldansk</label>
+                                    <br/>
+                                </div>
+                                <div class="col-md-3">
+                                    <input name="language" id="checkbox-latin" value="latin" type="checkbox">
+                                    <label for="checkbox-latin" i18n:translate="">latin</label>
+                                </div>
+                                <br/><br/>
+
+
+                                <div class="advanced-divider" style="margin-left:-30px">
+                                    <div class="left"></div>
+                                    <div class="text" i18n:translate="">Emner</div>
+                                    <div class="right"></div>
+                                </div>
+
+                                <div class="checkbox-options">
+                                    <div class="row">
+
+
+                                        <p style="margin-top:150px;background-color:red;">
+                                        <div class="row search-button-area" >
+                                            <input value="Søg" type="submit">
+                                        </div>
+                                        <div class="row advanced-search">
+                                            <p>
+                                                <a href="#" i18n:translate="">Avanceret søgning</a>
+                                            </p>
+                                        </div>
+                                        </p>
+
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </form>
+                </div>
+                </div>
+        </div>
+    </div>
+</div>

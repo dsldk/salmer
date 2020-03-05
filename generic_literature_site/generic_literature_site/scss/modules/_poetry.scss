@@ -1,0 +1,13 @@
+.poetry {
+  font-size: 95%;
+  margin: 1.2em;
+  &-center {
+    text-align: center;
+  }
+  &-right {
+    text-align: right;
+  }
+}
+.verse-line {
+  margin: 0.2em 0 0.2em 0;
+}

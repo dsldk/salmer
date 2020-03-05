@@ -1,0 +1,40 @@
+<div class="nextPreviousbox" i18n:domain="generic_literature_site">
+  <ul class="no-list-style">
+    <tal:c tal:condition="sections_of_chapter">
+        <tal:v tal:condition="current_section > 1"><li><span i18n:translate="" tal:omit-tag="">Forrige afsnit:</span> <a
+                tal:content="previous_section_name" accesskey="p"
+                href="${'/%s/%s/%s'%(document_id_without_xml, current_chapter, current_section-1)}"
+            /></li>
+        </tal:v>
+    </tal:c>
+    <tal:c tal:condition="sections_of_previous_chapter and current_section<=1">
+        <tal:v
+            tal:condition="current_chapter > 1 and (len(sections_of_chapter) == 0 or not is_last_section)"
+            ><li><span i18n:translate="" tal:omit-tag="">Forrige afsnit:</span> ${last_section_in_previous_chapter}): <a
+                tal:content="last_section_in_previous_chapter_name" accesskey="p"
+                href="${'/%s/%s/%s'%(document_id_without_xml,current_chapter-1,last_section_in_previous_chapter)}"
+            /></li>
+        </tal:v>
+    </tal:c>
+    <tal:c tal:condition="not sections_of_previous_chapter and not sections_of_chapter">
+        <tal:v tal:condition="current_chapter > 1"><li><span i18n:translate="" tal:omit-tag="">Forrige kapitel:</span> <a
+                tal:content="previous_chapter_name" accesskey="p"
+                href="${'/%s/%s'%(document_id_without_xml,current_chapter-1)}"/></li>
+        </tal:v>
+    </tal:c>
+    <tal:c tal:condition="sections_of_chapter and not is_last_section">
+        <tal:v tal:condition="next_section_name!=no_title">
+          <li><span i18n:translate="" tal:omit-tag="">Næste afsnit:</span> <a
+                tal:content="next_section_name" accesskey="n"
+                href="${'/%s/%s/%s'%(document_id_without_xml, current_chapter, current_section+1)}"
+            /></li>
+        </tal:v>
+    </tal:c>
+    <tal:c tal:condition="not sections_of_chapter or is_last_section">
+        <tal:v tal:condition="next_chapter_name"><li><span i18n:translate="" tal:omit-tag="">Næste kapitel:</span> <a
+                tal:content="next_chapter_name" accesskey="n"
+                href="${'/%s/%s'%(document_id_without_xml, current_chapter+1)}"/></li>
+        </tal:v>
+    </tal:c>
+  </ul>
+</div>

@@ -1,0 +1,25 @@
+.ui-dialog {
+  font-family:"Montserrat", sans-serif;
+  font-size:.8em;
+  border-radius:0;
+  padding:.5em;
+  .ui-dialog-titlebar {
+    margin-bottom:.5em;
+    border-radius:0;
+    background:none;
+    padding:0;
+    border:none;
+  }
+  .ui-dialog-titlebar-close {
+    display:none;
+  }
+  .ui-dialog-content {
+    padding:0;
+  }
+}
+
+.ui-dialog {border:2px solid #ddd !important;}
+.biblcontentsbox {border: 2px solid #EAE18A !important;}
+.persNamecontentsbox {border: 2px solid #EDD19F !important;}
+.fictionalpersNamecontentsbox {border: 2px solid #F6CDF6 !important;}
+.placeNamecontentsbox {border: 2px solid #D1DFB6 !important;}

@@ -1,0 +1,39 @@
+<div class="container" i18n:domain="generic_literature_site">
+  <div class="row header-wrapper">
+    <div class="header__logo">
+      <a class="header__site-name" href="/front-page">
+        <h1>Georg Brandes</h1>
+        <p i18n:translate="">Digitale Hovedstrømninger</p>
+      </a>
+    </div>
+    <input type="checkbox" id="header__menu-toggle"><label for="header__menu-toggle"><span class="sr-only" i18n:translate="">Vis/skjul menu</span></label>
+    <div class="header__menu">
+      <div class="header__menu-primary">
+        <ul>
+          <li>
+              <a href="/about" i18n:translate="">Om</a>
+          </li>
+          <li>
+            <a href="/english"><img src="/static/english.png"/></a>
+          </li>
+          <li>
+            <a href="/danish"><img src="/static/danish.png"/></a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__menu-secondary">
+        <ul>
+          <li>
+              <a href="/texts" i18n:translate="">Tekster</a>
+          </li>
+          <li>
+              <a href="/tools" i18n:translate="">Værktøjer</a>
+          </li>
+          <li>
+              <a href="/research" i18n:translate="">Forskning</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.nextPreviousbox {
+  overflow:hidden; // prevent margin collapse
+  background-color:#ecece8;
+  font-size:.7em;
+  font-family:"Montserrat", sans-serif;
+  li {
+    margin:.5em;
+  }
+}

@@ -1,0 +1,3 @@
+apt-get install davfs
+mkdir smn_xml
+sudo mount -w -t davfs https://smn2test:8443/exist/webdav/db/smn ./smn_xml && sudo chown -R jn:jn smn_xml && sudo -R chmod a+w ./smn_xml

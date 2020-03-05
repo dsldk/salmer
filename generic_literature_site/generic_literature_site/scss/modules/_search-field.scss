@@ -1,0 +1,75 @@
+label[for="search-field-toggle"] {
+  float:right;
+  width:2em;
+  height:2em;
+  margin:-2.7em 0 0 0;
+  overflow:hidden;
+  position:relative;
+  z-index:100;
+  cursor:pointer;
+  body.home-page & {
+    margin-bottom:2.6em;
+  }
+  @media all and (min-width:710px) {
+    width:1.7em;
+    height:1.7em;
+    margin:-2.3em 0 0 0;
+    body.home-page & {
+      margin-bottom:2.5em;
+    }
+  }
+  &::before,
+  &::after {
+    box-sizing:content-box;
+    position:absolute;
+    content:"";
+    border-color:#003b5c;
+    border-width:calc(1em / 16 * 3);
+    border-style:solid;
+    display:block;
+  }
+  &::before {
+    left:35%;
+    top:35%;
+    height:79%;
+    width:79%;
+    transform:rotate(45deg);
+    transform-origin:1.5px 1.5px;
+    border-right-width:0;
+    border-bottom-width:0;
+    border-left-width:0;
+  }
+  &::after {
+    left:0;
+    top:0;
+    width:45%;
+    height:45%;
+    border-radius:50%;
+    background-color:#fff;
+  }
+
+  #search-field-toggle:focus + &,
+  #search-field-toggle:active + &,
+  #search-field-toggle:hover + & {
+    &::before,
+    &::after {
+      border-color:#c2005c;
+    }
+  }
+}
+
+#search-field {
+  width:100%;
+  height:0;
+  overflow:hidden;
+  transition:height 250ms ease-in-out;
+  &::after,
+  &::before {
+    content:"";
+    display:block;
+    height:30px;
+  } // mimic padding, but don't actually use padding, because we need the element to have height 0 when collapsed.
+  body.home-page &::before {
+    content:none;
+  }
+}

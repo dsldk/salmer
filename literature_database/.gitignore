@@ -1,0 +1,14 @@
+venv
+*.pyc
+db.sqlite3
+spreadsheets
+bin
+build/
+dist/
+include/
+lib/
+nohup.out
+pip-selfcheck.json
+share/
+adminstatic/
+literature_database.egg-info/

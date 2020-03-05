@@ -1,0 +1,94 @@
+.tabs-box {
+  font-size: 1em;
+  font-family:"Montserrat";
+  .ui-tabs {
+    border-radius:0;
+    border:none;
+    padding:0;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    align-content:flex-start;
+    .ui-tabs-nav {
+      position:relative;
+      flex:0 0 auto;
+      display:flex;
+      flex-wrap:wrap;
+      padding:0;
+      margin-left:-10px;
+      margin-right:-10px;
+      margin-bottom:2em;
+      border-radius:0;
+      font-family:"Cormorant";
+      text-transform:uppercase;
+      &::before,
+      &::after {
+        content:none;
+      }
+      &::after {
+        content:"";
+        position:absolute;
+        left:10px; // offset negative margin
+        right:10px;
+        bottom:0;
+        height:1px;
+        background:#003b5c;
+        display:block;
+      }
+      li {
+        margin-right:0;
+        background:none;
+        border:none;
+        cursor:pointer;
+        margin:0 10px;
+        float:none;
+        a {
+          text-decoration: none;
+          color: #003b5c;
+          font-size: 15px;
+          text-transform: uppercase;
+          letter-spacing: 1.3px;
+          display: block;
+          padding: 7px 0;
+          font-weight:600;
+          float:none;
+          &:hover {
+            color: #c2005c;
+          }
+        }
+        &.ui-state-active {
+          padding-bottom:0;
+          a {
+            border-bottom:5px solid #c0c1c1;
+            padding-bottom:2px;
+          }
+        }
+      }
+    }
+  }
+  .ui-widget-header {
+    background-color:white;
+    background-image:none;
+    border:0;
+    font-size: 14px;
+  }
+  .ui-widget {
+    font-size:1em;
+    font-family:"Montserrat", sans-serif;
+  }
+}
+#comments {
+  &.ui-tabs-panel {
+    ul {
+      @include no-list-style;
+      li {
+        margin-bottom:1em;
+      }
+    }
+  }
+}
+
+.publicationReferenceInNote {
+  color: grey;
+  cursor:pointer;
+}

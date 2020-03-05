@@ -1,0 +1,26 @@
+<div metal:use-macro="layout" i18n:domain="generic_literature_site">
+    <div metal:fill-slot="content">
+        <div class="documentFrame">
+            <div>
+                <div class="background-box">
+                    <div class="container">
+                        <div class="col">
+                            <h3 i18n:translate="">Filtrér alfabetisk</h3>
+                            <a tal:repeat="letter danish_letters" href="/register/${register_type}/${letter}">${letter}</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                  <tal:wrapper tal:repeat="item register_items">
+                    <div class="col register_items-box" tal:condition="item['refs']">
+                        <h5 class="strong">${structure: item['text']}</h5>
+
+                            <ul tal:condition="item['refs']" class="register_items-link"><li tal:repeat="link item['refs']">${structure: link}<tal:comma tal:condition="not repeat.link.end">, </tal:comma></li></ul>
+                    </div>
+                  </tal:wrapper>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+.library {
+  display:flex;
+  align-items:stretch;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  &::before,
+  &::after {
+    content:none;
+  }
+  > [class^="col-"] {
+    margin-bottom:3em;
+    flex:0 0 100%;
+    max-width:100%;
+    @media all and (min-width:992px) {
+      flex: 0 0 auto;
+      // flex-basis: calc((100% - 60px) / 3);
+      width: calc((100% - 60px) / 3); // minus 60 px because we need a gutter
+    }
+  }
+}

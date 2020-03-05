@@ -1,0 +1,11 @@
+<ul i18n:domain="generic_literature_site" tal:condition="python:note_list or notes_not_found">
+    <li tal:repeat="note note_list" id="${note.note_id}">
+        <!-- <a tal:attributes="href string:#+${note.note_id}"> -->
+            <tal:n tal:content="structure note.note" />
+
+    </li>
+
+    <div style="color:red" tal:condition="notes_not_found"><span>${notes_not_found}</span> <span i18n:translate="" tal:omit-tag="">kommentarer er ikke tilknyttet databasen</span></div>
+
+
+</ul>

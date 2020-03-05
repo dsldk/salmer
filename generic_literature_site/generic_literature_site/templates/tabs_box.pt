@@ -1,0 +1,26 @@
+<div id="tabs" i18n:domain="generic_literature_site">
+    <ul>
+        <li tal:attributes="class python:'hidden' if not note_list else None"><a href="#comments" i18n:translate="">Kommentar</a></li>
+        <li><a href="#translations" i18n:translate="">Oversættelser</a></li>
+        <li tal:attributes="class python:'hidden' if not variants_list_text else None"><a href="#differences" i18n:translate="">Varians</a></li>
+        <li><a href="#dictionary" i18n:translate="">Ordbog</a></li>
+        <li class="displaynone"><a href="#meta" i18n:translate="">Om teksten</a></li>
+    </ul>
+    <div>
+      <div id="comments" tal:attributes="class python:'hidden' if not note_list else None">
+        <tal metal:use-macro='load:note_tab.pt'></tal>
+      </div>
+      <div id="translations">
+        <tal metal:use-macro='load:translation_tab.pt'></tal>
+      </div>
+      <div id="differences" tal:attributes="class python:'hidden' if not variants_list_text else None">
+        <tal metal:use-macro='load:variant_tab.pt'></tal>
+      </div>
+      <div id="dictionary">
+        <tal metal:use-macro='load:dictionary_tab.pt'></tal>
+      </div>
+      <div id="meta" class="displaynone">
+        <tal metal:use-macro='load:meta_tab.pt'/>
+      </div>
+    </div>
+</div>

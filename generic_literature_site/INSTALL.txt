@@ -1,0 +1,113 @@
+
+Installing the webclient
+---------------------
+
+To install the client do the following (Debian-like GNU/Linux distributions only).
+
+$ sudo apt-get install build-essential python-dev python3-venv git libmysqlclient-dev memcached
+$ git clone jn@git.dsl.dk:/opt/git/generic_literature_site
+$ cd generic_literature_site
+$ export DJANGO_SETTINGS_MODULE=literature_database.settings
+$ cd generic_literature_site
+$ git clone git@github.com:dsldk/exist_api.git
+$ cd ..
+$ pyvenv venv
+$ source ./venv/bin/activate
+$ pip install mysqlclient
+$ python setup.py develop
+
+Start server (currently runs on localhost:6543)
+
+$ export DJANGO_SETTINGS_MODULE=brandes.settings
+$ pserve development.ini
+
+Use "deactivate" (without ./bin) to exit the virtual environment
+
+
+Compiling Sass files:
+---------------------
+
+Prerequisites: ruby, compass
+
+If you haven't already, install ruby
+$ sudo apt-get update
+$ sudo apt-get install ruby-full
+
+and compass
+$ sudo gem update --system
+$ sudo gem install compass
+
+Now you can compile Sass files
+$ compass compile generic_literature_site/generic_literature_site/scss
+
+This will compile the source files in scss/ to static/. You can configure the
+source and target paths in generic_literature_site/generic_literature_site/scss/config.rb
+
+
+Installing eXist:
+-----------------
+
+Download the latest version of the eXist server from :
+
+https://dl.bintray.com/existdb/releases/  (http://exist-db.org)
+
+Install java dev kit:
+
+$ sudo apt-get install default-jdk
+
+Run the installer like this (using the correct .jar filename). Install
+it in a folder called eXist-db:
+
+$ java -jar eXist-db-setup-VERSION.jar
+
+Enter eXist-db as folder name and choose the default values for the other questions.
+
+Start the server
+
+$ cd eXist-db
+$ /bin/startup.sh
+
+The administation interface will then be available at localhost:8080
+
+A way to upload: Click on Java Admin Interface in the administration
+interface. Go to the folder you wish to upload to (currently "apps/smn")
+and choose "Store files/directories" in the "File" menu.
+
+
+Update production code
+----------------------
+
+$ ssh brandes.dsl.lan
+($ sudo su - smn #ikke sat op)
+$ generic_literature_site
+$ git pull
+$ source ./venv/bin/activate
+$ cd exist_api
+$ svn update
+$ cd ..
+$ python setup.py install 
+$ cd
+/home/jn/generic_literature_site/venv/lib/python3.5/site-packages/generic_literature_site-0.3-py3.5.egg/generic_literature_site/
+$ ln -s /home/jn/generic_literature_site/generic_literature_site/templates
+$ ln -s /home/jn/generic_literature_site/generic_literature_site/static
+$ cd -
+$ exit && sudo service uwsgi restart # use nohup pserve development.ini instead
+$ # search on 'æble' to check that Danish characters work 
+
+Update eXist content
+--------------------
+Gå herefter til sitet brandes.dsl.lan. Virker muligvis ikke pt. Brug nohup ./bin/startup.sh i stedet
+
+$ ssh brandes.dsl.lan 
+$ sudo service eXist-db stop
+$ sudo su - smn
+$ ps aux | grep eXist
+$ mv /var/smn/eXist-db-2.1/webapp/WEB-INF/data ~/"data_backup_`date +'%F'`"
+$ cd eXist-db-2.1/webapp/WEB-INF/
+$ scp -r jn@smn2test:/home/jn/exist-db/webapp/WEB-INF/data .
+$ sudo chown -R smn:smn /var/smn/eXist-db-2.1
+$ exit && service eXist-db start
+
+If it doesn't work, try backing up and copy WEB-INF or the entire exist-db folder
+
+

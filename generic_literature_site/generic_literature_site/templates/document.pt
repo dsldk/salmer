@@ -1,0 +1,25 @@
+<div metal:use-macro="layout">
+    <div metal:fill-slot="content" class="page-wrapper">
+        <div class="background-box" tal:condition="page_is_available">
+            <div class="headline-box container">
+                <div class="col">
+                    <h1>${title_of_current_document}</h1>
+                    <tal metal:use-macro='load:note_box.pt'></tal>
+                </div>
+            </div>
+        </div>
+        <div class="documentFrame container" tal:condition="page_is_available">
+            <div class="row document-wrapper">
+                <div class="col-sm-6 chapter-box">
+                    <tal tal:condition="python:False" metal:use-macro='load:facsimile_info.pt'></tal>
+
+                    <tal metal:use-macro='load:text.pt'></tal>
+                </div>
+
+                <div class="col-sm-6 tabs-box">
+                    <tal metal:use-macro='load:tabs_box.pt'></tal>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+<div metal:use-macro="layout">
+    <div metal:fill-slot="content">
+      <div class="documentFrame">
+        <div tal:content="structure request.html" />
+      </div>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+<tal:tab tal:content="structure variants_list_text">${introduction_text}</tal:tab>

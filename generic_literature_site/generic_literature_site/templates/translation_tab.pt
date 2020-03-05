@@ -1,0 +1,5 @@
+<div class="language-selector"></div>
+<noscript i18n:translate="" i18n:domain="generic_literature_site">Visning af oversat tekst kræver JavaScript</noscript>
+<div id="lang-chapter-wrapper">
+  <tal metal:use-macro='load:chapter_dropdown.pt'></tal>
+</div>

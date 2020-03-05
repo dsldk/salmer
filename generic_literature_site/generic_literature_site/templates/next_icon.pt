@@ -1,0 +1,14 @@
+<tal:c tal:condition="sections_of_chapter and not is_last_section"
+i18n:domain="generic_literature_site">
+    <tal:v tal:condition="next_section_name!='(uden titel)'">
+          <a tal:attributes="title string: ${next_section} (${current_section+1}): ${next_section_name}" accesskey="n" class="btn btn-primary arrow-r"
+                       href="${'/%s/%s/%s'%(document_id_without_xml, current_chapter, current_section+1)}"></a>
+    </tal:v>
+</tal:c>
+<tal:c tal:condition="not sections_of_chapter or is_last_section"
+i18n:domain="generic_literature_site">
+    <tal:v tal:condition="next_chapter_name">
+         <a tal:attributes="title string: ${next_chapter} (${current_chapter+1}): ${next_chapter_name}" accesskey="n" class="btn btn-primary arrow-r"
+                      href="${'/%s/%s'%(document_id_without_xml, current_chapter+1)}"></a>
+    </tal:v>
+</tal:c>

@@ -1,0 +1,69 @@
+// annotations, note_box.pt
+
+.notebox {
+  background-color:#ecece8;
+  padding:.5em 0 0;
+  ul {
+    margin:0;
+    li {
+      margin-right:.25em;
+      display:inline;
+      vertical-align:text-bottom;
+      &:last-child {
+        margin-right:0;
+      }
+    }
+  }
+}
+
+.bibl {color:black;display: inline;}
+.persName {color:black;display: inline}
+.appnotecontents .persName {display: inline;}
+.fictionalpersName {color:black;display: inline;}
+.placeName {color:black;display: inline;}
+
+.notebox .checkbox-label-text {
+  font-weight:600;
+  text-transform:uppercase;
+  padding:.1em .3em;
+  font-family:"Montserrat", sans-serif;
+  font-size:.8em;
+  letter-spacing:.05em;
+  vertical-align:middle;
+}
+
+[for$="-note-checkbox"] {
+  padding-left:0;
+  -ms-user-select:none;
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  user-select:none;
+  .checkbox-label-text {
+    border-radius:2px;
+    opacity:.5;
+  }
+  input[type="checkbox"]:focus + .checkbox-label-text {
+    box-shadow: 0 0 0 3px #82b8d6;
+  }
+  input[type="checkbox"]:checked + .checkbox-label-text {
+    opacity:1;
+    box-shadow:0 0 1px 0 rgba(0,0,0,.75)
+  }
+  input[type="checkbox"]:focus:checked + .checkbox-label-text {
+    box-shadow: 0 0 0 3px #82b8d6, 0 0 1px 0 rgba(0,0,0,.75);
+  }
+}
+
+[for="person-note-checkbox"] .checkbox-label-text {background-color:#EDD19F;}
+[for="publication-note-checkbox"] .checkbox-label-text {background-color:#EAE18A;}
+[for="character-note-checkbox"] .checkbox-label-text {background-color:#F6CDF6;}
+[for="location-note-checkbox"] .checkbox-label-text {background-color:#D1DFB6;}
+[for="real-note-checkbox"] .checkbox-label-text {color: red;}
+[for="text-critical-note-checkbox"] .checkbox-label-text {color: blue;font-weight:bold;}
+
+.notelink sup {display:none;}
+.realnote sup a {color:red;background-color:transparent !important}
+// .realnote {display:none;}
+.textcriticalnote {color:blue;background-color:transparent !important}
+// .textcriticalnote {display:none;}

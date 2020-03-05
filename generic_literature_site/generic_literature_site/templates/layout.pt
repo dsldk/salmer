@@ -1,0 +1,49 @@
+<metal:macro metal:define-macro="layout">
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="da"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="generic_literature_site">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title metal:use-macro="load:html_head_title.pt"></title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="/static/dsl-basis/screen.css" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css" />
+		<link rel="stylesheet" href="/static/elements.css" />
+		<link rel="stylesheet" href="/static/select-css.css" />
+    <link rel="stylesheet" type="text/css" href="/static/layout.css" />
+    <link rel="stylesheet" type="text/css" rel="prefetch" href="https://static.ordnet.dk/plugin/brandes.css" />
+		<link rel="stylesheet" href="/static/styles.css" />
+    <link rel="stylesheet" href="/static/dsl-basis/print.css" media="print"  type="text/css" />
+    <link rel="stylesheet" href="/static/print.css" media="print"  type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="/static/compressed-javascript.js"></script>
+
+		<tal:simile tal:condition="view.__name__ == 'timeline_view'">
+			<script src="//api.simile-widgets.org/timeline/2.3.1/timeline-api.js?bundle=false" type="text/javascript"></script>
+		</tal:simile>
+
+		<script src="/static/polyfills.js"></script>
+    <script src="/static/i18n.min.js"></script>
+    <script src="/static/locale.js"></script>
+		<script src="/static/popups.js"></script>
+    <script src="/static/javascript.js"></script>
+		<script src="/static/lookup.js"></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div metal:use-macro="load:top_links.pt"></div>
+        <div metal:use-macro="load:header.pt"></div>
+    </header>
+    <div metal:define-slot="content"></div>
+    <div metal:use-macro="load:footer.pt" />
+</body>
+
+</html>
+</metal:macro>

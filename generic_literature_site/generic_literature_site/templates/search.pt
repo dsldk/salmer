@@ -1,0 +1,115 @@
+<div metal:use-macro="layout" i18n:domain="generic_literature_site">
+    <div metal:fill-slot="content">
+        <div class="documentFrame">
+          <div class="background-box">
+              <div class="container">
+                  <div class="col search-header">
+                      <h4 tal:condition="search_string"><span i18n:translate="" tal:omit-tag="">Du har søgt på:</span> <strong>${search_string}</strong></h4>
+                      <fieldset>
+                          <legend i18n:translate="">Afgræns søgning</legend>
+                          <tal:languages>
+
+                              <form action="/search" name="languages" method="get">
+                                  <span i18n:translate="">Sprog:</span>
+                                  <input type="hidden" name="q" value="${search_string}"/>
+                                  <label class="checkbox-container"><span i18n:translate="" tal:omit-tag="">Dansk</span>
+                                  <input type="checkbox" name="language" value="da"
+                                           tal:attributes="checked python:'checked' if 'da' in languages else None"  />
+                                           <span class="checkmark"></span>
+                                  </label>
+                                  <label class="checkbox-container"><span i18n:translate="" tal:omit-tag="">Engelsk</span>
+                                  <input type="checkbox" name="language" value="en"
+                                           tal:attributes="checked python:'checked' if 'en' in languages else None"  />
+                                           <span class="checkmark"></span>
+                                  </label>
+                                  <label class="checkbox-container"><span i18n:translate="" tal:omit-tag="">Fransk</span>
+                                  <input type="checkbox" name="language" value="fr"
+                                           tal:attributes="checked python:'checked' if 'fr' in languages else None"  />
+                                           <span class="checkmark"></span>
+                                  </label>
+                                  <label class="checkbox-container"><span i18n:translate="" tal:omit-tag="">Tysk</span>
+                                  <input type="checkbox" name="language" value="de"
+                                           tal:attributes="checked python:'checked' if 'de' in languages else None"  />
+                                           <span class="checkmark"></span>
+                                  </label>
+                                  <div>
+                                    <button type="submit" class="btn btn-primary">Søg</button>
+                                  </div>
+                              </form>
+
+                          </tal:languages>
+                      </fieldset>
+                  </div>
+              </div>
+          </div>
+            <div class="page-searchresults" style="display: block;">
+                <div class="container searchresultspage">
+                    <div class="search-results-wrapper">
+                      <tal:results tal:condition="search_string and results">
+                        <div class="search-result-header" style="margin-bottom:20px;">
+                        <h3 i18n:translate="">Resultater:</h3>
+                            <!--<div>${paginator.page}</div>-->
+                            <ul tal:condition="paginator and paginator.page.count > 1">
+                                <li tal:repeat="page_index paginator.page.range"
+                                    class="active">
+                                <span tal:define="url '%s&page=%s'%(url_without_page_argument,page_index)">
+                                <a href="${url}"
+                                   tal:condition="page != page_index">${page_index}</a>
+                                <strong tal:condition="page == page_index">
+                                    <a>${page_index}</a>
+                                </strong>
+                                </span>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="search-results"
+                             tal:repeat="publication results">
+                            <div class="search-result"
+                                 tal:define="result python:results[publication][0]"
+                                 tal:condition="True or result.get('chapter') or not search_string">
+
+                                    <h5 class="strong" tal:content="result.get('title')"/><tal:c
+                                          condition="search_string and result.get('chapter')">,
+                                        <span i18n:translate="" tal:omit-tag="">Kapitel</span> <span tal:content="result.get('chapter')"/></tal:c><span
+                                        tal:condition="result.get('section')"><tal:c
+                                            condition="search_string">,
+                                        <span i18n:translate="" tal:omit-tag="">Afsnit</span> <span
+                                                tal:content="result.get('section')"/>
+                                    </tal:c></span>
+                                <div class="language" tal:condition="result.get('languages')"><span i18n:translate="" tal:omit-tag="">Sprog:</span>
+                                <span tal:content="result.get('languages')"/><span tal:condition="result.get('category')">, <span i18n:translate="">Emne:</span>
+                                    <span tal:content="result.get('category')"/>
+                                </span>
+                            </div>
+                            <span tal:condition="result.get('category') and not result.get('languages')"
+                                  class="language"><span i18n:translate="" tal:omit-tag="">Emne:</span>
+                                <span tal:content="result.get('category')"/>
+                            </span>
+                              <ul class="register_items-link" tal:condition="results[publication]">
+                                        <tal:loop repeat="sub_result results[publication]">
+                                            <li tal:repeat="line sub_result.get('kwic')">
+                                                <tal:result tal:content="structure line" />
+                                            </li>
+                                        </tal:loop>
+                              </ul>
+                        </div>
+                        </div>
+                      </tal:results>
+                      <tal:noresults tal:condition="search_string and not results">
+                        <div class="search-result-header" style="margin-bottom:20px;">
+                          <h3 i18n:translate="">Ingen resultater matchede din søgning</h3>
+                        </div>
+                      </tal:noresults>
+                      <tal:noquery tal:condition="not search_string and not results">
+                        <div class="search-result-header" style="margin-bottom:20px;">
+                          <h3 i18n:translate="">Indtast et søgeord i søgefeltet øverst på siden</h3>
+                        </div>
+                      </tal:noquery>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
