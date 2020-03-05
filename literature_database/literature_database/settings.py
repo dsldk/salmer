@@ -129,17 +129,17 @@ CONN_MAX_AGE = 500
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': os.path.join(SETTINGS_DIR, 'db.sqlite3'),
-        'ENGINE':'django.db.backends.postgresql',
-        'NAME':'literature_database',
-        'USER':'dsl',
-        'PASSWORD': 'dsl',
-        'HOST': 'localhost',
-        'OPTIONS': {
-            'connect_timeout': 5,
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(SETTINGS_DIR, 'db.sqlite3'),
+        # 'ENGINE':'django.db.backends.postgresql',
+        # 'NAME':'literature_database',
+        # 'USER':'dsl',
+        # 'PASSWORD': 'dsl',
+        # 'HOST': 'localhost',
+        # 'OPTIONS': {
+        #    'connect_timeout': 5,
             # 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-        }
+        # }
     }
 }
 

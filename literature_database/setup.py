@@ -23,7 +23,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 #CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = [
-    'django',
+    'django==3.0.4',
     'python-slugify',
     'ipython',
     'django-python3-ldap',
