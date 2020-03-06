@@ -1,8 +1,8 @@
-# Copyright (C) 2017-19 Dansk Sprog- og Litteraturselskab.
+# Copyright (C) 2017-20 Dansk Sprog- og Litteraturselskab and Magenta ApS.
 #
-# This file is part of the Georg Brandes website.
+# This file is part of DSL's generic literature site template.
 #
-# The Georg Brandes website is free software: you can redistribute it
+# This template website is free software: you can redistribute it
 # and/or modify it under the terms of the GNU General Public License as
 # published by the Free Software Foundation, either version 3 of the
 # License, or (at your option) any later version.
