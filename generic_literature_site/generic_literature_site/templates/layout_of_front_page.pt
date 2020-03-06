@@ -8,16 +8,16 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
-	<title i18n:translate="">Georg Brandes: Hovedstrømninger (1872-1890)</title>
+	<title i18n:translate="">Project title</title>
 	<link rel="stylesheet" href="static/bootstrap.min.css" />
 	<link rel="stylesheet" href="static/elements.css" />
 	<link rel="stylesheet" type="text/css" href="/static/layout.css" />
 	<link rel="stylesheet" href="/static/styles.css" />
-    <link rel="stylesheet" href="/static/print.css" media="print"  type="text/css" />
+    <link rel="stylesheet" href="/static/print.css" media="print" type="text/css" />
 
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
 
-    <link rel="stylesheet" type="text/css" rel="prefetch" href="https://static.ordnet.dk/plugin/brandes.css" />
+    <link rel="stylesheet" type="text/css" rel="prefetch" href="https://static.ordnet.dk/plugin/the-plugin-name.css" />
 
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>

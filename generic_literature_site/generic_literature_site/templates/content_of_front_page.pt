@@ -1,5 +1,5 @@
 <div class="main-top-section background-cover bg-print-none wrapper"
-    style="background-image: url('/static/brandes.jpg');"
+    id="front-page-splash"
     i18n:domain="generic_literature_site">
   <section>
     <tal:header metal:use-macro="load:header.pt"></tal:header>
@@ -12,7 +12,7 @@
               </div>
               <h3 class="library__item-title" i18n:translate="">Tekster</h3>
             </div>
-            <p><strong i18n:translate="">Læs!</strong> <span tal:omit-tag="" i18n:translate="">Tekstkritisk og kommenteret udgave af</span> <em i18n:translate="">Hovedstrømninger</em> <span tal:omit-tag="" i18n:translate="">med supplerende tekster og oversættelser</span></p>
+            <p><strong i18n:translate="">Emphasis</strong> <span tal:omit-tag="" i18n:translate="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
             <div class="library__item-link">
               <a href="/texts" class="btn btn-primary arrow-r"></a>
             </div>
@@ -25,7 +25,7 @@
               </div>
               <h3 class="library__item-title" i18n:translate="">Værktøjer</h3>
             </div>
-            <p><strong i18n:translate="">Undersøg!</strong> <span tal:omit-tag="" i18n:translate="">Registre over personer, værker m.v., søgefunktioner og tidslinje til Brandes' liv og værk</span></p>
+            <p><strong i18n:translate="">Emphasis</strong> <span tal:omit-tag="" i18n:translate="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
             <div class="library__item-link">
               <a href="/tools" class="btn btn-primary arrow-r"></a>
             </div>
@@ -38,7 +38,7 @@
               </div>
               <h3 class="library__item-title" i18n:translate="">Forskning</h3>
             </div>
-            <p><strong i18n:translate="">Supplér!</strong> <span tal:omit-tag="" i18n:translate="">Introduktioner til teksterne og resultater fra forskningsprojektet</span> <em i18n:translate="">Digitale Hovedstrømninger</em></p>
+            <p><strong i18n:translate="">Emphasis</strong> <span tal:omit-tag="" i18n:translate="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
             <div class="library__item-link">
               <a href="/research" class="btn btn-primary arrow-r"></a>
             </div>

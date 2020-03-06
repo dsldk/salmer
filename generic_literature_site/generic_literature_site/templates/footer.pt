@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="footer__main">
 				<div class="footer__main-logo">
-            <a href="http://brandes.dsl.dk">
+            <a href="/">
                 <img
                     id="dsl-logo"
                     src="/static/dsl_logo.svg"

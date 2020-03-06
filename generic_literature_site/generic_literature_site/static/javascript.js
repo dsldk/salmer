@@ -21,16 +21,16 @@ $(function(){
 
 	// save selected tab in browser storage, so we can activate this tab on page load
 	$('#tabs').on('tabsactivate', function (event, ui) {
-		sessionStorage.setItem('brandes-active-tab', ui.newTab.attr('aria-controls'));
+		sessionStorage.setItem('active-tab', ui.newTab.attr('aria-controls'));
 	});
 
   // if we are on the text view, handle the tabs at page load
   if ($('#tabs').length) {
     var tabId = getFirstVisibleTab().attr('id');
-  	if (sessionStorage.getItem('brandes-active-tab')) {
+  	if (sessionStorage.getItem('active-tab')) {
   		// if the prev tab is not currently hidden, select it instead of the first visible tab
   		if (!$('#' + tabId).hasClass('hidden')) {
-        tabId = sessionStorage.getItem('brandes-active-tab');
+        tabId = sessionStorage.getItem('active-tab');
   		}
   	}
     activateTab(tabId);
@@ -122,47 +122,9 @@ $(function(){
 	// map of translations that exist for each text
 	var translations = [
 		{
-			'Dansk': 'brandes_hs1_1872',
-			'Deutsch': 'brandes_hpt1',
-			'English': 'brandes_mc1'
-		},
-		{
-			'Dansk': 'brandes_hs2_1873',
-			'Deutsch': 'brandes_hpt2',
-			'English': 'brandes_mc2'
-		},
-		{
-			'Dansk': 'brandes_hs3_1874',
-			'Deutsch': 'brandes_hpt3',
-			'English': 'brandes_mc3'
-		},
-		{
-			'Dansk': 'brandes_hs4_1875',
-			'Deutsch': 'brandes_hpt4',
-			'English': 'brandes_mc4'
-		},
-		{
-			'Dansk': 'brandes_hs5_1882',
-			'Deutsch': 'brandes_hpt5',
-			'English': 'brandes_mc5',
-			'Français': 'brandes_lr_1902'
-		},
-		{
-			'Dansk': 'brandes_hs6_1890',
-			'Deutsch': 'brandes_hpt6',
-			'English': 'brandes_mc6'
-		},
-		{
-			'Dansk': 'brandes_lv1_1905'
-		},
-		{
-			'Dansk': 'brandes_lv2_1907'
-		},
-		{
-			'Dansk': 'brandes_lv3_1908'
-		},
-		{
-			'Dansk': 'brandes_ff_1872'
+			'Dansk': 'text_id_da',
+			'Deutsch': 'text_id_de',
+			'English': 'text_id_en'
 		}
 	]
 

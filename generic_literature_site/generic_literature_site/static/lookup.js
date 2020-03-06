@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  var lookupUrl = '' //wstest.dsl.dk/lex/query?app=brandes&version=1.0&q='
   $('.chapter-box').on('click', '.theActualDocument #region-content', function(event) {
     if($('#click-lookup-note-checkbox').prop('checked')) { // only do lookup if setting is activated
       // Gets clicked on word (or selected text if text is selected)
@@ -23,16 +24,20 @@ $(document).ready(function(){
         // strip any weird characters from end or beginning of string
         t = t.replace(/[^a-åA-Å]/gi, '')
         if (t.length > 0) {
-          $.ajax({
-            url: 'http://wstest.dsl.dk/lex/query?app=brandes&version=1.0&q=' + t,
-            method: 'GET',
-            dataType: 'html'
-          })
-          .done(function(response){
-            $('#dictionary-lookup-tab').html(response);
-            var tabIndex = $('#tabs > div > div').index($('#dictionary'));
-            $('#tabs').tabs('option', 'active', tabIndex);
-          })
+          if (lookupUrl) {
+            $.ajax({
+              url: lookupUrl + t,
+              method: 'GET',
+              dataType: 'html'
+            })
+            .done(function(response){
+              $('#dictionary-lookup-tab').html(response);
+              var tabIndex = $('#tabs > div > div').index($('#dictionary'));
+              $('#tabs').tabs('option', 'active', tabIndex);
+            })
+          } else {
+            console.warn('lookupUrl is not defined')
+          }
         }
       }
     }

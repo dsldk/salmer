@@ -81,7 +81,7 @@ function activateNotes(css_base_class, css_id, title) {
     note_link_id = css_id + current_note_no;
     dialog_opts.title = title;
     if (title == __[loc]("Kommentar") && !note_contents_id.startsWith('#Note')) {
-      dialog_opts.title = __[loc]("Georg Brandes' note");
+      dialog_opts.title = __[loc]("Forfatterens note");
     }
     dialog_opts.dialogClass = css_class.slice(1) + "box"
 

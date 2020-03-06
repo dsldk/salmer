@@ -2,8 +2,8 @@
   <div class="row header-wrapper">
     <div class="header__logo">
       <a class="header__site-name" href="/front-page">
-        <h1>Georg Brandes</h1>
-        <p i18n:translate="">Digitale Hovedstrømninger</p>
+        <h1>Project title</h1>
+        <p i18n:translate="">Subtitle</p>
       </a>
     </div>
     <input type="checkbox" id="header__menu-toggle"><label for="header__menu-toggle"><span class="sr-only" i18n:translate="">Vis/skjul menu</span></label>

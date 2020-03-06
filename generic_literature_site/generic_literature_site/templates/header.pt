@@ -7,7 +7,7 @@
             <form id="search-mobile" action="/search" method="get">
                 <div class="search-line input-group">
                     <span class="input-group-addon"><img src="/static/search.png" alt=""/></span>
-                    <input type="text" class="form-control" name="q" placeholder="Søg i Brandes' tekster" tal:attributes="value python:search_string  if view.__name__ == 'search_results_view' else '';" i18n:attributes="placeholder"/>
+                    <input type="text" class="form-control" name="q" placeholder="Søg i samlingens tekster" tal:attributes="value python:search_string  if view.__name__ == 'search_results_view' else '';" i18n:attributes="placeholder"/>
                     <button class="btn btn-primary arrow-r" type="submit"></button>
                 </div>
             </form>
