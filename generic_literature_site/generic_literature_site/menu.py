@@ -17,7 +17,7 @@
 from requests import get
 from json import loads
 from pyramid.httpexceptions import HTTPFound
-from .exist_api.exist_api import remove_dot_xml
+from .exist_api.exist_api import listify, remove_dot_xml
 
 
 def set_menu_by_cookie(request):
@@ -51,7 +51,8 @@ def make_listings_for_menu(xquery_folder, document_id):
             "manuscripts_for_place"
         )
     titles_by_manuscripts = []
-    for manuscript in titles_by_manuscripts_with_nil:
+    # import pdb; pdb.set_trace()
+    for manuscript in listify(titles_by_manuscripts_with_nil):
         if not isinstance(
             manuscript.get("manuscripts").get("manuscript"), list
         ):
