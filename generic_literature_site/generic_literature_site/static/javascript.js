@@ -122,10 +122,32 @@ $(function(){
 	// map of translations that exist for each text
 	var translations = [
 		{
-			'Dansk': 'text_id_da',
-			'Deutsch': 'text_id_de',
-			'English': 'text_id_en'
-		}
+			'Dansk': 'christian-3-bibel',
+		},
+		{
+			'Dansk': 'claus-mortensen-messe-1528',
+		},
+		{
+			'Dansk': 'dietz-salmebog-1529',
+		},
+		{
+			'Dansk': 'dietz-salmebog-1536',
+		},
+		{
+			'Dansk': 'jespersen_1573',
+		},
+		{
+			'Dansk': 'malmoe-salmebog',
+		},
+		{
+			'Dansk': 'oluf-ulriksen-messe-1535',
+		},
+		{
+			'Dansk': 'oluf-ulriksen-messehaandbog-1539',
+		},
+		{
+			'Dansk': 'thomissoen_1569',
+		},
 	]
 
 	// ugly way to transform array of translations to array of text ids
