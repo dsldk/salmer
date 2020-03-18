@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="2.0">
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
         <xd:desc>
@@ -24,7 +23,7 @@
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
-            <xsl:apply-templates select="tei:head | tei:div | tei:p | tei:lg | tei:list | tei:epigraph | tei:sp | tei:table | tei:cit"/>
+            <xsl:apply-templates select="tei:figure | tei:head | tei:div | tei:p | tei:lg | tei:list | tei:epigraph | tei:sp | tei:table | tei:cit | tei:notatedMusic"/>
         </div>
     </xsl:template>
 
@@ -87,11 +86,11 @@
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
-            <span class="caption">Preface: </span>
+            <!--<span class="caption">Preface: </span>-->
             <h3>
                 <xsl:apply-templates select="tei:head"/>
             </h3>
-            <xsl:apply-templates select="tei:div | tei:lg | tei:p | tei:signed"/>
+            <xsl:apply-templates select="tei:div | tei:lg | tei:p | tei:signed | tei:figure"/>
         </div>
     </xsl:template>
     <xsl:template match="tei:div[@type = 'toc']">
@@ -99,7 +98,7 @@
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
-            <span class="caption">Table of contents: </span>
+            <!--<span class="caption">Table of contents: </span>-->
             <xsl:apply-templates/>
         </div>
     </xsl:template>

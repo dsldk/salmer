@@ -18,11 +18,28 @@
             <xd:copyright>2010, Society for Danish Language and Literature</xd:copyright>
         </xd:desc>
     </xd:doc>
-    <!--  -->
-    <xsl:template match="tei:handDesc[tei:handNote/tei:ab/text()!='empty']">
-        <li>
-            <xsl:text>Skrift: </xsl:text>
-            <xsl:apply-templates select="tei:handNote/tei:ab/node()"/>
-        </li>
+    <xsl:template match="tei:figure">
+        <div class="figure">
+            <p class="editorial">
+                <xsl:if test="tei:pb">
+                    <xsl:apply-templates select="tei:pb"/>
+                </xsl:if>
+                <strong>Illustration </strong>
+                <xsl:value-of select="tei:desc"/>
+            </p>
+            <xsl:if test="tei:head | tei:p">
+                <p class="editorial">
+                    <strong>Tekst </strong>
+                </p>
+                <xsl:choose>
+                    <xsl:when test="tei:head">
+                        <xsl:apply-templates select="tei:head"/>
+                    </xsl:when>
+                    <xsl:when test="tei:p">
+                        <xsl:apply-templates select="tei:p"/>
+                    </xsl:when>
+                </xsl:choose>
+            </xsl:if>
+        </div>
     </xsl:template>
 </xsl:stylesheet>

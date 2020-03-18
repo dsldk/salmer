@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="2.0">
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
         <xd:desc>
@@ -19,25 +18,6 @@
             <xd:copyright>2010, Society for Danish Language and Literature</xd:copyright>
         </xd:desc>
     </xd:doc>
-    <xsl:template match="tei:head">
-        <xsl:choose>
-            <xsl:when test="@type = 'original'">
-                <h2>
-                    <xsl:apply-templates/>
-                </h2>
-            </xsl:when>
-            <xsl:when test="@type = 'sub'">
-                <h4 class="prose-center">
-                    <xsl:apply-templates/>
-                </h4>
-            </xsl:when>
-            <xsl:otherwise>
-                <h2>
-                    <xsl:apply-templates/>
-                </h2>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
     <!-- Level 1 head -->
     <xsl:template match="tei:front/tei:div/tei:head | tei:body/tei:div/tei:head | tei:back/tei:div/tei:head">
         <xsl:choose>
@@ -56,11 +36,22 @@
                     <xsl:apply-templates/>
                 </h1>
             </xsl:when>
-            <xsl:otherwise>
-                <h2>
+            <xsl:when test="not(@type)">
+                <h1>
                     <xsl:apply-templates/>
-                </h2>
-            </xsl:otherwise>
+                </h1>
+            </xsl:when>
+            <xsl:when test="tei:orig">
+                <h1>
+                    <xsl:apply-templates/>
+                </h1>
+            </xsl:when>
+            <xsl:when test="tei:reg"/>
+	    <!--<xsl:otherwise>
+                <h1>
+                    <xsl:apply-templates/>
+                </h1>
+	    </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <!-- Level 2 head -->
@@ -81,11 +72,21 @@
                     <xsl:apply-templates/>
                 </h2>
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="not(@type)">
                 <h2>
                     <xsl:apply-templates/>
                 </h2>
-            </xsl:otherwise>
+            </xsl:when>
+            <xsl:when test="tei:orig">
+                <h2>
+                    <xsl:apply-templates/>
+                </h2>
+            </xsl:when>
+	    <!--<xsl:otherwise>
+                <h2>
+                    <xsl:apply-templates/>
+                </h2>
+	    </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <!-- Level 3 head -->
@@ -101,11 +102,21 @@
                     <xsl:apply-templates/>
                 </h3>
             </xsl:when>
-            <xsl:otherwise>
+            <xsl:when test="not(@type)">
                 <h3>
                     <xsl:apply-templates/>
                 </h3>
-            </xsl:otherwise>
+            </xsl:when>
+            <xsl:when test="tei:orig">
+                <h3>
+                    <xsl:apply-templates/>
+                </h3>
+            </xsl:when>
+	    <!--<xsl:otherwise>
+                <h3>
+                    <xsl:apply-templates/>
+                </h3>
+	    </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <!-- Level 4 head -->
@@ -117,6 +128,16 @@
 		</h4>-->
             </xsl:when>
             <xsl:when test="@type = 'original'">
+                <h4>
+                    <xsl:apply-templates/>
+                </h4>
+            </xsl:when>
+            <xsl:when test="not(@type)">
+                <h4>
+                    <xsl:apply-templates/>
+                </h4>
+            </xsl:when>
+            <xsl:when test="tei:orig">
                 <h4>
                     <xsl:apply-templates/>
                 </h4>
@@ -137,9 +158,19 @@
 		</h4>-->
             </xsl:when>
             <xsl:when test="@type = 'original'">
-                <h4>
+                <h5>
                     <xsl:apply-templates/>
-                </h4>
+                </h5>
+            </xsl:when>
+            <xsl:when test="not(@type)">
+                <h5>
+                    <xsl:apply-templates/>
+                </h5>
+            </xsl:when>
+            <xsl:when test="tei:orig">
+                <h5>
+                    <xsl:apply-templates/>
+                </h5>
             </xsl:when>
 	    <!--<xsl:otherwise>
                 <h4>

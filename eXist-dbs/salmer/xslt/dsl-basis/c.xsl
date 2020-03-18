@@ -18,11 +18,7 @@
             <xd:copyright>2010, Society for Danish Language and Literature</xd:copyright>
         </xd:desc>
     </xd:doc>
-    <!--  -->
-    <xsl:template match="tei:handDesc[tei:handNote/tei:ab/text()!='empty']">
-        <li>
-            <xsl:text>Skrift: </xsl:text>
-            <xsl:apply-templates select="tei:handNote/tei:ab/node()"/>
-        </li>
+    <xsl:template match="tei:c">
+        <xsl:apply-templates/>
     </xsl:template>
 </xsl:stylesheet>

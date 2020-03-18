@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="2.0">
     <xsl:include href="ab.xsl"/>
     <xsl:include href="abstract.xsl"/>
@@ -27,6 +26,7 @@
     <xsl:include href="epigraph.xsl"/>
     <xsl:include href="ex.xsl"/>
     <xsl:include href="extent.xsl"/>
+    <xsl:include href="figure.xsl"/>
     <xsl:include href="front.xsl"/>
     <xsl:include href="gap.xsl"/>
     <xsl:include href="handDesc.xsl"/>
@@ -48,6 +48,7 @@
     <xsl:include href="msIdentifier.xsl"/>
     <xsl:include href="note.xsl"/>
     <xsl:include href="objectDesc.xsl"/>
+    <xsl:include href="orig.xsl"/>
     <xsl:include href="p.xsl"/>
     <xsl:include href="pb.xsl"/>
     <xsl:include href="persName.xsl"/>
@@ -57,6 +58,7 @@
     <xsl:include href="projectDesc.xsl"/>
     <xsl:include href="q.xsl"/>
     <xsl:include href="ref.xsl"/>
+    <xsl:include href="reg.xsl"/>
     <xsl:include href="samplingDecl.xsl"/>
     <xsl:include href="sealDesc.xsl"/>
     <xsl:include href="signed.xsl"/>
@@ -226,7 +228,16 @@
                                             </strong>
                                             finansieret af <xsl:value-of select="tei:teiHeader//tei:titleStmt/tei:funder"/>
                                         </p>
-                                        <p> Redaktør: <xsl:value-of select="tei:teiHeader//tei:editor/tei:name/@xml:id"/>
+                                        <p> Redaktør: 
+                                            <xsl:for-each select="tei:teiHeader//tei:titleStmt/tei:editor">
+                                                <xsl:value-of select="tei:name//tei:forename"/>
+                                                <xsl:text> </xsl:text>
+                                                <xsl:value-of select="tei:name//tei:surname"/>
+                                                <xsl:if test="position() != last()">, </xsl:if>
+                                                <xsl:if test="position() = last() and child::node() != 'empty'">. </xsl:if>
+                                            </xsl:for-each><!--<xsl:value-of
+                                                select="tei:teiHeader//tei:editor/tei:name/@xml:id"
+                                            />-->
                                         </p>
                                         <p> Dokumentets historik: </p>
                                     </div>
@@ -239,35 +250,35 @@
                                     <div>
                                         <xsl:apply-templates select="tei:teiHeader/tei:fileDesc/tei:sourceDesc"/>
                                     </div>
-                                    <div class="text-container">
-                                        <xsl:apply-templates select="tei:text"/>
+                                </div>
+                                <div class="text-container">
+                                    <xsl:apply-templates select="tei:text"/>
+                                </div>
+                                <xsl:if test="//tei:note">
+                                    <div>
+                                        <h2>Fodnoter</h2>
+                                        <xsl:apply-templates select="//tei:note[@place = 'bottom']" mode="footnoteApparatus"/>
                                     </div>
-                                    <xsl:if test="//tei:note">
-                                        <div>
-                                            <h2>Fodnoter</h2>
-                                            <xsl:apply-templates select="//tei:note[@place = 'bottom']" mode="footnoteApparatus"/>
-                                        </div>
-                                    </xsl:if>
-                                    <xsl:if test="//tei:app">
-                                        <div>
-                                            <h2>Kritisk apparat</h2>
-                                            <xsl:apply-templates select="//tei:app" mode="apparatusCriticus"/>
-                                        </div>
-                                    </xsl:if>
-                                    <xsl:if test="//tei:cit">
-                                        <div>
-                                            <h2>Citater</h2>
-                                            <xsl:apply-templates select="//tei:cit" mode="quotationApparatus"/>
-                                        </div>
-                                    </xsl:if>
+                                </xsl:if>
+                                <xsl:if test="//tei:app">
+                                    <div>
+                                        <h2>Kritisk apparat</h2>
+                                        <xsl:apply-templates select="//tei:app" mode="apparatusCriticus"/>
+                                    </div>
+                                </xsl:if>
+                                <xsl:if test="//tei:cit">
+                                    <div>
+                                        <h2>Citater</h2>
+                                        <xsl:apply-templates select="//tei:cit" mode="quotationApparatus"/>
+                                    </div>
+                                </xsl:if>
 
-                                    <!--<xsl:if test="//tei:note[@type='add']">
+                                <!--<xsl:if test="//tei:note[@type='add']">
                     <div>
                         <h3>Kommentarer</h3>
                         <xsl:apply-templates select="//tei:note[@type='add']"/>
                     </div>
                 </xsl:if>-->
-                                </div>
                             </div>
                         </div>
                     </div>

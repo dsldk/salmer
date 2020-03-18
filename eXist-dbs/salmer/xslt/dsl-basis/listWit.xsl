@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="2.0">
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
         <xd:desc>
@@ -20,13 +19,27 @@
         </xd:desc>
     </xd:doc>
     <xsl:template match="tei:listWit">
-        <strong>Tekstvidner: </strong>
-        <ol>
-            <xsl:for-each select="tei:witness">
-                <li>
-                    <xsl:apply-templates select="."/>
-                </li>
-            </xsl:for-each>
-        </ol>
+        <xsl:choose>
+            <xsl:when test="count(//tei:witness) gt 1">
+                <strong>Tekstvidner: </strong>
+                <ul style="list-style: none;">
+                    <xsl:for-each select="tei:witness">
+                        <li>
+                            <xsl:apply-templates select="."/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:when>
+            <xsl:otherwise>
+                <strong>Tekstvidne: </strong>
+                <ul style="list-style: none;">
+                    <xsl:for-each select="tei:witness">
+                        <li>
+                            <xsl:apply-templates select="."/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>
