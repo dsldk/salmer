@@ -8,7 +8,6 @@ let $comma_space_author := concat(", ", $author)
 let $title := doc(concat("/db/apps/salmer/xml/", $id))/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title/text()
 return 
     if ($author = 'empty' or empty($author)) then
-       <div>{$title}</div>
+       <div></div>
     else
-       (:<div>{$title, $comma_space_author}</div>:)
-       <div>{$title}</div>
+       <div>af {$author}</div>

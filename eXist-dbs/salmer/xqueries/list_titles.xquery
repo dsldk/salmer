@@ -7,10 +7,10 @@ declare option exist:serialize "method=json media-type=text/javascript";
 <results> {
 for $opslag in collection("/db/apps/salmer/xml")/tei:TEI          
     let $path := util:document-name($opslag)
-    order by $opslag//tei:title
+    order by $opslag//tei:titleStmt/tei:title[1]
     return    
     <result> 
         <path>{$path}</path>
-        <id>{$opslag//tei:title/text()} <!--({$opslag//tei:sourceDesc//tei:idno/text()})--></id>
+        <id>{$opslag//tei:titleStmt/tei:title[1]/text()} <!--({$opslag//tei:sourceDesc//tei:idno/text()})--></id>
     </result>
     }</results>

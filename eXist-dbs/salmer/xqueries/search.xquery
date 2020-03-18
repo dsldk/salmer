@@ -21,40 +21,45 @@ let $categories := request:get-parameter('category', '')
 let $languages := request:get-parameter('language', '')
 let $from  := request:get-parameter('from', '0000-00-00')
 let $to  := request:get-parameter('to', '9999-00-00')
+let $projects := request:get-parameter('project', '')
 let $documents := collection($data-collection)/tei:TEI
 let $search_options := <options><default-operator>and</default-operator></options>
 
 
-let $query-results := for $document in $documents                      
-                      let $text_matches := if ($q='') then $document 
+let $query-results := for $document in $documents   
+                      let $text_matches := if ($q='') then $document
                          else $document//tei:div[ft:query(., $q, $search_options)]
                       let $summary_matches := $document//tei:summary[functx:contains-case-insensitive(.,$q)]                      
                       let $place_matches := $document//tei:placeName[functx:contains-case-insensitive(.,$q)]
-                      where ($text_matches or $summary_matches or $place_matches)             
+                      where ($text_matches or $summary_matches or $place_matches)
                       return $document                                          
 
 let $query-results-possibly-all := if ($q='') then $documents else $query-results
 
-let $category-results := if ($categories[1]) then
+let $category-results := if ($categories) then
                          for $document in $query-results-possibly-all
-                             for $category in $categories                         
-                                 where  $document/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:term/text() = $category                                                   
+                             for $category in $categories
+                                 where   $category = $document/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:term/text()
                           return $document
                          else $query-results
 
-let $language-results := if ($languages[1]) then
+let $language-results := if ($languages) then
                               for $document in $category-results
-                                  for $language in $languages                            
-                                      where  $document/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident = $language                        
+                                  for $language in $languages
+                                      where $language = $document/tei:teiHeader/tei:profileDesc/tei:langUsage/tei:language/@ident
                                   return $document
                          else $category-results
 
-let $search-results := if (empty($language-results))
-                       then collection($data-collection)/tei:TEI[functx:contains-case-insensitive(.,$q)]                           
-                       else $language-results
+let $project-results := if ($projects) then
+                              for $document in $language-results
+                                  for $project in $projects
+                                    where $project = $document/tei:teiHeader//tei:encodingDesc/tei:projectDesc/tei:ab/text()
+                                  return $document
+                         else $language-results
 
-
-
+let $search-results := if (empty($project-results))
+                       then collection($data-collection)/tei:TEI[functx:contains-case-insensitive(.,$q)]
+                       else $project-results
    
 let $count := count($search-results)
 
@@ -86,16 +91,19 @@ return
                         let $date_not_before := string($doc//tei:teiHeader/tei:profileDesc/tei:creation/tei:date/@notBefore)
                         let $date_not_after := string($doc//tei:teiHeader/tei:profileDesc/tei:creation/tei:date/@notAfter)
                         let $date_when := string($doc//tei:teiHeader/tei:profileDesc/tei:creation/tei:date/@when)                        
-                        let $place := $doc//tei:teiHeader/tei:profileDesc//tei:placeName/text()
-                        let $summary := $doc/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listWit/tei:witness[1]/tei:msDesc/tei:msContents/tei:summary/text()
+                        let $place := $doc//tei:teiHeader/tei:profileDesc//tei:placeName/text()                       
+                        let $summary := $doc/tei:teiHeader/tei:profileDesc//tei:abstract/tei:ab/text()
                         let $category := $doc/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:term
                         let $language := $doc/tei:teiHeader/tei:profileDesc//tei:language
-                        let $title := $doc//tei:title/text()
-                        order by $id                      
+                        let $title := $doc//tei:titleStmt/tei:title/text()
+                        let $author := $doc//tei:titleStmt/tei:author/text()
+                        let $project := $doc/tei:teiHeader//tei:encodingDesc/tei:projectDesc/tei:ab/text()
+                        order by $title
                      return if (contains($id,'.xml')) then
                         <result_list>
                             <id>{$id}</id>
                             <title>{$title}</title>
+                            <author>{$author}</author>
                             <chapter></chapter>
                             <section></section>
                             <summary>{$summary}</summary>
@@ -106,12 +114,9 @@ return
                             <date_not_after>{$date_not_after}</date_not_after>
                             <category>{$category}</category>
                             <language>{$language}</language>
+                            <project>{$project}</project>
                             <kwic>{kwic:summarize($doc, <config width="140"/>)}</kwic>
                         </result_list> 
                         else <result_list>Not xml file</result_list>
                         
             }</results>
-
-
-
-

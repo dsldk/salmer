@@ -1,6 +1,3 @@
-xquery version "1.0";
-
-import module namespace request="http://exist-db.org/xquery/request";
 import module namespace transform="http://exist-db.org/xquery/transform";
 import module namespace ft="http://exist-db.org/xquery/lucene";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
@@ -19,13 +16,21 @@ let $selection := if ($chapter_name = 'metadata')
                   else if ($chapter_name = 'titelblad')
                   then $xmldoc//tei:front/tei:titlePage
                   else if ($chapter_name = 'forord')                
-                  then $xmldoc//tei:front//tei:div[@type="preface"]              
+                  then $xmldoc//tei:front//tei:div[@type="preface"]             
                   else if ($chapter_name = 'dedikation')
                   then $xmldoc//tei:front/tei:div[@type="dedication"]
                   else if ($chapter_name = 'motto')
                   then $xmldoc//tei:front/tei:epigraph
                   else if ($chapter_name = 'indholdsfortegnelse')
-                  then $xmldoc//tei:front/tei:div[@type="toc"]                  
+                  then $xmldoc//tei:front/tei:div[@type="toc"]
+                  
+                  (: Add support for calendar section :)
+                  else if ($chapter_name = 'calendar')
+                  then $xmldoc//tei:front/tei:div[@type='calendar']
+                  
+                  (: To get the whole front matter chunk :)
+                  else if ($chapter_name = 'front')
+                  then $xmldoc//tei:front
                   else $xmldoc//tei:body/tei:div[$chapter]
 
 return if ($section = 0 and $selection[tei:lg])
@@ -54,5 +59,3 @@ return if ($section = 0 and $selection[tei:lg])
     	                    else
     	                    <results>{transform:transform($selection, $stylesheet, <parameters></parameters>)}</results>
                        else <results>{transform:transform($selection, $stylesheet, <parameters></parameters>)}</results>
-                       
-                       

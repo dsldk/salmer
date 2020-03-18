@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="2.0">
     <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
         <xd:desc>
@@ -21,13 +20,31 @@
     </xd:doc>
     <xsl:template match="tei:pb">
         <span class="legacy-page-break">
-            <span class="page-break-mark" id="{@n}">|<xsl:value-of select="@n"/>|</span>
-            <!--This section was used for<span class="page-break-value">             
-                <xsl:attribute name="id">
-                    <xsl:value-of select="@n"/>
-                </xsl:attribute>
-                <xsl:value-of select="@ed"/><xsl:value-of select="@n"/>
-            </span>-->
+            <span class="page-break-mark">|</span>
+            <span class="page-break-value">
+                <xsl:element name="span">
+                    <xsl:attribute name="class">facsimile-reference</xsl:attribute>
+                    <xsl:attribute name="id">facsimile-reference<xsl:value-of select="@n"/>
+                    </xsl:attribute>
+                    <xsl:element name="a">
+                        <xsl:attribute name="class">facsimile-link</xsl:attribute>
+                        <xsl:value-of select="@n"/>
+                    </xsl:element>
+                </xsl:element>
+                <xsl:element name="span">
+                    <xsl:attribute name="style">display:none;</xsl:attribute>
+                    <xsl:attribute name="class">facsimile-image</xsl:attribute>
+                    <xsl:attribute name="id">
+                        <xsl:value-of select="@n"/>
+                    </xsl:attribute>
+                    <a>
+                        <xsl:attribute name="href">/faksimile/document_id_placeholder/<xsl:value-of select="@n"/>.jpg</xsl:attribute>
+                        <xsl:element name="img">
+                            <xsl:attribute name="src">/faksimile/document_id_placeholder/<xsl:value-of select="@n"/>_small.jpg</xsl:attribute>
+                        </xsl:element>
+                    </a>
+                </xsl:element>
+            </span>
         </span>
     </xsl:template>
 </xsl:stylesheet>

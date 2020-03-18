@@ -7,7 +7,7 @@ let $authors := distinct-values(collection("/db/apps/salmer/xml")/tei:TEI//tei:a
 return
 
 <results> {
-for $author in  $authors
+for $author in $authors
     let $titles := collection("/db/apps/salmer/xml")//tei:titleStmt[tei:author=$author]/tei:title
     order by $author
     return               

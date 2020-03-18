@@ -11,24 +11,15 @@ let $query	:= "test"
 let $query	:= request:get-parameter('id','')
 let $chapter := xs:integer(request:get-parameter('chapter',''))	
 let $section := xs:integer(request:get-parameter('section','0'))
-let $chapter_name := request:get-parameter('chapter_name','')
 
 return
 	let $xmldoc := doc(concat("/db/apps/salmer/xml/", $query))
-	let $pbs := 
-	   if ($chapter_name = 'titelblad')
-       then $xmldoc//tei:front/tei:titlePage//tei:pb
-       else if ($chapter_name = 'forord')                
-       then $xmldoc//tei:front/tei:div[@type="preface"]//tei:pb
-       else if ($chapter_name = 'dedikation')
-       then $xmldoc//tei:front/tei:div[@type="dedication"]//tei:pb
-       else if ($chapter_name = 'motto')
-       then $xmldoc//tei:front/tei:epigraph//tei:pb
-	   else if ($section = 0) then		
-	      $xmldoc/tei:TEI/tei:text/tei:body/tei:div[$chapter]//tei:pb	 
-	   else
-	      $xmldoc/tei:TEI/tei:text/tei:body/tei:div[$chapter]//tei:div[$section]//tei:pb
-	      
-	return <pbs>{for $pb in $pbs return <page_no>{$pb/@n}</page_no>}</pbs>
+	return if ($section = 0) then		
+	   let $pbs := $xmldoc/tei:TEI/tei:text/tei:body/tei:div[$chapter]//tei:pb
+	   return <pbs> {for $pb in $pbs return <page_no>{$pb/@n}{$pb/@ana}</page_no>   } </pbs>
+	 
+	 else
+	 let $pbs := $xmldoc/tei:TEI/tei:text/tei:body/tei:div[$chapter]/tei:div[$section]//tei:pb
+	   return <pbs> {for $pb in $pbs return <page_no>{$pb/@n}{$pb/@ana}</page_no> } </pbs>
 	 
 	 
