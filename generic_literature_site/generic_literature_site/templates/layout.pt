@@ -34,6 +34,22 @@
 		<script src="/static/popups.js"></script>
     <script src="/static/javascript.js"></script>
 		<script src="/static/lookup.js"></script>
+
+    <!-- Musical notes -->
+        <script type="text/javascript" src="https://salmer.dsl.dk/js/libs/verovio/2.0.2-95c61b2/verovio-toolkit.js"> </script>
+	 <script type="text/javascript" src="https://salmer.dsl.dk/js/MeiAjax.js"> </script>
+         <!-- MIDI -->
+         <!--
+            Please note: the sound data file corresponding to the MIDI js library below (for instance, "074_recorder.data" or "wildwebmidi.data")
+            must be placed in the same directory as the file generating the HTML or otherwise immediately visible to it (via PATH settings or the like).
+         -->
+         <script type="text/javascript" src="https://salmer.dsl.dk/js/libs/wildwebmidi/074_recorder.js"><!-- MIDI library --></script>
+         <!--<script type="text/javascript" src="{$mei_js_base}wildwebmidi.js"> standard MIDI library (piano sound) </script>-->
+        <script type="text/javascript" src="https://salmer.dsl.dk/js/midiplayer.js"><!-- MIDI player --></script>
+        <script type="text/javascript" src="https://salmer.dsl.dk/js/midiLib.js"><!-- Custom MIDI library --></script>
+
+        <!-- SVG CSS styling -->
+        <link rel="stylesheet" type="text/css" href="https://salmer.dsl.dk/style/mei.css"/>
 </head>
 
 <body>
