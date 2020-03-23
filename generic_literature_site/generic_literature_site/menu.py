@@ -65,7 +65,6 @@ def make_listings_for_menu(xquery_folder, document_id):
     try:
         titles_json = loads(titles_text)
     except Exception:
-        print(titles_text)
         titles_json = {"result": []}
     url_and_titles = titles_json.get("result")
     id_of_title = {}
