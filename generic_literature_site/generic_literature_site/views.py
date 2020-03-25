@@ -1236,6 +1236,26 @@ def format_kwic_lines(i):
     return kwic_lines
 
 
+def order_by_id(results):
+
+    document_id_dict = {}
+    for result in results:
+        document_id = result["id"]
+        list_of_results = document_id_dict.get(document_id)
+        if list_of_results is None:
+            list_of_results = []
+        if result not in list_of_results:
+            list_of_results.append(result)
+        document_id_dict[document_id] = list_of_results
+
+    ordered_dict = collections.OrderedDict(
+        sorted(document_id_dict.items(), key=lambda t: t[0])
+    )
+
+    return ordered_dict
+
+
+
 def process_search_results(search_result):
     results = []
     if search_result:
@@ -1301,7 +1321,7 @@ def process_search_results(search_result):
                     "kwic": kwic_lines,
                 }
             )
-        # results = order_by_id(results)
+        results = order_by_id(results)
     return results
 
 
