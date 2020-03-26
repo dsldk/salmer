@@ -946,7 +946,8 @@ def register_view(request):
 
     notes = get_notes(register_type, first_letter)
     register_items = []
-    mem_cache = memcache.Client(["127.0.0.1:11211"], debug=0)
+    mem_cache = memcache.Client(["127.0.0.1:11211"], debug=0,
+            server_max_value_length=1024*1024*16)
     for register_item in notes:
         # Maybe we got references for this item in the cache.
         mc_key = (register_type + register_item.uid).replace(" ", "")
@@ -1129,8 +1130,13 @@ def search_results_view(request):
         language_argument,
     )
 
-    if word and word.lower() not in Stopwords.stopwords():
+    mem_cache = memcache.Client(["127.0.0.1:11211"], debug=0)
+    cached_document = mem_cache.get(xquery)
+    if cached_document:
+        document = cached_document
+    elif word and word.lower() not in Stopwords.stopwords():
         document = execute_xquery(request, xquery)
+        mem_cache.set(xquery, document, time=86400)
     else:
         document = {"no_of_results": 0, "result_list": []}
 
@@ -1160,7 +1166,7 @@ def search_results_view(request):
 
     no_of_results = len(results)
 
-    return {
+    result_dict = {
         "layout": site_layout(),
         "title": "Søgeresultat",
         "title_of_current_document": "Søgeresultat",
@@ -1182,6 +1188,8 @@ def search_results_view(request):
         "url_without_results_per_page_argument": url_without_results_per_page_argument,
         "words_for_link": search_string,
     }
+
+    return result_dict
 
 
 def format_kwic_lines(i):
@@ -1205,7 +1213,7 @@ def format_kwic_lines(i):
         html = "<span>"
         skip = False
         for part in sentence:
-            text = part.get("#text")
+            text = part.get("#text", "")
             if part.get("class") == "hi":
                 link = '<a href="/%s/%s/%s?q=%s%s">%s</a>' % (
                     i["id"],
@@ -1219,6 +1227,7 @@ def format_kwic_lines(i):
                 highlighted_text = text
             else:
                 text = re.sub("<[^<]+?>", "", text)
+
                 if text.lower().strip().endswith(
                     i["q"]
                 ) or text.lower().strip().startswith(i["q"]):
