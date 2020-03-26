@@ -1,0 +1,21 @@
+.mei-wrapper {
+  position:relative;
+}
+.mei_options {
+  margin:10px 0 0 !important;
+  position:absolute;
+  top:0;
+  right:0;
+}
+.mei_menu_container {
+  margin:0!important;
+  // transform:translate(-100%, 0);
+  position:static!important;
+  .menu_icon_container {
+    text-align:right;
+  }
+}
+.mei {
+  margin-right:1rem !important;
+  width:auto!important;
+}

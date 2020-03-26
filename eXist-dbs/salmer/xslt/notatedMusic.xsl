@@ -18,7 +18,7 @@
             <xd:copyright>2019, Society for Danish Language and Literature</xd:copyright>
         </xd:desc>
     </xd:doc>
-    
+
     <xsl:template match="tei:notatedMusic">
         <!-- Læse filer fra salmeserveren: -->
         <!--<xsl:variable name="mei_base" select="'http://salmer.dsl.dk/data/'"/>-->
@@ -46,13 +46,13 @@
                 </xsl:choose>
             </xsl:variable>
             <xsl:variable name="id">
-                <xsl:value-of select="substring-before($file,'.xml')"/> 
+                <xsl:value-of select="substring-before($file,'.xml')"/>
                 <xsl:if test="contains(tei:ptr/@target,'#')">
                     <xsl:text>MDIV</xsl:text>
                     <xsl:value-of select="substring-after(tei:ptr/@target,'#')"/>
                 </xsl:if>
             </xsl:variable>
-            <div>
+            <div class="mei-wrapper">
                 <xsl:choose>
                     <xsl:when test="doc-available(concat($mei_base,$mei_dir,$file))">
                         <div id="{$id}" class="mei">
@@ -63,7 +63,7 @@
                         </div>
                     </xsl:when>
                     <xsl:otherwise>
-                        <div style="border: 1px solid black"> 
+                        <div style="border: 1px solid black">
                             <small>
                                 <xsl:value-of select="concat($mei_base,$mei_dir,$file)"/> not found</small>
                         </div>
@@ -72,38 +72,38 @@
             </div>
         </xsl:if>
     </xsl:template>
-    
+
     <xsl:template name="notatedMusic_head">
         <!-- Include additional header elements if the TEI file contains notated music. -->
         <xsl:if test="//tei:notatedMusic">
-            
+
             <!-- TO DO: Change relative paths to whatever is the right place... -->
             <xsl:variable name="mei_js_base" select="'http://salmer.dsl.dk/js/'"/>
             <xsl:variable name="mei_css_base" select="'http://salmer.dsl.dk/style/'"/>
-            
+
             <!-- External JS libraries -->
             <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"/>
             <!-- Note highlighting only works with jQuery 3+ -->
             <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.min.js"><!-- jquery --></script>
             <script type="text/javascript" src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"><!-- jquery UI --></script>
-            
+
             <!-- Local JS libraries -->
             <script type="text/javascript" src="{$mei_js_base}libs/verovio/2.0.2-95c61b2/verovio-toolkit.js"> </script>
             <script type="text/javascript" src="{$mei_js_base}MeiAjax.js"> </script>
-            <!-- MIDI -->        
-            <!-- 
+            <!-- MIDI -->
+            <!--
                 Please note: the sound data file corresponding to the MIDI js library below (for instance, "074_recorder.data" or "wildwebmidi.data")
-                must be placed in the same directory as the file generating the HTML or otherwise immediately visible to it (via PATH settings or the like). 
+                must be placed in the same directory as the file generating the HTML or otherwise immediately visible to it (via PATH settings or the like).
             -->
             <script type="text/javascript" src="{$mei_js_base}libs/wildwebmidi/074_recorder.js"><!-- MIDI library --></script>
             <!--<script type="text/javascript" src="{$mei_js_base}wildwebmidi.js"> standard MIDI library (piano sound) </script>-->
             <script type="text/javascript" src="{$mei_js_base}midiplayer.js"><!-- MIDI player --></script>
             <script type="text/javascript" src="{$mei_js_base}midiLib.js"><!-- Custom MIDI library --></script>
-            
+
             <!-- SVG CSS styling -->
             <link rel="stylesheet" type="text/css" href="{$mei_css_base}mei.css"/>
-            
+
         </xsl:if>
     </xsl:template>
-    
+
 </xsl:stylesheet>
