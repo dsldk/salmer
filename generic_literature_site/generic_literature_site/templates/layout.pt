@@ -36,7 +36,7 @@
 		<script src="/static/lookup.js"></script>
 
     <!-- Musical notes -->
-        <script type="text/javascript" src="https://salmer.dsl.dk/js/libs/verovio/2.0.2-95c61b2/verovio-toolkit.js"> </script>
+        <script type="text/javascript" src="https://salmer.dsl.dk/js/libs/verovio/verovio-toolkit.js"> </script>
 	 <script type="text/javascript" src="https://salmer.dsl.dk/js/MeiAjax.js"> </script>
          <!-- MIDI -->
          <!--
