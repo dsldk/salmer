@@ -1121,6 +1121,8 @@ def search_results_view(request):
     categories_as_text = category_arguments.get("categories_as_text")
     word = search_string
 
+    document_ids = request.GET.getall('document_id')
+
     xquery = "kwic_search.xquery?q=%s&%s%s" % (
         word,
         category_argument,
@@ -1136,7 +1138,7 @@ def search_results_view(request):
         raise "This should never ever happen!!!"
     search_result = listify(document.get("result_list") or [])
 
-    results = process_search_results(search_result)
+    results = process_search_results(search_result, document_ids)
     no_of_results = len(results)
     page = 1
     paginator = Paginator(total=len(results), by=results_per_page)
@@ -1256,7 +1258,7 @@ def order_by_id(results):
 
 
 
-def process_search_results(search_result):
+def process_search_results(search_result, document_ids):
     results = []
     if search_result:
         for i in listify(search_result):
@@ -1270,6 +1272,8 @@ def process_search_results(search_result):
             summary = "".join(summary)
             id_with_xml = i.get("id")
             document_id = id_with_xml.replace(".xml", "")
+            if document_ids and not document_id in document_ids:
+                continue
 
             document_languages_json = []
             if i.get("language") is not None:
