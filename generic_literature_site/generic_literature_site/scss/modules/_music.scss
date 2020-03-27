@@ -9,8 +9,14 @@
 }
 .mei_menu_container {
   margin:0!important;
-  // transform:translate(-100%, 0);
   position:static!important;
+  &, * {
+    color:black!important; // override bootstrap
+    font-size:14px!important; // override bootstrap
+  }
+  .label { // override bootstrap
+    padding:0!important;
+  }
   .menu_icon_container {
     text-align:right;
   }
