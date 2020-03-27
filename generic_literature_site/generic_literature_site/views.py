@@ -771,6 +771,20 @@ def smn_view(request):
     def get_location(chapter_no):
         return "/%s/%s" % (arguments.get("id"), chapter_no)
 
+
+    def get_prefix(chapter):
+        prefix = ''
+        # chapter.no is x/y for chapter/section, i.e. sections
+        # will contain a slash. Use this to distinguish from chapters,
+        # and indent the section
+        if ('/' in str(chapter['no'])):
+            prefix += '&nbsp;&nbsp;&nbsp;'
+        # chapters such as "titelblad" will have a property "header_no"
+        # with a value of 0
+        if (not 'header_no' in chapter or not chapter['header_no'] == 0):
+            prefix += str(chapter['no']).replace('/', '.') + ': '
+        return prefix
+
     return {
         "layout": site_layout(),
         "page_title": "Home",
@@ -815,6 +829,7 @@ def smn_view(request):
         "previous_section": _("Forrige afsnit"),
         "no_title": _("(uden titel)"),
         "get_location": get_location,
+        "get_prefix": get_prefix
     }
 
 

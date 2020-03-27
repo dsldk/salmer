@@ -4,9 +4,11 @@
             <tal metal:use-macro='load:previous_icon.pt'></tal>
             <select class="chapter-dropdown select-css" name="chapter">
                 <tal:loop repeat="i chapters_of_document">
-                    <option name="chapter" value="${i.no}" data-ajax-url="${get_location(i.no)}"
+                    <option name="chapter"
+                        value="${i.no}"
+                        data-ajax-url="${get_location(i.no)}"
                         selected="${str(i.no)==str(current_section_and_chapter) and 'selected'}"
-                        > ${i.name}
+                    >${structure: get_prefix(i)}${i.name}
                     </option>
                 </tal:loop>
             </select>

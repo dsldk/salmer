@@ -1,4 +1,7 @@
 .select-css {
   border-radius:0;
   padding: 0.4em 1.4em .25em .8em;
+  option[selected] {
+    font-weight:bold;
+  }
 }
