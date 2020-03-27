@@ -67,6 +67,17 @@
   line-height:1.35;
   font-size:1.4em;
   font-family:"Cormorant", serif;
+  table, th, td {
+    border: 1px solid gray;
+    border-spacing: 0;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    // width: 100%;
+    overflow: auto;
+  }
+  th, td {
+    padding: .5em;
+  }
 }
 .nextPreviousbox {
   margin-top:2em;
