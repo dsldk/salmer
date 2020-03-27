@@ -374,6 +374,10 @@ $(function(){
 		$(wrapperSelector).html(result)
 		activateNotesInLeftColumn(); // generate new popups as these new ones weren't ready when we initialized the page
 		activateNotesInRightColumn();
+
+    if (wrapperSelector === '.chapter-box') {
+      initMusic(); // call initMusic from MeiAjax.js
+    }
 	}
 
 	// event handler for pagination in left-hand text
