@@ -2,8 +2,8 @@
   <div class="row header-wrapper">
     <div class="header__logo">
       <a class="header__site-name" href="/front-page">
-        <h1>Project title</h1>
-        <p i18n:translate="">Subtitle</p>
+        <h1 i18n:translate="">Danske reformationssalmer</h1>
+        <p i18n:translate="">Melodier og tekster 1529-1573</p>
       </a>
     </div>
     <input type="checkbox" id="header__menu-toggle"><label for="header__menu-toggle"><span class="sr-only" i18n:translate="">Vis/skjul menu</span></label>
