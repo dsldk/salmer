@@ -6,6 +6,7 @@
 .chapter-dropdown {
   margin:0 1em;
 }
+
 .chapter-selector,
 .language-selector,
 .meta-selector {
@@ -15,6 +16,10 @@
   select {
     flex: 1 1 0px;
   }
+}
+
+.theActualDocument + .chapter-selector-wrapper .chapter-selector {
+  margin: 2em 0 0;
 }
 
 .chapter-selector {
