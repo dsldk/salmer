@@ -1156,7 +1156,7 @@ def search_results_view(request):
         document = {"no_of_results": 0, "result_list": []}
 
     if isinstance(document, bytes):
-        raise "This should never ever happen!!!"
+        raise RuntimeError("This should never ever happen!!!")
     search_result = listify(document.get("result_list") or [])
 
     results = process_search_results(search_result, document_ids)
@@ -1338,11 +1338,11 @@ def process_search_results(search_result, document_ids):
             kwic_lines = format_kwic_lines(i)
             results.append(
                 {
-                    "id": document_id,
-                    "title": chapter_title,
                     "page_no": i["page_no"],
                     "chapter_no": i["chapter_no"],
                     "section_no": i["section_no"],
+                    "id": document_id,
+                    "title": chapter_title,
                     "summary": summary,
                     "languages": document_languages,
                     "category": category,
