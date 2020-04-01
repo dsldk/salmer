@@ -72,13 +72,14 @@ span.caption {
     font-weight:normal;
     color: #999;
 }
-.page-break-value{
+/* .page-break-value{
     font-size: 12px;
     left:-30px;
     position: absolute;
     width: 29px;
     color: #999;
 }
+*/
 
 /*This places the text-and-note container in relative position to ??*/
 .text-and-note {

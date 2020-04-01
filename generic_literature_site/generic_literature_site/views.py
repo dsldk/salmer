@@ -1146,12 +1146,13 @@ def search_results_view(request):
     )
 
     mem_cache = memcache.Client(["127.0.0.1:11211"], debug=0)
-    cached_document = mem_cache.get(xquery)
+    mc_key = xquery.replace(" ", "")
+    cached_document = mem_cache.get(mc_key)
     if cached_document:
         document = cached_document
     elif word and word.lower() not in Stopwords.stopwords():
         document = execute_xquery(request, xquery)
-        mem_cache.set(xquery, document, time=86400)
+        mem_cache.set(mc_key, document, time=86400)
     else:
         document = {"no_of_results": 0, "result_list": []}
 
