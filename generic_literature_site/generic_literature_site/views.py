@@ -19,8 +19,9 @@ import functools
 import re
 import logging
 import collections
+import zlib
 
-from json import loads
+from json import loads, dumps
 
 from urllib3 import HTTPConnectionPool
 
@@ -1149,10 +1150,12 @@ def search_results_view(request):
     mc_key = xquery.replace(" ", "")
     cached_document = mem_cache.get(mc_key)
     if cached_document:
-        document = cached_document
+        document = zlib.decompress(cached_document).decode()
+        document = loads(document)
     elif word and word.lower() not in Stopwords.stopwords():
         document = execute_xquery(request, xquery)
-        mem_cache.set(mc_key, document, time=86400)
+        zipped_document = zlib.compress(dumps(document).encode())
+        mem_cache.set(mc_key, zipped_document, time=86400)
     else:
         document = {"no_of_results": 0, "result_list": []}
 
