@@ -525,7 +525,8 @@ def notes_for_document(
                           jQuery( document ).ready( function() {
                             jQuery( '#dialog%s' ).dialog( { 'autoOpen': false,
                             'title':'Litteratur', 'padding':0, minHeight: 80,
-                            position:['middle',20], resizable: false, draggable: false, } );
+                            position:['middle',20], resizable: false,
+                            draggable: false, } );
                           });
                         </script><strong>%s</strong><br/>%s
                         <span id="publicationReferenceInNote%s"
@@ -772,18 +773,17 @@ def smn_view(request):
     def get_location(chapter_no):
         return "/%s/%s" % (arguments.get("id"), chapter_no)
 
-
     def get_prefix(chapter):
-        prefix = ''
+        prefix = ""
         # chapter.no is x/y for chapter/section, i.e. sections
         # will contain a slash. Use this to distinguish from chapters,
         # and indent the section
-        if ('/' in str(chapter['no'])):
-            prefix += '&nbsp;&nbsp;&nbsp;'
+        if "/" in str(chapter["no"]):
+            prefix += "&nbsp;&nbsp;&nbsp;"
         # chapters such as "titelblad" will have a property "header_no"
         # with a value of 0
-        if (not 'header_no' in chapter or not chapter['header_no'] == 0):
-            prefix += str(chapter['no']).replace('/', '.') + ': '
+        if "header_no" not in chapter or not chapter["header_no"] == 0:
+            prefix += str(chapter["no"]).replace("/", ".") + ": "
         return prefix
 
     return {
@@ -812,7 +812,7 @@ def smn_view(request):
         "previous_section_name": previous_section_name,
         "next_section_name": next_section_name,
         "last_section_in_previous_chapter": last_section_in_previous_chapter,
-        "last_section_in_previous_chapter_name": last_section_in_previous_chapter_name,
+        "last_section_in_previous_chapter_name": last_section_in_previous_chapter_name,  # noqa
         "titles_for_authors": titles_for_authors,
         "page_is_available": page_is_available,
         "id_of_title": id_of_title,
@@ -830,7 +830,7 @@ def smn_view(request):
         "previous_section": _("Forrige afsnit"),
         "no_title": _("(uden titel)"),
         "get_location": get_location,
-        "get_prefix": get_prefix
+        "get_prefix": get_prefix,
     }
 
 
@@ -933,8 +933,7 @@ def front_page_view(request):
 def instructions_view(request):
     request.title = _("Vejledning")
     locale_name = request.locale_name
-    request = view_html(request,
-            "instructions_{}.html".format(locale_name))
+    request = view_html(request, "instructions_{}.html".format(locale_name))
     return smn_view(request)
 
 
@@ -962,8 +961,9 @@ def register_view(request):
 
     notes = get_notes(register_type, first_letter)
     register_items = []
-    mem_cache = memcache.Client(["127.0.0.1:11211"], debug=0,
-            server_max_value_length=1024*1024*16)
+    mem_cache = memcache.Client(
+        ["127.0.0.1:11211"], debug=0, server_max_value_length=1024 * 1024 * 16
+    )
     for register_item in notes:
         # Maybe we got references for this item in the cache.
         mc_key = (register_type + register_item.uid).replace(" ", "")
@@ -995,14 +995,22 @@ def register_view(request):
                 chapter_and_section = execute_xquery(request, xquery)
                 try:
                     chapter = chapter_and_section["results"]["chapter"]
-                    section = chapter_and_section["results"]["section"] if "section" in chapter_and_section["results"] else None
+                    section = (
+                        chapter_and_section["results"]["section"]
+                        if "section" in chapter_and_section["results"]
+                        else None
+                    )
                 except TypeError:
                     if (
                         chapter_and_section
                         and type(chapter_and_section["results"]) is list
                     ):
                         chapter = chapter_and_section["results"][0]["chapter"]
-                        section = chapter_and_section["results"][0]["section"] if "section" in chapter_and_section["results"][0] else None
+                        section = (
+                            chapter_and_section["results"][0]["section"]
+                            if "section" in chapter_and_section["results"][0]
+                            else None
+                        )
                     else:
                         print(
                             "FAILED: {}, note={}, document={}, page={}".format(
@@ -1013,10 +1021,14 @@ def register_view(request):
                             )
                         )
                         continue
-                link = '<a href="/{}/{}/{}#{}">{}, {}</a>'.format(
-                    document_name, chapter, section, page_no, title, page
-                ) if section else '<a href="/{}/{}#{}">{}, {}</a>'.format(
-                    document_name, chapter, page_no, title, page
+                link = (
+                    '<a href="/{}/{}/{}#{}">{}, {}</a>'.format(
+                        document_name, chapter, section, page_no, title, page
+                    )
+                    if section
+                    else '<a href="/{}/{}#{}">{}, {}</a>'.format(
+                        document_name, chapter, page_no, title, page
+                    )
                 )
                 if link not in references:
                     references.append(link)
@@ -1130,7 +1142,7 @@ available_document_ids = [
     "malmoe-salmebog.xml",
     "oluf-ulriksen-messe-1535.xml",
     "oluf-ulriksen-messehaandbog-1539.xml",
-    "thomissoen_1569.xml"
+    "thomissoen_1569.xml",
 ]
 
 
@@ -1150,7 +1162,7 @@ def search_results_view(request):
     categories_as_text = category_arguments.get("categories_as_text")
     word = search_string
 
-    document_ids = request.GET.getall('document_id')
+    document_ids = request.GET.getall("document_id")
 
     xquery = "kwic_search.xquery?q=%s&%s%s" % (
         word,
@@ -1216,7 +1228,7 @@ def search_results_view(request):
         "results_per_page": results_per_page,
         "page": page,
         "url_without_page_argument": url_without_page_argument,
-        "url_without_results_per_page_argument": url_without_results_per_page_argument,
+        "url_without_results_per_page_argument": url_without_results_per_page_argument,  # noqa
         "words_for_link": search_string,
         "available_document_ids": available_document_ids,
     }
@@ -1298,7 +1310,6 @@ def order_by_id(results):
     return ordered_dict
 
 
-
 def process_search_results(search_result, document_ids):
     results = []
     if search_result:
@@ -1313,7 +1324,7 @@ def process_search_results(search_result, document_ids):
             summary = "".join(summary)
             id_with_xml = i.get("id")
             document_id = id_with_xml.replace(".xml", "")
-            if document_ids and not document_id in document_ids:
+            if document_ids and document_id not in document_ids:
                 continue
 
             document_languages_json = []
@@ -1368,31 +1379,6 @@ def process_search_results(search_result, document_ids):
             )
         results = order_by_id(results)
     return results
-
-
-# @view_config(
-#     route_name="advanced_search_view", renderer="templates/advanced-search.pt"
-# )
-# def advanced_search_view(request):
-#     request.title = ""
-#     database_address = request.registry.settings["exist_server"]
-#     xquery_folder = database_address + "xqueries/"
-#     listings_for_menu = make_listings_for_menu(xquery_folder, "")
-#     titles_for_authors = listings_for_menu["titles_for_authors"]
-#     id_of_title = listings_for_menu["id_of_title"]
-#     titles = listings_for_menu["titles"]
-#
-#     return {
-#         "layout": site_layout(),
-#         "title": "Soegeresultat",
-#         "titles_for_authors": titles_for_authors,
-#         "id_of_title": id_of_title,
-#         "titles": titles,
-#         "title_of_current_document": "",
-#         "faksimile": None,
-#         "menu_by_not_cookie": None,
-#         "breadcrumb": [],
-#     }
 
 
 GO_PROXY = HTTPConnectionPool("ordnet-ws1.dsl.lan", port="9196", maxsize=10)

@@ -86,7 +86,7 @@ def add_header_chapters(xquery_folder, document_id, chapters_of_document):
     url = xquery_folder + "check_header_chapters.xquery?id=%s" % document_id
     # import pdb; pdb.set_trace()
     result = get(url)
-    header_chapters  = result.json()
+    header_chapters = result.json()
     header_chapter_list = []
 
     header_chapter_list = add_to_header(
@@ -206,8 +206,8 @@ def get_chapter(xquery_folder, document_id, chapter, section):
     if chapter == 0:
         url = (
             xquery_folder
-            + "get_chapter_or_section.xquery?id=%" +
-            "s&chapter=%s&frontpage_section=%s"
+            + "get_chapter_or_section.xquery?id=%"
+            + "s&chapter=%s&frontpage_section=%s"
             % (document_id, chapter, section)
         )
     if isinstance(chapter, str):
@@ -250,8 +250,7 @@ def get_section_info(
         "previous_section_name": previous_section_name,
         "next_section_name": next_section_name,
         "last_section_in_previous_chapter": last_section_in_previous_chapter,
-        "last_section_in_previous_chapter_name":
-        last_section_in_previous_chapter_name,
+        "last_section_in_previous_chapter_name": last_section_in_previous_chapter_name,  # noqa
         "is_last_section": is_last_section,
     }
     return section_info
@@ -282,8 +281,8 @@ def get_chapter_of_string(request, xquery_folder, results, query):
             sections = [section.get("no") for section in sections]
             if sections:
                 xquery = (
-                    "get_sections_of_string.xquery?document_id=" +
-                    "%s.xml&chapter=%s&q=%s"
+                    "get_sections_of_string.xquery?document_id="
+                    + "%s.xml&chapter=%s&q=%s"
                     % (document_id, int(chapter), query)
                 )
                 section_struct = execute_xquery(request, xquery)

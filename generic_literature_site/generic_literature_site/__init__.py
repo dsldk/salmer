@@ -35,19 +35,30 @@ def main(global_config, **settings):
     config.add_route("register_view", "/register/{type}/{first_letter}")
     config.add_route("tools_view", "/tools")
     config.add_route("timeline_view", "/tools/timeline")
-    config.add_route("research_page_view", "/research/{page:.*?}.{extension:(?i)(html|pdf|jpg|jpeg|gif|png|webp)$}")
+    config.add_route(
+        "research_page_view",
+        "/research/{page:.*?}.{extension:(?i)(html|pdf|jpg|jpeg|"
+        + "gif|png|webp)$}",
+    )
     config.add_route("research_view", "/research")
     config.add_route("english_view", "/english")
     config.add_route("danish_view", "/danish")
     config.add_route("data_view", "/data")
     config.add_route("go_popup", "/go_popup")
-    config.add_route("manuscript_descriptions_view", "/manuscript-descriptions/{document_id}")
+    config.add_route(
+        "manuscript_descriptions_view",
+        "/manuscript-descriptions/{document_id}",
+    )
     config.add_route("about_view", "/{document}/about")
     config.add_route("front_page_view", "/front-page")
-    config.add_route("section_view_notes", "/notes/{document}/{chapter}/{section}")
+    config.add_route(
+        "section_view_notes", "/notes/{document}/{chapter}/{section}"
+    )
     config.add_route("chapter_view_notes", "/notes/{document}/{chapter}")
     config.add_route("document_view_notes", "/notes/{document}")
-    config.add_route("section_view_text", "/text/{document}/{chapter}/{section}")
+    config.add_route(
+        "section_view_text", "/text/{document}/{chapter}/{section}"
+    )
     config.add_route("chapter_view_text", "/text/{document}/{chapter}")
     config.add_route("document_view_text", "/text/{document}")
     config.add_route("section_view", "/{document}/{chapter}/{section}")
