@@ -1121,6 +1121,18 @@ available_categories = [
     "religion",
 ]
 
+available_document_ids = [
+    "christian-3-bibel.xml",
+    "claus-mortensen-messe-1528.xml",
+    "dietz-salmebog-1529.xml",
+    "dietz-salmebog-1536.xml",
+    "jespersen_1573.xml",
+    "malmoe-salmebog.xml",
+    "oluf-ulriksen-messe-1535.xml",
+    "oluf-ulriksen-messehaandbog-1539.xml",
+    "thomissoen_1569.xml"
+]
+
 
 @view_config(route_name="search_results", renderer="templates/search.pt")
 def search_results_view(request):
@@ -1206,6 +1218,7 @@ def search_results_view(request):
         "url_without_page_argument": url_without_page_argument,
         "url_without_results_per_page_argument": url_without_results_per_page_argument,
         "words_for_link": search_string,
+        "available_document_ids": available_document_ids,
     }
 
     return result_dict
