@@ -9,27 +9,17 @@
                           <legend i18n:translate="">Afgræns søgning</legend>
                           <tal:languages>
 
-                              <form action="/search" name="languages" method="get">
+                              <form action="/search" name="manuscripts" method="get">
                                   <span i18n:translate="">Sprog:</span>
                                   <input type="hidden" name="q" value="${search_string}"/>
-                                  <label class="checkbox-container"><span i18n:translate="" tal:omit-tag="">Dansk</span>
-                                  <input type="checkbox" name="language" value="da"
-                                           tal:attributes="checked python:'checked' if 'da' in languages else None"  />
-                                           <span class="checkmark"></span>
-                                  </label>
-                                  <label class="checkbox-container"><span i18n:translate="" tal:omit-tag="">Engelsk</span>
-                                  <input type="checkbox" name="language" value="en"
-                                           tal:attributes="checked python:'checked' if 'en' in languages else None"  />
-                                           <span class="checkmark"></span>
-                                  </label>
-                                  <label class="checkbox-container"><span i18n:translate="" tal:omit-tag="">Fransk</span>
-                                  <input type="checkbox" name="language" value="fr"
-                                           tal:attributes="checked python:'checked' if 'fr' in languages else None"  />
-                                           <span class="checkmark"></span>
-                                  </label>
-                                  <label class="checkbox-container"><span i18n:translate="" tal:omit-tag="">Tysk</span>
-                                  <input type="checkbox" name="language" value="de"
-                                           tal:attributes="checked python:'checked' if 'de' in languages else None"  />
+                                  <label class="checkbox-container"
+                                         tal:repeat="d available_documents">
+                                      <span i18n:translate="" tal:omit-tag=""
+                                         tal:content="python:available_documents[d]" />
+                                  <input type="checkbox"
+                                         name="document_id"
+                                         value="${d}"
+                                           tal:attributes="checked python:'checked' if d in available_documents else None"  />
                                            <span class="checkmark"></span>
                                   </label>
                                   <div>

@@ -1133,17 +1133,14 @@ available_categories = [
     "religion",
 ]
 
-available_document_ids = [
-    "christian-3-bibel.xml",
-    "claus-mortensen-messe-1528.xml",
-    "dietz-salmebog-1529.xml",
-    "dietz-salmebog-1536.xml",
-    "jespersen_1573.xml",
-    "malmoe-salmebog.xml",
-    "oluf-ulriksen-messe-1535.xml",
-    "oluf-ulriksen-messehaandbog-1539.xml",
-    "thomissoen_1569.xml",
-]
+
+def get_available_documents(request):
+    documents_xquery = "list_titles.xquery"
+    documents = execute_xquery(request, documents_xquery)
+
+    available_documents = { d["path"] : d["id"] for d in documents["result"] }
+
+    return available_documents
 
 
 @view_config(route_name="search_results", renderer="templates/search.pt")
@@ -1230,7 +1227,7 @@ def search_results_view(request):
         "url_without_page_argument": url_without_page_argument,
         "url_without_results_per_page_argument": url_without_results_per_page_argument,  # noqa
         "words_for_link": search_string,
-        "available_document_ids": available_document_ids,
+        "available_documents": get_available_documents(request),
     }
 
     return result_dict
