@@ -22,6 +22,8 @@
   }
 }
 .mei {
-  margin-right:1rem !important;
-  width:auto!important;
+  float:none!important;
+  margin-right:0 !important;
+  width:calc(100% - 3.5rem)!important;
+  max-width:none!important;
 }

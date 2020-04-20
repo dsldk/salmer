@@ -37,7 +37,8 @@
 
     <!-- Musical notes -->
         <script type="text/javascript" src="https://salmer.dsl.dk/js/libs/verovio/verovio-toolkit.js"> </script>
-	 <script type="text/javascript" src="https://salmer.dsl.dk/js/MeiAjax.js"> </script>
+        <!-- <script type="text/javascript" src="https://salmer.dsl.dk/js/MeiAjax_scale.js"> </script> -->
+        <script type="text/javascript" src="/static/MeiAjax_scale.js"> </script>
          <!-- MIDI -->
          <!--
             Please note: the sound data file corresponding to the MIDI js library below (for instance, "074_recorder.data" or "wildwebmidi.data")
@@ -49,7 +50,7 @@
         <script type="text/javascript" src="https://salmer.dsl.dk/js/midiLib.js"><!-- Custom MIDI library --></script>
 
         <!-- SVG CSS styling -->
-        <link rel="stylesheet" type="text/css" href="https://salmer.dsl.dk/style/mei.css"/>
+        <link rel="stylesheet" type="text/css" href="https://salmer.dsl.dk/style/mei_scale.css"/>
 </head>
 
 <body>

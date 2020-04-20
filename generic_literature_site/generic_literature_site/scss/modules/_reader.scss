@@ -15,6 +15,9 @@
     overflow:hidden;
     position:relative;
   }
+  &.full-width {
+    width:100%;
+  }
 }
 .document-wrapper {
   box-sizing:border-box;

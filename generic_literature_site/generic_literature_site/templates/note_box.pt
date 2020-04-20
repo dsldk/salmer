@@ -62,6 +62,16 @@
               <span class="checkbox-label-text" i18n:translate="">Ordbog</span>
             </label>
         </li>
+        <li>
+            <label class="checkbox-inline" for="reader-width">
+              <input type="checkbox"
+                   id="reader-width"/>
+              <span class="checkbox-label-text" i18n:translate="">
+                <span class="sr-only" i18n:translate="">Forøg/formindsk spaltebredde</span>
+                <img src="/static/expand.svg" alt="">
+              </span>
+            </label>
+        </li>
 
        <!-- <div style="width:500px;background-color:white;"
              tal:content="req.cookies">${request}</div> -->

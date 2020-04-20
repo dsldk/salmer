@@ -61,6 +61,13 @@
 [for="location-note-checkbox"] .checkbox-label-text {background-color:#D1DFB6;}
 [for="real-note-checkbox"] .checkbox-label-text {color: red;}
 [for="text-critical-note-checkbox"] .checkbox-label-text {color: blue;font-weight:bold;}
+[for="reader-width"] {
+  padding-left:0;
+  .checkbox-label-text {
+    padding:0;
+    img { height: 1em; width:auto; display:inline-block; vertical-align:sub;}
+  }
+}
 
 .notelink sup {display:none;}
 .realnote sup a {color:red;background-color:transparent !important}

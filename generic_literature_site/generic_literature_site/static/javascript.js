@@ -301,6 +301,18 @@ $(function(){
         }
 			})
 		});
+
+    // toggling reader width
+    $('#reader-width').change(function() {
+      var isOn = $(this).prop('checked');
+      if (isOn) {
+        $('.page-wrapper .documentFrame.container').addClass('full-width');
+        $('label[for="reader-width"] .checkbox-label-text img').attr('src', '/static/collapse.svg');
+      } else {
+        $('.page-wrapper .documentFrame.container').removeClass('full-width');
+        $('label[for="reader-width"] .checkbox-label-text img').attr('src', '/static/expand.svg');
+      }
+    })
 	}
 
 	// when popping to another state, get the text corresponding to the state title
