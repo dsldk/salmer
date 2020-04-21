@@ -6,6 +6,11 @@
   position:absolute;
   top:0;
   right:0;
+  input[type="radio"] {
+    position:static;
+    opacity:1;
+    -webkit-appearance: radio;
+  }
 }
 .mei_menu_container {
   margin:0!important;
