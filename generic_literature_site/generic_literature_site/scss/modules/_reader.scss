@@ -1,4 +1,7 @@
 // document viewer, document.pt
+
+$width-transition:width ease-in-out 250ms;
+
 .page-wrapper {
   display:flex;
   flex-direction:column;
@@ -10,6 +13,7 @@
   }
 }
 .documentFrame {
+  transition:$width-transition;
   flex:1 1 auto;
   @media all and (min-width: 768px) {
     overflow:hidden;
@@ -17,6 +21,12 @@
   }
   &.full-width {
     width:100%;
+    .chapter-box {
+      width:75%;
+    }
+    .tabs-box {
+      width:25%;
+    }
   }
 }
 .document-wrapper {
@@ -37,6 +47,10 @@
   }
   .notebox {
     flex:0 0 100%;
+  }
+  .chapter-box,
+  .tabs-box {
+    transition:$width-transition;
   }
   .chapter-box,
   .tabs-box,
