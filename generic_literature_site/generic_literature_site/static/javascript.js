@@ -388,7 +388,7 @@ $(function(){
 		activateNotesInRightColumn();
 
     if (wrapperSelector === '.chapter-box') {
-      initMusic(); // call initMusic from MeiAjax.js
+      initMusic(loc); // call initMusic from MeiAjax.js
     }
 	}
 

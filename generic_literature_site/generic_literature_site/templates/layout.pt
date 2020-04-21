@@ -37,7 +37,7 @@
 
     <!-- Musical notes -->
         <script type="text/javascript" src="https://salmer.dsl.dk/js/libs/verovio/verovio-toolkit.js"> </script>
-        <script type="text/javascript" src="https://salmer.dsl.dk/js/MeiAjax.js"> </script>
+        <script type="text/javascript" src="https://salmer.dsl.dk/js/MeiAjax.js?lang=${req.cookies.get('_LOCALE_', 'da')}"> </script>
          <!-- MIDI -->
          <!--
             Please note: the sound data file corresponding to the MIDI js library below (for instance, "074_recorder.data" or "wildwebmidi.data")
