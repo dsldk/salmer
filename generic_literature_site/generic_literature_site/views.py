@@ -1062,11 +1062,11 @@ def textlist_view(request):
     return smn_view(request)
 
 
-@view_config(route_name="tools_view", renderer="templates/about.pt")
-def tools_view(request):
-    request.title = _("Værktøjer")
+@view_config(route_name="guidelines_view", renderer="templates/about.pt")
+def guidelines_view(request):
+    request.title = _("Vejledning")
     locale_name = request.locale_name
-    request = view_html(request, "tools_{}.html".format(locale_name))
+    request = view_html(request, "guidelines_{}.html".format(locale_name))
     return smn_view(request)
 
 
