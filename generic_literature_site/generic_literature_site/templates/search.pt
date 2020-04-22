@@ -7,27 +7,25 @@
                       <h4 tal:condition="search_string"><span i18n:translate="" tal:omit-tag="">Du har søgt på:</span> <strong>${search_string}</strong></h4>
                       <fieldset>
                           <legend i18n:translate="">Afgræns søgning</legend>
-                          <tal:languages>
-
-                              <form action="/search" name="manuscripts" method="get">
-                                  <span i18n:translate="">Sprog:</span>
-                                  <input type="hidden" name="q" value="${search_string}"/>
+                          <form action="/search" name="manuscripts" method="get" id="search-form">
+                              <span i18n:translate="">Tekster:</span>
+                              <input type="hidden" name="q" value="${search_string}"/>
+                              <div class="manuscript-option-wrapper">
                                   <label class="checkbox-container"
                                          tal:repeat="d available_documents">
                                       <span i18n:translate="" tal:omit-tag=""
-                                         tal:content="python:available_documents[d]" />
-                                  <input type="checkbox"
-                                         name="document_id"
-                                         value="${d}"
-                                           tal:attributes="checked python:'checked' if d in available_documents else None"  />
-                                           <span class="checkmark"></span>
+                                            tal:content="python:available_documents[d]" />
+                                      <input type="checkbox"
+                                             name="document_id"
+                                             value="${d}"
+                                             tal:attributes="checked python:'checked' if d in req.GET.getall('document_id') or not req.GET.getall('document_id') else None" />
+                                      <span class="checkmark"></span>
                                   </label>
-                                  <div>
-                                    <button type="submit" class="btn btn-primary">Søg</button>
-                                  </div>
-                              </form>
-
-                          </tal:languages>
+                              </div>
+                              <div class="search-actions-wrapper">
+                                  <button type="button" class="select-all btn btn-info" i18n:translate="">Vælg alle</button><button type="button" class="deselect-all btn btn-info" i18n:translate="">Fravælg alle</button><button type="submit" class="btn btn-primary" i18n:translate="">Søg</button>
+                              </div>
+                          </form>
                       </fieldset>
                   </div>
               </div>

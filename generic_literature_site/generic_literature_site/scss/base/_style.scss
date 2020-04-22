@@ -21,7 +21,7 @@ html.lock .header {
 body {
   position: relative;
   min-height: 100%;
-  min-width: 320px;
+  // min-width: 320px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 17px;
@@ -209,6 +209,8 @@ legend {
   content: "";
   position: absolute;
   display: none;
+  height: 25px;
+  width: 25px;
 }
 
 /* Show the checkmark when checked */
@@ -220,8 +222,11 @@ legend {
 .checkbox-container .checkmark:after {
   background-image: url(../static/sprite.png);
   background-repeat: no-repeat;
-  height: 25px;
-  width: 25px;
+}
+
+.checkbox-container input:focus~.checkmark {
+  box-shadow: 0 0 0 3px #c2005c;
+  border-color: #c2005c;
 }
 
 .uppercase {
@@ -1058,7 +1063,8 @@ label[for="header__menu-toggle"] {
   overflow:hidden;
   flex-direction:column;
   justify-content:space-between;
-  @media all and (min-width:710px) {
+  flex-shrink: 0;
+  @media all and (min-width:992px) {
     display:none;
   }
   &::before,
@@ -1125,7 +1131,7 @@ label[for="header__menu-toggle"] {
   overflow:hidden;
   transition:height 250ms ease-in-out;
   #header__menu-toggle:checked + label + & {
-    @media all and (min-width: 710px) {
+    @media all and (min-width: 992px) {
       display:flex;
     }
   }
@@ -1135,7 +1141,7 @@ label[for="header__menu-toggle"] {
     display:block;
     height:13px;
   } // mimic padding, but don't actually use padding, because we need the element to have height 0 when collapsed.
-  @media all and (min-width:710px) {
+  @media all and (min-width:992px) {
     display:flex;
     flex-direction:column;
     justify-content:space-between;
@@ -1161,7 +1167,7 @@ label[for="header__menu-toggle"] {
 .header__menu {
   ul li {
     padding:8px 0;
-    @media all and (min-width:710px) {
+    @media all and (min-width:992px) {
       display: inline-block;
       padding: 0 8px;
       &:last-child {
@@ -1200,7 +1206,7 @@ label[for="header__menu-toggle"] {
 .header__menu-primary ul li a {
   text-decoration: none;
   color: #727373;
-  @media all and (min-width: 710px) {
+  @media all and (min-width: 992px) {
     font-size: 11px;
     letter-spacing: 0.8px;
   }
@@ -1223,7 +1229,7 @@ label[for="header__menu-toggle"] {
   padding-top:1em;
   margin-top:1em;
   border-top:1px solid #ddd;
-  @media all and (min-width: 710px) {
+  @media all and (min-width: 992px) {
     padding-top:0;
     margin-top:0;
     border-top:none;

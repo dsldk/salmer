@@ -315,6 +315,14 @@ $(function(){
     })
 	}
 
+  // select/deselect search options
+  $('#search-form .select-all').click(function(){
+    $('input[name=document_id]').prop('checked', true);
+  });
+  $('#search-form .deselect-all').click(function(){
+    $('input[name=document_id]').prop('checked', false);
+  });
+
 	// when popping to another state, get the text corresponding to the state title
 	$(window).on('popstate', function (event) {
 		var stateObj = event.originalEvent.state

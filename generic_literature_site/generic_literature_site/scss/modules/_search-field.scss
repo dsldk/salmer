@@ -10,7 +10,7 @@ label[for="search-field-toggle"] {
   body.home-page & {
     margin-bottom:2.6em;
   }
-  @media all and (min-width:710px) {
+  @media all and (min-width:992px) {
     width:1.7em;
     height:1.7em;
     margin:-2.3em 0 0 0;
@@ -71,5 +71,45 @@ label[for="search-field-toggle"] {
   } // mimic padding, but don't actually use padding, because we need the element to have height 0 when collapsed.
   body.home-page &::before {
     content:none;
+  }
+  input[name="q"] {
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+}
+
+#search-form {
+  .manuscript-option-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:1em 0;
+    label {
+      flex: 0 0 100%;
+      @media all and (min-width: 530px) {
+        flex: 0 0 50%;
+        margin-right:0;
+        padding-right:2em;
+      }
+    }
+  }
+  .search-actions-wrapper {
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 -.25em -.25em 0; // offset margin on edge buttons
+    button {
+      flex: 1 1 auto;
+      display:inline-block;
+      margin:0 .25em .25em 0;
+      &[type="submit"] {
+        flex-basis: 100%;
+      }
+      @media all and (min-width: 530px) {
+        flex: 0 1 auto;
+        &[type="submit"] {
+          flex-basis: auto;
+        }
+      }
+    }
   }
 }
