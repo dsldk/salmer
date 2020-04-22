@@ -1321,7 +1321,7 @@ def process_search_results(search_result, document_ids):
             summary = "".join(summary)
             id_with_xml = i.get("id")
             document_id = id_with_xml.replace(".xml", "")
-            if document_ids and document_id not in document_ids:
+            if document_ids and id_with_xml not in document_ids:
                 continue
 
             document_languages_json = []
