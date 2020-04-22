@@ -57,14 +57,36 @@ $(function(){
 	var isSearch = /http.*?\/search/.test(window.location.href);
 	if (isSearch) {
 		$('#search-field-toggle').trigger('change', { instant: true }); // calculate height and animate
+
+    $('#search-mobile').submit(function(){
+      // copy the checkbox values from the search form so that this
+      // form can respect those settings.
+      var documentIds = $('#search-form [name="document_id"]:checked').map(function(){
+        return $('<input>', {
+          name: 'document_id',
+          value: $(this).val(),
+          type: 'hidden'
+        }).get(); // "expand" with .get() because otherwise we get nested objects
+      });
+
+      $(this).append(documentIds);
+    });
 	}
 
 	// when submitting the search form on the results page, we should
 	// copy the input value from the text field to the hidden field,
 	// in case the text field was changed.
-	$('form[name="languages"]').submit(function () {
+	$('form[name="manuscripts"]').submit(function () {
 		$(this).find('input[name="q"]').val($('#search-mobile input[name="q"]').val());
 	});
+
+  // select/deselect search options
+  $('#search-form .select-all').click(function(){
+    $('input[name=document_id]').prop('checked', true);
+  });
+  $('#search-form .deselect-all').click(function(){
+    $('input[name=document_id]').prop('checked', false);
+  });
 
 	// when expanding/collapsing nav, calculate the proper height
 	$('#header__menu-toggle').change(function () {
@@ -314,14 +336,6 @@ $(function(){
       }
     })
 	}
-
-  // select/deselect search options
-  $('#search-form .select-all').click(function(){
-    $('input[name=document_id]').prop('checked', true);
-  });
-  $('#search-form .deselect-all').click(function(){
-    $('input[name=document_id]').prop('checked', false);
-  });
 
 	// when popping to another state, get the text corresponding to the state title
 	$(window).on('popstate', function (event) {
