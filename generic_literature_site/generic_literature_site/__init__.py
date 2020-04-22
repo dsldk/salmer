@@ -33,7 +33,7 @@ def main(global_config, **settings):
     config.add_route("meta_view", "/meta/{document}/{type}")
     config.add_route("manuscripts_view", "/manuscripts")
     config.add_route("register_view", "/register/{type}/{first_letter}")
-    config.add_route("tools_view", "/tools")
+    config.add_route("guidelines_view", "/guidelines")
     config.add_route("timeline_view", "/tools/timeline")
     config.add_route(
         "research_page_view",
