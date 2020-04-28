@@ -7,7 +7,7 @@ $width-transition:width ease-in-out 250ms;
   flex-direction:column;
   align-content:flex-start;
   @media all and (min-width: 768px) {
-    overflow:hidden;
+    // overflow:hidden;
     flex: 1 0 100%;
     min-height:calc(40 * 1rem * 1.35);
   }
@@ -16,7 +16,7 @@ $width-transition:width ease-in-out 250ms;
   transition:$width-transition;
   flex:1 1 auto;
   @media all and (min-width: 768px) {
-    overflow:hidden;
+    // overflow:hidden;
     position:relative;
   }
   &.full-width {
@@ -32,7 +32,7 @@ $width-transition:width ease-in-out 250ms;
 .document-wrapper {
   box-sizing:border-box;
   @media all and (min-width: 768px) {
-    overflow:hidden;
+    // overflow:hidden;
     display:flex;
     justify-content: flex-start;
     position:absolute;
@@ -59,7 +59,7 @@ $width-transition:width ease-in-out 250ms;
     flex-direction:column;
     align-content:flex-start;
     @media all and (min-width: 768px) {
-      overflow:hidden;
+      // overflow:hidden;
     }
     .theActualDocument,
     .ui-tabs-panel,
