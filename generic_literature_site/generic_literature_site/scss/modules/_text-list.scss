@@ -19,18 +19,30 @@
         background-color:#ECECE8;
         height: 100%;
         padding: 0 0 3rem;
+        transition:background-color 200ms ease;
+        border:1px solid rgba(0,0,0,.15);
+        overflow:auto; // prevent parent-child margin collapse
         &:focus,
         &:hover {
           text-decoration:none;
-          background-color:#BDBDBA;
+          background-color:#ccccc8;
         }
       }
     }
   }
   img {
     display: block;
-    width:100%;
     height: auto;
+    width:auto;
+    max-height: 40vh;
+    margin:3rem auto 0;
+    border:1px solid rgba(0,0,0,.15);
+    @media all and(min-width:768px) {
+      width:100%;
+      max-height:none;
+      margin:0;
+      border-width:0 0 1px;
+    }
   }
   .text-title {
     font-family:"Cormorant", serif;
@@ -50,10 +62,13 @@
   }
 }
 
-@media all and(min-width:768px) {
-  .text-list.grid {
-    ul {
-      grid-template-columns: repeat(3, 1fr);
+.text-list.grid {
+  ul {
+    @media all and(min-width:768px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    @media all and(min-width:1200px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 }
