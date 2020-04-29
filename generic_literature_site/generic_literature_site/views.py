@@ -287,10 +287,16 @@ def colorByCookie(request, pages, class_name, color):
             'class="%s" style="cursor:pointer;background-color:%s"'
             % (class_name, color),
         )
-    elif class_name == "realnote" or class_name == "textcriticalnote":
+    elif class_name == "realnote":
         pages = pages.replace(
             'class="%s"' % class_name,
             'class="%s hidden" style="cursor:pointer;background-color:%s"'
+            % (class_name, color),
+        )
+    elif class_name == "textcriticalnote":
+        pages = pages.replace(
+            'class="%s annotation-marker"' % class_name,
+            'class="%s annotation-marker hidden" style="cursor:pointer;background-color:%s"'
             % (class_name, color),
         )
     return pages
