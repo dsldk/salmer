@@ -22,7 +22,11 @@ def main(global_config, **settings):
     """ This function returns a Pyramid WSGI application.
     """
     config = Configurator(settings=settings)
+    facsimile_dir = settings["facsimiles"]
     config.include("pyramid_chameleon")
+    config.add_static_view(
+        name="static/facsimiles", path=facsimile_dir, cache_max_age=3600
+    )
     config.add_static_view("static", "static", cache_max_age=3600)
     config.add_route("index_view", "/")
     config.add_route("textlist_view", "/texts")
@@ -31,10 +35,8 @@ def main(global_config, **settings):
     config.add_route("about_site_view", "/about")
     config.add_route("instructions_view", "/instructions")
     config.add_route("meta_view", "/meta/{document}/{type}")
-    config.add_route("manuscripts_view", "/manuscripts")
     config.add_route("register_view", "/register/{type}/{first_letter}")
     config.add_route("guidelines_view", "/guidelines")
-    config.add_route("timeline_view", "/tools/timeline")
     config.add_route(
         "research_page_view",
         "/research/{page:.*?}.{extension:(?i)(html|pdf|jpg|jpeg|"
@@ -45,10 +47,6 @@ def main(global_config, **settings):
     config.add_route("danish_view", "/danish")
     config.add_route("data_view", "/data")
     config.add_route("go_popup", "/go_popup")
-    config.add_route(
-        "manuscript_descriptions_view",
-        "/manuscript-descriptions/{document_id}",
-    )
     config.add_route("about_view", "/{document}/about")
     config.add_route("front_page_view", "/front-page")
     config.add_route(

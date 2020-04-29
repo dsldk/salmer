@@ -38,9 +38,9 @@
                         <xsl:value-of select="@n"/>
                     </xsl:attribute>
                     <a>
-                        <xsl:attribute name="href">/faksimile/document_id_placeholder/<xsl:value-of select="@n"/>.jpg</xsl:attribute>
+                        <xsl:attribute name="href">/static/facsimiles/document_id_placeholder/<xsl:value-of select="@facs"/>.jpg</xsl:attribute>
                         <xsl:element name="img">
-                            <xsl:attribute name="src">/faksimile/document_id_placeholder/<xsl:value-of select="@n"/>_small.jpg</xsl:attribute>
+                            <xsl:attribute name="src">/static/facsimiles/document_id_placeholder/<xsl:value-of select="@facs"/>_small.jpg</xsl:attribute>
                         </xsl:element>
                     </a>
                 </xsl:element>
