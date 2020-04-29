@@ -69,8 +69,16 @@
   }
 }
 
+.annotation-marker {
+  font-family: "Montserrat", sans-serif
+}
+
+.notelink .annotation-marker,
 .notelink sup {display:none;}
+.realnote .annotation-marker a,
 .realnote sup a {color:red;background-color:transparent !important}
+.variant .annotation-marker a,
+.variant sup a {color:green;background-color:transparent !important;position:relative;top:-.2em}
 // .realnote {display:none;}
-.textcriticalnote {color:blue;background-color:transparent !important}
+.textcriticalnote {color:blue;background-color:transparent !important;cursor:pointer;position:relative;top:-.25em}
 // .textcriticalnote {display:none;}
