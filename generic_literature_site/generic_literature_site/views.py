@@ -622,6 +622,10 @@ def add_named_chapters(
         {"name": "Dedikation", "no": "dedikation"},
         {"name": "Motto", "no": "motto"},
         {"name": "Forord", "no": "forord"},
+        {"name": "Forord", "no": "preface"},
+        {"name": "Indholdsfortegnelse", "no": "toc-section"},
+        {"name": "Kalender", "no": "calendar"},
+        {"name": "Introduktion", "no": "introduction"},
     ]
     chapters_of_document = additional_chapters + chapters_of_document
     for additional_chapter in additional_chapters:
@@ -875,21 +879,6 @@ def about_view(request):
     return smn_view(request)
 
 
-@view_config(
-    route_name="manuscript_descriptions_view", renderer="templates/about.pt"
-)
-def manuscript_descriptions_view(request):
-    folder = request.registry.settings["exist_server"] + "html"
-    document_id = request.matchdict.get("document_id") + ".html"
-    about_url = folder + "/" + document_id
-    about = get(about_url)
-    about_text = about.text
-    xml_header = '<?xml version="1.0" encoding="UTF-8"?>\n'
-    about_text = about_text.replace(xml_header, "")
-    request.html = about_text
-    return smn_view(request)
-
-
 @view_config(route_name="about_site_view", renderer="templates/about.pt")
 def about_site_view(request):
     request.title = _("Om projektet")
@@ -1070,14 +1059,6 @@ def guidelines_view(request):
     return smn_view(request)
 
 
-@view_config(route_name="timeline_view", renderer="templates/about.pt")
-def timeline_view(request):
-    request.title = _("Tidslinje")
-    locale_name = request.locale_name
-    request = view_html(request, "timeline_{}.html".format(locale_name))
-    return smn_view(request)
-
-
 @view_config(route_name="research_page_view", renderer="templates/about.pt")
 def research_page_view(request):
     request.title = _("Forskning")
@@ -1101,24 +1082,6 @@ def research_view(request):
     locale_name = request.locale_name
     request = view_html(request, "research_{}.html".format(locale_name))
     return smn_view(request)
-
-
-@view_config(
-    route_name="manuscripts_view", renderer="templates/manuscripts.pt"
-)
-def manuscripts_view(request):
-    document_id = ""
-    database_address = request.registry.settings["exist_server"]
-    xquery_folder = database_address + "xqueries/"
-    listings_for_menu = make_listings_for_menu(xquery_folder, document_id)
-    layout = empty_dictionary()
-    attributes_to_copied = ["titles_for_authors", "id_of_title"]
-    for attribute in attributes_to_copied:
-        layout[attribute] = listings_for_menu[attribute]
-    layout["menu_by_not_cookie"] = "handwriting"
-    layout["faksimile"] = None
-    layout["title"] = "Håndskrifter / Tryk"
-    return layout
 
 
 available_categories = [

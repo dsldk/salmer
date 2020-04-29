@@ -67,7 +67,7 @@
             <titlePage rend="center">
                 <docTitle>
                     <titlePart type="desc">
-                        <pb n="E1"/>Den danske <lb/>
+                        <pb n="E1" facs="001"/>Den danske <lb/>
                     </titlePart>
                     <titlePart> Psalmebog/ </titlePart>
                     <titlePart type="desc"> met mange Christeli<lb rend="="/>ge Psalmer/ Ordentlig
@@ -86,9 +86,9 @@
             <figure type="image"/>
             <div type="toc" xml:id="toc-section">
                 <head type="add">
-                    <pb n="E2"/>Indholdsfortegnelse</head>
+                    <pb n="E2" facs="002"/>Indholdsfortegnelse</head>
                 <head>
-                    <pb n="E3"/>Jt Almindeligt Register offuer <lb/> Psalmerne.</head>
+                    <pb n="E3" facs="003"/>Jt Almindeligt Register offuer <lb/> Psalmerne.</head>
                 <list rend="simple">
                     <item n="i.">Om Christi tilkommelse til Verden. <ref target="#section-1">1.</ref>
                     </item>
@@ -149,7 +149,7 @@
                 <head type="add">Kalender</head>
                 <div type="month">
                     <head>
-                        <pb n="E4"/>Januarius/ Glugmaanet. <lb/> haffuer xxxj. dage.</head>
+                        <pb n="E4" facs="004"/>Januarius/ Glugmaanet. <lb/> haffuer xxxj. dage.</head>
                     <table>
                         <row>
                             <cell> </cell>
@@ -377,7 +377,7 @@
                 </div>
                 <div type="month">
                     <head n="5">
-                        <pb n="E5"/>Februarius/ Blidelmaanet. <lb/> haffuer xxviij. dage. </head>
+                        <pb n="E5" facs="005"/>Februarius/ Blidelmaanet. <lb/> haffuer xxviij. dage. </head>
                     <table>
                         <row>
                             <cell> </cell>
@@ -590,7 +590,7 @@
                 </div>
                 <div type="month">
                     <head>
-                        <pb n="E6"/>Martius/ Tormaanet. <lb/> haffuer xxxj. dage.</head>
+                        <pb n="E6" facs="006"/>Martius/ Tormaanet. <lb/> haffuer xxxj. dage.</head>
                     <table>
                         <row>
                             <cell> </cell>
@@ -854,7 +854,7 @@
                 </div>
                 <div type="month">
                     <head n="5">
-                        <pb n="E7"/>Aprilis/ Faaremaanet.<lb/> haffuer xxx. dage.</head>
+                        <pb n="E7" facs="007"/>Aprilis/ Faaremaanet.<lb/> haffuer xxx. dage.</head>
                     <table>
                         <row>
                             <cell>16</cell>
@@ -1108,7 +1108,7 @@
                 </div>
                 <div type="month">
                     <head n="5">
-                        <pb n="E8"/>Maius/ Maymaanet. <lb/> haffuer xxxj. dage.</head>
+                        <pb n="E8" facs="008"/>Maius/ Maymaanet. <lb/> haffuer xxxj. dage.</head>
                     <table>
                         <row>
                             <cell>16</cell>
@@ -1339,7 +1339,7 @@
                 </div>
                 <div type="month">
                     <head>
-                        <pb n="E9"/>Junius/ Skersommer. <lb/> haffuer xxx. dage.</head>
+                        <pb n="E9" facs="009"/>Junius/ Skersommer. <lb/> haffuer xxx. dage.</head>
                     <table>
                         <row>
                             <cell/>
@@ -1565,7 +1565,7 @@
                 </div>
                 <div type="month">
                     <head n="5">
-                        <pb n="E10"/>Julius/ Ormemaanet. <lb/> haffuer xxxj. dage.</head>
+                        <pb n="E10" facs="010"/>Julius/ Ormemaanet. <lb/> haffuer xxxj. dage.</head>
                     <table>
                         <row>
                             <cell/>
@@ -1796,7 +1796,7 @@
                 </div>
                 <div type="month">
                     <head n="5">
-                        <pb n="E11"/>Augustus/ Høstmaanit. <lb/> haffuer xxxj. dage.</head>
+                        <pb n="E11" facs="011"/>Augustus/ Høstmaanit. <lb/> haffuer xxxj. dage.</head>
                     <table>
                         <row>
                             <cell>13</cell>
@@ -2024,7 +2024,7 @@
                 </div>
                 <div type="month">
                     <head n="5">
-                        <pb n="E12"/>September/ Fiskemaanet. <lb/> haffuer xxx. dage.</head>
+                        <pb n="E12" facs="012"/>September/ Fiskemaanet. <lb/> haffuer xxx. dage.</head>
                     <table>
                         <row>
                             <cell>2</cell>
@@ -2249,7 +2249,7 @@
                 </div>
                 <div type="month">
                     <head n="5">
-                        <pb n="E13"/>October/ Lilliemaanet/ eller/ Sæde<lb rend="="/>maanet/
+                        <pb n="E13" facs="013"/>October/ Lilliemaanet/ eller/ Sæde<lb rend="="/>maanet/
                         haffuer xxxj. dage.</head>
                     <table>
                         <row>
