@@ -19,13 +19,13 @@ var dialog_opts = {
 function toggle(){} // onclick="toggle" handlers are written directly in the XML, and thus we can't unregister them. Therefore define a toggle() function so we don't get errors of undefined.
 
 function activateNotesInLeftColumn() {
-  activateNotes("note", "#notelink", __[loc]("Kommentar"));
+  // activateNotes("note", "#notelink", __[loc]("Kommentar"));
   activateNotes("appnote", "#appnotelink", __[loc]("Tekstkritik"));
-  activateNotes("persName", "#persNamelink", __[loc]("Person"));
-  activateNotes("fictionalpersName", "#fictionalpersNamelink", __[loc]("Litterær figur"));
-  activateNotes("bibl", "#bibllink", __[loc]("Værk"));
-  activateNotes("placeName", "#placeNamelink", __[loc]("Sted"));
-  activateNotes("publicationName", "#publicationNamelink", __[loc]("Værk"));
+  // activateNotes("persName", "#persNamelink", __[loc]("Person"));
+  // activateNotes("fictionalpersName", "#fictionalpersNamelink", __[loc]("Litterær figur"));
+  // activateNotes("bibl", "#bibllink", __[loc]("Værk"));
+  // activateNotes("placeName", "#placeNamelink", __[loc]("Sted"));
+  // activateNotes("publicationName", "#publicationNamelink", __[loc]("Værk"));
 }
 
 function activateNotesInRightColumn() {

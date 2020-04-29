@@ -4,12 +4,9 @@ $(function(){
 	/* checkCookie(); // Uncomment to enable cookie popup */
 
 	// attach click functionality to annotation controls
-  $('#person-note-checkbox').click(function(event) {colorAllNotes(this,'.persName','#EDD19F');});
-  $('#publication-note-checkbox').click(function(event) {colorAllNotes(this,'.bibl','#EAE18A');});
-  $('#character-note-checkbox').click(function(event) {colorAllNotes(this,'.fictionalpersName','#F6CDF6');});
-  $('#location-note-checkbox').click(function(event) {colorAllNotes(this,'.placeName','#D1DFB6');});
-  $('#text-critical-note-checkbox').click(function(event) {colorAllTextCriticalNotes(this,'.textcriticalnote','blue');});
-  $('#real-note-checkbox').click(function(event) {colorAllTextCriticalNotes(this,'.realnote','red');});
+  $('#text-critical-note-checkbox').click(function(event) {colorAllTextCriticalNotes(this,'.mei svg .dir.comment','.textcriticalnote','blue');});
+  // determine whether notes should be shown in MeiAjax.js
+  comments = $('#text-critical-note-checkbox').prop('checked')
 	$('#click-lookup-note-checkbox').click(function(event) {enableDictLookup(this);});
   $('#tabs').tabs();
 
@@ -579,24 +576,32 @@ function colorAllNotesByCookie(checkbox, note_class, background_color) {
 
 
 
-function colorAllTextCriticalNotes(checkbox, note_class, background_color) {
+function colorAllTextCriticalNotes(checkbox, note_class, cookie_name, background_color) {
   if (checkbox.checked) {
     $(note_class).each(function() {
       $(this).css({
         color: background_color,
         display: 'inline',
-        cursor: 'pointer'
+        cursor: 'pointer',
+        visibility: 'visible'
       });
       $(this).removeClass('hidden');
     });
-    setCookie(note_class, 'checked', 365);
+    setCookie(cookie_name, 'checked', 365);
   } else {
     $(note_class).each(function() {
       $(this).css({
         display: 'none',
-        cursor: 'default'
+        cursor: 'default',
+        visibility: 'hidden'
       });
     });
-    setCookie(note_class, '', 365);
+    setCookie(cookie_name, '', 365);
   }
+  // determine whether notes should be shown in MeiAjax.js
+  // note the variable name! It should not be "enableComments" here,
+  // as this variable name is only used upon initialization. Instead,
+  // we should change "comments" directly as this is the variable eventually
+  // evaluated during initMusic()
+  comments = checkbox.checked
 }
