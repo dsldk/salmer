@@ -4,7 +4,7 @@ $(function(){
 	/* checkCookie(); // Uncomment to enable cookie popup */
 
 	// attach click functionality to annotation controls
-  $('#text-critical-note-checkbox').click(function(event) {colorAllTextCriticalNotes(this,'.mei svg .dir.comment','.textcriticalnote','blue');});
+  $('#text-critical-note-checkbox').click(function(event) {colorAllTextCriticalNotes(this,'.mei svg .dir.comment, .textcriticalnote','.textcriticalnote','blue');});
   // determine whether notes should be shown in MeiAjax.js
   comments = $('#text-critical-note-checkbox').prop('checked')
 	$('#click-lookup-note-checkbox').click(function(event) {enableDictLookup(this);});
