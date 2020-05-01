@@ -20,6 +20,14 @@ let $selection := if ($chapter_name = 'metadata')
                   then $xmldoc//tei:front/tei:titlePage
                   else if ($chapter_name = 'forord')                
                   then $xmldoc//tei:front//tei:div[@type="preface"]              
+                  else if ($chapter_name = 'preface')                
+                  then $xmldoc//tei:front//tei:div[@xml:id="preface"]              
+                  else if ($chapter_name = 'calendar')                
+                  then $xmldoc//tei:front//tei:div[@xml:id="calendar"]              
+                  else if ($chapter_name = 'introduction')                
+                  then $xmldoc//tei:front//tei:div[@xml:id="introduction"]              
+                  else if ($chapter_name = 'toc-section')                
+                  then $xmldoc//tei:front//tei:div[@xml:id="toc-section"]              
                   else if ($chapter_name = 'dedikation')
                   then $xmldoc//tei:front/tei:div[@type="dedication"]
                   else if ($chapter_name = 'motto')
