@@ -31,4 +31,10 @@
   margin-right:0 !important;
   width:calc(100% - 3.5rem)!important;
   max-width:50rem!important; // corresponds to a reasonable musical note size
+  svg {
+    .dir.comment {
+      fill:#0000ff!important;
+      stroke:#0000ff!important;
+    }
+  }
 }
