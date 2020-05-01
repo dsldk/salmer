@@ -493,7 +493,16 @@ def insert_note_texts(request, pages):
 def notes_for_document(
     xquery_folder, document_id, chapter, section, section_and_chapter
 ):
-    if section_and_chapter in ["titelblad", "dedikation", "forord", "motto"]:
+    if section_and_chapter in [
+        "titelblad",
+        "dedikation",
+        "preface",
+        "forord",
+        "motto",
+        "introduktion",
+        "kalender",
+        "indholdsfortegnelse",
+    ]:
         return []
     url = (
         xquery_folder
@@ -627,7 +636,6 @@ def add_named_chapters(
         {"name": "Titelblad", "no": "titelblad"},
         {"name": "Dedikation", "no": "dedikation"},
         {"name": "Motto", "no": "motto"},
-        {"name": "Forord", "no": "forord"},
         {"name": "Forord", "no": "preface"},
         {"name": "Indholdsfortegnelse", "no": "toc-section"},
         {"name": "Kalender", "no": "calendar"},
@@ -1107,7 +1115,7 @@ def get_available_documents(request):
     documents_xquery = "list_titles.xquery"
     documents = execute_xquery(request, documents_xquery)
 
-    available_documents = { d["path"] : d["id"] for d in documents["result"] }
+    available_documents = {d["path"]: d["id"] for d in documents["result"]}
 
     return available_documents
 
