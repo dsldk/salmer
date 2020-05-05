@@ -18,9 +18,7 @@ let $selection := if ($chapter_name = 'metadata')
                   then $xmldoc//tei:teiHeader
                   else if ($chapter_name = 'titelblad')
                   then $xmldoc//tei:front/tei:titlePage
-                  else if ($chapter_name = 'forord')                
-                  then $xmldoc//tei:front//tei:div[@type="preface"]              
-                  else if ($chapter_name = 'preface')                
+                  else if ($chapter_name = 'preface' or $chapter_name = 'forord')
                   then $xmldoc//tei:front//tei:div[@xml:id="preface"]              
                   else if ($chapter_name = 'calendar' or $chapter_name = 'kalender')                
                   then $xmldoc//tei:front//tei:div[@xml:id="calendar"]              
@@ -61,4 +59,4 @@ return if ($section = 0 and $selection[tei:lg])
     	                    <results>{transform:transform($selection, $stylesheet, <parameters></parameters>)}</results>
                        else <results>{transform:transform($selection, $stylesheet, <parameters></parameters>)}</results>
                        
-                       
+
