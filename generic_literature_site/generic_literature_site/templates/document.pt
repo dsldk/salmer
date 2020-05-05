@@ -11,8 +11,6 @@
         <div class="documentFrame container" tal:condition="page_is_available">
             <div class="row document-wrapper">
                 <div class="col-sm-6 chapter-box">
-                    <tal tal:condition="python:False" metal:use-macro='load:facsimile_info.pt'></tal>
-
                     <tal metal:use-macro='load:text.pt'></tal>
                 </div>
 

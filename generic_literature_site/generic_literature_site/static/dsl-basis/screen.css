@@ -10,7 +10,7 @@
 
 h1 {
     margin: 1em 0;
-    position: relative;
+    /* position: relative; */
 }
 div.metadata {
     margin: 1.9em 0;
@@ -22,7 +22,7 @@ div.body {
     position: relative;
 }
 p {
-    margin: 1em 0;  
+    margin: 1em 0;
     position: relative;
 }
 p.poetry{
@@ -31,7 +31,7 @@ p.poetry{
 .speech {
     position:relative;
 }
-.epigraph {   
+.epigraph {
     margin-bottom: 3em;
     margin-left: 20%;
     position:relative;
@@ -64,7 +64,7 @@ span.caption {
     top: 0;
     font-size: 1em;
     text-align: center;
-    color: #999;   
+    color: #999;
 }
 .legacy-page-break{
 }
@@ -88,7 +88,7 @@ span.caption {
 
 .sidenotes {
     color: gray;
-    font: .700em/1.44 Verdana, sans-serif; 
+    font: .700em/1.44 Verdana, sans-serif;
     list-style: none;
     background: none;
     position: absolute;

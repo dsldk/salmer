@@ -1,4 +1,29 @@
-// .page-break-value {
-//   left:-30px;
-//   position: absolute;
-// }
+#facsimile-tab {
+  display: flex;
+  justify-content: center;
+}
+
+.facsimile-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .75rem;
+  font-weight: bold;
+  background-color: #ecece8;
+  border:1px solid rgba(0,0,0,0.15);
+  padding: 0.25em;
+  left:0;
+  position: absolute;
+}
+
+.facsimile-thumb {
+  background-color: #ecece8;
+  border:1px solid rgba(0,0,0,0.15);
+  padding: 1em;
+  text-align: center;
+  .facsimile-title {
+    font-style:italic;
+  }
+  img {
+    display: block;
+    margin: 1em auto;
+  }
+}

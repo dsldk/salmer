@@ -1,0 +1,5 @@
+<p i18n:translate="" i18n:domain="generic_literature_site" style="margin-bottom:1em;">
+  Klik på et sidetal i teksten til venstre for at se en faksimile af siden.
+</p>
+<div id="facsimile-tab">
+</div>

@@ -21,30 +21,11 @@
     <xsl:template match="tei:pb">
         <span class="legacy-page-break">
             <span class="page-break-mark">|</span>
-            <span class="page-break-value">
-                <xsl:element name="span">
-                    <xsl:attribute name="class">facsimile-reference</xsl:attribute>
-                    <xsl:attribute name="id">facsimile-reference<xsl:value-of select="@n"/>
-                    </xsl:attribute>
-                    <xsl:element name="a">
-                        <xsl:attribute name="class">facsimile-link</xsl:attribute>
-                        <xsl:value-of select="@n"/>
-                    </xsl:element>
-                </xsl:element>
-                <xsl:element name="span">
-                    <xsl:attribute name="style">display:none;</xsl:attribute>
-                    <xsl:attribute name="class">facsimile-image</xsl:attribute>
-                    <xsl:attribute name="id">
-                        <xsl:value-of select="@n"/>
-                    </xsl:attribute>
-                    <a>
-                        <xsl:attribute name="href">/static/facsimiles/document_id_placeholder/<xsl:value-of select="@facs"/>.jpg</xsl:attribute>
-                        <xsl:element name="img">
-                            <xsl:attribute name="src">/static/facsimiles/document_id_placeholder/<xsl:value-of select="@facs"/>_small.jpg</xsl:attribute>
-                        </xsl:element>
-                    </a>
-                </xsl:element>
-            </span>
+            <xsl:element name="a">
+                <xsl:attribute name="class">facsimile-link</xsl:attribute>
+                <xsl:attribute name="href">/static/facsimiles/document_id_placeholder/<xsl:value-of select="@facs"/>.jpg</xsl:attribute>
+                <xsl:value-of select="@n"/>
+            </xsl:element>
         </span>
     </xsl:template>
 </xsl:stylesheet>
