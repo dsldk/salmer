@@ -15,7 +15,7 @@ h1 {
 div.metadata {
     margin: 1.9em 0;
     margin-bottom: 2.7em;
-    position: relative;
+    /* position: relative; */
 }
 div.body {
     margin: 10em 0;
@@ -23,7 +23,7 @@ div.body {
 }
 p {
     margin: 1em 0;
-    position: relative;
+    /* position: relative; */
 }
 p.poetry{
     margin-left: 1em;
