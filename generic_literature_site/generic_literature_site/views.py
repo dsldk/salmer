@@ -1118,8 +1118,17 @@ available_categories = [
 def get_available_documents(request):
     documents_xquery = "list_titles.xquery"
     documents = execute_xquery(request, documents_xquery)
+    available_documents = {}
 
-    available_documents = {d["path"]: d["id"] for d in documents["result"]}
+    for d in documents["result"]:
+        xml_name = d["path"]
+        author_xquery = f"author_of_document.xquery?id={xml_name}"
+        author = execute_xquery(request, author_xquery)
+        if author:
+            title = author + ": " + d["id"]
+        else:
+            title = d["id"]
+        available_documents[xml_name] = title
 
     return available_documents
 
@@ -1280,7 +1289,6 @@ def order_by_id(results):
         if result not in list_of_results:
             list_of_results.append(result)
         document_id_dict[document_id] = list_of_results
-
     ordered_dict = collections.OrderedDict(
         sorted(document_id_dict.items(), key=lambda t: t[0])
     )
