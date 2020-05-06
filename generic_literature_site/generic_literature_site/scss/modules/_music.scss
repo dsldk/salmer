@@ -5,7 +5,7 @@
   margin:10px 0 0 !important;
   position:absolute;
   top:0;
-  right:0;
+  right:1em;
   input[type="radio"] {
     position:static;
     opacity:1;
@@ -29,12 +29,15 @@
 .mei {
   float:none!important;
   margin-right:0 !important;
-  width:calc(100% - 3.5rem)!important;
+  width:calc(100% - 4.5rem)!important;
   max-width:50rem!important; // corresponds to a reasonable musical note size
   svg {
     .dir.comment {
       fill:#0000ff!important;
       stroke:#0000ff!important;
+      tspan.text {
+        font-family: 'Montserrat', sans-serif;
+      }
     }
   }
 }

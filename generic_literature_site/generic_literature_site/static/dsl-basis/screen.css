@@ -10,20 +10,20 @@
 
 h1 {
     margin: 1em 0;
-    position: relative;
+    /* position: relative; */
 }
 div.metadata {
     margin: 1.9em 0;
     margin-bottom: 2.7em;
-    position: relative;
+    /* position: relative; */
 }
 div.body {
     margin: 10em 0;
     position: relative;
 }
 p {
-    margin: 1em 0;  
-    position: relative;
+    margin: 1em 0;
+    /* position: relative; */
 }
 p.poetry{
     margin-left: 1em;
@@ -31,7 +31,7 @@ p.poetry{
 .speech {
     position:relative;
 }
-.epigraph {   
+.epigraph {
     margin-bottom: 3em;
     margin-left: 20%;
     position:relative;
@@ -47,24 +47,24 @@ p.poetry{
 }
 span.caption {
     display: block;
-    left: -6em;
+    /* left: -6em;
     width: 6em;
     position: absolute;
     top: 0;
     font-size: 1em;
-    text-align: center;
+    text-align: center; */
     color: #999;
 }
 
 .p-number {
     display: block;
-    left: -4em;
+    /* left: -4em;
     width: 6em;
     position: absolute;
     top: 0;
     font-size: 1em;
-    text-align: center;
-    color: #999;   
+    text-align: center; */
+    color: #999;
 }
 .legacy-page-break{
 }
@@ -88,7 +88,7 @@ span.caption {
 
 .sidenotes {
     color: gray;
-    font: .700em/1.44 Verdana, sans-serif; 
+    font: .700em/1.44 Verdana, sans-serif;
     list-style: none;
     background: none;
     position: absolute;
