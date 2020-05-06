@@ -3,7 +3,7 @@
         <div class="background-box" tal:condition="page_is_available">
             <div class="headline-box container">
                 <div class="col">
-                    <h1>${title_of_current_document}</h1>
+			<h1><span tal:condition="author_of_document">${author_of_document}: </span>${title_of_current_document}</h1>
                     <tal metal:use-macro='load:note_box.pt'></tal>
                 </div>
             </div>

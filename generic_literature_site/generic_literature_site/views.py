@@ -696,6 +696,9 @@ def smn_view(request):
         current_section,
     )
     chapters_of_document = chapter_dict["chapters_of_document"]
+    author_of_document = execute_xquery(
+        request, f"author_of_document.xquery?id={document_id}"
+    )
     chapter_arg = chapter_dict["chapter_arg"]
     sections_of_previous_chapter = chapter_dict["sections_of_previous_chapter"]
     named_chapter = chapter_dict["named_chapter"]
@@ -810,6 +813,7 @@ def smn_view(request):
         "smn": results,
         "pages": pages,
         "title_of_current_document": title_of_current_document,
+        "author_of_document": author_of_document,
         "breadcrumb": breadcrumb,
         "titles": titles.text,
         "document_id": document_id,
