@@ -10,8 +10,13 @@
   background-color: #ecece8;
   border:1px solid rgba(0,0,0,0.15);
   padding: 0.25em;
-  left:0;
+  left: 0;
+  right:auto;
   position: absolute;
+  @media all and(min-width:1280px) {
+    left:auto;
+    right:calc(100% - 3rem); // - 3rem instead of 4rem to allow the remaining 1rem as padding
+  }
 }
 
 .facsimile-thumb {

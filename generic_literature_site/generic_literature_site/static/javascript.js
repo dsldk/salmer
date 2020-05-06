@@ -511,7 +511,7 @@ $(function(){
   // clicking a facsimile link should show it in the right-hand pane.
   $('.chapter-box').on('click', '.facsimile-link', function(e) {
     e.preventDefault();
-    var pg = $(this).text()
+    var pg = $(this).text();
     var href = $(this).attr('href');
     var imgUrl = href.replace(/\.(.*?)$/, '_small.$1');
     // check if the small version exists
@@ -519,8 +519,8 @@ $(function(){
       url: imgUrl,
       method: 'HEAD',
       complete: function (jqXHR, status) {
-        var injectedHtml = ''
-        var status = jqXHR.status
+        var injectedHtml = '';
+        var status = jqXHR.status;
         if (status === 200) {
           injectedHtml = '<div class="facsimile-thumb">' + '<span class="facsimile-title">' +
             __[loc]('Faksimile for side') + ' ' +
@@ -528,11 +528,11 @@ $(function(){
             '<a href="' + href + '" target="_blank">' +
             '<img src="' + imgUrl + '" alt="">' +
             '<span>' + __[loc]('Se en stor udgave af') + ' ' + pg + '</span>'
-            '</a>' + '</div>'
+            '</a>' + '</div>';
         }
         else {
           injectedHtml = '<div class="facsimile-thumb">' +
-            __[loc]('Faksimilen kunne ikke findes')
+            __[loc]('Faksimilen') + ' ' + pg + ' ' + __[loc]('kunne ikke findes');
         }
 
         $('#facsimile-tab').html(injectedHtml);
@@ -540,7 +540,7 @@ $(function(){
       }
     });
   });
-})
+});
 
 function checkCookie()
 {

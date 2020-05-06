@@ -31,7 +31,7 @@ $width-transition:width ease-in-out 250ms;
 }
 .document-wrapper {
   box-sizing:border-box;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 992px) {
     // overflow:hidden;
     display:flex;
     justify-content: flex-start;
@@ -75,6 +75,26 @@ $width-transition:width ease-in-out 250ms;
     font-size:1.4em;
     font-family:"Cormorant", serif;
     transform:translate(0); // hack to create new stacking context, so that absolutely positioned page numbers still scroll along with the text
+
+    // positioning of page links in left margin, start
+
+    padding-left:0;
+    margin-left:0;
+    #region-content {
+      padding-left:4rem;
+    }
+    .documentFrame:not(.full-width) & {
+      @media all and(min-width:1280px) {
+        padding-left:4rem;
+        margin-left:-4rem;
+        #region-content {
+          padding-left:0;
+        }
+      }
+    }
+
+    // positioning of page links in left margin, end
+
     table, th, td {
       border: 1px solid gray;
       border-spacing: 0;
@@ -86,16 +106,13 @@ $width-transition:width ease-in-out 250ms;
     th, td {
       padding: .5em;
     }
-    > #region-content {
-      padding-left: 3rem;
-    }
   }
   #lang-chapter-wrapper {
     display:none;
   }
   .tabs-box {
     margin-top:2em;
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 992px) {
       margin-top:0;
     }
   }
