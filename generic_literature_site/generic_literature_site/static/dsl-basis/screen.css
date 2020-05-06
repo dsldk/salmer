@@ -47,23 +47,23 @@ p.poetry{
 }
 span.caption {
     display: block;
-    left: -6em;
+    /* left: -6em;
     width: 6em;
     position: absolute;
     top: 0;
     font-size: 1em;
-    text-align: center;
+    text-align: center; */
     color: #999;
 }
 
 .p-number {
     display: block;
-    left: -4em;
+    /* left: -4em;
     width: 6em;
     position: absolute;
     top: 0;
     font-size: 1em;
-    text-align: center;
+    text-align: center; */
     color: #999;
 }
 .legacy-page-break{
