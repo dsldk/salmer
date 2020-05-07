@@ -1262,7 +1262,6 @@ def format_kwic_lines(i):
                 if text.lower().strip().endswith(
                     i["q"]
                 ) or text.lower().strip().startswith(i["q"]):
-                    print("Tekst med fejl %s" % text)
                     skip = True
             html = html + text
         if skip:
