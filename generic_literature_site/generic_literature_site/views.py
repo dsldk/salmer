@@ -493,17 +493,21 @@ def insert_note_texts(request, pages):
 def notes_for_document(
     xquery_folder, document_id, chapter, section, section_and_chapter
 ):
-    if section_and_chapter in [
-        "titelblad",
-        "dedikation",
-        "preface",
-        "forord",
-        "motto",
-        "introduktion",
-        "kalender",
-        "indholdsfortegnelse",
-        "back",
-    ] or chapter == "back":
+    if (
+        section_and_chapter
+        in [
+            "titelblad",
+            "dedikation",
+            "preface",
+            "forord",
+            "motto",
+            "introduktion",
+            "kalender",
+            "indholdsfortegnelse",
+            "back",
+        ]
+        or chapter == "back"
+    ):
         return []
     url = (
         xquery_folder
@@ -798,14 +802,22 @@ def smn_view(request):
 
     def get_prefix(chapter):
         prefix = ""
+
         # chapter.no is x/y for chapter/section, i.e. sections
         # will contain a slash. Use this to distinguish from chapters,
         # and indent the section
         if "/" in str(chapter["no"]):
             prefix += "&nbsp;&nbsp;&nbsp;"
-        # chapters such as "titelblad" will have a property "header_no"
-        # with a value of 0
-        if "header_no" not in chapter or not chapter["header_no"] == 0:
+        # Back material has chapter_no "back" but may also have a slash.
+        if chapter["no"] == "back":
+            return prefix
+        elif chapter["no"].startswith("back"):
+            prefix += (
+                chapter["no"].replace("back/", " ").replace("/", ".") + ": "
+            )
+        elif "header_no" not in chapter or not chapter["header_no"] == 0:
+            # chapters such as "titelblad" will have a property "header_no"
+            # with a value of 0
             prefix += str(chapter["no"]).replace("/", ".") + ": "
         return prefix
 
