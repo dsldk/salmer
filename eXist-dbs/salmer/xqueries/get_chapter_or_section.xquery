@@ -31,7 +31,7 @@ let $selection := if ($chapter_name = 'metadata')
                   else if ($chapter_name = 'motto')
                   then $xmldoc//tei:front/tei:epigraph
                   else if ($chapter_name = 'back')
-                  then $xmldoc/tei:TEI//tei:back
+                  then $xmldoc/tei:TEI//tei:back/tei:div
                   else $xmldoc//tei:body/tei:div[$chapter]
 
 return if ($section = 0 and $selection[tei:lg])
