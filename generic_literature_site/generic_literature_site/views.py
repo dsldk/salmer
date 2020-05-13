@@ -502,7 +502,8 @@ def notes_for_document(
         "introduktion",
         "kalender",
         "indholdsfortegnelse",
-    ]:
+        "back",
+    ] or chapter == "back":
         return []
     url = (
         xquery_folder
@@ -640,6 +641,7 @@ def add_named_chapters(
         {"name": "Indholdsfortegnelse", "no": "toc-section"},
         {"name": "Kalender", "no": "calendar"},
         {"name": "Introduktion", "no": "introduction"},
+        {"name": "Appendiks", "no": "back"},
     ]
     chapters_of_document = additional_chapters + chapters_of_document
     for additional_chapter in additional_chapters:
