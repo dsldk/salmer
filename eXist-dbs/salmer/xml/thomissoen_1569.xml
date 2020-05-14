@@ -28332,64 +28332,59 @@
                             </list>
                         </div>
                     </div>
-                    <div xml:id="as-dedikation">
-                        <head type="add">Anders Sørensens dedikation</head>
-                        <head><hi rend="italics">IN DANICVM PSALTERIVM <lb/> editum a M. Iohanne
-                                Thoma præce<lb rend="="/>ptore suo carissimo.</hi></head>
-                        <lg>
-                            <l><hi rend="italics"><c function="initials" rend="2">V</c>Idit et vt
-                                    vidit peruerso lumine Momus,</hi></l>
-                            <l><space extent="2blanks"/><hi rend="italics">Tam pulcrum eximij forte
-                                    laboris opus:</hi></l>
-                            <l><hi rend="italics">Quorsum inquit, parui precij, mediocris
-                                    opellæ,</hi></l>
-                            <l><space extent="2blanks"/><hi rend="italics">Nullius ingenij, res
-                                    iterare leues?</hi></l>
-                            <l><hi rend="italics">Legit at hoc idem, et penitus lecto, arbiter
-                                    æquus,</hi></l>
-                            <l><space extent="2blanks"/><hi rend="italics">Omnia Musarum numina
-                                    testor, ait:</hi></l>
-                            <l><hi rend="italics">Non melius forma, præstantius ordine,
-                                maius</hi></l>
-                            <l><space extent="2blanks"/><hi rend="italics">Iudicio quicquam hoc
-                                    prodijt in genere.</hi></l>
-                            <l><space extent="4blanks"/><hi rend="italics">Andreas Seuerinus
-                                V.</hi></l>
-                        </lg>
-                    </div>
-                    <div xml:id="til-laeseren">
-                        <head type="add">Til læseren</head>
-                        <head><pb n="E827" facs="825"/>Til Læseren.</head>
-                        <p>
-                            <c function="initials" rend="4">C</c>Hristelige fromme Læsere/ denne
-                                Psal<lb rend="="/>mebog met mange Gudelige Psalmer/ aff
-                            <lb/>Hederlig oc høylerd Mand M. Hans Tho<lb rend="="/>missøn Sogneprest
-                            til vor Frue Kircke i Kiø<lb rend="="/>benhaffn oc Prouest <ex>etc</ex>.
-                            Ordentlig oc flittelig tilsam<lb rend="="/>menset/ formerit oc
-                            forbedrit/ Haffuer ieg nu/ Den <lb/> allsommectigste Gud til loff oc
-                            ære/ hans hellige <lb/>Ord til forfremmelse/ den hellige Christelig
-                            Kircke <lb/>til opbyggelse/ oc alle fromme Gudfryctige Christ<lb
-                                rend="="/>ne her vdi Danmarckis oc Norgis Riger til nytte <lb/>gaffn
-                            oc gode/ fuldkommet/ oc met stor bekostning <lb/>arbeid oc wmage/ som
-                            ieg wspart der paa vent haff<lb rend="="/>uer/ ved Prent ladit vdgaa.
-                            Thi beder ieg ydmy<lb rend="="/>geligen/ at du dette mit arbeid vilde
-                            tage til tacke/ <lb/>oc bruge det Christeligen/ at Guds naffn kunde end
-                            <lb/>oc i saa maade iblant oss varaffteligen prisis. Den <lb/>euige gode
-                            Gud/ Fader oc Søn oc hellig Aand/ samle <lb/>sig her stedse sin Kircke/
-                            oc lade sit hellige Ord altid <lb/> reent oc klart bliffue iblant oss/
-                            Amen. Giff<lb rend="="/>uit i Kiøbenhaffn/ den 8. Septemb. <lb/>Aar
-                                <ex>etc</ex>. 1569. </p>
-                    </div>
-                    <div>
-                        <p> Laurentz Benedicht. </p>
-                    </div>
-                    <div>
-                        <head>Prentet i Kiøbenhaffn/ aff <lb/>Laurentz Bene<lb rend="="/>dicht.
-                            <lb/> M. D. Lxix.</head>
-                        <head>
-                            <hi rend="italics">Cum gratia et Priuilegio Serenissimæ <lb/> Regiæ
-                                Maiestatis.</hi></head>
-                    </div>
+                </div>
+            </div>
+            <div xml:id="as-dedikation">
+                <head type="add">Anders Sørensens dedikation</head>
+                <head><hi rend="italics">IN DANICVM PSALTERIVM <lb/> editum a M. Iohanne Thoma
+                            præce<lb rend="="/>ptore suo carissimo.</hi></head>
+                <lg>
+                    <l><hi rend="italics"><c function="initials" rend="2">V</c>Idit et vt vidit
+                            peruerso lumine Momus,</hi></l>
+                    <l><space extent="2blanks"/><hi rend="italics">Tam pulcrum eximij forte laboris
+                            opus:</hi></l>
+                    <l><hi rend="italics">Quorsum inquit, parui precij, mediocris opellæ,</hi></l>
+                    <l><space extent="2blanks"/><hi rend="italics">Nullius ingenij, res iterare
+                            leues?</hi></l>
+                    <l><hi rend="italics">Legit at hoc idem, et penitus lecto, arbiter
+                        æquus,</hi></l>
+                    <l><space extent="2blanks"/><hi rend="italics">Omnia Musarum numina testor,
+                            ait:</hi></l>
+                    <l><hi rend="italics">Non melius forma, præstantius ordine, maius</hi></l>
+                    <l><space extent="2blanks"/><hi rend="italics">Iudicio quicquam hoc prodijt in
+                            genere.</hi></l>
+                    <l><space extent="4blanks"/><hi rend="italics">Andreas Seuerinus V.</hi></l>
+                </lg>
+            </div>
+            <div xml:id="til-laeseren">
+                <head type="add">Til læseren</head>
+                <head><pb n="E827" facs="825"/>Til Læseren.</head>
+                <p>
+                    <c function="initials" rend="4">C</c>Hristelige fromme Læsere/ denne Psal<lb
+                        rend="="/>mebog met mange Gudelige Psalmer/ aff <lb/>Hederlig oc høylerd
+                    Mand M. Hans Tho<lb rend="="/>missøn Sogneprest til vor Frue Kircke i Kiø<lb
+                        rend="="/>benhaffn oc Prouest <ex>etc</ex>. Ordentlig oc flittelig tilsam<lb
+                        rend="="/>menset/ formerit oc forbedrit/ Haffuer ieg nu/ Den <lb/>
+                    allsommectigste Gud til loff oc ære/ hans hellige <lb/>Ord til forfremmelse/ den
+                    hellige Christelig Kircke <lb/>til opbyggelse/ oc alle fromme Gudfryctige
+                        Christ<lb rend="="/>ne her vdi Danmarckis oc Norgis Riger til nytte
+                    <lb/>gaffn oc gode/ fuldkommet/ oc met stor bekostning <lb/>arbeid oc wmage/ som
+                    ieg wspart der paa vent haff<lb rend="="/>uer/ ved Prent ladit vdgaa. Thi beder
+                    ieg ydmy<lb rend="="/>geligen/ at du dette mit arbeid vilde tage til tacke/
+                    <lb/>oc bruge det Christeligen/ at Guds naffn kunde end <lb/>oc i saa maade
+                    iblant oss varaffteligen prisis. Den <lb/>euige gode Gud/ Fader oc Søn oc hellig
+                    Aand/ samle <lb/>sig her stedse sin Kircke/ oc lade sit hellige Ord altid <lb/>
+                    reent oc klart bliffue iblant oss/ Amen. Giff<lb rend="="/>uit i Kiøbenhaffn/
+                    den 8. Septemb. <lb/>Aar <ex>etc</ex>. 1569. </p>
+                <div>
+                    <head> Laurentz Benedicht. </head>
+                </div>
+                <div>
+                    <head>Prentet i Kiøbenhaffn/ aff <lb/>Laurentz Bene<lb rend="="/>dicht. <lb/> M.
+                        D. Lxix.</head>
+                    <head>
+                        <hi rend="italics">Cum gratia et Priuilegio Serenissimæ <lb/> Regiæ
+                            Maiestatis.</hi></head>
                 </div>
             </div>
         </back>
