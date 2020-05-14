@@ -26050,9 +26050,11 @@
             <div type="register" xml:id="register">
                 <head type="add">Register</head>
                 <head n="4"><pb n="E797" facs="795"/>Register offuer den<lb rend="="/>ne Bog.</head>
-                <p> * Naar her staar effter Ziffer tallit it punct (.) <lb/>da mercker det den
-                    første side paa bladdit. Men <lb/>naar der staar ij puncter effter Ziffer tallit
-                    (:) <lb/>da mercker det den anden side <lb/>paa bladdit. </p>
+                <div>
+                    <p> * Naar her staar effter Ziffer tallit it punct (.) <lb/>da mercker det den
+                        første side paa bladdit. Men <lb/>naar der staar ij puncter effter Ziffer
+                        tallit (:) <lb/>da mercker det den anden side <lb/>paa bladdit. </p>
+                </div>
                 <div type="index" xml:id="index-messe">
                     <head type="add">Den evangeliske messe</head>
                     <head> I. <lb/> Om den Danske Euangeliske <lb/> Messe. </head>
@@ -28359,33 +28361,35 @@
             <div xml:id="til-laeseren">
                 <head type="add">Til læseren</head>
                 <head><pb n="E827" facs="825"/>Til Læseren.</head>
-                <p>
-                    <c function="initials" rend="4">C</c>Hristelige fromme Læsere/ denne Psal<lb
-                        rend="="/>mebog met mange Gudelige Psalmer/ aff <lb/>Hederlig oc høylerd
-                    Mand M. Hans Tho<lb rend="="/>missøn Sogneprest til vor Frue Kircke i Kiø<lb
-                        rend="="/>benhaffn oc Prouest <ex>etc</ex>. Ordentlig oc flittelig tilsam<lb
-                        rend="="/>menset/ formerit oc forbedrit/ Haffuer ieg nu/ Den <lb/>
-                    allsommectigste Gud til loff oc ære/ hans hellige <lb/>Ord til forfremmelse/ den
-                    hellige Christelig Kircke <lb/>til opbyggelse/ oc alle fromme Gudfryctige
-                        Christ<lb rend="="/>ne her vdi Danmarckis oc Norgis Riger til nytte
-                    <lb/>gaffn oc gode/ fuldkommet/ oc met stor bekostning <lb/>arbeid oc wmage/ som
-                    ieg wspart der paa vent haff<lb rend="="/>uer/ ved Prent ladit vdgaa. Thi beder
-                    ieg ydmy<lb rend="="/>geligen/ at du dette mit arbeid vilde tage til tacke/
-                    <lb/>oc bruge det Christeligen/ at Guds naffn kunde end <lb/>oc i saa maade
-                    iblant oss varaffteligen prisis. Den <lb/>euige gode Gud/ Fader oc Søn oc hellig
-                    Aand/ samle <lb/>sig her stedse sin Kircke/ oc lade sit hellige Ord altid <lb/>
-                    reent oc klart bliffue iblant oss/ Amen. Giff<lb rend="="/>uit i Kiøbenhaffn/
-                    den 8. Septemb. <lb/>Aar <ex>etc</ex>. 1569. </p>
                 <div>
-                    <head> Laurentz Benedicht. </head>
+                    <p>
+                        <c function="initials" rend="4">C</c>Hristelige fromme Læsere/ denne Psal<lb
+                            rend="="/>mebog met mange Gudelige Psalmer/ aff <lb/>Hederlig oc høylerd
+                        Mand M. Hans Tho<lb rend="="/>missøn Sogneprest til vor Frue Kircke i Kiø<lb
+                            rend="="/>benhaffn oc Prouest <ex>etc</ex>. Ordentlig oc flittelig
+                            tilsam<lb rend="="/>menset/ formerit oc forbedrit/ Haffuer ieg nu/ Den
+                        <lb/> allsommectigste Gud til loff oc ære/ hans hellige <lb/>Ord til
+                        forfremmelse/ den hellige Christelig Kircke <lb/>til opbyggelse/ oc alle
+                        fromme Gudfryctige Christ<lb rend="="/>ne her vdi Danmarckis oc Norgis Riger
+                        til nytte <lb/>gaffn oc gode/ fuldkommet/ oc met stor bekostning <lb/>arbeid
+                        oc wmage/ som ieg wspart der paa vent haff<lb rend="="/>uer/ ved Prent ladit
+                        vdgaa. Thi beder ieg ydmy<lb rend="="/>geligen/ at du dette mit arbeid vilde
+                        tage til tacke/ <lb/>oc bruge det Christeligen/ at Guds naffn kunde end
+                        <lb/>oc i saa maade iblant oss varaffteligen prisis. Den <lb/>euige gode
+                        Gud/ Fader oc Søn oc hellig Aand/ samle <lb/>sig her stedse sin Kircke/ oc
+                        lade sit hellige Ord altid <lb/> reent oc klart bliffue iblant oss/ Amen.
+                            Giff<lb rend="="/>uit i Kiøbenhaffn/ den 8. Septemb. <lb/>Aar
+                            <ex>etc</ex>. 1569. </p>
+                    <p rend="right">Laurentz Benedicht.</p>
                 </div>
-                <div>
-                    <head>Prentet i Kiøbenhaffn/ aff <lb/>Laurentz Bene<lb rend="="/>dicht. <lb/> M.
-                        D. Lxix.</head>
-                    <head>
-                        <hi rend="italics">Cum gratia et Priuilegio Serenissimæ <lb/> Regiæ
-                            Maiestatis.</hi></head>
-                </div>
+            </div>
+            <div>
+              <head type="add">Impressum</head>
+                <head>Prentet i Kiøbenhaffn/ aff <lb/>Laurentz Bene<lb rend="="/>dicht. <lb/> M. D.
+                    Lxix.</head>
+                <head>
+                    <hi rend="italics">Cum gratia et Priuilegio Serenissimæ <lb/> Regiæ
+                        Maiestatis.</hi></head>
             </div>
         </back>
     </text>
