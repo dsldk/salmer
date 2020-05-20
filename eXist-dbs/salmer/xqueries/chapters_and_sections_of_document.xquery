@@ -16,8 +16,8 @@ return
                                      return <sections><no>{$sCount}</no><name>{$section}</name></sections>}
                                 
                             </chapters>                     
- let $backmatter := for $chapter at $sCount in $xmldoc/tei:TEI//tei:back/tei:div
-        return <chapters><name>Appendiks</name><no>back</no><sections><no>{$sCount}</no><name>{$chapter/tei:head[@type="add"]//normalize-space()}</name></sections></chapters>
+ let $backmatter := <chapters><name>Appendiks</name><no>back</no> {for $section at $sCount in $xmldoc/tei:TEI//tei:back/tei:div
+         return <sections><no>{$sCount}</no><name>{$section/tei:head[@type="add"]//normalize-space()}</name></sections>}</chapters>
     return 
     <results>
        {$chapters}
