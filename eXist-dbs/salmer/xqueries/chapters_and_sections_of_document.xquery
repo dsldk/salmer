@@ -16,8 +16,10 @@ return
                                      return <sections><no>{$sCount}</no><name>{$section}</name></sections>}
                                 
                             </chapters>                     
- let $backmatter := <chapters><name>Appendiks</name><no>back</no> {for $section at $sCount in $xmldoc/tei:TEI//tei:back/tei:div
+ let $backmatter := if ($xmldoc/tei:TEI//tei:back/tei:div)
+                      then <chapters><name>Appendiks</name><no>back</no> {for $section at $sCount in $xmldoc/tei:TEI//tei:back/tei:div
          return <sections><no>{$sCount}</no><name>{$section/tei:head[@type="add"]//normalize-space()}</name></sections>}</chapters>
+         else ""
     return 
     <results>
        {$chapters}
