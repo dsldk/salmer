@@ -2,9 +2,7 @@ Installationsvejledning
 =======================
 
 Denne vejledning forklarer, hvordan man får en ny udviklingsmaskine op
-at køre med det generiske website baseret på Brandessitet. Når den er
-afprøvet og vi ved, at alt virker, som det skal, kan den flyttes til
-kildekoden.
+at køre med salme-sitet.
 
 Vi antager i det følgende, at dit udgangspunkt er en bruger med
 sudo-rettigheder på en helt nyinstalleret maskine, f.eks. en ny KVM-VM,
@@ -36,11 +34,11 @@ Installér ``eXist``
 Sitet virker p.t. med ``eXist`` 2.2. Der er ikke gjort noget forsøg på
 at få det til at virke på en senere version. Install by whatever means -
 en hurtig metode til udvikling er at kopiere ``eXist``-installationen
-fra Brandes-sitet.
+fra et site, som man har adgang til.
 
 F.eks::
 
-    scp -r brandes:/srv/brandes/eXist-db .
+    scp -r salmer.magenta.dk:/srv/dsl/eXist-db .
 
 ``eXist`` vil nu kunne startes::
 
@@ -54,7 +52,7 @@ stedet, eller brug ``byobu`` e.l. til at have flere vinduer åbne i
 terminalen.
 
 Du kan nu mounte ``eXist``'s ``apps``-mappe for at oprette en database
-til det nye site (mere om det nedenunder)::
+til salmesitet, hvis der ikke allerede er en::
 
     mkdir xml-dbs
     sudo mount -w -t davfs http://localhost:8080/exist/webdav/db/apps ./xml-dbs && sudo chown -R ubuntu:ubuntu xml-dbs && sudo -R chmod a+w ./xml-dbs
@@ -70,8 +68,8 @@ Opret og aktiver virtualenv
 
 ::
 
-    git clone git@git.magenta.dk:dsldk/dsl_site_template
-    cd dsl_site_template
+    git clone git@git.magenta.dk:dsldk/salmer
+    cd salmer
     python3 -m venv venv
     source venv/bin/activate
 
@@ -117,7 +115,7 @@ derefter ned i mappen med Pyramid-sitet::
 Pyramid-sitet er nu installeret, men før du kan køre det, skal du have
 installeret den tilhørende ``eXist``-database::
 
-    sudo cp -r generic-eXist-data ../xml-dbs
+    sudo cp -r eXist-dbs/salmer ../xml-dbs
 
 Dette skal udføres i roden af mappen ``dsl_site_template``. Du er nu
 færdig med selve installationen.
@@ -137,26 +135,25 @@ derfor gerne kunne gå ind på den tilsvarende URL og se sitet.
 Appendix: Fix permissions i ``eXist``
 +++++++++++++++++++++++++++++++++++++
 
-Du _burde_ nu være færdig, som jeg skrev herover, men faktisk får du en
-fejl, som skyldes at der ikke er sat execute-permissions på
-xQuery-scripts i ``eXist``.
+Du _burde_ nu være færdig, som jeg skrev herover, men hvis databasen til
+salmesitet er nyoprettet i ``eXist``, får du en fejl, som skyldes at der
+ikke er sat execute-permissions på xQuery-scripts.
 
 Dette er muligvis en fejl i ``eXist``, eftersom filerne ligger med
-execute-permissions i Git. For at ordne det, er vi nødt til at gå ind i
+execute-permissions i Git. For at ordne det er vi nødt til at gå ind i
 ``eXist``'s kommandolinjeklient::
 
     cd ../../eXist-db
     bin/client.sh -s -u <brugernavn> -P <password>
     cd apps
-    cd generic-eXist-data
+    cd salmer
     cd xqueries
     chmod check_header_chapters.xquery user=+execute,group=+execute,other=+execute
     # Gentag ovenstående linje for alle de xqueries, du skal bruge
     quit
 
-For at køre det helt basale generiske site, som det ser ud i dag, er det
-kun nødvendigt at ændre betingelser på det ene script, der vises i
-eksemplet, men lige så snart vi skal manipulere tekster (i et
-ikke-template-site), skal der sættes på hvert enkelt script, vi får brug
-for (hvilket er mange af dem, omend ikke dem alle sammen - dette kan vi
-rydde op i en anden gang).
+
+Hvis du har kopieret data fra et eksisterende salme-site, er dette nok
+allerede på plads, men hvis du senere opdaterer med et helt nyt
+xQuery-script, kan det igen være nødvendigt at følge ovenstående
+procedure.
