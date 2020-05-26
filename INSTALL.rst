@@ -160,13 +160,13 @@ Mappen skal have denne struktur::
            ...
 
 Værdierne af JPEG-filnavnene skal svare til attributten ``facs`` i
-XML-teksternes ``<pb>``-tag, altså fx ``facs="001``.
+XML-teksternes ``<pb>``-tag, altså fx ``facs="001"``.
 
 
 Appendix: Fix permissions i ``eXist``
 +++++++++++++++++++++++++++++++++++++
 
-Du _burde_ nu være færdig, som jeg skrev herover, men hvis databasen til
+Du *burde* nu være færdig, som jeg skrev herover, men hvis databasen til
 salmesitet er nyoprettet i ``eXist``, får du en fejl, som skyldes at der
 ikke er sat execute-permissions på xQuery-scripts.
 
