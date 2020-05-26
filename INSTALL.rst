@@ -132,6 +132,11 @@ Du burde nu være klar til at køre sitet::
 Du skulle gerne se linjen "Serving on http://0.0.0.0:6543", og du skulle
 derfor gerne kunne gå ind på den tilsvarende URL og se sitet.
 
+Konfiguration af eXist og facsimiles
+------------------------------------
+
+
+
 Appendix: Fix permissions i ``eXist``
 +++++++++++++++++++++++++++++++++++++
 
