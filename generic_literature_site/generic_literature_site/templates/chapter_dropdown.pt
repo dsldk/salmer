@@ -8,6 +8,7 @@
                         value="${i.no}"
                         data-ajax-url="${get_location(i.no)}"
                         selected="${str(i.no)==str(current_section_and_chapter) and 'selected'}"
+			disabled="${'disabled' if i.no in inactive_chapters else False}"
                     >${structure: get_prefix(i)}${i.name}
                     </option>
                 </tal:loop>

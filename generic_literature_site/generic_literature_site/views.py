@@ -821,6 +821,8 @@ def smn_view(request):
             prefix += str(chapter["no"]).replace("/", ".") + ": "
         return prefix
 
+    # Disable some chapters in menu - for now only "Appendiks", maybe refine later.
+    inactive_chapters = ['back']
     return {
         "layout": site_layout(),
         "page_title": "Home",
@@ -867,6 +869,7 @@ def smn_view(request):
         "no_title": _("(uden titel)"),
         "get_location": get_location,
         "get_prefix": get_prefix,
+        "inactive_chapters": inactive_chapters,
     }
 
 
