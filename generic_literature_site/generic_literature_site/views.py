@@ -505,8 +505,9 @@ def notes_for_document(
             "kalender",
             "indholdsfortegnelse",
             "back",
+            "front"
         ]
-        or chapter == "back"
+        or chapter in ["back", "front"]
     ):
         return []
     url = (
@@ -639,13 +640,8 @@ def add_named_chapters(
     chapters_of_document = chapters["chapters_of_document"]
     additional_chapters = [
         {"name": "Titelblad", "no": "titelblad"},
-        {"name": "Dedikation", "no": "dedikation"},
-        {"name": "Motto", "no": "motto"},
-        {"name": "Forord", "no": "preface"},
-        {"name": "Indholdsfortegnelse", "no": "toc-section"},
-        {"name": "Kalender", "no": "calendar"},
-        {"name": "Introduktion", "no": "introduction"},
         {"name": "Appendiks", "no": "back"},
+        {"name": "Redaktionelt", "no": "front"},
     ]
     chapters_of_document = additional_chapters + chapters_of_document
     for additional_chapter in additional_chapters:
@@ -814,6 +810,13 @@ def smn_view(request):
         elif chapter["no"].startswith("back"):
             prefix += (
                 chapter["no"].replace("back/", " ").replace("/", ".") + ": "
+            )
+        # Front material has chapter_no "front" but may also have a slash.
+        if chapter["no"] == "front":
+            return prefix
+        elif chapter["no"].startswith("front"):
+            prefix += (
+                chapter["no"].replace("front/", " ").replace("/", ".") + ": "
             )
         elif "header_no" not in chapter or not chapter["header_no"] == 0:
             # chapters such as "titelblad" will have a property "header_no"

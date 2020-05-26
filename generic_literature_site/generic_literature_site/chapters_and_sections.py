@@ -84,7 +84,7 @@ def add_to_header(header_chapters, header_chapter_list, tag_name, title_name):
 
 def add_header_chapters(xquery_folder, document_id, chapters_of_document):
     url = xquery_folder + "check_header_chapters.xquery?id=%s" % document_id
-    # import pdb; pdb.set_trace()
+    import pdb; pdb.set_trace()
     result = get(url)
     header_chapters = result.json()
     header_chapter_list = []
@@ -93,25 +93,7 @@ def add_header_chapters(xquery_folder, document_id, chapters_of_document):
         header_chapters, header_chapter_list, "title_page", "Titelblad"
     )
     header_chapter_list = add_to_header(
-        header_chapters, header_chapter_list, "dedication", "Dedikation"
-    )
-    header_chapter_list = add_to_header(
-        header_chapters, header_chapter_list, "preface", "Forord"
-    )
-    header_chapter_list = add_to_header(
-        header_chapters, header_chapter_list, "epigraph", "Motto"
-    )
-    header_chapter_list = add_to_header(
-        header_chapters,
-        header_chapter_list,
-        "toc-section",
-        "Indholdsfortegnelse",
-    )
-    header_chapter_list = add_to_header(
-        header_chapters, header_chapter_list, "calendar", "Kalender"
-    )
-    header_chapter_list = add_to_header(
-        header_chapters, header_chapter_list, "introduction", "Introduktion"
+        header_chapters, header_chapter_list, "front", "Redaktionelt"
     )
 
     sorted_header = sorted(header_chapter_list, key=itemgetter("header_no"))
