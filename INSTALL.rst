@@ -132,9 +132,35 @@ Du burde nu være klar til at køre sitet::
 Du skulle gerne se linjen "Serving on http://0.0.0.0:6543", og du skulle
 derfor gerne kunne gå ind på den tilsvarende URL og se sitet.
 
-Konfiguration af eXist og facsimiles
-------------------------------------
+Konfiguration - eXist og facsimiles
+-----------------------------------
 
+Filen ``development.ini`` indeholder defaults, der egner sig til udvikling.
+
+I filen ``production.ini`` er der et eksempel på en mere produktionsegneti
+indstilling.
+
+I alle tilfælde skal disse to linjer rettes til den korrekte værdi for din
+opsætning::
+
+    exist_server = http://localhost:8080/exist/rest/db/apps/salmer/
+    facsimiles = /srv/dsl/facsimiles
+
+Hvis du kører eXist et andet sted end på ``localhost``, skal du
+(naturligvis) angive den rigtige URL.
+
+Facsimile-mappen skal pege på, hvor du vælger at lægge facsimiles.
+
+Mappen skal have denne struktur::
+
+    /sti/til/facsimiles
+        /<xml_id>
+           001.jpg
+           002.jpg
+           ...
+
+Værdierne af JPEG-filnavnene skal svare til attributten ``facs`` i
+XML-teksternes ``<pb>``-tag, altså fx ``facs="001``.
 
 
 Appendix: Fix permissions i ``eXist``
