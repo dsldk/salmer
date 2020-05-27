@@ -5,6 +5,9 @@
 
 .chapter-dropdown {
   margin:0 1em;
+  option[disabled] {
+    color: #999;
+  }
 }
 
 .chapter-selector,
