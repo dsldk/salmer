@@ -774,6 +774,19 @@ def smn_view(request):
     pages = insert_note_texts(request, pages)
     chapters_of_document = chapters_and_sections["chapters_of_document"]
 
+    ################### TODO TODO TODO ############################
+    #
+    #   * Chapters come in order in chapters_of_document
+    #   * Chapters in chapters_of_document have name and number
+    #   * Thus, find *current* chapter in list
+    #   * Find previous and next chapters, if any
+    #   * Update templates
+    #   * When this works, carefully delete the old handling of this stuff
+    #
+    ################### TODO TODO TODO ############################
+
+    print(chapters_of_document)
+
     notes_dict = setup_note_dict(request)
 
     notes_for_chapter = []
@@ -835,7 +848,6 @@ def smn_view(request):
         "document_id": document_id,
         "document_id_without_xml": document_id_without_xml,
         "chapters_of_document": chapters_of_document,
-        "chapters_and_sections_of_document": chapters_and_sections,
         "sections_of_chapter": sections,
         "sections_of_previous_chapter": sections_of_previous_chapter,
         "is_last_section": is_last_section,
