@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: generic_literature_site 1.0\n"
-"POT-Creation-Date: 2020-04-21 10:33+0000\n"
+"POT-Creation-Date: 2020-06-02 08:55+0000\n"
 "PO-Revision-Date: 2019-03-28 10:56+0000\n"
 "Last-Translator: Ubuntu <carstena@magenta.dk>\n"
 "Language-Team: English\n"
@@ -57,34 +57,59 @@ msgid "Emner"
 msgstr "Topics"
 
 #: generic_literature_site/templates/content_of_front_page.pt:13
-#: generic_literature_site/templates/top_links.pt:27
-#: generic_literature_site/views.py:1059
+#: generic_literature_site/templates/top_links.pt:30
+#: generic_literature_site/views.py:1083
 msgid "Tekster"
 msgstr "Texts"
 
 #: generic_literature_site/templates/content_of_front_page.pt:15
-#: generic_literature_site/templates/content_of_front_page.pt:28
-#: generic_literature_site/templates/content_of_front_page.pt:41
-msgid "Emphasis"
-msgstr "Emphasis"
+msgid ""
+"Tekstkritiske udgaver af Danmarks første salmebøger, messebøger og Bibel med "
+"noder, ordbog og indledninger"
+msgstr ""
+"Critical editions of the first Danish hymn books, service books and Bible with "
+"music notation, dictionary and introductions"
 
-#: generic_literature_site/templates/content_of_front_page.pt:15
-#: generic_literature_site/templates/content_of_front_page.pt:28
-#: generic_literature_site/templates/content_of_front_page.pt:41
-msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#: generic_literature_site/templates/content_of_front_page.pt:18
+msgid "Gå til tekstoversigt"
+msgstr "Go to overview of texts"
 
-#: generic_literature_site/templates/content_of_front_page.pt:26
-#: generic_literature_site/templates/top_links.pt:30
-#: generic_literature_site/views.py:1067
-msgid "Værktøjer"
-msgstr "Tools"
-
-#: generic_literature_site/templates/content_of_front_page.pt:39
+#: generic_literature_site/templates/content_of_front_page.pt:27
 #: generic_literature_site/templates/top_links.pt:33
-#: generic_literature_site/views.py:1083 generic_literature_site/views.py:1100
+msgid "Melodier"
+msgstr "Melodies"
+
+#: generic_literature_site/templates/content_of_front_page.pt:29
+msgid ""
+"Database med melodierne i værkerne, supplerende historiske oplysninger og "
+"henvisninger til andre musikressourcer"
+msgstr ""
+"Database with the melodies of the books, additional information and "
+"references to other musicological resources"
+
+#: generic_literature_site/templates/content_of_front_page.pt:32
+msgid "Gå til databasen med melodier. Åbner i et nyt vindue."
+msgstr "Go to the database of melodies. Opens in a new window."
+
+#: generic_literature_site/templates/content_of_front_page.pt:41
+#: generic_literature_site/templates/top_links.pt:36
+#: generic_literature_site/views.py:1099 generic_literature_site/views.py:1116
 msgid "Forskning"
 msgstr "Research"
+
+#: generic_literature_site/templates/content_of_front_page.pt:43
+#, fuzzy
+msgid "Indledninger til værkerne og resultater fra forskningsprojektet"
+msgstr "Introductions to the books and research papers from the project"
+
+#: generic_literature_site/templates/content_of_front_page.pt:43
+#, fuzzy
+msgid "Danske reformationssalmer Melodier og tekster 1529-1573"
+msgstr "Music and Language in Danish Reformation Hymns"
+
+#: generic_literature_site/templates/content_of_front_page.pt:46
+msgid "Gå til forskningssektionen"
+msgstr "Go to research section"
 
 #: generic_literature_site/templates/dictionary_tab.pt:1
 msgid ""
@@ -93,6 +118,11 @@ msgid ""
 msgstr ""
 "You can look up words from the text in the Danish dictionary.  Activate "
 "\"dictionary\" towards the top of the page to get started."
+
+#: generic_literature_site/templates/facsimile_tab.pt:1
+msgid ""
+"Klik på et sidetal i tekstens venstremargin for at se en faksimile af siden."
+msgstr "Click on a page number in the left margin of the text to see a facsimile of the page."
 
 #: generic_literature_site/templates/footer.pt:9
 msgid "Det Danske Sprog- og Litteraturselskab"
@@ -121,41 +151,20 @@ msgid "Visning af supplerende tekster kræver JavaScript."
 msgstr "JavaScript is required to see the supplementary texts."
 
 #: generic_literature_site/templates/note_box.pt:9
-msgid "Personer"
-msgstr "Persons"
-
-#: generic_literature_site/templates/note_box.pt:18
-msgid "Værker"
-msgstr "Works"
-
-#: generic_literature_site/templates/note_box.pt:27
-msgid "Karakterer"
-msgstr "Characters"
-
-#: generic_literature_site/templates/note_box.pt:36
-msgid "Steder"
-msgstr "Places"
-
-#: generic_literature_site/templates/note_box.pt:45
-#: generic_literature_site/templates/tabs_box.pt:3
-msgid "Kommentar"
-msgstr "Notes"
-
-#: generic_literature_site/templates/note_box.pt:54
 msgid "Tekstkritik"
 msgstr "Textual criticism"
 
-#: generic_literature_site/templates/note_box.pt:62
-#: generic_literature_site/templates/tabs_box.pt:6
+#: generic_literature_site/templates/note_box.pt:17
+#: generic_literature_site/templates/tabs_box.pt:7
 msgid "Ordbog"
 msgstr "Dictionary"
 
 #. Used in sentence: "<dynamic element> <dynamic element>"
-#: generic_literature_site/templates/note_box.pt:70
+#: generic_literature_site/templates/note_box.pt:25
 msgid "Forøg/formindsk spaltebredde"
-msgstr ""
+msgstr "Increase/decrease column width"
 
-#: generic_literature_site/templates/note_box.pt:69
+#: generic_literature_site/templates/note_box.pt:24
 msgid "<dynamic element> <dynamic element>"
 msgstr ""
 
@@ -167,23 +176,6 @@ msgstr "comments are not associated with the database"
 msgid "Intet tidligere kapitel"
 msgstr "No previous chapter"
 
-#: generic_literature_site/templates/previous_next_chapters.pt:4
-#: generic_literature_site/templates/previous_next_chapters.pt:13
-msgid "Forrige afsnit:"
-msgstr "Previous section:"
-
-#: generic_literature_site/templates/previous_next_chapters.pt:20
-msgid "Forrige kapitel:"
-msgstr "Previous chapter:"
-
-#: generic_literature_site/templates/previous_next_chapters.pt:27
-msgid "Næste afsnit:"
-msgstr "Next section:"
-
-#: generic_literature_site/templates/previous_next_chapters.pt:34
-msgid "Næste kapitel:"
-msgstr "Next chapter:"
-
 #: generic_literature_site/templates/search.pt:7
 msgid "Du har søgt på:"
 msgstr "You searched for:"
@@ -192,35 +184,55 @@ msgstr "You searched for:"
 msgid "Afgræns søgning"
 msgstr "Filter search results"
 
-#: generic_literature_site/templates/search.pt:13
-#: generic_literature_site/templates/search.pt:71
-msgid "Sprog:"
-msgstr "Language:"
+#: generic_literature_site/templates/search.pt:11
+#, fuzzy
+msgid "Tekster:"
+msgstr "Texts"
 
-#: generic_literature_site/templates/search.pt:40
+#: generic_literature_site/templates/search.pt:26
+msgid "Vælg alle"
+msgstr "Select all"
+
+#: generic_literature_site/templates/search.pt:26
+msgid "Fravælg alle"
+msgstr "Deselect all"
+
+#: generic_literature_site/templates/search.pt:26
+msgid "Søg"
+msgstr "Search"
+
+#: generic_literature_site/templates/search.pt:38
 msgid "Resultater:"
 msgstr "Results:"
 
-#: generic_literature_site/templates/search.pt:65
+#: generic_literature_site/templates/search.pt:63
 msgid "Kapitel"
 msgstr "Chapter"
 
-#: generic_literature_site/templates/search.pt:68
+#: generic_literature_site/templates/search.pt:66
 msgid "Afsnit"
 msgstr "Section"
 
-#: generic_literature_site/templates/search.pt:72
-#: generic_literature_site/templates/search.pt:77
+#: generic_literature_site/templates/search.pt:69
+msgid "Sprog:"
+msgstr "Language:"
+
+#: generic_literature_site/templates/search.pt:70
+#: generic_literature_site/templates/search.pt:75
 msgid "Emne:"
 msgstr "Topic:"
 
-#: generic_literature_site/templates/search.pt:92
+#: generic_literature_site/templates/search.pt:90
 msgid "Ingen resultater matchede din søgning"
 msgstr "No results matched your search"
 
-#: generic_literature_site/templates/search.pt:97
+#: generic_literature_site/templates/search.pt:95
 msgid "Indtast et søgeord i søgefeltet øverst på siden"
 msgstr "Type a search term in the field above"
+
+#: generic_literature_site/templates/tabs_box.pt:3
+msgid "Kommentar"
+msgstr "Notes"
 
 #: generic_literature_site/templates/tabs_box.pt:4
 msgid "Oversættelser"
@@ -230,7 +242,11 @@ msgstr "Translations"
 msgid "Varians"
 msgstr "Variants"
 
-#: generic_literature_site/templates/tabs_box.pt:7
+#: generic_literature_site/templates/tabs_box.pt:6
+msgid "Faksimile"
+msgstr "Facsimile"
+
+#: generic_literature_site/templates/tabs_box.pt:8
 #: generic_literature_site/views.py:137
 msgid "Om teksten"
 msgstr "About the text"
@@ -244,6 +260,11 @@ msgid "Vis/skjul menu"
 msgstr "Show/hide menu"
 
 #: generic_literature_site/templates/top_links.pt:14
+#: generic_literature_site/views.py:958 generic_literature_site/views.py:1091
+msgid "Vejledning"
+msgstr "Tutorial"
+
+#: generic_literature_site/templates/top_links.pt:17
 msgid "Om"
 msgstr "About"
 
@@ -263,57 +284,79 @@ msgstr "app."
 msgid "født"
 msgstr "born"
 
-#: generic_literature_site/views.py:315
+#: generic_literature_site/views.py:321
 msgid "Fejl: id indeholder ikke-engelske tegn"
 msgstr "Error: id contains non-English characters"
 
-#: generic_literature_site/views.py:827
+#: generic_literature_site/views.py:865
 msgid "Næste kapitel"
 msgstr "Next chapter"
 
-#: generic_literature_site/views.py:828
+#: generic_literature_site/views.py:866
 msgid "Forrige kapitel"
 msgstr "Previous chapter"
 
-#: generic_literature_site/views.py:829
+#: generic_literature_site/views.py:867
 msgid "Næste afsnit"
 msgstr "Next section"
 
-#: generic_literature_site/views.py:830
+#: generic_literature_site/views.py:868
 msgid "Forrige afsnit"
 msgstr "Previous section"
 
-#: generic_literature_site/views.py:831
+#: generic_literature_site/views.py:869
 msgid "(uden titel)"
 msgstr "(no title)"
 
-#: generic_literature_site/views.py:895
+#: generic_literature_site/views.py:919
 msgid "Om projektet"
 msgstr "About this project"
 
-#: generic_literature_site/views.py:903
+#: generic_literature_site/views.py:927
 msgid "Data"
 msgstr "Data"
 
-#: generic_literature_site/views.py:934
-msgid "Vejledning"
-msgstr "Tutorial"
-
-#: generic_literature_site/views.py:955
+#: generic_literature_site/views.py:979
 msgid "Register"
 msgstr "Index"
 
-#: generic_literature_site/views.py:1075
-msgid "Tidslinje"
-msgstr "Timeline"
-
-#: generic_literature_site/views.py:1205
+#: generic_literature_site/views.py:1212
 msgid "Søgeresultat"
 msgstr "Search results"
 
-#: generic_literature_site/views.py:1318
+#: generic_literature_site/views.py:1323
 msgid "(ingen titel)"
 msgstr "(no title)"
+
+#~ msgid "Værktøjer"
+#~ msgstr "Tools"
+
+#~ msgid "Personer"
+#~ msgstr "Persons"
+
+#~ msgid "Værker"
+#~ msgstr "Works"
+
+#~ msgid "Karakterer"
+#~ msgstr "Characters"
+
+#~ msgid "Steder"
+#~ msgstr "Places"
+
+#~ msgid "Forrige afsnit:"
+#~ msgstr "Previous section:"
+
+#~ msgid "Forrige kapitel:"
+#~ msgstr "Previous chapter:"
+
+#~ msgid "Næste afsnit:"
+#~ msgstr "Next section:"
+
+#~ msgid "Næste kapitel:"
+#~ msgstr "Next chapter:"
+
+#~ msgid "Tidslinje"
+#~ msgstr "Timeline"
 
 #~ msgid "Project title"
 #~ msgstr "Project title"
@@ -350,9 +393,6 @@ msgstr "(no title)"
 
 #~ msgid "Supplér!"
 #~ msgstr "Complement!"
-
-#~ msgid "Introduktioner til teksterne og resultater fra forskningsprojektet"
-#~ msgstr "Introductions to the texts and insights from the research project"
 
 #~ msgid "Digitale Hovedstrømninger"
 #~ msgstr "Digital Currents"
