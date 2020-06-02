@@ -218,8 +218,8 @@ def get_chapter(xquery_folder, document_id, chapter, section):
     if chapter == 0:
         url = (
             xquery_folder
-            + "get_chapter_or_section.xquery?id=%"
-            + "s&chapter=%s&frontpage_section=%s"
+            + "get_chapter_or_section.xquery"
+            + "?id=%s&chapter=%s&frontpage_section=%s"
             % (document_id, chapter, section)
         )
     if isinstance(chapter, str):

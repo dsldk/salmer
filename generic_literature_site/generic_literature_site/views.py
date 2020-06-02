@@ -51,7 +51,6 @@ from .exist_api.exist_api import (
 from .chapters_and_sections import (
     get_sections,
     get_chapter,
-    chapter_name,
     chapter_names,
     get_section_info,
     chapter_and_section_names,
@@ -296,9 +295,9 @@ def colorByCookie(request, pages, class_name, color):
         )
     elif class_name == "textcriticalnote":
         pages = pages.replace(
-            'class="%s annotation-marker"' % class_name,
-            'class="%s annotation-marker hidden" style="cursor:pointer;background-color:%s"'
-            % (class_name, color),
+            f'class="{class_name} annotation-marker"',
+            f'class="{class_name} annotation-marker hidden"'
+            + f' style="cursor:pointer;background-color:{color}"',
         )
     return pages
 
@@ -684,7 +683,6 @@ def smn_view(request):
     section_and_chapter = chapter
     if current_section:
         section_and_chapter = "%s/%s" % (chapter, current_section)
-    results = arguments["results"]
     menu_by = arguments["menu_by"]
     sections = get_sections(xquery_folder, document_id, chapter)
     chapters = chapter_names(xquery_folder, document_id)
@@ -708,7 +706,6 @@ def smn_view(request):
     chapter_arg = chapter_dict["chapter_arg"]
     sections_of_previous_chapter = chapter_dict["sections_of_previous_chapter"]
     named_chapter = chapter_dict["named_chapter"]
-    chapter = chapter_dict["chapter"]
     redirect = redirect_from_select_menu(
         request, menu_by, document_id, chapter, current_section, sections
     )
@@ -719,23 +716,6 @@ def smn_view(request):
     )
     document_id_without_xml = remove_dot_xml(document_id)
     pages = pages.replace("document_id_placeholder", document_id_without_xml)
-    try:
-        previous_chapter_name = chapter_name(
-            xquery_folder, document_id, chapter - 1
-        )
-    except Exception:
-        pass
-    last_chapter = 0
-    if chapters_of_document:
-        try:
-            last_chapter = int(chapters_of_document[-1].get("no"))
-        except Exception:
-            last_chapter = 0
-    next_chapter_name = ""
-    if chapter < last_chapter:
-        next_chapter_name = chapter_name(
-            xquery_folder, document_id, chapter + 1
-        )
 
     section_info = get_section_info(
         xquery_folder,
@@ -756,7 +736,9 @@ def smn_view(request):
     is_last_section = section_info["is_last_section"]
     next_section_name = section_info["next_section_name"]
     is_last_chapter = False
-    if chapter == len(chapters_of_document):
+    # This should be found out by checking if the chapter is last
+    # in the list, not by the number of chapters.
+    if chapters_of_document and chapter == chapters_of_document[-1]["no"]:
         is_last_chapter = True
     set_menu_by_cookie(request)
     listings_for_menu = make_listings_for_menu(xquery_folder, document_id)
@@ -774,18 +756,34 @@ def smn_view(request):
     pages = insert_note_texts(request, pages)
     chapters_of_document = chapters_and_sections["chapters_of_document"]
 
-    ################### TODO TODO TODO ############################
-    #
     #   * Chapters come in order in chapters_of_document
     #   * Chapters in chapters_of_document have name and number
-    #   * Thus, find *current* chapter in list
+    #   * Find *current* chapter in list
     #   * Find previous and next chapters, if any
-    #   * Update templates
-    #   * When this works, carefully delete the old handling of this stuff
-    #
-    ################### TODO TODO TODO ############################
 
-    print(chapters_of_document)
+    def find_current_chapter_and_section(chapters, no):
+        for c in chapters:
+            if c["no"] == no:
+                return c
+
+    current_item = find_current_chapter_and_section(
+        chapters_of_document, section_and_chapter
+    )
+    if current_item:
+        current_item_index = chapters_of_document.index(current_item)
+    else:
+        current_item_index = None
+    if (
+        current_item_index
+        and current_item_index < len(chapters_of_document) - 1
+    ):
+        next_item = chapters_of_document[current_item_index + 1]
+    else:
+        next_item = {"no": None, "name": None}
+    if current_item_index and current_item_index > 0:
+        previous_item = chapters_of_document[current_item_index - 1]
+    else:
+        previous_item = {"no": None, "name": None}
 
     notes_dict = setup_note_dict(request)
 
@@ -834,12 +832,11 @@ def smn_view(request):
             prefix += str(chapter["no"]).replace("/", ".") + ": "
         return prefix
 
-    # Disable some chapters in menu - for now only "Appendiks", maybe refine later.
-    inactive_chapters = ['back']
+    # Disable some chapters in menu - for now only "Appendiks".
+    inactive_chapters = ["back"]
     return {
         "layout": site_layout(),
         "page_title": "Home",
-        "smn": results,
         "pages": pages,
         "title_of_current_document": title_of_current_document,
         "author_of_document": author_of_document,
@@ -857,8 +854,6 @@ def smn_view(request):
         "current_named_chapter": named_chapter,
         "current_section": current_section,
         "current_section_and_chapter": section_and_chapter,
-        "previous_chapter_name": previous_chapter_name,
-        "next_chapter_name": next_chapter_name,
         "previous_section_name": previous_section_name,
         "next_section_name": next_section_name,
         "last_section_in_previous_chapter": last_section_in_previous_chapter,
@@ -882,6 +877,10 @@ def smn_view(request):
         "get_location": get_location,
         "get_prefix": get_prefix,
         "inactive_chapters": inactive_chapters,
+        "next_item_name": next_item["name"],
+        "next_item_no": next_item["no"],
+        "previous_item_name": previous_item["name"],
+        "previous_item_no": previous_item["no"],
     }
 
 
@@ -1423,8 +1422,6 @@ def empty_dictionary():
         "chapters_of_document": "",
         "no_of_chapters": "",
         "current_chapter": 0,
-        "previous_chapter_name": "",
-        "next_chapter_name": "",
         "titles_for_authors": [],
         "page_is_available": False,
         "id_of_title": "",
