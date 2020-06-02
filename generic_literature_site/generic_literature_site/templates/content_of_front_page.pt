@@ -12,9 +12,10 @@
               </div>
               <h3 class="library__item-title" i18n:translate="">Tekster</h3>
             </div>
-            <p><strong i18n:translate="">Emphasis</strong> <span tal:omit-tag="" i18n:translate="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+            <p><span tal:omit-tag="" i18n:translate="">Tekstkritiske udgaver af Danmarks første salmebøger, messebøger og Bibel med noder, ordbog og
+indledninger</span></p>
             <div class="library__item-link">
-              <a href="/texts" class="btn btn-primary arrow-r"></a>
+              <a href="/texts" class="btn btn-primary arrow-r"><span class="sr-only" i18n:translate="">Gå til tekstoversigt</span></a>
             </div>
         </div>
 
@@ -23,11 +24,12 @@
               <div class="library__item-icon">
                 <img src="/static/comp.svg" alt="" />
               </div>
-              <h3 class="library__item-title" i18n:translate="">Vejledning</h3>
+              <h3 class="library__item-title" i18n:translate="">Melodier</h3>
             </div>
-            <p><strong i18n:translate="">Emphasis</strong> <span tal:omit-tag="" i18n:translate="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+            <p><span tal:omit-tag="" i18n:translate="">Database med melodierne i værkerne, supplerende historiske oplysninger og henvisninger til andre
+musikressourcer</span></p>
             <div class="library__item-link">
-              <a href="/guidelines" class="btn btn-primary arrow-r"></a>
+              <a href="https://salmer.dsl.dk/index.xq" target="_blank" class="btn btn-primary arrow-r"><span class="sr-only" i18n:translate="">Gå til databasen med melodier. Åbner i et nyt vindue.</span></a>
             </div>
           </div>
 
@@ -38,9 +40,10 @@
               </div>
               <h3 class="library__item-title" i18n:translate="">Forskning</h3>
             </div>
-            <p><strong i18n:translate="">Emphasis</strong> <span tal:omit-tag="" i18n:translate="">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></p>
+            <p><span tal:omit-tag="" i18n:translate="">Indledninger til værkerne og resultater fra forskningsprojektet</span> <em i18n:translate="">Danske reformationssalmer
+Melodier og tekster 1529-1573</em></p>
             <div class="library__item-link">
-              <a href="/research" class="btn btn-primary arrow-r"></a>
+              <a href="/research" class="btn btn-primary arrow-r"><span class="sr-only" i18n:translate="">Gå til forskningssektionen</span></a>
             </div>
           </div>
       </div>
