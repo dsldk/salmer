@@ -11,6 +11,9 @@
       <div class="header__menu-primary">
         <ul>
           <li>
+              <a href="/guidelines" i18n:translate="">Vejledning</a>
+          </li>
+          <li>
               <a href="/about" i18n:translate="">Om</a>
           </li>
           <li>
@@ -27,7 +30,7 @@
               <a href="/texts" i18n:translate="">Tekster</a>
           </li>
           <li>
-              <a href="/guidelines" i18n:translate="">Vejledning</a>
+              <a href="https://salmer.dsl.dk/index.xq" target="_blank" i18n:translate="">Melodier</a>
           </li>
           <li>
               <a href="/research" i18n:translate="">Forskning</a>
