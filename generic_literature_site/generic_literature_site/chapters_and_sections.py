@@ -108,12 +108,17 @@ def add_header_chapters(xquery_folder, document_id, chapters_of_document):
         header_chapter_list,
         "toc-section",
         "Indholdsfortegnelse",
+        True,
     )
     header_chapter_list = add_to_header(
         header_chapters, header_chapter_list, "calendar", "Kalender", True
     )
     header_chapter_list = add_to_header(
-        header_chapters, header_chapter_list, "introduction", "Introduktion"
+        header_chapters,
+        header_chapter_list,
+        "introduction",
+        "Introduktion",
+        True,
     )
 
     sorted_header = sorted(header_chapter_list, key=itemgetter("header_no"))

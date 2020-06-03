@@ -500,8 +500,10 @@ def notes_for_document(
             "forord",
             "motto",
             "introduktion",
+            "introduction",
             "calendar",
             "indholdsfortegnelse",
+            "toc-section",
             "back",
         ]
         or chapter == "back"
@@ -752,12 +754,11 @@ def smn_view(request):
     #   and number
     # * Find *current* chapter/section in list
     # * Find previous and next chapters, if any
-    # import pdb; pdb.set_trace()
+
     def find_current_chapter_and_section(chapters, no):
         for c in chapters:
             if c["no"] == no:
                 return c
-
     if current_section:
         current_item = find_current_chapter_and_section(
             chapters_and_sections["chapters_of_document"], section_and_chapter
@@ -775,7 +776,7 @@ def smn_view(request):
     else:
         current_item_index = None
     if (
-        current_item_index
+        current_item_index is not None
         and current_item_index
         < len(chapters_and_sections["chapters_of_document"]) - 1
     ):

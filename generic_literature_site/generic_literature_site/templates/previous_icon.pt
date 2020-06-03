@@ -1,4 +1,4 @@
-<tal:c tal:condition="sections_of_chapter" i18n:domain="generic_literature_site">
+<tal:c tal:condition="previous_item_no" i18n:domain="generic_literature_site">
     <tal:v tal:condition="current_section >= 1">
       <a tal:attributes="title string: ${previous_section} (${current_section-1}): ${previous_item_name}"
          accesskey="p" class="btn btn-primary arrow-l"
