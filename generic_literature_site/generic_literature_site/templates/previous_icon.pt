@@ -26,12 +26,3 @@ i18n:domain="generic_literature_site">
 </tal:c>
 
 
-<tal:c tal:condition="current_chapter == 1 and current_section == 0"
-                     i18n:domain="generic_literature_site">
-    <tal:v>
-      <a title="Intet tidligere kapitel"
-         accesskey="p" class="btn btn-primary arrow-l"
-         href=""
-         i18n:attributes="title"></a>
-    </tal:v>
-</tal:c>

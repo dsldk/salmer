@@ -500,7 +500,7 @@ def notes_for_document(
             "forord",
             "motto",
             "introduktion",
-            "kalender",
+            "calendar",
             "indholdsfortegnelse",
             "back",
         ]
@@ -609,6 +609,17 @@ def get_introduction_text(request, arguments):
     return introduction_text
 
 
+HEADER_CHAPTERS = [
+    {"name": "Titelblad", "no": "titelblad"},
+    {"name": "Dedikation", "no": "dedikation"},
+    {"name": "Motto", "no": "motto"},
+    {"name": "Forord", "no": "preface"},
+    {"name": "Indholdsfortegnelse", "no": "toc-section"},
+    {"name": "Kalender", "no": "calendar"},
+    {"name": "Introduktion", "no": "introduction"},
+]
+
+
 def add_named_chapters(
     request,
     xquery_folder,
@@ -635,15 +646,7 @@ def add_named_chapters(
     if named_chapter:
         chapter_arg = named_chapter
     chapters_of_document = chapters["chapters_of_document"]
-    additional_chapters = [
-        {"name": "Titelblad", "no": "titelblad"},
-        {"name": "Dedikation", "no": "dedikation"},
-        {"name": "Motto", "no": "motto"},
-        {"name": "Forord", "no": "preface"},
-        {"name": "Indholdsfortegnelse", "no": "toc-section"},
-        {"name": "Kalender", "no": "calendar"},
-        {"name": "Introduktion", "no": "introduction"},
-    ]
+    additional_chapters = HEADER_CHAPTERS
     end_chapters = [
         {"name": "Appendiks", "no": "back"},
     ]
@@ -689,7 +692,6 @@ def smn_view(request):
         section_and_chapter = "%s/%s" % (chapter, current_section)
     sections = get_sections(xquery_folder, document_id, chapter)
     chapters = chapter_names(xquery_folder, document_id)
-    page_is_available = chapters["page_is_available"]
     chapters_and_sections = chapter_and_section_names(
         xquery_folder, document_id
     )
@@ -708,7 +710,6 @@ def smn_view(request):
     )
     chapter_arg = chapter_dict["chapter_arg"]
     sections_of_previous_chapter = chapter_dict["sections_of_previous_chapter"]
-    named_chapter = chapter_dict["named_chapter"]
     redirect = redirect_from_select_menu(
         request, document_id, chapter, current_section, sections
     )
@@ -720,6 +721,7 @@ def smn_view(request):
     document_id_without_xml = remove_dot_xml(document_id)
     pages = pages.replace("document_id_placeholder", document_id_without_xml)
 
+    # TODO: This currently does not work for the "back" chapter.
     section_info = get_section_info(
         xquery_folder,
         document_id,
@@ -728,27 +730,13 @@ def smn_view(request):
         sections,
         sections_of_previous_chapter,
     )
-    previous_section_name = section_info["previous_section_name"]
 
-    last_section_in_previous_chapter = section_info[
-        "last_section_in_previous_chapter"
-    ]
-    last_section_in_previous_chapter_name = section_info[
-        "last_section_in_previous_chapter_name"
-    ]
-    is_last_section = section_info["is_last_section"]
-    next_section_name = section_info["next_section_name"]
     is_last_chapter = False
-    # This should be found out by checking if the chapter is last
-    # in the list, not by the number of chapters.
-    # TODO: Find out why "back" is not in the back of the list. Make it so if
-    # possible.
     if chapters_of_document and chapter == chapters_of_document[-1]["no"]:
         is_last_chapter = True
+
     listings_for_menu = make_listings_for_menu(xquery_folder, document_id)
-    titles_for_authors = listings_for_menu["titles_for_authors"]
-    id_of_title = listings_for_menu["id_of_title"]
-    titles = listings_for_menu["titles"]
+
     title_url = xquery_folder + "/title_of_document.xquery?id=" + document_id
     title_of_current_document = (
         get(title_url).text.replace('"', "").replace("null", "")
@@ -764,7 +752,7 @@ def smn_view(request):
     #   and number
     # * Find *current* chapter/section in list
     # * Find previous and next chapters, if any
-
+    # import pdb; pdb.set_trace()
     def find_current_chapter_and_section(chapters, no):
         for c in chapters:
             if c["no"] == no:
@@ -779,6 +767,8 @@ def smn_view(request):
             chapters_of_document, str(chapter)
         )
     if current_item:
+        if current_item in HEADER_CHAPTERS and "header_no" not in current_item:
+            current_item["header_no"] = 0
         current_item_index = chapters_and_sections[
             "chapters_of_document"
         ].index(current_item)
@@ -857,26 +847,30 @@ def smn_view(request):
         "title_of_current_document": title_of_current_document,
         "author_of_document": author_of_document,
         "breadcrumb": breadcrumb,
-        "titles": titles.text,
+        "titles": listings_for_menu["titles"].text,
         "document_id": document_id,
         "document_id_without_xml": document_id_without_xml,
         "chapters_of_document": chapters_and_sections["chapters_of_document"],
         "sections_of_chapter": sections,
         "sections_of_previous_chapter": sections_of_previous_chapter,
-        "is_last_section": is_last_section,
+        "is_last_section": section_info["is_last_section"],
         "is_last_chapter": is_last_chapter,
         "no_of_chapters": len(chapters_and_sections["chapters_of_document"]),
         "current_chapter": chapter,
-        "current_named_chapter": named_chapter,
+        "current_named_chapter": chapter_dict["named_chapter"],
         "current_section": current_section,
         "current_section_and_chapter": section_and_chapter,
-        "previous_section_name": previous_section_name,
-        "next_section_name": next_section_name,
-        "last_section_in_previous_chapter": last_section_in_previous_chapter,
-        "last_section_in_previous_chapter_name": last_section_in_previous_chapter_name,  # noqa
-        "titles_for_authors": titles_for_authors,
-        "page_is_available": page_is_available,
-        "id_of_title": id_of_title,
+        "previous_section_name": section_info["previous_section_name"],
+        "next_section_name": section_info["next_section_name"],
+        "last_section_in_previous_chapter": section_info[
+            "last_section_in_previous_chapter"
+        ],
+        "last_section_in_previous_chapter_name": section_info[
+            "last_section_in_previous_chapter_name"
+        ],
+        "titles_for_authors": listings_for_menu["titles_for_authors"],
+        "page_is_available": chapters["page_is_available"],
+        "id_of_title": listings_for_menu["id_of_title"],
         "html": getattr(request, "html", None),
         "title": title_of_current_document,
         "note_list": notes_for_chapter,
