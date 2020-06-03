@@ -20,15 +20,6 @@ from pyramid.httpexceptions import HTTPFound
 from .exist_api.exist_api import listify, remove_dot_xml
 
 
-def set_menu_by_cookie(request):
-    one_year_in_seconds = 31536000
-    menu_by = request.GET.get("menu_by")
-    if menu_by:
-        request.response.set_cookie(
-            "menu_by", value=menu_by, max_age=one_year_in_seconds
-        )
-
-
 def make_listings_for_menu(xquery_folder, document_id):
     titles_url = xquery_folder + "list_titles.xquery"
     titles = get(titles_url)
@@ -102,7 +93,7 @@ def make_listings_for_menu(xquery_folder, document_id):
 
 
 def redirect_from_select_menu(
-    request, menu_by, document_id, chapter, current_section, sections
+    request, document_id, chapter, current_section, sections
 ):
     redirect = False
     html = getattr(request, "html", None)
@@ -113,13 +104,10 @@ def redirect_from_select_menu(
             if chapter != 0:
                 chapter = "titelblad"
         document_id = remove_dot_xml(document_id)
-        menu_by_argument = ""
         url_prefix = "/text" if request.GET.get("text_only") else ""
-        if menu_by:
-            menu_by_argument = "?menu_by=%s" % menu_by
         if not document_id and not html:
             # print ("redirecting to front page")
-            redirect = HTTPFound(location="/front-page%s" % menu_by_argument)
+            redirect = HTTPFound(location="/front-page")
         elif (
             document_id
             and chapter
@@ -130,16 +118,12 @@ def redirect_from_select_menu(
             # print ("redirecting to section")
             redirect = HTTPFound(
                 location=url_prefix
-                + (
-                    "/%s/%s/%s%s"
-                    % (document_id, chapter, current_section, menu_by_argument)
-                )
+                + ("/%s/%s/%s" % (document_id, chapter, current_section))
             )
         elif document_id and chapter and not html:
             # print ("redirecting to chapter")
             redirect = HTTPFound(
-                location=url_prefix
-                + ("/%s/%s%s" % (document_id, chapter, menu_by_argument))
+                location=url_prefix + ("/%s/%s" % (document_id, chapter))
             )
     return redirect
 

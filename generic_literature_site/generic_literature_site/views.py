@@ -58,7 +58,6 @@ from .chapters_and_sections import (
 from .menu import (
     make_listings_for_menu,
     redirect_from_select_menu,
-    set_menu_by_cookie,
     get_breadcrumb,
 )
 import django
@@ -644,10 +643,16 @@ def add_named_chapters(
         {"name": "Indholdsfortegnelse", "no": "toc-section"},
         {"name": "Kalender", "no": "calendar"},
         {"name": "Introduktion", "no": "introduction"},
+    ]
+    end_chapters = [
         {"name": "Appendiks", "no": "back"},
     ]
-    chapters_of_document = additional_chapters + chapters_of_document
-    for additional_chapter in additional_chapters:
+    chapters_of_document = (
+        additional_chapters + chapters_of_document + end_chapters
+    )
+    for additional_chapter in additional_chapters + end_chapters:
+        # TODO: Here we get all content in all additional chapters from eXist
+        # just to see if the chapter is there. This is expensive!
         additional_chapter_name = additional_chapter.get("no")
         chapter_content = get_chapter(
             xquery_folder,
@@ -668,12 +673,11 @@ def add_named_chapters(
 
 @view_config(route_name="index_view", renderer="templates/document.pt")
 def smn_view(request):
+    """Render a section or chapter in a text."""
     database_address = request.registry.settings["exist_server"]
     xquery_folder = database_address + "xqueries/"
     arguments = parse_arguments(request, available_categories)
-    search_string = request.GET.get("q")
-    if not search_string:
-        search_string = ""
+    search_string = request.GET.get("q") or ""
     document_id = add_dot_xml(arguments.get("id"))
     ok = check_availability_of_server(request)
     if not ok or document_id in ["resources.xml", "favicon.ico.xml"]:
@@ -683,7 +687,6 @@ def smn_view(request):
     section_and_chapter = chapter
     if current_section:
         section_and_chapter = "%s/%s" % (chapter, current_section)
-    menu_by = arguments["menu_by"]
     sections = get_sections(xquery_folder, document_id, chapter)
     chapters = chapter_names(xquery_folder, document_id)
     page_is_available = chapters["page_is_available"]
@@ -707,7 +710,7 @@ def smn_view(request):
     sections_of_previous_chapter = chapter_dict["sections_of_previous_chapter"]
     named_chapter = chapter_dict["named_chapter"]
     redirect = redirect_from_select_menu(
-        request, menu_by, document_id, chapter, current_section, sections
+        request, document_id, chapter, current_section, sections
     )
     if redirect and chapter != 0:
         return redirect
@@ -738,9 +741,10 @@ def smn_view(request):
     is_last_chapter = False
     # This should be found out by checking if the chapter is last
     # in the list, not by the number of chapters.
+    # TODO: Find out why "back" is not in the back of the list. Make it so if
+    # possible.
     if chapters_of_document and chapter == chapters_of_document[-1]["no"]:
         is_last_chapter = True
-    set_menu_by_cookie(request)
     listings_for_menu = make_listings_for_menu(xquery_folder, document_id)
     titles_for_authors = listings_for_menu["titles_for_authors"]
     id_of_title = listings_for_menu["id_of_title"]
@@ -754,34 +758,46 @@ def smn_view(request):
     if hasattr(request, "title"):
         title_of_current_document = request.title
     pages = insert_note_texts(request, pages)
-    chapters_of_document = chapters_and_sections["chapters_of_document"]
 
-    #   * Chapters come in order in chapters_of_document
-    #   * Chapters in chapters_of_document have name and number
-    #   * Find *current* chapter in list
-    #   * Find previous and next chapters, if any
+    # * Chapters come in order in chapters_and_sections["chapters_of_document"]
+    # * Chapters in chapters_and_sections["chapters_of_document"] have name
+    #   and number
+    # * Find *current* chapter/section in list
+    # * Find previous and next chapters, if any
 
     def find_current_chapter_and_section(chapters, no):
         for c in chapters:
             if c["no"] == no:
                 return c
 
-    current_item = find_current_chapter_and_section(
-        chapters_of_document, section_and_chapter
-    )
+    if current_section:
+        current_item = find_current_chapter_and_section(
+            chapters_and_sections["chapters_of_document"], section_and_chapter
+        )
+    else:
+        current_item = find_current_chapter_and_section(
+            chapters_of_document, str(chapter)
+        )
     if current_item:
-        current_item_index = chapters_of_document.index(current_item)
+        current_item_index = chapters_and_sections[
+            "chapters_of_document"
+        ].index(current_item)
     else:
         current_item_index = None
     if (
         current_item_index
-        and current_item_index < len(chapters_of_document) - 1
+        and current_item_index
+        < len(chapters_and_sections["chapters_of_document"]) - 1
     ):
-        next_item = chapters_of_document[current_item_index + 1]
+        next_item = chapters_and_sections["chapters_of_document"][
+            current_item_index + 1
+        ]
     else:
         next_item = {"no": None, "name": None}
     if current_item_index and current_item_index > 0:
-        previous_item = chapters_of_document[current_item_index - 1]
+        previous_item = chapters_and_sections["chapters_of_document"][
+            current_item_index - 1
+        ]
     else:
         previous_item = {"no": None, "name": None}
 
@@ -844,12 +860,12 @@ def smn_view(request):
         "titles": titles.text,
         "document_id": document_id,
         "document_id_without_xml": document_id_without_xml,
-        "chapters_of_document": chapters_of_document,
+        "chapters_of_document": chapters_and_sections["chapters_of_document"],
         "sections_of_chapter": sections,
         "sections_of_previous_chapter": sections_of_previous_chapter,
         "is_last_section": is_last_section,
         "is_last_chapter": is_last_chapter,
-        "no_of_chapters": len(chapters_of_document),
+        "no_of_chapters": len(chapters_and_sections["chapters_of_document"]),
         "current_chapter": chapter,
         "current_named_chapter": named_chapter,
         "current_section": current_section,
@@ -861,7 +877,6 @@ def smn_view(request):
         "titles_for_authors": titles_for_authors,
         "page_is_available": page_is_available,
         "id_of_title": id_of_title,
-        "menu_by_not_cookie": menu_by,
         "html": getattr(request, "html", None),
         "title": title_of_current_document,
         "note_list": notes_for_chapter,
@@ -1229,7 +1244,6 @@ def search_results_view(request):
         "title": "Søgeresultat",
         "title_of_current_document": "Søgeresultat",
         "faksimile": None,
-        "menu_by_not_cookie": None,
         "breadcrumb": ["Søgeresultat"],
         "titles_for_authors": [],
         "results": results,
@@ -1436,5 +1450,4 @@ def empty_dictionary():
         "languages_as_text": "",
         "categories_as_text": "",
         "no_of_results": 0,
-        "menu_by_not_cookie": None,
     }
