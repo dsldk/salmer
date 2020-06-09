@@ -51,7 +51,6 @@ from .exist_api.exist_api import (
 from .chapters_and_sections import (
     get_sections,
     get_chapter,
-    chapter_name,
     chapter_names,
     get_section_info,
     chapter_and_section_names,
@@ -59,7 +58,6 @@ from .chapters_and_sections import (
 from .menu import (
     make_listings_for_menu,
     redirect_from_select_menu,
-    set_menu_by_cookie,
     get_breadcrumb,
 )
 import django
@@ -296,9 +294,9 @@ def colorByCookie(request, pages, class_name, color):
         )
     elif class_name == "textcriticalnote":
         pages = pages.replace(
-            'class="%s annotation-marker"' % class_name,
-            'class="%s annotation-marker hidden" style="cursor:pointer;background-color:%s"'
-            % (class_name, color),
+            f'class="{class_name} annotation-marker"',
+            f'class="{class_name} annotation-marker hidden"'
+            + f' style="cursor:pointer;background-color:{color}"',
         )
     return pages
 
@@ -502,8 +500,10 @@ def notes_for_document(
             "forord",
             "motto",
             "introduktion",
-            "kalender",
+            "introduction",
+            "calendar",
             "indholdsfortegnelse",
+            "toc-section",
             "back",
         ]
         or chapter == "back"
@@ -611,6 +611,17 @@ def get_introduction_text(request, arguments):
     return introduction_text
 
 
+HEADER_CHAPTERS = [
+    {"name": "Titelblad", "no": "titelblad"},
+    {"name": "Dedikation", "no": "dedikation"},
+    {"name": "Motto", "no": "motto"},
+    {"name": "Forord", "no": "preface"},
+    {"name": "Indholdsfortegnelse", "no": "toc-section"},
+    {"name": "Kalender", "no": "calendar"},
+    {"name": "Introduktion", "no": "introduction"},
+]
+
+
 def add_named_chapters(
     request,
     xquery_folder,
@@ -637,18 +648,16 @@ def add_named_chapters(
     if named_chapter:
         chapter_arg = named_chapter
     chapters_of_document = chapters["chapters_of_document"]
-    additional_chapters = [
-        {"name": "Titelblad", "no": "titelblad"},
-        {"name": "Dedikation", "no": "dedikation"},
-        {"name": "Motto", "no": "motto"},
-        {"name": "Forord", "no": "preface"},
-        {"name": "Indholdsfortegnelse", "no": "toc-section"},
-        {"name": "Kalender", "no": "calendar"},
-        {"name": "Introduktion", "no": "introduction"},
+    additional_chapters = HEADER_CHAPTERS
+    end_chapters = [
         {"name": "Appendiks", "no": "back"},
     ]
-    chapters_of_document = additional_chapters + chapters_of_document
-    for additional_chapter in additional_chapters:
+    chapters_of_document = (
+        additional_chapters + chapters_of_document + end_chapters
+    )
+    for additional_chapter in additional_chapters + end_chapters:
+        # TODO: Here we get all content in all additional chapters from eXist
+        # just to see if the chapter is there. This is expensive!
         additional_chapter_name = additional_chapter.get("no")
         chapter_content = get_chapter(
             xquery_folder,
@@ -669,12 +678,11 @@ def add_named_chapters(
 
 @view_config(route_name="index_view", renderer="templates/document.pt")
 def smn_view(request):
+    """Render a section or chapter in a text."""
     database_address = request.registry.settings["exist_server"]
     xquery_folder = database_address + "xqueries/"
     arguments = parse_arguments(request, available_categories)
-    search_string = request.GET.get("q")
-    if not search_string:
-        search_string = ""
+    search_string = request.GET.get("q") or ""
     document_id = add_dot_xml(arguments.get("id"))
     ok = check_availability_of_server(request)
     if not ok or document_id in ["resources.xml", "favicon.ico.xml"]:
@@ -684,11 +692,8 @@ def smn_view(request):
     section_and_chapter = chapter
     if current_section:
         section_and_chapter = "%s/%s" % (chapter, current_section)
-    results = arguments["results"]
-    menu_by = arguments["menu_by"]
     sections = get_sections(xquery_folder, document_id, chapter)
     chapters = chapter_names(xquery_folder, document_id)
-    page_is_available = chapters["page_is_available"]
     chapters_and_sections = chapter_and_section_names(
         xquery_folder, document_id
     )
@@ -707,10 +712,8 @@ def smn_view(request):
     )
     chapter_arg = chapter_dict["chapter_arg"]
     sections_of_previous_chapter = chapter_dict["sections_of_previous_chapter"]
-    named_chapter = chapter_dict["named_chapter"]
-    chapter = chapter_dict["chapter"]
     redirect = redirect_from_select_menu(
-        request, menu_by, document_id, chapter, current_section, sections
+        request, document_id, chapter, current_section, sections
     )
     if redirect and chapter != 0:
         return redirect
@@ -719,24 +722,8 @@ def smn_view(request):
     )
     document_id_without_xml = remove_dot_xml(document_id)
     pages = pages.replace("document_id_placeholder", document_id_without_xml)
-    try:
-        previous_chapter_name = chapter_name(
-            xquery_folder, document_id, chapter - 1
-        )
-    except Exception:
-        pass
-    last_chapter = 0
-    if chapters_of_document:
-        try:
-            last_chapter = int(chapters_of_document[-1].get("no"))
-        except Exception:
-            last_chapter = 0
-    next_chapter_name = ""
-    if chapter < last_chapter:
-        next_chapter_name = chapter_name(
-            xquery_folder, document_id, chapter + 1
-        )
 
+    # TODO: This currently does not work for the "back" chapter.
     section_info = get_section_info(
         xquery_folder,
         document_id,
@@ -745,24 +732,13 @@ def smn_view(request):
         sections,
         sections_of_previous_chapter,
     )
-    previous_section_name = section_info["previous_section_name"]
 
-    last_section_in_previous_chapter = section_info[
-        "last_section_in_previous_chapter"
-    ]
-    last_section_in_previous_chapter_name = section_info[
-        "last_section_in_previous_chapter_name"
-    ]
-    is_last_section = section_info["is_last_section"]
-    next_section_name = section_info["next_section_name"]
     is_last_chapter = False
-    if chapter == len(chapters_of_document):
+    if chapters_of_document and chapter == chapters_of_document[-1]["no"]:
         is_last_chapter = True
-    set_menu_by_cookie(request)
+
     listings_for_menu = make_listings_for_menu(xquery_folder, document_id)
-    titles_for_authors = listings_for_menu["titles_for_authors"]
-    id_of_title = listings_for_menu["id_of_title"]
-    titles = listings_for_menu["titles"]
+
     title_url = xquery_folder + "/title_of_document.xquery?id=" + document_id
     title_of_current_document = (
         get(title_url).text.replace('"', "").replace("null", "")
@@ -772,7 +748,62 @@ def smn_view(request):
     if hasattr(request, "title"):
         title_of_current_document = request.title
     pages = insert_note_texts(request, pages)
-    chapters_of_document = chapters_and_sections["chapters_of_document"]
+
+    # Disable some chapters in menu - for now only "Appendiks".
+    inactive_chapters = ["back"]
+
+    # * Chapters come in order in chapters_and_sections["chapters_of_document"]
+    # * Chapters in chapters_and_sections["chapters_of_document"] have name
+    #   and number
+    # * Find *current* chapter/section in list
+    # * Find previous and next chapters, if any
+
+    def find_current_chapter_and_section(chapters, no):
+        for c in chapters:
+            if c["no"] == no:
+                return c
+    if current_section:
+        current_item = find_current_chapter_and_section(
+            chapters_and_sections["chapters_of_document"], section_and_chapter
+        )
+    else:
+        current_item = find_current_chapter_and_section(
+            chapters_of_document, str(chapter)
+        )
+    if current_item:
+        if current_item in HEADER_CHAPTERS and "header_no" not in current_item:
+            current_item["header_no"] = 0
+        current_item_index = chapters_and_sections[
+            "chapters_of_document"
+        ].index(current_item)
+    else:
+        current_item_index = None
+    if (
+        current_item_index is not None
+        and current_item_index
+        < len(chapters_and_sections["chapters_of_document"]) - 1
+    ):
+        next_item = chapters_and_sections["chapters_of_document"][
+            current_item_index + 1
+        ]
+        # If next item is whole chapter and chapter is inactive, skip.
+        if next_item["no"] in inactive_chapters:
+            next_item = chapters_and_sections["chapters_of_document"][
+                current_item_index + 2
+            ]
+    else:
+        next_item = {"no": None, "name": None}
+    if current_item_index and current_item_index > 0:
+        previous_item = chapters_and_sections["chapters_of_document"][
+            current_item_index - 1
+        ]
+        # If next item is whole chapter and chapter is inactive, skip.
+        if previous_item["no"] in inactive_chapters:
+            previous_item = chapters_and_sections["chapters_of_document"][
+                current_item_index - 2
+            ]
+    else:
+        previous_item = {"no": None, "name": None}
 
     notes_dict = setup_note_dict(request)
 
@@ -821,40 +852,37 @@ def smn_view(request):
             prefix += str(chapter["no"]).replace("/", ".") + ": "
         return prefix
 
-    # Disable some chapters in menu - for now only "Appendiks", maybe refine later.
-    inactive_chapters = ['back']
     return {
         "layout": site_layout(),
         "page_title": "Home",
-        "smn": results,
         "pages": pages,
         "title_of_current_document": title_of_current_document,
         "author_of_document": author_of_document,
         "breadcrumb": breadcrumb,
-        "titles": titles.text,
+        "titles": listings_for_menu["titles"].text,
         "document_id": document_id,
         "document_id_without_xml": document_id_without_xml,
-        "chapters_of_document": chapters_of_document,
-        "chapters_and_sections_of_document": chapters_and_sections,
+        "chapters_of_document": chapters_and_sections["chapters_of_document"],
         "sections_of_chapter": sections,
         "sections_of_previous_chapter": sections_of_previous_chapter,
-        "is_last_section": is_last_section,
+        "is_last_section": section_info["is_last_section"],
         "is_last_chapter": is_last_chapter,
-        "no_of_chapters": len(chapters_of_document),
+        "no_of_chapters": len(chapters_and_sections["chapters_of_document"]),
         "current_chapter": chapter,
-        "current_named_chapter": named_chapter,
+        "current_named_chapter": chapter_dict["named_chapter"],
         "current_section": current_section,
         "current_section_and_chapter": section_and_chapter,
-        "previous_chapter_name": previous_chapter_name,
-        "next_chapter_name": next_chapter_name,
-        "previous_section_name": previous_section_name,
-        "next_section_name": next_section_name,
-        "last_section_in_previous_chapter": last_section_in_previous_chapter,
-        "last_section_in_previous_chapter_name": last_section_in_previous_chapter_name,  # noqa
-        "titles_for_authors": titles_for_authors,
-        "page_is_available": page_is_available,
-        "id_of_title": id_of_title,
-        "menu_by_not_cookie": menu_by,
+        "previous_section_name": section_info["previous_section_name"],
+        "next_section_name": section_info["next_section_name"],
+        "last_section_in_previous_chapter": section_info[
+            "last_section_in_previous_chapter"
+        ],
+        "last_section_in_previous_chapter_name": section_info[
+            "last_section_in_previous_chapter_name"
+        ],
+        "titles_for_authors": listings_for_menu["titles_for_authors"],
+        "page_is_available": chapters["page_is_available"],
+        "id_of_title": listings_for_menu["id_of_title"],
         "html": getattr(request, "html", None),
         "title": title_of_current_document,
         "note_list": notes_for_chapter,
@@ -870,6 +898,10 @@ def smn_view(request):
         "get_location": get_location,
         "get_prefix": get_prefix,
         "inactive_chapters": inactive_chapters,
+        "next_item_name": next_item["name"],
+        "next_item_no": next_item["no"],
+        "previous_item_name": previous_item["name"],
+        "previous_item_no": previous_item["no"],
     }
 
 
@@ -1218,7 +1250,6 @@ def search_results_view(request):
         "title": "Søgeresultat",
         "title_of_current_document": "Søgeresultat",
         "faksimile": None,
-        "menu_by_not_cookie": None,
         "breadcrumb": ["Søgeresultat"],
         "titles_for_authors": [],
         "results": results,
@@ -1411,8 +1442,6 @@ def empty_dictionary():
         "chapters_of_document": "",
         "no_of_chapters": "",
         "current_chapter": 0,
-        "previous_chapter_name": "",
-        "next_chapter_name": "",
         "titles_for_authors": [],
         "page_is_available": False,
         "id_of_title": "",
@@ -1427,5 +1456,4 @@ def empty_dictionary():
         "languages_as_text": "",
         "categories_as_text": "",
         "no_of_results": 0,
-        "menu_by_not_cookie": None,
     }

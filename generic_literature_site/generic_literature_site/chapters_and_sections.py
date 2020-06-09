@@ -65,7 +65,9 @@ def flatten_chapter_and_sections(chapters_of_document):
     return flattened_list
 
 
-def add_to_header(header_chapters, header_chapter_list, tag_name, title_name):
+def add_to_header(
+    header_chapters, header_chapter_list, tag_name, title_name, use_tag=False
+):
     if header_chapters[tag_name]["exists"] == "true":
         no_in_sequence = header_chapters[tag_name]["no"]
         if no_in_sequence is None:
@@ -76,7 +78,7 @@ def add_to_header(header_chapters, header_chapter_list, tag_name, title_name):
             {
                 "name": title_name,
                 "header_no": no_in_sequence,
-                "no": title_name.lower(),
+                "no": tag_name if use_tag else title_name.lower(),
             }
         )
     return header_chapter_list
@@ -106,12 +108,17 @@ def add_header_chapters(xquery_folder, document_id, chapters_of_document):
         header_chapter_list,
         "toc-section",
         "Indholdsfortegnelse",
+        True,
     )
     header_chapter_list = add_to_header(
-        header_chapters, header_chapter_list, "calendar", "Kalender"
+        header_chapters, header_chapter_list, "calendar", "Kalender", True
     )
     header_chapter_list = add_to_header(
-        header_chapters, header_chapter_list, "introduction", "Introduktion"
+        header_chapters,
+        header_chapter_list,
+        "introduction",
+        "Introduktion",
+        True,
     )
 
     sorted_header = sorted(header_chapter_list, key=itemgetter("header_no"))
@@ -155,7 +162,7 @@ def chapter_and_section_names(xquery_folder, document_id):
 
 def get_sections(xquery_folder, document_id, chapter):
     try:
-        if chapter < 1:
+        if chapter == 0:
             return []
         sections_url = (
             xquery_folder
@@ -218,8 +225,8 @@ def get_chapter(xquery_folder, document_id, chapter, section):
     if chapter == 0:
         url = (
             xquery_folder
-            + "get_chapter_or_section.xquery?id=%"
-            + "s&chapter=%s&frontpage_section=%s"
+            + "get_chapter_or_section.xquery"
+            + "?id=%s&chapter=%s&frontpage_section=%s"
             % (document_id, chapter, section)
         )
     if isinstance(chapter, str):
