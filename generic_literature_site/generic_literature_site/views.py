@@ -749,6 +749,9 @@ def smn_view(request):
         title_of_current_document = request.title
     pages = insert_note_texts(request, pages)
 
+    # Disable some chapters in menu - for now only "Appendiks".
+    inactive_chapters = ["back"]
+
     # * Chapters come in order in chapters_and_sections["chapters_of_document"]
     # * Chapters in chapters_and_sections["chapters_of_document"] have name
     #   and number
@@ -783,12 +786,22 @@ def smn_view(request):
         next_item = chapters_and_sections["chapters_of_document"][
             current_item_index + 1
         ]
+        # If next item is whole chapter and chapter is inactive, skip.
+        if next_item["no"] in inactive_chapters:
+            next_item = chapters_and_sections["chapters_of_document"][
+                current_item_index + 2
+            ]
     else:
         next_item = {"no": None, "name": None}
     if current_item_index and current_item_index > 0:
         previous_item = chapters_and_sections["chapters_of_document"][
             current_item_index - 1
         ]
+        # If next item is whole chapter and chapter is inactive, skip.
+        if previous_item["no"] in inactive_chapters:
+            previous_item = chapters_and_sections["chapters_of_document"][
+                current_item_index - 2
+            ]
     else:
         previous_item = {"no": None, "name": None}
 
@@ -839,8 +852,6 @@ def smn_view(request):
             prefix += str(chapter["no"]).replace("/", ".") + ": "
         return prefix
 
-    # Disable some chapters in menu - for now only "Appendiks".
-    inactive_chapters = ["back"]
     return {
         "layout": site_layout(),
         "page_title": "Home",

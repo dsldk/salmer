@@ -2,7 +2,7 @@
     <tal:v tal:condition="current_section >= 1">
       <a tal:attributes="title string: ${previous_section} (${current_section-1}): ${previous_item_name}"
          accesskey="p" class="btn btn-primary arrow-l"
-         href="${'/%s/%s/%s'%(document_id_without_xml, current_chapter, current_section-1)}"></a>
+         href="${'/%s/%s'%(document_id_without_xml, previous_item_no)}"></a>
     </tal:v>
 </tal:c>
 
@@ -24,5 +24,3 @@ i18n:domain="generic_literature_site">
                      href="${'/%s/%s'%(document_id_without_xml,previous_item_no)}"></a>
     </tal:v>
 </tal:c>
-
-
