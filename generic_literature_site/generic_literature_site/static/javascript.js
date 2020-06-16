@@ -270,11 +270,49 @@ $(function(){
 			selected: 'selected'
 		}));
 
-		metaSelector.change(function(){
+		metaSelector.change(function(e, replaceStrategy){
+      // replaceStrategy determines how we are to update the history stack
+      // 0: Push new state
+      // 1: Replace state
+      // 2: Don't modify history
 			var metaType = $(this).val()
 			requestText('/meta/' + docId + '/' + metaType)
 			.done(function(result) {
-				$('#meta-wrapper').html(result).show()
+				$('#meta-wrapper').html(result).show();
+        // determine the location and query portion of the URL we want to push
+        // to the history stack
+        var newLocation;
+        if (window.location.search) {
+          // construct a new 2 dimensional array of search options
+          var params = window.location.search.replace(/^\?/, ''); // strip leading ?
+          params = params.split('&');
+          params = params.map(function (param) {
+            return param.split('=')
+          });
+          // now params is of shape [['foo', 'bar'], ['baz', 'boo']]
+          // for a search string ?foo=bar&baz=boo
+          // now filter out the meta param if it is already there
+          params = params.filter(function (param) {
+            return param[0] !== 'meta'
+          });
+          // and add it again
+          params.push(['meta', metaType]);
+          // now join everything together
+          params = params.map(function (param) {
+            return param.join('=')
+          });
+          params = params.join('&');
+          params = '?' + params;
+          newLocation = window.location.href.replace(
+            window.location.search,
+            params
+          );
+        } else {
+          newLocation = window.location.href + '?meta=' + metaType;
+        }
+        if (replaceStrategy !== 2) {
+          pushToHistory(newLocation, replaceStrategy);
+        }
 			})
 		})
 
@@ -283,6 +321,21 @@ $(function(){
     // 'cause if one of them were to fail, the "master" deferred would fail with
     // the failure of this single deferred, and discard the other deferreds
     // irregardless of their success, failure or even completion
+
+    // we need to possibly pre-select the item that corresponds to the
+    // ?meta=xyz part of the URL, so prepare a variable for that before we
+    // enter the loop
+    var selectedMeta;
+    if (window.location.search) {
+      var searchParams = window.location.search.replace(/^\?/, '').split('&'); // strip leading ? then split on &
+      searchParams = searchParams.map(function (param) {
+        return param.split('=');
+      });
+      var metaParam = searchParams.filter(function (param) {
+        return param[0] === 'meta';
+      })[0]; // take item 0 because the return of .filter() is an array
+      selectedMeta = metaParam ? metaParam[1] : null;
+    }
 		var metaTexts = metaTypes.forEach(function (metaType) {
 			$.ajax({
 				url: '/meta/' + docId + '/' + metaType.type,
@@ -294,10 +347,19 @@ $(function(){
             // and if not, add the option to the metaSelector variable,
             // and then reassign that variable so that the next options
             // are added to the DOM element rather than the variable
-            metaSelector.append($('<option/>', {
+            var newOption = $('<option/>', {
               value: metaType.type,
-              text: metaType.label
-            }));
+              text: metaType.label,
+              selected: selectedMeta == metaType.type ? 'selected' : null
+            });
+            metaSelector.append(newOption);
+            // if the new option is to be selected, trigger the 'change' event for it
+            // so that we can load its meta text
+            if (newOption.prop('selected')) {
+              // activate meta text tab
+              activateTab('#meta');
+              metaSelector.trigger('change', [1]); // replace state instead of pushing a new state to the stack, as we are simply setting up the page
+            }
             if (!$('.meta-selector .meta-dropdown').length) {
               metaSelector.appendTo('.meta-selector');
               metaSelector = $('.meta-selector .meta-dropdown');
@@ -340,23 +402,30 @@ $(function(){
 
 		// only actually refetch content if we're popping to a state that has a state object
 		if (stateObj) {
-			// select the chapter option corresponding to the state we just popped
-			$('.chapter-box .chapter-dropdown option[data-ajax-url="/text' + window.location.pathname + '"]').prop('selected', true);
+			// select the chapter option corresponding to the state we just popped,
+      // if it differs from what is currently selected.
+      // We can't use String.endsWith because IE11 :( So we make our own comparison
+      var chapter = $('.chapter-box .chapter-dropdown').val();
+      var path = window.location.pathname;
+      var sameChapter = path.substring(path.length - chapter.length) === chapter; // take the substring of the path that corresponds to the chapter and see if they are equal
+      if (!sameChapter) {
+  			$('.chapter-box .chapter-dropdown option[data-ajax-url="/text' + window.location.pathname + '"]').prop('selected', true);
 
-			// load the chapter corresponding to the state we just popped
-			$('.chapter-box').addClass('loading');
-			requestText('/text' + window.location.pathname)
-			.done(function(result) {
-				updateTextWrapper('.chapter-box', result)
-				$('.chapter-box').removeClass('loading');
-			})
-			.fail(function() {
-				showStatusPopup(__[loc]('Der skete en fejl. Teksten kunne ikke indlæses.'));
-			});
+  			// load the chapter corresponding to the state we just popped
+  			$('.chapter-box').addClass('loading');
+  			requestText('/text' + window.location.pathname)
+  			.done(function(result) {
+  				updateTextWrapper('.chapter-box', result)
+  				$('.chapter-box').removeClass('loading');
+  			})
+  			.fail(function() {
+  				showStatusPopup(__[loc]('Der skete en fejl. Teksten kunne ikke indlæses.'));
+  			});
 
-			// also get any notes for the notes tab
-			// with the requestText as AJAX request
-			updateCommentBox(requestText('/notes' + window.location.pathname));
+  			// also get any notes for the notes tab
+  			// with the requestText as AJAX request
+  			updateCommentBox(requestText('/notes' + window.location.pathname));
+      }
 
 			// set up other dropdowns according to state
 			Object.entries(stateObj).forEach(function (item) {
@@ -364,7 +433,16 @@ $(function(){
 				var value = item[1] // Object.entries() returns pairs of key, value
 				if ($(dropdown).val() != value) { // if the dropdown is not already set to the value stored in the state...
 					$(dropdown).val(value); // ... set it
-					$(dropdown).trigger('change');
+          // we have to handle the meta selector separately, as simply triggering
+          // its change event will actually push a new state. We don't want that,
+          // as we are in the middle of popping an old state. So we use the
+          // replaceStrategy parameter of the change callback for the meta
+          // selector.
+          if (dropdown === 'select[name="meta"]') {
+            $(dropdown).trigger('change', [2]);
+          } else {
+            $(dropdown).trigger('change');
+          }
 				}
 			})
 		}
@@ -423,6 +501,7 @@ $(function(){
 		})
 		.done(function(){
 			var textPath = this.url.replace(/^\/text/, ''); // strip leading '/text' as we don't want it to show in the URL. this.url refers to the url property of the ajax method
+      textPath += window.location.search + window.location.hash;
 			pushToHistory(textPath);
 			// window.scrollTo(window.pageXOffset, 0); // scroll to top, but keep x scroll position
 		})
