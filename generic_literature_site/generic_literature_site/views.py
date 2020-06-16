@@ -697,6 +697,12 @@ def smn_view(request):
     chapters_and_sections = chapter_and_section_names(
         xquery_folder, document_id
     )
+    chapters_with_sections = [
+        c["no"]
+        for c in chapters["chapters_of_document"]
+        if f"{c['no']}/1"
+        in [cs["no"] for cs in chapters_and_sections["chapters_of_document"]]
+    ]
     chapter_dict = add_named_chapters(
         request,
         xquery_folder,
@@ -750,7 +756,7 @@ def smn_view(request):
     pages = insert_note_texts(request, pages)
 
     # Disable some chapters in menu - for now only "Appendiks".
-    inactive_chapters = ["back"]
+    inactive_chapters = ["back"] + chapters_with_sections
 
     # * Chapters come in order in chapters_and_sections["chapters_of_document"]
     # * Chapters in chapters_and_sections["chapters_of_document"] have name
@@ -762,6 +768,7 @@ def smn_view(request):
         for c in chapters:
             if c["no"] == no:
                 return c
+
     if current_section:
         current_item = find_current_chapter_and_section(
             chapters_and_sections["chapters_of_document"], section_and_chapter
