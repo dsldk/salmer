@@ -55,16 +55,19 @@
    </teiHeader>
    <text>
       <front>
-         <div type="frontpage" xml:id="forside-dietz" n="1">
-            <head type="add">Forside</head>
-            <head><pb facs="062" n="E1" ana="1_r"/>Een ny ha<ex>n</ex>dbog / <lb/>med Psalmer oc aan<lb rend="="/>delige
-               lofsange. wd<lb rend="="/>dragne aff then hellige schrifft. som nw ÿ then Ch<lb
-                  rend="="/>ristne forsamling (Gud til loff oc mennisken til sali<lb rend="="/>ghed)
-               siunges. Med then Danske Otesang. Messe. Afftensang oc Nat<lb rend="="/>sang.</head>
-            <!--<figure type="vignette"/>-->
-            <p> Trycht ÿ Rozstock. </p>
-            <!--<figure type="vignette"/>-->
-         </div>
+        <titlePage rend="center">
+          <docTitle>
+          <titlePart type="desc"><pb facs="062" n="E1" ana="1_r"/>Een ny ha<ex>n</ex>dbog / <lb/>med Psalmer oc aan<lb rend="="/>delige
+            lofsange. wd<lb rend="="/>dragne aff then hellige schrifft. som nw ÿ then Ch<lb
+              rend="="/>ristne forsamling (Gud til loff oc mennisken til sali<lb rend="="/>ghed)
+            siunges. Med then Danske Otesang. Messe. Afftensang oc Nat<lb rend="="/>sang.</titlePart>
+        </docTitle>
+        <docImprint>
+          <!--<figure type="vignette"/>-->
+          <pubPlace> Trycht ÿ Rozstock. </pubPlace>
+          <!--<figure type="vignette"/>-->
+         </docImprint>
+       </titlePage>
          <div type="preface" xml:id="preface">
             <head type="add">Forord</head>
             <head><pb facs="063" n="E2" ana="1_v"/><!--<figure type="vignette"/>--> Fortalen til lesseren. <figure
@@ -3773,7 +3776,7 @@
                   <l><space extent="2blanks"/>Brendemercke haffue the ÿ theris<note place="right"
                            >(<ref target="#tim-1-4"><orig>j. Tim. iiij.</orig><reg>1 Tim
                            4</reg></ref>)</note>
-                     <pb facs="147" n="E86" ana="43_v"/> samwit/ </l>
+                     <pb facs="147" n="E86" ana="43_v"/><!--mangler--> samwit/ </l>
                   <l>som oss haffue wrett lid/ </l>
                   <l>for them sancte Powel beder oss att tage wa<lb rend="="/><note place="left"
                            >(<ref target="#pet-2-3"><orig>ij. Petri. iij.</orig><reg>2 Pet
@@ -5273,7 +5276,7 @@
          </div>
       </body>
       <back>
-         <div xml:id="index" n="11">
+         <div xml:id="register" n="11">
             <head type="add">Register</head>
             <head><pb facs="187" n="E128" ana="64_v"/>&#x00B6; Eet Register offuer then<lb rend="="/>ne Sangbog. Wdi
                hwilket man kan lettelig opsøge oc finde saa mange Psalmer / <lb/>lofsange /
