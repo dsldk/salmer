@@ -15,7 +15,12 @@
                         <xsl:text>?ref=</xsl:text>
                         <xsl:value-of select="substring-after(@target,'#')"/>
                     </xsl:attribute>
-                    <xsl:apply-templates/>
+                    <xsl:if test="tei:reg">
+                        <xsl:attribute name="title">
+                            <xsl:value-of select="tei:reg"/>
+                        </xsl:attribute>
+                    </xsl:if>
+                    <xsl:apply-templates select="tei:orig"/>
                 </a>
                 <xsl:text> </xsl:text>
             </xsl:when>
@@ -38,5 +43,8 @@
     </xsl:template>
     <xsl:template name="refN">
         <xsl:number from="tei:text" level="any" format="1"/>
+    </xsl:template>
+    <xsl:template match="tei:orig">
+        <xsl:apply-templates/>
     </xsl:template>
 </xsl:stylesheet><!-- ancestor::tei:note[@place!=right] -->
