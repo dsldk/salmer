@@ -398,38 +398,35 @@ $(function(){
         isSameManuscript = true;
         // check if the new href has search parameters
         var newSearchParams = targetHref.split('?')[1];
-        // also take the current search params
-        var currentSearchParams = parseSearchString(window.location.search);
         if (newSearchParams) {
           newSearchParams = '?' + newSearchParams;
           newSearchParams = parseSearchString(newSearchParams);
-          // if any of the new search params exist in the old search params,
-          // remove the old params
-          currentSearchParams = currentSearchParams.filter(function (oldParam) {
-            return !newSearchParams.some(function (newParam) {
-              return newParam[0] === oldParam[0]
-            });
-          });
         } else {
           newSearchParams = [];
         }
+        // also take the current search params
+        var currentSearchParams = parseSearchString(window.location.search);
         // ... and replace them with their new counterparts
-        searchParams = currentSearchParams.concat(newSearchParams);
+        searchParams = mergeSearchParams(currentSearchParams, newSearchParams);
         // now put it back in the targetHref
         targetHref = targetHref.split('?')[0] + buildSearchString(searchParams);
       }
-      // else if (targetHref.match(/^\?/) || targetHref.match(/^#/)) {
-      //   // @TODO: Construct new correct URL from window.location.pathname,
-      //   // currentHash and currentSearch, so that links that are only
-      //   // search params or hash parts do not trigger a full reload
-      //   isSameManuscript = true;
-      //   var currentHash = window.location.hash;
-      //   var currentSearch = parseSearchString(window.location.search);
-      // }
+      else if (targetHref.match(/^\?/)) {
+        isSameManuscript = true;
+        var currentSearchParams = parseSearchString(window.location.search);
+        var newSearchParams = parseSearchString(targetHref);
+        searchParams = mergeSearchParams(currentSearchParams, newSearchParams);
+        // now put it back in the targetHref
+        targetHref = window.location.pathname + buildSearchString(searchParams) + window.location.hash;
+        console.log('targetHref', targetHref)
+      }
       if (isSameManuscript === true) {
         // stop default action of the link, and do an AJAX pagination instead
         e.preventDefault();
-        paginateText.call(this, e);
+        // only paginate if we are not targeting the exact same text we're already on
+        if (targetHref.indexOf(window.location.pathname) === -1) {
+          paginateText.call(this, e);
+        }
 
         // also set the meta text if applicable
         var metaOption = searchParams.filter(function (param) {
@@ -515,6 +512,21 @@ $(function(){
     params = params.join('&');
     params = '?' + params;
     return params;
+  }
+
+  // convenience function to merge search params given two arrays of
+  // [['foo', 'bar'], ['baz', 'boo']]. The latter will take precedence over
+  // the former
+  function mergeSearchParams(params1, params2) {
+    // if any of the new search params exist in the old search params,
+    // remove the old params
+    params1 = params1.filter(function (oldParam) {
+      return !params2.some(function (newParam) {
+        return newParam[0] === oldParam[0]
+      });
+    });
+    // ... and replace them with their new counterparts
+    return params1.concat(params2);
   }
 
 	// convenience function for making AJAX requests
