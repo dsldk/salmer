@@ -284,11 +284,7 @@ $(function(){
         var newLocation;
         if (window.location.search) {
           // construct a new 2 dimensional array of search options
-          var params = window.location.search.replace(/^\?/, ''); // strip leading ?
-          params = params.split('&');
-          params = params.map(function (param) {
-            return param.split('=')
-          });
+          var params = parseSearchString(window.location.search);
           // now params is of shape [['foo', 'bar'], ['baz', 'boo']]
           // for a search string ?foo=bar&baz=boo
           // now filter out the meta param if it is already there
@@ -298,11 +294,7 @@ $(function(){
           // and add it again
           params.push(['meta', metaType]);
           // now join everything together
-          params = params.map(function (param) {
-            return param.join('=')
-          });
-          params = params.join('&');
-          params = '?' + params;
+          params = buildSearchString(params);
           newLocation = window.location.href.replace(
             window.location.search,
             params
@@ -327,10 +319,7 @@ $(function(){
     // enter the loop
     var selectedMeta;
     if (window.location.search) {
-      var searchParams = window.location.search.replace(/^\?/, '').split('&'); // strip leading ? then split on &
-      searchParams = searchParams.map(function (param) {
-        return param.split('=');
-      });
+      var searchParams = parseSearchString(window.location.search);
       var metaParam = searchParams.filter(function (param) {
         return param[0] === 'meta';
       })[0]; // take item 0 because the return of .filter() is an array
@@ -350,8 +339,10 @@ $(function(){
             var newOption = $('<option/>', {
               value: metaType.type,
               text: metaType.label,
-              selected: selectedMeta == metaType.type ? 'selected' : null
             });
+            if (selectedMeta == metaType.type) {
+              newOption.prop('selected', true);
+            }
             metaSelector.append(newOption);
             // if the new option is to be selected, trigger the 'change' event for it
             // so that we can load its meta text
@@ -393,7 +384,63 @@ $(function(){
         $('.page-wrapper .documentFrame.container').removeClass('full-width');
         $('label[for="reader-width"] .checkbox-label-text img').attr('src', '/static/expand.svg');
       }
-    })
+    });
+
+    // clicking a link in a text or in the meta text view should not trigger
+    // a full reload if the destination is within the same manuscript we're
+    // currently in
+    $('.chapter-box, .tabs-box').on('click', 'a', function(e) {
+      var targetHref = $(this).attr('href');
+      var isSameManuscript;
+      var searchParams;
+      // check if the target href begins with the current doc ID
+      if (targetHref.indexOf('/' + docId) === 0) {
+        isSameManuscript = true;
+        // check if the new href has search parameters
+        var newSearchParams = targetHref.split('?')[1];
+        // also take the current search params
+        var currentSearchParams = parseSearchString(window.location.search);
+        if (newSearchParams) {
+          newSearchParams = '?' + newSearchParams;
+          newSearchParams = parseSearchString(newSearchParams);
+          // if any of the new search params exist in the old search params,
+          // remove the old params
+          currentSearchParams = currentSearchParams.filter(function (oldParam) {
+            return !newSearchParams.some(function (newParam) {
+              return newParam[0] === oldParam[0]
+            });
+          });
+        } else {
+          newSearchParams = [];
+        }
+        // ... and replace them with their new counterparts
+        searchParams = currentSearchParams.concat(newSearchParams);
+        // now put it back in the targetHref
+        targetHref = targetHref.split('?')[0] + buildSearchString(searchParams);
+      }
+      // else if (targetHref.match(/^\?/) || targetHref.match(/^#/)) {
+      //   // @TODO: Construct new correct URL from window.location.pathname,
+      //   // currentHash and currentSearch, so that links that are only
+      //   // search params or hash parts do not trigger a full reload
+      //   isSameManuscript = true;
+      //   var currentHash = window.location.hash;
+      //   var currentSearch = parseSearchString(window.location.search);
+      // }
+      if (isSameManuscript === true) {
+        // stop default action of the link, and do an AJAX pagination instead
+        e.preventDefault();
+        paginateText.call(this, e);
+
+        // also set the meta text if applicable
+        var metaOption = searchParams.filter(function (param) {
+          return param[0] === 'meta'
+        })[0];
+        if (metaOption) {
+          $('select[name="meta"]').val(metaOption[1]);
+          $('select[name="meta"]').trigger('change', [2])
+        }
+      }
+    });
 	}
 
 	// when popping to another state, get the text corresponding to the state title
@@ -448,6 +495,28 @@ $(function(){
 		}
 	});
 
+  // convenience function to convert a query string to an array of arrays
+  // input: ?foo=bar&baz=boo, output: [['foo', 'bar'], ['baz', 'boo']]
+  function parseSearchString(params) {
+    params = params.replace(/^\?/, ''); // strip leading ?
+    params = params.split('&');
+    params = params.map(function (param) {
+      return param.split('=')
+    });
+    return params;
+  }
+
+  // convenience function to build an array of [['foo', 'bar'], ['baz', 'boo']]
+  // back to a search string, i.e. the reverse of the above.
+  function buildSearchString(params) {
+    params = params.map(function (param) {
+      return param.join('=')
+    });
+    params = params.join('&');
+    params = '?' + params;
+    return params;
+  }
+
 	// convenience function for making AJAX requests
 	function requestText(url) {
 		return $.ajax({
@@ -493,6 +562,7 @@ $(function(){
 	function paginateText (e) {
 		e.preventDefault(); // prevent links from being followed (arrow buttons)
 		e.stopPropagation(); // prevent the form from submitting
+
 		$('.chapter-box').addClass('loading');
 		getManuscript($(this), '/text')
 		.done(function(result) {
@@ -501,7 +571,8 @@ $(function(){
 		})
 		.done(function(){
 			var textPath = this.url.replace(/^\/text/, ''); // strip leading '/text' as we don't want it to show in the URL. this.url refers to the url property of the ajax method
-      textPath += window.location.search + window.location.hash;
+      textPath = textPath.indexOf('?') === -1 ? textPath + window.location.search : textPath;
+      textPath = textPath.indexOf('#') === -1 ? textPath + window.location.hash : textPath;
 			pushToHistory(textPath);
 			// window.scrollTo(window.pageXOffset, 0); // scroll to top, but keep x scroll position
 		})
