@@ -90,7 +90,7 @@
           Maiestatis.</imprimatur>
       </titlePage>
       <figure type="image"/>
-      <div type="toc" xml:id="toc-section">
+        <div type="toc" xml:id="toc-section-thomissoen">
         <head type="add">Indholdsfortegnelse</head>
         <head><pb n="E2" facs="002"/><pb n="E3" facs="003"/> Jt Almindeligt Register offuer
           <lb/> Psalmerne.</head>
@@ -147,7 +147,7 @@
           </item>
         </list>
       </div>
-      <div type="calendar" xml:id="calendar">
+        <div type="calendar" xml:id="calendar-thomissoen">
         <head type="add">Kalender</head>
         <div type="month">
           <head><pb n="E4" facs="004"/>Januarius/ Glugmaanet. <lb/> haffuer xxxj.
@@ -5107,7 +5107,7 @@
             <l>Fra nu oc <lb/> ind til euig tid.</l>
           </lg>
         </div>
-        <div type="psalm" xml:lang="la" xml:id="grates-nunc-omnes" n="4">
+          <div type="psalm" xml:lang="la" xml:id="grates-nunc-omnes-thomissoen" n="4">
           <head type="add">Grates nunc omnes reddamus Domino Deo</head>
           <head><pb ana="6_r" n="E67" facs="067"/>IIII. <lb/>
             <title><hi rend="italics">GRATES NVNC <lb/> omnes</hi></title>. </head>
@@ -5589,7 +5589,7 @@
             <l><hi rend="italics">quod annunciatum est per Gabriel.</hi></l>
           </lg>
         </div>
-        <div type="psalm" xml:id="christus-natus-hodie" n="11">
+          <div type="psalm" xml:id="christus-natus-hodie-thomissoen" n="11">
           <head type="add">Nu er født os Jesus Krist</head>
           <head> XI. <lb/>
             <hi rend="italics">Christus natus hodie,</hi>
@@ -5971,7 +5971,7 @@
             <l><hi rend="italics">in regno gloriæ, omni tempore.</hi></l>
           </lg>
         </div>
-        <div type="psalm" xml:id="puer-natus-in-bethlehem" n="16">
+          <div type="psalm" xml:id="puer-natus-in-bethlehem-thomissoen" n="16">
           <head type="add">Puer natus in Bethlehem / Et barn er født i Bethlehem</head>
           <head> XVI. <lb/> PVER NATVS IN <lb/> Bethlehem. </head>
           <notatedMusic>
@@ -6192,7 +6192,7 @@
             <l><space extent="4blanks"/>Kyrieleis.</l>
           </lg>
         </div>
-        <div type="psalm" xml:id="vaer-glad-du-hellige-kristenhed" n="18">
+          <div type="psalm" xml:id="vaer-glad-du-hellige-kristenhed-thomissoen" n="18">
           <head type="add">Vær glad, du hellige Kristenhed</head>
           <head><pb ana="22_r" n="E99" facs="099"/> XVIII. <lb/>
             <title>Ver glad du hellige Chri<lb rend="="/>stenhed</title>.</head>
@@ -6447,7 +6447,7 @@
             <l>Hand er vor kiære Fader.</l>
           </lg>
         </div>
-        <div type="psalm" xml:id="nu-glaeder-eder-adams-boern" n="22">
+          <div type="psalm" xml:id="nu-glaeder-eder-adams-boern-thomissoen" n="22">
           <head type="add">Nu glæder eder, Adams børn alle sammen</head>
           <head> XXII. <lb/> Nu glæder eder Adams <lb/> Børn.</head>
           <notatedMusic>
@@ -6510,7 +6510,7 @@
             <l>Ske loff oc priss i alle land.</l>
           </lg>
         </div>
-        <div type="psalm" xml:id="alle-kristne-fryde-sig-nu" n="24">
+          <div type="psalm" xml:id="alle-kristne-fryde-sig-nu-thomissoen" n="24">
           <head type="add">Alle kristne fryde sig nu</head>
           <head> XXIIII. <lb/>
             <title>Alle Christne fryde <lb/>sig nu</title>.</head>
@@ -10905,7 +10905,7 @@
       </div>
       <div type="psalmgroup" xml:id="section-9" n="9">
         <head type="add">Katekismus</head>
-        <div type="psalmgroup" xml:id="section-9-1" n="1">
+          <div type="psalmgroup" xml:id="section-9-1-thomissoen" n="1">
           <head><hi rend="italics">Catechismus.</hi></head>
           <head type="add">Om de ti bud</head>
           <head n="4">Om de Thi Guds <lb/> Bud.</head>
@@ -26048,7 +26048,7 @@
       </div>
     </body>
     <back>
-      <div type="register" xml:id="register">
+        <div type="register" xml:id="register-thomissoen">
         <head type="add">Register</head>
         <head n="4"><pb n="E797" facs="795"/>Register offuer den<lb rend="="/>ne Bog.</head>
 
@@ -26645,7 +26645,7 @@
                 <item> Christe qui lux es et dies <ref target="#section-21-hymn-2"
                     >322.</ref>
                 </item>
-                <item> Christus natus hodie/ <ref target="#christus-natus-hodie"
+                  <item> Christus natus hodie/ <ref target="#christus-natus-hodie-thomissoen"
                     >13:</ref>
                 </item>
                 <item> Conditor alme syderum/ <ref target="#conditor-alme-siderum"
@@ -26676,7 +26676,7 @@
             <div type="section">
               <head>G.</head>
               <list rend="simple">
-                <item> Grates nunc omnes reddamus/ <ref target="#grates-nunc-omnes"
+                  <item> Grates nunc omnes reddamus/ <ref target="#grates-nunc-omnes-thomissoen"
                     >6:</ref>
                 </item>
                 <item> Gloria laus et honor/ <ref target="#section-3-hymn-19"
@@ -26749,7 +26749,7 @@
               <head>O.</head>
               <list rend="simple">
                 <item> Omnis mundus iucundetur nato <ref
-                    target="#alle-kristne-fryde-sig-nu">27:</ref>
+                    target="#alle-kristne-fryde-sig-nu-thomissoen">27:</ref>
                 </item>
                 <item> O lux beata trinitas <ref target="#section-21-hymn-4"
                     >323:</ref>
@@ -26760,7 +26760,7 @@
               <head>P.</head>
               <list rend="simple">
                 <item> Puer natus in Bethlehem/ <ref
-                    target="#puer-natus-in-bethlehem">19:</ref>
+                    target="#puer-natus-in-bethlehem-thomissoen">19:</ref>
                 </item>
               </list>
             </div>
@@ -26871,7 +26871,7 @@
             <div type="section">
               <head>G.</head>
               <list rend="simple">
-                <item> Grates nunc omnes reddamus <ref target="#grates-nunc-omnes"
+                  <item> Grates nunc omnes reddamus <ref target="#grates-nunc-omnes-thomissoen"
                     >6.</ref>
                 </item>
               </list>
@@ -26890,7 +26890,7 @@
                 <item> Priss oc ære oc dyd <ref target="#pris-aere-og-dyd">17:</ref>
                 </item>
                 <item> Puer natus in Bethlehem/ <ref
-                    target="#puer-natus-in-bethlehem">19:</ref>
+                    target="#puer-natus-in-bethlehem-thomissoen">19:</ref>
                 </item>
               </list>
             </div>
@@ -27356,7 +27356,7 @@
                     target="#lovsang-efter-resonet">14.</ref>
                 </item>
                 <item>Alle Christen fryde sig nu/ <ref
-                    target="#alle-kristne-fryde-sig-nu">27:</ref>
+                    target="#alle-kristne-fryde-sig-nu-thomissoen">27:</ref>
                 </item>
                 <item>Alleluia/ See i Registeret/ Haleluia.</item>
                 <item>Alleniste Gud i Himmerig/ <ref target="#section-8-hymn-2"
@@ -27592,7 +27592,7 @@
                 </item>
                 <item>
                   <hi rend="italics">Grates nunc omnes reddamus</hi>
-                  <ref target="#grates-nunc-omnes">6.</ref>
+                    <ref target="#grates-nunc-omnes-thomissoen">6.</ref>
                 </item>
                 <item>Gud Fader bliff du nu met oss/ <ref target="#section-8-hymn-3"
                     >110:</ref>
@@ -27821,7 +27821,7 @@
                     >55:</ref>
                 </item>
                 <item>Jt barn er fød i Bethlehem/ <ref
-                    target="#puer-natus-in-bethlehem">19:</ref>
+                    target="#puer-natus-in-bethlehem-thomissoen">19:</ref>
                 </item>
                 <item>Jt gaat beraad vel betenckt Mod <ref
                     target="#section-10-hymn-6">140.</ref>
@@ -27985,7 +27985,7 @@
                     >101.</ref>
                 </item>
                 <item>Nu er fød oss Jesus Christ/ <ref
-                    target="#christus-natus-hodie">13:</ref>
+                    target="#christus-natus-hodie-thomissoen">13:</ref>
                 </item>
                 <item>Nu er oss Gud miskundelig <ref target="#section-18-hymn-11"
                     >259.</ref>
@@ -27994,7 +27994,7 @@
                     target="#section-3-hymn-14">51:</ref>
                 </item>
                 <item>Nu glæder eder Adams børn alle <ref
-                    target="#nu-glaeder-eder-adams-boern">26.</ref>
+                    target="#nu-glaeder-eder-adams-boern-thomissoen">26.</ref>
                 </item>
                 <item>Nu hører til i Christen all <ref target="#section-12-hymn-11"
                     >170:</ref>
@@ -28182,7 +28182,7 @@
                 </item>
                 <item>
                   <hi rend="italics">Puer natus in bethlehem,</hi>
-                  <ref target="#puer-natus-in-bethlehem">19<hi rend="italics"
+                    <ref target="#puer-natus-in-bethlehem-thomissoen">19<hi rend="italics"
                       >:</hi>
                   </ref>
                 </item>
@@ -28300,7 +28300,7 @@
                     >33:</ref>
                 </item>
                 <item>Vær glad du hellig Christenhed/ <ref
-                    target="#vaer-glad-du-hellige-kristenhed">22.</ref>
+                    target="#vaer-glad-du-hellige-kristenhed-thomissoen">22.</ref>
                 </item>
                 <item>Vil Gud vor Herre ey met oss staa/ <ref
                     target="#section-19-hymn-12"> * 297.</ref>
