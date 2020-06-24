@@ -67,7 +67,7 @@
                     <pb n="A1_r"/>Th<ex>et</ex> cristelighe mes<lb rend="="/>sze embedhe paa
                         da<ex>n</ex><lb rend="="/>sche </titlePart>
             </titlePage>
-            <div type="preface" xml:id="preface">
+            <div type="preface" xml:id="preface-mortensen">
                 <head type="add">Fortale</head>
                 <head>
                     <pb n="A1_v"/>
@@ -125,7 +125,7 @@
                         135</reg></ref>)</note>
                 </p>
             </div>
-            <div xml:id="skriftemaal" n="2">
+            <div xml:id="skriftemaal-mortensen" n="2">
                 <head type="add">Skriftemål</head>
                 <head>Confiteor</head>
                 <head>En korth bekiændilsze y gudz ansycth</head>
@@ -146,7 +146,7 @@
                         8</reg></ref>)</note>
                 </p>
             </div>
-            <div xml:id="absolution" n="3">
+            <div xml:id="absolution-mortensen" n="3">
                 <head type="add">Absolution</head>
                 <head>Absolutio</head>
                 <head>En<ex>n</ex> ewangelisch affløessningh offwer <lb/> menheden</head>
@@ -365,7 +365,7 @@
                         <figDesc>blomst</figDesc>
                     </figure>-->
             </div>
-            <div xml:id="hilsen" n="7">
+            <div xml:id="hilsen-mortensen" n="7">
                 <head type="add">Hilsen</head>
                 <head>Effther the<ex>n</ex>ne loffsangh <lb/> vendher presten sigh til <lb/>
                     faalcketh och syungher</head>
@@ -656,7 +656,7 @@
                     himmelsche brød och ere dødhe/ <lb/> huo so<ex>m</ex> æder thette brød/ han
                     schal leffue euindelige</p>
             </div>
-            <div xml:id="trosbekendelse" n="15">
+            <div xml:id="trosbekendelse-mortensen" n="15">
                 <head type="add">Trosbekendelse</head>
                 <head>Christhen forsamlingh <lb/> och choredth syungher <lb/> Credo</head>
                 <lg>
@@ -734,7 +734,7 @@
                         <figDesc>blomst</figDesc>
                     </figure>-->
             </div>
-            <div xml:id="nu-bede-vi-den-helligaand" n="16">
+            <div xml:id="nu-bede-vi-den-helligaand-mortensen" n="16">
                 <head type="add">Nu bede vi den Helligånd</head>
                 <head>En laaffsang som syun<lb rend="="/>gis faare predicken met <lb/> huilcken
                     christhen kirke <lb/> christi brudh paa kaller <lb/> the<ex>n</ex> hellighands
@@ -789,7 +789,7 @@
                     </l>
                 </lg>
             </div>
-            <div xml:id="nu-er-os-gud-miskundelig" n="17">
+            <div xml:id="nu-er-os-gud-miskundelig-mortensen" n="17">
                 <head type="add">Nu er os Gud miskundelig</head>
                 <head>Deus misereatur <lb/> The<ex>n</ex>ne psalme syungis eff<lb rend="="/>ter
                     predicken m<ex>eth</ex> huilcken <lb/> christhe<ex>n</ex> forsa<ex>m</ex>lingh
@@ -892,7 +892,7 @@
             <!--<figure>
                 <figDesc>krogkors</figDesc>
             </figure>-->
-            <div xml:id="formaning" n="18">
+            <div xml:id="formaning-mortensen" n="18">
                 <head type="add">Formaning</head>
                 <head>Paraclesis. siue succinc<lb rend="="/>ta. dominice p<ex>re</ex>cationis. <lb/>
                     enarratio: <lb/> En korth formaningh: szom <lb/> er Pater Noster. met syn be<lb
@@ -1179,7 +1179,7 @@
             <!--<figure>
                 <figDesc>blomst</figDesc>
             </figure>-->
-            <div xml:id="sanctus" n="20">
+            <div xml:id="sanctus-mortensen" n="20">
                 <head type="add">Sanctus (helligsangen)</head>
                 <head>En loffsa<ex>n</ex>g som chored oc christe<ex>n</ex>
                     <lb/> forsa<ex>m</ex>li<ex>n</ex>g siunger: som er S<ex>an</ex>ctus: <note
@@ -1268,7 +1268,7 @@
                         <lb/> y dricke: y min hukommelse:</l>
                 </lg>
             </div>
-            <div xml:id="benedictus" n="24">
+            <div xml:id="benedictus-mortensen" n="24">
                 <head type="add">Benedictus (lovprisning)</head>
                 <head>Nu løffter han: oc men be<lb rend="="/>giønder chored eller chris<lb rend="="
                     />ten forsa<ex>m</ex>ling en laaffsang <lb/> so<ex>m</ex> følger effter messe
@@ -1305,7 +1305,7 @@
                     <l>Hellig hellig hellig hun syunger tigh</l>
                 </lg>
             </div>
-            <div xml:id="fredshilsen" n="26">
+            <div xml:id="fredshilsen-mortensen" n="26">
                 <head type="add">Fredshilsen</head>
                 <head>Nu ve<ex>n</ex>der christe<ex>n</ex> forsa<ex>m</ex>li<ex>n</ex>gs <lb/>
                         tie<ex>n</ex>nere sigh till faalcket oc <lb/> siger Pax domini: </head>
@@ -1325,7 +1325,7 @@
                         <figDesc>krogkors</figDesc>
                     </figure>-->
             </div>
-            <div xml:id="agnus-dei" n="27">
+            <div xml:id="agnus-dei-mortensen" n="27">
                 <head type="add">Agnus Dei / O Guds Lam uskyldig</head>
                 <head>Nu begiøndis agnus dei</head>
                 <lg>
@@ -1352,7 +1352,7 @@
                     </figure>-->
                
             </div>
-            <div xml:id="formaning2" n="28">
+            <div xml:id="formaning-mortensen-2" n="28">
                 <head type="add">Formaning</head>
                 <head>Exhortacio: <pb n="D2_v"/> En kort formani<ex>n</ex>g till fol<lb rend="="
                     />ken oc serdel<ex>is</ex> til the<ex>n</ex>nom so<ex>m</ex>
@@ -1694,7 +1694,7 @@
                     <l>Kyrieeleison</l>
                 </lg>
             </div>
-            <div xml:id="hilsen2" n="32">
+            <div xml:id="hilsen-mortensen-2" n="32">
                 <head type="add">Hilsen</head>
                 <head>Ther effter ve<ex>n</ex>der christe<ex>n</ex> kirkis <lb/> tie<ex>n</ex>nere
                     sig til folk<ex>et</ex> oc siger D<ex>omi</ex>n<ex>u</ex>s</head>
@@ -1706,7 +1706,7 @@
                         <figDesc>krogkors</figDesc>
                     </figure>-->Och m<ex>eth</ex> thin aandh</p>
             </div>
-            <div xml:id="kollekt" n="33">
+            <div xml:id="kollekt-mortensen" n="33">
                 <head type="add">Kollekt</head>
                 <head>En collecte <!--<figure>
                         <figDesc>kors</figDesc>
@@ -1724,7 +1724,7 @@
                     </figure>-->
                 </p>
             </div>
-            <div xml:id="hilsen3" n="34">
+            <div xml:id="hilsen-mortensen-3" n="34">
                 <head type="add">Hilsen</head>
                 <head>Nu ve<ex>n</ex>der ha<ex>n</ex> sig til folk<ex>et</ex> oc siger</head>
                 <p>Herren wære m<ex>eth</ex> edher Suar Et cum sipritu tuo <lb/> Och m<ex>eth</ex>
@@ -1735,7 +1735,7 @@
                     </app>
                 </p>
             </div>
-            <div xml:id="velsignelse" n="35">
+            <div xml:id="velsignelse-mortensen" n="35">
                 <head type="add">Velsignelse</head>
                 <head>Velsignilse offuer faalk<ex>et</ex> effter <lb/>
                    <!-- <figure>
@@ -1756,7 +1756,7 @@
                     freden Suar amen</p>
             </div>
             <pb n="dd1_v"/>
-            <div xml:id="gud-fader-udi-himmerig" n="36">
+            <div xml:id="gud-fader-udi-himmerig-mortensen" n="36">
                 <!--<figure>
                     <figDesc>kors</figDesc>
                 </figure>-->
@@ -1942,7 +1942,7 @@
                 </p>
                 <p>Och m<ex>eth</ex> thin andh</p>
             </div>
-            <div xml:id="sursum-corda" n="38">
+            <div xml:id="sursum-corda-mortensen" n="38">
                <!-- <figure>
                     <figDesc>kors</figDesc>
                 </figure>-->

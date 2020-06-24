@@ -132,7 +132,7 @@
                     hellige kyrcke wed saada<ex>n</ex>
                     <lb/> maade <!--</hi>--></p>
             </div>
-            <div xml:id="kirkeboen" n="4">
+            <div xml:id="kirkeboen-ulriksen-1535" n="4">
                 <head type="add">Kirkebøn</head>
                 <p><!--<hi rend="font_red">--><c function="initials" rend="2">K</c><!--</hi>-->Jære
                     wenner lader oss nw ydmygelige bede Gwdt <lb/> først for den hellige christne
@@ -213,7 +213,7 @@
                     </app> wor herre. Amen. <lb/>
                 </p>
             </div>
-            <div xml:id="skriftemaal" n="5">
+            <div xml:id="skriftemaal-ulriksen-1535" n="5">
                 <head type="add">Skriftemål</head>
                 <p> &#182; <!--<hi rend="font_red">--> Der næst teller hand <!--</hi>--> troen
                     <!--<hi rend="font_red"
@@ -265,7 +265,7 @@
                     medt Publicanindt/ <pb n="A3_v"/> O herre wær meg arme syndere barmhiærtig <lb/>
                 </p>
             </div>
-            <div xml:id="absolution" n="6">
+            <div xml:id="absolution-ulriksen-1535" n="6">
                 <head type="add">Absolution, salme, sanctus og nadverforberedelse</head>
                 <p> &#182; <!--<hi rend="font_red">--> Saa giffuer presten <!--</hi>-->
                     <app>
@@ -301,7 +301,7 @@
                     <!--</hi>-->
                 </p>
             </div>
-            <div xml:id="formaning" n="7">
+            <div xml:id="formaning-ulriksen-1535" n="7">
                 <head type="add">Formaning</head>
                 <head><!--<hi rend="font_red">--> Een formaning til folked so<ex>m</ex> skal
                     berætis.<!--</hi>--></head>
@@ -370,7 +370,7 @@
                     skulle bønhøris hooss hanss Fader wedt hanss naffn. <lb/>
                 </p>
             </div>
-            <div xml:id="fadervor" n="7">
+            <div xml:id="fadervor-ulriksen-1535" n="7">
                 <head type="add">Fadervor</head>
                 <p> &#182; <!--<hi rend="font_red">-->Saa vender Presten sig til alteritt igen oc
                     sier. <!--</hi>-->
@@ -500,7 +500,7 @@
                 </lg>
 
             </div>
-            <div xml:id="kollekt" n="10">
+            <div xml:id="kollekt-ulriksen-1535" n="10">
                 <head type="add">Kollekt</head>
                 <head>
                     <!--<hi rend="font_red">-->Complenda <lb/>
@@ -513,7 +513,7 @@
                     Degnend suar. <!--</hi>--> Amen. <lb/>
                 </head>
             </div>
-            <div xml:id="fredshilsen" n="11">
+            <div xml:id="fredshilsen-ulriksen-1535" n="11">
                 <head type="add">Fredshilsen</head>
                 <p>
                     <!--<hi rend="font_red">--> Presten wender sig om til folken oc
@@ -524,7 +524,7 @@
                     din aand. Presten siger <lb/>
                 </p>
             </div>
-            <div xml:id="velsignelse" n="12">
+            <div xml:id="velsignelse-ulriksen-1535" n="12">
                 <head type="add">Velsignelse</head>
                 <head> Vor herre velsigne oc beskermme eder <lb/> oc obenbare eder sitt ansigt oc
                     veere ed<ex>er</ex>
@@ -1231,7 +1231,7 @@
                     oss alle b<ex>ede</ex>. <lb/>
                 </head>
             </div>
-            <div xml:id="kollekt-2" n="28">
+            <div xml:id="kollekt-ulriksen-1535-2" n="28">
                 <head type="add">Kollekt</head>
                 <head>
                     <!--<hi rend="font_red">--><c function="initials" rend="2">O</c><!--</hi>-->
@@ -1330,7 +1330,7 @@
                         rend="font_red">--> Collecta <!--</hi>-->
                     <lb/></p>
             </div>
-            <div xml:id="kollekt-3" n="31">
+            <div xml:id="kollekt-ulriksen-1535-3" n="31">
                 <head type="add">Kollekt</head>
                 <p>
                     <!--<hi rend="font_red">--><c function="initials" rend="2">O</c><!--</hi>-->
@@ -1629,7 +1629,7 @@
                 <lb/>
 
             </div>
-            <div xml:id="kollekt-4" n="35">
+            <div xml:id="kollekt-ulriksen-1535-4" n="35">
                 <head type="add">Kollekt</head>
                 <p> Collecta. <lb/>
                     <c function="initials" rend="2">O</c> Almectigste euige Gud som oss haffuer lærd
@@ -1915,7 +1915,7 @@
                     <lb/>
                 </p>
             </div>
-            <div xml:id="kollekt-for-kongen-og-rigets-raad" n="41">
+            <div xml:id="kollekt-for-kongen-og-rigets-raad-ulriksen-1535" n="41">
                 <head type="add">Kollekt for kongen og rigets råd</head>
                 <p> Pro Rege et senatu Regni. <lb/><c function="initials" rend="2">O</c> Al
                     mectigste euige Gud vnder hues ha<ex>n</ex>d all øffrighed oc <lb/> mact er
@@ -2045,7 +2045,7 @@
                     <lb/> Ved din enborne søn Jesum Christum wor herre. <lb/>
                 </p>
             </div>
-            <div xml:id="kollekt-5" n="48">
+            <div xml:id="kollekt-ulriksen-1535-5" n="48">
                 <head type="add">Kollekt</head>
                 <p> Collecta. <lb/> O Almectigste euige Gud som er een kelle til all fredt Ty<lb
                         rend="="/>melig oc euig/ oc all hiærtens rolighed/ Vy bede din god<lb
