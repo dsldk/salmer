@@ -85,7 +85,7 @@
                     <docDate>Anno domini. Mdxxxix. </docDate>
                 </docImprint>
             </titlePage>
-            <div type="preface" xml:id="preface">
+            <div type="preface" xml:id="preface-ulriksen-1539">
                 <head type="add">Frands Vormodsens forord</head>
                 <p><pb ana="A1_v" n="E2"/>&#x00b6; Franciscus wormordi ynsker alle retsindige oc
                     <lb/> gudfryctige Predickere oc sogneherrer</p>
@@ -514,7 +514,7 @@
                         <l>vy tacke dig nu oc euin<lb rend="="/>delige Amen.</l>
                     </lg>
                 </div>
-                <div xml:id="sekvenser" n="6">
+                <div xml:id="sekvenser-ulriksen-1539" n="6">
                     <head type="add">Sekvenser</head>
                     <p>Framdelis maa oc i deris tid siu<ex>n</ex>gis <lb/>disse Sequentier Grates
                         nunc omnes <lb/>med sin danske Psalme ibland. Loff<lb rend="="/>uit vere du
@@ -739,7 +739,7 @@
                         anden tiid om dagen at høre hende <lb/>i. som dee haffue vdi købstederne</p>
                     <lb/>
                 </div>
-                <div xml:id="formaning" n="11">
+                <div xml:id="formaning-ulriksen-1539" n="11">
                     <head type="add">Formaning</head>
                     <p>Naar predicke<ex>n</ex> er saa at ende Forma<lb rend="="/>ner presten folked
                         att dee i<ex>n</ex>derlige vdi <lb/>een fast tro indfly tiil gudt fader vid
@@ -952,7 +952,7 @@
                         Men ingentiid <lb/>paa latine paa landzbyerne. so<ex>m</ex> forsagt
                         <lb/>eer. </p>
                 </div>
-                <div xml:id="hellig-hellig-hellig" type="psalm" n="15">
+                <div xml:id="hellig-hellig-hellig-ulriksen-1539" type="psalm" n="15">
                     <head type="add">Hellig, hellig, hellig </head>
                     <head>Sanctus</head>
                     <notatedMusic>
@@ -1278,7 +1278,7 @@
 
                 </div>
                 <lb/>
-                <div xml:id="hilsen" n="23">
+                <div xml:id="hilsen-ulriksen-1539" n="23">
                     <head type="add">Hilsen</head>
                     <p>Nar dette altsamme<ex>n</ex> giort er. som for<lb rend="="/>screffuit staar.
                         vender preste<ex>n</ex> sig om til <lb/>folked oc siger. </p>
@@ -1297,7 +1297,7 @@
                     <p> Oc saa leser han tacsigel<lb rend="="/>sens bøn som her effterfølger:</p>
                 </div>
                 <lb/>
-                <div xml:id="kollekt" n="24">
+                <div xml:id="kollekt-ulriksen-1539" n="24">
                     <head type="add">Kollekt</head>
                     <head>Collecta</head>
                     <lb/>
@@ -1418,7 +1418,7 @@
                         <l>ha<ex>n</ex>s budord vel beuare.</l>
                     </lg>
                 </div>
-                <div xml:id="da-pacem-domine" type="psalm" n="27">
+                <div xml:id="da-pacem-domine-ulriksen-1539" type="psalm" n="27">
                     <head type="add">Forlen os med fred nådelig</head>
                     <head>Jtem Da pacem domine <lb/>in diebus nostris</head>
                     <notatedMusic>
@@ -3805,7 +3805,7 @@
             </div>
         </body>
         <back>
-            <div type="register" xml:id="register" n="9">
+            <div type="register" xml:id="register-ulriksen-1539" n="9">
                 <head type="add">Register</head>
 
                 <head><pb ana="X3_r" n="E165"/><!-- ana vises ikke -->Jndex articulorum huius
