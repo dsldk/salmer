@@ -270,11 +270,41 @@ $(function(){
 			selected: 'selected'
 		}));
 
-		metaSelector.change(function(){
+		metaSelector.change(function(e, replaceStrategy){
+      // replaceStrategy determines how we are to update the history stack
+      // 0: Push new state
+      // 1: Replace state
+      // 2: Don't modify history
 			var metaType = $(this).val()
 			requestText('/meta/' + docId + '/' + metaType)
 			.done(function(result) {
-				$('#meta-wrapper').html(result).show()
+				$('#meta-wrapper').html(result).show();
+        // determine the location and query portion of the URL we want to push
+        // to the history stack
+        var newLocation;
+        if (window.location.search) {
+          // construct a new 2 dimensional array of search options
+          var params = parseSearchString(window.location.search);
+          // now params is of shape [['foo', 'bar'], ['baz', 'boo']]
+          // for a search string ?foo=bar&baz=boo
+          // now filter out the meta param if it is already there
+          params = params.filter(function (param) {
+            return param[0] !== 'meta'
+          });
+          // and add it again
+          params.push(['meta', metaType]);
+          // now join everything together
+          params = buildSearchString(params);
+          newLocation = window.location.href.replace(
+            window.location.search,
+            params
+          );
+        } else {
+          newLocation = window.location.href + '?meta=' + metaType;
+        }
+        if (replaceStrategy !== 2) {
+          pushToHistory(newLocation, replaceStrategy);
+        }
 			})
 		})
 
@@ -283,6 +313,18 @@ $(function(){
     // 'cause if one of them were to fail, the "master" deferred would fail with
     // the failure of this single deferred, and discard the other deferreds
     // irregardless of their success, failure or even completion
+
+    // we need to possibly pre-select the item that corresponds to the
+    // ?meta=xyz part of the URL, so prepare a variable for that before we
+    // enter the loop
+    var selectedMeta;
+    if (window.location.search) {
+      var searchParams = parseSearchString(window.location.search);
+      var metaParam = searchParams.filter(function (param) {
+        return param[0] === 'meta';
+      })[0]; // take item 0 because the return of .filter() is an array
+      selectedMeta = metaParam ? metaParam[1] : null;
+    }
 		var metaTexts = metaTypes.forEach(function (metaType) {
 			$.ajax({
 				url: '/meta/' + docId + '/' + metaType.type,
@@ -294,10 +336,21 @@ $(function(){
             // and if not, add the option to the metaSelector variable,
             // and then reassign that variable so that the next options
             // are added to the DOM element rather than the variable
-            metaSelector.append($('<option/>', {
+            var newOption = $('<option/>', {
               value: metaType.type,
-              text: metaType.label
-            }));
+              text: metaType.label,
+            });
+            if (selectedMeta == metaType.type) {
+              newOption.prop('selected', true);
+            }
+            metaSelector.append(newOption);
+            // if the new option is to be selected, trigger the 'change' event for it
+            // so that we can load its meta text
+            if (newOption.prop('selected')) {
+              // activate meta text tab
+              activateTab('#meta');
+              metaSelector.trigger('change', [1]); // replace state instead of pushing a new state to the stack, as we are simply setting up the page
+            }
             if (!$('.meta-selector .meta-dropdown').length) {
               metaSelector.appendTo('.meta-selector');
               metaSelector = $('.meta-selector .meta-dropdown');
@@ -331,7 +384,60 @@ $(function(){
         $('.page-wrapper .documentFrame.container').removeClass('full-width');
         $('label[for="reader-width"] .checkbox-label-text img').attr('src', '/static/expand.svg');
       }
-    })
+    });
+
+    // clicking a link in a text or in the meta text view should not trigger
+    // a full reload if the destination is within the same manuscript we're
+    // currently in
+    $('.chapter-box, .tabs-box').on('click', 'a', function(e) {
+      var targetHref = $(this).attr('href');
+      var isSameManuscript;
+      var searchParams;
+      // check if the target href begins with the current doc ID
+      if (targetHref.indexOf('/' + docId) === 0) {
+        isSameManuscript = true;
+        // check if the new href has search parameters
+        var newSearchParams = targetHref.split('?')[1];
+        if (newSearchParams) {
+          newSearchParams = '?' + newSearchParams;
+          newSearchParams = parseSearchString(newSearchParams);
+        } else {
+          newSearchParams = [];
+        }
+        // also take the current search params
+        var currentSearchParams = parseSearchString(window.location.search);
+        // ... and replace them with their new counterparts
+        searchParams = mergeSearchParams(currentSearchParams, newSearchParams);
+        // now put it back in the targetHref
+        targetHref = targetHref.split('?')[0] + buildSearchString(searchParams);
+      }
+      else if (targetHref.match(/^\?/)) {
+        isSameManuscript = true;
+        var currentSearchParams = parseSearchString(window.location.search);
+        var newSearchParams = parseSearchString(targetHref);
+        searchParams = mergeSearchParams(currentSearchParams, newSearchParams);
+        // now put it back in the targetHref
+        targetHref = window.location.pathname + buildSearchString(searchParams) + window.location.hash;
+        console.log('targetHref', targetHref)
+      }
+      if (isSameManuscript === true) {
+        // stop default action of the link, and do an AJAX pagination instead
+        e.preventDefault();
+        // only paginate if we are not targeting the exact same text we're already on
+        if (targetHref.indexOf(window.location.pathname) === -1) {
+          paginateText.call(this, e);
+        }
+
+        // also set the meta text if applicable
+        var metaOption = searchParams.filter(function (param) {
+          return param[0] === 'meta'
+        })[0];
+        if (metaOption) {
+          $('select[name="meta"]').val(metaOption[1]);
+          $('select[name="meta"]').trigger('change', [2])
+        }
+      }
+    });
 	}
 
 	// when popping to another state, get the text corresponding to the state title
@@ -340,23 +446,30 @@ $(function(){
 
 		// only actually refetch content if we're popping to a state that has a state object
 		if (stateObj) {
-			// select the chapter option corresponding to the state we just popped
-			$('.chapter-box .chapter-dropdown option[data-ajax-url="/text' + window.location.pathname + '"]').prop('selected', true);
+			// select the chapter option corresponding to the state we just popped,
+      // if it differs from what is currently selected.
+      // We can't use String.endsWith because IE11 :( So we make our own comparison
+      var chapter = $('.chapter-box .chapter-dropdown').val();
+      var path = window.location.pathname;
+      var sameChapter = path.substring(path.length - chapter.length) === chapter; // take the substring of the path that corresponds to the chapter and see if they are equal
+      if (!sameChapter) {
+  			$('.chapter-box .chapter-dropdown option[data-ajax-url="/text' + window.location.pathname + '"]').prop('selected', true);
 
-			// load the chapter corresponding to the state we just popped
-			$('.chapter-box').addClass('loading');
-			requestText('/text' + window.location.pathname)
-			.done(function(result) {
-				updateTextWrapper('.chapter-box', result)
-				$('.chapter-box').removeClass('loading');
-			})
-			.fail(function() {
-				showStatusPopup(__[loc]('Der skete en fejl. Teksten kunne ikke indlæses.'));
-			});
+  			// load the chapter corresponding to the state we just popped
+  			$('.chapter-box').addClass('loading');
+  			requestText('/text' + window.location.pathname)
+  			.done(function(result) {
+  				updateTextWrapper('.chapter-box', result)
+  				$('.chapter-box').removeClass('loading');
+  			})
+  			.fail(function() {
+  				showStatusPopup(__[loc]('Der skete en fejl. Teksten kunne ikke indlæses.'));
+  			});
 
-			// also get any notes for the notes tab
-			// with the requestText as AJAX request
-			updateCommentBox(requestText('/notes' + window.location.pathname));
+  			// also get any notes for the notes tab
+  			// with the requestText as AJAX request
+  			updateCommentBox(requestText('/notes' + window.location.pathname));
+      }
 
 			// set up other dropdowns according to state
 			Object.entries(stateObj).forEach(function (item) {
@@ -364,11 +477,57 @@ $(function(){
 				var value = item[1] // Object.entries() returns pairs of key, value
 				if ($(dropdown).val() != value) { // if the dropdown is not already set to the value stored in the state...
 					$(dropdown).val(value); // ... set it
-					$(dropdown).trigger('change');
+          // we have to handle the meta selector separately, as simply triggering
+          // its change event will actually push a new state. We don't want that,
+          // as we are in the middle of popping an old state. So we use the
+          // replaceStrategy parameter of the change callback for the meta
+          // selector.
+          if (dropdown === 'select[name="meta"]') {
+            $(dropdown).trigger('change', [2]);
+          } else {
+            $(dropdown).trigger('change');
+          }
 				}
 			})
 		}
 	});
+
+  // convenience function to convert a query string to an array of arrays
+  // input: ?foo=bar&baz=boo, output: [['foo', 'bar'], ['baz', 'boo']]
+  function parseSearchString(params) {
+    params = params.replace(/^\?/, ''); // strip leading ?
+    params = params.split('&');
+    params = params.map(function (param) {
+      return param.split('=')
+    });
+    return params;
+  }
+
+  // convenience function to build an array of [['foo', 'bar'], ['baz', 'boo']]
+  // back to a search string, i.e. the reverse of the above.
+  function buildSearchString(params) {
+    params = params.map(function (param) {
+      return param.join('=')
+    });
+    params = params.join('&');
+    params = '?' + params;
+    return params;
+  }
+
+  // convenience function to merge search params given two arrays of
+  // [['foo', 'bar'], ['baz', 'boo']]. The latter will take precedence over
+  // the former
+  function mergeSearchParams(params1, params2) {
+    // if any of the new search params exist in the old search params,
+    // remove the old params
+    params1 = params1.filter(function (oldParam) {
+      return !params2.some(function (newParam) {
+        return newParam[0] === oldParam[0]
+      });
+    });
+    // ... and replace them with their new counterparts
+    return params1.concat(params2);
+  }
 
 	// convenience function for making AJAX requests
 	function requestText(url) {
@@ -415,6 +574,7 @@ $(function(){
 	function paginateText (e) {
 		e.preventDefault(); // prevent links from being followed (arrow buttons)
 		e.stopPropagation(); // prevent the form from submitting
+
 		$('.chapter-box').addClass('loading');
 		getManuscript($(this), '/text')
 		.done(function(result) {
@@ -423,6 +583,8 @@ $(function(){
 		})
 		.done(function(){
 			var textPath = this.url.replace(/^\/text/, ''); // strip leading '/text' as we don't want it to show in the URL. this.url refers to the url property of the ajax method
+      textPath = textPath.indexOf('?') === -1 ? textPath + window.location.search : textPath;
+      textPath = textPath.indexOf('#') === -1 ? textPath + window.location.hash : textPath;
 			pushToHistory(textPath);
 			// window.scrollTo(window.pageXOffset, 0); // scroll to top, but keep x scroll position
 		})
