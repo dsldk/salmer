@@ -9,26 +9,19 @@
                     <xsl:apply-templates/>
                 </a>
             </xsl:when>
-	    <xsl:when test="starts-with(@target, '#')">
-		    <xsl:variable name="concordance" select="/db/apps/salmer/concordance.xml"/>
-		    <a>
-                   <xsl:attribute name="href">
-                       <xsl:variable name="targetId" select="substring-after(@target,'#')"/>
-                       <xsl:value-of select="concat($concordance/index/title[ref/@id=$targetId]/@id,$concordance/index/title/ref [@id=$targetId]/@target)"/>
-                    </xsl:attribute>
-                    <!-- TODO: Old code, remove when the new one works.
+            <xsl:when test="starts-with(@target, '#')">
+                <a>
                     <xsl:attribute name="href">
                         <xsl:text>?ref=</xsl:text>
                         <xsl:value-of select="substring-after(@target,'#')"/>
-		    </xsl:attribute>
-                    -->
+                    </xsl:attribute>
                     <xsl:if test="tei:reg">
                         <xsl:attribute name="title">
                             <xsl:value-of select="tei:reg"/>
                         </xsl:attribute>
                     </xsl:if>
                     <xsl:apply-templates select="tei:orig"/>
-                    </a>
+                </a>
                 <xsl:text> </xsl:text>
             </xsl:when>
             <xsl:otherwise>
