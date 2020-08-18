@@ -30,7 +30,7 @@
               <a href="/texts" i18n:translate="">Tekster</a>
           </li>
           <li>
-              <a href="https://salmer.dsl.dk/index.xq" target="_blank" i18n:translate="">Melodier</a>
+              <a href="https://melodier.dsl.dk/index.xq" target="_blank" i18n:translate="">Melodier</a>
           </li>
           <li>
               <a href="/research" i18n:translate="">Forskning</a>
