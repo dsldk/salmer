@@ -12,8 +12,12 @@
             <xsl:when test="starts-with(@target, '#')">
                 <a>
                     <xsl:attribute name="href">
-                        <xsl:text>?ref=</xsl:text>
-                        <xsl:value-of select="substring-after(@target,'#')"/>
+                        <xsl:variable name="concordance" select="document('/db/apps/salmer/concordance.xml')"/>
+                        <xsl:variable name="targetRef" select="substring-after(@target, '#')"/>
+                        <xsl:variable name="targetNode" select="$concordance/index/text/ref[@id=$targetRef]"/>
+                        <xsl:variable name="thisTextId" select="./ancestor"/>
+                        <xsl:variable name="parentText" select="$targetNode/parent"/>
+                        <xsl:value-of select="concat($parentText/@id, $targetNode/@target)"/>
                     </xsl:attribute>
                     <xsl:if test="tei:reg">
                         <xsl:attribute name="title">

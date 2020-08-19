@@ -566,7 +566,11 @@ $(function(){
 		activateNotesInRightColumn();
 
     if (wrapperSelector === '.chapter-box') {
-      initMusic(loc); // call initMusic from MeiAjax.js
+      try {
+        initMusic(loc); // call initMusic from MeiAjax.js
+      } catch (e) {
+        console.warn('there was an error calling initMusic in MeiAjax.js', e);
+      }
     }
 	}
 
