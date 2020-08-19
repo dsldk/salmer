@@ -29,7 +29,7 @@ indledninger</span></p>
             <p><span tal:omit-tag="" i18n:translate="">Database med melodierne i værkerne, supplerende historiske oplysninger og henvisninger til andre
 musikressourcer</span></p>
             <div class="library__item-link">
-              <a href="https://salmer.dsl.dk/index.xq" target="_blank" class="btn btn-primary arrow-r"><span class="sr-only" i18n:translate="">Gå til databasen med melodier. Åbner i et nyt vindue.</span></a>
+              <a href="https://melodier.dsl.dk/index.xq" target="_blank" class="btn btn-primary arrow-r"><span class="sr-only" i18n:translate="">Gå til databasen med melodier. Åbner i et nyt vindue.</span></a>
             </div>
           </div>
 

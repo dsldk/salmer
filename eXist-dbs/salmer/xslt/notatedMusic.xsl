@@ -78,8 +78,8 @@
         <xsl:if test="//tei:notatedMusic">
 
             <!-- TO DO: Change relative paths to whatever is the right place... -->
-            <xsl:variable name="mei_js_base" select="'http://salmer.dsl.dk/js/'"/>
-            <xsl:variable name="mei_css_base" select="'http://salmer.dsl.dk/style/'"/>
+            <xsl:variable name="mei_js_base" select="'http://melodier.dsl.dk/js/'"/>
+            <xsl:variable name="mei_css_base" select="'http://melodier.dsl.dk/style/'"/>
 
             <!-- External JS libraries -->
             <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"/>
