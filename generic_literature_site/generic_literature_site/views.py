@@ -488,23 +488,6 @@ def insert_note_texts(request, pages):
     return pages
 
 
-def get_concordance_dict(database_address, document_id):
-    """Return a dict of  { id: (target, text_id) } to create internal links."""
-
-    url = database_address + "/concordance.xml"
-    xml_string = get(url).content
-    xml_root = ET.fromstring(xml_string)
-
-    concordance_dict = {
-        grandchild.attrib["id"]: grandchild.attrib["target"]
-        for child in xml_root
-        for grandchild in child
-        if child.attrib["id"] == document_id
-    }
-
-    return concordance_dict
-
-
 @access_django
 def notes_for_document(
     xquery_folder, document_id, chapter, section, section_and_chapter
@@ -746,16 +729,7 @@ def smn_view(request):
     )
     document_id_without_xml = remove_dot_xml(document_id)
     pages = pages.replace("document_id_placeholder", document_id_without_xml)
-
-    concordance_dict = get_concordance_dict(
-        database_address, document_id_without_xml
-    )
-    for ref_id in concordance_dict:
-        target = concordance_dict[ref_id]
-        pages = pages.replace(
-            f'"?ref={ref_id}"', f'"/{document_id_without_xml}{target}"'
-        )
-    # TODO: This currently does not work for the "back" chapter.
+    
     section_info = get_section_info(
         xquery_folder,
         document_id,
