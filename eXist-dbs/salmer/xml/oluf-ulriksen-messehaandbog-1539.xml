@@ -241,8 +241,8 @@
                         i deris sted <lb/>een dansk Psalme. Deprofundis eller <lb/>een anden.
                         Psalme. som her effter føl<lb rend="="/>ger </p>
                     <p>Officium.</p>
-                
-                <div xml:id="af-dybsens-noed-ulriksen" type="psalm" n="1">
+
+                <div type="psalm" xml:id="af-dybsens-noed-ulriksen" n="1">
                     <head type="add">Af dybsens nød råber jeg til dig</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b01r.xml"/>
@@ -308,7 +308,7 @@
                         tiders lei<lb rend="="/>lighedt. som seduanlgt er. aff degne<ex>n</ex>d.</p>
                 </div>
                 <lb/>
-                <div xml:id="kyrie-gud-fader-alsomhoegeste-troest" type="psalm" n="2">
+                <div type="psalm" xml:id="kyrie-gud-fader-alsomhoegeste-troest" n="2">
                     <head type="add">Kyrie eleison</head>
                     <head>Kyrieeleison.</head>
                     <notatedMusic>
@@ -358,7 +358,7 @@
                         skall begynde. <lb/>paa latine eller danske oc siden aff me<lb rend="="
                         />nige christen forsamling forfølges.</p>
                 </div>
-                <div xml:id="den-engelske-lovsang" type="psalm" n="3">
+                <div type="psalm" xml:id="den-engelske-lovsang" n="3">
                     <head type="add">Gloria in excelsis deo</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b03r.xml#mdiv-01"/>
@@ -440,7 +440,7 @@
                         />ble eller ny testamente. langsomelige <lb/>oc redelige. saa at folked kand
                         vel for<lb rend="="/>staa oc mercke hannem. siendis.</p>
                 </div>
-                <div xml:id="epistel-i-cor-xi" type="psalm" n="4">
+                <div type="psalm" xml:id="epistel-i-cor-xi" n="4">
                     <head type="add">Epistel, i. cor. xi</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c01v.xml"/>
@@ -480,7 +480,7 @@
                             v<ex>er</ex>ss. loco gra<lb rend="="/>dualis paa latine eller danske.
                             Psal<lb rend="="/>mus Laudate dominum omnes gentes.</p>
                 </div>
-                <div xml:id="Alleluia-boer-os-altid-siunge-her" type="psalm" n="5">
+                <div type="psalm" xml:id="Alleluia-boer-os-altid-siunge-her" n="5">
                     <head type="add">Halleluja det bør os altid sjunge</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c02v.xml"/>
@@ -550,7 +550,7 @@
                     <p>Her effter vender preste<ex>n</ex> sig til folked <lb/>och less Euangelium
                         siendis.</p>
                 </div>
-                <div xml:id="herren-vaere-med-jer" type="psalm" n="7">
+                <div type="psalm" xml:id="herren-vaere-med-jer" n="7">
                     <head type="add"><pb ana="C4_v" n="E24"/>Messe</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c04v.xml#mdiv-01"/>
@@ -607,7 +607,7 @@
                         <lb/>danske huilken scolemester eller høre<ex>n</ex>
                         <lb/>scal begynde. Jn summis festis.</p>
                 </div>
-                <div xml:id="credo-in-umum-deum" type="psalm" xml:lang="la" n="8">
+                <div type="psalm" xml:id="credo-in-umum-deum" xml:lang="la" n="8">
                     <head type="add">Credo</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000d01v.xml#mdiv-01"/>
@@ -668,7 +668,7 @@
                             for<lb rend="="/>følge he<ex>n</ex>de saa til ende. so<ex>m</ex> her
                             efft<ex>er</ex>følger</p>
                 </div>
-                <div xml:id="vi-tro-allesammen-paa-en-gud-ulriksen" type="psalm" n="9">
+                <div type="psalm" xml:id="vi-tro-allesammen-paa-en-gud-ulriksen" n="9">
                     <head type="add">Vi tro allesammen på en Gud</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000d02v.xml"/>
@@ -716,7 +716,7 @@
                         <l>euigt i euighedt Amen</l>
                     </lg>
                 </div>
-                <div xml:id="prædiken" type="psalm" n="10">
+                <div xml:id="prædiken" n="10">
                     <head type="add">Prædiken </head>
                     <lb/>
                     <p>Oc naar Credo er vde med de<ex>n</ex>ne loff<lb rend="="/>sang Nu bede vi den
@@ -814,7 +814,7 @@
                             g<ex>u</ex>d miscundelig eller <lb/>een anden hendes lige. oc folked
                             for<lb rend="="/>følger he<ex>n</ex>de.</p>
                 </div>
-                <div xml:id="du-er-oss-gud-miscundelig" type="psalm" n="12">
+                <div type="psalm" xml:id="du-er-oss-gud-miscundelig" n="12">
                     <head type="add">Nu er os Gud miskundelig</head>
                     <head>Deus misereatur (<ref target="#sl-66"><orig>Ps. lxvi</orig><reg>Sl
                                 66</reg></ref>).</head>
@@ -888,7 +888,7 @@
                         mandt vel gøre.</p>
                     <lb/>
                 </div>
-                <div xml:id="prefatio-communis-ulriksen" type="psalm" n="14">
+                <div type="psalm" xml:id="prefatio-communis-ulriksen" n="14">
                     <head type="add">Præfation</head>
                     <p>Men desemellom for Sanctus maa pre<lb rend="="/>sten vndertiden siunge
                         Prefationem <lb/>paa latine eller danske. vdi saa maade <lb/>som her
@@ -952,7 +952,7 @@
                         Men ingentiid <lb/>paa latine paa landzbyerne. so<ex>m</ex> forsagt
                         <lb/>eer. </p>
                 </div>
-                <div xml:id="hellig-hellig-hellig-ulriksen-1539" type="psalm" n="15">
+                <div type="psalm" xml:id="hellig-hellig-hellig-ulriksen-1539" n="15">
                     <head type="add">Hellig, hellig, hellig </head>
                     <head>Sanctus</head>
                     <notatedMusic>
@@ -1056,7 +1056,7 @@
                         <l>Pater noster etc. Alta voce.</l>
                     </lg>
                 </div>
-                <div xml:id="fadervor-ulriksen" type="psalm" n="17">
+                <div type="psalm" xml:id="fadervor-ulriksen" n="17">
                     <head type="add">Fadervor</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000f04r.xml"/>
@@ -1121,7 +1121,7 @@
                         <lb/>skulle forstaa huad testamentens ord <lb/>indeholle Ad eundem
                         modum.</p>
                 </div>
-                <div xml:id="kalken-ulriksen" type="psalm" n="18">
+                <div type="psalm" xml:id="kalken-ulriksen" n="18">
                     <head type="add">Indstiftelsesordene</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000g01v.xml"/>
@@ -1183,7 +1183,7 @@
                         saadan psalme. Oc nar han haff<lb rend="="/>uer co<ex>m</ex>municerid dem
                         alle. scal chorid <lb/>lade aff att siunge.</p>
                 </div>
-                <div xml:id="jesus-christus-er-vor-salighed" type="psalm" n="21">
+                <div type="psalm" xml:id="jesus-christus-er-vor-salighed" n="21">
                     <head type="add">Jesus Kristus er vor salighed</head>
                     <head>Jesus christus</head>
                     <notatedMusic>
@@ -1252,7 +1252,7 @@
                     </lg>
                     <lb/>
                 </div>
-                <div xml:id="agnus-dei-ulriksen" type="psalm" n="22">
+                <div type="psalm" xml:id="agnus-dei-ulriksen" n="22">
                     <head type="add">O Guds Lam uskyldig</head>
                     <head>Agnus dei.</head>
                     <notatedMusic>
@@ -1327,7 +1327,7 @@
                                 vi</orig><reg>4 Mos 6</reg></ref>). so<ex>m</ex> her
                         efft<ex>er</ex>følger.</p>
                 </div>
-                <div xml:id="velsignelsen" type="psalm" n="25">
+                <div xml:id="velsignelsen" n="25">
                     <head type="add">Velsignelsen</head>
                     <lb/>
                     <head>Benedictio</head>
@@ -1339,7 +1339,7 @@
                     <p>Nu siunger ma<ex>n</ex>d een dansk. Psalme <lb/>Pro pace. eller oc dee x
                         budord. so<ex>m</ex> her <lb/>efft<ex>er</ex>følger. </p>
                 </div>
-                <div xml:id="de-ti-bud" type="psalm" n="26">
+                <div type="psalm" xml:id="de-ti-bud" n="26">
                     <head type="add">Gud Fader udi Himmerig</head>
                     <head>Dee x budord.</head>
                     <notatedMusic>
@@ -1418,7 +1418,7 @@
                         <l>ha<ex>n</ex>s budord vel beuare.</l>
                     </lg>
                 </div>
-                <div xml:id="da-pacem-domine-ulriksen-1539" type="psalm" n="27">
+                <div type="psalm" xml:id="da-pacem-domine-ulriksen-1539" n="27">
                     <head type="add">Forlen os med fred nådelig</head>
                     <head>Jtem Da pacem domine <lb/>in diebus nostris</head>
                     <notatedMusic>
@@ -2689,7 +2689,7 @@
                         rend="="/>sim in Ecclesiis iam solent Et <lb/>primo de Natiuitate chris<lb
                         rend="="/>ti Prefatio Sequitur</head>
 
-                <div xml:id="prefatio-nativitate-christi" type="psalm" n="1">
+                <div type="psalm" xml:id="prefatio-nativitate-christi" n="1">
                     <head type="add">Præfation om Kristi fødsel </head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000o02v.xml"/>
@@ -2713,8 +2713,8 @@
                         <l>vden al ende. oc sige s<ex>anc</ex>tus</l>
                     </lg>
                 </div>
-                
-                <div xml:id="prefatio-de-passione-christi" n="2">
+
+                <div type="psalm" xml:id="prefatio-de-passione-christi" n="2">
                     <head type="add">Præfation om Kristi lidelse</head>
                     <head>Prefatio de passione Christi.</head>
                     <notatedMusic>
@@ -2742,7 +2742,7 @@
                     </lg>
                     <lb/>
                 </div>
-                <div xml:id="prefatio-de-resurrectione" n="3">
+                <div type="psalm" xml:id="prefatio-de-resurrectione" n="3">
                     <head type="add">Præfation om opstandelsen </head>
                     <head>Prefatio de Resurrectione.</head>
                     <notatedMusic>
@@ -2763,7 +2763,7 @@
                         <l>Oc d<ex>er</ex>fore ut supra Jn Prefatione natiuitatis christi</l>
                     </lg>
                 </div>
-                <div xml:id="prefatio-ascensione-domine" type="psalm" n="4">
+                <div type="psalm" xml:id="prefatio-ascensione-domine" n="4">
                     <head type="add">Præfation om Herrens himmelfart </head>
                     <head>Sequitur Prefatio de asce<ex>n</ex>sione domini</head>
                     <notatedMusic>
@@ -2783,7 +2783,7 @@
                     </lg>
                     <p>ut in Prefatione natiuitatis</p>
                 </div>
-                <div xml:id="prefatio-sancto-spiritu" type="psalm" n="5">
+                <div type="psalm" xml:id="prefatio-sancto-spiritu" n="5">
                     <head type="add">Præfation om Helligånden </head>
                     <head>Prefatio de Sancto spiritu</head>
                     <notatedMusic>
@@ -2806,8 +2806,8 @@
                         <l>Sigendis Sanctus</l>
                     </lg>
                 </div>
-                
-                <div xml:id="prefatio-trinitate" n="6">
+
+                <div type="psalm" xml:id="prefatio-trinitate" n="6">
                     <head type="add">Præfation om den hellige og udelelige treenighed </head>
                     <head>Sequitur Prefatio de sancta ac <lb/>indiuidua Trinitate</head>
                     <notatedMusic>
@@ -2842,7 +2842,7 @@
                         <l>endrectelige tilhobe altid siendis Sanctus</l>
                     </lg>
                 </div>
-                <div xml:id="prefatio-virgine" n="7">
+                <div type="psalm" xml:id="prefatio-virgine" n="7">
                     <head type="add">Præfation om den salige jomfru </head>
                     <head>Sequitur Prefatio de beata Virgine</head>
                     <notatedMusic>
@@ -2866,7 +2866,6 @@
                     <!-- <figure type="notatedMusic"> </figure>-->
                     <p>ut in communi prefatione.</p>
                     <p> Finis prefationum</p>
-
                 </div>
             </div>
             <div type="chapter" xml:id="barnedaab" n="4">

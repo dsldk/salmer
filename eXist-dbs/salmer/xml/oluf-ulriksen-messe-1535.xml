@@ -370,17 +370,16 @@
                     skulle bønhøris hooss hanss Fader wedt hanss naffn. <lb/>
                 </p>
             </div>
-            <div xml:id="fadervor-ulriksen-1535" n="7">
+            <div type="psalm" xml:id="fadervor-ulriksen-1535" n="7">
                 <head type="add">Fadervor</head>
                 <p> &#182; <!--<hi rend="font_red">-->Saa vender Presten sig til alteritt igen oc
                     sier. <!--</hi>-->
                 </p>
-
                 <p><!--<hi rend="font_red">--> Pater noster. Alta voce <!--</hi>--></p>
+                <notatedMusic>
+                    <ptr target="Ul_1535_LN0076_000a04v.xml#mdiv-01"/>
+                </notatedMusic>
                 <lg>
-                    <notatedMusic>
-                        <ptr target="Ul_1535_LN0076_000a04v.xml#mdiv-01"/>
-                    </notatedMusic>
                     <l>
                         <!--<hi rend="font_red">--><c function="initials" rend="2"
                         >L</c><!--</hi>-->Ader oss nw alle bede. </l>
@@ -405,23 +404,25 @@
                     <l>
                         <!--<hi rend="font_red">--> Degne<ex>n</ex> suar<!--</hi>-->
                     </l>
-                    <notatedMusic>
-                        <ptr target="Ul_1535_LN0076_000a04v.xml#mdiv-02"/>
-                    </notatedMusic>
+                </lg>
+                <notatedMusic>
+                    <ptr target="Ul_1535_LN0076_000a04v.xml#mdiv-02"/>
+                </notatedMusic>
+                <lg>
                     <l> Amem </l>
                     <lb/>
                 </lg>
             </div>
-            <div xml:id="nadverindstiftelse" n="8">
+            <div type="psalm" xml:id="nadverindstiftelse" n="8">
                 <head type="add">Nadverindstiftelse og uddeling</head>
                 <p> &#182; <!--<hi rend="font_red">--> Saa tager Presten da diskind med brød oc
                     siunger. <lb/>
                     <!--</hi>-->
                 </p>
+                <notatedMusic>
+                    <ptr target="Ul_1535_LN0076_000b01r_a.xml"/>
+                </notatedMusic>
                 <lg>
-                    <notatedMusic>
-                        <ptr target="Ul_1535_LN0076_000b01r_a.xml"/>
-                    </notatedMusic>
                     <l>
                         <!--<hi rend="font_red">--><c function="initials" rend="2"
                         >W</c><!--</hi>-->Or herre Jesus Cristus</l>
@@ -440,10 +441,10 @@
                     </app> som side for alte<lb rend="="/>ridt. Nar det er skifft Tager han Kalken
                         m<ex>eth</ex> viin oc siger<!--</hi>-->
                 </p>
+                <notatedMusic>
+                    <ptr target="Ul_1535_LN0076_000b01r_b.xml"/>
+                </notatedMusic>
                 <lg>
-                    <notatedMusic>
-                        <ptr target="Ul_1535_LN0076_000b01r_b.xml"/>
-                    </notatedMusic>
                     <l>
                         <!--<hi rend="font_red">--><c function="initials" rend="2"
                         >L</c><!--</hi>-->Jge maade tog han oc kalken effter afftens maal<pb
@@ -694,7 +695,7 @@
                         10</reg></ref><!--</hi>-->
                     <lb/>
                 </head>
-           
+
                 <p>
                     <!--<hi rend="font_red">--><c function="initials" rend="2">I</c><!--</hi>--> Den
                     tiid baare de børn tiil Je<lb rend="="/>sum. att han sculle tage paa den<lb
@@ -1084,7 +1085,7 @@
                     Presten til den christelige forsamling <lb/>
                     <!--</hi>-->
                 </head>
-           
+
                 <head>
                     <!--<hi rend="font_red">-->
                     <c function="initials" rend="2">E</c><!--</hi>-->Fter thi at desse erlige
@@ -1133,7 +1134,7 @@
                     skickit <ref target="#ef-5"><orig>Ad Ephesi v.</orig><reg>Ef 5</reg></ref>
                     <pb n="D3_r"/>
                 </head>
-            
+
                 <head>
                     <!--<hi rend="font_red">--><c function="initials" rend="2">S</c><!--</hi>-->Aa
                     taler Paul<ex>us</ex> oc siger J mend <lb/> elsker eders husfruer lige
@@ -1145,7 +1146,7 @@
                         saadan<ex>n</ex>t. Men at hu<ex>n</ex>
                     <lb/> sculle veere hellig oc vstraffelig <lb/>
                 </head>
-     
+
                 <head>
                     <!--<hi rend="font_red">--><c function="initials" rend="2">S</c><!--</hi>-->Aa
                     schulle oc mendene elske de<lb rend="="/>ris husfruer so<ex>m</ex> deris egit
@@ -1153,7 +1154,7 @@
                     elsker sig selff. Fordi ingen haffuer <lb/> nogen tid hadet sit egit legomme.
                     men <lb/> opføder oc vederqueger det. ligeruiss <lb/> som herren kircken. <lb/>
                 </head>
-         
+
                 <head>
                     <!--<hi rend="font_red">-->
                     <c function="initials" rend="2">Q</c><!--</hi>-->Vinderne sculle vere vnderda<lb
@@ -1175,7 +1176,7 @@
                     />gelser J ie<ex>m</ex>mer scaltu føde dine børn <lb/> Oc under mandsens magt
                     scalt du ve<lb rend="="/>re oc han scal vere din herre <lb/>
                 </head>
-            
+
                 <head>
                     <!--<hi rend="font_red">--><c function="initials" rend="2">T</c><!--</hi>-->Jl
                     manden talede Gud Effter <lb/> thi du haffuer hørt din husfru<lb rend="="/>es
@@ -1398,7 +1399,7 @@
                     </app> alle wore synder quitt <lb/> leddige oc løsse giørde) maa worde ganske
                     førde y guds rige <lb/>
                 </p>
-         
+
                 <p>
                     <!--<figure>
                         <figDesc>blomst</figDesc>
@@ -1648,7 +1649,7 @@
                 <head type="add">Det store litani</head>
                 <head> Letania Maior. <lb/>
                 </head>
-                
+
                 <table>
                     <row>
                         <cell><c function="initials" rend="2">K</c>yrieelleyson</cell>
@@ -1664,7 +1665,7 @@
                         <cell>Herre helligaand forbarme deg</cell>
                     </row>
                     <row><cell role="label" cols="1">Pater de celis deus</cell></row> <!-- OBS, overskrift står ikke i salmebogen -->
-                    
+
                     <row>
                         <cell>Herre gud fader i hymmellen.</cell>
                         <cell>forbarme dig off<ex>uer</ex>.</cell>
@@ -1677,10 +1678,10 @@
                         <cell>Gud helligand sand trøstermand.</cell>
                         <cell>forbarme d<ex>ig</ex> o<ex>ffuer</ex> oss</cell>
                     </row>
-                    
+
                     <row>
                         <cell role="label" cols="1">Propitius esto </cell> <!-- OBS, overskrift står ikke i salmebogen -->
-                        
+
                     </row>
                     <row>
                         <cell>Ver oss barmhiærtig/ </cell>
@@ -1854,14 +1855,14 @@
                             <rdg wit="#orig">hasst</rdg>
                         </app> oss vgudelig</cell>
                     </row>
-                  
+
                     <row>
                         <cell>O her<lb rend="="/>re ha<ex>n</ex>dle ey m<ex>eth</ex> oss effter wore
                             synder/</cell>
                         <cell>Oc betale oss icke effter <lb/> wore misgerninger.</cell> <!-- OBS, to sidste celler i Th 1569 mgl. her -->
                     </row>
                 </table>
-                
+
             </div>
             <div xml:id="kollekt-efter-litaniet" n="37">
                 <head type="add">Kollekt efter litaniet (1)</head>

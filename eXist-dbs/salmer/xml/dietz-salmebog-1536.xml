@@ -66,7 +66,7 @@
            </docImprint>
          </titlePage>
          <div type="preface" xml:id="forord">
-            <head type="add">Forord</head>
+            <head type="add">Fortale</head>
             <head><pb n="2" facs="005"  ana="a1_v"/>Ludowich Dyetz Bo<lb rend="="/>getrøcker/ ønsker then Christelige
                læser/ Naade oc fredt aff Gudt Fader oc <lb/>Jesu Christo wor salighedt <lb/>oc
                frelsere.</head>
@@ -489,7 +489,7 @@
             </lg>
          </div>
           <div xml:id="sanctus-dietz-1536" n="4">
-            <head type="add">Sanctus / Esajas den profet monne det så gå</head>
+            <head type="add">Sanctus/ Esajas den profet monne det så gå</head>
             <head><pb n="14" facs="017"  ana="b3_v"/>&#x10081; Sanctus som sÿungis wdi Norrenberg.</head>
             <lg>
                <l><c function="initials" rend="3">E</c>Saia then Prophet monne thet saa gaa/ </l>
@@ -509,8 +509,8 @@
             </lg>
          </div>
          <lb/>
-         <div xml:id="proser-till-salue-foerste-prose" n="5">
-            <head type="add">Proser til salve, første prose / Jesu Kriste Guds søn</head>
+         <div xml:id="jesu-kriste-guds-soen-hoer-nu-vor-hjertens-boen" n="5">
+            <head type="add">Jesu Kriste Guds søn</head>
             <head>&#x10081; Proser till Salue. Første Prose.</head>
             <lg>
                <l><c function="initials" rend="3">I</c>Esu Christe Guds søn/ </l>
@@ -532,8 +532,8 @@
             </lg>
          </div>
          <lb/>
-         <div xml:id="anden-prose" n="6">
-            <head type="add">Proser til salve, anden prose / Jesu du est vor trøst</head>
+         <div xml:id="jesu-du-est-vor-troest" n="6">
+            <head type="add">Jesu du est vor trøst</head>
             <head n="2" rend="2">Anden Prose.</head>
             <lb/>
             <lg>
@@ -556,8 +556,8 @@
             </lg>
          </div>
          <lb/>
-         <div xml:id="tredje-prose" n="7">
-            <head type="add">Proser til salve, tredje prose / Jesu du est vor vej</head>
+         <div xml:id="jesu-du-est-vor-vej" n="7">
+            <head type="add">Jesu du est vor vej</head>
             <head n="2" rend="2">Tredie Prose.</head>
             <lb/>
             <lg>
@@ -580,8 +580,8 @@
             </lg>
          </div>
          <lb/>
-         <div xml:id="sequentz-aue-preclara" n="8">
-            <head type="add">Sekvens / Benåde os, evige Gud</head>
+         <div xml:id="benaade-os-evige-gud" n="8">
+            <head type="add">Benåde os, evige Gud</head>
             <head>&#x10081; Een Sequentz aff Aue preclara/ Fra thet Verss Audi nos oc till
                enden.</head>
             <lg>
@@ -603,7 +603,7 @@
             </lg>
          </div>
          <lb/>
-         <div type="psalm" xml:id="beklage-af-al-min-synd" n="9">
+         <div type="psalm" xml:id="beklage-af-al-min-sinde-dietz-1536" n="9">
             <head type="add">Beklage af al min sinde</head>
             <head><pb n="17" facs="020"  ana="c1_r"/>&#x10081; Then l. Psalme/ Huor mandt Be<lb rend="="/>klager sÿn syndt
                och brøst.</head>
@@ -678,7 +678,7 @@
             </lg>
          </div>
          <lb/>
-          <div xml:id="krist-laa-i-doedsens-baande-dietz-1536" n="10">
+          <div xml:id="krist-laa-i-doedsens-vaande-dietz-1536" n="10">
             <head type="add">Krist lå i dødsens vånde</head>
             <head>&#x10081; Een Lofsang aff Christi <lb/>Opstandelse.</head>
             <lg>
@@ -879,7 +879,7 @@
             </lg>
          </div>
          <lb/>
-         <div type="psalm" xml:id="antiphona" n="13">
+         <div type="psalm" xml:id="en-jomfru-foedte-et-barn-i-dag" n="13">
             <head type="add">En jomfru fødte et barn i dag</head>
             <head>&#x10081; Antiphona. Dies est leticie.</head>
             <lg>
@@ -896,7 +896,7 @@
             </lg>
          </div>
          <lb/>
-         <div type="psalm" xml:id="salme-cxiij" n="14">
+         <div type="psalm" xml:id="gud-aere-dit-navn-og-ikke-vort" n="14">
             <head type="add">Gud ære dit navn og ikke vort</head>
             <head>&#x10081; Psalmus Cxiij. Non nobis do<lb rend="="/>mine non nobis.</head>
             <lg>
@@ -1007,7 +1007,7 @@
             </lg>
          </div>
          <div type="psalm" xml:id="gud-lod-røst-af-skyen-lyde" n="16">
-            <head type="add">De ti bud, alternativ version/Gud lod røst af skyen lyde</head>
+            <head type="add">Gud lod røst af skyen lyde</head>
             <head>&#x10081; The X. Guds Budt anderledis.</head>
             <lg>
                <l><c function="initials" rend="3">G</c>Vdt lodt røst aff skyen lyde/ </l>
@@ -1141,7 +1141,7 @@
                <l>Gudt miskunde <lb/>oss.</l>
             </lg>
          </div>
-         <div type="psalm" xml:id="en-boen-til-den-hellige-trefoldighed" n="18">
+         <div type="psalm" xml:id="herre-gud-fader-staa-os-bi" n="18">
             <head type="add">Herre Gud Fader, stå os bi</head>
             <head>&#x10081; Een Bøn til the hellige Trefol<lb rend="="/>lighedt/ om bistandt och
                beskermelse/ <lb/>mett the same noder som Gudt <lb/>Fader bliff tw nw mett oss
@@ -1240,13 +1240,13 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="salige-er-alle-i-guds-frygt-staar" n="20">
-            <head type="add">Salig er den i Guds frygt står</head>
+            <head type="add">Salig er alle i Guds frygt står</head>
             <head>&#x10081; Psalmus Cxxvij. Beati omnes <lb/>qui timent dominum.</head>
             <lg>
                <l><pb n="32" facs="035"  ana="d4_v"/><c function="initials" rend="3">S</c>Alige ere alle ÿ Guds fryct staa
                   / </l>
                <l>Oc gerne paa hans wæye gaa.</l>
-            
+
                <l><space extent="2blanks"/>Aff thit arbeyde nære teg met skel/ </l>
                <l>Saa leffuer tw rett oc gaar teg wel.</l>
             </lg>
@@ -1277,8 +1277,8 @@
             </lg>
          </div>
          <lb/>
-         <div type="psalm" xml:id="salve-regina" n="21">
-            <head type="add">Salve Jesu Christe vor Frelsermand</head>
+         <div type="psalm" xml:id="salve-jesu-kriste-vor-frelsermand" n="21">
+            <head type="add">Salve Jesu Kriste vor Frelsermand</head>
             <head>&#x10081; Salue Regina Christelig <lb/>forwent oc forbedret.</head>
             <lg>
                <l><c function="initials" rend="3">S</c>Alue Jesu Christe wor frelsermand </l>
@@ -1326,7 +1326,7 @@
                <l>O søde Jesu.</l>
             </lg>
          </div>
-         <div type="psalm" xml:id="en-anden-salve" n="22">
+         <div type="psalm" xml:id="salve-helsael-milde-jesu-kriste" n="22">
             <head type="add">Salve helsæl milde Jesu Christe</head>
             <head>&#x10081; Een anden Salue.</head>
             <lg>
@@ -1374,7 +1374,7 @@
                <l>Benaade <lb/>oss alle AMEN.</l>
             </lg>
          </div>
-         <div type="psalm" xml:id="en-kristelig-vise" n="23">
+         <div type="psalm" xml:id="vaer-glad-og-fro-al-kristenhed" n="23">
             <head type="add">Vær glad og fro al kristenhed</head>
             <head>&#x10081; Een Christelige wiise om menniske<ex>n</ex>s wselhed oc fordømmelse/</head>
               <p>ther hun ikommen <lb/>er for Adams wlydelse skyldt.
@@ -1490,7 +1490,7 @@
             </lg>
          </div>
          <lb/>
-         <div xml:id="pater-noster-nylig-fordansket" n="24">
+         <div type="psalm" xml:id="o-gud-vor-fader-du-som-est-i-himmerig" n="24">
             <head type="add">O Gud, vor Fader, du som est i Himmerig</head>
             <head>&#x10081; Pater noster nylig fordansket.</head>
             <lg>
@@ -1541,8 +1541,8 @@
             </lg>
          </div>
          <lb/>
-         <div xml:id="det-danske-patrem" n="25">
-            <head type="add">Trosbekendelsen / Vi tror på almægtigste Gud</head>
+         <div type="psalm" xml:id="vi-tro-paa-almaegtigste-gud" n="25">
+            <head type="add">Vi tror på almægtigste Gud</head>
             <head>&#x10081; Thet Danske Patrem.</head>
             <pb n="39" facs="042"  ana="e4_r"/>
             <lg>
@@ -1588,7 +1588,7 @@
                <l>AMEN.</l>
             </lg>
          </div>
-         <div type="psalm" xml:id="deus-noster" n="26">
+         <div type="psalm" xml:id="vor-gud-han-er-saa-fast-en-borg" n="26">
             <head type="add">Vor Gud han er så fast en borg</head>
             <head><pb n="40" facs="043"  ana="e4_v"/>&#x10081; Then Xlv. <app>
                   <lem>Psalme</lem>
@@ -1639,7 +1639,7 @@
                <l>Guds rige wÿ dog beholde.</l>
             </lg>
          </div>
-         <div type="psalm" xml:id="proser-til-nu-bede-vi-den-helligaand" n="27">
+         <div type="psalm" xml:id="vi-arme-adams-boern-alle" n="27">
             <head type="add">Vi arme Adams børn alle</head>
             <head>&#x10081; Jtem Proser til Nu bede wii then <lb/>Helliaand mellom hwert
                werss.</head>
@@ -1678,7 +1678,7 @@
             </lg>
          </div>
          <lb/>
-         <div type="psalm" xml:id="salme-cxxvij-in-convertendo" n="28">
+         <div type="psalm" xml:id="naar-gud-faar-loest-sions-faengsel" n="28">
             <head type="add">Når Gud får løst Sions fængsel</head>
             <head>&#x10081; Psalmus Cxxvij. Jn conuertendo <lb/>dominus captiuitatem Syon.</head>
             <lg>
@@ -1726,7 +1726,7 @@
             </lg>
          </div>
          <lb/>
-         <div type="psalm" xml:id="antiphona-igen" n="29">
+         <div type="psalm" xml:id="nu-glaeder-eder-adams-boern-alle-sammen" n="29">
             <head type="add">Nu glæder eder, Adams børn alle sammen</head>
             <head>&#x10081; Antiphona.</head>
             <lg>
@@ -1748,8 +1748,8 @@
             </lg>
          </div>
          <lb/>
-          <div type="psalm" xml:id="vi-saade-og-graade-i-babylon-dietz-1536" n="30">
-            <head type="add">Vi saade og graade i Babylon</head>
+          <div type="psalm" xml:id="vi-sade-og-graed-i-babylon-dietz-1536" n="30">
+            <head type="add">Vi sad og græd i Babylon</head>
             <head>&#x10081; Psalmus Cxxxvij. Super flumi<lb rend="="/>na Babilonis sedimus et
                fleuimus.</head>
             <lg>
@@ -1796,7 +1796,7 @@
          </div>
          <lb/>
           <div type="psalm" xml:id="visdom-og-raad-og-salighed-dietz-1536" n="31">
-            <head type="add">Antifon: Visdom og råd og salighed</head>
+            <head type="add">Visdom og råd og salighed</head>
             <head>&#x10081; Antiphona.</head>
             <lg>
                <l><c function="initials" rend="3">V</c>Jsdom oc raadt oc salighed/ </l>
@@ -1817,7 +1817,7 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="den-tid-er-kommet-som-foer-var-spaaet" n="32">
-            <head type="add">En anden antifon: Den tid er kommet som før var spået</head>
+            <head type="add">Den tid er kommet som før var spået</head>
             <head>&#x10081; Een anden Antiphona.</head>
             <lg>
                <l><c function="initials" rend="3">T</c>Hen tÿdt er kommen som før wor <lb/>spaat/ </l>
@@ -1903,7 +1903,7 @@
             </lg>
          </div>
          <lb/>
-         <div type="psalm" xml:id="o-herre-gud-det-kommer-nu" n="34">
+         <div type="psalm" xml:id="o-herre-gud-det-kommer-nu-ud" n="34">
             <head type="add">O Herre Gud, det kommer nu ud</head>
             <head>&#x10081; Een skøn aandelige wise om Guds <lb/>krafft och macht.</head>
             <lg>
@@ -1999,208 +1999,208 @@
             </lg>
          </div>
          <lb/>
-          <div xml:id="litani-paa-dansk-dietz-1536" n="35">
-            <head type="add">Litani</head>
+          <div xml:id="litaniet-dietz-1536" n="35">
+            <head type="add">Litaniet</head>
             <head>
                <pb n="49" facs="052"  ana="g1_r"/>Letania paa Danske.</head>
-            
+
             <table>
                <row><cell><c function="initials" rend="3">K</c>Yrieeleyson/ </cell>
                   <cell>Gud Fader forbar<lb rend="="/>me thig.</cell></row>
-               
+
                <row><cell>Christe eleyson/ </cell>
                   <cell>Criste forbarme teg.</cell></row>
-               
+
                <row><cell>Kyrieeleyson/ </cell>
                   <cell>Herre Helliaand forbarme tig</cell></row>
-               
+
                <row><cell role="label" cols="1"> &#x10081; Pater de celis Deus.</cell>
                   </row>
-               
+
                <row><cell>Herre Gud Fader ÿ Himmelen/ </cell>
                   <cell>forbarme <lb/>theg offuer oss.</cell></row>
-               
+
                <row><cell><space extent="2blanks"/>Herre Jesu werdsens frelsere/ </cell>
                   <cell>forbarme <lb/>teg offuer oss.</cell></row>
-               
+
                <row><cell><space extent="2blanks"/>Herre Gud Helliaand sand trøstermand </cell>
                   <cell>forbarme teg offuer oss.</cell></row>
-               
+
                <row><cell role="label" cols="1"> &#x10081; Propitius esto. </cell>
                   <cell></cell></row>
-               
+
                <row><cell>Wær oss barmhiertig. </cell>
                   <cell>Spar oss O HERRE Gudt.</cell></row>
-               
+
                <row><cell>Wær oss barmhiertig.</cell>
                   <cell><space extent="2blanks"/>Hielp oss O HERRE Gud.</cell></row>
-               
+
                <row><cell>Aff alle synder/ </cell>
                   <cell>Frÿ oss O Herre Gud.</cell></row>
-               
+
                <row><cell>Fra all wildfarelse/ </cell>
                   <cell>Fry oss O Herre. </cell></row>
-               
+
                <row><cell>Fra alt thet som ont er/</cell>
                   <cell>Frÿ oss O <ex>etc</ex>. </cell></row>
-               
+
                <row><cell>Fra pestilentze och dyr tÿdt /</cell>
                   <cell>Frÿ oss. </cell></row>
-               
+
                <row><cell>Fra krig oc blodstørting/</cell>
                   <cell>Frÿ oss.</cell></row>
-               
+
                <row><cell><pb n="50" facs="053"  ana="g1_v"/> Fra oprør oc twedrachtighed/ </cell>
                   <cell>Frÿ oss.</cell></row>
-               
+
                <row>
                   <cell>Fra wtimelig werlig/</cell>
                   <cell>Frÿ oss O herre Gud</cell></row>
-               
+
                <row><cell>Fra then ewige dødt/</cell>
                   <cell>Frÿ oss O Herre.</cell></row>
-               
+
                <row><cell role="label" cols="1">&#x10081; Peccatores.</cell>
                   <cell></cell></row>
-               
+
                <row><cell>For thin hellige fødsel skyldt/</cell>
                   <cell>Hielp oss O <lb/>HERRE Gud.</cell></row>
-               
+
                <row><cell>For thin blodige swed/</cell>
                   <cell>Hielp oss.</cell></row>
-               
+
                <row><cell>For thin pine oc død/</cell>
                   <cell>Hielp oss o herre.</cell></row>
-               
+
                <row><cell>For thin hellige Jordferd/</cell>
                   <cell>Hielp oss.</cell></row>
-               
+
                <row><cell>For thin hellige Opstandelse och Himmel<lb rend="="/>ferdt/ </cell>
                   <cell>Hielp oss O Herre Gud.</cell></row>
-               
+
                <row><cell>J wor siste thime/ </cell>
                   <cell>Hielp oss.</cell></row>
-               
+
                <row><cell>Paa then yderste domme dag/</cell>
                   <cell>Hielp oss.</cell></row>
-               
+
                <row><cell>Wÿ arme syndere giøre wor bøn til teg/</cell>
                   <cell>Hør oss O HERRE Gud.</cell></row>
-               
+
                <row><cell>Styr oc regere thin hellige Christelige kircke/ </cell>
                   <cell>Hør oss O HERRE Gud.</cell></row>
-               
+
                <row><cell>Holt Kirckens tienere wid thit hellige ordt <lb/>och ith helligt leffnit/ </cell>
                   <cell>Hør oss.</cell></row>
-               
+
                <row><cell>Forhindre ketterÿ oc wildfarelse/</cell>
                   <cell>Hør oss.</cell></row>
-               
+
                <row><cell>Oc før them alle till rette wey som er forfør<lb rend="="/>de/ </cell>
                   <cell>Hør oss O HERRE Gud.</cell></row>
-               
+
                <row><cell>Oc lad dieffuelen snart trædis vnder wore <lb/>føder/</cell>
                   <cell>Hør oss o herre Gud.</cell></row>
-               
+
                <row><cell><pb n="51" facs="054"  ana="g2_r"/>Giff them alle thin aand och krafft som hør <lb/>thit ordt/</cell>
                   <cell>Hør oss O HERRE Gud.</cell></row>
-               
+
                <row><cell>Trøst them alle som ere redde/ </cell>
                   <cell>Hør oss.</cell></row>
-               
+
                <row><cell>Giff Konger oc Førster fred oc endrectighed</cell>
                   <cell>Hør oss o herre Gudt.</cell></row>
-               
+
                <row>
                   <cell>Giff wore Keysere oc Konge stedse seyer och <lb/>macht offuer theris fiender/</cell>
                   <cell>Hør oss o herre.</cell>
                </row>
-               
+
                <row>
                   <cell>Giff wor Raad oc menighed welsignelse oc <lb/>beskermelse/</cell>
                   <cell>Hør oss o herre Gudt.</cell>
                </row>
-               
+
                <row>
                   <cell>Wer them alle bistandig som ere ÿ nødt och <lb/>fare/ </cell>
                   <cell>Hør oss o herre Gudt.</cell>
                </row>
-               
+
                <row>
                   <cell>Forsørge them alle som ere hielpe løse/ </cell>
                   <cell>Hør <lb/>oss o herre Gudt.</cell>
                </row>
-               
+
                <row>
                   <cell>Forbarme teg offuer alle menniske/ </cell>
                   <cell>Hør oss.</cell>
                </row>
-               
+
                <row>
                   <cell>Forlad alle wore fiende/ och hielp them ath <lb/>omwende seg/ </cell>
                   <cell>Hør oss o herre Gud.</cell>
                </row>
-               
+
                <row>
                   <cell>Giff fruct paa iorden/ oc beware hende/</cell>
                   <cell></cell>
                </row>
-               
+
                <row>
                   <cell>O HERRE Gud/ hør oss naadelig/</cell>
                   <cell></cell>
                </row>
-               
+
                <row>
                   <cell>O Jesu Christe Guds Søn/</cell>
                   <cell>Hør oss o.</cell>
                </row>
-               
+
                <row>
                   <cell>O thu Guds lam/ som bar werdens synder </cell>
                   <cell>Forbarme teg offuer oss.</cell>
                </row>
-               
+
                <row>
                   <cell>O thu Guds lam/ som bar werdens synder </cell>
                   <cell>Forbarme teg offuer oss.</cell>
                </row>
-               
+
                <row>
                   <cell>O thu Guds lam/ som bar werdens synder </cell>
                   <cell>Forlene oss alle thin fredt.</cell>
                </row>
-               
+
                <row>
                   <cell><pb n="52" facs="055"  ana="g2_v"/>Kyrieeleyson/ </cell>
                   <cell>Gud forbarme teg offuer oss.</cell>
                </row>
-               
+
                <row>
                   <cell role="label" cols="1">&#x10081; Versickel.</cell>
                   <cell></cell>
                </row>
-               
+
                <row>
                   <cell>Wÿ haffue syndet mett wore forfædre/</cell>
                   <cell><space extent="2blanks"/>Wÿ haffue mishandlet/ oc hafft oss vgu<lb rend="="
                   />delige.</cell>
                </row>
-               
+
                <row>
                   <cell><space extent="2blanks"/>O HERRE handle icke mett oss effter <lb/>wore synder.</cell>
                   <cell><space extent="2blanks"/>Oc betale oss icke effter wore misgerninger</cell>
                </row>
-               
+
                <row>
                   <cell><space extent="2blanks"/>O HERRE hør wor bøn.</cell>
                   <cell><space extent="2blanks"/>Oc lad wor røst komme til teg.</cell>
                </row>
                  </table>
-            
+
          </div>
-          <div xml:id="collecta-dietz-1536" n="36">
-            <head type="add">Kollekt: Lader os bede for alle syndere</head>
+          <div xml:id="Kollekt-for-alle-syndere-dietz-1536" n="36">
+            <head type="add">Kollekt for alle syndere</head>
             <head>&#x10081; Collecta. <lb/>Lader oss bede for alle Syndere.</head>
             <p>
                <c function="initials" rend="3">O</c> Almegtiste Gud som er altÿd mildt oc
@@ -2211,8 +2211,8 @@
                AMEN. </p>
          </div>
          <lb/>
-          <div xml:id="kollekt-o-almaegtigste-evige-gud-dietz-1536-1" n="37">
-            <head type="add">Kollekt: O allermægtigste evige Gud</head>
+          <div xml:id="kollekt-for-kongen-og-rigens-raad-dietz-1536-1" n="37">
+            <head type="add">Kollekt for kongen og rigens råd</head>
             <head>&#x10081; Een anden Collect for Kongen <lb/>och Rigens Raadt.</head>
             <p>
                <pb n="53" facs="056"  ana="g3_r"/><c function="initials" rend="3">O</c> Aldermegtiste ewige Gud/ som wi<lb
@@ -2223,8 +2223,8 @@
                   rend="="/>merigis rige mett teg ewindelige Amen. </p>
          </div>
          <lb/>
-          <div xml:id="kollekt-o-almaegtigste-evige-gud-dietz-1536-2" n="38">
-            <head type="add">En anden kollekt: O allermægtigste evige Gud</head>
+          <div xml:id="kollekt-for-fred-dietz-1536-2" n="38">
+            <head type="add">Kollekt for fred</head>
             <head>&#x10081; Een Collect att bede om Fred mett.</head>
             <p>
                <c function="initials" rend="3">O</c> Aldermegtiste ewige Gud/ som er <lb/>en kilde
