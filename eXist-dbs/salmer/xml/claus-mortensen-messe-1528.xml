@@ -175,7 +175,7 @@
             <div type="psalm" xml:id="af-dybsens-noed-raaber-jeg-til-dig-mortensen-1529" n="4">
                 <head>Nu begioender choredh <lb/> eller christen forsamling <lb/> ath syunge
                     introitum til <lb/> messzen <lb/> Officium Deprofundis</head>
-                <head type="add">De profundis/ Af dybsens nød råber jeg til dig</head>
+                <head type="add">Introitus: De profundis/ Af dybsens nød råber jeg til dig</head>
                 <lg>
                     <l>
                         <notatedMusic>
@@ -241,7 +241,7 @@
                     <l>aff saarrigh och synder alle</l>
                 </lg>
             </div>
-            <div type="psalm" xml:id="kyrie-gud-fader-alsomhoejeste-troest-dietz-1529" n="5">
+            <div type="psalm" xml:id="kyrie-gud-fader-alsomhoejeste-troest-mortensen-1529" n="5">
                 <head type="add">Kyrie eleison/ Kyrie Gud Fader alsomhøjeste trøst</head>
                 <head>Kyrieeleiszon</head>
                 <lg>
@@ -751,7 +751,7 @@
                 </lg>
                 <p> v<ex>ersiculus</ex></p>
             </div>
-            <div type="psalm" xml:id="nu-er-os-gud-miskundelig-dietz-1529" n="15">
+            <div type="psalm" xml:id="nu-er-os-gud-miskundelig-mortensen-1529" n="15">
                 <head type="add">Nu er os Gud miskundelig</head>
                 <head>Deus misereatur <lb/> The<ex>n</ex>ne psalme syungis eff<lb rend="="/>ter
                     predicken m<ex>eth</ex> huilcken <lb/> christhe<ex>n</ex> forsa<ex>m</ex>lingh
@@ -1293,7 +1293,7 @@
                         <figDesc>krogkors</figDesc>
                     </figure>-->
             </div>
-            <div xml:id="formaning-til-nadvergaesterne-dietz-1529" n="23">
+            <div xml:id="formaning-til-nadvergaesterne-mortensen-1529" n="23">
                 <head type="add">Formaning til nadvergæsterne</head>
                 <head>Exhortacio: <pb n="D2_v"/> En kort formani<ex>n</ex>g till fol<lb rend="="
                     />ken oc serdel<ex>is</ex> til the<ex>n</ex>nom so<ex>m</ex>
@@ -1675,7 +1675,7 @@
                     </figure>-->Och
                         m<ex>eth</ex> thin aandh</p>
             </div>
-            <div xml:id="kollekt-dietz-1529" n="28">
+            <div xml:id="kollekt-mortensen-1529" n="28">
                 <head type="add">Kollekt/ Vi takke dig, Herre</head>
                 <head>En collecte
                     <!--<figure>
