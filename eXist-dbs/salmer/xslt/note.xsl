@@ -10,8 +10,8 @@
     </xsl:template>
     <xsl:template match="tei:note[@place='bottom']">
         <!--<xsl:variable name="note-identifier">-->
-            <!--<xsl:text>Note</xsl:text>-->
-            <!-- <xsl:number count="tei:note" level="any" from="tei:text" format="1"/>-->
+        <!--<xsl:text>Note</xsl:text>-->
+        <!-- <xsl:number count="tei:note" level="any" from="tei:text" format="1"/>-->
         <!--</xsl:variable>-->
         <!--<span class="realnote" id="notelink{$note-identifier}" onclick="toggle({$note-identifier});">-->
         <span class="realnote">

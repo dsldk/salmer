@@ -3,6 +3,8 @@
     <xsl:param name="line-index" select="line-index"/>
     <xsl:param name="pb-index" select="pb-index"/>
     <xsl:param name="interval" select="5" as="xs:integer"/>
+    <xsl:param name="facs"/>
+    <xsl:param name="n"/>
     <xsl:include href="dsl-basis/byline.xsl"/>
     <xsl:include href="dsl-basis/damage.xsl"/>
     <xsl:include href="dsl-basis/div.xsl"/>
@@ -11,7 +13,7 @@
     <xsl:include href="dsl-basis/docTitle.xsl"/>
     <xsl:include href="dsl-basis/epigraph.xsl"/>
     <xsl:include href="dsl-basis/emph.xsl"/>
-    <xsl:include href="dsl-basis/figure.xsl"/>
+    <!-- disable <xsl:include href="dsl-basis/figure.xsl"/>-->
     <xsl:include href="dsl-basis/front.xsl"/>
     <xsl:include href="dsl-basis/gap.xsl"/>
     <xsl:include href="dsl-basis/history.xsl"/>
