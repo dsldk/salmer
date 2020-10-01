@@ -34,15 +34,20 @@ let $selection := if ($chapter_name = 'metadata')
                   then $xmldoc/tei:TEI//tei:back
                   else $xmldoc//tei:body/tei:div[$chapter]
 
+let $latest-pb := if ($section = 0)
+    then $selection/preceding::tei:pb[1]
+    else $selection/tei:div[$section]/preceding::tei:pb[1]
+let $latest-pb-param := (<param name="facs" value="{$latest-pb/@facs}"/>,<param name="n" value="{$latest-pb/@n}"/>)
+
 return if ($section = 0 and $selection[tei:lg])
        
        (: if verse :)
 	   then let $line-index := index-of(($xmldoc//tei:l), $selection/tei:lg[1]/tei:l[1])
 	        let $line-index-param := <param name="line-index" value="{$line-index}"/>
-	        return <results>{transform:transform($selection, $stylesheet, <parameters>{$line-index-param}</parameters>)}</results> 
+	        return <results>{transform:transform($selection, $stylesheet, <parameters>{$line-index-param}{$latest-pb-param}</parameters>)}</results> 
 	   else if ($section = 0 and $selection[tei:p])	   
 	        (: if prose :)
-	        then <results>{transform:transform($selection, $stylesheet, <parameters></parameters>)}</results> 	        
+	        then <results>{transform:transform($selection, $stylesheet, <parameters>{$latest-pb-param}</parameters>)}</results> 	        
 	        else if ($section != 0)	        
 	          (: if (sub)section :)
 	          (: let chapter_head be the first head(line) element above the selected subsection :)
@@ -54,11 +59,11 @@ return if ($section = 0 and $selection[tei:lg])
     	               (: if poetry :)
     	               then let $line-index := index-of(($xmldoc//tei:l), $selection/tei:lg[1]/tei:l[1])
     	                    let $line-index-param := <param name="line-index" value="{$line-index}"/>
-    	                    return <results>{transform:transform($selection, $stylesheet, <parameters>{$line-index-param}</parameters>)}</results> 
+    	                    return <results>{transform:transform($selection, $stylesheet, <parameters>{$line-index-param}{$latest-pb-param}</parameters>)}</results> 
     	               else if ($section = 1) then   	                    
-    	                    <results><h1>{transform:transform($chapter_head, $stylesheet, <parameters></parameters>)}</h1>{transform:transform($selection, $stylesheet, <parameters></parameters>)}</results>
+    	                    <results><h1>{transform:transform($chapter_head, $stylesheet, <parameters></parameters>)}</h1>{transform:transform($selection, $stylesheet, <parameters>{$latest-pb-param}</parameters>)}</results>
     	                    else
-    	                    <results>{transform:transform($selection, $stylesheet, <parameters></parameters>)}</results>
-                       else <results>{transform:transform($selection, $stylesheet, <parameters></parameters>)}</results>
+    	                    <results>{transform:transform($selection, $stylesheet, <parameters>{$latest-pb-param}</parameters>)}</results>
+                       else <results>{transform:transform($selection, $stylesheet, <parameters>{$latest-pb-param}</parameters>)}</results>
                        
 
