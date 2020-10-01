@@ -3,7 +3,6 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace exist="http://exist.sourceforge.net/NS/exist";
 declare namespace request="http://exist-db.org/xquery/request";
 declare namespace ft="http://exist-db.org/xquery/lucene";
-declare namespace functx = "http://www.functx.com";
 
 import module namespace kwic="http://exist-db.org/xquery/kwic";
 declare boundary-space strip;
