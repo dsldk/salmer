@@ -19,15 +19,11 @@
         </xd:desc>
     </xd:doc>
 
-    <!-- DEBUG -->
-    <!--<xsl:template match="tei:notatedMusic"/>
-    <xsl:template name="notatedMusic_head"/>-->
-        
     <xsl:template match="tei:notatedMusic">
-        <!-- Læse filer fra salmeserveren: -->
-        <!--<xsl:variable name="mei_base" select="'http://salmer.dsl.dk/data/'"/>-->
+        <!-- Læse filer fra melodiserveren: -->
+        <xsl:variable name="mei_base" select="'https://melodier.dsl.dk/data/'"/>
         <!-- Læse filer fra Github: -->
-        <xsl:variable name="mei_base" select="'https://raw.githubusercontent.com/dsldk/middelaldertekster/master/data/mei/'"/>
+        <!--<xsl:variable name="mei_base" select="'https://raw.githubusercontent.com/dsldk/middelaldertekster/master/data/mei/'"/>-->
         <xsl:variable name="mei_dir">
             <xsl:value-of select="tokenize(tei:ptr/@target, '_')[position() &lt;= 2]" separator="_"/>/</xsl:variable>
         <xsl:if test="tei:ptr/@target">
@@ -81,9 +77,8 @@
         <!-- Include additional header elements if the TEI file contains notated music. -->
         <xsl:if test="//tei:notatedMusic">
 
-            <!-- TO DO: Change relative paths to whatever is the right place... -->
-            <xsl:variable name="mei_js_base" select="'http://salmer.dsl.dk/js/'"/>
-            <xsl:variable name="mei_css_base" select="'http://salmer.dsl.dk/style/'"/>
+            <xsl:variable name="mei_js_base" select="'http://melodier.dsl.dk/js/'"/>
+            <xsl:variable name="mei_css_base" select="'http://melodier.dsl.dk/style/'"/>
 
             <!-- External JS libraries -->
             <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css"/>
@@ -92,7 +87,7 @@
             <script type="text/javascript" src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"><!-- jquery UI --></script>
 
             <!-- Local JS libraries -->
-            <script type="text/javascript" src="{$mei_js_base}libs/verovio/2.0.2-95c61b2/verovio-toolkit.js"> </script>
+            <script type="text/javascript" src="{$mei_js_base}libs/verovio/verovio-toolkit.js"> </script>
             <script type="text/javascript" src="{$mei_js_base}MeiAjax.js"> </script>
             <!-- MIDI -->
             <!--
