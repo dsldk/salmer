@@ -1178,9 +1178,9 @@ def get_available_documents(request):
 
     for d in listify(documents["result"]):
         if isinstance(d, str) or isinstance(d, bytes):
-        xml_name = d["path"]
-        author_xquery = f"author_of_document.xquery?id={xml_name}"
-        author = execute_xquery(request, author_xquery)
+            xml_name = d["path"]
+            author_xquery = f"author_of_document.xquery?id={xml_name}"
+            author = execute_xquery(request, author_xquery)
         if author:
             title = author + ": " + d["id"]
         else:
