@@ -1176,7 +1176,7 @@ def get_available_documents(request):
     documents = execute_xquery(request, documents_xquery)
     available_documents = {}
 
-    for d in documents["result"]:
+    for d in listify(documents["result"]):
         xml_name = d["path"]
         author_xquery = f"author_of_document.xquery?id={xml_name}"
         author = execute_xquery(request, author_xquery)
