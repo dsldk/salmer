@@ -7,7 +7,6 @@ build
 dist
 .idea
 .sass-cache
-#generic_literature_site/static/styles.css
 generic_literature_site/locale/generic_literature_site.pot
 generic_literature_site/locale/en/LC_MESSAGES/generic_literature_site.mo
 generic_literature_site/locale/en/LC_MESSAGES/generic_literature_site.po~
