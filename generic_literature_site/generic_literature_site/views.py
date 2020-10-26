@@ -506,8 +506,9 @@ def notes_for_document(
             "indholdsfortegnelse",
             "toc-section",
             "back",
+            "front",
         ]
-        or chapter == "back"
+        or chapter in ["back", "front"]
     ):
         return []
     url = (
@@ -612,17 +613,6 @@ def get_introduction_text(request, arguments):
     return introduction_text
 
 
-HEADER_CHAPTERS = [
-    {"name": "Titelblad", "no": "titelblad"},
-    {"name": "Dedikation", "no": "dedikation"},
-    {"name": "Motto", "no": "motto"},
-    {"name": "Forord", "no": "preface"},
-    {"name": "Indholdsfortegnelse", "no": "toc-section"},
-    {"name": "Kalender", "no": "calendar"},
-    {"name": "Introduktion", "no": "introduction"},
-]
-
-
 def add_named_chapters(
     request,
     xquery_folder,
@@ -649,14 +639,17 @@ def add_named_chapters(
     if named_chapter:
         chapter_arg = named_chapter
     chapters_of_document = chapters["chapters_of_document"]
-    additional_chapters = HEADER_CHAPTERS
+    front_chapters = [
+        {"name": "Titelblad", "no": "titelblad"},
+        {"name": "Redaktionelt", "no": "front"},
+    ]
     end_chapters = [
         {"name": "Appendiks", "no": "back"},
     ]
     chapters_of_document = (
-        additional_chapters + chapters_of_document + end_chapters
+        front_chapters + chapters_of_document + end_chapters
     )
-    for additional_chapter in additional_chapters + end_chapters:
+    for additional_chapter in front_chapters + end_chapters:
         # TODO: Here we get all content in all additional chapters from eXist
         # just to see if the chapter is there. This is expensive!
         additional_chapter_name = additional_chapter.get("no")
@@ -756,7 +749,7 @@ def smn_view(request):
     pages = insert_note_texts(request, pages)
 
     # Disable chapters with subsections in menu - including "Appendiks".
-    inactive_chapters = ["back"] + chapters_with_sections
+    inactive_chapters = ["front"] + ["back"] + chapters_with_sections
 
     # * Chapters come in order in chapters_and_sections["chapters_of_document"]
     # * Chapters in chapters_and_sections["chapters_of_document"] have name
@@ -778,11 +771,12 @@ def smn_view(request):
             chapters_of_document, str(chapter)
         )
     if current_item:
-        if current_item in HEADER_CHAPTERS and "header_no" not in current_item:
-            current_item["header_no"] = 0
-        current_item_index = chapters_and_sections[
-            "chapters_of_document"
-        ].index(current_item)
+        try:
+            current_item_index = chapters_and_sections[
+                "chapters_of_document"
+            ].index(current_item)
+        except ValueError:
+            current_item_index = 0
     else:
         current_item_index = None
     if (
@@ -846,12 +840,16 @@ def smn_view(request):
         # and indent the section
         if "/" in str(chapter["no"]):
             prefix += "&nbsp;&nbsp;&nbsp;"
-        # Back material has chapter_no "back" but may also have a slash.
-        if chapter["no"] == "back":
+        # Back/front material has chapter_no "back" or "front" but may also have a slash.
+        if chapter["no"] in ["back", "front"]:
             return prefix
         elif chapter["no"].startswith("back"):
             prefix += (
                 chapter["no"].replace("back/", " ").replace("/", ".") + ": "
+            )
+        elif chapter["no"].startswith("front"):
+            prefix += (
+                chapter["no"].replace("front/", " ").replace("/", ".") + ": "
             )
         elif "header_no" not in chapter or not chapter["header_no"] == 0:
             # chapters such as "titelblad" will have a property "header_no"
