@@ -1176,10 +1176,11 @@ def get_available_documents(request):
     documents = execute_xquery(request, documents_xquery)
     available_documents = {}
 
-    for d in documents["result"]:
-        xml_name = d["path"]
-        author_xquery = f"author_of_document.xquery?id={xml_name}"
-        author = execute_xquery(request, author_xquery)
+    for d in listify(documents["result"]):
+        if isinstance(d, str) or isinstance(d, bytes):
+            xml_name = d["path"]
+            author_xquery = f"author_of_document.xquery?id={xml_name}"
+            author = execute_xquery(request, author_xquery)
         if author:
             title = author + ": " + d["id"]
         else:

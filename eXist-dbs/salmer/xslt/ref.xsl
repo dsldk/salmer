@@ -1,4 +1,9 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
+    xmlns:ext="http://exslt.org/common" 
+    xmlns:tei="http://www.tei-c.org/ns/1.0" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    exclude-result-prefixes="xs tei ext" version="2.0">
+
     <xsl:template match="tei:ref">
         <xsl:choose>
             <xsl:when test="starts-with(@target, 'http')">
@@ -12,19 +17,21 @@
             <xsl:when test="starts-with(@target, '#')">
                 <a>
                     <xsl:attribute name="href">
-                        <xsl:variable name="concordance" select="document('/db/apps/salmer/concordance.xml')"/>
                         <xsl:variable name="targetRef" select="substring-after(@target, '#')"/>
-                        <xsl:variable name="targetNode" select="$concordance/index/text/ref[@id=$targetRef]"/>
-                        <xsl:variable name="thisTextId" select="./ancestor"/>
-                        <xsl:variable name="parentText" select="$targetNode/parent"/>
-                        <xsl:value-of select="concat($parentText/@id, $targetNode/@target)"/>
+                        <!-- The following performs poorly if more than a few look-ups are needed -->
+                        <!--<xsl:variable name="targetNode" select="$concordance/index/text/ref[@id=$targetRef]"/>-->   
+                        <!-- Key provides more constant performance. Some time is needed to build the index, though -->
+                        <xsl:variable name="targetNode" select="key('concordance_key',$targetRef,$concordance)"/>                        
+                        <xsl:variable name="parentText" select="$targetNode/parent::*"/>
+                        <xsl:value-of select="concat('/',$parentText/@id, $targetNode/@target)"/>
                     </xsl:attribute>
                     <xsl:if test="tei:reg">
                         <xsl:attribute name="title">
                             <xsl:value-of select="tei:reg"/>
                         </xsl:attribute>
                     </xsl:if>
-                    <xsl:apply-templates select="tei:orig"/>
+                    <!--<xsl:apply-templates select="tei:orig"/>-->
+                    <xsl:apply-templates/>
                 </a>
                 <xsl:text> </xsl:text>
             </xsl:when>
@@ -51,4 +58,4 @@
     <xsl:template match="tei:orig">
         <xsl:apply-templates/>
     </xsl:template>
-</xsl:stylesheet><!-- ancestor::tei:note[@place!=right] -->
+</xsl:stylesheet>

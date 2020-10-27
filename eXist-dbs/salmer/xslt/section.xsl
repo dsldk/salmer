@@ -3,6 +3,10 @@
     <xsl:param name="line-index" select="line-index"/>
     <xsl:param name="pb-index" select="pb-index"/>
     <xsl:param name="interval" select="5" as="xs:integer"/>
+    <xsl:param name="facs"/>
+    <xsl:param name="n"/>
+    <xsl:param name="concordance" select="document('/db/apps/salmer/concordance.xml')"/>
+    <xsl:key name="concordance_key" match="/index/text/ref" use="@id"/>
     <xsl:include href="dsl-basis/byline.xsl"/>
     <xsl:include href="dsl-basis/damage.xsl"/>
     <xsl:include href="dsl-basis/div.xsl"/>
@@ -11,7 +15,7 @@
     <xsl:include href="dsl-basis/docTitle.xsl"/>
     <xsl:include href="dsl-basis/epigraph.xsl"/>
     <xsl:include href="dsl-basis/emph.xsl"/>
-    <xsl:include href="dsl-basis/figure.xsl"/>
+    <!-- disable <xsl:include href="dsl-basis/figure.xsl"/>-->
     <xsl:include href="dsl-basis/front.xsl"/>
     <xsl:include href="dsl-basis/gap.xsl"/>
     <xsl:include href="dsl-basis/history.xsl"/>
@@ -42,6 +46,7 @@
     <xsl:include href="bibl.xsl"/>
     <xsl:include href="c.xsl"/>
     <!--<xsl:include href="cell.xsl"/>-->
+    <!--<xsl:include href="div.xsl"/>-->
     <xsl:include href="ex.xsl"/>
     <xsl:include href="head.xsl"/>
     <xsl:include href="hi.xsl"/>

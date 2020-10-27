@@ -19,6 +19,11 @@
   }
 }
 
+.facsimile-link.inline {
+    position: relative;
+    right: inherit;
+}
+
 .facsimile-thumb {
   background-color: #ecece8;
   border:1px solid rgba(0,0,0,0.15);

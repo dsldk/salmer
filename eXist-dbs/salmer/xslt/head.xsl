@@ -18,8 +18,34 @@
             <xd:copyright>2010, Society for Danish Language and Literature</xd:copyright>
         </xd:desc>
     </xd:doc>
+    
+    <xsl:template name="repeatPb">        
+        <xsl:if test="not(preceding-sibling::tei:head              
+            or following-sibling::*[not(name()='pb' or name()='head')][1][preceding::tei:pb]             
+            or following-sibling::*[not(name()='pb' or name()='head')][1]/tei:pb[1][not(preceding-sibling::text())])">
+            <span class="legacy-page-break">
+                <xsl:element name="a">
+                    <xsl:attribute name="class">facsimile-link</xsl:attribute>
+                    <xsl:choose>
+                        <xsl:when test="ancestor::tei:div[1]/preceding-sibling::*[.//tei:pb]">
+                            <xsl:variable name="latest-pb" select="ancestor::tei:div[1]/preceding-sibling::*[.//tei:pb][last()]"/>
+                            <xsl:attribute name="href">/static/facsimiles/document_id_placeholder/<xsl:value-of select="$latest-pb/@facs"/>.jpg</xsl:attribute>
+                            <xsl:value-of select="concat('[',$latest-pb/@n,']')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:attribute name="href">/static/facsimiles/document_id_placeholder/<xsl:value-of select="$facs"/>.jpg</xsl:attribute>
+                            <xsl:value-of select="concat('[',$n,']')"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:element>
+            </span>
+        </xsl:if>
+    </xsl:template>
+    
+    
     <!-- Level 1 head -->
     <xsl:template match="/tei:div/tei:head">
+        <xsl:call-template name="repeatPb"/>        
         <xsl:choose>
             <xsl:when test="@type = 'add'">
                 <!--<h1 class="metadata">
@@ -56,6 +82,7 @@
     </xsl:template>
     <!-- Level 2 head -->
     <xsl:template match="/tei:div/tei:div/tei:head">
+<xsl:call-template name="repeatPb"/>        
         <xsl:choose>
             <xsl:when test="@type = 'add'">
                 <!--<h2 class="metadata">
