@@ -640,7 +640,6 @@ def add_named_chapters(
         chapter_arg = named_chapter
     chapters_of_document = chapters["chapters_of_document"]
     front_chapters = [
-        {"name": "Titelblad", "no": "titelblad"},
         {"name": "Redaktionelt", "no": "front"},
     ]
     end_chapters = [
