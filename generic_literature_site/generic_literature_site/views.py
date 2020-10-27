@@ -63,7 +63,6 @@ from .menu import (
 import django
 
 from bs4 import BeautifulSoup
-import xml.etree.ElementTree as ET
 
 import memcache
 
@@ -640,6 +639,7 @@ def add_named_chapters(
         chapter_arg = named_chapter
     chapters_of_document = chapters["chapters_of_document"]
     front_chapters = [
+        {"name": "Titelblad", "no": "titelblad"},
         {"name": "Redaktionelt", "no": "front"},
     ]
     end_chapters = [
@@ -721,7 +721,7 @@ def smn_view(request):
     )
     document_id_without_xml = remove_dot_xml(document_id)
     pages = pages.replace("document_id_placeholder", document_id_without_xml)
-    
+
     section_info = get_section_info(
         xquery_folder,
         document_id,
@@ -839,7 +839,8 @@ def smn_view(request):
         # and indent the section
         if "/" in str(chapter["no"]):
             prefix += "&nbsp;&nbsp;&nbsp;"
-        # Back/front material has chapter_no "back" or "front" but may also have a slash.
+        # Back/front material has chapter_no "back" or "front" but may
+        # also have a slash.
         if chapter["no"] in ["back", "front"]:
             return prefix
         elif chapter["no"].startswith("back"):

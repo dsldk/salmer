@@ -16,6 +16,8 @@ let $frontpage_section := xs:integer(request:get-parameter('frontpage_section','
 let $xmldoc := doc(concat("/db/apps/salmer/xml/", $query))
 let $selection := if ($chapter_name = 'metadata')
                   then $xmldoc//tei:teiHeader
+                  else if ($chapter_name = 'titelblad')
+                  then $xmldoc//tei:front/tei:titlePage
                   else if ($chapter_name = 'front')
                   then $xmldoc/tei:TEI//tei:front
                   else if ($chapter_name = 'back')
