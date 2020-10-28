@@ -7,8 +7,10 @@ let $document_id	:= request:get-parameter('id','')
 
 return 
 	let $xmldoc := doc(concat("/db/apps/salmer/xml/", $document_id))
-    let $introduction := for $chapter at $sCount in $xmldoc/tei:TEI/tei:text/tei:front/tei:div
-                     return <chapters><no>0</no><name>{$chapter/tei:head[@type="add"]//normalize-space()}</name></chapters>	
+ let $frontmatter := if ($xmldoc/tei:TEI//tei:front/tei:div)
+                      then <chapters><name>Redaktionelt</name><no>front</no> {for $section at $sCount in $xmldoc/tei:TEI//tei:front/tei:div
+         return <sections><no>{$sCount}</no><name>{$section/tei:head[@type="add"]//normalize-space()}</name></sections>}</chapters>
+         else ""
 	let $chapters := for $chapter at $sCount in $xmldoc/tei:TEI/tei:text/tei:body/tei:div
                       return <chapters><no>{$sCount}</no><name>{$chapter/tei:head[@type="add"]//normalize-space()}</name>
                                 
@@ -22,6 +24,7 @@ return
          else ""
     return 
     <results>
+       {$frontmatter}
        {$chapters}
        {$backmatter}
 
