@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="/static/elements.css" />
 		<link rel="stylesheet" href="/static/select-css.css" />
     <link rel="stylesheet" type="text/css" href="/static/layout.css" />
-    <link rel="stylesheet" type="text/css" rel="prefetch" href="https://static.ordnet.dk/plugin/the-plugin-name.css" />
+    <link rel="stylesheet" type="text/css" rel="prefetch" href="https://static.ordnet.dk/plugin/sal.css" />
 		<link rel="stylesheet" href="/static/styles.css" />
     <link rel="stylesheet" href="/static/dsl-basis/print.css" media="print"  type="text/css" />
     <link rel="stylesheet" href="/static/print.css" media="print"  type="text/css" />
