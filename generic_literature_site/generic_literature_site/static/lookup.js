@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var lookupUrl = '' //wstest.dsl.dk/lex/query?app=brandes&version=1.0&q='
+  var lookupUrl = '//wstest.dsl.dk/lex/query?app=sal&version=1.0&q=' //wstest.dsl.dk/lex/query?app=brandes&version=1.0&q='
   $('.chapter-box').on('click', '.theActualDocument #region-content', function(event) {
     if($('#click-lookup-note-checkbox').prop('checked')) { // only do lookup if setting is activated
       // Gets clicked on word (or selected text if text is selected)
