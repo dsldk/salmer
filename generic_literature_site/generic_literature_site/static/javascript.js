@@ -675,7 +675,7 @@ $(function(){
 	}
 
   // clicking a facsimile link should show it in the right-hand pane.
-  $('.chapter-box').on('click', '.facsimile-link', function(e) {
+  $('.chapter-box, #meta-wrapper').on('click', '.facsimile-link', function(e) {
     e.preventDefault();
     var pg = $(this).text();
     var href = $(this).attr('href');
