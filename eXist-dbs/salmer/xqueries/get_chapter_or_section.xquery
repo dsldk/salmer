@@ -18,18 +18,8 @@ let $selection := if ($chapter_name = 'metadata')
                   then $xmldoc//tei:teiHeader
                   else if ($chapter_name = 'titelblad')
                   then $xmldoc//tei:front/tei:titlePage
-                  else if ($chapter_name = 'preface' or $chapter_name = 'forord')
-                  then $xmldoc//tei:front//tei:div[@xml:id="preface"]              
-                  else if ($chapter_name = 'calendar' or $chapter_name = 'kalender')                
-                  then $xmldoc//tei:front//tei:div[@xml:id="calendar"]              
-                  else if ($chapter_name = 'introduction' or $chapter_name = 'introduktion')                
-                  then $xmldoc//tei:front//tei:div[@xml:id="introduction"]              
-                  else if ($chapter_name = 'toc-section' or $chapter_name = 'indholdsfortegnelse')                
-                  then $xmldoc//tei:front//tei:div[@xml:id="toc-section"]              
-                  else if ($chapter_name = 'dedikation')
-                  then $xmldoc//tei:front/tei:div[@type="dedication"]
-                  else if ($chapter_name = 'motto')
-                  then $xmldoc//tei:front/tei:epigraph
+                  else if ($chapter_name = 'front')
+                  then $xmldoc/tei:TEI//tei:front
                   else if ($chapter_name = 'back')
                   then $xmldoc/tei:TEI//tei:back
                   else $xmldoc//tei:body/tei:div[$chapter]
