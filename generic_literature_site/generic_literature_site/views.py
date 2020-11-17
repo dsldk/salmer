@@ -747,8 +747,17 @@ def smn_view(request):
         title_of_current_document = request.title
     pages = insert_note_texts(request, pages)
 
+    # Remove main chapter for front matter.
+    redaktionelt_chapter =  {'name': 'Redaktionelt', 'no': 'front'}
+    try:
+        redaktionelt_index = chapters_and_sections["chapters_of_document"].index(redaktionelt_chapter)
+        del chapters_and_sections["chapters_of_document"][redaktionelt_index]
+    except ValueError:
+        # No front matter, fair enough.
+        pass
+
     # Disable chapters with subsections in menu - including "Appendiks".
-    inactive_chapters = ["front"] + ["back"] + chapters_with_sections
+    inactive_chapters = ["back"] + chapters_with_sections
 
     # * Chapters come in order in chapters_and_sections["chapters_of_document"]
     # * Chapters in chapters_and_sections["chapters_of_document"] have name
@@ -848,9 +857,8 @@ def smn_view(request):
                 chapter["no"].replace("back/", " ").replace("/", ".") + ": "
             )
         elif chapter["no"].startswith("front"):
-            prefix += (
-                chapter["no"].replace("front/", " ").replace("/", ".") + ": "
-            )
+            # No indentation here
+            prefix = ""
         elif "header_no" not in chapter or not chapter["header_no"] == 0:
             # chapters such as "titelblad" will have a property "header_no"
             # with a value of 0
