@@ -757,7 +757,7 @@ def smn_view(request):
         pass
 
     # Disable chapters with subsections in menu - including "Appendiks".
-    inactive_chapters = ["back"] + chapters_with_sections
+    inactive_chapters = ["front"] + ["back"] + chapters_with_sections
 
     # * Chapters come in order in chapters_and_sections["chapters_of_document"]
     # * Chapters in chapters_and_sections["chapters_of_document"] have name
