@@ -989,6 +989,13 @@ div[class='first column'] p {
 p.intro,p span.additional {
     color:gray
 }
+
+span.alternative_text {
+    display: inline-table;
+    vertical-align: middle;
+    line-height: 1em;
+}
+
 .footnote {
     display:none
 }
