@@ -1,8 +1,4 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" 
-    xmlns:ext="http://exslt.org/common" 
-    xmlns:tei="http://www.tei-c.org/ns/1.0" 
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    exclude-result-prefixes="xs tei ext" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ext="http://exslt.org/common" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei ext" version="2.0">
 
     <xsl:template match="tei:ref">
         <xsl:choose>
@@ -27,13 +23,13 @@
                     </xsl:attribute>
                     <xsl:if test="tei:reg">
                         <xsl:attribute name="title">
-                            <xsl:value-of select="tei:reg"/>
+                            <xsl:value-of select="normalize-space(tei:reg)"/>
                         </xsl:attribute>
                     </xsl:if>
-                    <!--<xsl:apply-templates select="tei:orig"/>-->
-                    <xsl:apply-templates/>
+                    <xsl:apply-templates select="tei:orig"/>
+                    <!--<xsl:apply-templates/>-->
                 </a>
-                <xsl:text> </xsl:text>
+                <!--<xsl:text> </xsl:text>-->
             </xsl:when>
             <xsl:otherwise>
                 <xsl:variable name="ref-identifier">
