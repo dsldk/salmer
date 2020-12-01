@@ -26,7 +26,7 @@
                             <xsl:value-of select="normalize-space(tei:reg)"/>
                         </xsl:attribute>
                     </xsl:if>
-                    <xsl:apply-templates select="tei:orig"/>
+                    <xsl:apply-templates select="text() | *[not(name()='reg')]"/>
                     <!--<xsl:apply-templates/>-->
                 </a>
                 <!--<xsl:text> </xsl:text>-->
