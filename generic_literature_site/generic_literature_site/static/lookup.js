@@ -8,7 +8,7 @@ $(document).ready(function(){
       var str = sel.anchorNode.nodeValue;
       var parentNode = $(sel.anchorNode.parentNode);
       // only allow lookups of words that are not people, works of art, characters etc.
-      if (str && !parentNode.hasClass('persName') && !parentNode.hasClass('fictionalpersName') && !parentNode.hasClass('bibl') && !parentNode.hasClass('placeName') && !parentNode.hasClass('facsimile-link')) {
+      if (str && !parentNode.hasClass('persName') && !parentNode.hasClass('fictionalpersName') && !parentNode.hasClass('bibl') && !parentNode.hasClass('placeName') && !parentNode.hasClass('facsimile-link') && !parentNode.hasClass('lang')) {
         var len = str.length;
         var a = b = sel.anchorOffset;
         while (str[a] != ' ' && a--) {
