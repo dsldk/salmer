@@ -4427,7 +4427,7 @@ body.home-page #search-field::before {
     position: absolute;
     left: 0;
     margin-top: -1.4em;
-    width: 4rem;
+    width: 4em;
     font-size: .7em;
 }
 
@@ -4581,7 +4581,7 @@ body.home-page #search-field::before {
     font-weight:bold;
     background-color:#ecece8;
     border:1px solid rgba(0,0,0,0.15);
-    padding:0.25em;
+    padding:0.25em; 
     left:0;
     right:auto;
     position:absolute
@@ -4598,15 +4598,17 @@ body.home-page #search-field::before {
     right: inherit;
 }    
 .facsimile-thumb {
-    background-color:#ecece8;
+/*    background-color:#ecece8;
     border:1px solid rgba(0,0,0,0.15);
-    padding:1em;
-    text-align:center
+    padding:1em; */
+    text-align:center;
+    width: 100%
 }
 .facsimile-thumb .facsimile-title {
     font-style:italic
 }
 .facsimile-thumb img {
     display:block;
-    margin:1em auto
+    margin:1em auto;
+    width: 100%
 }

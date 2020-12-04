@@ -679,7 +679,10 @@ $(function(){
     e.preventDefault();
     var pg = $(this).text();
     var href = $(this).attr('href');
-    var imgUrl = href.replace(/\.(.*?)$/, '_small.$1');
+    // small images:
+    // var imgUrl = href.replace(/\.(.*?)$/, '_small.$1');
+    // full resolution images:
+    var imgUrl = href;
     // check if the small version exists
     $.ajax({
       url: imgUrl,
@@ -689,7 +692,7 @@ $(function(){
         var status = jqXHR.status;
         if (status === 200) {
           injectedHtml = '<div class="facsimile-thumb">' + '<span class="facsimile-title">' +
-            __[loc]('Faksimile for side') + ' ' +
+            __[loc]('Faksimile af side') + ' ' +
             pg + '</span>' +
             '<a href="' + href + '" target="_blank">' +
             '<img src="' + imgUrl + '" alt="">' +
