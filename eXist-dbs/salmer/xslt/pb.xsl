@@ -22,6 +22,8 @@
         <span class="legacy-page-break">
             <span class="page-break-mark">|</span>
             <xsl:element name="a">
+                <xsl:attribute name="name"><xsl:value-of select="@facs"/></xsl:attribute>
+                <xsl:attribute name="id"><xsl:value-of select="@facs"/></xsl:attribute>
                 <xsl:attribute name="class">facsimile-link</xsl:attribute>
                 <xsl:attribute name="href">/static/facsimiles/document_id_placeholder/<xsl:value-of select="@facs"/>.jpg</xsl:attribute>
                 <xsl:value-of select="@n"/>

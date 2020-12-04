@@ -45,6 +45,7 @@
     <xsl:include href="app.xsl"/>
     <xsl:include href="bibl.xsl"/>
     <xsl:include href="c.xsl"/>
+    <xsl:include href="choice.xsl"/>
     <!--<xsl:include href="cell.xsl"/>-->
     <!--<xsl:include href="div.xsl"/>-->
     <xsl:include href="ex.xsl"/>
