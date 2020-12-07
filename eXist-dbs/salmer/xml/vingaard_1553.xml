@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron">
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
       <fileDesc>
          <titleStmt>
             <title>En Ny Psalmebog 1553</title>
@@ -64,8 +64,8 @@
                   Københaffn M. D. Liii.</titlePart>
             </docTitle>
          </titlePage>
-      </front>
-      <body>
+      <!--</front>
+      <body>-->
          <pb n_ekstra="iA1v" n="A 1v" facs="0005L"/>
          <pb n_ekstra="iA2r" n="A 2r" facs="0006R"/>
          <div type="chapter" subtype="Kalendarium" xml:id="kalendarium" n="1">
@@ -4159,14 +4159,13 @@
                   </hi>
                </lg>
             </div>
-            <pb n_ekstra="iB7v" n="B 7v" facs="0033L"/>
             <div type="instructions" xml:id="instruktioner">
                <head type="add">[Instruktioner]</head>
                <div type="table" xml:id="table">
                   <head type="add">[Oversigt]</head>
                   <table>
                      <row>
-                        <cell>i.</cell>
+                        <cell><pb n_ekstra="iB7v" n="B 7v" facs="0033L"/> i.</cell>
                         <cell>ii.</cell>
                         <cell>iii.</cell>
                         <cell>iiii.</cell>
@@ -5255,6 +5254,8 @@
                   <lb/>AMEN. <lb/><hi rend="superscript" n="3">⁕</hi><space extent="2blanks"/><hi rend="subscript" n="3">⁕</hi><space extent="2blanks"/><hi rend="superscript" n="3">⁕</hi></hi></p>
          </div>
          <pb n_ekstra="A2v" n="2v" facs="0047L"/>
+      </front>
+      <body>
          <div type="chapter" subtype="Kirkeårets_salmer" xml:id="kirkeaarets-salmer" n="3">
             <head type="add">Kirkeårets salmer</head>
             <div type="psalm" xml:id="i-jesu-navn-begynde-vi" n="1">
