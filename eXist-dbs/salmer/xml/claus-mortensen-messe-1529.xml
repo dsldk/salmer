@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -64,13 +65,13 @@
             <titlePage>
                 <titlePart>
                     <figure type="image"/>
-                    <pb facs="XXX" n="A 1r"/>Th<ex>et</ex> cristelighe mes<lb rend="="/>sze embedhe
+                    <pb facs="A_1r" n="A 1r"/>Th<ex>et</ex> cristelighe mes<lb rend="="/>sze embedhe
                     paa da<ex>n</ex><lb rend="="/>sche </titlePart>
             </titlePage>
             <div type="preface" xml:id="preface">
                 <head type="add">Fortale</head>
                 <head>
-                    <pb facs="XXX" n="A 1v"/>
+                    <pb facs="A_1v" n="A 1v"/>
                     <!--<figure>
                         <figDesc>blomst</figDesc>
                     </figure>-->
@@ -172,7 +173,7 @@
                     introitum til <lb/> messzen <lb/> Officium Deprofundis</head>
                 <head type="add">Introitus: De profundis/ Af dybsens nød råber jeg til dig</head>
                 <notatedMusic>
-                    <ptr target="Mo_1528_LN0174_000a02v.xml"/>
+                    <ptr target="Mo_1529_LN0174_000a02v.xml"/>
                 </notatedMusic>
                 <lg>
                     <l>Aff dybhedszens nøedh roeber iegh tiil tigh/ <note place="margin">(<ref target="#sl-129"><orig>Ps<ex>al</ex>.cxxix</orig><reg>Sl 129</reg></ref>)</note></l>
@@ -419,7 +420,7 @@
                 <p>Alleluya Graduall</p>
                 <lb/>
                 <notatedMusic>
-                    <ptr target="Mo_1528_LN0174_000B03r.xml"/>
+                    <ptr target="Mo_1529_LN0174_000B03r.xml"/>
                 </notatedMusic>
                 <app>
                     <lem>Alleluya</lem>

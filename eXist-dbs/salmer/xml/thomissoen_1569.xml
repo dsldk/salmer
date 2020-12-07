@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -9952,8 +9953,13 @@
                         <l>bønhør oss O Herre. Haleluia. </l>
                     </lg>
                     <lg>
-                        <l>Hand er <!-- to ord over hinanden -->opstanden
-                            opfaren<!-- /to ord over hinanden --> som hand sagde/ <pb facs="245" n="95r"/> Loffuer Herren. </l>
+                        <l>Hand er 
+                            <choice>
+                                <seg n="1">opstanden</seg>
+                                <seg n="2">opfaren</seg>
+                            </choice>
+                            som hand sagde/ <pb facs="245" n="95r"/> Loffuer Herren.
+                        </l>
                     </lg>
                     <lg>
                         <l><lb/>Hellig Aand vor Bøn til dig/ </l>
@@ -9970,8 +9976,12 @@
                         <l><pb facs="246" n="95v"/>Konningens Daatter aff euighed/ </l>
                         <l>Christi Brud glæder sig/ </l>
                         <l>For den hun <lb/> haffuer i Aanden vndfangen/ </l>
-                        <l>hand er <lb/> som hand sagde <!-- to ord over hinanden -->opstanden
-                            opfaren<!-- /to ord over hinanden -->/ </l>
+                        <l>hand er <lb/> som hand sagde 
+                            <choice>
+                                <seg n="1">opstanden</seg>
+                                <seg n="2">opfaren</seg>
+                            </choice>
+                        </l>
                         <l>hun sig paa <lb/>Gud forlader/ Haleluia. </l>
                     </lg>
                 </div>
@@ -15488,7 +15498,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-14-hymn-4" n="4">
-                    <head type="add">Den kristne kirkes skønne navn</head>
+                    <head type="add">Den kristelige kirkes skønne navn</head>
                     <head> IIII. <lb/>
                         <title>Den Christelig Kirckis <lb/> skøne naffn</title>
                         <ex>etc</ex>. <lb/>M. D. lxix.</head>
@@ -23939,7 +23949,7 @@
                     <head><pb facs="734" n="340v"/> IX. <lb/> En Bøn om at kunde ret
                         betencke sin <lb/>Død/ </head>
                     <p> aff den <ref target="#sl-39"><orig>XXXIX.</orig><reg>Sl 39</reg>--&gt;</ref> oc
-                            <ref target="sl-90"><orig>XC. Psalme.</orig><reg>Sl 90</reg>--&gt;</ref>
+                            <ref target="#sl-90"><orig>XC. Psalme.</orig><reg>Sl 90</reg>--&gt;</ref>
                         <lb/> M. D. lxix.</p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_340v.xml"/>
@@ -27069,7 +27079,7 @@
                                     <hi rend="italics">Dies est læticiæ,</hi>
                                     <ref target="#dies-est-leticie">7.</ref>
                                 </item>
-                                <item>Dig bede wi Børnene dine <ref target="section-22-hymn-3"> *
+                                <item>Dig bede wi Børnene dine <ref target="#section-22-hymn-3"> *
                                         328.</ref>
                                 </item>
                                 <item>Dig Herre mild ieg tacke vil <ref target="#section-21-hymn-8">326.</ref>

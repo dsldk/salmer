@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -4645,7 +4646,8 @@
                         <l>bar oss det euige leffnet. </l>
                         <l>At wi skulle altid være glad/ </l>
                         <l>hannem tacke oc prise i allen stad/ </l>
-                        <l>oc siunge Hale<pb rend="=" facs="0219L" n="206"/>luia/ Haleluia. </l>
+                        <l>oc siunge Hale<pb rend="=" facs="0219L" n="206"/>luia/ </l>
+                        <l>Haleluia. </l>
                     </lg>
                     <lb/>
                     <lg>
@@ -4808,8 +4810,12 @@
                         <l>bønhør oss/ O Herre. Haleluia. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="0226R" n="213"/> Hand er <!-- to ord over hinanden -->opstanden/
-                            opfaren/ <!-- /to ord over hinanden --> som hand sagde/ Loffuer Herren.
+                        <l><pb facs="0226R" n="213"/>Hand er 
+                            <choice>
+                                <seg n="1">opstanden/</seg>
+                                <seg n="2">opfaren/</seg>
+                            </choice>
+                            som hand sagde/ Loffuer Herren.
                         </l>
                     </lg>
                     <lg>
@@ -4827,8 +4833,12 @@
                         <l>Konningens Daatter aff euighed/ </l>
                         <l>Christi Brud glæder sig/ </l>
                         <l>for den hun haffuer i Aanden vndfangen/ </l>
-                        <l>hand er som hand sagde <!-- to ord over hinanden -->opstanden.
-                            <lb/>opfaren.<!-- /to ord over hinanden --></l>
+                        <l>hand er som hand sagde 
+                            <choice>
+                                <seg n="1">opstanden.</seg>
+                                <seg n="2">opfaren.</seg>
+                            </choice>
+                        </l>
                         <l><pb facs="0228R" n="215"/> hun sig paa Gud forlader/ Haleluia. </l>
                     </lg>
                 </div>
@@ -8602,17 +8612,14 @@
                         <ptr target="Je_1573_LN0981_429.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><app>
-                                <lem><c function="initials" rend="2">K</c>Yrieleison</lem>
-                                <rdg wit="#orig"><note>rettet</note></rdg>
-                            </app>.</l>
+                        <l><c function="initials" rend="2">K</c>Yrie eleison.</l>
                         <l>
                             <app>
-                                <lem>Christeleison</lem>
+                                <lem>Christe eleison</lem>
                                 <rdg wit="#orig"><note>rettet</note></rdg>
                             </app>.</l>
                         <l><app>
-                                <lem>Kyrieleison</lem>
+                                <lem>Kyrie eleison</lem>
                                 <rdg wit="#orig"><note>rettet</note></rdg>
                             </app>.</l>
                     </lg>
@@ -9749,7 +9756,7 @@
                                 <hi rend="italics">Deus in adiutorium meum intende</hi> , <ref target="#deus-in-adiutorium-meum" type="SheetNumber">346.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Deus in loco sancto suo</hi> , <ref target="deus-in-loco-sancto" type="SheetNumber">343.</ref>
+                                <hi rend="italics">Deus in loco sancto suo</hi> , <ref target="#deus-in-loco-sancto" type="SheetNumber">343.</ref>
                             </item>
                             <item>
                                 <hi rend="italics">Dicit Dominus, ego cogito</hi>
