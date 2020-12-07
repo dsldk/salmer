@@ -648,18 +648,7 @@ def add_named_chapters(
     chapters_of_document = (
         front_chapters + chapters_of_document + end_chapters
     )
-    for additional_chapter in front_chapters + end_chapters:
-        # TODO: Here we get all content in all additional chapters from eXist
-        # just to see if the chapter is there. This is expensive!
-        additional_chapter_name = additional_chapter.get("no")
-        chapter_content = get_chapter(
-            xquery_folder,
-            document_id,
-            additional_chapter_name,
-            current_section,
-        )
-        if chapter_content == "<results></results>":
-            chapters_of_document.remove(additional_chapter)
+
     return {
         "chapters_of_document": chapters_of_document,
         "chapter_arg": chapter_arg,
