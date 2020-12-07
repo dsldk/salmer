@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <index>
     <text id="christian-3-bibel">
-        <ref target="preface-christian-3-bibel" id="preface-christian-3-bibel"/>
+        <ref target="preface" id="preface"/>
         <ref target="preface-section" id="preface-section"/>
-        <ref target="toc-section-christian-3-bibel" id="toc-section-christian-3-bibel"/>
+        <ref target="toc-section" id="toc-section"/>
         <ref target="/1" id="gt"/>
         <ref target="/2" id="mos-1"/>
         <ref target="/2/1" id="mos-1-1"/>
@@ -1410,8 +1409,8 @@
         <ref target="/80/21" id="aab-21"/>
         <ref target="/80/22" id="aab-22"/>
     </text>
-    <text id="claus-mortensen-messe-1528">
-        <ref target="preface-mortensen" id="preface-mortensen"/>
+    <text id="claus-mortensen-messe-1529">
+        <ref target="preface" id="preface"/>
         <ref target="/1" id="messens-indledende-boen"/>
         <ref target="/2" id="skriftemaal-mortensen"/>
         <ref target="/3" id="absolution-mortensen"/>
@@ -1569,7 +1568,7 @@
         <ref target="/10/1" id="den-som-vil-en-kristen-hedde-dietz-1529"/>
         <ref target="/10/2" id="o-jesu-krist-som-manddom-tog-dietz-1529"/>
         <ref target="/10/3" id="o-herre-gud-af-himmerig-dietz-1529"/>
-        <ref target="index-dietz-1529" id="index-dietz-1529"/>
+        <ref target="index" id="index"/>
     </text>
     <text id="dietz-salmebog-1536">
         <ref target="/1" id="forord"/>
@@ -1615,8 +1614,8 @@
         <ref target="/41" id="alle-kristne-fryde-sig-nu-dietz-1536"/>
     </text>
     <text id="jespersen_1573">
-        <ref target="frederik-1-preface" id="frederik-1-preface"/>
-        <ref target="niels-jespersen-preface" id="niels-jespersen-preface"/>
+        <ref target="preface" id="preface"/>
+        <ref target="preface-2" id="preface-2"/>
         <ref target="/1" id="foerste-soendag-i-advent"/>
         <ref target="/1/1" id="section-1-1"/>
         <ref target="/1/2" id="section-1-2"/>
@@ -1905,7 +1904,7 @@
         <ref target="/73/2" id="responsoriumprimum"/>
         <ref target="/73/3" id="responsoriumsecundum"/>
         <ref target="/73/4" id="responsoriumtertium"/>
-        <ref target="register-jespersen-1573" id="register-jespersen-1573"/>
+        <ref target="register" id="register"/>
         <ref target="register-hoejtider" id="register-hoejtider"/>
         <ref target="register-danske-salmer" id="register-danske-salmer"/>
         <ref target="section-a-jespersen-1573" id="section-a-jespersen-1573"/>
@@ -1966,7 +1965,7 @@
         <ref target="register-responsorier" id="register-responsorier"/>
     </text>
     <text id="malmoe-salmebog">
-        <ref target="calendar-malmoe" id="calendar-malmoe"/>
+        <ref target="calendar" id="calendar"/>
         <ref target="januar-mgl" id="januar-mgl"/>
         <ref target="februar" id="februar"/>
         <ref target="marts" id="marts"/>
@@ -1981,7 +1980,7 @@
         <ref target="december" id="december"/>
         <ref target="introduction-malmoe" id="introduction-malmoe"/>
         <ref target="tabel-for-kopsaetning" id="tabel-for-kopsaetning"/>
-        <ref target="introduction-malmoe-2" id="introduction-malmoe-2"/>
+        <ref target="introduction" id="introduction"/>
         <ref target="/1" id="kapitel-salmer"/>
         <ref target="/1/1" id="i-jesu-navn-begynde-vi-malmoe"/>
         <ref target="/1/2" id="te-deum-laudamus"/>
@@ -2142,132 +2141,211 @@
         <ref target="/4/30" id="o-milde-gud-fader-i-himmelen"/>
         <ref target="/4/31" id="men-vi-leve-paa-jorden-her-malmoe-2"/>
         <ref target="/4/32" id="herre-frels-mig-fra-onde"/>
-        <ref target="register-malmoe" id="register-malmoe"/>
+        <ref target="register" id="register"/>
     </text>
     <text id="oluf-ulriksen-messe-1535">
-        <ref target="/1" id="salme-kyrie-gloria-hilsen"/>
-        <ref target="/2" id="indledningskollekt"/>
-        <ref target="/3" id="epistellaesning"/>
-        <ref target="/4" id="kirkeboen-ulriksen-1535"/>
-        <ref target="/5" id="skriftemaal"/>
-        <ref target="/6" id="absolution"/>
-        <ref target="/7" id="formaning-ulriksen-1535"/>
-        <ref target="/8" id="fadervor-ulriksen-1535"/>
-        <ref target="/9" id="nadverindstiftelse"/>
-        <ref target="/10" id="uddeling"/>
-        <ref target="/11" id="kollekt-ulriksen-1535"/>
-        <ref target="/12" id="fredshilsen"/>
-        <ref target="/13" id="velsignelse-ulriksen-1535"/>
-        <ref target="/14" id="fortale-om-daab"/>
-        <ref target="/15" id="djaevleuddrivelse"/>
-        <ref target="/16" id="boen"/>
-        <ref target="/17" id="djaevleuddrivelse-2"/>
-        <ref target="/18" id="evangelielaesning"/>
-        <ref target="/19" id="haandspaalaeggelse"/>
-        <ref target="/20" id="daabshandlingen"/>
-        <ref target="/21" id="efterskrift"/>
-        <ref target="/22" id="fortale-om-vielse"/>
-        <ref target="/23" id="annoncering-af-oenske-om-aegteskab"/>
-        <ref target="/24" id="gammeltestamentlig-laesning-1"/>
-        <ref target="/25" id="epistellaesning-2"/>
-        <ref target="/26" id="gammeltestamentlig-laesning-2"/>
-        <ref target="/27" id="gammeltestamentlig-laesning-3"/>
-        <ref target="/28" id="forboen"/>
-        <ref target="/29" id="kollekt-ulriksen-1535-2"/>
-        <ref target="/30" id="fortale-til-troest-af-syge"/>
-        <ref target="/31" id="formaning-fadervor-nadver-kollekt"/>
-        <ref target="/32" id="kollekt-ulriksen-1535-3"/>
-        <ref target="/33" id="troest-af-syge"/>
-        <ref target="/34" id="kollekt-for-syge"/>
-        <ref target="/35" id="indledning-til-begravelse"/>
-        <ref target="/36" id="bibelvers-som-vekselsang"/>
-        <ref target="/37" id="kollekt-ulriksen-1535-4"/>
-        <ref target="/38" id="det-store-litani"/>
-        <ref target="/39" id="kollekt-efter-litaniet"/>
-        <ref target="/40" id="kollekt-efter-litaniet-2"/>
-        <ref target="/41" id="kollekt-efter-litaniet-3"/>
-        <ref target="/42" id="kollekt-for-gejstligheden"/>
-        <ref target="/43" id="kollekt-for-kongen-og-rigets-raad"/>
-        <ref target="/44" id="kollekt-for-magistraten"/>
-        <ref target="/45" id="kollekt-for-menigheden"/>
-        <ref target="/46" id="generel-kollekt"/>
-        <ref target="/47" id="kollekt-for-gejstligheden-2"/>
-        <ref target="/48" id="kollekt-for-magistraten-2"/>
-        <ref target="/49" id="for-freden"/>
-        <ref target="/50" id="kollekt-ulriksen-1535-5"/>
-        <ref target="/51" id="kolofon"/>
+        <ref target="/1" id="messeordning"/>
+        <ref target="/1/1" id="salme-kyrie-gloria-hilsen"/>
+        <ref target="/1/2" id="Kollekt-ulricksoen-1535"/>
+        <ref target="/1/3" id="epistel-evangelium-praediken"/>
+        <ref target="/1/4" id="kirkeboen-ulriksen-1535"/>
+        <ref target="/1/5" id="syndsbekendelse-ulricksoen-1535"/>
+        <ref target="/1/6" id="absolution"/>
+        <ref target="/1/7" id="formaning-til-nadvergaesterne-ulriksen-1535"/>
+        <ref target="/1/8" id="fadervor-ulriksen-1535"/>
+        <ref target="/1/9" id="indstiftelsesord-uddeling-broedet"/>
+        <ref target="/1/10" id="indstiftelsesord-uddeling-vinen"/>
+        <ref target="/1/11" id="complenda-ulriksen-1535"/>
+        <ref target="/1/12" id="fredshilsen"/>
+        <ref target="/1/13" id="velsignelse-ulriksen-1535"/>
+        <ref target="/2" id="daab"/>
+        <ref target="/2/1" id="fortale-om-daab"/>
+        <ref target="/2/2" id="bibelsk-begrundelse"/>
+        <ref target="/2/3" id="daabsritual"/>
+        <ref target="/2/4" id="efterskrift"/>
+        <ref target="/3" id="brudevielse"/>
+        <ref target="/3/1" id="fortale-om-vielse"/>
+        <ref target="/3/2" id="vielsesritual"/>
+        <ref target="/4" id="doedsforberedelse"/>
+        <ref target="/4/1" id="syges-nadverritual"/>
+        <ref target="/4/2" id="troesteord-til-syge"/>
+        <ref target="/4/3" id="kollekt-for-syge"/>
+        <ref target="/5" id="begravelse"/>
+        <ref target="/5/1" id="begravelsesritual"/>
+        <ref target="/5/2" id="versikler-ved-begravelse"/>
+        <ref target="/5/3" id="kollekter-ved-begravelse"/>
+        <ref target="/6" id="litaniet"/>
+        <ref target="/6/1" id="det-store-litani"/>
+        <ref target="/6/2" id="kollekter-efter-litaniet"/>
+        <ref target="/7" id="kolofon"/>
     </text>
     <text id="oluf-ulriksen-messehaandbog-1539">
-        <ref target="oluf-ulriksen-1539-preface" id="oluf-ulriksen-1539-preface"/>
-        <ref target="/1" id="om-messen-boenner-og-ceremonier"/>
-        <ref target="/3" id="af-dybsens-noed-ulriksen"/>
-        <ref target="/4" id="kyrie-gud-fader-alsomhoegeste-troest"/>
-        <ref target="/5" id="den-engelske-lovsang"/>
-        <ref target="/6" id="epistel-i-cor-xi"/>
-        <ref target="/7" id="Alleluia-boer-os-altid-siunge-her"/>
-        <ref target="/9" id="herren-vaere-med-jer"/>
-        <ref target="/10" id="credo-in-umum-deum"/>
-        <ref target="/11" id="vi-tro-allesammen-paa-en-gud-ulriksen"/>
-        <ref target="/12" id="prædiken"/>
-        <ref target="/14" id="du-er-oss-gud-miscundelig"/>
-        <ref target="/16" id="prefatio-communis-ulriksen"/>
-        <ref target="/18" id="hellig-hellig-hellig-ulriksen-1539"/>
-        <ref target="/19" id="formaningen"/>
-        <ref target="/20" id="fadervor-ulriksen"/>
-        <ref target="/21" id="kalken-ulriksen"/>
-        <ref target="/22" id="jesus-christus-er-vor-salighed"/>
-        <ref target="/23" id="agnus-dei-ulriksen"/>
-        <ref target="/26" id="velsignelsen"/>
-        <ref target="/27" id="de-ti-bud"/>
-        <ref target="/28" id="da-pacem-domine"/>
-        <ref target="/30" id="Collecter-til-soendagene"/>
-        <ref target="/30/2" id="dominica-secunda-adventus-collecta"/>
-        <ref target="/30/3" id="dominica-tertia-afventus-collecta"/>
-        <ref target="/30/4" id="dominica-quarta-adventus-collecta"/>
-        <ref target="/30/5" id="die-nativitatis-christi-collecta"/>
-        <ref target="/30/6" id="die-sancti-stephani-diacone-et-martyris"/>
-        <ref target="/30/7" id="die-sancti-joannis-apostolis-et-evangeliste"/>
-        <ref target="/30/8" id="dominica-infra-octavas-nativitatis-collecta"/>
-        <ref target="/30/9" id="die-circumcisionis-domini-collecta"/>
-        <ref target="/30/10" id="die-epiphanie-collecta"/>
-        <ref target="/30/11" id="dominica-prima-epiphanie-collecta"/>
-        <ref target="/30/12" id="dominica-secunda-epiphanie-collecta"/>
-        <ref target="/30/13" id="dominica-tertia-epiphanie-collecta"/>
-        <ref target="/30/14" id="dominica-quarta-epiphanie-collecta"/>
-        <ref target="/30/15" id="dominica-quinta-epiphanie-collecta"/>
-        <ref target="/30/16" id="dominica-sexta-epiphanie-collecta"/>
-        <ref target="/30/17" id="dominica-septuagesime-collecta"/>
-        <ref target="/30/18" id="dominica-sexagesime-collecta"/>
-        <ref target="/30/19" id="dominica-quinquagesime-collecta"/>
-        <ref target="/30/20" id="dominica-prima-quadragesime-collecta"/>
-        <ref target="/30/21" id="dominica-secunda-quadragesime-collecta"/>
-        <ref target="/30/22" id="dominica-tertia-quadragesime-collecta"/>
-        <ref target="/30/23" id="dominica-in-medio-quadragesima-collecta"/>
-        <ref target="/30/24" id="dominica-passionis-collecta"/>
-        <ref target="/30/25" id="dominica-palmarun-collecta"/>
-        <ref target="/30/26" id="bona-feria-quinta-post-palmarum-collecta"/>
-        <ref target="/30/68" id="andre-tidspunkter-med-collect"/>
-        <ref target="/31" id="Prefationes"/>
-        <ref target="/32" id="prefatio-nativitate-christi"/>
-        <ref target="/33" id="prefatio-de-passione-christi"/>
-        <ref target="/34" id="prefatio-de-resurrectione"/>
-        <ref target="/35" id="prefatio-ascensione-domine"/>
-        <ref target="/36" id="prefatio-sancto-spiritu"/>
-        <ref target="/37" id="prefatio-trinitate"/>
-        <ref target="/38" id="prefatio-virgine"/>
-        <ref target="/39" id="barnedåb"/>
-        <ref target="/43" id="brudevielse-for-enfoldige-sognepræster"/>
-        <ref target="/46" id="ad-visitandum-infirmos"/>
-        <ref target="/53" id="om-faengslede-misdaedere"/>
-        <ref target="/55" id="om-jordefaerd"/>
+        <ref target="preface" id="preface"/>
+        <ref target="/1" id="om-messen-vo-1539"/>
+        <ref target="/1/1" id="praestens-forberedelse-vo-1539"/>
+        <ref target="/1/2" id="af-dybhedsens-noed-raaber-jeg-til-dig-vo-1539"/>
+        <ref target="/1/3" id="kyrie-gud-fader-alsomhoejeste-troest-vo-1539"/>
+        <ref target="/1/4" id="gloria-aere-og-pris-vaere-gud-i-det-hoejeste-vo-1539"/>
+        <ref target="/1/5" id="hilsen-1-vo-1539"/>
+        <ref target="/1/6" id="kollekt-1-vo-1539"/>
+        <ref target="/1/7" id="epistel-vo-1539"/>
+        <ref target="/1/8" id="alleluia-boer-os-altid-at-siunge-vo-1539"/>
+        <ref target="/1/9" id="sekvenser-vo-1539"/>
+        <ref target="/1/10" id="hilsen-2-vo-1539"/>
+        <ref target="/1/11" id="indledning-til-evangeliet-vo-1539"/>
+        <ref target="/1/12" id="evangeliet-vo-1539"/>
+        <ref target="/1/13" id="credo-in-umum-deum-vo-1539"/>
+        <ref target="/1/14" id="vi-tro-allesammen-paa-en-gud-vo-1539"/>
+        <ref target="/1/15" id="nu-bede-vi-den-helligaand-vo-1539"/>
+        <ref target="/1/16" id="praediken-vo-1539"/>
+        <ref target="/1/17" id="kirkeboen-vo-1539"/>
+        <ref target="/1/18" id="syndsbekendelse-katekismus-meddelelser-vo-1539"/>
+        <ref target="/1/19" id="nu-er-os-gud-miskundelig-vo-1539"/>
+        <ref target="/1/20" id="daab-vielse-vo-1539"/>
+        <ref target="/1/21" id="prefatio-communis-vo-1539"/>
+        <ref target="/1/22" id="hellig-hellig-hellig-er-du-vo-1539"/>
+        <ref target="/1/23" id="formaning-til-nadvergaesterne-vo-1539"/>
+        <ref target="/1/24" id="fadervor-vo-1539"/>
+        <ref target="/1/25" id="indstiftelsesord-uddeling-broedet-vo-1539"/>
+        <ref target="/1/26" id="indstiftelsesord-uddeling-vinen-vo-1539"/>
+        <ref target="/1/27" id="bestemmelser-om-nadveren-vo-1539"/>
+        <ref target="/1/28" id="jesus-christus-er-vor-salighed-vo-1539"/>
+        <ref target="/1/29" id="o-guds-lam-som-borttager-al-verdens-synder-vo-1539"/>
+        <ref target="/1/30" id="hilsen-3-vo-1539"/>
+        <ref target="/1/31" id="kollekt-2-vo-1539"/>
+        <ref target="/1/32" id="fredshilsen-vo-1539"/>
+        <ref target="/1/33" id="velsignelsen-vo-1539"/>
+        <ref target="/1/34" id="gud-fader-udi-himmerig-sin-vilje-vo-1539"/>
+        <ref target="/1/35" id="forlae-os-med-fred-naadelig-vo-1539"/>
+        <ref target="/1/36" id="messens-afslutning-vo-1539"/>
+        <ref target="/2" id="kollekter-til-kirkeaaret-vo-1539"/>
+        <ref target="/2/1" id="dominica-prima-adventus-collecta"/>
+        <ref target="/2/2" id="dominica-secunda-adventus-collecta"/>
+        <ref target="/2/3" id="dominica-tertia-afventus-collecta"/>
+        <ref target="/2/4" id="dominica-quarta-adventus-collecta"/>
+        <ref target="/2/5" id="die-nativitatis-christi-collecta"/>
+        <ref target="/2/6" id="die-sancti-stephani-diacone-et-martyris"/>
+        <ref target="/2/7" id="die-sancti-joannis-apostolis-et-evangeliste"/>
+        <ref target="/2/8" id="dominica-infra-octavas-nativitatis-collecta"/>
+        <ref target="/2/9" id="die-circumcisionis-domini-collecta"/>
+        <ref target="/2/10" id="die-epiphanie-collecta"/>
+        <ref target="/2/11" id="dominica-prima-epiphanie-collecta"/>
+        <ref target="/2/12" id="dominica-secunda-epiphanie-collecta"/>
+        <ref target="/2/13" id="dominica-tertia-epiphanie-collecta"/>
+        <ref target="/2/14" id="dominica-quarta-epiphanie-collecta"/>
+        <ref target="/2/15" id="dominica-quinta-epiphanie-collecta"/>
+        <ref target="/2/16" id="dominica-sexta-epiphanie-collecta"/>
+        <ref target="/2/17" id="dominica-septuagesime-collecta"/>
+        <ref target="/2/18" id="dominica-sexagesime-collecta"/>
+        <ref target="/2/19" id="dominica-quinquagesime-collecta"/>
+        <ref target="/2/20" id="dominica-prima-quadragesime-collecta"/>
+        <ref target="/2/21" id="dominica-secunda-quadragesime-collecta"/>
+        <ref target="/2/22" id="dominica-tertia-quadragesime-collecta"/>
+        <ref target="/2/23" id="dominica-in-medio-quadragesima-collecta"/>
+        <ref target="/2/24" id="dominica-passionis-collecta"/>
+        <ref target="/2/25" id="dominica-palmarun-collecta"/>
+        <ref target="/2/26" id="bona-feria-quinta-post-palmarum-collecta"/>
+        <ref target="/2/27" id="die-parascenes-collecta"/>
+        <ref target="/2/28" id="die-sancto-pasce-collecta"/>
+        <ref target="/2/29" id="feria-secunda-pasce-collecta"/>
+        <ref target="/2/30" id="feria-tertia-pasce-collecta"/>
+        <ref target="/2/31" id="dominica-prima-post-pasce-collecta"/>
+        <ref target="/2/32" id="dominica-secunda-post-pasce-collecta"/>
+        <ref target="/2/33" id="dominica-tertia-post-pasce-collecta"/>
+        <ref target="/2/34" id="dominica-quarta-post-pasce-collecta"/>
+        <ref target="/2/35" id="dominica-quinta-post-pasce-collecta"/>
+        <ref target="/2/36" id="die-ascensionis-domini-collecta"/>
+        <ref target="/2/37" id="dominica-sexta-post-pasce-collecta"/>
+        <ref target="/2/38" id="die-sancto-pentecostes-collecta"/>
+        <ref target="/2/39" id="feria-secunda-pentecostes-collecta"/>
+        <ref target="/2/40" id="feria-tertia-pentecostes-collecta"/>
+        <ref target="/2/41" id="dominica-trinitatis-collecta"/>
+        <ref target="/2/42" id="dominica-1-post-trinitatis-collecta"/>
+        <ref target="/2/43" id="dominica-2-post-trinitatis-collecta"/>
+        <ref target="/2/44" id="dominica-3-post-trinitatis-collecta"/>
+        <ref target="/2/45" id="dominica-4-post-trinitatis-collecta"/>
+        <ref target="/2/46" id="dominica-5-post-trinitatis-collecta"/>
+        <ref target="/2/47" id="dominica-6-post-trinitatis-collecta"/>
+        <ref target="/2/48" id="dominica-7-post-trinitatis-collecta"/>
+        <ref target="/2/49" id="dominica-8-post-trinitatis-collecta"/>
+        <ref target="/2/50" id="dominica-9-post-trinitatis-collecta"/>
+        <ref target="/2/51" id="dominica-10-post-trinitatis-collecta"/>
+        <ref target="/2/52" id="dominica-11-post-trinitatis-collecta"/>
+        <ref target="/2/53" id="dominica-12-post-trinitatis-collecta"/>
+        <ref target="/2/54" id="dominica-13-post-trinitatis-collecta"/>
+        <ref target="/2/55" id="dominica-14-post-trinitatis-collecta"/>
+        <ref target="/2/56" id="dominica-15-post-trinitatis-collecta"/>
+        <ref target="/2/57" id="dominica-16-post-trinitatis-collecta"/>
+        <ref target="/2/58" id="dominica-17-post-trinitatis-collecta"/>
+        <ref target="/2/59" id="dominica-18-post-trinitatis-collecta"/>
+        <ref target="/2/60" id="dominica-19-post-trinitatis-collecta"/>
+        <ref target="/2/61" id="dominica-20-post-trinitatis-collecta"/>
+        <ref target="/2/62" id="dominica-21-post-trinitatis-collecta"/>
+        <ref target="/2/63" id="dominica-22-post-trinitatis-collecta"/>
+        <ref target="/2/64" id="dominica-23-post-trinitatis-collecta"/>
+        <ref target="/2/65" id="dominica-24-post-trinitatis-collecta"/>
+        <ref target="/2/66" id="dominica-ultima-post-trinitatis-collecta"/>
+        <ref target="/3" id="andre-kollekter-vo-1539"/>
+        <ref target="/3/1" id="die-purificationis-marie-collecta"/>
+        <ref target="/3/2" id="die-annuntiationis-marie-collecta"/>
+        <ref target="/3/3" id="die-nativitatis-joannis-baptiste-collecta"/>
+        <ref target="/3/4" id="die-visitationis-marie-collecta"/>
+        <ref target="/3/5" id="die-michaelis-collecta"/>
+        <ref target="/3/6" id="die-omnium-sanctorum-collecta"/>
+        <ref target="/3/7" id="pro-ecclesia-collecta"/>
+        <ref target="/3/8" id="pro-ministris-collecta"/>
+        <ref target="/3/9" id="die-letaniarum-in-ebdomeda-orationis"/>
+        <ref target="/3/10" id="pro-peccatis-oratio"/>
+        <ref target="/3/11" id="pro-pace-oratio"/>
+        <ref target="/3/12" id="pro-rege-oratio"/>
+        <ref target="/3/13" id="pro-rege-et-omnibus-in-eminentia-oratio"/>
+        <ref target="/3/14" id="pro-congregatione-nostra-oratio"/>
+        <ref target="/3/15" id="ad-postulandam-pluviam-oratio"/>
+        <ref target="/3/16" id="die-michaelis-pro-gratiarum-actione-oratio"/>
+        <ref target="/3/17" id="collecta-letaniarum-generalis"/>
+        <ref target="/3/18" id="pro-peccatoribus-recipiendis-collecta"/>
+        <ref target="/3/19" id="pro-recipiendis-ad-communionem-collecta"/>
+        <ref target="/3/20" id="ad-ordinationem-sacerdotum-collecta"/>
+        <ref target="/3/21" id="ad-ordinationem-sacerdotum-alia-collecta"/>
+        <ref target="/3/22" id="ad-ordinationem-superintendentum-collecta"/>
+        <ref target="/3/23" id="tempore-electionis-regis-oratio"/>
+        <ref target="/3/24" id="die-coronationis-pro-rege-oratio"/>
+        <ref target="/4" id="praefationer-vo-1539"/>
+        <ref target="/4/1" id="prefatio-nativitate-christi"/>
+        <ref target="/4/2" id="prefatio-de-passione-christi"/>
+        <ref target="/4/3" id="prefatio-de-resurrectione"/>
+        <ref target="/4/4" id="prefatio-ascensione-domine"/>
+        <ref target="/4/5" id="prefatio-sancto-spiritu"/>
+        <ref target="/4/6" id="prefatio-trinitate"/>
+        <ref target="/4/7" id="prefatio-virgine"/>
+        <ref target="/5" id="barnedaab-vo-1539"/>
+        <ref target="/5/1" id="anvisninger-om-daab-vo-1539"/>
+        <ref target="/5/2" id="formaninger-om-daab-vo-1539"/>
+        <ref target="/5/3" id="daabsritual-vo-1539"/>
+        <ref target="/5/4" id="formaning-til-fadderne-vo-1539"/>
+        <ref target="/5/5" id="hjemmedoebte-boern-vo-1539"/>
+        <ref target="/6" id="brudevielse-vo-1539"/>
+        <ref target="/6/1" id="fortale-om-vielse-vo-1539"/>
+        <ref target="/6/2" id="vielsesritual-vo-1539"/>
+        <ref target="/7" id="doedsforberedelse-vo-1539"/>
+        <ref target="/7/1" id="bestemmelser-om-doedsforberedelse"/>
+        <ref target="/7/2" id="om-syndserkendelse"/>
+        <ref target="/7/3" id="om-naade"/>
+        <ref target="/7/4" id="formaning-til-den-syge"/>
+        <ref target="/7/5" id="nadver-til-den-syge"/>
+        <ref target="/7/6" id="velsignelse-over-den-syge"/>
+        <ref target="/8" id="beredelse-af-doedsdoemte"/>
+        <ref target="/10" id="begravelse"/>
+        <ref target="/10/1" id="begravelsesritual"/>
+        <ref target="/10/2" id="kollekt-ved-begravelse-vo-139"/>
         <ref target="index" id="index"/>
     </text>
     <text id="thomissoen_1569">
         <ref target="toc-section" id="toc-section"/>
         <ref target="calendar" id="calendar"/>
         <ref target="introduction" id="introduction"/>
-        <ref target="martin-luther-preface" id="martin-luther-preface"/>
-        <ref target="hans-thomsen-preface" id="hans-thomsen-preface"/>
+        <ref target="preface" id="preface"/>
+        <ref target="preface-2" id="preface-2"/>
         <ref target="/1" id="section-1"/>
         <ref target="/1/1" id="veni-redemptor-gentium"/>
         <ref target="/1/2" id="conditor-alme-siderum"/>
@@ -2568,7 +2646,7 @@
         <ref target="/25/7" id="section-25-hymn-7"/>
         <ref target="/25/8" id="section-25-hymn-8"/>
         <ref target="/25/9" id="section-25-hymn-9"/>
-        <ref target="register-thomissoen-1569" id="register-thomissoen-1569"/>
+        <ref target="register" id="register"/>
         <ref target="index-messe" id="index-messe"/>
         <ref target="index-davids-salmer" id="index-davids-salmer"/>
         <ref target="index-andre-steder" id="index-andre-steder"/>
@@ -2578,8 +2656,8 @@
         <ref target="index-mikkel-praests-salmer" id="index-mikkel-praests-salmer"/>
         <ref target="index-diverse" id="index-diverse"/>
         <ref target="index-alle-salmer" id="index-alle-salmer"/>
-        <ref target="as-dedikation" id="as-dedikation"/>
-        <ref target="til-laeseren" id="til-laeseren"/>
+        <ref target="dedication" id="dedication"/>
+        <ref target="epilogue" id="epilogue"/>
     </text>
     <text id="vingaard_1553">
         <ref target="/1" id="kalendarium"/>
