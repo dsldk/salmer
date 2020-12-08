@@ -40,7 +40,7 @@ requires = [
 
 setup(
     name="generic_literature_site",
-    version="0.1.3",
+    version="0.1.4",
     description="generic_literature_site",
     long_description=README + "\n\n" + CHANGES,
     classifiers=[
