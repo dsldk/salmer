@@ -5,7 +5,6 @@
         display:none;
     }
     
-    
     .footnote {
         display:block;
         padding-bottom:10px;
@@ -15,10 +14,11 @@
     .header .container {
         margin-left: 0;
         margin-right: 0;
+        margin-top: 0;
         max-width:100%;
         width: 100%;
     }
-    
+
     .document-wrapper .theActualDocument {
         overflow: visible;
         padding: 0;
@@ -27,9 +27,9 @@
     
     .notebox, .header__menu, .main-top-section,
     .document-wrapper .tabs-box, a[href]::after,
-    .btn-primary,
+    .btn-primary, .mei_options, .footer,
     .theActualDocument +.chapter-selector-wrapper {
-        display: none;
+        display: none !important;
     }
     
     .chapter-dropdown {
@@ -39,12 +39,17 @@
     .header__logo .header__site-name h1 {
         margin: 0;
         line-height: 1em;
-        font-size: 18pt;
+        font-size: 16pt;
     }
     
-    .h1 {
-        font-size: 24pt;
+    .poetry {
+        margin-left: 0;
+    }
+    
+    h1 {
+        font-size: 20pt;
         text-align: left;
+        position: inherit;
     }
 
 }
