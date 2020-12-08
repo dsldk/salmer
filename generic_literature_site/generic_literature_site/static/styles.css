@@ -4414,6 +4414,10 @@ body.home-page #search-field::before {
     background-color: #eef;
 }
 
+.app .lemma:hover {
+    background: none;
+}
+
 .alternative_text {
     display: inline-table;
     vertical-align: middle;
