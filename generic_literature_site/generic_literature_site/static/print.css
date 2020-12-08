@@ -1,14 +1,50 @@
 @media print {
 
-div.top,
-div.searchWrapper {
-    display:none;
+    div.top,
+    div.searchWrapper {
+        display:none;
+    }
+    
+    
+    .footnote {
+        display:block;
+        padding-bottom:10px;
+    }
+    
+    body, .page-wrapper .container,
+    .header .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width:100%;
+        width: 100%;
+    }
+    
+    .document-wrapper .theActualDocument {
+        overflow: visible;
+        padding: 0;
+        margin-bottom: 2em;
+    }
+    
+    .notebox, .header__menu, .main-top-section,
+    .document-wrapper .tabs-box, a[href]::after,
+    .btn-primary,
+    .theActualDocument +.chapter-selector-wrapper {
+        display: none;
+    }
+    
+    .chapter-dropdown {
+        margin: 0;
+    }
+    
+    .header__logo .header__site-name h1 {
+        margin: 0;
+        line-height: 1em;
+        font-size: 18pt;
+    }
+    
+    .h1 {
+        font-size: 24pt;
+        text-align: left;
+    }
+
 }
-
-
-.footnote {
-    display:block;
-    padding-bottom:10px;
-}
-
-            }
