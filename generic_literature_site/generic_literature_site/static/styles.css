@@ -4410,6 +4410,10 @@ body.home-page #search-field::before {
     top:-.25em
 }
 
+.app:hover .lemma {
+    background-color: #eef;
+}
+
 .alternative_text {
     display: inline-table;
     vertical-align: middle;
