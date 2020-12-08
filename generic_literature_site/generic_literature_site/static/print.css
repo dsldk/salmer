@@ -29,7 +29,7 @@
     .document-wrapper .tabs-box, a[href]::after,
     .btn-primary, .mei_options, .footer,
     .theActualDocument +.chapter-selector-wrapper {
-        display: none !important;
+        display: none;
     }
     
     .chapter-dropdown {
