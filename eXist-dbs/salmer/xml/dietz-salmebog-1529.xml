@@ -1,5 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron">
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -98,11 +99,11 @@
                med hierte oc mund ÿ thenne naadelige tÿd. wdi hwilken han haff<lb rend="="/>uer oss
                saa millelig anseet med sÿne hellige ord oc naade / <lb/>oc forløøst oss wdaff thet
                Pharaonis oc Egyptiske fengsel oc trældom / <lb/>thet er aff di<lb rend="="/>effuelsens macht oc syndzens trældom. Fram<lb rend="="/>delis ÿ thet ny Testamente
-                  (<ref target="kor-1-14"><orig>j. Corin: xiiij.</orig><reg>1 Kor 14</reg></ref>)
+                  (<ref target="#kor-1-14"><orig>j. Corin: xiiij.</orig><reg>1 Kor 14</reg></ref>)
                   haff<lb rend="="/><note place="right">(<ref target="#kor-1-14"><orig>j. Cor.
                         xiiij.</orig><reg>1 Kor 14</reg></ref>) (<ref target="#kol-3"><orig>Col.
                         iij.</orig><reg>Kol 3</reg></ref>)</note>uer sancte Powel sielff saadant
-               stichtet. Oc til the (<ref target="kol-3"><orig>Colossenser. iij.
+               stichtet. Oc til the (<ref target="#kol-3"><orig>Colossenser. iij.
                      Capi.</orig><reg>Kol 3</reg></ref>) biwder han thet saa sigendis / <lb/>Lærer
                oc paaminder hwer andre ind<lb rend="="/>byrdis med Psalmer oc lofsange oc aandelige
                wÿser / med naade / siungendis Herren ÿ eders hierte / <lb/>oc alt hwad ÿ giøre med

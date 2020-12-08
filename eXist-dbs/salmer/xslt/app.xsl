@@ -3,7 +3,7 @@
         <xsl:apply-templates/>
         <xsl:text> </xsl:text>
         <em>
-            <xsl:value-of select="@wit"/>
+           <xsl:value-of select="@wit/tokenize(., '#')"/>
         </em>
     </xsl:template>
     <xsl:template match="tei:app[tei:lem]">
@@ -11,9 +11,13 @@
             <xsl:text>App</xsl:text>
             <xsl:number count="tei:app[tei:lem]" level="any" from="tei:div" format="A"/>
         </xsl:variable>
-        <xsl:apply-templates select="tei:lem"/>
-        <span class="textcriticalnote annotation-marker" id="appnotelink{$identifier}" onclick="toggle({$identifier});">†</span>
-        <!--<sup>[<xsl:call-template name="appN"/>]</sup>-->
+        <span class="app">
+            <span class="lemma">
+                <xsl:apply-templates select="tei:lem"/>
+            </span>
+            <span class="textcriticalnote annotation-marker" id="appnotelink{$identifier}" onclick="toggle({$identifier});">†</span>
+            <!--<sup>[<xsl:call-template name="appN"/>]</sup>-->
+        </span>
         <xsl:text> </xsl:text>
         <span class="appnotecontents" id="{$identifier}" style="display: none;">
             <xsl:choose>

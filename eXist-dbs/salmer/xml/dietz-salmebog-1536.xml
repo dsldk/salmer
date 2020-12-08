@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +57,7 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart type="desc"><pb facs="004" n="a 1r"/>𐂁 Nogle nye Psalmer oc Lofsange som
+               <titlePart type="desc"><pb facs="004" n="a 1r"/>¶ Nogle nye Psalmer oc Lofsange som
                   icke till forn ere wd<lb rend="="/>gangne paa Danske / <lb/>medt een Correcht oc
                      for<lb rend="="/>bedering paa then store <lb/>Sangbog som er trycht <lb/>ÿ
                   Rozstock wedt <lb/>Ludowich <lb/>Dyetz<lb/><lb/>M. D. XXXvj.</titlePart>

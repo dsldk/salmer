@@ -1,6 +1,6 @@
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron">
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
+   <teiHeader xmlns="http://www.tei-c.org/ns/1.0">
       <fileDesc>
          <titleStmt>
             <title>En Ny Psalmebog 1553</title>
@@ -56,7 +56,7 @@
       <front>
          <titlePage>
             <docTitle>
-               <titlePart type="desc">E<pb n_ekstra="iA1r" n="A 1r" facs="0004R"/>n Ny Psal<lb rend="="/>mebog medt flere <lb/> Psalmer oc Christeli<lb rend="="/>ge oc Aandelige lofsang
+               <titlePart type="desc"><pb n_ekstra="iA1r" n="A 1r" facs="0004R"/>En Ny Psal<lb rend="="/>mebog medt flere <lb/> Psalmer oc Christeli<lb rend="="/>ge oc Aandelige lofsang
                   met Col<lb rend="="/>lecter og Bøner som icke ere till<lb rend="="/>forne Prentet
                   i de andre Psalme<lb rend="="/>bøger/ vddragne aff den <lb/>Hellige scrifft <lb/>⁕
                   <lb/> Oc met en Euig Kalen<lb rend="="/>darium ath finde naar Ny ten<lb rend="="/>dis i huer Maanet met sine taff<lb rend="="/>ler til alle Rørlige fester Gud
@@ -64,14 +64,14 @@
                   Københaffn M. D. Liii.</titlePart>
             </docTitle>
          </titlePage>
-      </front>
-      <body>
+      <!--</front>
+      <body>-->
          <pb n_ekstra="iA1v" n="A 1v" facs="0005L"/>
          <pb n_ekstra="iA2r" n="A 2r" facs="0006R"/>
          <div type="chapter" subtype="Kalendarium" xml:id="kalendarium" n="1">
-            <head type="add">Kalendarium</head>
+             <head type="add">Kalendarium</head>
             <div type="instructions">
-               <head type="add">Instruktioner</head>
+                <head type="add">Instruktioner</head>
                <div type="table">
                   <table>
                      <row>
@@ -582,9 +582,8 @@
                      <cell/>
                      <cell>t</cell>
                   </row>
-                  <pb n_ekstra="iA4r" n="A 4r" facs="0010R"/>
                   <row>
-                     <cell>20</cell>
+                     <cell><pb n_ekstra="iA4r" n="A 4r" facs="0010R"/>20</cell>
                      <cell/>
                      <cell>fab</cell>
                      <cell>f</cell>
@@ -892,9 +891,8 @@
                      <cell/>
                      <cell>x</cell>
                   </row>
-                  <pb n_ekstra="iA5r" n="A 5r" facs="0012R"/>
                   <row>
-                     <cell>18</cell>
+                     <cell><pb n_ekstra="iA5r" n="A 5r" facs="0012R"/>18</cell>
                      <cell/>
                      <cell>con</cell>
                      <cell>g</cell>
@@ -1017,7 +1015,7 @@
             </div>
             <pb n_ekstra="iA5v" n="A 5v" facs="0013L"/>
             <div type="month" xml:id="kalendarium-marts" n="3">
-               <head type="add">Marts</head>
+                <head type="add">Marts</head>
                <figure type="image"/>
                <p><hi rend="Walbaum3">Martius Thormaanet</hi><lb/>haffuer XXXi. Dage Natten xii.
                      ti<lb rend="="/>mer oc Dagen xii. timer. </p>
@@ -1203,9 +1201,8 @@
                      <cell/>
                      <cell>{??}</cell>
                   </row>
-                  <pb n_ekstra="iA6r" n="A 6r" facs="0014R"/>
                   <row>
-                     <cell>20</cell>
+                     <cell><pb n_ekstra="iA6r" n="A 6r" facs="0014R"/>20</cell>
                      <cell/>
                      <cell>ba</cell>
                      <cell>b</cell>
@@ -1512,9 +1509,8 @@
                      <cell>8</cell>
                      <cell>{??}</cell>
                   </row>
-                  <pb n_ekstra="iA7r" n="A 7r" facs="0016R"/>
                   <row>
-                     <cell>19</cell>
+                     <cell><pb n_ekstra="iA7r" n="A 7r" facs="0016R"/>19</cell>
                      <cell>ix</cell>
                      <cell>ler</cell>
                      <cell>d</cell>
@@ -1644,7 +1640,7 @@
             </div>
             <pb n_ekstra="iA7v" n="A 7v" facs="0017L"/>
             <div type="month" xml:id="kalendarium-maj" n="5">
-               <head type="add">Maj</head>
+                <head type="add">Maj</head>
                <figure type="image"/>
                <p><hi rend="Walbaum3">Maius May maanet</hi><lb/>Haffuer XXXi dage Naten viii ti<lb rend="="/>me oc dagen xvi time </p>
                <table>
@@ -1828,9 +1824,8 @@
                      <cell/>
                      <cell>c</cell>
                   </row>
-                  <pb n_ekstra="iA8r" n="A 8r" facs="0018R"/>
                   <row>
-                     <cell>20</cell>
+                     <cell><pb n_ekstra="iA8r" n="A 8r" facs="0018R"/>20</cell>
                      <cell/>
                      <cell>Se</cell>
                      <cell>g</cell>
@@ -1958,7 +1953,7 @@
             </div>
             <pb n_ekstra="iA8v" n="A 8v" facs="0019L"/>
             <div type="month" xml:id="kalendarium-juni" n="6">
-               <head type="add">Juni</head>
+                <head type="add">Juni</head>
                <figure type="image"/>
                <p><hi rend="Walbaum3">Junius Skier sommer</hi>
                   <lb/>haffuer xxx Dage Natten vi time <lb/>och dagen xviii time </p>
@@ -2134,9 +2129,8 @@
                      <cell/>
                      <cell>e</cell>
                   </row>
-                  <pb n_ekstra="iB1r" n="B 1r" facs="0020R"/>
                   <row>
-                     <cell>19</cell>
+                     <cell><pb n_ekstra="iB1r" n="B 1r" facs="0020R"/>19</cell>
                      <cell>xvii</cell>
                      <cell>pro</cell>
                      <cell>b</cell>
@@ -2453,9 +2447,8 @@
                      <cell/>
                      <cell>i</cell>
                   </row>
-                  <pb n_ekstra="iB2r" n="B 2r" facs="0022R"/>
                   <row>
-                     <cell>20</cell>
+                     <cell><pb n_ekstra="iB2r" n="B 2r" facs="0022R"/>20</cell>
                      <cell>vi</cell>
                      <cell>mar</cell>
                      <cell>e</cell>
@@ -2784,9 +2777,8 @@
                      <cell/>
                      <cell>o</cell>
                   </row>
-                  <pb n_ekstra="iB3r" n="B 3r" facs="0024R"/>
                   <row>
-                     <cell>21</cell>
+                     <cell><pb n_ekstra="iB3r" n="B 3r" facs="0024R"/>21</cell>
                      <cell>iii</cell>
                      <cell>ti</cell>
                      <cell>b</cell>
@@ -3097,9 +3089,8 @@
                      <cell/>
                      <cell>q</cell>
                   </row>
-                  <pb n_ekstra="iB4r" n="B 4r" facs="0026R"/>
                   <row>
-                     <cell>20</cell>
+                     <cell><pb n_ekstra="iB4r" n="B 4r" facs="0026R"/>20</cell>
                      <cell>iii</cell>
                      <cell>que</cell>
                      <cell>d</cell>
@@ -3405,9 +3396,8 @@
                      <cell/>
                      <cell>t</cell>
                   </row>
-                  <pb n_ekstra="iB5r" n="B 5r" facs="0028R"/>
                   <row>
-                     <cell>20</cell>
+                     <cell><pb n_ekstra="iB5r" n="B 5r" facs="0028R"/>20</cell>
                      <cell/>
                      <cell>er</cell>
                      <cell>f</cell>
@@ -3723,9 +3713,8 @@
                      <cell/>
                      <cell>z</cell>
                   </row>
-                  <pb n_ekstra="iB6r" n="B 6r" facs="0030R"/>
                   <row>
-                     <cell>20</cell>
+                     <cell><pb n_ekstra="iB6r" n="B 6r" facs="0030R"/>20</cell>
                      <cell>xi</cell>
                      <cell>li</cell>
                      <cell>b</cell>
@@ -3848,7 +3837,7 @@
             <div type="month" xml:id="kalendarium-december" n="12">
                <head type="add">December</head>
                <figure type="image"/>
-               <p><hi rend="Walbaum3">December Julemaanet</hi><lb/>haffuer XXXi dage Natten xvi
+               <p><hi rend="Walbaum3">December Julemaanet</hi> <lb/>haffuer XXXi dage Natten xvi
                   <lb/>time oc dagen viii time </p>
                <table>
                   <row>
@@ -4036,9 +4025,8 @@
                      <cell/>
                      <cell>{??}</cell>
                   </row>
-                  <pb n_ekstra="iB7r" n="B 7r" facs="0032R"/>
                   <row>
-                     <cell>20</cell>
+                      <cell><pb n_ekstra="iB7r" n="B 7r" facs="0032R"/>20</cell>
                      <cell/>
                      <cell>de</cell>
                      <cell>d</cell>
@@ -4171,14 +4159,13 @@
                   </hi>
                </lg>
             </div>
-            <pb n_ekstra="iB7v" n="B 7v" facs="0033L"/>
             <div type="instructions" xml:id="instruktioner">
                <head type="add">[Instruktioner]</head>
                <div type="table" xml:id="table">
                   <head type="add">[Oversigt]</head>
                   <table>
                      <row>
-                        <cell>i.</cell>
+                        <cell><pb n_ekstra="iB7v" n="B 7v" facs="0033L"/> i.</cell>
                         <cell>ii.</cell>
                         <cell>iii.</cell>
                         <cell>iiii.</cell>
@@ -4508,9 +4495,8 @@
                         <cell>v</cell>
                         <cell>Veyskaal God Tegen.</cell>
                      </row>
-                     <pb n_ekstra="iB8r" n="B 8r" facs="0034R"/>
                      <row>
-                        <cell>m</cell>
+                        <cell><pb n_ekstra="iB8r" n="B 8r" facs="0034R"/>m</cell>
                         <cell>b</cell>
                         <cell>t</cell>
                         <cell>i</cell>
@@ -5218,10 +5204,10 @@
             </div>
          </div>
          <pb n_ekstra="A1r" n="1r" facs="0044R"/>
-         <lb/>
          <div type="chapter" subtype="Fortale" xml:id="fortalen-til-laeseren" n="2">
             <head type="add">Fortalen til læseren</head>
-            <head>Fortalen til leseren</head>
+             <head>
+                 Fortalen til leseren</head>
             <p><c function="initials" rend="5">D</c>Et er tilbørligt och Gud
                <lb/>tackne<ex>m</ex>meligt at alle christ<lb rend="="/>ne siunge oc læse aandelige
                <lb/>Psalmer oc Lofsang han<lb rend="="/>nem til loff och ære Som <lb/>Propheterne
@@ -5268,6 +5254,8 @@
                   <lb/>AMEN. <lb/><hi rend="superscript" n="3">⁕</hi><space extent="2blanks"/><hi rend="subscript" n="3">⁕</hi><space extent="2blanks"/><hi rend="superscript" n="3">⁕</hi></hi></p>
          </div>
          <pb n_ekstra="A2v" n="2v" facs="0047L"/>
+      </front>
+      <body>
          <div type="chapter" subtype="Kirkeårets_salmer" xml:id="kirkeaarets-salmer" n="3">
             <head type="add">Kirkeårets salmer</head>
             <div type="psalm" xml:id="i-jesu-navn-begynde-vi" n="1">
@@ -6062,18 +6050,17 @@
                <head>En Loffsang aff Christi fødzel.</head>
                <pb n_ekstra="B4r" n="12r" facs="0066R"/>
                <lb/>
-               <!--<figure type="notatedMusic"/>-->
                <notatedMusic>
                   <ptr target="Vi_1553_LN1421_011v.xml"/>
                </notatedMusic>
                <lg>
                   <l>O Jesu Christ som Mandom tog </l>
+                  <l>i rene Jomfru liffue </l>
                   <l>kærlighed dig der til drog </l>
-                  <l><!--<figure type="notatedMusic"/>--> i rene Jomfru liffue </l>
                   <l>vort haaff saa vilde du bliffue </l>
-                  <l><!--<figure type="notatedMusic"/>--> Du saast vor synd oc store nød </l>
-                  <l><!--<figure type="notatedMusic"/>--> at oss stod for den euige Død </l>
-                  <l><!--<figure type="notatedMusic"/>--> Helffuede stod oss aabid </l>
+                  <l>Du saast vor synd oc store nød </l>
+                  <l>at oss stod for den euige Død </l>
+                  <l>Helffuede stod oss aabid </l>
                </lg>
                <lb/>
                <lg>
@@ -9522,10 +9509,9 @@
                </lg>
             </div>
             <pb n_ekstra="G5r" n="52r" facs="0148R"/>
-            <lb/>
             <div type="psalm" xml:id="nisi-quia-dominus-erat-in-nobis" n="10">
                <head type="add">Var Gud ikke med os denne tid</head>
-               <head><ref target="#sl-124"><orig><app><lem>Den</lem><rdg wit="#orig">Dem</rdg></app>
+                <head><ref target="#sl-124"><orig><app><lem>Den</lem><rdg wit="#orig">Dem</rdg></app>
                         cxxiiii Psalm/</orig><reg>Sl 124</reg></ref> Nisi quia dominus <lb/>erat in
                   nobis</head>
                <lg>
@@ -14063,7 +14049,6 @@
                </lg>
             </div>
             <pb n_ekstra="O4r" n="96rII" facs="0258R"/>
-            <lb/>
             <div type="psalm" xml:id="benedictus" n="79">
                <head type="add">Benedictus</head>
                <head>Benedictus.</head>
@@ -14532,7 +14517,6 @@
                   selff dom<lb rend="="/>men/ om han icke dømmer om Herrens <lb/>Legeme</p>
             </div>
             <pb n_ekstra="P3r" n="103r" facs="0272R"/>
-            <lb/>
             <div type="psalm" xml:id="halleluja-glade-vil-vi-halleluja-sjunge" n="15">
                <head type="add">Halleluja. Gladelig ville vi halleluja sjunge</head>
                <head>Alleluia. Alleluia</head>
@@ -15071,7 +15055,6 @@
                   Christum vor Her<lb rend="="/>re/ Amen. </p>
             </div>
             <pb n_ekstra="Q7r" n="115r" facs="0296R"/>
-            <lb/>
             <div type="psalm" xml:id="hellig-hellig-hellig" n="29">
                <head type="add">Sanctus/ Hellig, hellig, hellig er du</head>
                <head>Sanctus.</head>
@@ -15152,7 +15135,6 @@
                </lg>
             </div>
             <pb n_ekstra="Q8r" n="116r" facs="0298R"/>
-            <lb/>
             <div type="psalm" xml:id="sanktus-hellig-er-gud-fader" n="32">
                <head type="add">Sanctus/ Hellig er Gud Fader</head>
                <head>Jt andet Sanctus</head>

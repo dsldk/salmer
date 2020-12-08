@@ -1,12 +1,14 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs tei" version="2.0">
-    <xsl:template match="tei:note[@place='left']|tei:note[@place='right']">
-      <!--<span class="marginal-note">-->
-            <!--<span class="marginal-note-mark">$</span>
-            <xsl:text> </xsl:text>-->
-            <!--<span class="marginal-note-content">
+    <xsl:template match="tei:note[@place='left']|tei:note[@place='right']|tei:note[@place='margin']">
+        <span class="marginal-note">
+            <span class="marginal-note-content">
                 <xsl:apply-templates/>
             </span>
-        </span>-->
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:note[@place='left' or @place='right' or @place='margin']/text()">
+        <!-- Strip off parantheses; should better be done in TEI source XML -->
+        <xsl:value-of select="translate(.,'()','')"/>
     </xsl:template>
     <xsl:template match="tei:note[@place='bottom']">
         <!--<xsl:variable name="note-identifier">-->
