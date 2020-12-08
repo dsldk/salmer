@@ -27,9 +27,13 @@
     
     .notebox, .header__menu, .main-top-section,
     .document-wrapper .tabs-box, a[href]::after,
-    .btn-primary, .mei_options, .footer,
+    .btn-primary, .footer,
     .theActualDocument +.chapter-selector-wrapper {
         display: none;
+    }
+    
+    .mei_options {
+        display: none !important;
     }
     
     .chapter-dropdown {
