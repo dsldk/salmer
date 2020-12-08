@@ -56,7 +56,6 @@ from .chapters_and_sections import (
     chapter_and_section_names,
 )
 from .menu import (
-    make_listings_for_menu,
     redirect_from_select_menu,
     get_breadcrumb,
 )
@@ -725,7 +724,6 @@ def smn_view(request):
     if chapters_of_document and chapter == chapters_of_document[-1]["no"]:
         is_last_chapter = True
 
-    listings_for_menu = make_listings_for_menu(xquery_folder, document_id)
 
     title_url = xquery_folder + "/title_of_document.xquery?id=" + document_id
     title_of_current_document = (
@@ -864,7 +862,6 @@ def smn_view(request):
         "title_of_current_document": title_of_current_document,
         "author_of_document": author_of_document,
         "breadcrumb": breadcrumb,
-        "titles": listings_for_menu["titles"].text,
         "document_id": document_id,
         "document_id_without_xml": document_id_without_xml,
         "chapters_of_document": chapters_and_sections["chapters_of_document"],
@@ -885,9 +882,7 @@ def smn_view(request):
         "last_section_in_previous_chapter_name": section_info[
             "last_section_in_previous_chapter_name"
         ],
-        "titles_for_authors": listings_for_menu["titles_for_authors"],
         "page_is_available": chapters["page_is_available"],
-        "id_of_title": listings_for_menu["id_of_title"],
         "html": getattr(request, "html", None),
         "title": title_of_current_document,
         "note_list": notes_for_chapter,
