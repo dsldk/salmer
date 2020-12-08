@@ -675,6 +675,12 @@ def smn_view(request):
     if current_section:
         section_and_chapter = "%s/%s" % (chapter, current_section)
     sections = get_sections(xquery_folder, document_id, chapter)
+    # Redirect if necessary.
+    redirect = redirect_from_select_menu(
+        request, document_id, chapter, current_section, sections
+    )
+    if redirect and chapter != 0:
+        return redirect
     chapters = chapter_names(xquery_folder, document_id)
     chapters_and_sections = chapter_and_section_names(
         xquery_folder, document_id
@@ -700,11 +706,6 @@ def smn_view(request):
     )
     chapter_arg = chapter_dict["chapter_arg"]
     sections_of_previous_chapter = chapter_dict["sections_of_previous_chapter"]
-    redirect = redirect_from_select_menu(
-        request, document_id, chapter, current_section, sections
-    )
-    if redirect and chapter != 0:
-        return redirect
     pages = get_chapter(
         xquery_folder, document_id, chapter_arg, current_section
     )
@@ -737,9 +738,11 @@ def smn_view(request):
     pages = insert_note_texts(request, pages)
 
     # Remove main chapter for front matter.
-    redaktionelt_chapter =  {'name': 'Redaktionelt', 'no': 'front'}
+    redaktionelt_chapter = {'name': 'Redaktionelt', 'no': 'front'}
     try:
-        redaktionelt_index = chapters_and_sections["chapters_of_document"].index(redaktionelt_chapter)
+        redaktionelt_index = chapters_and_sections[
+            "chapters_of_document"
+        ].index(redaktionelt_chapter)
         del chapters_and_sections["chapters_of_document"][redaktionelt_index]
     except ValueError:
         # No front matter, fair enough.
