@@ -990,12 +990,6 @@ p.intro,p span.additional {
     color:gray
 }
 
-span.alternative_text {
-    display: inline-table;
-    vertical-align: middle;
-    line-height: 1em;
-}
-
 .footnote {
     display:none
 }
@@ -4416,6 +4410,14 @@ body.home-page #search-field::before {
     top:-.25em
 }
 
+.app:hover .lemma {
+    background-color: #eef;
+}
+
+.app .lemma:hover {
+    background: none;
+}
+
 .alternative_text {
     display: inline-table;
     vertical-align: middle;
@@ -4429,6 +4431,10 @@ body.home-page #search-field::before {
     margin-top: -1.4em;
     width: 4em;
     font-size: .7em;
+}
+
+.introduction .toc ul {
+    list-style: none;
 }
 
 .nextPreviousbox {
