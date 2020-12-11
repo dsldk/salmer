@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -2395,10 +2393,9 @@
                <l>som du sende dem ÿ sind. </l>
                <l>De och saage thet Gud loffuede glede.</l>
             </lg>
-            <pb facs="059" n="g 4v"/>
             <lb/>
             <lg>
-               <l><space extent="2blanks"/>Johanes endt nw vfødder/ </l>
+               <l><pb facs="059" n="g 4v"/><space extent="2blanks"/>Johanes endt nw vfødder/ </l>
                <l>gleddis y sÿn <lb/>moders liff. </l>
                <l>At din kere Søn wor herre </l>
                <l>kom <lb/>til oss saa ydmyg. </l>
