@@ -85,7 +85,7 @@
                 <docImprint>
                     <lb/>Anno domini. Mdxxxix. </docImprint>
             </titlePage>
-            <div type="preface" xml:id="preface">
+            <div type="preface" xml:id="preface-oluf-ulriksen-1539">
                 <head type="add">Frands Vormodsens fortale</head>
                 <p>
                     <pb facs="0007L" n="A 1v"/>¶ Franciscus wormordi ynsker alle retsindige oc <lb/>
@@ -3844,11 +3844,11 @@
                 <head>Finis ceremoniarum apud vlti<lb rend="="/>mo supplicio puniendos.</head>
             </div>
             <pb facs="0167L" n="X 1v"/>
-            <div type="chapter" xml:id="begravelse" n="9">
+            <div type="chapter" xml:id="begravelse-oluf-ulriksen-1539" n="9">
                 <head type="add">Begravelse</head>
                 <head>Om iordeferdt</head>
                 <lb/>
-                <div xml:id="begravelsesritual" n="1">
+                <div xml:id="begravelsesritual-oluf-ulriksen-1539" n="1">
                     <head type="add">Begravelsesritual</head>
                     <p>
                         <c function="initials" rend="3">N</c>Ar noget christet meni<ex>n</ex>ske dør
@@ -3932,9 +3932,9 @@
             </div>
         </body>
         <back>
-            <div type="register">
+            <div type="register-oluf-ulriksen-1539">
                 <head type="add">Register</head>
-                <div xml:id="index">
+                <div xml:id="index-oluf-ulriksen-1539">
                     <head type="add">
                         <pb facs="0170R" n="X 3r"/>Index</head>
                     <head>Jndex articulorum huius libri.</head>

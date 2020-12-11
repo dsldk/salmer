@@ -74,7 +74,7 @@
                     <titlePart type="desc">[Titelbladet mangler]</titlePart>
                 </docTitle>
             </titlePage>
-            <div type="calendar" xml:id="calendar" n="1">
+            <div type="calendar" xml:id="calendar-malmoe" n="1">
                 <head type="add">Kalender</head>
                 <div xml:id="januar-mgl" n="1">
                     <head type="add">[Januar mangler]</head>
@@ -3175,7 +3175,7 @@
                     </div>
                 </div>
             </div>
-            <div type="preface" xml:id="introduction" n="2">
+            <div type="preface" xml:id="introduction-malmoe-2" n="2">
                 <head type="add">Forord</head>
                 <p><pb facs="036" n="B 7v"/><c function="initials" rend="6">D</c>Et er
                     tilbørligt oc Gud <lb n="E44.002"/> tackne<ex>m</ex>meligt at alle christ<lb n="E44.003" rend="="/>ne siu<ex>n</ex>ge oc læse aandelige <lb n="E44.004"/>
@@ -12032,7 +12032,7 @@
 
         </body>
         <back>
-            <div type="index" xml:id="register" n="7">
+            <div type="index" xml:id="register-malmoe" n="7">
 
                 <head type="add">Register</head>
                 <head><pb facs="260" n="112v"/>Jth Register</head>

@@ -89,7 +89,7 @@
                     Maiestatis.</imprimatur>
             </titlePage>
             <figure type="image"/>
-            <div type="toc" xml:id="toc-section">
+            <div type="toc" xml:id="toc-section-thomissoen-1569">
                 <head type="add">Indholdsfortegnelse</head>
                 <head><pb facs="002" n="2"/><pb facs="003" n="3"/> Jt Almindeligt Register offuer
                     <lb/> Psalmerne.</head>
@@ -136,7 +136,7 @@
                     </item>
                 </list>
             </div>
-            <div type="calendar" xml:id="calendar">
+            <div type="calendar" xml:id="calendar-thomissoen-1569">
                 <head type="add">Kalender</head>
                 <div type="month">
                     <head><pb facs="004" n="4"/>Januarius/ Glugmaanet. <lb/> haffuer xxxj.
@@ -2918,7 +2918,7 @@
                     </table>
                 </div>
             </div>
-            <div type="preface" xml:id="introduction">
+            <div type="preface" xml:id="introduction-thomissoen-1569">
                 <head type="add">Forklaring</head>
                 <head n="5"><pb facs="016" n="16"/>Forklaring paa dette Calen<lb rend="="/>dario
                     Romano. </head>
@@ -4405,7 +4405,7 @@
                         </list></p>
                 </div>
             </div>
-            <div type="preface" xml:id="preface">
+            <div type="preface" xml:id="preface-thomissoen-1569">
                 <head type="add">Martin Luthers fortale</head>
                 <head n="4"><pb facs="042" n="42"/>Doctor Morten Lu<lb rend="="/>thers
                     Fortale.</head>
@@ -4462,7 +4462,7 @@
                 <p>Vngdommen/ at mand tør ey selff først <lb/> der til ocsaa Orsag giffue. Gud
                     <lb/>giffue oss sin Naade/ <lb/>AMEN. </p>
             </div>
-            <div type="preface" xml:id="preface-2">
+            <div type="preface" xml:id="preface-thomissoen-1569-2">
                 <head type="add">Hans Thomissøns fortale</head>
                 <p><pb facs="045" n="45"/>Alle gode Gudfryctige Christne i <lb/> Danmarckis oc
                     Norgis <lb/> Riger. <lb/> Guds Naade/ velsignelse oc trøst ved hans <lb/> euige
@@ -25838,7 +25838,7 @@
             </div>
         </body>
         <back>
-            <div type="register" xml:id="register">
+            <div type="register" xml:id="register-thomissoen-1569">
                 <head type="add">Register</head>
                 <head n="4"><pb facs="795" n="795"/>Register offuer den<lb rend="="/>ne Bog.</head>
                 <div>
