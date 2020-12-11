@@ -16,8 +16,9 @@
                         <xsl:variable name="targetRef" select="substring-after(@target, '#')"/>
                         <!-- The following performs poorly if more than a few look-ups are needed -->
                         <!--<xsl:variable name="targetNode" select="$concordance/index/text/ref[@id=$targetRef]"/>-->   
-                        <!-- Key provides more constant performance. Some time is needed to build the index, though -->
-                        <xsl:variable name="targetNode" select="key('concordance_key',$targetRef,$concordance)"/>                        
+                        
+                        <!-- Key provides more constant performance. Some time is needed to build the index, though. -->
+                        <xsl:variable name="targetNode" select="key('concordance_key',$targetRef,$concordance)[1]"/><!-- [1] added to avoid error on duplicate ids -->                        
                         <xsl:variable name="parentText" select="$targetNode/parent::*"/>
                         <xsl:value-of select="concat('/',$parentText/@id, $targetNode/@target)"/>
                     </xsl:attribute>
