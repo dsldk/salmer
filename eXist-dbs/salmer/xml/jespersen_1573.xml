@@ -1982,7 +1982,7 @@
                 <head type="add">Sankt Stefans dag</head>
                 <head>Paa S. Staffens dag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-6-1" n="1">
-                    <head type="add">Introitus latin: Etenim sederunt pricnipes</head>
+                    <head type="add">Introitus latin: Etenim sederunt principes</head>
                     <head> Introitus lat.<lb/>
                         <ref target="#">Psalm: 119.</ref></head>
                     <notatedMusic>
@@ -4226,7 +4226,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-28-2" n="2">
-                    <head type="add">Jesus op på korset stod</head>
+                    <head type="add">Jesus oppå korset stod</head>
                     <p>Der nest/ Nu bede wi den hellig Aand <ex>etc</ex>. <lb/>Her effter opstiger
                         Sognepresten paa Pre<lb rend="="/>dickestolen/ Oc oplæser den hele Pass paa
                             Dan<lb rend="="/>ske/ lige som hand er sammen screffuen aff <lb/>de Fire
@@ -5380,7 +5380,7 @@
                     <!--<figure type="vignette"/>-->
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="kyrie-fons-bonitatis" n="3">
-                    <head type="add">Kyrie: Bons benetatis Pater ingenite</head>
+                    <head type="add">Kyrie: Fons bonitatis Pater ingenite</head>
                     <head><pb facs="0261L" n="248"/>Kyrie.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_248.xml"/>
@@ -6355,7 +6355,7 @@
                     <lb/>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="de-ventre-matris" n="2">
-                    <head type="add">Introitus latinus: De vnetre matris meæ</head>
+                    <head type="add">Introitus latinus: De ventre matris meæ</head>
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Esaiæ, 49.</ref></head>
                     <notatedMusic>
@@ -6695,7 +6695,7 @@
                 <head type="add">Femte søndag efter trinitatis</head>
                 <head><pb facs="0331L" n="318"/>Den<ex>n</ex> Femte Søndag effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="exaudi-domine-vocem-meam" n="1">
-                    <head type="add">Introitus latinus: Exaudi Domine vocem mean</head>
+                    <head type="add">Introitus latinus: Exaudi Domine vocem meam</head>
                     <head>Introitus Dansk.</head>
                     <p>Som paa S. Hans dag. <lb/>Oc skal fremdelis siungis til Dominicam<lb/> Nonam
                         Trinitatis. <lb/>Introitus latinus.<lb/>
@@ -8312,7 +8312,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="in-voluntate-tua-domine" n="2">
-                    <head type="add">Introitus latinus: Involuntate tua Domine</head>
+                    <head type="add">Introitus latinus: In voluntate tua Domine</head>
                     <head>Introitus latinus.<lb/>
                         <ref target="#">Esther, 13.</ref></head>
                     <notatedMusic>
