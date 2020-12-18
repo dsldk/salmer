@@ -4593,7 +4593,7 @@ body.home-page #search-field::before {
     position:absolute
 }
 @media all and (min-width: 1280px) {
-    .facsimile-link {
+    .facsimile-link, .facsimile-link-external {
         left:auto;
         right:calc(100% - 3rem)
     }
