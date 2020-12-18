@@ -4581,7 +4581,7 @@ body.home-page #search-field::before {
     display:flex;
     justify-content:center
 }
-.facsimile-link {
+.facsimile-link, .facsimile-link-external {
     font-family:'Montserrat', sans-serif;
     font-size:.75rem;
     font-weight:bold;
@@ -4599,7 +4599,7 @@ body.home-page #search-field::before {
     }
 }
 
-.facsimile-link.inline {
+.facsimile-link.inline, .facsimile-link-external.inline {
     position: relative;
     right: inherit;
 }    
