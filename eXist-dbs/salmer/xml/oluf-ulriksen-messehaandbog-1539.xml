@@ -78,9 +78,9 @@
                         liig. Flitteligen effter kongeli<lb rend="="/>ge maistads Ordinantsis in<lb
                             rend="="/>deholdelse. Colligered. <lb/>ordinered oc some<lb rend="="
                         />stedis fordans<lb rend="="/>skedt.</titlePart>
+                    <lb/>
+                    <titlePart> Anno domini. Mdxxxix. </titlePart>
                 </docTitle>
-                <docImprint>
-                    <lb/>Anno domini. Mdxxxix. </docImprint>
             </titlePage>
             <div type="preface" xml:id="preface-oluf-ulriksen-1539">
                 <head type="add">Frands Vormodsens fortale</head>
@@ -206,12 +206,11 @@
                         naade. <lb/>ente<ex>n</ex> paa latine eller da<ex>n</ex>ske vid
                             saada<ex>n</ex> en <lb/>maade.</p>
                     <p><pb facs="0012R" n="A 4r"/>
-                        <c function="initials" rend="2"
-                        >C</c>Onfiteor tibi O domine deus
-                        <lb/> pater misericordiarum et deus to<lb rend="="/>tius consolacionis quod
-                        sim maximus <lb/>peccator. et quod offendi te varijs et <lb/>tam multis
-                        modis idque quotidie. Co<lb/>gitacione. locutione. consensu et opere.
-                        <lb/>vt ne cogitatu quidem. ne dicam verbis <lb/>enormitatem et multitudinem
+                        <c function="initials" rend="2">C</c>Onfiteor tibi O domine deus <lb/> pater
+                        misericordiarum et deus to<lb rend="="/>tius consolacionis quod sim maximus
+                        <lb/>peccator. et quod offendi te varijs et <lb/>tam multis modis idque
+                        quotidie. Co<lb/>gitacione. locutione. consensu et opere. <lb/>vt ne
+                        cogitatu quidem. ne dicam verbis <lb/>enormitatem et multitudinem
                         pecca<lb/>torum meorum adsequi valeam. Quare <lb/>oro te et obtestor per
                         vnigenitum fili<lb rend="="/>um tuum dominum nostrum Jesum chris<lb rend="="
                         />tum vt mei misertus digneris mihi om<lb/>nia mea peccata remittere. atque
@@ -2294,8 +2293,9 @@
                 <div xml:id="die-omnium-sanctorum-collecta" n="6">
                     <head type="add">Die omnium sanctorum collecta</head>
                     <head>Die omnium sanctorum Collecta</head>
-                    <pb facs="0095L" n="M 1v"/>
-                    <p>O Almectigste euige gud So<ex>m</ex> haffv<ex>er</ex>
+                    <p>
+                        <pb facs="0095L" n="M 1v"/>O Almectigste euige gud So<ex>m</ex>
+                            haffv<ex>er</ex>
                         <lb/>giffuit. och daglige giffv<ex>er</ex> alle dine vd<lb rend="="/>ualde
                             helge<ex>n</ex> en vsielig hierte<ex>n</ex>s troffast<lb rend="="/>hed
                         til dit hellige naffns beke<ex>n</ex>delse i de<ex>n</ex><lb rend="="/>ne
@@ -2691,6 +2691,7 @@
                 <head>Sequuntur pie aliquot iuxta sacram <lb/>Scripturam Prefationes que pas<lb
                         rend="="/>sim in Ecclesiis iam solent Et <lb/>primo de Natiuitate chris<lb
                         rend="="/>ti Prefatio Sequitur</head>
+                <lb/>
                 <div xml:id="prefatio-nativitate-christi" n="1" type="psalm">
                     <head type="add">Præfation om Kristi fødsel </head>
                     <notatedMusic>
@@ -2821,9 +2822,8 @@
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000p02v.xml"/>
                     </notatedMusic>
-                    <pb facs="0122R" n="P 3r"/>
                     <lg>
-                        <l> Oc euige gudt.</l>
+                        <l><pb facs="0122R" n="P 3r"/>Oc euige gudt.</l>
                         <l>
                             <c function="initials" rend="2">H</c>Vilcken du so<ex>m</ex> met din
                             enborne søn oc den helligand</l>
@@ -4007,7 +4007,7 @@
                         <item>Om siuge atsøge paa deris yd<ex>er</ex>ste. <ref>t z</ref>
                         </item>
                         <lb/>
-                        <item>Om at søge fengslede milde. etc. <ref>v iiii</ref>
+                        <item>Om at søge fengslede misde. etc. <ref>v iiii</ref>
                         </item>
                         <lb/>
                         <item>Om Jordeferdt. <ref>x i</ref>
@@ -4049,12 +4049,12 @@
                     <head>Ad Lectorem.</head>
                     <lb/>
                     <p>Habes christiane lector librum vt vocant <lb/>Manuale. in quo ceremonie
-                        ecclesiarum huius pro<lb rend="="/>uintie
-                        Scanie comprehenduntur. Si autem <lb/>aliquid te hic offenderit aut in eo
-                            deside<lb rend="="/>ratur tuum est boni consulere. Catechis<lb rend="="
-                        />mum vero. perpetuo in sugestu a conci<lb rend="="/>one vtendum. cum
-                        declaratione doc<lb rend="="/>toris Martini Lutheri. breui hac eadem
-                        <lb/>forma et prelo excudendum curabimus᷒. vale</p>
+                        ecclesiarum huius pro<lb rend="="/>uintie Scanie comprehenduntur. Si autem
+                        <lb/>aliquid te hic offenderit aut in eo deside<lb rend="="/>ratur tuum est
+                        boni consulere. Catechis<lb rend="="/>mum vero. perpetuo in sugestu a
+                            conci<lb rend="="/>one vtendum. cum declaratione doc<lb rend="="/>toris
+                        Martini Lutheri. breui hac eadem <lb/>forma et prelo excudendum curabimus.
+                        vale</p>
                 </div>
                 <lb/>
                 <div>
