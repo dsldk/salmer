@@ -63,16 +63,13 @@
                      sali<lb rend="="/>ghed) siunges. Med then Danske Otesang. Messe. Afftensang oc
                      Nat<lb rend="="/>sang.</titlePart>
             </docTitle>
-            <!--<figure type="vignette"/>-->
             <docImprint>
-               <pubPlace>Trycht ÿ Rozstock.</pubPlace>
+               <pubPlace>* Trycht ÿ Rozstock. *</pubPlace>
             </docImprint>
-            <!--<figure type="vignette"/>-->
          </titlePage>
          <div type="preface" xml:id="preface-dietz-1529">
             <head type="add">Forord</head>
-            <head><pb facs="063" n="1v"/><!--<figure type="vignette"/>--> Fortalen til lesseren.
-                  <figure type="vignette"/></head>
+            <head><pb facs="063" n="1v"/>* Fortalen til lesseren. *</head>
             <p><c function="initials" rend="7">H</c>Wor got ock Gud tacknem<lb rend="="/>meligt thet
                er fro<ex>m</ex>me oc Chri<lb rend="="/>stelige lessere / <lb/>att siunge oc lesse
                Psalmer oc aandelighe lofsange / <lb/>Lader ieg meg tyc<lb rend="="/>ke / <lb/>att
@@ -370,8 +367,7 @@
             <div type="psalm" xml:id="o-gud-vi-love-dig-dietz-1529" n="2">
                <head type="add">O Gud, vi love dig</head>
                <head>¶ Sancti Ambrosij oc S. Augu<lb rend="="/>stini lofsang som hedder paa latine.
-                  <!--<figure type="vignette"/>--> Te deum laudamus. <figure type="vignette"
-                  /></head>
+                  * Te deum laudamus. *</head>
                <lg>
                   <l><c function="initials" rend="3">O</c> Gud wÿ loffue teg/ wÿ beken<lb rend="="
                      />de teg een Herre. </l>
@@ -487,8 +483,8 @@
             </div>
             <div xml:id="benedictus-dietz-1529" n="5">
                <head type="add">Benedictus</head>
-               <head><!--<figure type="vignette"/>-->
-                  <pb facs="074" n="7r"/> Benedictus. <!--<figure type="vignette"/>--></head>
+               <head>
+                  <pb facs="074" n="7r"/>* Benedictus. *</head>
                <lg>
                   <l><c function="initials" rend="3">B</c>Enedidet wære Jsraels Gud oc Herre/ </l>
                   <l>forthi han haffuer<note place="right">(<ref target="#luk-1"><orig>Luc.
@@ -560,8 +556,7 @@
             </div>
             <div xml:id="benedicamus-dietz-1529" n="6">
                <head type="add">Benedicamus</head>
-               <head><!--<figure type="vignette"/>--> Benedicamus.
-                  <!--<figure type="vignette"/>--></head>
+               <head>* Benedicamus. *</head>
                <lg>
                   <l><space extent="2blanks"/>Loffuer Gud wor Herre Alleluia/ </l>
                   <l>loffuer Herren Alleluia Alleluia.</l>
@@ -877,10 +872,8 @@
             <div type="psalm" xml:id="kristum-vi-love-nu" n="4">
                <head type="add">Kristum vi skulle love nu</head>
                <head>¶ Antiphona. </head>
-               <head>Wÿ som leffue benedide Herren. <!--<figure type="vignette"/>-->
-               </head>
-               <head>Een hymne aff Christi fødzel. A solis
-                  ortus.<!--<figure type="vignette"/>--></head>
+               <head>Wÿ som leffue benedide Herren. </head>
+               <head> * Een hymne aff Christi * <lb/> fødzel. A solis ortus.</head>
                <lg>
                   <l><c function="initials" rend="3">C</c>Hristum wÿ skulle loffue nw/ </l>
                   <l>Marie søn then reene Jom<lb rend="="/><note place="right">(<ref
@@ -958,8 +951,7 @@
             </div>
             <div xml:id="magnificat" n="6">
                <head type="add">Min sjæl ophøjer Herren</head>
-               <head><!--<figure type="vignette"/>--> Magnificat.
-                  <!--<figure type="vignette"/>--></head>
+               <head>* Magnificat. *</head>
                <lg>
                   <l><app><lem><c function="initials" rend="3">M</c>Ÿn</lem><rdg wit="#orig"><c
                               function="initials" rend="3">M</c>Yn</rdg></app> siæl (taler Maria)
@@ -1014,8 +1006,7 @@
             </div>
             <div xml:id="benedicamus-dietz-1529-2" n="7">
                <head type="add">Benedicamus</head>
-               <head><!--<figure type="vignette"/>--> Benedicamus.
-                  <!--<figure type="vignette"/>--></head>
+               <head>* Benedicamus. *</head>
                <lg>
                   <l><space extent="2blanks"/>Loffuer Christum wor frelsere </l>
                   <l>Allelu<lb rend="="/>ia Alleluia Alleluia. </l>
@@ -1145,8 +1136,7 @@
             </div>
             <div xml:id="benedicamus-dietz-1529-3" n="4">
                <head type="add">Benedicamus</head>
-               <head><!--<figure type="vignette"/>--> Benedicamus.
-                  <!--<figure type="vignette"/>--></head>
+               <head>* Benedicamus. *</head>
                <lg>
                   <l><space extent="2blanks"/>Benedider Herren Alleluia. Loffuer Herren Alleluia.
                   </l>
@@ -1280,8 +1270,7 @@
             </div>
             <div type="psalm" xml:id="men-vi-leve-paa-jorden-her-dietz-1529" n="3">
                <head type="add">Men vi leve på jorden her</head>
-               <head><!--<figure type="vignette"/>--> Media vita.
-                  <!--<figure type="vignette"/>--></head>
+               <head>* Media vita. *</head>
                <lg>
                   <l><c function="initials" rend="3">M</c>En wÿ leffue paa iorden her/ <note
                         place="right">(<ref target="#ef-1"><orig>Ephe. j.</orig><reg>Ef
@@ -1546,9 +1535,9 @@
                   <l>hwilken med sÿn fødelse oss haffuer forløøst/ </l>
                   <l>fraa dieffuelsens macht. Loff<lb rend="="/>uer Herren.</l>
                </lg>
+               <p>* Huic oportet. *</p>
                <lg>
-                  <l><!--<figure type="vignette"/>--> Huic oportet. <!--<figure type="vignette"/>-->
-                     <note place="left">(<ref target="#matt-23"><orig>Mat. xxiij.</orig><reg>Matt
+                  <l><note place="left">(<ref target="#matt-23"><orig>Mat. xxiij.</orig><reg>Matt
                               23</reg></ref>)</note>
                      <space extent="2blanks"/>Hannwm bør altÿd att wÿ siunge med Englene/ </l>
                   <l>Aere oc prÿss wære Gud ÿ thet høgeste.</l>
@@ -1678,8 +1667,7 @@
             </div>
             <div type="psalm" xml:id="christus-natus-hodie-dietz-1529" n="4">
                <head type="add">Nu er født os Jesus Krist</head>
-               <head><!--<figure type="vignette"/>--> Christus natus hodie. <figure type="vignette"
-                  /></head>
+               <head>* Christus natus hodie. *</head>
                <lg>
                   <l><c function="initials" rend="3">N</c>W er fød oss Jesus Christ/ </l>
                   <l>Aff<note place="right">(<ref target="#matt-1"><orig>Math. j.</orig><reg>Matt
@@ -1863,8 +1851,7 @@
             </div>
             <div type="psalm" xml:id="sedit-angelus" n="3">
                <head type="add">Guds engel sidder hos graven</head>
-               <head><!--<figure type="vignette"/>--> Sedit angelus.
-                  <!--<figure type="vignette"/>--></head>
+               <head>* Sedit angelus. *</head>
                <lg>
                   <l><c function="initials" rend="3">G</c>Vds Engel sidder hooss graff<lb rend="="
                         /><note place="right">(<ref target="#matt-28"><orig>Matthei.
@@ -1901,7 +1888,7 @@
                <lg>
                   <l>Aerens konnig o Christe Alleluia.</l>
                </lg>
-               <p><!--<figure type="vignette"/>--> Chorid: <!--<figure type="vignette"/>--></p>
+               <p>* Chorid: *</p>
                <lg>
                   <l><c function="initials" rend="3">O</c> Fader wdi himmele<ex>n</ex>/<note
                         place="left">(<ref target="#matt-6"><orig>Math. vj.</orig><reg>Matt
@@ -1917,7 +1904,7 @@
                   <l><space extent="2blanks"/>Hwilken som wor død oc for oss giff<lb rend="="/>uen
                      Alleluia.</l>
                </lg>
-               <p><!--<figure type="vignette"/>--> Chorid. <!--<figure type="vignette"/>--></p>
+               <p>* Chorid. *</p>
                <lg>
                   <l><c function="initials" rend="3">O</c> Christe Konning ÿ ewighed/ <note
                         place="left">(<ref target="#sl-2"><orig>Psalmo. ij.</orig><reg>Sl
@@ -1938,7 +1925,7 @@
                <lg>
                   <l>¶ Loffuer Herren.</l>
                </lg>
-               <p><!--<figure type="vignette"/>--> Chorid. <!--<figure type="vignette"/>--></p>
+               <p>* Chorid. *</p>
                <lg>
                   <l><space extent="2blanks"/>Helliaand wor bøn til teg/ </l>
                   <l>O Gud<note place="right">(<ref target="#joh-14"><orig>Joh:
@@ -1953,7 +1940,7 @@
                   <l><space extent="2blanks"/>Bed Gud for oss Alleluia. </l>
                   <l>Loffuer Herren Alleluia Alleluia.</l>
                </lg>
-               <p><!--<figure type="vignette"/>--> Chorid. <!--<figure type="vignette"/>--></p>
+               <p>* Chorid. *</p>
                <lg>
                   <l><space extent="2blanks"/>Konninge<ex>n</ex>s dother aff ewighed/ </l>
                   <l>Chri<lb rend="="/>sti brud glæder seg/ </l>
@@ -2437,8 +2424,7 @@
             </div>
             <div type="psalm" xml:id="jesu-nostra-redemptio" n="8">
                <head type="add">Jesu nostra redemptio / Jesu, som est vor salighed</head>
-               <head><!--<figure type="vignette"/>--> Jesu nostra redemptio.
-                  <!--<figure type="vignette"/>--> Een Hymne aff Christi opfarelse.</head>
+               <head>* Jesu nostra redemptio. * <lb/> Een Hymne aff Christi opfarelse.</head>
                <lg>
                   <l><c function="initials" rend="3">I</c>Esu som er wor salighed/ </l>
                   <l>all<note place="right">(<ref target="#joh-1"><orig>Johan. j.</orig><reg>Joh
@@ -2484,8 +2470,8 @@
             </div>
             <div type="psalm" xml:id="hellig-er-gud-vor-fader" n="9">
                <head type="add">Sanctus / Hellig er Gud vor Fader</head>
-               <head><!--<figure type="vignette"/>--> Sanctus.
-                  <!--<figure type="vignette"/>--></head>
+               <head>* Sanctus.
+                   * </head>
                <note place="left">(<ref target="#es-6"><orig>Esaie. vj.</orig><reg>Es
                   6</reg></ref>)</note>
                <lg>
@@ -2522,8 +2508,8 @@
             </div>
             <div xml:id="agnus-dei3" n="10">
                <head type="add">O Guds Lam uskyldig</head>
-               <head><!--<figure type="vignette"/>--> Agnus dei.
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Agnus dei.
+                   * </head>
                <lg>
                   <l><c function="initials" rend="3">O</c> Guds lam vskyldig/ </l>
                   <l>paa korsitt<note place="right">(<ref target="#joh-1"><orig>Johan.
@@ -2648,8 +2634,7 @@
                   <l>att wÿ Gud elske kun<lb rend="="/>de/ </l>
                   <l>oc hannwm kalle paa/ </l>
                   <l>helst ÿ dødze<ex>n</ex>s stunde/ </l>
-                  <l>nar wÿ aff werden gaa/ </l>
-                  <l>Kyrio.</l>
+                  <l>nar wÿ aff werden gaa/ Kyrio.</l>
                </lg>
                <lg>
                   <l><space extent="2blanks"/>Tw werdige liwss giff oss thit skÿn/ </l>
@@ -2657,8 +2642,7 @@
                   <l>att wÿ hooss hanwm bliffue/ </l>
                   <l>then tro frelser<lb rend="="/>mand/ </l>
                   <l>ther for wor synd wilde lÿde/ </l>
-                  <l>in<lb rend="="/>gen kan frelse wden han/ </l>
-                  <l>Kyrioleys.</l>
+                  <l>in<lb rend="="/>gen kan frelse wden han/ Kyrioleys.</l>
                </lg>
                <lg>
                   <l><space extent="2blanks"/>O søde aand skenck oss thÿn løst/ </l>
@@ -2667,8 +2651,7 @@
                   <l>att wÿ kun<lb rend="="/>de hwermand elske</l>
                   <l>aff hiertens grunde:</l>
                   <l>hans lærdom ther oss frelste/ </l>
-                  <l>føllie ÿ alle stunde/ </l>
-                  <l>Kyrioleys.</l>
+                  <l>føllie ÿ alle stunde/ Kyrioleys.</l>
                </lg>
                <lg>
                   <l><space extent="2blanks"/>O høgeste trøster ÿ alle nød/ </l>
@@ -2678,8 +2661,7 @@
                   <l>men fast ÿ troen bliffue/ </l>
                   <l>mod dieffuelsens falske list/ </l>
                   <l>lad ingen ting oss driffue/ </l>
-                  <l>fraa wor frelser Jesu Christ/ </l>
-                  <l>Kyrioleys.</l>
+                  <l>fraa wor frelser Jesu Christ/ Kyrioleys.</l>
                </lg>
             </div>
             <div type="psalm" xml:id="en-vise-til-at-bekende-troen-med" n="3">
@@ -3148,8 +3130,8 @@
             </div>
             <div type="psalm" xml:id="o-fader-vor-barmhjertig-og-god-dietz-1529" n="8">
                <head type="add">O Fader vor barmhjertig og god</head>
-               <head><!--<figure type="vignette"/>--> Wor fader.
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Wor fader.
+                   * </head>
                <lg>
                   <l><pb facs="133" n="36v"/><note place="left">(<ref target="#matt-6"><orig>Math.
                               vj.</orig><reg>Matt 6</reg></ref>) (<ref target="#pet-1-1"><orig>j.
@@ -3387,8 +3369,8 @@
             <pb facs="138" n="39r"/>
             <div type="psalm" xml:id="fader-vor-vi-bede-dig" n="12">
                <head type="add">O Fader vor, vi bede dig</head>
-               <head><!--<figure type="vignette"/>--> Wor fader.
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Wor fader.
+                   * </head>
                <lg>
                   <l><c function="initials" rend="3">O</c> Wor fader wÿ bede teg/ </l>
                   <l>som oss haffuer lærd wor Herre Jesus<note place="right">(<ref target="#matt-6"
@@ -4133,7 +4115,7 @@
             </div>
             <div xml:id="confiteor" n="3">
                <head type="add">Confiteor / Jeg arme syndige menneske</head>
-               <head><!--<figure type="vignette"/>--> Confiteor. <!--<figure type="vignette"/>-->
+               <head> *  Confiteor.  * 
                   Een kort bekendelse ÿ Guds ansigt.</head>
                <p><c function="initials" rend="3">I</c>Eg arme syndige menniske be<lb rend="="
                      /><note place="right">(<ref target="#sl-50"><orig>Psalmo. l.</orig><reg>Sl
@@ -4150,7 +4132,7 @@
             </div>
             <div xml:id="absolutio" n="4">
                <head type="add">Absolutio / Den almægtigste barmhjertige Gud</head>
-               <head><!--<figure type="vignette"/>--> Absolutio. <!--<figure type="vignette"/>--> ¶
+               <head> *  Absolutio.  *  ¶
                   Een Euangelisk affløssning offuer meenheden.</head>
                <p>
                   <c function="initials" rend="3">T</c>Hen almectigste barmhiertige Gud (som for
@@ -4226,8 +4208,8 @@
             </div>
             <div xml:id="kyrie-gud-fader-alsomhoejeste-troest-dietz-1529" n="7">
                <head type="add">Kyrie eleison / Kyrie Gud Fader alsomhøjeste trøst</head>
-               <head><!--<figure type="vignette"/>--> Kyrieeleyson:
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Kyrieeleyson:
+                   * </head>
                <lg>
                   <l><c function="initials" rend="3">K</c>Yrie Gud fader alsomhøgeste trøst/ </l>
                   <l>tw æst wor glæde oc løst/ </l>
@@ -4285,8 +4267,8 @@
             </div>
             <div xml:id="collecta-dietz-1529" n="10">
                <head type="add">Kollekt</head>
-               <head><!--<figure type="vignette"/>--> Collecta.
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Collecta.
+                   * </head>
                <p>
                   <c function="initials" rend="3">O</c> Herre Jesu Christe tw som haff<lb rend="="
                   />uer effterlat oss thit brød att æ<lb rend="="/>de/ oc thÿn kalk att dricke till
@@ -4439,8 +4421,8 @@
                      rend="=" n="52v"/>re/ <lb/>hwer som haffuer hørd aff faderen/ <lb/>oc haff<lb
                      rend="="/>uer lærd/ <lb/>han kommer til meg. Jcke att nogen fick seet faderen/
                   <lb/>foruden then hwilken som er aff Gud/ <lb/>then seer faderen.</p>
-               <head><!--<figure type="vignette"/>--> Diuisio.
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Diuisio.
+                   * </head>
                <p>
                   <c function="initials" rend="4">S</c>Andelig sandelig siger ieg eder/ hwo som tror
                   paa meg/ han haffuer thet ewige lÿff. Jeg er thet lÿffsens brød/ Eders forfædre
@@ -4455,8 +4437,8 @@
                   blod/ ÿ haffue icke lÿff wdi eder. Hwo somhelst æder mit le<lb rend="="/>gomme/ oc
                   dricker mit blod/ han haffuer thet ewige lÿff/ oc ieg skal opwecke hannwm paa then
                   vderste dag. </p>
-               <head><!--<figure type="vignette"/>--> Diuisio.
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Diuisio.
+                   * </head>
                <p>
                   <c function="initials" rend="2">M</c>En mitt kiød er sand mad/ oc mit blod er sand
                   drick/ hwo somhelst æder<pb facs="165" n="53r"/> mit kiød/ oc dricker mit blod/
@@ -4529,8 +4511,7 @@
                   <l>thet oss Gud bewaa<lb rend="="/>re/ </l>
                   <l>oc sÿn naade sende/ </l>
                   <l>nar wÿ hæden fa<lb rend="="/>re</l>
-                  <l>aff thette ælende</l>
-                  <l>Kyrioleys.</l>
+                  <l>aff thette ælende Kyrioleys.</l>
                </lg>
                <lg>
                   <l><space extent="2blanks"/>Tw werdige liwss giff oss thit skÿn/ </l>
@@ -4538,8 +4519,7 @@
                   <l>att wÿ med hannwm bliffue/ </l>
                   <l>wor kiære <pb facs="167" n="54r"/> frelsermand/ </l>
                   <l>som oss monne indlede</l>
-                  <l>till thet foriætte land</l>
-                  <l>Kyrioleys.</l>
+                  <l>till thet foriætte land Kyrioleys.</l>
                </lg>
                <lg>
                   <l><space extent="2blanks"/>Tw søde aand skenck oss forwist/ </l>
@@ -4547,8 +4527,7 @@
                   <l>att wÿ wdaff hiertet</l>
                   <l>hwer anden elske/ </l>
                   <l>med eet sind ÿ Christo/ </l>
-                  <l>haffue bode fred oc roo</l>
-                  <l>Kyrioleys.</l>
+                  <l>haffue bode fred oc roo Kyrioleys.</l>
                </lg>
                <lg>
                   <l><space extent="2blanks"/>Tw yperste trøster ÿ all wor nød/ </l>
@@ -4557,8 +4536,7 @@
                   <l>Att wÿ bestandig bliffue/ </l>
                   <l>paa wor sÿste ende/ </l>
                   <l>nar wÿ med dieffuelen kiffue/ </l>
-                  <l>om thette ælende</l>
-                  <l>Kyrioleys.</l>
+                  <l>om thette ælende Kyrioleys.</l>
                </lg>
             </div>
             <div type="psalm" xml:id="nu-er-os-gud-miskundelig-dietz-1529" n="18">
@@ -4688,8 +4666,7 @@
             </div>
             <div type="psalm" xml:id="hellig-hellig-hellig-er-du" n="21">
                <head type="add">Sanctus / Hellig, hellig, hellig er du</head>
-               <head>¶ Een lofsang som Chorid oc then Christne forsamling siunge. <figure
-                     type="vignette"/> Sanctus. <!--<figure type="vignette"/>--></head>
+               <head>¶ Een lofsang som Chorid oc then Christne forsamling siunge. * Sanctus. * </head>
                <lg>
                   <l><c function="initials" rend="3">H</c>Ellig. Hellig. Hellig æst tw<note
                         place="right">(<ref target="#es-6"><orig>Esaie. vj.</orig><reg>Es
@@ -4743,8 +4720,8 @@
             </div>
             <div type="psalm" xml:id="dig-vaere-lov-og-pris-o-herre-krist" n="24">
                <head type="add">Tibi laus / Dig være lov og pris, o Herre Krist</head>
-               <head><!--<figure type="vignette"/>--> Tibi laus.
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Tibi laus.
+                   * </head>
                <lg>
                   <l><c function="initials" rend="3">T</c>Eg wære loff oc prÿss o Herre Christ/ </l>
                   <l>benedidet er then dag for wist/ </l>
@@ -4771,8 +4748,8 @@
                <p>¶ Nw wender presten seg til folkit oc siger.</p>
                <p> ¶ Pax domini sit semper vobiscum. <space extent="2blanks"/>Herrens fred wære med
                   eder. </p>
-               <p><!--<figure type="vignette"/>--> Folkit swarer.
-                  <!--<figure type="vignette"/>--></p>
+               <p> *  Folkit swarer.
+                   * </p>
                <p>
                   <space extent="2blanks"/>Oc med thÿn aand. </p>
             </div>
@@ -4922,8 +4899,8 @@
             </div>
             <div type="psalm" xml:id="communio-dietz-1529" n="30">
                <head type="add">Communio / Gud være lovet altid og benedidet</head>
-               <head><!--<figure type="vignette"/>--> Communio.
-                  <!--<figure type="vignette"/>--></head>
+               <head> *  Communio.
+                   * </head>
                <head>¶ Een lofsang med hwilken then Christne forsamling tacker oc ærer Gud.</head>
                <lg>
                   <l><c function="initials" rend="3">G</c>Vd wære loffuit oc benedidet</l>
@@ -5136,8 +5113,8 @@
                   oc hil<lb rend="="/>somt/ att wÿ altÿd oc alle stæder/ teg skulle loffue oc tacke.
                   O Herre hellige fader almectigste e<lb rend="="/>wige Gud/ wid Jesum Christum wor
                   Herre AMEN. </p>
-               <p><!--<figure type="vignette"/>--> Her endis Messen.
-                  <!--<figure type="vignette"/>--></p>
+               <p> *  Her endis Messen.
+                   * </p>
             </div>
          </div>
          <div xml:id="tre-sange-fra-det-svenske-eksemplar" type="chapter" n="10">
@@ -5577,8 +5554,7 @@
                </item>
             </list>
             <p rend="center">¶ Trycht ÿ Rozstock hooss Ludowich Dietz. xx. Nouembris. M. D.
-               XXiX.</p>
-            <!--<figure type="vignette"/>-->
+               XXiX. *</p>
          </div>
          <pb facs="194" n="R 4r"/>
          <!--<figure type="image"/>-->
