@@ -13022,9 +13022,7 @@
                                     <lb n="E271.024"/>
                                     <item><label>Forlæ oss met fred</label><ref
                                             target="#forlae-os-med-fred">lviii blad</ref></item>
-                                    <pb facs="262" n="† 1v"/>
-
-                                    <item><label>Fred giff oss kære herre </label><ref
+                                <item><label><pb facs="262" n="† 1v"/>Fred giff oss kære herre </label><ref
                                             target="#fred-giv-os-o-kaere-herre">xcv
                                         blad</ref></item>
                                     <lb n="E272.002"/>
@@ -13476,11 +13474,9 @@
                         kunde <lb n="E277.015"/>* Och vor samme bog <lb n="E277.016"/>Sat i Malmø S.
                             Bar<lb n="E277.017" rend="="/>tholomei afften Aar <lb n="E277.018"
                         />effter Gudz byrd <lb n="E277.019"/>M D XXX <lb n="E277.020"/>JJJ</hi></p>
-
                 <p><hi rend="center">* *</hi></p>
-
+                <p><pb facs="268" n="† 4v"/></p>
             </div>
-            <pb facs="268" n="† 4v"/>
         </back>
     </text>
 </TEI>
