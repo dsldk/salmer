@@ -378,27 +378,39 @@
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b03r.xml#mdiv-01"/>
                     </notatedMusic>
-                    <p>
-                        <c function="initials" rend="2">G</c>Loria Ere oc prijss vere Gud <pb
-                            facs="0019L" n="B 3v"/> i det høgeste. </p>
+                    <lg>
+                        <l><c function="initials" rend="2">G</c>Loria Ere oc prijss vere Gud <pb
+                                facs="0019L" n="B 3v"/> i det høgeste. </l>
+                    </lg>
                     <p>Forsa<ex>m</ex>li<ex>n</ex>ge<ex>n</ex> suar<ex>er</ex>.</p>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b03r.xml#mdiv-02"/>
                     </notatedMusic>
-                    <p>Oc paa iorden fred. oc dine menniske een vel<lb rend="="/>behaffuelighed. Vy
-                        loffue dig. Vi be<lb rend="="/>nedide dig Vy tilbede dig. Vi ere oc prise
-                        dig. Vi tacke dig for din store ere oc mectigh<ex>ed</ex>. Herre
-                        g<ex>u</ex>d oc hi<ex>m</ex>melske konning alsommectigste fader Herre <pb
-                            facs="0020R" n="B 4r"/> alsomeniste søn Jesu christe vor frel<lb
-                            rend="="/>sermandt Herre g<ex>u</ex>d g<ex>u</ex>ds lam oc gudt faders
-                        søn.du som borttager al v<ex>er</ex>de<ex>n</ex>s synd<ex>er</ex>. forbarme
-                        dig offuer oss Du som borttager al verdens synder. tag til dig vor bøn. oc
-                        miscunde dig att høre oss Du som sider hooss din faders høgre <pb
-                            facs="0021L" n="B 4v"/> haand. forbarme dig offuer oss. Fordi saa du est
-                        aleniste hellig Du est alene en herre du est alene de<ex>n</ex> høgeste iesu
-                            chri<lb rend="="/>ste m<ex>ed</ex> de<ex>n</ex> helligaand i
-                        g<ex>u</ex>d fad<ex>er</ex>s ere Am<ex>en</ex>
-                    </p>
+                    <lg>
+                        <l> Oc paa iorden fred.</l>
+                        <l> oc dine menniske een vel<lb rend="="/>behaffuelighed.</l>
+                        <l> Vy loffue dig.</l>
+                        <l> Vi be<lb rend="="/>nedide dig</l>
+                        <l> Vy tilbede dig.</l>
+                        <l> Vi ere oc prise dig.</l>
+                        <l> Vi tacke dig for din store ere oc mectigh<ex>ed</ex>.</l>
+                        <l> Herre g<ex>u</ex>d oc hi<ex>m</ex>melske konning alsommectigste
+                            fader</l>
+                        <l> Herre <pb facs="0020R" n="B 4r"/> alsomeniste søn Jesu christe vor
+                                frel<lb rend="="/>sermandt</l>
+                        <l> Herre g<ex>u</ex>d g<ex>u</ex>ds lam oc gudt faders søn.</l>
+                        <l> du som borttager al v<ex>er</ex>de<ex>n</ex>s synd<ex>er</ex>. forbarme
+                            dig offuer oss</l>
+                        <l> Du som borttager al verdens synder. tag til dig vor bøn.</l>
+                        <l> oc miscunde dig att høre oss</l>
+                        <l> Du som sider hooss din faders høgre <pb facs="0021L" n="B 4v"/> haand.
+                            forbarme dig offuer oss.</l>
+                        <l> Fordi saa du est aleniste hellig</l>
+                        <l> Du est alene en herre</l>
+                        <l> du est alene de<ex>n</ex> høgeste iesu chri<lb rend="="/>ste</l>
+                        <l> m<ex>ed</ex> de<ex>n</ex> helligaand i g<ex>u</ex>d fad<ex>er</ex>s ere
+                                Am<ex>en</ex></l>
+                    </lg>
                 </div>
                 <div xml:id="hilsen-1-vo-1539" n="5">
                     <head type="add">[Hilsen]</head>
@@ -413,9 +425,11 @@
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b04v.xml#mdiv-02"/>
                     </notatedMusic>
-                    <p>Oc m<ex>eth thin aand</ex>
-                        <lb/>
-                    </p>
+                    <lg>
+                        <l>Oc m<ex>eth thin aand</ex>
+                            <lb/>
+                        </l>
+                    </lg>
                 </div>
                 <div xml:id="kollekt-1-vo-1539" n="6">
                     <head type="add">[Kollekt]</head>
@@ -458,9 +472,11 @@
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c01v.xml"/>
                     </notatedMusic>
-                    <p>
-                        <lb/>De<ex>n</ex>ne Epistel bescriffuer oss til de Cor<lb rend="="/>rinter
-                        sanctus Paulus.</p>
+                    <lg>
+                        <l>
+                            <lb/>De<ex>n</ex>ne Epistel bescriffuer oss til de Cor<lb rend="="
+                            />rinter sanctus Paulus.</l>
+                    </lg>
                     <p>Epistelen. (<ref target="#kor-1-11">
                             <orig>i . Cor. Xi</orig>
                             <reg>1 Kor 11</reg>
@@ -593,9 +609,11 @@
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c04v.xml#mdiv-03"/>
                     </notatedMusic>
-                    <p>Desse effterfølgende euangelij ord be<lb rend="="/>scriffuer oss
-                            S<ex>anctus</ex> Mat<ex>heus</ex>
-                    </p>
+                    <lg>
+                        <l>Desse effterfølgende euangelij ord be<lb rend="="/>scriffuer oss
+                                S<ex>anctus</ex> Mat<ex>heus</ex>
+                        </l>
+                    </lg>
                     <p>N. Folked suarer </p>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c04v.xml#mdiv-04"/>
@@ -642,7 +660,9 @@
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000d01v.xml#mdiv-01"/>
                     </notatedMusic>
-                    <p>Credo in vnum deum. Patrem etc. </p>
+                    <lg>
+                        <l>Credo in vnum deum. Patrem etc. </l>
+                    </lg>
                     <p> Jn dominicis diebus. </p>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000d01v.xml#mdiv-02"/>
@@ -654,25 +674,49 @@
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000d01v.xml#mdiv-03"/>
                     </notatedMusic>
-                    <p> Patrem omnipotentem factorem celi et terre. vi<lb rend="="/>sibilium omnium
-                        et inuisibilium. Et in vnum dominum iesum christum filium dei vnigenitum. Et
-                        ex patre natum ante omnia secula, deum de deo. lumen de lumine. deum verum
-                        de deo vero. Genitum non factum. consubstantialem patri. per quem omnia
-                        facta sunt. Qui propter nos ho<lb rend="="/>mines et propter nostram salutem <app>
-                            <lem>descendit</lem>
-                            <rdg wit="#orig.">descnedit<note>rettet</note>
-                            </rdg>
-                        </app> de celis. Et incarnatus est de spi<pb rend="=" facs="0032R" n="D 2r"
-                        />ritu sancto. Ex maria virgine et homo factus est. Crucifixus etiam pro
-                        nobis. sub pontio pylato passus et sepultus est. Et resurrexit tertia die
-                        secundum scripturas. Et ascendit in celum. sedet ad dex<lb rend="="/>teram
-                        patris. Et iterum venturus est cum gloria iudicare viuos et mortuos. Cuius
-                        regni non erit finis. Et in spi<lb rend="="/>ritum sanctum dominum et
-                            viuifican<lb rend="="/>tem. qui ex patre filioque procedit. Qui cum
-                        patre et filio simul adoratur et con<lb rend="="/>glorificatur qui locutus
-                        est per prophe<lb rend="="/>tas Et vnam sanctam catholicam et apostolicam
-                        ecclesiam. Confiteor vnum baptisma in remissionem peccatorum. et ex<lb
-                            rend="="/>pecto resurrectionem mortuorum et vitam venturi seculi Amen. </p>
+                    <lg>
+                        <l> Patrem omnipotentem</l>
+                        <l> factorem celi et terre.</l>
+                        <l> vi<lb rend="="/>sibilium omnium et inuisibilium.</l>
+                        <l> Et in vnum dominum iesum christum</l>
+                        <l> filium dei vnigenitum.</l>
+                        <l> Et ex patre natum ante omnia secula,</l>
+                        <l> deum de deo.</l>
+                        <l> lumen de lumine.</l>
+                        <l> deum verum de deo vero.</l>
+                        <l> Genitum non factum.</l>
+                        <l> consubstantialem patri.</l>
+                        <l> per quem omnia facta sunt.</l>
+                        <l> Qui propter nos ho<lb rend="="/>mines et propter nostram salutem <app>
+                                <lem>descendit</lem>
+                                <rdg wit="#orig.">descnedit<note>rettet</note>
+                                </rdg>
+                            </app> de celis.</l>
+                        <l> Et incarnatus est de spi<pb rend="=" facs="0032R" n="D 2r"/>ritu
+                            sancto.</l>
+                        <l> Ex maria virgine</l>
+                        <l> et homo factus est.</l>
+                        <l> Crucifixus etiam pro nobis. sub pontio pylato</l>
+                        <l> passus et sepultus est.</l>
+                        <l> Et resurrexit tertia die</l>
+                        <l> secundum scripturas.</l>
+                        <l> Et ascendit in celum.</l>
+                        <l> sedet ad dex<lb rend="="/>teram patris.</l>
+                        <l> Et iterum venturus est cum gloria iudicare viuos et mortuos.</l>
+                        <l> Cuius regni non erit finis.</l>
+                        <l> Et in spi<lb rend="="/>ritum sanctum</l>
+                        <l> dominum et viuifican<lb rend="="/>tem.</l>
+                        <l> qui ex patre filioque procedit.</l>
+                        <l> Qui cum patre et filio simul adoratur</l>
+                        <l> et con<lb rend="="/>glorificatur</l>
+                        <l> qui locutus est per prophe<lb rend="="/>tas</l>
+                        <l> Et vnam sanctam catholicam et apostolicam ecclesiam.</l>
+                        <l> Confiteor vnum baptisma</l>
+                        <l> in remissionem peccatorum.</l>
+                        <l> et ex<lb rend="="/>pecto resurrectionem mortuorum</l>
+                        <l> et vitam venturi seculi</l>
+                        <l> Amen. </l>
+                    </lg>
                     <lb/>
                 </div>
                 <div xml:id="vi-tro-allesammen-paa-en-gud-vo-1539" n="14" type="psalm">
