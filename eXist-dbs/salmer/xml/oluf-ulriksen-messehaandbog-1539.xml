@@ -586,12 +586,11 @@
                     <head type="add">[Hilsen]</head>
                     <p>Her effter vender preste<ex>n</ex> sig til folked <lb/>och less Euangelium
                         siendis.</p>
-                    <pb facs="0029L" n="C 4v"/>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c04v.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>Herren vere med eder</l>
+                        <l><pb facs="0029L" n="C 4v"/>Herren vere med eder</l>
                     </lg>
                     <p>Folked suarer </p>
                     <notatedMusic>
@@ -1121,8 +1120,8 @@
                             de<ex>n</ex>ne bøn. Pat<ex>er</ex> n<ex>oste</ex>r etc. <lb/> Som han
                         haffuer leert. oc loffuit oss <lb/>att vij skulle bliffue bønhørde aff
                             ha<ex>n</ex>s <lb/>fader i hans naffn</p>
-                    <pb facs="0052R" n="F 4r"/>
-                    <p>Nu vender Presten sig om til alterid <lb/>igen oc siger.</p>
+                    <p><pb facs="0052R" n="F 4r"/>Nu vender Presten sig om til alterid <lb/>igen oc
+                        siger.</p>
                 </div>
                 <div xml:id="fadervor-vo-1539" n="24">
                     <head type="add">Pater noster/ Fadervor</head>
@@ -1523,12 +1522,11 @@
                         </app> domice <lb/>Et Ceremo<lb rend="="/>niarum </p>
                 </div>
             </div>
-            <pb facs="0067L" n="H 3v"/>
             <div type="chapter" xml:id="kollekter-til-kirkeaaret-vo-1539" n="2">
                 <head type="add">Udvalgte kollekter til kirkeåret</head>
-                <head>Her effterfølger nogle faa vdualde <lb/>Collecter til Søndagene. Høg<lb
-                        rend="="/>tidelige dage. oc ande<ex>n</ex> tid om <lb/>Aaret nar behoff
-                    giørs.</head>
+                <head><pb facs="0067L" n="H 3v"/>Her effterfølger nogle faa vdualde <lb/>Collecter
+                    til Søndagene. Høg<lb rend="="/>tidelige dage. oc ande<ex>n</ex> tid om
+                    <lb/>Aaret nar behoff giørs.</head>
                 <div xml:id="dominica-prima-adventus-collecta" n="1">
                     <head type="add">Dominica prima adventus collecta</head>
                     <head>Dominica Prima aduentus Collecta</head>
@@ -1836,10 +1834,9 @@
                         <lb/>sande legomme och blodz sacramente <lb/>Huilken du som regnerer. ut
                         supra</p>
                 </div>
-                <pb facs="0077L" n="J 4v"/>
                 <div xml:id="die-parascenes-collecta" n="27">
                     <head type="add">Die parascenes collecta</head>
-                    <head> Die parascenes Collecta</head>
+                    <head><pb facs="0077L" n="J 4v"/> Die parascenes Collecta</head>
                     <lb/>
                     <p>O Almectigste euige g<ex>u</ex>d So<ex>m</ex> saa haff<lb rend="="/>ver elst
                         verden. At du for he<ex>n</ex>de ville ver<lb rend="="/>dis at giffue din
@@ -1952,10 +1949,9 @@
                 <div xml:id="die-ascensionis-domini-collecta" n="36">
                     <head type="add">Die Ascensionis domini collecta</head>
                     <head>Die Ascensionis domini Collecta</head>
-                    <pb facs="0081L" n="K 2v"/>
-                    <p>O Almectigste euige gudt Vij bede <lb/>dig vnd oss som tro din enborne søn
-                            <lb/>Jesu<ex>m</ex> cristum at vere opfare<ex>n</ex> til
-                        hi<ex>m</ex>mels <lb/>at sidde hoss din maiestetis høgre ha<ex>n</ex>d
+                    <p><pb facs="0081L" n="K 2v"/>O Almectigste euige gudt Vij bede <lb/>dig vnd oss
+                        som tro din enborne søn <lb/>Jesu<ex>m</ex> cristum at vere opfare<ex>n</ex>
+                        til hi<ex>m</ex>mels <lb/>at sidde hoss din maiestetis høgre ha<ex>n</ex>d
                         <lb/>oss en euig patrone oe beskermere. att <lb/>vy oc saa der hooss
                             ha<ex>n</ex>nem maa haffue <lb/>vor bolig med vore hiert<ex>er</ex> oc
                             si<ex>n</ex>d. V. ut supra</p>
@@ -1980,10 +1976,9 @@
                         ting som for <lb/>dig rette ere oc att vy aff sa<ex>m</ex>me hellige<lb
                             rend="="/>aandz hugsualelse altid gledes. V. ut supra</p>
                 </div>
-                <pb facs="0082R" n="K 3r"/>
                 <div xml:id="feria-secunda-pentecostes-collecta" n="39">
                     <head type="add">Feria secunda Pentecostes collecta</head>
-                    <head>Feria secunda pentecostes Colle.</head>
+                    <head><pb facs="0082R" n="K 3r"/>Feria secunda pentecostes Colle.</head>
                     <lb/>
                     <p>O Almectigste euige gudt So<ex>m</ex> gafst <lb/>apostlene den helligaand.
                         giff din helli<lb rend="="/>ge kirke som hun begerer din hellige<lb rend="="
@@ -2192,10 +2187,9 @@
                         redebonhed i alle gode gerninger. <lb/>Ved din enborne søn Jesum cris. vt
                         supra</p>
                 </div>
-                <pb facs="0089L" n="L 2v"/>
                 <div xml:id="dominica-17-post-trinitatis-collecta" n="58">
                     <head type="add">Dominica 17 post Trinitatis collecta</head>
-                    <head> Dominica xvij post Trinitatis Collecta.</head>
+                    <head><pb facs="0089L" n="L 2v"/> Dominica xvij post Trinitatis Collecta.</head>
                     <lb/>
                     <p>O Almectigste euige g<ex>u</ex>d. vnd dit folk <lb/>att foruaris fra alt
                             dieffuelse<ex>n</ex>s forgiff<lb rend="="/>tighed. oc dig vor eniste gud
@@ -2286,12 +2280,11 @@
                     <lb/>
                     <p>Finis Collectarum Dominicalium et Trium <lb/>festorum christi.</p>
                 </div>
-                <pb facs="0092R" n="L 4r"/>
             </div>
             <div type="chapter" xml:id="andre-kollekter-vo-1539" n="3">
                 <head type="add">Andre kollekter</head>
-                <head>Sequuntur Collecte que iuxta rati<lb rend="="/>onem temporis in ecclesia alias
-                    <lb/>requiruntur</head>
+                <head><pb facs="0092R" n="L 4r"/>Sequuntur Collecte que iuxta rati<lb rend="="/>onem
+                    temporis in ecclesia alias <lb/>requiruntur</head>
                 <lb/>
                 <div xml:id="die-purificationis-marie-collecta" n="1">
                     <head type="add">Die purificationis Marie collecta</head>
@@ -2629,15 +2622,14 @@
                     <head type="add">Ad ordinationem sacerdotum collecta</head>
                     <head>Ad ordinationem sacerdotum Collecte</head>
                     <lb/>
-                    <pb facs="0107L" n="N 3v"/>
-                    <p>O Almectigste euige gud Som haff<lb rend="="/>uer opliust dine hellige
-                        apostlers hier<lb rend="="/>te med din helligands naade oc krafft. <lb/>før
-                        du dennem vdsende atku<ex>n</ex>giøre dit <lb/>hellige ord. vij bede din
-                            fad<ex>er</ex>lige barm<lb rend="="/>hiertighed att du vilt verdis att
-                            giø<lb rend="="/>re alle dem delactige i sa<ex>m</ex>me din helli<lb
-                            rend="="/>geaans gaffuer. huilcke du nu naade<lb rend="="/>lige kaller
-                        oc vdsze<ex>n</ex>d<ex>er</ex> i din e<ex>n</ex>borne søns <lb/>iesu cristi
-                        vor herris naffn. So<ex>m</ex> m<ex>ed</ex>. ut supra</p>
+                    <p><pb facs="0107L" n="N 3v"/>O Almectigste euige gud Som haff<lb rend="="/>uer
+                        opliust dine hellige apostlers hier<lb rend="="/>te med din helligands naade
+                        oc krafft. <lb/>før du dennem vdsende atku<ex>n</ex>giøre dit <lb/>hellige
+                        ord. vij bede din fad<ex>er</ex>lige barm<lb rend="="/>hiertighed att du
+                        vilt verdis att giø<lb rend="="/>re alle dem delactige i sa<ex>m</ex>me din
+                            helli<lb rend="="/>geaans gaffuer. huilcke du nu naade<lb rend="="/>lige
+                        kaller oc vdsze<ex>n</ex>d<ex>er</ex> i din e<ex>n</ex>borne søns <lb/>iesu
+                        cristi vor herris naffn. So<ex>m</ex> m<ex>ed</ex>. ut supra</p>
                 </div>
                 <lb/>
                 <div xml:id="ad-ordinationem-sacerdotum-alia-collecta" n="21">
@@ -2719,10 +2711,9 @@
                             fructso<ex>m</ex>meligt oc bere den euige sa<lb rend="="/>ligheds grøde
                         i oss alle. Vid sa<ex>m</ex>me. ut supra</p>
                 </div>
-                <pb facs="0112R" n="O 2r"/>
                 <div xml:id="tempore-electionis-regis-oratio" n="23">
                     <head type="add">Tempore electionis regis oratio</head>
-                    <head>Tempore Electionis Regis Oratio</head>
+                    <head><pb facs="0112R" n="O 2r"/>Tempore Electionis Regis Oratio</head>
                     <p>O Almectigste euige gud. Aff hues <lb/>besynd<ex>er</ex>lige gunst oc naade
                         oss er giff<lb rend="="/>uen en vduald ko<ex>n</ex>ning offuer disse
                             la<ex>n</ex>d <lb/>oc rige. vij bede din vbegribelige god<lb rend="="
@@ -2782,8 +2773,8 @@
                                 vdga<ex>n</ex>g begribe.</l>
                         <l>at vij maa optages i ret kierlighed </l>
                         <l>til de <lb/>vsynlige tings sa<ex>n</ex>de atraa oc begerilse</l>
-                        <pb facs="0115L" n="O 3v"/>
-                        <l>Oc derfore met englene oc offueren<lb rend="="/>gle</l>
+                        <l><pb facs="0115L" n="O 3v"/>Oc derfore met englene oc offueren<lb rend="="
+                            />gle</l>
                         <l>met Tronerne oc herredømmene</l>
                         <l>Desligest oc saa med alt det hi<ex>m</ex>melske <lb/>herskab.</l>
                         <l>siu<ex>n</ex>ge vij din herligheds och eres lofsa<ex>n</ex>g.</l>
@@ -2955,13 +2946,12 @@
                     <p> Finis prefationum</p>
                 </div>
             </div>
-            <pb facs="0126R" n="Q 1r"/>
             <div type="chapter" xml:id="barnedaab-vo-1539" n="5">
                 <head type="add">Barnedåb </head>
-                <head>Her effterfølger en maade och skick <lb/>huorledis Børn skulle christnes.
-                    <lb/>Oc siden besynd<ex>er</ex>lige huor ma<ex>n</ex>d <lb/>skal haffue sig met
-                    dhe Børn. <lb/>som vdi største nødz viis <lb/>oc for liffs fare skyld <lb/>ere
-                    hiemmedøpte</head>
+                <head><pb facs="0126R" n="Q 1r"/>Her effterfølger en maade och skick <lb/>huorledis
+                    Børn skulle christnes. <lb/>Oc siden besynd<ex>er</ex>lige huor ma<ex>n</ex>d
+                    <lb/>skal haffue sig met dhe Børn. <lb/>som vdi største nødz viis <lb/>oc for
+                    liffs fare skyld <lb/>ere hiemmedøpte</head>
                 <lb/>
                 <div xml:id="anvisninger-om-daab-vo-1539" n="1">
                     <head type="add">[Anvisninger om dåben]</head>
@@ -3061,8 +3051,8 @@
                         indtet met oss. emod huilcken <lb/>y nu skulle staa met en sand tro i
                             ed<ex>er</ex>s <lb/>hierter. oc gudelig bøn till gudt paa <lb/>dette
                         barns vegne</p>
-                    <pb facs="0131L" n="Q 3v"/>
-                    <p>Nar Formanigen er att ende. beder <lb/>Presten. neffne Barnet. oc siger </p>
+                    <p><pb facs="0131L" n="Q 3v"/>Nar Formanigen er att ende. beder <lb/>Presten.
+                        neffne Barnet. oc siger </p>
                 </div>
                 <lb/>
                 <div xml:id="daabsritual-vo-1539" n="3">
@@ -3296,7 +3286,7 @@
                             <lem>folked</lem>
                             <rdg wit="#orig.">mangler <note>rettet</note>
                             </rdg>
-                        </app><!--Er det OK med "mangler"?-->
+                        </app>
                     </p>
                     <lb/>
                     <p>Herre<ex>n</ex> beuare di<ex>n</ex> indga<ex>n</ex>g oc vdga<ex>n</ex>g. ut
@@ -3313,10 +3303,10 @@
                     <p>Finis baptismi et Ceremoniarum </p>
                 </div>
             </div>
-            <pb facs="0141L" n="R 4v"/>
             <div type="chapter" xml:id="brudevielse-vo-1539" n="6">
                 <head type="add">Brudevielse</head>
-                <head>Om Bruduielsse for enfoldi<lb rend="="/>ge sognepresters skyld.</head>
+                <head><pb facs="0141L" n="R 4v"/>Om Bruduielsse for enfoldi<lb rend="="/>ge
+                    sognepresters skyld.</head>
                 <div xml:id="fortale-om-vielse-vo-1539" n="1">
                     <head type="add">Luthers fortale</head>
                     <p>FRanciscus Vormordi ynsker alle <lb/>gudfryctige predicanter oc sogneher<lb
@@ -3841,11 +3831,10 @@
                     <p>Finis Ceremoniarum apud <lb/>infirmos. et cetera.</p>
                 </div>
             </div>
-            <pb facs="0165L" n="V 4v"/>
             <div type="chapter" xml:id="beredelse-af-doedsdoemte" n="8">
                 <head type="add">Forberedelse af dødsdømte</head>
-                <head>Om fengslede misdedere so<ex>m</ex> sculle aff<lb rend="="/>liffuis oc staa
-                    deris yderste rett.</head>
+                <head><pb facs="0165L" n="V 4v"/>Om fengslede misdedere so<ex>m</ex> sculle aff<lb
+                        rend="="/>liffuis oc staa deris yderste rett.</head>
                 <p>Sogneherrer och predica<ex>n</ex>ter skulle tit <lb/>oc offte søge de
                         fe<ex>n</ex>gslede. icke alleniste <lb/>nar de skulle affliffuis och staa
                     deris <lb/>rett. men offte tilforn. Paa det at de <lb/>kunde tale med dennem om
@@ -3879,10 +3868,9 @@
                 <lb/>
                 <p>Finis ceremoniarum apud vlti<lb rend="="/>mo supplicio puniendos.</p>
             </div>
-            <pb facs="0167L" n="X 1v"/>
             <div type="chapter" xml:id="begravelse-oluf-ulriksen-1539" n="9">
                 <head type="add">Begravelse</head>
-                <head>Om iordeferdt</head>
+                <head><pb facs="0167L" n="X 1v"/>Om iordeferdt</head>
                 <lb/>
                 <div xml:id="begravelsesritual-oluf-ulriksen-1539" n="1">
                     <head type="add">Begravelsesritual</head>
@@ -3967,9 +3955,8 @@
             <div type="register-oluf-ulriksen-1539">
                 <head type="add">Register</head>
                 <div xml:id="index-oluf-ulriksen-1539">
-                    <head type="add">
-                        <pb facs="0170R" n="X 3r"/>Index</head>
-                    <head>Jndex articulorum huius libri.</head>
+                    <head type="add"> Index</head>
+                    <head><pb facs="0170R" n="X 3r"/>Jndex articulorum huius libri.</head>
                     <list rend="simple">
                         <item>Collecte Dominicales et trium festorum christi <ref>h iij</ref>
                         </item>
