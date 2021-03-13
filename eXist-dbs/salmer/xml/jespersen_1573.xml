@@ -431,7 +431,7 @@
                     Konning Frederich den Anden <ex>etc</ex>. Bleff fød i det Aar <ex>etc</ex>.
                     <lb/> M. D. XXXIIII. Den gode Gud velsigne oc beuare hans <lb/>Kong: Maiett:
                     naadeligen til Liff oc Siel/ Amen.</p>
-                <!--<figure type="vignette"/>-->
+                <p> *</p>
             </div>
         </front>
         <body>
@@ -1159,7 +1159,7 @@
                     <p rend="indent3"> Paa de andre Aduent Søndager skal <lb/>allting lige maade
                         holdis som her tilforn <lb/> sagt er/ Vndertagne Søndags Jntroitus <lb/> oc
                         Haleluia/ som her effter følger.</p>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="anden-soendag-i-advent" n="2">
@@ -1245,7 +1245,7 @@
                         <l>Sicut erat in principi<lb rend="="/>o et nunc et semper, </l>
                         <l>et in secula se<lb rend="="/>culorum, Amen. </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-3-2" n="2">
                     <head type="add">Haleluia. Excita Domine potentiam tuam</head>
@@ -1307,7 +1307,7 @@
                             plebis tuæ. </l>
                         <l>Haleluia.</l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="paa-kristi-foedselsdag" n="5">
@@ -2132,7 +2132,7 @@
                         den gantske Chri<lb rend="="/>stenhed: vd til enden: Siden læsis den Collect
                         aff <lb/>Alterbogen/ som staar nest for Epistelen: met velsig<lb rend="="
                         />nelsen: Oc endit som paa Jule dag.</p>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="hans-evangeliste-dag" n="7">
@@ -2357,7 +2357,7 @@
                             muneribus adorare Dominum. </l>
                         <l>Haleluia. </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="foerste-soendag-efter-helligtrekongersdag" n="12">
@@ -2603,7 +2603,7 @@
                         <l>Oc Herrens sandhed bliffuer euindelig.</l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:id="section-15-4" n="4">
                     <head type="add">Af Adams fald er plat fordærvd (sekvens m.fl.)</head>
@@ -2670,8 +2670,7 @@
                         <l>Gud Faders Raad oc euig Ord</l>
                         <l>Der hand oss haffuer giffuit/ </l>
                         <l>Der paa wi oss altid met trotz </l>
-                        <pb facs="0129L" n="116"/>
-                        <l>Maa visselig forlade/ </l>
+                        <l><pb facs="0129L" n="116"/>Maa visselig forlade/ </l>
                         <l>At ingen kand oss aff hans haand</l>
                         <l>Met vold eller mact vdtage.</l>
                     </lg>
@@ -2770,7 +2769,7 @@
                         <l>Hand er oc dit folckis Jsraels</l>
                         <l>Priss/ ære/ fryd oc glæde.</l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="fjerde-femte-sjette-soendag-efter-helligtrekongersdag"
@@ -2799,8 +2798,7 @@
                         <l>
                             <space extent="2blanks"/>Hand sender vd sit hellige Ord</l>
                         <l>Offuer gantske Jorden alle: </l>
-                        <pb facs="0133L" n="120"/>
-                        <l>Met saadan fart løber det saa snart/ </l>
+                        <l><pb facs="0133L" n="120"/>Met saadan fart løber det saa snart/ </l>
                         <l>At ingen kand det igenkalde.</l>
                         <l>Huad som hand førre loed fryse oc sne/ </l>
                         <l>Foruermer hand nu oc lader optø/ </l>
@@ -3474,9 +3472,8 @@
                         <ptr target="Je_1573_LN0981_148.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <pb facs="0161L" n="148"/><c function="initials" rend="3">J</c>Esu
-                            Christ dig tacke wi/ </l>
+                        <l><pb facs="0161L" n="148"/><c function="initials" rend="3">J</c>Esu Christ
+                            dig tacke wi/ </l>
                         <l>du loedst oss icke fortabis/ </l>
                         <l>Fra vor Synd giorde du oss fri/ </l>
                         <l>du vilde selff for oss plagis/ </l>
@@ -3568,7 +3565,7 @@
                             Inuocauit.</hi>
                     </head>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="tredje-soendag-i-faste" n="22">
@@ -5119,7 +5116,7 @@
                         <l>Haleluia. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="anden-soendag-efter-paaske" n="32">
@@ -5153,7 +5150,7 @@
                         </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-surrexit-pastor-bonus" n="2">
                     <head type="add">Haleluia. Surrexit Pastor bonus</head>
@@ -5207,7 +5204,7 @@
                         </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-surgens-jesus-dominus-noster" n="2">
                     <head type="add">Haleluia. Surgens Jesus Dominus noster</head>
@@ -5473,7 +5470,7 @@
                         </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="kyrie-fons-bonitatis" n="3">
                     <head type="add">Kyrie: Fons bonitatis Pater ingenite</head>
@@ -5879,7 +5876,7 @@
                     </p>
                     <p>Effter Velsignelsen/ Kom Gud skaber O hellig Aand <ex>etc</ex>.</p>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="trinitatis-jespersen-1573" n="40">
@@ -5943,7 +5940,7 @@
                         <l>Cum sancto Spiritu. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-benedictus-es-domine-deus" n="3">
                     <head type="add">Haleluia. Benedictus es Domine Deus Patrum nostrorum</head>
@@ -6008,7 +6005,7 @@
                         <l>Per infinita secula seculorum. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div xml:id="credo" n="5">
                     <head type="add">Credo</head>
@@ -6332,7 +6329,7 @@
                         <l>Hale<lb rend="="/>luia. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="fjerde-soendag-efter-trinitatis" n="44">
@@ -6804,7 +6801,7 @@
                         Messen/ Som paa <lb/>Første <hi rend="italics">Trinitatis</hi> Søn<lb
                             rend="="/>dag.</p>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="femte-soendag-efter-trinitatis" n="47">
@@ -7237,7 +7234,7 @@
                         <l>et in secula seculorum, Amen. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-exultate-deo" n="2">
                     <head type="add">Haleluia. Exultate Deo adiutori nostro</head>
@@ -7350,7 +7347,7 @@
                         <l>Haleluia. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="trettende-soendag-efter-trinitatis" n="55">
@@ -7436,7 +7433,7 @@
                         <l>et in secula seculorum, Amen. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-venite-exultemus-domino" n="3">
                     <head type="add">Haleluia. Venite exultemus Domino</head>
@@ -7613,7 +7610,7 @@
                         <l>et in secula seculorum, Amen. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-paratum-cor-meum-deus" n="2">
                     <head type="add">Haleluia. Paratum Cor meum Deus</head>
@@ -7715,7 +7712,7 @@
                         <l>oc Husit fuld aff røg oc taage vaar. </l>
                     </lg>
                     <lb/>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="benedicite-domino" n="2">
                     <head type="add">Introitus latinus: Benedicite domino</head>
@@ -7944,7 +7941,7 @@
                         <l>Til dig Herre staar all vort haab/ </l>
                         <l>derfor lad oss icke bliffue til skendzel euin<lb rend="="/>delig. </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="syttende-soendag-efter-trinitatis" n="60">
@@ -8025,7 +8022,7 @@
                         <l>Sicut erat in principio et nunc et semper, </l>
                         <l>et in secula seculorum, Amen. </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-dilexi">
                     <head type="add">Haleluia. Dilexi, quoniam exaudiuit Dominus vocem meam</head>
@@ -8271,7 +8268,7 @@
                                 rend="="/>ni exaltauit me. </l>
                         <l>Hale<lb rend="="/>luia. </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="tyvende-soendag-efter-trinitatis" n="63">
@@ -8306,7 +8303,7 @@
                         <l>Sicut erat in principio et nunc et semper, </l>
                         <l>et in secula secu<lb rend="="/>lorum, Amen. </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-qui-confidunt-in-domino" n="2">
                     <head type="add">Haleluia. Qui confidunt in Domino</head>
@@ -8561,7 +8558,7 @@
                         <l>Der aff bliffuer Jacob gantske køn</l>
                         <l>Oc Jsrael sig glæder.</l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="toogtyvende-soendag-efter-trinitatis" n="66">
@@ -8586,7 +8583,7 @@
                         <l>Sicut erat in prin<lb rend="="/>cipio et nunc et semper, </l>
                         <l>et in secula seculorum, Amen. </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-lauda-anima" n="2">
                     <head type="add">Haleluia. Lauda anima mea Dominum</head>
@@ -8858,11 +8855,11 @@
 
                     <p>Euangelium Lucæ xi.<lb/> Aff Alter bogen.</p>
                     <p>Her effter: Nu bede wi <lb/>den hellig Aand.</p>
-                    <p>Strax effter Predicken/ skal nogle Peblinge/ som <lb/>god Røst haffue/
-                        siunge den Danske Litanie: Oc<lb/> Menigheden met Chorit skulle suare/
-                        <lb/>som her effter følger.</p>
-                    <p>      *</p>
-                    <p>      *</p>
+                    <p>Strax effter Predicken/ skal nogle Peblinge/ som <lb/>god Røst haffue/ siunge
+                        den Danske Litanie: Oc<lb/> Menigheden met Chorit skulle suare/ <lb/>som her
+                        effter følger.</p>
+                    <p> *</p>
+                    <p> *</p>
                 </div>
             </div>
             <div type="chapter" xml:id="diverse" n="69">
@@ -8871,7 +8868,7 @@
             <div type="psalm" xml:id="litani-paa-dansk" n="1">
                 <head type="add">Litani på dansk</head>
                 <head><pb facs="0446R" n="433"/>Litanie paa Dan<ex>n</ex><lb rend="="/>ske.</head>
-                <!--<figure type="vignette"/>-->
+                <p> *</p>
                 <table>
                     <row role="label">
                         <cell role="label">Det første Chor.</cell>
@@ -9246,7 +9243,7 @@
 
             </div>
             <div type="chapter" xml:id="mandagsbrudemesse" n="3">
-                <head type="add">Mandagsbrudemesse</head>
+                <head type="add">Mandagsbrudemesse/ Hvo som vil salig udi vereen leve</head>
                 <head><pb facs="0454R" n="441"/>Mandags Brude<lb rend="="/>messe.</head>
                 <p>Introitus. Kom hellig Aand O Herre Gud: vide Offertor: die Pentecostes. </p>
                 <p>Kyrie, Som til Søndagen hører.</p>
@@ -9260,40 +9257,24 @@
 
                 <p>Offertorium, Vden Herren ophol<lb rend="="/>der vort Huss oc gaard <ex>etc</ex>.
                         <hi rend="italics">vt supra.</hi></p>
-
-                <!--<head type="add">O Almægtige Gud, alsomkærigste Fader</head>-->
                 <p>Der nest denne <lb/>Collect.</p>
-
-                <lg>
-                    <l>
-                        <c function="initials" rend="5">O</c> Almectige euige Gud oc alsomkieriste
-                        Fader/ </l>
-                    <l>du som selff haffuer saa skicket det/ </l>
-                    <l>at Mand oc Quinde skulle være it Liff: </l>
-                    <l>oc haffuer stadfest denne samme tilhobeføyelse met din Gud<lb rend="="
-                        />dommelig velsignelse: </l>
-                    <l>Wi bede dig for din store Barmhiertighed skyld/ </l>
-                    <l>at du giffuer denne Brudgom/ </l>
-                    <l>met sin Brud/ </l>
-                    <l>Naade Lycke oc Salighed baade til Liff oc Siel: </l>
-                    <l>oc giff <pb facs="0455L" n="442"/> dem naade til at tiene dig troligen/ </l>
-                    <l>oc at leffue tilsammen i en sam<lb rend="="/>drectig Kierlighed/ </l>
-                    <l>oc altid at giøre effter dit hellige bud/ </l>
-                    <l>Saa at de maatte findis paa den yderste Dag/ </l>
-                    <l>at være rette Christne oc dine kiere Børn/ </l>
-                    <l>met din kiere Søn vor Herre Jesu Christo/ </l>
-                    <l>som met dig leffuer oc regnerer i hellig Aands enighed/ </l>
-                    <l>en sand Gud fra euighed til euighed/ Amen.</l>
-                </lg>
-
-
+                <p><c function="initials" rend="5">O</c> Almectige euige Gud oc alsomkieriste Fader/
+                    du som selff haffuer saa skicket det/ at Mand oc Quinde skulle være it Liff: oc
+                    haffuer stadfest denne samme tilhobeføyelse met din Gud<lb rend="="/>dommelig
+                    velsignelse: Wi bede dig for din store Barmhiertighed skyld/ at du giffuer denne
+                    Brudgom/ met sin Brud/ Naade Lycke oc Salighed baade til Liff oc Siel: oc giff
+                        <pb facs="0455L" n="442"/> dem naade til at tiene dig troligen/ oc at leffue
+                    tilsammen i en sam<lb rend="="/>drectig Kierlighed/ oc altid at giøre effter dit
+                    hellige bud/ Saa at de maatte findis paa den yderste Dag/ at være rette Christne
+                    oc dine kiere Børn/ met din kiere Søn vor Herre Jesu Christo/ som met dig
+                    leffuer oc regnerer i hellig Aands enighed/ en sand Gud fra euighed til euighed/
+                    Amen. </p>
+                
                 <p>Effter Velsignelsen/ Salig er den <lb/>Mand der Gud frycter <ex>etc</ex>.</p>
                 <p rend="indent3">
                     <hi>Alle wtuct aff Drucknefolck met Spille</hi><lb rend="="/>mend/ Mad oc dricke
                     i Kircken/ oc andet mere <lb/>saadant/ bør vnder høyeste straff aldelis at være
                     <lb/>forbuden oc afflagd.</p>
-
-                <!--<head type="add">Hvo som vil salig udi verden leve</head>-->
                 <p>Naar Bruden følgis til sengs/ maa Degnen <lb/>met Brudskaren siunge/ som her
                     <lb/>effter følger.</p>
                 <lb/>
@@ -9345,14 +9326,11 @@
                     <l><space extent="2blanks"/>Her til beslutte wi nu allesammen/ </l>
                     <l>Sigendis huer aff hiertet/ Amen Amen.</l>
                 </lg>
-
-                <lb/>
-
             </div>
             <div type="chapter" xml:id="praestekalent" n="4">
-                <head type="add">Sang og ceremonier ved præstekalent</head>
+                <head type="add">Præstekalent</head>
                 <div type="psalm" xml:lang="la" xml:id="sacerdotes-eius-induant-salutare" n="1">
-                    <!--<head type="add">Introitus latinus: Sacedotes eius induant salutare</head>-->
+                    <head type="add">Sacedotes eius induant salutare/ Haleluia. Non vos me elegistis/ Quicunque vult salvus esse</head>
                     <head>Sang oc ceremonier som <lb/> holdis vdi Preste Calent/ eller Pro<lb
                             rend="="/>uinciali Colloquio. <lb/>Introitus latinus.</head>
                     <notatedMusic>
@@ -9373,8 +9351,7 @@
                         <item>Gloria.</item>
                     </list>
                     <p><hi rend="italics">vt in die Pentecostes.</hi></p>
-
-                    <!--<head type="add">Haleluia. Non vos me elegistis</head>-->
+                    
                     <p>Collect/ for Ordens tienere/ oc det Hellige <lb/> Predicke Embet/ aff
                         Alterbogen. <lb/> Epistelen skal læsis paa Danske/ aff Bibelen/ 1. Timoth:
                         3. fra begyndelsen oc til (Disli<lb rend="="/>geste skulle deris Hustruer.)
@@ -9397,8 +9374,6 @@
                         <l>Hale<pb rend="=" facs="0460R" n="447"/>luia. </l>
                     </lg>
 
-
-                    <!--<head type="add">Sekvens</head>-->
                     <p>Sequentz.</p>
                     <p>Nu bede wi den hellig Aand. <lb/>Euangelium Lucæ 10. fra begyndelsen <lb/>ind
                         til (Oc de halffierdesinds tiue kom<lb rend="="/>me igen <ex>etc</ex>.</p>
@@ -9409,9 +9384,6 @@
                         Sognedegnen gaar met de Fattiges taffle/ Oc hues der giffuis strax
                         vdskifftis blant de Arme/ som da tilstede ere/ naar tienisten er end.</p>
 
-
-
-                    <!--<head type="add">Offertorium. Quicunque vult saluus esse</head>-->
                     <p>Effter Predicken siungis/ Beholt oss <lb/>Herre ved dit Ord.
                         <lb/>Offertorium.</p>
                     <notatedMusic>
@@ -9462,7 +9434,7 @@
                         <hi>Her maa ocsaa Sacramentet vddelis/ </hi>
                         <lb/>om nogen det er begerindis: Oc siungis/ <lb/> Tibi laus <ex>etc</ex>. </p>
                     <p>Effter Velsignelsen/ Forlene oss met Fred <ex>etc</ex>.</p>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
 
                     <p rend="indent1">
                         <pb facs="0466R" n="453"/><space extent="2blanks"/> In prouinciali
@@ -9503,7 +9475,7 @@
                         <l>et Spiritui sancto.</l>
                         <l>Qui <ex>etc</ex>. </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
 
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="responsoriumsecundum" n="6">
@@ -9566,7 +9538,7 @@
                                 rend="="/>to. </l>
                         <l>Qui credi: </l>
                     </lg>
-                    <!--<figure type="vignette"/>-->
+                    <p> *</p>
                 </div>
             </div>
         </body>
@@ -10846,9 +10818,9 @@
                         <lb/>
                         <hi rend="italics">vltimo, pro</hi> , O Gud Fader vdi/ <hi rend="italics"
                             >lege</hi> , Gud Fader vdi <ex>etc</ex>.</p>
+                    <p> *</p>
                 </div>
                 <lb/>
-                <!--<figure type="vignette"/>-->
             </div>
         </back>
     </text>
