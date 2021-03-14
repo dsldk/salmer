@@ -23230,10 +23230,16 @@
                         <l><pb facs="705" n="326r"/> Dig Herre mild/ ieg tacke vil/ </l>
                         <l>for <lb/> all godhed mig er beteed/ </l>
                         <l>besynderlig du <lb/> haffuer mig/ </l>
-                        <l>i Nat <!-- interlineært -->(Dag)<!-- interlineært slut--> bistand giort
+                        <l>i <choice>
+                            <seg n="1">Nat</seg>
+                            <seg n="2">(Dag)</seg>
+                        </choice> bistand giort
                             met din haand/ </l>
                         <l>oc beder end din hielp <lb/> forlen/ </l>
-                        <l>i denne Dag <!-- interlineært -->(Nat)<!-- interlineært slut--> mod min
+                        <l>i denne <choice>
+                            <seg n="1">Dag</seg>
+                            <seg n="2">(Nat)</seg>
+                        </choice> mod min
                             wuen.</l>
                     </lg>
                     <lg>
