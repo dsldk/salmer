@@ -104,9 +104,9 @@
                 </div>
                 <div xml:id="Kollekt-ulricksoen-1535" n="2">
                     <head type="add">Collecta / Kollekt</head>
-                    <head>Collecta <lb/>
-                        <!--<hi rend="font_red">-->
-                        <c function="initials" rend="2">O</c><!--</hi>--> almegtiste euige Gud thu
+                    <head>Collecta</head>
+                    <!--<hi rend="font_red">-->
+                    <p><c function="initials" rend="2">O</c><!--</hi>--> almegtiste euige Gud thu
                         som <lb/> beskermer alle dennem som flyr til dig. foruden din naade vy arme <app>
                             <lem>me<ex>n</ex><lb rend="="/>niske</lem>
                             <rdg>
@@ -117,8 +117,10 @@
                             <rdg>
                                 <q>tenc| ke</q> orig.</rdg>
                         </app> huad rett er. Oc fulkomme det sa<ex>m</ex>me <lb/> med
-                        gerningen<!-- hævet punktum --> For din søn vor her<lb rend="="/>ris schyld.
-                        <!--<hi rend="font_red">--> Degnen suar<!--</hi>--> Amen</head>
+                        gerningen<!-- hævet punktum --> For din søn vor her<lb rend="="/>ris
+                        schyld.</p>
+                    <p><!--<hi rend="font_red">--> Degnen suar<!--</hi>--></p>
+                    <p> Amen</p>
                 </div>
                 <div xml:id="epistel-evangelium-praediken" n="3">
                     <head type="add"> Epistel; Halleluja; Evangelium; Credo / Vi tro allesammen på
@@ -623,8 +625,8 @@
                 <div xml:id="complenda-ulriksen-1535" n="11">
                     <head type="add">Complenda / Kollekt</head>
                     <head>
-                        <!--<hi rend="font_red">-->Complenda <lb/>
-                        <c function="initials" rend="2">W</c><!--</hi>-->y tacke dig herre
+                        <!--<hi rend="font_red">-->Complenda <lb/></head>
+                    <p><c function="initials" rend="2">W</c><!--</hi>-->y tacke dig herre
                         almectigste <lb/> euige Gud. att du med desse <app>
                             <lem>sa<lb rend="="/>lige</lem>
                             <rdg>
@@ -639,36 +641,40 @@
                             <lem>in<lb rend="="/>byrdis</lem>
                             <rdg>
                                 <q>in| byrdis</q> orig.</rdg>
-                        </app> for din søns Jesu Christi vor <lb/> herris skyld.
-                        <!--<hi rend="font_red">--> Degnend suar. <!--</hi>--> Amen. <lb/>
-                    </head>
+                        </app> for din søns Jesu Christi vor <lb/> herris skyld.</p>
+                    <p><!--<hi rend="font_red">--> Degnend suar. <!--</hi>--></p>
+                    <p> Amen.</p>
+
                 </div>
                 <div xml:id="fredshilsen" n="12">
                     <head type="add">Fredshilsen</head>
                     <p>
                         <!--<hi rend="font_red">--> Presten wender sig om til folken oc
-                        siger.<!--</hi>--> Herrens fred wæ<lb rend="="/>re med <app>
+                        siger.<!--</hi>--></p>
+                    <p> Herrens fred wæ<lb rend="="/>re med <app>
                             <lem>eder.</lem>
                             <rdg>
                                 <q>e<ex>n</ex>der.</q> orig.</rdg>
-                        </app>
-                        <!--<hi rend="font_red">--> Degnend suarer <!--</hi>--> Oc m<ex>eth</ex> din
-                        aand. Presten siger <lb/>
-                    </p>
+                        </app></p>
+                    <p>
+                        <!--<hi rend="font_red">--> Degnend suarer <!--</hi>--></p>
+                    <p> Oc m<ex>eth</ex> din aand.</p>
                 </div>
                 <div xml:id="velsignelse-ulriksen-1535" n="13">
                     <head type="add">Velsignelse</head>
-                    <head> Vor herre velsigne oc beskermme eder <lb/> oc obenbare eder sitt ansigt
-                        oc veere ed<ex>er</ex>
+                    <p> Presten siger <lb/>
+                    </p>
+                    <p> Vor herre velsigne oc beskermme eder <lb/> oc obenbare eder sitt ansigt oc
+                        veere ed<ex>er</ex>
                         <lb/> miscundelig oc giffue ed<ex>er</ex> sin euige fredt <lb/>
-                    </head>
+                    </p>
                     <p>
                         <!--<hi rend="font_red">--> Degnend suarer<!--</hi>-->
                     </p>
                     <p>Amen</p>
                     <!--<hi rend="font_red">-->
-                    <p>Oc saa gaar hwer hiem til sitt<!--</hi>-->
-                        <lb/> Finis Misse. <lb/> * * </p>
+                    <p>Oc saa gaar hwer hiem til sitt<!--</hi>--></p>
+                    <p> Finis Misse. <lb/> * * </p>
                 </div>
             </div>
             <div type="chapter" xml:id="daab" n="2">
@@ -717,19 +723,16 @@
                 <div xml:id="daabsritual" n="3">
                     <head type="add">Dåbsritual</head>
                     <!--<hi rend="font_red">-->
-                    <p><pb facs="0018R" n="B 3r"/>Presten siger.</p>
-                    <!--</hi>-->
-                    <lb/>
-                    <!--<hi rend="font_red">-->
+                    <p><pb facs="0018R" n="B 3r"/>Presten siger.<!--</hi>--></p>
                     <p>
-                        <c function="initials" rend="2">F</c><!--</hi>-->Ar vd oc vig du vrene and.
-                        oc <lb/> giff den helligand rum oc sted <lb/>
+                        <c function="initials" rend="2"
+                        ><!--<hi rend="font_red">-->F</c><!--</hi>-->Ar vd oc vig du vrene and. oc
+                        <lb/> giff den helligand rum oc sted <lb/>
                     </p>
                     <!--<hi rend="font_red">-->
                     <p>Der nest giør han korsse<ex>n</ex>s tegn offuer <lb/> ansigtet oc brystedt
                         sigendis</p>
                     <!--</hi>-->
-                    <lb/>
                     <p>Tag det hellige korsens tegn y dit an<lb rend="="/>sigt oc offuer dit bryst.
                         <!--<hi rend="font_red">--> Lad<ex>er</ex> oss alle <app>
                             <lem>bed<ex>e</ex>
@@ -740,7 +743,6 @@
                         </app>
                     </p>
                     <!--</hi>-->
-                    <lb/>
                     <p>
                         <!--<hi rend="font_red">--> O <!--</hi>--> Almectigste euige Gud. vor herris
                         <lb/> Jesu Christi fader. ieg paakaller digh <lb/> offuer denne
@@ -773,9 +775,10 @@
                     <p> Suar.</p>
                     <!--</hi>-->
                     <p> Amen</p>
-                    <lb/>
                     <p>
-                        <!--<hi rend="font_red">--> Presten siger Lad<ex>er</ex> oss alle bede <lb/>
+                        <!--<hi rend="font_red">--> Presten siger</p>
+                    <p> Lad<ex>er</ex> oss alle bede <lb/></p>
+                    <p>
                         <c function="initials" rend="2">O</c><!--</hi>--> Almectigste euige Gud. du
                         som <lb/> haffuer ødelagt oc fordømdt eff<lb rend="="/>ter din strenge
                         retferdigheds dom. den <lb/> vantro verden vdy vandflode<ex>n</ex>. oc
@@ -784,16 +787,16 @@
                         <lb/> drucknedt den forherde hordnackedhe <lb/> Pharaonem med alt sitt
                         selschaff i det <lb/> røde haff. oc haffuer friit oc tørt ygen<lb rend="="
                         />nom leed det Jsraelsche folk. Vdi huil<pb rend="=" facs="0020R" n="B 4r"
-                        />kedt bad din hellige tilkomme<ex>n</ex>dis dob <lb/> betegnes. <lb/> Oc
-                        vedt din leffuendes søns daab vor <lb/> herris Jesu Christi. Huilked der
+                        />kedt bad din hellige tilkomme<ex>n</ex>dis dob <lb/> betegnes.</p>
+                    <p> Oc vedt din leffuendes søns daab vor <lb/> herris Jesu Christi. Huilked der
                             sche<lb rend="="/>de y den Jordansche flodt Och <app>
                             <lem>sam<lb rend="="/>me</lem>
                             <rdg>
                                 <q>sam| me</q> orig.</rdg>
                         </app> tiidt indsette och helligt giorde va<ex>n</ex><lb rend="="/>dett til
-                        en daab oc eth fulkommeligt <lb/> afftoelsis tegn aff alle synder. <lb/> Vy
-                        bedhe degh for din grundløsse <lb/> och vbegrybelige barmhiertighedth <lb/>
-                        Ath dhu viille naadelighe ansee den<lb rend="="/>ne mennische.
+                        en daab oc eth fulkommeligt <lb/> afftoelsis tegn aff alle synder.</p>
+                    <p> Vy bedhe degh for din grundløsse <lb/> och vbegrybelige barmhiertighedth
+                        <lb/> Ath dhu viille naadelighe ansee den<lb rend="="/>ne mennische.
                         <!--<hi rend="font_red">--> N. <!--</hi>--> medt een retsindig <lb/> oc een
                         fast Christelig tro formedelst <lb/> den helligaandt. oc ved den hellige oc
                         <lb/> andelige ygenfødelsis vandbadt och <lb/> den helligaands fornyelse
@@ -830,11 +833,14 @@
                             <lem>Je<lb rend="="/>sum</lem>
                             <rdg>
                                 <q>Je| sum</q> orig.</rdg>
-                        </app> Christum vor herre. <!--<hi rend="font_red">--> Suar <!--</hi>-->
-                        Amen <lb/>
+                        </app> Christum vor herre.</p>
+                    <p>
+                        <!--<hi rend="font_red">--> Suar <!--</hi>--></p>
+                    <p> Amen <lb/>
                     </p>
                     <p>
-                        <!--<hi rend="font_red">--> Presten siger <lb/>
+                        <!--<hi rend="font_red">--> Presten siger <lb/></p>
+                    <p>
                         <c function="initials" rend="2">I</c><!--</hi>-->Eg besueer dig du vrene
                         aandt <lb/> vid naffn Gud faders oc Gudt <lb/> søns Oc den helligaands Far
                         vd aff <lb/> denne Jesu Christi. <!--<hi rend="font_red">--> N. <!--</hi>-->
@@ -845,7 +851,6 @@
                             <orig>Marci. decimo.</orig>
                             <reg>Mark 10</reg>
                         </ref><!--</hi>-->
-                        <lb/>
                     </p>
                     <p>
                         <!--<hi rend="font_red">-->
@@ -874,32 +879,41 @@
                             <lem>Fa<lb rend="="/>derne</lem>
                             <rdg>
                                 <q>Fa| derne</q> orig.</rdg>
-                        </app> høret <!--</hi>--> Fader vor du so<ex>m</ex> est y. <ex>etc</ex>
+                        </app> høret <!--</hi>--></p>
+                    <p>Fader vor du so<ex>m</ex> est y. <ex>etc</ex>
                     </p>
                     <p><pb facs="0023L" n="C 1v"/>
-                        <!--<hi rend="font_red">--> Her effter siger Prestin. <!--</hi>-->
-                        <lb/> Herren beuare din indgang oc vdga<ex>n</ex>g <lb/> til euig tiid.
-                        Amen. <lb/>
+                        <!--<hi rend="font_red">--> Her effter siger Prestin. <!--</hi>--></p>
+                    <p>Herren beuare din indgang oc vdga<ex>n</ex>g <lb/> til euig tiid. Amen. <lb/>
                     </p>
                     <p>
-                        <!--<hi rend="font_red">-->Presten siger N. <!--</hi>--> Abrenuntias. For<lb
-                            rend="="/>sager du dieffuelin <!--<hi rend="font_red">--> Fadderne
-                        suaare <!--</hi>-->
-                        <lb/> Jeg forsager. Oc alle hanss gerni<ex>n</ex>ger<lb/>
-                        <!--<hi rend="font_red">--> Fadderne suare<!--</hi>--> Jeg forsager. Oc all
-                        <lb/> hanss medferd oc vesen. <!--<hi rend="font_red">-->Fadderne sua<lb
-                            rend="="/>re <!--</hi>--> Jeg forsager<!-- hævet punktum -->
-                        <!--<hi rend="font_red">--> Presten siger.<!--</hi>-->
+                        <!--<hi rend="font_red">-->Presten siger</p>
+                    <p> N. <!--</hi>--> Abrenuntias. For<lb rend="="/>sager du dieffuelin
+                        <!--<hi rend="font_red">--></p>
+                    <p>Fadderne suaare <!--</hi>--></p>
+                    <p>
+                        <lb/> Jeg forsager.</p>
+                    <p>Oc alle hanss gerni<ex>n</ex>ger</p>
+                    <p>
+                        <!--<hi rend="font_red">--> Fadderne suare<!--</hi>--></p>
+                    <p>Jeg forsager.</p>
+                    <p>Oc all <lb/> hanss medferd oc vesen.</p>
+                    <p><!--<hi rend="font_red">-->Fadderne sua<lb rend="="/>re <!--</hi>--></p>
+                    <p>Jeg forsager<!-- hævet punktum --></p>
+                    <p><!--<hi rend="font_red">--> Presten siger.<!--</hi>-->
                         <lb/>
                     </p>
                     <p>Credis in deum patrem <lb/>
                         <!--<hi rend="font_red">--> T<!--</hi>-->ror du paa Gud fader almectigste
-                        <lb/> hymmels oc iordsens scaberma<ex>n</ex>d <!--<hi rend="font_red">-->
+                        <lb/> hymmels oc iordsens scaberma<ex>n</ex>d</p>
+                    <p><!--<hi rend="font_red">-->
                         <app>
                             <lem>Fad<lb rend="="/>derne</lem>
                             <rdg>
                                 <q>Fad| derne</q> orig.</rdg>
-                        </app><!--</hi>--> suare Jeg troer Tror du paa <app>
+                        </app><!--</hi>--> suare</p>
+                    <p>Jeg troer</p>
+                    <p>Tror du paa <app>
                             <lem>Je<lb rend="="/>sum</lem>
                             <rdg>
                                 <q>Je| sum</q> orig.</rdg>
@@ -915,24 +929,31 @@
                             <lem>høg<lb rend="="/>re</lem>
                             <rdg>
                                 <q>høg| re</q> orig.</rdg>
-                        </app> side. huilken scal ygen ko<ex>m</ex>me dømme <lb/> leffuendis oc døde
-                        <!--<hi rend="font_red">--> Fadd<ex>er</ex>ne suare<!--</hi>--> Jeg <lb/>
-                        tror Tror du paa den helligaand den <lb/> hellige kircke. Alle christne
-                        menniskis <lb/> samfundt Syndsens forladelse Lego<ex>m</ex><lb rend="="
-                        />mens opstandelse Oc det euige liiff eff<lb rend="="/>ter døden.
-                        <!--<hi rend="font_red">--> Fadderne Suaare<!--</hi>--> Jeg tror <lb/> Vill
-                        du døbis <!--<hi rend="font_red">--> Fadd<ex>er</ex>ne suare <!--</hi>-->
-                        Jeg vill.<lb/>
+                        </app> side. huilken scal ygen ko<ex>m</ex>me dømme <lb/> leffuendis oc
+                        døde</p>
+                    <p><!--<hi rend="font_red">--> Fadd<ex>er</ex>ne suare<!--</hi>--></p>
+                    <p>Jeg <lb/> tror</p>
+                    <p>Tror du paa den helligaand den <lb/> hellige kircke. Alle christne menniskis
+                        <lb/> samfundt Syndsens forladelse Lego<ex>m</ex><lb rend="="/>mens
+                        opstandelse Oc det euige liiff eff<lb rend="="/>ter døden.
+                        <!--<hi rend="font_red">--></p>
+                    <p>Fadderne Suaare<!--</hi>--></p>
+                    <p>Jeg tror <lb/></p>
+                    <p>Vill du døbis <!--<hi rend="font_red">--></p>
+                    <p>Fadd<ex>er</ex>ne suare <!--</hi>--></p>
+                    <p>Jeg vill.</p>
+                    <p>
                         <!--<hi rend="font_red">--> Saa tager han barnet oc døber det
                             sie<ex>n</ex>d<ex>is</ex>
-                        <lb/> I<!--</hi>-->eg døber dig y naffn faders <app>
+                    </p>
+                    <p>I<!--</hi>-->eg døber dig y naffn faders <app>
                             <lem>oc</lem>
                             <rdg>
                                 <q>or</q> orig.</rdg>
                         </app>
-                        <lb/> søns oc den helligaands Am<ex>en</ex>. <!--<hi rend="font_red">-->
-                        Presten <lb/> D<!--</hi>-->en almectigste g<ex>u</ex>d vor herris iesu
-                            cri<ex>sti</ex>
+                        <lb/> søns oc den helligaands Am<ex>en</ex>.</p>
+                    <p><!--<hi rend="font_red">--> Presten</p>
+                    <p>D<!--</hi>-->en almectigste g<ex>u</ex>d vor herris iesu cri<ex>sti</ex>
                         <lb/> fader den so<ex>m</ex> haffuer igen fød dig ved <lb/> vand oc den
                         helligand <app>
                             <lem>haffuer</lem>
@@ -944,7 +965,8 @@
                             <rdg>
                                 <q>forgiff| uit</q> orig.</rdg>
                         </app> dig alle dine synd<ex>er</ex> ha<ex>n</ex> styrke dig m<ex>eth</ex>
-                        <lb/> sin naade til det euige liff Amen <lb/> Fred med dig. <lb/>
+                        <lb/> sin naade til det euige liff Amen</p>
+                    <p> Fred med dig. <lb/>
                     </p>
                 </div>
                 <div xml:id="efterskrift" n="4">
@@ -1313,24 +1335,30 @@
                         effter. Gud giffue <lb/> dennem sin velsignelse Amen. <lb/>
                     </p>
                     <p>
-                        <!--<hi rend="font_red">--> Her giffuer han dennem sammen.<!--</hi>-->
-                        <lb/> Hans <!--<hi rend="font_red">--> N. <!--</hi>--> viltu haffue denne
-                        gode per<lb rend="-"/>sone <!--<hi rend="font_red">--> N. <!--</hi>--> til
-                        din ecte husfrue <!--<hi rend="font_red">--> Suar <!--</hi>--> Ja<lb/> Anna
-                        <!--<hi rend="font_red">--> N. <!--</hi>--> Viltu haffue denne gode per<lb
-                            rend="="/>sone Hanss <!--<hi rend="font_red">--> N. <!--</hi>--> till
-                        din ecte mand. <lb/>
-                        <!--<hi rend="font_red">-->Hun suarer <!--</hi>--> Jaa <lb/>
-                        <!--<hi rend="font_red">--> Her lad dennem giffue huer <app>
+                        <!--<hi rend="font_red">--> Her giffuer han dennem sammen.<!--</hi>--></p>
+                    <p>Hans <!--<hi rend="font_red">--> N. <!--</hi>--> viltu haffue denne gode
+                            per<lb rend="-"/>sone <!--<hi rend="font_red">--> N. <!--</hi>--> til
+                        din ecte husfrue <!--<hi rend="font_red">--></p>
+                    <p>Suar <!--</hi>--></p>
+                    <p>Ja</p>
+                    <p>Anna <!--<hi rend="font_red">--> N. <!--</hi>--> Viltu haffue denne gode
+                            per<lb rend="="/>sone Hanss <!--<hi rend="font_red">--> N. <!--</hi>-->
+                        till din ecte mand. </p>
+                    <p>
+                        <!--<hi rend="font_red">-->Hun suarer <!--</hi>--></p>
+                    <p>Jaa <lb/></p>
+                    <p>
+                        <!--<hi rend="font_red">-->Her lad dennem giffue huer <app>
                             <lem>anden fest<lb rend="="/>nede</lem>
                             <rdg>
                                 <q>andenfest| nede</q> orig.</rdg>
                         </app> fee eller ring om de det formue el<pb rend="=" facs="0032R" n="D 2r"
                         />ler andet sligt effter lands seduane och<lb/> leeg deris høgre hender
-                        sammen oc sig <lb/>
+                        sammen oc sig</p>
+                    <p>
                         <!--</hi>--> Det som Gud til haabe føger scal int<ex>et</ex>
-                        <lb/> menniske atskilie. <!--<hi rend="font_red">--> Der effter siger <lb/>
-                        Presten til den christelige forsamling <lb/>
+                        <lb/> menniske atskilie. <!--<hi rend="font_red">--></p>
+                    <p>Der effter siger <lb/> Presten til den christelige forsamling <lb/>
                         <!--</hi>-->
                     </p>
                     <p>
@@ -1347,7 +1375,8 @@
                         saadantt her obenbarlige for Gud oc <lb/> all verden bekende. Der paa haffue
                         de giffuit huer anden haand oc festnedhe <lb/> gaffue Saa kundgør ieg dennem
                             tiil<lb rend="-"/>sammen J naffn Gudt Faders Och <lb/> Søns Oc den
-                        Helligaands Amen. <lb/> For alteriidt offuer Brudgomme Oc <lb/> Brud <app>
+                        Helligaands Amen. <lb/> For alteriidt offuer Brudgomme Oc <lb/> Brud</p>
+                    <p><app>
                             <lem>leess</lem>
                             <rdg>
                                 <q>lecss</q> orig.</rdg>
@@ -1355,7 +1384,6 @@
                             <orig>Genesis ii</orig>
                             <reg>1 Mos 2</reg>
                         </ref>
-                        <lb/>
                     </p>
                     <p>
                         <!--<hi rend="font_red">-->
@@ -1392,8 +1420,9 @@
                             <lem>tuen<lb rend="="/>ne</lem>
                             <rdg>
                                 <q>tuen| ne</q> orig.</rdg>
-                        </app> y ett legomme. <!--<hi rend=" font_red">--> Der nest vender <lb/> han
-                        sig til dennem oc siger saa. <!--</hi>-->
+                        </app> y ett legomme.</p>
+                    <p><!--<hi rend=" font_red">--> Der nest vender <lb/> han sig til dennem oc
+                        siger saa. <!--</hi>-->
                     </p>
                     <p>
                         <!--<hi rend="font_red">-->
@@ -1452,7 +1481,8 @@
                         <lb/>
                     </p>
                     <p>
-                        <!--<hi rend="font_red">--> Dett andet <lb/>
+                        <!--<hi rend="font_red">--> Dett andet</p>
+                    <p>
                         <c function="initials" rend="2">H</c><!--</hi>-->ører oc det korss huilkit
                             g<ex>u</ex>d <app>
                             <lem>haff<lb rend="="/>uer</lem>
@@ -1486,9 +1516,9 @@
                         </app> igen aff huilken du eest tagen. for<lb rend="="/>di du est iord oc
                         til iord scalt du bliffue <lb/>
                     </p>
-                    <lb/>
                     <p>
-                        <!--<hi rend="font_red">--> Den treedie <lb/>
+                        <!--<hi rend="font_red">--> Den treedie</p>
+                    <p>
                         <c function="initials" rend="2">S</c><!--</hi>-->Aa er det eders trøst att y
                         vide <lb/> oc troo att eders statt for Gud <lb/> er annammedt oc velsignedt.
                         fordi der <lb/> staar saa screffuit Gud scaffte mennis<lb rend="="/>kett
@@ -1518,8 +1548,9 @@
                     </p>
                     <p>
                         <!--<hi rend="font_red">--> Her beder Presten folkidt bede faar <lb/> bruden
-                        oc brudgommen. <!--</hi>-->
-                        <lb/> Lader oss alle bede<lb/>
+                        oc brudgommen. <!--</hi>--></p>
+                    <p>Lader oss alle bede</p>
+                    <p>
                         <!--<hi rend="font_red">-->
                         <c function="initials" rend="2"> O</c><!--</hi>--> Herre Gud so<ex>m</ex>
                         haffuer scafft ma<ex>n</ex>d <lb/> oc quinne oc haffuer forordinerit <lb/>
@@ -1543,8 +1574,9 @@
                                 <q>skic| kelse</q> orig.</rdg>
                         </app> ordineri<ex>n</ex>g oc velsignelse forfaris <lb/> oc
                         ford<ex>er</ex>ffuis Me<ex>n</ex> naadelige den beuare <lb/> y oss Ved Jesum
-                        Christum vor herre <lb/> Amen <!--<hi rend="font_red">-->Alia
-                        Collecta<!--</hi>--> Lad<ex>er</ex> oss alle b<ex>ede</ex>. <lb/>
+                        Christum vor herre <lb/> Amen</p>
+                    <p><!--<hi rend="font_red">-->Alia Collecta<!--</hi>--></p>
+                    <p> Lad<ex>er</ex> oss alle b<ex>ede</ex>. <lb/>
                     </p>
                     <p>
                         <!--<hi rend="font_red">-->
@@ -1650,32 +1682,38 @@
                             døde<ex>n</ex> oc heluede/ for huilke<ex>n</ex> tings sags <lb/> skyld/
                         scaltw vduortis anna<ex>m</ex>me til dig/ brød oc vin d<ex>et</ex> er
                             lego<ex>m</ex><lb rend="="/>me oc blod/ til een viished/ forsegling oc
-                        pant. <!--<hi rend="font_red">--> Der effter læss ha<ex>n</ex> høgt
-                        <!--</hi>--> Fader vor <!--<hi
-                        rend="font_red">-->
-                        oc strax haffuer ha<ex>n</ex> brød paa diske<ex>n</ex> oc læss <lb/> saa
-                            de<ex>n</ex> siuge hørit <!--</hi>--> Vor herre iesus cristus.
+                        pant.</p>
+                    <p><!--<hi rend="font_red">--> Der effter læss ha<ex>n</ex> høgt</p>
+                    <p><!--</hi>--> Fader vor
                         <!--<hi
-                        rend="font_red">--> saa beretter
-                            ha<ex>n</ex> de<ex>n</ex>
+                        rend="font_red">--></p>
+                    <p>oc strax haffuer ha<ex>n</ex> brød paa diske<ex>n</ex> oc læss <lb/> saa
+                            de<ex>n</ex> siuge hørit <!--</hi>--></p>
+                    <p>Vor herre iesus cristus.
+                        <!--<hi
+                        rend="font_red">--></p>
+                    <p>saa beretter ha<ex>n</ex> de<ex>n</ex>
                         <app>
                             <lem>si<lb rend="="/>uge</lem>
                             <rdg>
                                 <q>si| uge</q> orig.</rdg>
-                        </app>/ side<ex>n</ex> tager ha<ex>n</ex> kalke<ex>n</ex> oc siger
-                        <!--</hi>--> Lige maade <ex>etc</ex>
-                        <!--<hi rend="font_red">--> saa giffuer ha<ex>n</ex>
-                        <lb/> de<ex>n</ex> siuge Side<ex>n</ex>
-                        <!--</hi>--> Jesus cristus er <!--<hi rend="font_red">--> Nar de<ex>n</ex>
-                        er vde siger preste<ex>n</ex>
+                        </app>/ side<ex>n</ex> tager ha<ex>n</ex> kalke<ex>n</ex> oc siger</p>
+                    <p><!--</hi>--> Lige maade <ex>etc</ex>
+                        <!--<hi rend="font_red">--></p>
+                    <p>saa giffuer ha<ex>n</ex>
+                        <lb/> de<ex>n</ex> siuge</p>
+                    <p>Side<ex>n</ex>
+                        <!--</hi>--> Jesus cristus er <!--<hi rend="font_red">-->
+                    </p>
+                    <p>Nar de<ex>n</ex> er vde siger preste<ex>n</ex>
                         <!--</hi>-->
                         <app>
                             <lem>La<lb rend="="/>der oss a. b.</lem>
                             <rdg>
                                 <q>La| (der oss a. b.</q> orig.; (der oss a. b. højrestillet under
                                 linjen</rdg>
-                        </app>
-                        <!--<hi rend="font_red">--> V<!--</hi>-->y tacke tig herre almectigste euige
+                        </app></p>
+                    <p><!--<hi rend="font_red">--> V<!--</hi>-->y tacke tig herre almectigste euige
                         gud at dw <lb/> m<ex>eth</ex> disse salige gaffuer oss vederqueger. nu bede
                         vi din <app>
                             <lem>barmhiær<lb rend="="/>tigh<ex>ed</ex></lem>
@@ -1685,9 +1723,9 @@
                         troes styrc<lb rend="="/>kelse paa deg oc en
                             bre<ex>n</ex>de<ex>n</ex>d<ex>is</ex> kiærligh<ex>ed</ex>
                             mello<ex>m</ex> oss indbyrd<ex>is</ex> For din <lb/> søns Jesu
-                            c<ex>risti</ex> v<ex>or</ex> h<ex>erris</ex> skyld Amen
-                        <!--<hi rend="font_red">--> Til falkit so<ex>m</ex> staar omkring <!--</hi>-->
-                        <lb/>
+                            c<ex>risti</ex> v<ex>or</ex> h<ex>erris</ex> skyld Amen</p>
+                    <p><!--<hi rend="font_red">--> Til falkit so<ex>m</ex> staar omkring
+                        <!--</hi>-->
                     </p>
                     <p>
                         <!--<hi rend="font_red">--> *<!--</hi>--> Kyære brødre oc sistre lader oss
@@ -1696,10 +1734,8 @@
                             <lem>ville sundgø<lb rend="="/>re</lem>
                             <rdg>
                                 <q>villesundgø| re<ex>ed</ex></q> orig.</rdg>
-                        </app> ha<ex>nne</ex>m m<ex>eth</ex> de<ex>n</ex> hymelske lægedom
-                        <!--<hi
-                        rend="font_red">--> Collecta <!--</hi>-->
-                        <lb/>
+                        </app> ha<ex>nne</ex>m m<ex>eth</ex> de<ex>n</ex> hymelske lægedom</p>
+                    <p><!--<hi rend="font_red">--> Collecta <!--</hi>-->
                     </p>
                     <p>
                         <!--<hi rend="font_red">-->
@@ -1729,8 +1765,8 @@
                         egen <lb/> rette forbering wi bede miscunde dig offuer de<ex>n</ex>ne vor
                         broder oc <lb/> lad icke diæuelin offueruinde ha<ex>nne</ex>m oc faa mact
                         offuer ha<ex>n</ex>s siæl <lb/> Men lad henne gaa fra dette vsle leffnede oc
-                        til det euige liiff/ <lb/> w<ex>ed</ex> din enborne søn.
-                        <!--<hi rend="font_red">--> Item en <!--</hi>--> Collecta
+                        til det euige liiff/ <lb/> w<ex>ed</ex> din enborne søn.</p>
+                    <p><!--<hi rend="font_red">--> Item en <!--</hi>--> Collecta
                         <!--<hi rend="font_red">--> find<ex>is</ex> paa føste side <!--</hi>--> F.
                     </p>
                 </div>
@@ -1738,7 +1774,6 @@
                     <head type="add">Trøsteord til syge</head>
                     <p><pb facs="0041L" n="E 2v"/>¶ <!--<hi rend="font_red">--> Till att trøste
                             de<ex>n</ex> siuge.<!--</hi>-->
-                        <lb/>
                     </p>
                     <p>
                         <!--<hi rend="font_red">-->
@@ -2052,8 +2087,7 @@
                 <head type="add">Begravelse</head>
                 <div xml:id="begravelsesritual-oluf-ulriksen-1535" n="1">
                     <head type="add">Begravelsesritual</head>
-                    <p> Tiil døde att iorde oc begraffue. <lb/>
-                    </p>
+                    <p> Tiil døde att iorde oc begraffue.</p>
                     <p> * Scal mand ærlige følge de døde til graffue/ Oc men de <lb/> iordis Siunger
                         mand desse Psalmer Aff dyphedsens nødt/ <lb/> Men wy leffue paa iorden her.
                         eller O herre Gud benaadhe <lb/> meg <ex>etc</ex> Der næst giør mand een
@@ -2072,21 +2106,20 @@
                     <lg>
                         <l>Oc ondscabs pine scal dennem icke røre.</l>
                     </lg>
-                    <p> Andet Ve<ex>ersiculus</ex>.</p>
+                    <p> Andet Ve<ex>ersiculu</ex>s.</p>
                     <lb/>
                     <lg>
                         <l>¶ Herre gack icke y rette med denne din tiænere.</l>
                     </lg>
                     <p> Suar.</p>
-                    <lb/>
                     <lg>
                         <l> Thi der kand da icke findis rettferdig naagen som leffuer </l>
                     </lg>
-                    <lb/>
                 </div>
                 <div xml:id="kollekter-ved-begravelse" n="3">
                     <head type="add">Collecta / Kollekter</head>
-                    <p> Collecta. <lb/>
+                    <p> Collecta.</p>
+                    <p>
                         <c function="initials" rend="2">O</c> Almectigste euige Gud som oss haffuer
                         lærd gennem <lb/> din hellige Appostels sancti Pauli mund/ at vy scul<pb
                             rend="=" facs="0047L" n="F 1v"/>le oss icke bedrøffue for de som soffue
@@ -2234,8 +2267,7 @@
                 </div>
                 <div xml:id="kollekter-efter-litaniet" n="2">
                     <head type="add">Collecte / Kollekter efter litaniet</head>
-                    <p> Collecte post Letanias. <lb/>
-                    </p>
+                    <p> Collecte post Letanias.</p>
                     <p>
                         <c function="initials" rend="2">O</c> Almectigste euige Gud du som icke
                         forsmaar de æl<lb rend="="/>lendis suck/ oc foracter icke de bedreffuede
@@ -2250,8 +2282,8 @@
                         oc loffue/ Ved Jesum Christum din enborne søn <ex>etc</ex>
                         <lb/>
                     </p>
-                    <p> Alia Collecta <lb/>
-                        <c function="initials" rend="2">O</c> Almectigste euige Gud du som icke
+                    <p> Alia Collecta </p>
+                    <p><c function="initials" rend="2">O</c> Almectigste euige Gud du som icke
                         haffuer løst tiil <lb/> de arme synderis død/ oc lader dennem icke gerne <app>
                             <lem>for<lb rend="="/>derffuis</lem>
                             <rdg>
@@ -2273,8 +2305,8 @@
                         <lb/> oss for waare synders skyld twinger/ mwe ved din hielp offuer<lb
                             rend="="/>uinde for din søn wor herris skyld Amen. <lb/>
                     </p>
-                    <p> Pro ministris Ecclesie. <lb/>
-                        <c function="initials" rend="2">O</c> Almectigste euige Gud som wed
+                    <p> Pro ministris Ecclesie.</p>
+                    <p><c function="initials" rend="2">O</c> Almectigste euige Gud som wed
                             de<ex>n</ex> helligaand haffwer <lb/> skicked oss Bisper/ Prester/
                         Kirckeherrer/ oc tiennere/ tiil <lb/> din hellige kircke effter din willie y
                         all sandhedtz lærdom oc <app>
@@ -2292,8 +2324,8 @@
                         <!-- hævet punktum -->
                         <lb/>
                     </p>
-                    <p> Pro Rege et senatu Regni. <lb/>
-                        <c function="initials" rend="2">O</c> Al mectigste euige Gud vnder hues
+                    <p> Pro Rege et senatu Regni.</p>
+                    <p><c function="initials" rend="2">O</c> Al mectigste euige Gud vnder hues
                             ha<ex>n</ex>d all øffrighed oc <lb/> mact er skickit y bysta<ex>n</ex>d
                         oc værilse/ oc y huess wiisdo<ex>m</ex> alle land <lb/> oc rigerss low oc
                         rett atministreris oc beskickis/ wy bede din <app>
@@ -2313,9 +2345,8 @@
                         </app> rolige med fred oc kiærlighed/ Ved din enborne søn v<ex>or</ex>.
                         <lb/>
                     </p>
-                    <p> Pro Nostro magestratu<!-- hævet punktum -->
-                        <lb/>
-                        <c function="initials" rend="2">O</c> Almectigste euige Gud aff hwes gwnst <app>
+                    <p> Pro Nostro magestratu<!-- hævet punktum --></p>
+                    <p><c function="initials" rend="2">O</c> Almectigste euige Gud aff hwes gwnst <app>
                             <lem>oc</lem>
                             <rdg>
                                 <q>ob</q> orig.</rdg>
@@ -2335,9 +2366,9 @@
                         gwddommelige willie Ved din en<lb rend="="/>bore Søn Jesum Christum wor
                         herre. AmeN. <lb/>
                     </p>
-                    <p> Pro Congregatione nostra. <lb/>
-                        <c function="initials" rend="2">O</c> Almectigste euige Gwd Som oss haffuer
-                        y denne stadt <lb/> tilsa<ex>m</ex>me<ex>n</ex> føgit effter dit raad och
+                    <p> Pro Congregatione nostra.</p>
+                    <p><c function="initials" rend="2">O</c> Almectigste euige Gwd Som oss haffuer y
+                        denne stadt <lb/> tilsa<ex>m</ex>me<ex>n</ex> føgit effter dit raad och
                         willie/ Vy bede din wsige<lb rend="="/>lige godhed det dw wilt werdes att
                         styrcke oss y dit hellige ord <lb/> Som dw haffwer <app>
                             <lem>begyndt</lem>
@@ -2352,8 +2383,8 @@
                             <rdg>
                                 <q>Geneealis.</q> orig.</rdg>
                         </app>
-                        <lb/>
-                        <c function="initials" rend="2">O</c> Almectigste Euige Gud Som i den
+                    </p>
+                    <p><c function="initials" rend="2">O</c> Almectigste Euige Gud Som i den
                         Christne <lb/> Kyrcke haffuer attskillige lymmer oc ledemod <app>
                             <lem>aan<lb rend="="/>delige</lem>
                             <rdg>
@@ -2392,8 +2423,8 @@
                         <lb/> dig oc de<ex>n</ex> helliand leffuer oc regnerer fra euighed oc til
                         euighed. <lb/>
                     </p>
-                    <p> Alia Collecta pro ministris Ecclesie. <lb/>
-                        <c function="initials" rend="2">O</c> Almectigste euige Gud wor herris Jesu
+                    <p> Alia Collecta pro ministris Ecclesie.</p>
+                    <p><c function="initials" rend="2">O</c> Almectigste euige Gud wor herris Jesu
                         Christi <lb/> fader/ du so<ex>m</ex> haffuer oss aluerlig befalid/ att bede
                         <lb/> dig om arbeidere wdi høsten/ det er om dit ords <lb/> rene oc
                         retsindige Predickere/ Vy bede din vsielig <app>
@@ -2421,8 +2452,8 @@
                         />kendilse bliffue fuldhærdige Ved Jesum C<ex>hristum</ex> wor herre Amen.
                         <lb/>
                     </p>
-                    <p> Alia Collecta pro magistratu <lb/>
-                        <c function="initials" rend="2">O</c> Almectigste euige Gud/ y hwes haand
+                    <p> Alia Collecta pro magistratu</p>
+                    <p><c function="initials" rend="2">O</c> Almectigste euige Gud/ y hwes haand
                         alle me<ex>n</ex>niskis vold <lb/> oc regemente staar/ aff dig skickit oc
                         seet til vdæders straff <lb/> oc frommes beskermelse/ Til hues haand alle
                         Rigers laaw oc <lb/> rett/ skick oc ordina<ex>n</ex>tze staa/ Vy bede dig/
@@ -2438,10 +2469,12 @@
                             so<ex>m</ex> er dig <lb/> behageligt Ved din søn Jesum Christum wor
                         herre Amen <lb/>
                     </p>
-                    <p> Pro Pace Versiculus. <lb/>C Giiff oss fred o herre Gud wor hymmelske Fader.
-                        <lb/> Ved din enborne søn Jesum Christum wor herre. <lb/>
-                    </p>
-                    <p> Collecta. <lb/> O Almectigste euige Gud som er een kelle til all fredt Ty<lb
+                    <p>Pro Pace Versiculus.</p>
+                    <lg><l>¶ Giiff oss fred o herre Gud wor hymmelske Fader.</l>
+                        <l> Ved din enborne søn Jesum Christum wor herre. </l>
+                    </lg>
+                    <p> Collecta.</p>
+                    <p>O Almectigste euige Gud som er een kelle til all fredt Ty<lb
                             rend="="/>melig oc euig/ oc all hiærtens rolighed/ Vy bede din <app>
                             <lem>god<lb rend="="/>hed</lem>
                             <rdg>
@@ -2449,7 +2482,9 @@
                         </app> att dw wilt werdis att giffue oss den fred som werden <lb/> icke kand
                         giffue/ Paa det wore hiærter wnder giffne dine bud<lb rend="="/>ord y din
                         sande fryct maa frelsis fra vaare fie<ex>n</ex>ders rædsle oc <lb/> fare Ved
-                        din søn Jesum Christum wor herre. Amen. <lb/> * * <lb/> * </p>
+                        din søn Jesum Christum wor herre. Amen. </p>
+                    <p> * * </p>
+                    <p>  * </p>
                 </div>
             </div>
             <div type="chapter" xml:id="kolofon" n="7">
