@@ -8862,10 +8862,7 @@
                     <p> *</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="diverse" n="69">
-                <head type="add">[Andre lejligheder]</head>
-            </div>
-            <div type="psalm" xml:id="litani-paa-dansk" n="1">
+            <div type="psalm" xml:id="litani-paa-dansk" n="69">
                 <head type="add">Litani på dansk</head>
                 <head><pb facs="0446R" n="433"/>Litanie paa Dan<ex>n</ex><lb rend="="/>ske.</head>
                 <p> *</p>
@@ -9164,7 +9161,7 @@
                     end en Collect/ som <lb/>den om Fred <ex>etc</ex>. Oc siden Vel<lb rend="="
                     />signelsen. <lb/></p>
             </div>
-            <div xml:id="soendagsbrudemesse" n="2">
+            <div xml:id="soendagsbrudemesse" n="70">
                 <head type="add">Søndagsbrudemesse, Salig er den mand, der Gud frygter</head>
                 <head>Brude Messe/ om <lb/> Søndagen.</head>
 
@@ -9242,7 +9239,7 @@
                     skaber O hellig<lb rend="="/>Aand: vide feria secunda Pentecostes. </p>
 
             </div>
-            <div type="chapter" xml:id="mandagsbrudemesse" n="3">
+            <div type="chapter" xml:id="mandagsbrudemesse" n="71">
                 <head type="add">Mandagsbrudemesse/ Hvo som vil salig udi vereen leve</head>
                 <head><pb facs="0454R" n="441"/>Mandags Brude<lb rend="="/>messe.</head>
                 <p>Introitus. Kom hellig Aand O Herre Gud: vide Offertor: die Pentecostes. </p>
@@ -9327,7 +9324,7 @@
                     <l>Sigendis huer aff hiertet/ Amen Amen.</l>
                 </lg>
             </div>
-            <div type="chapter" xml:id="praestekalent" n="4">
+            <div type="chapter" xml:id="praestekalent" n="72">
                 <head type="add">Præstekalent</head>
                 <div type="psalm" xml:lang="la" xml:id="sacerdotes-eius-induant-salutare" n="1">
                     <head type="add">Sacedotes eius induant salutare/ Haleluia. Non vos me elegistis/ Quicunque vult salvus esse</head>
@@ -9442,7 +9439,7 @@
                         post gratias lectas hæ can<lb rend="="/>tiones porrò canantur, pro gratiarum
                         actione. </p>
                 </div>
-                <div type="psalm" xml:lang="la" xml:id="responsoriumprimum" n="5">
+                <div type="psalm" xml:lang="la" xml:id="responsoriumprimum" n="2">
                     <head type="add">Responsorium primum</head>
                     <head>Responsorium primum/ <lb/> de Trinitate.</head>
 
@@ -9478,7 +9475,7 @@
                     <p> *</p>
 
                 </div>
-                <div type="psalm" xml:lang="la" xml:id="responsoriumsecundum" n="6">
+                <div type="psalm" xml:lang="la" xml:id="responsoriumsecundum" n="3">
                     <head type="add">Responsorium secundum</head>
                     <head><pb facs="0469L" n="456"/>Responsorium secundum/ <lb/> de dono
                         linguarum.</head>
@@ -9508,7 +9505,7 @@
                     </lg>
 
                 </div>
-                <div type="psalm" xml:lang="la" xml:id="responsoriumtertium" n="7">
+                <div type="psalm" xml:lang="la" xml:id="responsoriumtertium" n="4">
                     <head type="add">Responsorium tertium</head>
                     <head>Responsorium tertium/ <lb/> de legatione Apostolorum.</head>
 
