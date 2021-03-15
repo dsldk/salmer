@@ -7128,12 +7128,13 @@
                </lg>
             </div>
             <lb/>
-            <div type="subchapter" xml:id="lamentationes-efter-kaere-soendag">
+            <div type="subchapter" xml:id="lamentationes-efter-kaere-soendag" n="32">
                <head type="add">Lamentationer efter kære søndag</head>
+               <head>Lamentationes som lessis effter Kære <lb/>Søndag.</head>
             </div>
             <div type="psalm" xml:id="o-datter-jerusalem" n="1">
                <head type="add">Den første lamentation</head>
-               <head>Lamentationes som lessis effter Kære <lb/>Søndag. Den første</head>
+               <head>Den første</head>
                <lb/>
                <lg>
                   <l><c function="initials" rend="3">O</c> Daatter Jerusalem huor skal ieg
