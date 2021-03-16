@@ -2941,7 +2941,6 @@
                         <l>vid huilke<ex>n</ex>
                         </l>
                     </lg>
-                    <!-- <figure type="notatedMusic"> </figure>-->
                     <p>ut in communi prefatione.</p>
                     <p> Finis prefationum</p>
                 </div>
@@ -3726,7 +3725,7 @@
                 <lb/>
                 <div xml:id="formaning-til-den-syge" n="4">
                     <head type="add">Formaning til den syge</head>
-                    <head>¶ Formaningen til den siuge </head>
+                    <head>Formaningen til den siuge </head>
                     <p>
                         <c function="initials" rend="2">M</c>yn alsomkieriste ven i vor her<lb
                             rend="="/>re iesu christo. Effterdi du haff<lb rend="="/>uer i hu oc
@@ -3746,7 +3745,7 @@
                 <lb/>
                 <div xml:id="nadver-til-den-syge" n="5">
                     <head type="add">Nadver</head>
-                    <head>¶ Ad populvm congregatum exortatio.</head>
+                    <head>Ad populvm congregatum exortatio.</head>
                     <p>Myne alsomkeriste ve<ex>n</ex>ner. Vor herre <lb/>iesus christus siger. (<ref
                             target="#matt-18">
                             <orig>Mat. xviij. capi.</orig>
@@ -4099,38 +4098,38 @@
                     </list>
                     <lb/>
                     <p>Finis indicis huius libri.</p>
-                    <lb/>
-                    <p>Lege N i. versu xiiij. Vore fie<ex>n</ex>d<ex>er</ex> oc oss. <lb/>giff en
-                        sand kerlighedt.</p>
                 </div>
-                <div xml:id="epilogue">
-                    <head type="add">Ad Lectorem/ Til læseren</head>
-                    <head>Ad Lectorem.</head>
-                    <lb/>
-                    <p>Habes christiane lector librum vt vocant <lb/>Manuale. in quo ceremonie
-                        ecclesiarum huius pro<lb rend="="/>uintie Scanie comprehenduntur. Si autem
-                        <lb/>aliquid te hic offenderit aut in eo deside<lb rend="="/>ratur tuum est
-                        boni consulere. Catechis<lb rend="="/>mum vero. perpetuo in sugestu a
-                            conci<lb rend="="/>one vtendum. cum declaratione doc<lb rend="="/>toris
-                        Martini Lutheri. breui hac eadem <lb/>forma et prelo excudendum curabimus.
-                        vale</p>
-                </div>
+            </div>
+            <div xml:id="skriftsted-vormordsen-1539">
+                <head type="add">Skriftsted</head>
+                <p>Lege N i. versu xiiij. Vore fie<ex>n</ex>d<ex>er</ex> oc oss. <lb/>giff en sand
+                    kerlighedt.</p>
+            </div>
+            <div xml:id="epilogue">
+                <head type="add">Ad Lectorem/ Til læseren</head>
+                <head>Ad Lectorem.</head>
                 <lb/>
-                <div>
-                    <head type="add">Kolofon</head>
-                    <p>Jmpressum malmogie per Olauum Vlri<lb rend="="/>ci xvij die Aprilis. Anno
-                        domini mdxxxix. <lb/>
-                    </p>
-                    <p>Finis.</p>
-                </div>
-                <div>
-                    <head><pb facs="0173L" n="X 4v"/>Jnsignia Regis Danorum. <lb/>
-                        <figure type="image"/>
-                        <lb/>(<ref target="#kor-1-14">
-                            <orig>Paulus. i cor. xiiii</orig>
-                            <reg>1 Kor 14</reg>
-                        </ref>). <lb/>Omnia decenter et secundum <lb/>ordinem fiant.</head>
-                </div>
+                <p>Habes christiane lector librum vt vocant <lb/>Manuale. in quo ceremonie
+                    ecclesiarum huius pro<lb rend="="/>uintie Scanie comprehenduntur. Si autem
+                    <lb/>aliquid te hic offenderit aut in eo deside<lb rend="="/>ratur tuum est boni
+                    consulere. Catechis<lb rend="="/>mum vero. perpetuo in sugestu a conci<lb
+                        rend="="/>one vtendum. cum declaratione doc<lb rend="="/>toris Martini
+                    Lutheri. breui hac eadem <lb/>forma et prelo excudendum curabimus. vale</p>
+            </div>
+            <div>
+                <head type="add">Kolofon</head>
+                <p>Jmpressum malmogie per Olauum Vlri<lb rend="="/>ci xvij die Aprilis. Anno domini
+                    mdxxxix. </p>
+                <p>Finis.</p>
+            </div>
+            <div>
+                <head><pb facs="0173L" n="X 4v"/>Jnsignia Regis Danorum.</head>
+                <p>[Kongevåben]</p>
+                <figure type="image"/>
+                <p>(<ref target="#kor-1-14">
+                        <orig>Paulus. i cor. xiiii</orig>
+                        <reg>1 Kor 14</reg>
+                    </ref>) <lb/> Omnia decenter et secundum <lb/>ordinem fiant.</p>
             </div>
         </back>
     </text>
