@@ -2489,7 +2489,13 @@
             </div>
             <div type="chapter" xml:id="kolofon" n="7">
                 <head type="add">Kolofon</head>
-                <p> Satt i Malmøø Taarsdage<ex>n</ex> effter Tyburcii. MDXXXv </p>
+                <p> Satt i Malmøø Taarsdage<ex>n</ex> effter Tyburcii. MDXXXv </p></div>            
+            <div type="figure" xml:id="rigsvaaben-ulricksoen-1535">
+                <head type="add">Rigsvåben</head>
+                <head>[Rigsvåben]</head></div>            
+            <div type="figure" xml:id="konge-med-vaaben-ulricksoen-1535">
+                <head type="add">Konge med hær og våben</head>
+                <head>[Konge med våben]</head>            
                 <p><pb facs="0053L" n="F 4v"/> Arma Regis Danorum. <lb/>
                     <figure>
                         <figDesc>træsnit</figDesc>
