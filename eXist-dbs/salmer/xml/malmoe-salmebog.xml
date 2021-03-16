@@ -78,9 +78,9 @@
                 <head type="add">Kalender</head>
                 <div xml:id="januar-mgl" n="1">
                     <head type="add">[Januar mangler]</head>
+                    <p>[Blad A 2 med januar måned mangler]</p>
                 </div>
                 <div type="month" xml:id="februar" n="2">
-
                     <head type="add">Februar</head>
                     <head><pb facs="011" n="A 3r"/><hi rend="font_red">KL Februarius Bli<lb
                                 n="E19.002" rend="="/>dilmaanet haffuer xxviii dage Naten <lb
@@ -1156,7 +1156,7 @@
                 </div>
                 <div type="month" xml:id="juli" n="7">
                     <head type="add">[Juli mangler]</head>
-                    <head><pb facs="021" n="A 8r"/>Julius Orm maanedt</head>
+                    <p>[Blad A 8 med juli måned mangler]</p>
                 </div>
                 <div type="month" xml:id="august" n="8">
                     <head type="add">August</head>
@@ -4354,99 +4354,27 @@
                         <l> i hie<ex>m</ex>mele<ex>n</ex> oc paa iorde<ex>n</ex>/</l>
                         <l> dit Ri<lb n="E68.022" rend="="/>ge ttlko<ex>m</ex>me oss naadeligt/</l>
                         <l> so<ex>m</ex> oss kan fre<lb n="E68.023" rend="="/>den giffue/</l>
-                        <l> oc huess dig ey er behageligt <!-- Det følgende indsat efter den trykte faksimileudgave; originalen mangler blad 12--><pb facs="XXX" n="12r"/> ij oss</l>
-                        <l> thu wilt vddriffue paa thet</l>
-                        <l> att ij maa <lb n="E69.002"/> ewindelig</l>
-                        <l> vdi thit rige bliffwe.</l>
+                        <l> oc huess dig ey er <app>
+                                <lem>behageligt </lem>
+                                <rdg wit="#orig."> [herefter mangler blad 12 med slutningen af
+                                    Fadervor og formentlig en forklaring af bønnen, foruden salmerne
+                                    "Lover Herren, alle hedninger" og "Forlad nu din svend, o
+                                    Herre"] <note/></rdg>
+                            </app></l>
                     </lg>
-                    <lg>
-                        <l><space extent="2blanks"/><hi rend="Antiqua2">O milde Gudt thijn wilie lad
-                                ske ij iorderig, </hi></l>
-                        <l><hi>ij alle maade ath wære lig som vdi himmerige. <lb n="E69.005"/>Ther
-                                hæden oc ingen komme kandt och maa <lb n="E69.006"/>bestaa, foruden
-                                then hwes wilie er saa, thin <lb n="E69.007"/>aldelis liige. Oc giff
-                                oss nw wortt daglige <lb n="E69.008"/>brødt, som siælen skall
-                                bespise, Ieg meen thit <lb n="E69.009"/>hellige Guddoms ord, at wij
-                                thet høre oc <lb n="E69.010"/>priise. Ther mett tw oss til salighed,
-                                then <lb n="E69.011"/>rette wey wilt wiise.</hi></l>
-                    </lg>
-                    <p><space extent="2blanks"/><hi rend="Antiqua2">Wor misgerning oc all wor skyld
-                            forlad oss <lb n="E69.013"/>heer, hwad tw aff oss fortørnedt er, wilt tw
-                                <lb n="E69.014"/>oc vdslette Tesligest giøre wij ij same maade <lb
-                                n="E69.015"/>wore schyldener, oc hwes the oss fortørnet <lb
-                                n="E69.016"/>haffue, thet wil wij plat forgette. I nogen <lb
-                                n="E69.017"/>frestelse oss ey indføør, att wij ther ij forfares, <lb
-                                n="E69.018"/>Fra saadant ont tw oss beware, ther siælen kan <lb
-                                n="E69.019"/>forderffue, Oc giøre oss alle samen lige, ath <lb
-                                n="E69.020"/>wji thit rige maa ærffue, AMEN.</hi></p>
-
-                    <p><!--<ref  target="(efter Bruun I, 174)"><hi rend="Antiqua2"><hi
-                                    rend="italics">(efter Bruun I, 174)</hi></hi></ref>-->
-                    </p>
                 </div>
                 <div type="psalm" xml:id="laudate-dominum" n="13">
-                    <head type="add">Lover Herren alle hedninge</head>
-                    <head><pb facs="XXX" n="12v"/>LAUDATE DOMINUM. <lb n="E70.002"/>omnes
-                        gentes.</head>
-                    <lg>
-                        <l><space extent="2blanks"/><hi rend="Antiqua2">LOffuer Herren alle
-                                hedninge: oc tilhaabe <lb n="E70.004"/>loffuer Gud alle
-                            folk.</hi></l>
-                    </lg>
-                    <lg>
-                        <l><space extent="2blanks"/><hi rend="Antiqua2">Forthi hans miskundhed er
-                                stadfest offuer <lb n="E70.006"/>oss, oc Herrens sandhed bliffuer
-                                ewindelig.</hi></l>
-                    </lg>
-
-                    <lg>
-                        <l><space extent="2blanks"/><hi rend="Antiqua2">Aere wære Gud fader oc hans
-                                søn, oc saa <lb n="E70.008"/>Gud then Helliaand.</hi></l>
-                    </lg>
-
-                    <lg>
-                        <l><space extent="2blanks"/><hi rend="Antiqua2">Som wærid haffuer aff
-                                begyndelsen nw oc <lb n="E70.010"/>altijd: fraa ewighed oc til
-                                ewighed</hi></l>
-                    </lg>
-
-                    <lg>
-                        <l><unclear reason="layout"><space extent="10blanks"/><space
-                                    extent="10blanks"/><hi rend="Antiqua2">AMEN.</hi></unclear></l>
-                    </lg>
+                    <head type="add">[Lover Herren alle hedninge]</head>
+                    <head>[Lover Herren alle hedninge]</head>
+                    <p>[Teksten mangler]</p>
                 </div>
                 <div type="psalm" xml:id="nunc-dimittis-malmoe" n="14">
-
-                    <head type="add">Nunc dimittis / Forlad nu din svend, o Herre</head>
-                    <head>NUNC DIMITTIS.</head>
-
-                    <lg>
-                        <l><space extent="2blanks"/>FOrlad nw thijn swend o Herre,</l>
-                        <l> effter <lb n="E70.014"/>thit ord ij freden.</l>
-                    </lg>
-                    <lg>
-                        <l><space extent="2blanks"/>Forthi mijne øgne haffue seet thijn gien<lb
-                                n="E70.016" rend="="/>løselse,</l>
-                        <l> then som tw beridde for alle menni<lb n="E70.017" rend="="/>skens
-                            ansigt.</l>
-                    </lg>
-                    <lg>
-                        <l><space extent="2blanks"/>Eet liwss til hedningernes opliwselse,</l>
-                        <l> oc til <lb n="E70.019"/>thit folkis ære Israel.</l>
-                    </lg>
-                    <lg>
-                        <l><space extent="2blanks"/>Aere wære Gud fader oc Gud søn oc saa <lb
-                                n="E70.021"/>Gud then helliaand.</l>
-                    </lg>
-                    <lg>
-                        <l><space extent="2blanks"/>Som wærid haffuer aff begyndelsen nw <lb
-                                n="E70.023"/>oc altijd, fraa ewighed oc til ewighed AMEN.</l>
-                    </lg>
-                    <!--<lg><ref target="(efter Bruun I, 26-27)"><hi
-                                    rend="Antiqua2"><hi rend="italics">(efter Bruun I,
-                                    26-27)</hi></hi></ref></lg>-->
-
-                    <p><pb facs="061" n="13r"/>Benedicamus</p>
+                    <head type="add">[Nunc dimittis / Forlad nu din svend, o Herre]</head>
+                    <head>[Forlad nu din svend, o Herre]</head>
+                    <p><pb facs="061" n="13r"/><app>
+                            <lem>Benedicamus</lem>
+                            <rdg wit="#orig.">[før dette lakune, blad 12 mangler]<note/></rdg>
+                        </app></p>
                     <lg>
                         <l>* Benedider Herren Alleluia/</l>
                         <l> Loffuer <lb n="E71.003"/>Herren Alleluia </l>
@@ -13022,9 +12950,9 @@
                                     <lb n="E271.024"/>
                                     <item><label>Forlæ oss met fred</label><ref
                                             target="#forlae-os-med-fred">lviii blad</ref></item>
-                                <item><label><pb facs="262" n="† 1v"/>Fred giff oss kære herre </label><ref
-                                            target="#fred-giv-os-o-kaere-herre">xcv
-                                        blad</ref></item>
+                                    <item><label><pb facs="262" n="† 1v"/>Fred giff oss kære herre
+                                            </label><ref target="#fred-giv-os-o-kaere-herre">xcv
+                                            blad</ref></item>
                                     <lb n="E272.002"/>
                                     <item><label>Fra me<ex>n</ex>nisken haffuer ieg vend <ref
                                                 target="#fra-menneskene-har-jeg-vendt-min-hu">ciii
@@ -13451,12 +13379,13 @@
                                 </list></item>
                         </list></item>
                 </list>
-
                 <p><hi rend="center">*<space extent="2blanks"/><hi rend="superscript3">*</hi><space
                             extent="2blanks"/>* <lb n="E276.017"/>Enden paa Tafflen <lb n="E276.018"
                             />*<space extent="2blanks"/><hi rend="subscript3">*</hi><space
                             extent="2blanks"/>*</hi></p>
-
+            </div>
+            <div xml:id="epilogue-malmoe-salmebog">
+                <head type="add">[Efterskrift]</head>
                 <p><pb facs="267" n="† 4r"/><app>
                         <lem>Thet</lem>
                         <rdg wit="#orig."> h <note>læsningen usikker</note></rdg>
@@ -13466,14 +13395,17 @@
                     />saa bliffue paa denne tid/ Thi ieg for<lb n="E277.006" rend="="/>nam ath den
                     menige mand vaar før be<lb n="E277.007" rend="="/>wan saa ath siunge oc quede
                     dem al<lb n="E277.008" rend="="/>mindelige offuer alt riget baade met ord <lb
-                        n="E277.009"/>noder oc thoner/ Oc kunde dem oc saa <lb n="E277.010"/><hi
-                        rend="center">mesten parte<ex>n</ex> vden til/ Fordi lod ieg <lb
-                            n="E277.011"/>her nu inge noder sette/ Dog haff<lb n="E277.012" rend="="
-                        />uer ieg ma<ex>n</ex>gestedis forbedret da<ex>n</ex><lb n="E277.013"
-                            rend="="/>sken som de vel see oc mercke <lb n="E277.014"/>som hende læse
-                        kunde <lb n="E277.015"/>* Och vor samme bog <lb n="E277.016"/>Sat i Malmø S.
-                            Bar<lb n="E277.017" rend="="/>tholomei afften Aar <lb n="E277.018"
-                        />effter Gudz byrd <lb n="E277.019"/>M D XXX <lb n="E277.020"/>JJJ</hi></p>
+                        n="E277.009"/>noder oc thoner/ Oc kunde dem oc saa <lb n="E277.010"/> mesten
+                        parte<ex>n</ex> vden til/ Fordi lod ieg <lb n="E277.011"/>her nu inge noder
+                    sette/ Dog haff<lb n="E277.012" rend="="/>uer ieg ma<ex>n</ex>gestedis forbedret
+                        da<ex>n</ex><lb n="E277.013" rend="="/>sken som de vel see oc mercke <lb
+                        n="E277.014"/>som hende læse kunde <lb n="E277.015"/></p>
+            </div>
+            <div>
+                <head type="add">[Kolofon]</head>
+                <p>* Och vor samme bog <lb n="E277.016"/>Sat i Malmø S. Bar<lb n="E277.017" rend="="
+                    />tholomei afften Aar <lb n="E277.018"/>effter Gudz byrd <lb n="E277.019"/>M D
+                    XXX <lb n="E277.020"/>JJJ></p>
                 <p><hi rend="center">* *</hi></p>
                 <p><pb facs="268" n="† 4v"/></p>
             </div>
