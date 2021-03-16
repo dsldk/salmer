@@ -90,10 +90,13 @@
                 <imprimatur> Cum gratia et Priuilegio Serenissimæ <lb/> Regiæ
                     Maiestatis.</imprimatur>
             </titlePage>
-            <figure type="image"/>
+            <div type="figure" xml:id="kongevaaben-thomissoen-1569">
+                <head type="add">Kongevåben</head>
+                <head><pb facs="002" n="a 1v"/>[Kongevåben]</head>
+            </div>
             <div type="toc" xml:id="toc-section-thomissoen-1569">
                 <head type="add">Indholdsfortegnelse</head>
-                <head><pb facs="002" n="a 1v"/><pb facs="003" n="a 2r"/> Jt Almindeligt Register
+                <head><pb facs="003" n="a 2r"/> Jt Almindeligt Register
                     offuer <lb/> Psalmerne.</head>
                 <list rend="simple">
                     <item n="i.">Om Christi tilkommelse til Verden. <ref target="#section-1"
@@ -25936,7 +25939,7 @@
         </body>
         <back>
             <div type="register" xml:id="register-thomissoen-1569">
-                <head type="add">Register</head>
+                <head type="add">Indledning til registre</head>
                 <head n="4"><pb facs="795" n="Aaa 3r"/>Register offuer den<lb rend="="/>ne
                     Bog.</head>
                 <div>
@@ -25944,8 +25947,9 @@
                         første side paa bladdit. Men <lb/>naar der staar ij puncter effter Ziffer
                         tallit (:) <lb/>da mercker det den anden side <lb/>paa bladdit. </p>
                 </div>
+            </div>
                 <div type="index" xml:id="index-messe">
-                    <head type="add">Den evangeliske messe</head>
+                    <head type="add">Register 1: Den evangeliske messe</head>
                     <head> I. <lb/> Om den Danske Euangeliske <lb/> Messe. </head>
                     <div type="prose">
                         <head>Jntroitus.</head>
@@ -26310,16 +26314,13 @@
                             gantske Catechismus <lb/>der tilsammen tracterit <lb/>oc forhandlit. </p>
                         <p>       *</p>
                     </div>
-
+                </div>
                     <div type="index" xml:id="index-davids-salmer">
-                        <head type="add">Davidssalmer</head>
+                        <head type="add">Register 2: Davidssalmer</head>
                         <head><pb facs="802" n="Aaa 6v"/> II. <lb/> Register paa de Dauids Psalmer/
                             <lb/> som findis vdset i Christelig sang i denne Bog.</head>
                         <list rend="simple">
-                            <head>Psalmer.</head>
-                            <item>
-                                <ref>Blad.</ref>
-                            </item>
+                            <item> Psalmer.     Blad.</item>
                             <item n="1."> Beatus vir qui non abijt <ref target="#section-14-hymn-1"
                                     >190.</ref>
                             </item>
@@ -26454,7 +26455,7 @@
                         </list>
                     </div>
                     <div type="index" xml:id="index-andre-steder">
-                        <head type="add">Andre bibelsteder</head>
+                        <head type="add">Register 3: Andre bibelsteder</head>
                         <head> III. <lb/> Andre stæder aff den hellige Scrifft/ <lb/>som siungis i
                             denne Bog.</head>
                         <list rend="simple">
@@ -26506,7 +26507,7 @@
                         </list>
                     </div>
                     <div type="index" xml:id="index-latinske-salmer">
-                        <head type="add">Latinske salmer</head>
+                        <head type="add">Register 4: Latinske salmer</head>
                         <head><pb facs="804" n="Aaa 7v"/> IIII. <lb/> Register paa de Latinske
                             Hymner/ <lb/>Sequentzer/ Responsorier/ Anti<lb rend="="/>phoner/ som her
                             findis <lb/> paa danske. <lb/>
@@ -26707,7 +26708,7 @@
                         </div>
                     </div>
                     <div type="index" xml:id="index-katolske-salmer">
-                        <head type="add">Katolske salmer</head>
+                        <head type="add">Register 5: Katolske salmer</head>
                         <head> V. <lb/> Register paa de gamle sang/ som <lb/>haffue været brugt i
                                 Paff<lb rend="="/>uedommet.</head>
                         <div>
@@ -26794,7 +26795,7 @@
                         </div>
                     </div>
                     <div type="index" xml:id="index-korrigerede-papistiske-salmer">
-                        <head type="add">Korrigerede katolske salmer</head>
+                        <head type="add">Register 6: Korrigerede katolske salmer</head>
                         <head><pb facs="807" n="Bbb 1r"/>VI. <lb/> Register paa de gamle Papistiske
                             <lb/> Sang/ som ere Corrigeret <lb/> oc rettede. </head>
                         <div type="section">
@@ -26822,7 +26823,7 @@
                             <head>J.</head>
                             <div>
                                 <list rend="simple">
-                                    <item> Jeg vil mig en Jomfru loffue/ <ref
+                                    <item> Jeg vil mig <choice><seg n="1">en Jomfru</seg><seg n="2">Herren</seg></choice> loffue/ <ref
                                             target="#section-3-hymn-8">39.</ref>
                                     </item>
                                     <item>
@@ -26864,7 +26865,7 @@
                         </div>
                     </div>
                     <div type="index" xml:id="index-mikkel-praests-salmer">
-                        <head type="add">Mikkel Præsts salmer</head>
+                        <head type="add">Register 7: Mikkel Præsts salmer</head>
                         <head> VII. <lb/> Register paa de sang som ere samlit <lb/> aff de
                             Papistiske rim/ som her Michel Sog<lb rend="="/>nepræst i Othense/
                             screff om Jom<lb rend="="/>fru Marie Psaltere/ Aar <ex>etc</ex>.
@@ -26921,7 +26922,7 @@
                         </div>
                     </div>
                     <div type="index" xml:id="index-diverse">
-                        <head type="add">Diverse salmer</head>
+                        <head type="add">Register 8: Diverse salmer</head>
                         <head><pb facs="809" n="Bbb 2r"/> VIII. Register paa de Psalmer/ som inde<lb
                                 rend="="/>holde flere Lærdommer/ oc kunde derfor hen<lb rend="="
                             />føris til andre oc flere Artickler/ end som de ordent<lb rend="="/>lig
@@ -27220,7 +27221,7 @@
                         </div>
                     </div>
                     <div type="index" xml:id="index-alle-salmer">
-                        <head type="add">Samlet register</head>
+                        <head type="add">Register 9: Samlet register</head>
                         <head><pb facs="813" n="Bbb 4r"/> IX. <lb/> Jt almindeligt Register off<lb
                                 rend="="/>uer alle Psalmer/ som findis i <lb/> denne Bog/ effter
                                 Bog<lb rend="="/>staffuene.</head>
@@ -28228,8 +28229,6 @@
                             </list>
                         </div>
                     </div>
-                </div>
-            </div>
             <div xml:id="dedication">
                 <head type="add">Anders Sørensen Vedels dedikation</head>
                 <head><hi rend="italics">IN DANICVM PSALTERIVM <lb/> editum a M. Iohanne Thoma
