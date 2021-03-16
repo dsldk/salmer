@@ -5533,16 +5533,15 @@
                            >lx.</ref></item>
                   </list>
                </item>
-            </list>
+            </list></div>
+         <div>
+            <head type="add">Kolofon</head>
             <p rend="center">¶ Trycht ÿ Rozstock hooss Ludowich Dietz. xx. Nouembris. M. D. XXiX.
-               *</p>
-            <p>
-               <pb facs="194" n="R 4r"/>
-               <!--<figure type="image"/>-->
-            </p>
-            <p>
-               <pb facs="195" n="R 4v"/>
-            </p>
+               *</p></div>
+         <div>
+            <head type="add">[Bogtrykkermærke]</head>
+            <head><pb facs="194" n="R 4r"/>[Bogtrykkermærke]</head>
+            <figure type="image"/>
          </div>
       </back>
    </text>
