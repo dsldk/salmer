@@ -6128,7 +6128,6 @@
                <head type="add">Herre Krist Gud Faders enbårne søn</head>
                <head>En anden skøn Loffsang aff <lb/> Christi fødzel</head>
                <lb/>
-               <!--<figure type="notatedMusic"/>-->
                <notatedMusic>
                   <ptr target="Vi_1553_LN1421_012v.xml"/>
                </notatedMusic>
@@ -11916,7 +11915,6 @@
                <head>Een skøn vise/ i huilcken ith Menniske <lb/>bekender oc begræder sin
                   elendighed/ och <lb/>begerer hielp och trøst aff <lb/>Gudz ord</head>
                <lb/>
-               <!--<figure type="notatedMusic"/>-->
                <notatedMusic>
                   <ptr target="Vi_1553_LN1421_079r.xml"/>
                </notatedMusic>
@@ -12709,7 +12707,6 @@
             <div type="psalm" xml:id="capitan-herre-gud-fader-min" n="60">
                <head type="add">Capitan Herre Gud Fader min</head>
                <head><pb n_ekstra="M3v" n="89v" facs="0225L"/>En Christelig vise</head>
-               <!--<figure type="notatedMusic"/>-->
                <notatedMusic>
                   <ptr target="Vi_1553_LN1421_089v.xml"/>
                </notatedMusic>
@@ -14797,7 +14794,6 @@
                <head type="add">Credo/ Vi tro allesammen på en Gud</head>
                <head>Den Christne forsamling oc Chorid <lb/>siunge till haabe Credo</head>
                <lb/>
-               <!--<figure type="notatedMusic"/>-->
                <notatedMusic>
                   <ptr target="Vi_1553_LN1421_107r.xml"/>
                </notatedMusic>
@@ -20201,15 +20197,13 @@
                   </list>
                </div>
             </div>
-            <lb/>
-            <div type="imprint" xml:id="imprint">
-               <head type="add">Printet i København</head>
-               <p>
-                  <hi rend="center">* Prentet i Københaffn hoss Hans <lb/>Vingaard/ Aar effter Gudz
-                     <lb/>Byrd M. D. Liii. <lb/><hi rend="superscript" n="3">⁕</hi><hi
-                        rend="subscript" n="3">⁕</hi><hi rend="superscript" n="3">⁕</hi></hi>
-               </p>
-            </div>
+         </div>
+         <div type="imprint" xml:id="imprint">
+            <head type="add">Kolofon</head>
+            <p>
+               * Prentet i Københaffn hoss Hans <lb/>Vingaard/ Aar effter Gudz
+               <lb/>Byrd M. D. Liii. <lb/></p><p>   ⁕    ⁕</p><p>      ⁕
+            </p>
          </div>
       </back>
    </text>
