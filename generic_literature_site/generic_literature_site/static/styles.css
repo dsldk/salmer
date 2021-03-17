@@ -1,4 +1,4 @@
-﻿@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
 @import url(//fonts.googleapis.com/css?family=Cormorant:500,600);
 @import url(//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600);
 body {
@@ -1209,7 +1209,8 @@ element {
     padding-left:23px;
     border-radius:0
 }
-:target {
+:target,
+.search-highlight {
     background-color:#ffa
 }
 #dictionary-lookup-tab :target {
