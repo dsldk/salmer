@@ -76,26 +76,28 @@
                         i Kirckerne/ til des yder<lb rend="="/>mere endrectighed vdi Sang oc
                             Ceremo<lb rend="="/>nier/ effter Ordinantzens<lb/> lydelse. </titlePart>
                 </docTitle>
-                <docAuthor> Ved <lb/>
-                    <name>Niels Jesperssøn</name>/ Superintendent <lb/> vdi Fyens Stigt. </docAuthor>
-                <!--<figure type="vignette"/>-->
-                <docImprint> Prentet i Kiøbenhaffn/ aff <name>Laurentz Benedicht.</name>
-                    1573.</docImprint>
+                <docAuthor> Ved <lb/>Niels Jesperssøn/ Superintendent <lb/> vdi Fyens Stigt.<lb/> * </docAuthor>
+                <docImprint>
+                    <pubPlace>Prentet i Kiøbenhaffn/</pubPlace>
+                    <publisher>aff <lb/>
+                        <name>Laurentz Benedicht.</name></publisher><date>1573.</date></docImprint>
                 <imprimatur> Cum gratia et priuilegio serenissimæ <lb/> Regiæ
                     Maiestatis.</imprimatur>
             </titlePage>
-            <figure>
-                <head><pb facs="0003L" n=")(1v"/>Frederich den Anden met Guds Naade</head>
-                <head type="sub">Danmarckis Norgis Wendis och Gottis Konning/ <lb/> Hertug vdi
-                    Slesuig/ Holsten/ Stormarn och Dytmer<lb rend="="/>sken/ Greffue vdi Oldenborg
-                    och <lb/>Delmenhorst.</head>
+            <div type="figure" xml:id="kongeportraet-jespersen-1573">
+                <head type="add">Kongeportræt</head>
+                <head><pb facs="0003L" n=")(1v"/>Frederich den Anden met Guds Naade Danmarckis
+                    Norgis Wendis och Gottis Konning/ <lb/> Hertug vdi Slesuig/ Holsten/ Stormarn
+                    och Dytmer<lb rend="="/>sken/ Greffue vdi Oldenborg och <lb/>Delmenhorst.</head>
+                <p>[Kongeportræt]</p>
                 <p>Mit Haab til Gud allene.</p>
-            </figure>
-            <figure>
-                <p><pb facs="0004R" n=")(2r"/>INSIGNIA FRIDERICI II. DA<lb rend="="/>NORVM REGIS
-                        <ex>etc</ex>.</p>
+            </div>
+            <div type="figure" xml:id="kongevaaben-jespersen-1573">
+                <head type="add">Kongevåben</head>
+                <head><pb facs="0004R" n=")(2r"/>[Kongevåben]</head>
+                <p>INSIGNIA FRIDERICI II. DA<lb rend="="/>NORVM REGIS <ex>etc</ex>.</p>
                 <p>1573.</p>
-            </figure>
+            </div>
             <div type="preface" xml:id="preface-jespersen-1573">
                 <head type="add">
                     <reg xml:lang="da">Frederik 2.s forord</reg>
@@ -9265,7 +9267,7 @@
                     oc dine kiere Børn/ met din kiere Søn vor Herre Jesu Christo/ som met dig
                     leffuer oc regnerer i hellig Aands enighed/ en sand Gud fra euighed til euighed/
                     Amen. </p>
-                
+
                 <p>Effter Velsignelsen/ Salig er den <lb/>Mand der Gud frycter <ex>etc</ex>.</p>
                 <p rend="indent3">
                     <hi>Alle wtuct aff Drucknefolck met Spille</hi><lb rend="="/>mend/ Mad oc dricke
@@ -9326,7 +9328,8 @@
             <div type="chapter" xml:id="praestekalent" n="72">
                 <head type="add">Præstekalent</head>
                 <div type="psalm" xml:lang="la" xml:id="sacerdotes-eius-induant-salutare" n="1">
-                    <head type="add">Sacedotes eius induant salutare/ Haleluia. Non vos me elegistis/ Quicunque vult salvus esse</head>
+                    <head type="add">Sacedotes eius induant salutare/ Haleluia. Non vos me
+                        elegistis/ Quicunque vult salvus esse</head>
                     <head>Sang oc ceremonier som <lb/> holdis vdi Preste Calent/ eller Pro<lb
                             rend="="/>uinciali Colloquio. <lb/>Introitus latinus.</head>
                     <notatedMusic>
@@ -9347,7 +9350,7 @@
                         <item>Gloria.</item>
                     </list>
                     <p><hi rend="italics">vt in die Pentecostes.</hi></p>
-                    
+
                     <p>Collect/ for Ordens tienere/ oc det Hellige <lb/> Predicke Embet/ aff
                         Alterbogen. <lb/> Epistelen skal læsis paa Danske/ aff Bibelen/ 1. Timoth:
                         3. fra begyndelsen oc til (Disli<lb rend="="/>geste skulle deris Hustruer.)
@@ -9540,1283 +9543,1259 @@
         </body>
         <back>
             <div type="register" xml:id="register-jespersen-1573" n="70">
-                <head type="add">Register</head>
+                <head type="add">Indledning til register</head>
                 <head><pb facs="0474R" n="Rr 1r"/>Register offuer <lb/> denne Bog.</head>
-                <div xml:id="register-hoejtider" n="1">
-                    <head type="add">Højtider</head>
-                    <head>Nogle besynderlige Høyti<lb rend="="/>der om Aarit.</head>
+            </div>
+            <div xml:id="register-hoejtider" n="1">
+                <head type="add">Særlige højtider</head>
+                <head>Nogle besynderlige Høyti<lb rend="="/>der om Aarit.</head>
+                <list rend="simple">
+                    <item>Alle Helligens dag/ <ref target="#allehelgensdag-jespersen-1573"
+                            type="SheetNumber">407.</ref>
+                    </item>
+                    <item>S. Hans baptiste dag/ <ref target="#hans-baptiste-dag" type="SheetNumber"
+                            >304.</ref>
+                    </item>
+                    <item>Marie Renselsis dag/ <ref target="#marie-renselses-dag" type="SheetNumber"
+                            >110.</ref>
+                    </item>
+                    <item>Marie Bebudelsis dag/ <ref target="#marie-bebudelsesdag"
+                            type="SheetNumber">158.</ref>
+                    </item>
+                    <item>Marie Besøgelsis dag/ <ref target="#marie-besoegelsesdag"
+                            type="SheetNumber">313.</ref>
+                    </item>
+                    <item>S. Michels dag/ <ref target="#skt-michels-dag-jespersen-1573"
+                            type="SheetNumber">367.</ref>
+                    </item>
+                </list>
+            </div>
+            <div type="index" xml:id="register-danske-salmer" n="2">
+                <head type="add">Danske salmer</head>
+                <head>Danske Psalmer.</head>
+                <div type="section" xml:id="section-a-jespersen-1573">
+                    <head type="add">Sektion A</head>
+                    <head>
+                        <lb/>A.</head>
                     <list rend="simple">
-                        <item>Alle Helligens dag/ <ref target="#allehelgensdag-jespersen-1573"
-                                type="SheetNumber">407.</ref>
+                        <item>Aff Adams fald er plat fordærffd/ <ref target="#section-15-4"
+                                type="SheetNumber">114.</ref>
                         </item>
-                        <item>S. Hans baptiste dag/ <ref target="#hans-baptiste-dag"
-                                type="SheetNumber">304.</ref>
+                        <item>Aff Dybsens nød raaber ieg til dig/ <ref target="#section-20-1"
+                                type="SheetNumber">134.</ref>
                         </item>
-                        <item>Marie Renselsis dag/ <ref target="#marie-renselses-dag"
-                                type="SheetNumber">110.</ref>
+                        <item>All den gantske Christenhed/ <ref target="#section-5-11"
+                                type="SheetNumber">61.</ref>
                         </item>
-                        <item>Marie Bebudelsis dag/ <ref target="#marie-bebudelsesdag"
-                                type="SheetNumber">158.</ref>
-                        </item>
-                        <item>Marie Besøgelsis dag/ <ref target="#marie-besoegelsesdag"
+                        <item>Alle Christne fryde sig nu/ <ref
+                                target="#alle-kristne-fryde-sig-nu-jespersen-1573"
                                 type="SheetNumber">313.</ref>
                         </item>
-                        <item>S. Michels dag/ <ref target="#skt-michels-dag-jespersen-1573"
+                        <item>Alleniste Gud i Himmerig/ <ref target="#section-1-4"
+                                type="SheetNumber">7.</ref>
+                        </item>
+                    </list>
+                </div>
+                <lb/>
+                <div type="section" xml:id="section-b-jespersen-1573">
+                    <head type="add">Sektion B</head>
+                    <head>B.</head>
+                    <list rend="simple">
+                        <item>Beholt oss Herre ved dit ord/ <ref target="#section-1-14"
+                                type="SheetNumber">23.</ref>
+                        </item>
+                        <item>Beklage aff all min sinde/ <ref
+                                target="#beklage-af-al-min-sinde-jespersen-1573" type="SheetNumber"
+                                >355.</ref>
+                        </item>
+                    </list>
+                </div>
+                <lb/>
+                <div type="section" xml:id="section-c-jespersen-1573">
+                    <head type="add">Sektion C</head>
+                    <head>C.</head>
+                    <list rend="simple">
+                        <item>Christ laa i Dødsens baande/ <ref target="#section-29-9"
+                                type="SheetNumber">205.</ref>
+                        </item>
+                        <item>Christ stod op aff Døde/ <ref target="#section-29-7"
+                                type="SheetNumber">199.</ref>
+                        </item>
+                        <item>Christus Jesus for oss offrit/ <ref
+                                target="#kristus-jesus-for-os-ofret-jespersen-1573"
+                                type="SheetNumber">217.</ref>
+                        </item>
+                        <item>Christus kom selff til Jordans Flod/ <ref target="#section-19-1"
+                                type="SheetNumber">129.</ref>
+                        </item>
+                    </list>
+                </div>
+                <lb/>
+                <div type="section" xml:id="section-d-jespersen-1573">
+                    <head type="add">Sektion D</head>
+                    <head>D.</head>
+                    <list rend="simple">
+                        <item>Den signede dag er oss beteed/ <ref target="#section-5-16"
+                                type="SheetNumber">72.</ref>
+                        </item>
+                        <item>Det hellige Kaarss vor Herre selff bar/ <ref target="#section-28-3"
+                                type="SheetNumber">185.</ref>
+                        </item>
+                        <item>Dig være loff oc priss O Herre Christ/ <ref target="#section-6-5"
+                                type="SheetNumber">81.</ref>
+                        </item>
+                    </list>
+                </div>
+                <lb/>
+                <div type="section" xml:id="section-e-jespersen-1573">
+                    <head type="add">Sektion E</head>
+                    <head>E.</head>
+                    <list rend="simple">
+                        <item>Ærens Konning O Christe/ <ref target="#aerens-konning-o-christe"
+                                type="SheetNumber">210.</ref>
+                        </item>
+                        <item>Ære være Gud Fader i Himmerig/ <ref target="#section-1-8"
+                                type="SheetNumber">13.</ref>
+                        </item>
+                        <item>Esaias den Prophet monne <ref target="#esaias-den-prophet"
                                 type="SheetNumber">367.</ref>
                         </item>
                     </list>
                 </div>
-                <div type="index" xml:id="register-danske-salmer" n="2">
-                    <head type="add">Danske salmer</head>
-                    <head>Danske Psalmer.</head>
-                    <div type="section" xml:id="section-a-jespersen-1573">
-                        <head type="add">Sektion A</head>
-                        <head>
-                            <lb/>A.</head>
-                        <list rend="simple">
-                            <item>Aff Adams fald er plat fordærffd/ <ref target="#section-15-4"
-                                    type="SheetNumber">114.</ref>
-                            </item>
-                            <item>Aff Dybsens nød raaber ieg til dig/ <ref target="#section-20-1"
-                                    type="SheetNumber">134.</ref>
-                            </item>
-                            <item>All den gantske Christenhed/ <ref target="#section-5-11"
-                                    type="SheetNumber">61.</ref>
-                            </item>
-                            <item>Alle Christne fryde sig nu/ <ref
-                                    target="#alle-kristne-fryde-sig-nu-jespersen-1573"
-                                    type="SheetNumber">313.</ref>
-                            </item>
-                            <item>Alleniste Gud i Himmerig/ <ref target="#section-1-4"
-                                    type="SheetNumber">7.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <lb/>
-                    <div type="section" xml:id="section-b-jespersen-1573">
-                        <head type="add">Sektion B</head>
-                        <head>B.</head>
-                        <list rend="simple">
-                            <item>Beholt oss Herre ved dit ord/ <ref target="#section-1-14"
-                                    type="SheetNumber">23.</ref>
-                            </item>
-                            <item>Beklage aff all min sinde/ <ref
-                                    target="#beklage-af-al-min-sinde-jespersen-1573"
-                                    type="SheetNumber">355.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <lb/>
-                    <div type="section" xml:id="section-c-jespersen-1573">
-                        <head type="add">Sektion C</head>
-                        <head>C.</head>
-                        <list rend="simple">
-                            <item>Christ laa i Dødsens baande/ <ref target="#section-29-9"
-                                    type="SheetNumber">205.</ref>
-                            </item>
-                            <item>Christ stod op aff Døde/ <ref target="#section-29-7"
-                                    type="SheetNumber">199.</ref>
-                            </item>
-                            <item>Christus Jesus for oss offrit/ <ref
-                                    target="#kristus-jesus-for-os-ofret-jespersen-1573"
-                                    type="SheetNumber">217.</ref>
-                            </item>
-                            <item>Christus kom selff til Jordans Flod/ <ref target="#section-19-1"
-                                    type="SheetNumber">129.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <lb/>
-                    <div type="section" xml:id="section-d-jespersen-1573">
-                        <head type="add">Sektion D</head>
-                        <head>D.</head>
-                        <list rend="simple">
-                            <item>Den signede dag er oss beteed/ <ref target="#section-5-16"
-                                    type="SheetNumber">72.</ref>
-                            </item>
-                            <item>Det hellige Kaarss vor Herre selff bar/ <ref
-                                    target="#section-28-3" type="SheetNumber">185.</ref>
-                            </item>
-                            <item>Dig være loff oc priss O Herre Christ/ <ref target="#section-6-5"
-                                    type="SheetNumber">81.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <lb/>
-                    <div type="section" xml:id="section-e-jespersen-1573">
-                        <head type="add">Sektion E</head>
-                        <head>E.</head>
-                        <list rend="simple">
-                            <item>Ærens Konning O Christe/ <ref target="#aerens-konning-o-christe"
-                                    type="SheetNumber">210.</ref>
-                            </item>
-                            <item>Ære være Gud Fader i Himmerig/ <ref target="#section-1-8"
-                                    type="SheetNumber">13.</ref>
-                            </item>
-                            <item>Esaias den Prophet monne <ref target="#esaias-den-prophet"
-                                    type="SheetNumber">367.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <lb/>
-                    <div type="section" xml:id="section-f-jespersen-1573">
-                        <head type="add">Sektion F</head>
-                        <head>F.</head>
-                        <list rend="simple">
-                            <item>Fader vor vdi Himmerig/ som badst <ref
-                                    target="#fader-vor-udi-himmerig" type="SheetNumber">430.</ref>
-                            </item>
-                            <item>Forlæ oss met fred naadelig/ <ref target="#section-1-13"
-                                    type="SheetNumber">22.</ref>
-                            </item>
-                            <item>Fra Mennisken haffuer ieg vent min hu/ <ref
-                                    target="#fra-mennesket-haver-jeg-vendt-min-hu"
-                                    type="SheetNumber">393.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <lb/>
-                    <div type="section" xml:id="section-g-jespersen-1573">
-                        <head type="add">Sektion G</head>
-                        <head><pb facs="0475L" n="Rr 1v"/>G.</head>
-                        <list rend="simple">
-                            <item>Gud Fader bliff du nu met oss/ <ref
-                                    target="#trinitatis-jespersen-1573" type="SheetNumber"
-                                    >273.</ref>
-                            </item>
-                            <item>Gud Fader oc Søn oc Hellig Aand/ <ref target="#section-20-5"
-                                    type="SheetNumber">144.</ref>
-                            </item>
-                            <item>Gud Fader vdi Himmerig/ <ref
-                                    target="#gud-fader-udi-himmerig-jespersen-1573"
-                                    type="SheetNumber">290.</ref>
-                            </item>
-                            <item>Guds Søn er kommen aff Himmelen ned/ <ref target="#section-1-9"
-                                    type="SheetNumber">14.</ref>
-                            </item>
-                            <item>Gud være loffuit altid oc benedidet/ <ref target="#section-1-12"
-                                    type="SheetNumber">20.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-h-jespersen-1573">
-                        <head type="add">Sektion H</head>
-                        <head>H.</head>
-
-                        <list rend="simple">
-                            <item>HERr Christ Gud Faders enborne Søn/ <ref target="#section-1-1"
-                                    type="SheetNumber">1.</ref>
-                            </item>
-                            <item>Hielp Gud at ieg nu kunde/ <ref target="#section-27-3"
-                                    type="SheetNumber">172.</ref>
-                            </item>
-                            <item>Hui storme oc fnyse de Hedninge saa/ <ref
-                                    target="#hvi-storme-og-fnyse" type="SheetNumber">411.</ref>
-                            </item>
-                            <item>Huo som vil salig vdi Verden leffue/ <ref
-                                    target="#hvo-som-vil-salig-udi-verden-leve" type="SheetNumber"
-                                    >442.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-j-jespersen-1573">
-                        <head type="add">Sektion J</head>
-                        <head>J.</head>
-                        <list rend="simple">
-                            <item>Jerusalem du hellige Stad/ <ref target="#section-16-1"
-                                    type="SheetNumber">119.</ref>
-                            </item>
-                            <item>Jesu Christ dig tacke wi/ <ref target="#section-20-7"
-                                    type="SheetNumber">148.</ref>
-                            </item>
-                            <item>Jesus Christ vor Frelsermand/ <ref target="#section-29-1"
-                                    type="SheetNumber">187.</ref>
-                            </item>
-                            <item>Jesus Christus er vor salighed/ <ref target="#section-1-11"
-                                    type="SheetNumber">19.</ref>
-                            </item>
-                            <item>Jesus oppaa Kaarssit stod/ <ref target="#section-28-2"
-                                    type="SheetNumber">183.</ref>
-                            </item>
-                            <item>Jt Barn er fød i Bethlehem/ <ref target="#section-5-15"
-                                    type="SheetNumber">70.</ref>
-                            </item>
-                            <item>Jt lidet Barn saa lysteligt/ <ref target="#section-5-8"
-                                    type="SheetNumber">53.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-k-jespersen-1573">
-                        <head type="add">Sektion K</head>
-                        <head>K.</head>
-                        <list rend="simple">
-                            <item>Kom Gud skaber O Hellig Aand/ <ref
-                                    target="#kom-gud-skaber-helligaand-jespersen-1573"
-                                    type="SheetNumber">267.</ref>
-                            </item>
-                            <item>Kom Hellig Aand O Herre Gud/ <ref
-                                    target="#kom-helligaand-o-herre-gud-jespersen-1573"
-                                    type="SheetNumber">263.</ref>
-                            </item>
-                            <item>Kom O Herre Hellig Aand/ <ref target="#kom-o-herre-hellig-aand"
-                                    type="SheetNumber">269.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-l-jespersen-1573">
-                        <head type="add">Sektion L</head>
-                        <head>L.</head>
-                        <list rend="simple">
-                            <item>Litanie paa Danske/ <ref target="#litani-paa-dansk"
-                                    type="SheetNumber">433.</ref>
-                            </item>
-                            <item>Loffuer Gud i fromme Christne/ <ref
-                                    target="#lover-gud-i-fromme-kristne-jespersen-1573"
-                                    type="SheetNumber">309.</ref>
-                            </item>
-                            <item>Loffuit være du Jesu Christ/ <ref target="#section-5-9"
-                                    type="SheetNumber">53.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-m-jespersen-1573">
-                        <head type="add">Sektion M</head>
-                        <head>M.</head>
-                        <list rend="simple">
-                            <item>Met glæde oc fred far ieg nu hen/ <ref target="#section-15-5"
-                                    type="SheetNumber">117.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-n-jespersen-1573">
-                        <head type="add">Sektion N</head>
-                        <head>N.</head>
-                        <list rend="simple">
-                            <item>Nu bede wi den Hellig Aand/ <ref target="#section-1-6"
-                                    type="SheetNumber">10.</ref>
-                            </item>
-                            <item>Nu er fød oss Jesus Christ/ <ref target="#section-5-1"
-                                    type="SheetNumber">36.</ref>
-                            </item>
-                            <item>Nu er oss Gud miskundelig/ <ref
-                                    target="#nu-er-os-gud-miskundelig-jespersen-1573"
-                                    type="SheetNumber">332.</ref>
-                            </item>
-                            <item>Nu lader oss alle tacke Gud vor Herre/ <ref target="#section-5-6"
-                                    type="SheetNumber">47.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-o-jespersen-1573">
-                        <head type="add">Sektion O</head>
-                        <head>O.</head>
-                        <list rend="simple">
-                            <item>O Gud aff Himmelen see her til/ <ref
-                                    target="#o-gud-af-himlen-se-hertil" type="SheetNumber"
-                                    >304.</ref>
-                            </item>
-                            <item>O Guds lam wskyldig/ paa Kaarssit <ref target="#section-1-10"
-                                    type="SheetNumber">18.</ref>
-                            </item>
-                            <item>O Gud vor Fader i euighed/ <ref target="#section-28-1"
-                                    type="SheetNumber">176.</ref>
-                            </item>
-                            <item>O Gud wi loffue dig/ wi bekiende dig <ref
-                                    target="#o-gud-vi-love-dig-jespersen-1573" type="SheetNumber"
-                                    >380.</ref>
-                            </item>
-                            <item>O Herre Gud benaade mig/ <ref
-                                    target="#o-herre-gud-benaade-mig-jespersen-1573"
-                                    type="SheetNumber">427.</ref>
-                            </item>
-                            <item><pb facs="0476R" n="Rr 2r"/>O Jesu Christ som Mandom tog <ref
-                                    target="#section-15-1" type="SheetNumber">110.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-r-jespersen-1573">
-                        <head type="add">Sektion R</head>
-                        <head>
-                            <hi rend="italics">R.</hi>
-                        </head>
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Resonet in laudibus  </hi>
-                                <ref target="#section-5-10" type="SheetNumber">59.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-s-jespersen-1573">
-                        <head type="add">Sektion S</head>
-                        <head>S.</head>
-                        <list rend="simple">
-                            <item>Saa taler den wuise mund <ref
-                                    target="#saa-taler-den-uvise-mund-jespersen-1573"
-                                    type="SheetNumber">417.</ref>
-                            </item>
-                            <item>Salig er den Mand der Gud frycter <ref
-                                    target="#soendagsbrudemesse" type="SheetNumber">439.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-v-jespersen-1573">
-                        <head type="add">Sektion V</head>
-                        <head>V.</head>
-                        <list rend="simple">
-                            <item>Vaare Gud icke met oss denne tid <ref
-                                    target="#var-gud-ikke-med-os-denne-tid" type="SheetNumber"
-                                    >350.</ref>
-                            </item>
-                            <item>Vden Herren opholder vort Huss <ref
-                                    target="#uden-herren-opholder-vort-hus" type="SheetNumber"
-                                    >337.</ref>
-                            </item>
-                            <item>Vor Gud hand er saa fast en borg/ <ref
-                                    target="#vor-gud-han-er-saa-fast" type="SheetNumber">388.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="section-w-jespersen-1573">
-                        <head type="add">Sektion W</head>
-                        <head>W.</head>
-                        <list rend="simple">
-                            <item>Wi arme Adams Børn alle <ref target="#section-20-4"
-                                    type="SheetNumber">142.</ref>
-                            </item>
-                            <item>Wi tro alle sammen paa en Gud <ref target="#section-1-7"
-                                    type="SheetNumber">11.</ref>
-                            </item>
-                        </list>
-                    </div>
+                <lb/>
+                <div type="section" xml:id="section-f-jespersen-1573">
+                    <head type="add">Sektion F</head>
+                    <head>F.</head>
+                    <list rend="simple">
+                        <item>Fader vor vdi Himmerig/ som badst <ref
+                                target="#fader-vor-udi-himmerig" type="SheetNumber">430.</ref>
+                        </item>
+                        <item>Forlæ oss met fred naadelig/ <ref target="#section-1-13"
+                                type="SheetNumber">22.</ref>
+                        </item>
+                        <item>Fra Mennisken haffuer ieg vent min hu/ <ref
+                                target="#fra-mennesket-haver-jeg-vendt-min-hu" type="SheetNumber"
+                                >393.</ref>
+                        </item>
+                    </list>
                 </div>
-                <div type="index" xml:id="register-introitus" n="3">
-                    <head type="add">Introitus</head>
+                <lb/>
+                <div type="section" xml:id="section-g-jespersen-1573">
+                    <head type="add">Sektion G</head>
+                    <head><pb facs="0475L" n="Rr 1v"/>G.</head>
+                    <list rend="simple">
+                        <item>Gud Fader bliff du nu met oss/ <ref
+                                target="#trinitatis-jespersen-1573" type="SheetNumber">273.</ref>
+                        </item>
+                        <item>Gud Fader oc Søn oc Hellig Aand/ <ref target="#section-20-5"
+                                type="SheetNumber">144.</ref>
+                        </item>
+                        <item>Gud Fader vdi Himmerig/ <ref
+                                target="#gud-fader-udi-himmerig-jespersen-1573" type="SheetNumber"
+                                >290.</ref>
+                        </item>
+                        <item>Guds Søn er kommen aff Himmelen ned/ <ref target="#section-1-9"
+                                type="SheetNumber">14.</ref>
+                        </item>
+                        <item>Gud være loffuit altid oc benedidet/ <ref target="#section-1-12"
+                                type="SheetNumber">20.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-h-jespersen-1573">
+                    <head type="add">Sektion H</head>
+                    <head>H.</head>
+
+                    <list rend="simple">
+                        <item>HERr Christ Gud Faders enborne Søn/ <ref target="#section-1-1"
+                                type="SheetNumber">1.</ref>
+                        </item>
+                        <item>Hielp Gud at ieg nu kunde/ <ref target="#section-27-3"
+                                type="SheetNumber">172.</ref>
+                        </item>
+                        <item>Hui storme oc fnyse de Hedninge saa/ <ref
+                                target="#hvi-storme-og-fnyse" type="SheetNumber">411.</ref>
+                        </item>
+                        <item>Huo som vil salig vdi Verden leffue/ <ref
+                                target="#hvo-som-vil-salig-udi-verden-leve" type="SheetNumber"
+                                >442.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-j-jespersen-1573">
+                    <head type="add">Sektion J</head>
+                    <head>J.</head>
+                    <list rend="simple">
+                        <item>Jerusalem du hellige Stad/ <ref target="#section-16-1"
+                                type="SheetNumber">119.</ref>
+                        </item>
+                        <item>Jesu Christ dig tacke wi/ <ref target="#section-20-7"
+                                type="SheetNumber">148.</ref>
+                        </item>
+                        <item>Jesus Christ vor Frelsermand/ <ref target="#section-29-1"
+                                type="SheetNumber">187.</ref>
+                        </item>
+                        <item>Jesus Christus er vor salighed/ <ref target="#section-1-11"
+                                type="SheetNumber">19.</ref>
+                        </item>
+                        <item>Jesus oppaa Kaarssit stod/ <ref target="#section-28-2"
+                                type="SheetNumber">183.</ref>
+                        </item>
+                        <item>Jt Barn er fød i Bethlehem/ <ref target="#section-5-15"
+                                type="SheetNumber">70.</ref>
+                        </item>
+                        <item>Jt lidet Barn saa lysteligt/ <ref target="#section-5-8"
+                                type="SheetNumber">53.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-k-jespersen-1573">
+                    <head type="add">Sektion K</head>
+                    <head>K.</head>
+                    <list rend="simple">
+                        <item>Kom Gud skaber O Hellig Aand/ <ref
+                                target="#kom-gud-skaber-helligaand-jespersen-1573"
+                                type="SheetNumber">267.</ref>
+                        </item>
+                        <item>Kom Hellig Aand O Herre Gud/ <ref
+                                target="#kom-helligaand-o-herre-gud-jespersen-1573"
+                                type="SheetNumber">263.</ref>
+                        </item>
+                        <item>Kom O Herre Hellig Aand/ <ref target="#kom-o-herre-hellig-aand"
+                                type="SheetNumber">269.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-l-jespersen-1573">
+                    <head type="add">Sektion L</head>
+                    <head>L.</head>
+                    <list rend="simple">
+                        <item>Litanie paa Danske/ <ref target="#litani-paa-dansk" type="SheetNumber"
+                                >433.</ref>
+                        </item>
+                        <item>Loffuer Gud i fromme Christne/ <ref
+                                target="#lover-gud-i-fromme-kristne-jespersen-1573"
+                                type="SheetNumber">309.</ref>
+                        </item>
+                        <item>Loffuit være du Jesu Christ/ <ref target="#section-5-9"
+                                type="SheetNumber">53.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-m-jespersen-1573">
+                    <head type="add">Sektion M</head>
+                    <head>M.</head>
+                    <list rend="simple">
+                        <item>Met glæde oc fred far ieg nu hen/ <ref target="#section-15-5"
+                                type="SheetNumber">117.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-n-jespersen-1573">
+                    <head type="add">Sektion N</head>
+                    <head>N.</head>
+                    <list rend="simple">
+                        <item>Nu bede wi den Hellig Aand/ <ref target="#section-1-6"
+                                type="SheetNumber">10.</ref>
+                        </item>
+                        <item>Nu er fød oss Jesus Christ/ <ref target="#section-5-1"
+                                type="SheetNumber">36.</ref>
+                        </item>
+                        <item>Nu er oss Gud miskundelig/ <ref
+                                target="#nu-er-os-gud-miskundelig-jespersen-1573" type="SheetNumber"
+                                >332.</ref>
+                        </item>
+                        <item>Nu lader oss alle tacke Gud vor Herre/ <ref target="#section-5-6"
+                                type="SheetNumber">47.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-o-jespersen-1573">
+                    <head type="add">Sektion O</head>
+                    <head>O.</head>
+                    <list rend="simple">
+                        <item>O Gud aff Himmelen see her til/ <ref
+                                target="#o-gud-af-himlen-se-hertil" type="SheetNumber">304.</ref>
+                        </item>
+                        <item>O Guds lam wskyldig/ paa Kaarssit <ref target="#section-1-10"
+                                type="SheetNumber">18.</ref>
+                        </item>
+                        <item>O Gud vor Fader i euighed/ <ref target="#section-28-1"
+                                type="SheetNumber">176.</ref>
+                        </item>
+                        <item>O Gud wi loffue dig/ wi bekiende dig <ref
+                                target="#o-gud-vi-love-dig-jespersen-1573" type="SheetNumber"
+                                >380.</ref>
+                        </item>
+                        <item>O Herre Gud benaade mig/ <ref
+                                target="#o-herre-gud-benaade-mig-jespersen-1573" type="SheetNumber"
+                                >427.</ref>
+                        </item>
+                        <item><pb facs="0476R" n="Rr 2r"/>O Jesu Christ som Mandom tog <ref
+                                target="#section-15-1" type="SheetNumber">110.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-r-jespersen-1573">
+                    <head type="add">Sektion R</head>
                     <head>
-                        <hi rend="italics">INTROITVS.</hi>
+                        <hi rend="italics">R.</hi>
                     </head>
-                    <div type="section" xml:id="introitus-section-a">
-                        <head type="add">Sektion A</head>
-                        <head>
-                            <hi rend="italics">A.</hi>
-                        </head>
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Adorate Deum omnes Angeli eius</hi> , <ref
-                                    target="#section-14-1" type="SheetNumber">107.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Ad te leuaui animam meam</hi>
-                                <ref target="#section-1-2" type="SheetNumber">3.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="introitus-section-b">
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Resonet in laudibus </hi>
+                            <ref target="#section-5-10" type="SheetNumber">59.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-s-jespersen-1573">
+                    <head type="add">Sektion S</head>
+                    <head>S.</head>
+                    <list rend="simple">
+                        <item>Saa taler den wuise mund <ref
+                                target="#saa-taler-den-uvise-mund-jespersen-1573" type="SheetNumber"
+                                >417.</ref>
+                        </item>
+                        <item>Salig er den Mand der Gud frycter <ref target="#soendagsbrudemesse"
+                                type="SheetNumber">439.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-v-jespersen-1573">
+                    <head type="add">Sektion V</head>
+                    <head>V.</head>
+                    <list rend="simple">
+                        <item>Vaare Gud icke met oss denne tid <ref
+                                target="#var-gud-ikke-med-os-denne-tid" type="SheetNumber"
+                                >350.</ref>
+                        </item>
+                        <item>Vden Herren opholder vort Huss <ref
+                                target="#uden-herren-opholder-vort-hus" type="SheetNumber"
+                                >337.</ref>
+                        </item>
+                        <item>Vor Gud hand er saa fast en borg/ <ref
+                                target="#vor-gud-han-er-saa-fast" type="SheetNumber">388.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="section-w-jespersen-1573">
+                    <head type="add">Sektion W</head>
+                    <head>W.</head>
+                    <list rend="simple">
+                        <item>Wi arme Adams Børn alle <ref target="#section-20-4" type="SheetNumber"
+                                >142.</ref>
+                        </item>
+                        <item>Wi tro alle sammen paa en Gud <ref target="#section-1-7"
+                                type="SheetNumber">11.</ref>
+                        </item>
+                    </list>
+                </div>
+            </div>
+            <div type="index" xml:id="register-introitus" n="3">
+                <head type="add">Introitus</head>
+                <head>
+                    <hi rend="italics">INTROITVS.</hi>
+                </head>
+                <div type="section" xml:id="introitus-section-a">
+                    <head type="add">Sektion A</head>
+                    <head>
+                        <hi rend="italics">A.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Adorate Deum omnes Angeli eius</hi> , <ref
+                                target="#section-14-1" type="SheetNumber">107.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Ad te leuaui animam meam</hi>
+                            <ref target="#section-1-2" type="SheetNumber">3.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-b">
+                    <head type="add">Sektion B</head>
+                    <head>
+                        <hi rend="italics">B.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Benedicite Domino omnes Angeli</hi>
+                            <ref target="#benedicite-domino" type="SheetNumber">370.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Benedicta sit sancta trinitas</hi> , <ref
+                                target="#benedicta-sit-sancta-trinitas" type="SheetNumber"
+                                >274.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-c">
+                    <head type="add">Sektion C</head>
+                    <head>
+                        <hi rend="italics">C.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Cantate Domino canticum nouum.</hi>
+                            <ref target="#cantate-domino" type="SheetNumber">231.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Circumdederunt me gemitus mortis</hi> , <ref
+                                target="#section-17-1" type="SheetNumber">122.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-D">
+                    <head type="add">Sektion D</head>
+                    <head>
+                        <hi rend="italics">D.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Da pacem Domine sustinentibus te</hi> , <ref
+                                target="#da-pacem-domine-jespersen-1573" type="SheetNumber"
+                                >396.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">De ventre matris meæ</hi>
+                            <ref target="#de-ventre-matris" type="SheetNumber">306.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Deus in adiutorium meum intende</hi> , <ref
+                                target="#deus-in-adiutorium-meum" type="SheetNumber">346.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Deus in loco sancto suo</hi> , <ref
+                                target="#deus-in-loco-sancto" type="SheetNumber">343.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Dicit Dominus, ego cogito</hi>
+                            <ref target="#dicit-dominus" type="SheetNumber">422.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Domine in tua misericordia sperauj</hi> , <ref
+                                target="#domine-in-tua" type="SheetNumber">286.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Domine ne longe facias auxilium</hi>
+                            <ref target="#section-26-1" type="SheetNumber">164.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Dominus fortitudo plebis suæ</hi> , <ref
+                                target="#dominus-fortitudo" type="SheetNumber">321.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Dominus illuminatio mea, et salus mea</hi> , <ref
+                                target="#dominus-illuminatio-mea" type="SheetNumber">300.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Dum clamarem ad Dominum, exaudiuit</hi>
+                            <ref target="#dum-clamarem-ad-dominum" type="SheetNumber">339.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Dum medium silentium teneret omnia</hi> , <ref
+                                target="#section-8-1" type="SheetNumber">87.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-e">
+                    <head type="add">Sektion E</head>
+                    <head>
+                        <hi rend="italics">E.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Ecce aduenit Dominator Dominus</hi> , <ref
+                                target="#section-11-1" type="SheetNumber">97.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Ecce Deus adiuuat me, et Dominus</hi>
+                            <ref target="#ecce-deus" type="SheetNumber">334.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Esto mihi in Deum protectorem</hi> , <ref
+                                target="#section-19-2" type="SheetNumber">132.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics"><pb facs="0477L" n="Rr 2v"/>Etenim sederunt
+                                principes, et aduersum me</hi>
+                            <ref target="#section-6-1" type="SheetNumber">75.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Et postquam consummati sunt dies octo</hi> , <ref
+                                target="#section-9-1-jespersen-1573" type="SheetNumber">91.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Exaudi Domine vocem meam etc. adiutor</hi>
+                            <ref target="#exaudi-domine-vocem-meam" type="SheetNumber">318.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Exaudi Domine vocem meam etc. tibi dixit</hi>
+                            <ref target="#exaudi-domine" type="SheetNumber">240.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Exurge, quare obdormis Domine? exurge</hi>
+                            <ref target="#section-18-1" type="SheetNumber">126.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-f">
+                    <head type="add">Sektion F</head>
+                    <head>
+                        <hi rend="italics">F.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Factus est Dominus protector meus, et eduxit</hi>
+                            <ref target="#factus-est-dominus-protector-meus" type="SheetNumber"
+                                >293.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-g">
+                    <head type="add">Sektion g</head>
+                    <head>
+                        <hi rend="italics">G.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Gaudeamus omnes in Domino, diem festum</hi>
+                            <ref target="#gaudeamus-omnes-in-domino" type="SheetNumber">315.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Gaudete in domino semper, iterum dico</hi>
+                            <ref target="#section-3-1" type="SheetNumber">28.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-i">
+                    <head type="add">Sektion I</head>
+                    <head>
+                        <hi rend="italics">I.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Inclina Domine aurem tuam ad me, et exaudi</hi>
+                            <ref target="#inclina-domine" type="SheetNumber">360.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">In excelso throno vidj sedere virum</hi> , <ref
+                                target="#section-12-1" type="SheetNumber">101.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">In medio Ecclesiæ aperuit os eius</hi> , <ref
+                                target="#section-7-1" type="SheetNumber">84.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Inuocauit me, et ego exaudiam eum</hi> , <ref
+                                target="#section-20-2" type="SheetNumber">136.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">In voluntate tua Domine vniuersa sunt</hi>
+                            <ref target="#in-voluntate-tua-domine" type="SheetNumber">413.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Iubilate Deo Omnis terra, haleluia.</hi>
+                            <ref target="#iubilate-deo-omnis-terra" type="SheetNumber">227.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Iudica me Deus, et discerne causam meam</hi>
+                            <ref target="#section-25-1" type="SheetNumber">161.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Iustus es Domine, et rectum iudicium tuum.</hi>
+                            <ref target="#iustus-es-domine" type="SheetNumber">390.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-l">
+                    <head type="add">Sektion L</head>
+                    <head>
+                        <hi rend="italics">L.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Lætare Ierusalem, et conuentum facite</hi>
+                            <ref target="#section-23-1" type="SheetNumber">155.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-m">
+                    <head type="add">Sektion M</head>
+                    <head>
+                        <hi rend="italics">M.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Memento nostri Domine, in beneplacito populi</hi>
+                            <ref target="#section-4-1" type="SheetNumber">32.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Miserere mihi Domine, quoniam ad te clamaui</hi>
+                            <ref target="#miserere-mihi-domine" type="SheetNumber">364.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Misericordia Domini plena est terra</hi> , <ref
+                                target="#misericordia-domini" type="SheetNumber">224.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-n">
+                    <head type="add">Sektion N</head>
+                    <head>
+                        <hi rend="italics">N.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Nos autem gloriari oportet in cruce Domini</hi>
+                            <ref target="#section-27-1" type="SheetNumber">166.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-o">
+                    <head type="add">Sektion O</head>
+                    <head>
+                        <hi rend="italics">O.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Oculi mei semper ad Dominum, quia ipse euellet</hi>
+                            <ref target="#section-22-1" type="SheetNumber">153.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Omnes gentes plaudite manibus, iubilate Deo</hi>
+                            <ref target="#omnes-gentes-plaudite-manibus" type="SheetNumber"
+                                >325.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Omnia quæ fecisti nobis Domine, in vero iudicio</hi>
+                            <ref target="#omnia-quae-fecisti" type="SheetNumber">403.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Omnis terra adoret te Deus, et psallat tibi</hi>
+                            <ref target="#section-13-1" type="SheetNumber">104.</ref>
+                        </item>
+                    </list>
+                </div>
+                <lb/>
+                <div type="section" xml:id="introitus-section-p">
+                    <head type="add">Sektion P</head>
+                    <head>
+                        <hi rend="italics">P.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Populus Sion, ecce Dominus veniet ad saluandas</hi>
+                            <ref target="#section-2-1" type="SheetNumber">25.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Protector noster aspice Deus, et respice</hi>
+                            <ref target="#protector-noster" type="SheetNumber">357.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Puer natus est nobis, et filius datus est nobis</hi>
+                            , <ref target="#section-5-2" type="SheetNumber">37.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-q">
+                    <head type="add">Sektion Q</head>
+                    <head>
+                        <hi rend="italics">Q.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Quasi modo geniti infantes, haleluia.</hi>
+                            <ref target="#quasi-modo" type="SheetNumber">220.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-r">
+                    <head type="add">Sektion R</head>
+                    <head>
+                        <hi rend="italics">R.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Reminiscere miserationum tuarum Domine</hi> , <ref
+                                target="#section-21-1" type="SheetNumber">150.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics"><pb facs="0478R" n="Rr 3r"/>Respice Domine in
+                                testamentum tuum</hi> , <ref target="#respice-domine"
+                                type="SheetNumber">351.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Respice in me, et miserere mei Domine</hi> , <ref
+                                target="#respice-in-me" type="SheetNumber">296.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Resurrexi, et adhuc tecum sum, haleluia.</hi>
+                            <ref target="#section-29-2" type="SheetNumber">188.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Rorate coeli desuper, et nubes pluant iustum.</hi>
+                            <ref target="#section-24-1" type="SheetNumber">158.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-s">
+                    <head type="add">Sektion S</head>
+                    <head>
+                        <hi rend="italics">S.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Sacerdotes eius induant salutare, et sancti</hi>
+                            <ref target="#sacerdotes-eius-induant-salutare" type="SheetNumber"
+                                >443.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Salus populi ego sum, dicit Dominus</hi> , <ref
+                                target="#salus-populi-ego-sum" type="SheetNumber">399.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Si iniquitates obseruaueris Domine</hi> , <ref
+                                target="#si-iniquitates" type="SheetNumber">419.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Spiritus Domini repleuit orbem terrarum</hi> , <ref
+                                target="#spiritus-domini" type="SheetNumber">245.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Suscepimus Deus misericordiam tuam</hi> , <ref
+                                target="#suscepimus-deus" type="SheetNumber">328.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-t">
+                    <head type="add">Sektion T</head>
+                    <head>
+                        <hi rend="italics">T.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Timete Dominum omnes Sancti eius</hi> , <ref
+                                target="#allehelgensdag-introitus" type="SheetNumber">407.</ref>
+                        </item>
+                    </list>
+                </div>
+                <div type="section" xml:id="introitus-section-v">
+                    <head type="add">Sektion V</head>
+                    <head>
+                        <hi rend="italics">V.</hi>
+                    </head>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Viri galilæi, quid admiramini, aspicientes</hi>
+                            <ref target="#viri-galilaei" type="SheetNumber">237.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Vocem iucunditatis annunciate, et audiatur</hi> ,
+                                <ref target="#vocem-iucunditatis" type="SheetNumber">233.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Vultum tuum deprecabuntur omnes diuites</hi>
+                            <ref target="#section-10-1" type="SheetNumber">94.</ref>
+                        </item>
+                    </list>
+                </div>
+            </div>
+            <div type="index" xml:id="index-antiphona" n="4">
+                <head type="add">Antifon</head>
+                <head>
+                    <hi rend="italics">ANTIPHONA.</hi>
+                </head>
+
+                <list rend="simple">
+                    <item>
+                        <hi rend="italics">Veni sancte Spiritus, reple tuorum corda</hi>
+                        <ref target="#veni-sancte-spiritus-jespersen-1573" type="SheetNumber"
+                            >244.</ref>
+                    </item>
+                </list>
+
+            </div>
+            <div type="index" xml:id="register-haleluja" n="5">
+                <head type="add">Haleluja</head>
+                <head>
+                    <hi rend="italics">HALELVIA.</hi>
+                </head>
+                <div type="section" xml:id="haleluja-section-a">
+                    <head type="add">Sektion A</head>
+
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Angelus domini descendit de coelo, et accedens</hi>
+                            <ref target="#haleluia-angelus-domini" type="SheetNumber">222.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Angelus domini nunciauit Mariæ</hi> , <ref
+                                target="#haleluia-angelus-domini-nuntiauit-mariae"
+                                type="SheetNumber">160.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Ascendens Christus in altum, captiuam duxit</hi>
+                            <ref target="#haleluia-ascendens-christus" type="SheetNumber">243.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Ascendit Deus in iubilatione, et dominus</hi>
+                            <ref target="#haleluia-ascendit-deus" type="SheetNumber">239.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Attendite popule meus legem meam.</hi>
+                            <ref target="#haleluia-attendite-popule-meus-in-legem-meam"
+                                type="SheetNumber">336.</ref>
+                        </item>
+                    </list>
+
+                    <div type="section" xml:id="haleluja-section-b">
                         <head type="add">Sektion B</head>
                         <head>
                             <hi rend="italics">B.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Benedicite Domino omnes Angeli</hi>
-                                <ref target="#benedicite-domino" type="SheetNumber">370.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Benedicta sit sancta trinitas</hi> , <ref
-                                    target="#benedicta-sit-sancta-trinitas" type="SheetNumber"
-                                    >274.</ref>
+                                <hi rend="italics">Benedictus es domine deus patrum</hi>
+                                <ref target="#haleluia-benedictus-es-domine-deus" type="SheetNumber"
+                                    >276.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-c">
+                    <div type="section" xml:id="haleluja-section-c">
                         <head type="add">Sektion C</head>
                         <head>
                             <hi rend="italics">C.</hi>
                         </head>
+
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Cantate Domino canticum nouum.</hi>
-                                <ref target="#cantate-domino" type="SheetNumber">231.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Circumdederunt me gemitus mortis</hi> , <ref
-                                    target="#section-17-1" type="SheetNumber">122.</ref>
+                                <hi rend="italics">Concussum est mare, et contremuit terra</hi> ,
+                                    <ref target="#haleluia-concussum-est-mare" type="SheetNumber"
+                                    >372.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-D">
+                    <div type="section" xml:id="haleluja-section-d">
                         <head type="add">Sektion D</head>
                         <head>
                             <hi rend="italics">D.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Da pacem Domine sustinentibus te</hi> , <ref
-                                    target="#da-pacem-domine-jespersen-1573" type="SheetNumber"
-                                    >396.</ref>
+                                <hi rend="italics">De profundis clamaui ad te Domine</hi> , <ref
+                                    target="#section-17-2" type="SheetNumber">124.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">De ventre matris meæ</hi>
-                                <ref target="#de-ventre-matris" type="SheetNumber">306.</ref>
+                                <hi rend="italics">De profundis clamaui ad te Domine</hi> , <ref
+                                    target="#haleluia-de-profundis-clamaui-ad-te-domine"
+                                    type="SheetNumber">416.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Deus in adiutorium meum intende</hi> , <ref
-                                    target="#deus-in-adiutorium-meum" type="SheetNumber">346.</ref>
+                                <hi rend="italics">Deus iudex iustus, fortis et paciens</hi> , <ref
+                                    target="#haleluia-deus-iudex-iustus" type="SheetNumber"
+                                    >295.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Deus in loco sancto suo</hi> , <ref
-                                    target="#deus-in-loco-sancto" type="SheetNumber">343.</ref>
+                                <hi rend="italics">Dextera Dei fecit virtutem, dextera</hi>
+                                <ref target="#haleluia-dextera-dei" type="SheetNumber">401.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Dicit Dominus, ego cogito</hi>
-                                <ref target="#dicit-dominus" type="SheetNumber">422.</ref>
+                                <hi rend="italics">Dies sanctificatus illuxit nobis, venite</hi>
+                                <ref target="#section-5-5" type="SheetNumber">44.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Domine in tua misericordia sperauj</hi> , <ref
-                                    target="#domine-in-tua" type="SheetNumber">286.</ref>
+                                <hi rend="italics">Diffusa est gratia in labijs tuis</hi> , <ref
+                                    target="#section-10-2" type="SheetNumber">96.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Domine ne longe facias auxilium</hi>
-                                <ref target="#section-26-1" type="SheetNumber">164.</ref>
+                                <hi rend="italics">Dilexi quoniam exaudiuit Dominus vocem</hi>
+                                <ref target="#haleluia-dilexi" type="SheetNumber">392.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Dominus fortitudo plebis suæ</hi> , <ref
-                                    target="#dominus-fortitudo" type="SheetNumber">321.</ref>
+                                <hi rend="italics">Diligam te Domine virtus mea, Dominus</hi>
+                                <ref target="#haleluia-diligam-te-domine" type="SheetNumber"
+                                    >298.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Dominus illuminatio mea, et salus mea</hi> , <ref
-                                    target="#dominus-illuminatio-mea" type="SheetNumber">300.</ref>
+                                <hi rend="italics">Domine Deus meus, in te speraui, saluum</hi>
+                                <ref target="#haleluia-domine-deus-meus" type="SheetNumber"
+                                    >288.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Dum clamarem ad Dominum, exaudiuit</hi>
-                                <ref target="#dum-clamarem-ad-dominum" type="SheetNumber">339.</ref>
+                                <hi rend="italics"><pb facs="0479L" n="Rr 3v"/>Domine Deus salutis
+                                    meæ, in die</hi>
+                                <ref target="#haleluia-domine-deus-salutis-meae" type="SheetNumber"
+                                    >345.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Dum medium silentium teneret omnia</hi> , <ref
-                                    target="#section-8-1" type="SheetNumber">87.</ref>
+                                <hi rend="italics">Domine in virtute tua lætabitur rex</hi> , <ref
+                                    target="#haleluia-domine-in-virtute" type="SheetNumber"
+                                    >302.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Domine non secundum peccata nostra</hi>
+                                <ref target="#section-20-3" type="SheetNumber">138.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Domine refugium factus es nobis</hi> , <ref
+                                    target="#haleluia-domine-refugium" type="SheetNumber">348.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Dominus regnauit, decorem induit</hi> , <ref
+                                    target="#section-8-2" type="SheetNumber">90.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Dominus regnauit, exultet terra</hi> , <ref
+                                    target="#section-14-2" type="SheetNumber">109.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-e">
+                    <div type="section" xml:id="haleluja-section-e">
                         <head type="add">Sektion E</head>
                         <head>
                             <hi rend="italics">E.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Ecce aduenit Dominator Dominus</hi> , <ref
-                                    target="#section-11-1" type="SheetNumber">97.</ref>
+                                <hi rend="italics">Eripe me de inimicis meis Deus meus</hi> , <ref
+                                    target="#haleluia-eripe-me" type="SheetNumber">327.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Ecce Deus adiuuat me, et Dominus</hi>
-                                <ref target="#ecce-deus" type="SheetNumber">334.</ref>
+                                <hi rend="italics">Excita Domine potentiam tuam, et venj</hi> , <ref
+                                    target="#section-3-2" type="SheetNumber">31.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Esto mihi in Deum protectorem</hi> , <ref
-                                    target="#section-19-2" type="SheetNumber">132.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics"><pb facs="0477L" n="Rr 2v"/>Etenim sederunt
-                                    principes, et aduersum me</hi>
-                                <ref target="#section-6-1" type="SheetNumber">75.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Et postquam consummati sunt dies octo</hi> , <ref
-                                    target="#section-9-1-jespersen-1573" type="SheetNumber"
-                                    >91.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Exaudi Domine vocem meam etc. adiutor</hi>
-                                <ref target="#exaudi-domine-vocem-meam" type="SheetNumber"
-                                    >318.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Exaudi Domine vocem meam etc. tibi dixit</hi>
-                                <ref target="#exaudi-domine" type="SheetNumber">240.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Exurge, quare obdormis Domine? exurge</hi>
-                                <ref target="#section-18-1" type="SheetNumber">126.</ref>
+                                <hi rend="italics">Exultate Deo adiutori nostro, iubilate</hi>
+                                <ref target="#haleluia-exultate-deo" type="SheetNumber">342.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-f">
-                        <head type="add">Sektion F</head>
+                    <div type="section" xml:id="haleluja-section-h">
+                        <head type="add">Sektion H</head>
                         <head>
-                            <hi rend="italics">F.</hi>
+                            <hi rend="italics">H.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Factus est Dominus protector meus, et eduxit</hi>
-                                <ref target="#factus-est-dominus-protector-meus" type="SheetNumber"
-                                    >293.</ref>
+                                <hi>Haleluia/ det bør oss altid siunge /</hi>
+                                <ref target="#section-16-3" type="SheetNumber">120.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Hic est discipulus ille qui testimonium</hi>
+                                <ref target="#section-7-2" type="SheetNumber">86.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-g">
-                        <head type="add">Sektion g</head>
-                        <head>
-                            <hi rend="italics">G.</hi>
-                        </head>
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Gaudeamus omnes in Domino, diem festum</hi>
-                                <ref target="#gaudeamus-omnes-in-domino" type="SheetNumber"
-                                    >315.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Gaudete in domino semper, iterum dico</hi>
-                                <ref target="#section-3-1" type="SheetNumber">28.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="introitus-section-i">
+                    <div type="section" xml:id="haleluja-section-i">
                         <head type="add">Sektion I</head>
                         <head>
                             <hi rend="italics">I.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Inclina Domine aurem tuam ad me, et exaudi</hi>
-                                <ref target="#inclina-domine" type="SheetNumber">360.</ref>
+                                <hi rend="italics">In exitu Israel ex Ægypto, domus</hi>
+                                <ref target="#haleluia-in-exitu-israel-ex-egypto" type="SheetNumber"
+                                    >366.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">In excelso throno vidj sedere virum</hi> , <ref
-                                    target="#section-12-1" type="SheetNumber">101.</ref>
+                                <hi rend="italics">In te Domine speraui, non confundar</hi>
+                                <ref target="#haleluia-in-te-domine-speraui" type="SheetNumber"
+                                    >320.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">In medio Ecclesiæ aperuit os eius</hi> , <ref
-                                    target="#section-7-1" type="SheetNumber">84.</ref>
+                                <hi rend="italics">Inter natos mulierum non surrexit maior</hi>
+                                <ref target="#haleluia-inter-natos" type="SheetNumber">308.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Inuocauit me, et ego exaudiam eum</hi> , <ref
-                                    target="#section-20-2" type="SheetNumber">136.</ref>
+                                <hi rend="italics">Iudicabunt sancti nationes</hi> , <ref
+                                    target="#allehelgensdag-haleluja" type="SheetNumber">409.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">In voluntate tua Domine vniuersa sunt</hi>
-                                <ref target="#in-voluntate-tua-domine" type="SheetNumber">413.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Iubilate Deo Omnis terra, haleluia.</hi>
-                                <ref target="#iubilate-deo-omnis-terra" type="SheetNumber"
-                                    >227.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Iudica me Deus, et discerne causam meam</hi>
-                                <ref target="#section-25-1" type="SheetNumber">161.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Iustus es Domine, et rectum iudicium tuum.</hi>
-                                <ref target="#iustus-es-domine" type="SheetNumber">390.</ref>
+                                <hi rend="italics">Iubilate Deo omnis terra</hi> , <ref
+                                    target="#section-12-2" type="SheetNumber">103.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-l">
+                    <div type="section" xml:id="haleluja-section-l">
                         <head type="add">Sektion L</head>
                         <head>
                             <hi rend="italics">L.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Lætare Ierusalem, et conuentum facite</hi>
-                                <ref target="#section-23-1" type="SheetNumber">155.</ref>
+                                <hi rend="italics">Lætatus sum in his quæ dicta sunt mihi</hi> ,
+                                    <ref target="#section-2-2" type="SheetNumber">27.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Lauda anima mea Dominum</hi> , <ref
+                                    target="#haleluia-lauda-anima" type="SheetNumber">421.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Laudate Deum omnes Angeli eius</hi> , <ref
+                                    target="#section-13-2" type="SheetNumber">106.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Laudate Dominum omnes gentes</hi> , <ref
+                                    target="#haleluia-laudate-dominum-omnes-gentes"
+                                    type="SheetNumber">398.</ref>
+                            </item>
+                            <item>
+                                <hi>Loffuer Gud i Hedninger alle /</hi>
+                                <ref target="#section-15-3" type="SheetNumber">112.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-m">
-                        <head type="add">Sektion M</head>
-                        <head>
-                            <hi rend="italics">M.</hi>
-                        </head>
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Memento nostri Domine, in beneplacito populi</hi>
-                                <ref target="#section-4-1" type="SheetNumber">32.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Miserere mihi Domine, quoniam ad te clamaui</hi>
-                                <ref target="#miserere-mihi-domine" type="SheetNumber">364.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Misericordia Domini plena est terra</hi> , <ref
-                                    target="#misericordia-domini" type="SheetNumber">224.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="introitus-section-n">
+                    <div type="section" xml:id="haleluja-section-n">
                         <head type="add">Sektion N</head>
                         <head>
                             <hi rend="italics">N.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Nos autem gloriari oportet in cruce Domini</hi>
-                                <ref target="#section-27-1" type="SheetNumber">166.</ref>
+                                <hi rend="italics">Non vos me elegistis, sed ego vos elegj:</hi>
+                                <ref target="#haleluia-non-vos-me-elegistis" type="SheetNumber"
+                                    >445.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-o">
+                    <div type="section" xml:id="haleluja-section-o">
                         <head type="add">Sektion O</head>
                         <head>
                             <hi rend="italics">O.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Oculi mei semper ad Dominum, quia ipse
-                                    euellet</hi>
-                                <ref target="#section-22-1" type="SheetNumber">153.</ref>
+                                <hi rend="italics">Omnes gentes plaudite manibus</hi> , <ref
+                                    target="#haleluia-omnes-gentes-plaudite" type="SheetNumber"
+                                    >324.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Omnes gentes plaudite manibus, iubilate Deo</hi>
-                                <ref target="#omnes-gentes-plaudite-manibus" type="SheetNumber"
-                                    >325.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Omnia quæ fecisti nobis Domine, in vero
-                                    iudicio</hi>
-                                <ref target="#omnia-quae-fecisti" type="SheetNumber">403.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Omnis terra adoret te Deus, et psallat tibi</hi>
-                                <ref target="#section-13-1" type="SheetNumber">104.</ref>
+                                <hi rend="italics">Ostende nobis domine misericordiam tuam</hi> ,
+                                    <ref target="#section-1-5" type="SheetNumber">9.</ref>
                             </item>
                         </list>
                     </div>
-                    <lb/>
-                    <div type="section" xml:id="introitus-section-p">
+                    <div type="section" xml:id="haleluja-section-p">
                         <head type="add">Sektion P</head>
                         <head>
                             <hi rend="italics">P.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Populus Sion, ecce Dominus veniet ad
-                                    saluandas</hi>
-                                <ref target="#section-2-1" type="SheetNumber">25.</ref>
+                                <hi rend="italics">Paratum cor meum Deus, paratum</hi>
+                                <ref target="#haleluia-paratum-cor-meum-deus" type="SheetNumber"
+                                    >363.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Protector noster aspice Deus, et respice</hi>
-                                <ref target="#protector-noster" type="SheetNumber">357.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Puer natus est nobis, et filius datus est
-                                    nobis</hi> , <ref target="#section-5-2" type="SheetNumber"
-                                    >37.</ref>
+                                <hi rend="italics">Pascha nostrum immolatus est Christus.</hi>
+                                <ref target="#section-29-5" type="SheetNumber">195.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-q">
+                    <div type="section" xml:id="haleluja-section-q">
                         <head type="add">Sektion Q</head>
                         <head>
                             <hi rend="italics">Q.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Quasi modo geniti infantes, haleluia.</hi>
-                                <ref target="#quasi-modo" type="SheetNumber">220.</ref>
+                                <hi rend="italics">Qui confidunt in Domino, sicut mons Sion.</hi>
+                                <ref target="#haleluia-qui-confidunt-in-domino" type="SheetNumber"
+                                    >406.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Qui sanat contritos corde, et alligat</hi>
+                                <ref target="#haleluia-qui-sanat-contritos-corde" type="SheetNumber"
+                                    >424.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Quoniam Deus magnus Dominus</hi> , <ref
+                                    target="#haleluia-quoniam-deus-magnus-dominus"
+                                    type="SheetNumber">359.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-r">
-                        <head type="add">Sektion R</head>
-                        <head>
-                            <hi rend="italics">R.</hi>
-                        </head>
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Reminiscere miserationum tuarum Domine</hi> ,
-                                    <ref target="#section-21-1" type="SheetNumber">150.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics"><pb facs="0478R" n="Rr 3r"/>Respice Domine in
-                                    testamentum tuum</hi> , <ref target="#respice-domine"
-                                    type="SheetNumber">351.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Respice in me, et miserere mei Domine</hi> , <ref
-                                    target="#respice-in-me" type="SheetNumber">296.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Resurrexi, et adhuc tecum sum, haleluia.</hi>
-                                <ref target="#section-29-2" type="SheetNumber">188.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Rorate coeli desuper, et nubes pluant
-                                    iustum.</hi>
-                                <ref target="#section-24-1" type="SheetNumber">158.</ref>
-                            </item>
-                        </list>
-                    </div>
-                    <div type="section" xml:id="introitus-section-s">
+                    <div type="section" xml:id="haleluja-section-s">
                         <head type="add">Sektion S</head>
                         <head>
                             <hi rend="italics">S.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Sacerdotes eius induant salutare, et sancti</hi>
-                                <ref target="#sacerdotes-eius-induant-salutare" type="SheetNumber"
-                                    >443.</ref>
+                                <hi rend="italics">Surgens Iesus Dominus noster, stans</hi>
+                                <ref target="#haleluia-surgens-jesus-dominus-noster"
+                                    type="SheetNumber">230.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Salus populi ego sum, dicit Dominus</hi> , <ref
-                                    target="#salus-populi-ego-sum" type="SheetNumber">399.</ref>
+                                <hi rend="italics">Surrexit pastor bonus, qui posuit animam</hi>
+                                <ref target="#haleluia-surrexit-pastor-bonus" type="SheetNumber"
+                                    >226.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Si iniquitates obseruaueris Domine</hi> , <ref
-                                    target="#si-iniquitates" type="SheetNumber">419.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Spiritus Domini repleuit orbem terrarum</hi> ,
-                                    <ref target="#spiritus-domini" type="SheetNumber">245.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Suscepimus Deus misericordiam tuam</hi> , <ref
-                                    target="#suscepimus-deus" type="SheetNumber">328.</ref>
+                                <hi rend="italics"><pb facs="0480R" n="Rr 4r"/>Surrexit Christus et
+                                    illuxit populo suo</hi> , <ref
+                                    target="#haleluia-surrexit-christus" type="SheetNumber"
+                                    >236.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-t">
+                    <div type="section" xml:id="haleluja-section-t">
                         <head type="add">Sektion T</head>
                         <head>
                             <hi rend="italics">T.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Timete Dominum omnes Sancti eius</hi> , <ref
-                                    target="#allehelgensdag-introitus" type="SheetNumber">407.</ref>
+                                <hi rend="italics">Te decet hymnus Deus in Sion</hi> , <ref
+                                    target="#haleluia-te-decet-hymnus-deus-in-syon"
+                                    type="SheetNumber">331.</ref>
                             </item>
                         </list>
                     </div>
-                    <div type="section" xml:id="introitus-section-v">
+                    <div type="section" xml:id="haleluja-section-v">
                         <head type="add">Sektion V</head>
                         <head>
                             <hi rend="italics">V.</hi>
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Viri galilæi, quid admiramini, aspicientes</hi>
-                                <ref target="#viri-galilaei" type="SheetNumber">237.</ref>
+                                <hi rend="italics">Veni Domine, et noli tardare</hi> , <ref
+                                    target="#section-4-2" type="SheetNumber">34.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Vocem iucunditatis annunciate, et audiatur</hi> ,
-                                    <ref target="#vocem-iucunditatis" type="SheetNumber">233.</ref>
+                                <hi rend="italics">Veni sancte Spiritus, reple tuorum corda</hi>
+                                <ref target="#haleluia-veni-sancte-spiritus" type="SheetNumber"
+                                    >253.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Vultum tuum deprecabuntur omnes diuites</hi>
-                                <ref target="#section-10-1" type="SheetNumber">94.</ref>
+                                <hi rend="italics">Venite exultemus Domino, iubilemus</hi>
+                                <ref target="#haleluia-venite-exultemus-domino" type="SheetNumber"
+                                    >354.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Video coelos apertos, et Iesum stantem</hi>
+                                <ref target="#section-6-3" type="SheetNumber">79.</ref>
+                            </item>
+                            <item>
+                                <hi rend="italics">Vidimus stellam eius in oriente</hi> , <ref
+                                    target="#section-11-2" type="SheetNumber">99.</ref>
                             </item>
                         </list>
                     </div>
                 </div>
-                <div type="index" xml:id="index-antiphona" n="4">
-                    <head type="add">Antifon</head>
-                    <head>
-                        <hi rend="italics">ANTIPHONA.</hi>
-                    </head>
+            </div>
+            <lb/>
+            <div type="index" xml:id="register-sekvenser" n="6">
+                <head type="add">Sekvenser</head>
+                <head>
+                    <hi rend="italics">SEQVENTIÆ.</hi>
+                </head>
+                <div type="section">
 
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Veni sancte Spiritus, reple tuorum corda</hi>
-                            <ref target="#veni-sancte-spiritus-jespersen-1573" type="SheetNumber"
-                                >244.</ref>
+                            <hi rend="italics">Benedicta semper sancta sit trinitas</hi> , <ref
+                                target="#benedicta-semper" type="SheetNumber">277.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Eia recolamus laudibus pijs, digna</hi>
+                            <ref target="#section-5-10" type="SheetNumber">54.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Grates nunc omnes reddamus domino Deo</hi> , <ref
+                                target="#section-5-6" type="SheetNumber">46.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Mane prima sabbathi surgens Dej filius</hi> , <ref
+                                target="#section-29-8" type="SheetNumber">200.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Sancti spiritus adsit nobis gratia.</hi>
+                            <ref target="#sancti-spiritus-adsit-nobis-gratia" type="SheetNumber"
+                                >257.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Veni sancte Spiritus, et emitte coelitus</hi>
+                            <ref target="#veni-sancte-spiritus-et-emitte" type="SheetNumber"
+                                >254.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Victimæ paschali laudes immolant Christiani.</hi>
+                            <ref target="#section-29-6" type="SheetNumber">196.</ref>
                         </item>
                     </list>
 
                 </div>
-                <div type="index" xml:id="register-haleluja" n="5">
-                    <head type="add">Haleluja</head>
-                    <head>
-                        <hi rend="italics">HALELVIA.</hi>
-                    </head>
-                    <div type="section" xml:id="haleluja-section-a">
-                        <head type="add">Sektion A</head>
+                <div type="section">
 
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Angelus domini descendit de coelo, et
-                                    accedens</hi>
-                                <ref target="#haleluia-angelus-domini" type="SheetNumber">222.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Angelus domini nunciauit Mariæ</hi> , <ref
-                                    target="#haleluia-angelus-domini-nuntiauit-mariae"
-                                    type="SheetNumber">160.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Ascendens Christus in altum, captiuam duxit</hi>
-                                <ref target="#haleluia-ascendens-christus" type="SheetNumber"
-                                    >243.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Ascendit Deus in iubilatione, et dominus</hi>
-                                <ref target="#haleluia-ascendit-deus" type="SheetNumber">239.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Attendite popule meus legem meam.</hi>
-                                <ref target="#haleluia-attendite-popule-meus-in-legem-meam"
-                                    type="SheetNumber">336.</ref>
-                            </item>
-                        </list>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Credo in vnum deum. Patrem omnipotentem</hi> , <ref
+                                target="#section-5-7" type="SheetNumber">48.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Te Deum laudamus, te dominum confitemur.</hi>
+                            <ref target="#te-deum-laudamus-jespersen-1573" type="SheetNumber"
+                                >373.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Quicun{que} vult saluus esse, ipsum fidem</hi>
+                            <ref target="#offertorium-quicunque" type="SheetNumber">447.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Sanctus. Sanctus. Sanctus.</hi>
+                            <ref target="#section-5-13" type="SheetNumber">66.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Tibi laus salus sit Christe</hi> , <ref
+                                target="#section-5-14" type="SheetNumber">68.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Agnus dei qui tollis peccata mundi</hi> , <ref
+                                target="#section-5-14" type="SheetNumber">69.</ref>
+                        </item>
+                    </list>
 
-                        <div type="section" xml:id="haleluja-section-b">
-                            <head type="add">Sektion B</head>
-                            <head>
-                                <hi rend="italics">B.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Benedictus es domine deus patrum</hi>
-                                    <ref target="#haleluia-benedictus-es-domine-deus"
-                                        type="SheetNumber">276.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-c">
-                            <head type="add">Sektion C</head>
-                            <head>
-                                <hi rend="italics">C.</hi>
-                            </head>
-
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Concussum est mare, et contremuit terra</hi>
-                                    , <ref target="#haleluia-concussum-est-mare" type="SheetNumber"
-                                        >372.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-d">
-                            <head type="add">Sektion D</head>
-                            <head>
-                                <hi rend="italics">D.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">De profundis clamaui ad te Domine</hi> , <ref
-                                        target="#section-17-2" type="SheetNumber">124.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">De profundis clamaui ad te Domine</hi> , <ref
-                                        target="#haleluia-de-profundis-clamaui-ad-te-domine"
-                                        type="SheetNumber">416.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Deus iudex iustus, fortis et paciens</hi> ,
-                                        <ref target="#haleluia-deus-iudex-iustus" type="SheetNumber"
-                                        >295.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Dextera Dei fecit virtutem, dextera</hi>
-                                    <ref target="#haleluia-dextera-dei" type="SheetNumber"
-                                        >401.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Dies sanctificatus illuxit nobis, venite</hi>
-                                    <ref target="#section-5-5" type="SheetNumber">44.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Diffusa est gratia in labijs tuis</hi> , <ref
-                                        target="#section-10-2" type="SheetNumber">96.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Dilexi quoniam exaudiuit Dominus vocem</hi>
-                                    <ref target="#haleluia-dilexi" type="SheetNumber">392.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Diligam te Domine virtus mea, Dominus</hi>
-                                    <ref target="#haleluia-diligam-te-domine" type="SheetNumber"
-                                        >298.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Domine Deus meus, in te speraui, saluum</hi>
-                                    <ref target="#haleluia-domine-deus-meus" type="SheetNumber"
-                                        >288.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics"><pb facs="0479L" n="Rr 3v"/>Domine Deus
-                                        salutis meæ, in die</hi>
-                                    <ref target="#haleluia-domine-deus-salutis-meae"
-                                        type="SheetNumber">345.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Domine in virtute tua lætabitur rex</hi> ,
-                                        <ref target="#haleluia-domine-in-virtute" type="SheetNumber"
-                                        >302.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Domine non secundum peccata nostra</hi>
-                                    <ref target="#section-20-3" type="SheetNumber">138.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Domine refugium factus es nobis</hi> , <ref
-                                        target="#haleluia-domine-refugium" type="SheetNumber"
-                                        >348.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Dominus regnauit, decorem induit</hi> , <ref
-                                        target="#section-8-2" type="SheetNumber">90.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Dominus regnauit, exultet terra</hi> , <ref
-                                        target="#section-14-2" type="SheetNumber">109.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-e">
-                            <head type="add">Sektion E</head>
-                            <head>
-                                <hi rend="italics">E.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Eripe me de inimicis meis Deus meus</hi> ,
-                                        <ref target="#haleluia-eripe-me" type="SheetNumber"
-                                        >327.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Excita Domine potentiam tuam, et venj</hi> ,
-                                        <ref target="#section-3-2" type="SheetNumber">31.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Exultate Deo adiutori nostro, iubilate</hi>
-                                    <ref target="#haleluia-exultate-deo" type="SheetNumber"
-                                        >342.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-h">
-                            <head type="add">Sektion H</head>
-                            <head>
-                                <hi rend="italics">H.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi>Haleluia/ det bør oss altid siunge /</hi>
-                                    <ref target="#section-16-3" type="SheetNumber">120.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Hic est discipulus ille qui testimonium</hi>
-                                    <ref target="#section-7-2" type="SheetNumber">86.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-i">
-                            <head type="add">Sektion I</head>
-                            <head>
-                                <hi rend="italics">I.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">In exitu Israel ex Ægypto, domus</hi>
-                                    <ref target="#haleluia-in-exitu-israel-ex-egypto"
-                                        type="SheetNumber">366.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">In te Domine speraui, non confundar</hi>
-                                    <ref target="#haleluia-in-te-domine-speraui" type="SheetNumber"
-                                        >320.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Inter natos mulierum non surrexit maior</hi>
-                                    <ref target="#haleluia-inter-natos" type="SheetNumber"
-                                        >308.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Iudicabunt sancti nationes</hi> , <ref
-                                        target="#allehelgensdag-haleluja" type="SheetNumber"
-                                        >409.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Iubilate Deo omnis terra</hi> , <ref
-                                        target="#section-12-2" type="SheetNumber">103.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-l">
-                            <head type="add">Sektion L</head>
-                            <head>
-                                <hi rend="italics">L.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Lætatus sum in his quæ dicta sunt mihi</hi> ,
-                                        <ref target="#section-2-2" type="SheetNumber">27.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Lauda anima mea Dominum</hi> , <ref
-                                        target="#haleluia-lauda-anima" type="SheetNumber">421.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Laudate Deum omnes Angeli eius</hi> , <ref
-                                        target="#section-13-2" type="SheetNumber">106.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Laudate Dominum omnes gentes</hi> , <ref
-                                        target="#haleluia-laudate-dominum-omnes-gentes"
-                                        type="SheetNumber">398.</ref>
-                                </item>
-                                <item>
-                                    <hi>Loffuer Gud i Hedninger alle /</hi>
-                                    <ref target="#section-15-3" type="SheetNumber">112.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-n">
-                            <head type="add">Sektion N</head>
-                            <head>
-                                <hi rend="italics">N.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Non vos me elegistis, sed ego vos elegj:</hi>
-                                    <ref target="#haleluia-non-vos-me-elegistis" type="SheetNumber"
-                                        >445.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-o">
-                            <head type="add">Sektion O</head>
-                            <head>
-                                <hi rend="italics">O.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Omnes gentes plaudite manibus</hi> , <ref
-                                        target="#haleluia-omnes-gentes-plaudite" type="SheetNumber"
-                                        >324.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Ostende nobis domine misericordiam tuam</hi>
-                                    , <ref target="#section-1-5" type="SheetNumber">9.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-p">
-                            <head type="add">Sektion P</head>
-                            <head>
-                                <hi rend="italics">P.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Paratum cor meum Deus, paratum</hi>
-                                    <ref target="#haleluia-paratum-cor-meum-deus" type="SheetNumber"
-                                        >363.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Pascha nostrum immolatus est Christus.</hi>
-                                    <ref target="#section-29-5" type="SheetNumber">195.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-q">
-                            <head type="add">Sektion Q</head>
-                            <head>
-                                <hi rend="italics">Q.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Qui confidunt in Domino, sicut mons
-                                        Sion.</hi>
-                                    <ref target="#haleluia-qui-confidunt-in-domino"
-                                        type="SheetNumber">406.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Qui sanat contritos corde, et alligat</hi>
-                                    <ref target="#haleluia-qui-sanat-contritos-corde"
-                                        type="SheetNumber">424.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Quoniam Deus magnus Dominus</hi> , <ref
-                                        target="#haleluia-quoniam-deus-magnus-dominus"
-                                        type="SheetNumber">359.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-s">
-                            <head type="add">Sektion S</head>
-                            <head>
-                                <hi rend="italics">S.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Surgens Iesus Dominus noster, stans</hi>
-                                    <ref target="#haleluia-surgens-jesus-dominus-noster"
-                                        type="SheetNumber">230.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Surrexit pastor bonus, qui posuit animam</hi>
-                                    <ref target="#haleluia-surrexit-pastor-bonus" type="SheetNumber"
-                                        >226.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics"><pb facs="0480R" n="Rr 4r"/>Surrexit Christus
-                                        et illuxit populo suo</hi> , <ref
-                                        target="#haleluia-surrexit-christus" type="SheetNumber"
-                                        >236.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-t">
-                            <head type="add">Sektion T</head>
-                            <head>
-                                <hi rend="italics">T.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Te decet hymnus Deus in Sion</hi> , <ref
-                                        target="#haleluia-te-decet-hymnus-deus-in-syon"
-                                        type="SheetNumber">331.</ref>
-                                </item>
-                            </list>
-                        </div>
-                        <div type="section" xml:id="haleluja-section-v">
-                            <head type="add">Sektion V</head>
-                            <head>
-                                <hi rend="italics">V.</hi>
-                            </head>
-                            <list rend="simple">
-                                <item>
-                                    <hi rend="italics">Veni Domine, et noli tardare</hi> , <ref
-                                        target="#section-4-2" type="SheetNumber">34.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Veni sancte Spiritus, reple tuorum corda</hi>
-                                    <ref target="#haleluia-veni-sancte-spiritus" type="SheetNumber"
-                                        >253.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Venite exultemus Domino, iubilemus</hi>
-                                    <ref target="#haleluia-venite-exultemus-domino"
-                                        type="SheetNumber">354.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Video coelos apertos, et Iesum stantem</hi>
-                                    <ref target="#section-6-3" type="SheetNumber">79.</ref>
-                                </item>
-                                <item>
-                                    <hi rend="italics">Vidimus stellam eius in oriente</hi> , <ref
-                                        target="#section-11-2" type="SheetNumber">99.</ref>
-                                </item>
-                            </list>
-                        </div>
-                    </div>
                 </div>
-                <lb/>
-                <div type="index" xml:id="register-sekvenser" n="6">
-                    <head type="add">Sekvenser</head>
-                    <head>
-                        <hi rend="italics">SEQVENTIÆ.</hi>
-                    </head>
-                    <div type="section">
+            </div>
+            <div type="index" xml:id="register-responsorier" n="7">
+                <head type="add">Responsorier</head>
+                <head>
+                    <hi rend="italics">RESPONSORIA.</hi>
+                </head>
+                <div type="section">
 
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Benedicta semper sancta sit trinitas</hi> , <ref
-                                    target="#benedicta-semper" type="SheetNumber">277.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Eia recolamus laudibus pijs, digna</hi>
-                                <ref target="#section-5-10" type="SheetNumber">54.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Grates nunc omnes reddamus domino Deo</hi> , <ref
-                                    target="#section-5-6" type="SheetNumber">46.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Mane prima sabbathi surgens Dej filius</hi> ,
-                                    <ref target="#section-29-8" type="SheetNumber">200.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Sancti spiritus adsit nobis gratia.</hi>
-                                <ref target="#sancti-spiritus-adsit-nobis-gratia" type="SheetNumber"
-                                    >257.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Veni sancte Spiritus, et emitte coelitus</hi>
-                                <ref target="#veni-sancte-spiritus-et-emitte" type="SheetNumber"
-                                    >254.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Victimæ paschali laudes immolant Christiani.</hi>
-                                <ref target="#section-29-6" type="SheetNumber">196.</ref>
-                            </item>
-                        </list>
+                    <list rend="simple">
+                        <item>
+                            <hi rend="italics">Apparuerunt apostolis dispertitæ linguæ</hi> , <ref
+                                target="#responsoriumsecundum" type="SheetNumber">456.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Discubuit Iesus et discipuli eius cum eo</hi> , <ref
+                                target="#section-27-2" type="SheetNumber">169.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Ite in orbem vniuersum, et prædicate</hi>
+                            <ref target="#responsoriumtertium" type="SheetNumber">458.</ref>
+                        </item>
+                        <item>
+                            <hi rend="italics">Summæ Trinitati, simplicj Deo</hi> , <ref
+                                target="#responsoriumprimum" type="SheetNumber">453.</ref>
+                        </item>
+                    </list>
 
-                    </div>
-                    <div type="section">
-
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Credo in vnum deum. Patrem omnipotentem</hi> ,
-                                    <ref target="#section-5-7" type="SheetNumber">48.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Te Deum laudamus, te dominum confitemur.</hi>
-                                <ref target="#te-deum-laudamus-jespersen-1573" type="SheetNumber"
-                                    >373.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Quicun{que} vult saluus esse, ipsum fidem</hi>
-                                <ref target="#offertorium-quicunque" type="SheetNumber">447.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Sanctus. Sanctus. Sanctus.</hi>
-                                <ref target="#section-5-13" type="SheetNumber">66.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Tibi laus salus sit Christe</hi> , <ref
-                                    target="#section-5-14" type="SheetNumber">68.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Agnus dei qui tollis peccata mundi</hi> , <ref
-                                    target="#section-5-14" type="SheetNumber">69.</ref>
-                            </item>
-                        </list>
-
-                    </div>
                 </div>
-                <lb/>
-                <div type="index" xml:id="register-responsorier" n="7">
-                    <head type="add">Responsorier</head>
-                    <head>
-                        <hi rend="italics">RESPONSORIA.</hi>
-                    </head>
-                    <div type="section">
-
-                        <list rend="simple">
-                            <item>
-                                <hi rend="italics">Apparuerunt apostolis dispertitæ linguæ</hi> ,
-                                    <ref target="#responsoriumsecundum" type="SheetNumber"
-                                    >456.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Discubuit Iesus et discipuli eius cum eo</hi> ,
-                                    <ref target="#section-27-2" type="SheetNumber">169.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Ite in orbem vniuersum, et prædicate</hi>
-                                <ref target="#responsoriumtertium" type="SheetNumber">458.</ref>
-                            </item>
-                            <item>
-                                <hi rend="italics">Summæ Trinitati, simplicj Deo</hi> , <ref
-                                    target="#responsoriumprimum" type="SheetNumber">453.</ref>
-                            </item>
-                        </list>
-
-                    </div>
-                </div>
-                <lb/>
-                <div>
-                    <p>
-                        <space extent="2blanks"/><hi rend="italics">Pagina,</hi> 262. <hi
-                            rend="italics">versu vltimo, lege, inaudito. pag:</hi> 290. <hi
-                            rend="italics">versu</hi>
-                        <lb/>
-                        <hi rend="italics">vltimo, pro</hi> , O Gud Fader vdi/ <hi rend="italics"
-                            >lege</hi> , Gud Fader vdi <ex>etc</ex>.</p>
-                    <p> *</p>
-                </div>
-                <lb/>
+            </div>
+            <lb/>
+            <div>
+                <p>
+                    <space extent="2blanks"/><hi rend="italics">Pagina,</hi> 262. <hi rend="italics"
+                        >versu vltimo, lege, inaudito. pag:</hi> 290. <hi rend="italics">versu</hi>
+                    <lb/>
+                    <hi rend="italics">vltimo, pro</hi> , O Gud Fader vdi/ <hi rend="italics"
+                        >lege</hi> , Gud Fader vdi <ex>etc</ex>.</p>
+                <p> *</p>
             </div>
         </back>
     </text>
