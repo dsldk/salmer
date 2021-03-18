@@ -119,12 +119,13 @@ def document_view(request):
 def facsimiles(request):
     document_id = request.matchdict.get("document")
     file_path = "facsimiles/{}.json".format(document_id)
-    request = view_html(request, file_path)
-    if request.response.status_code > 400:
-        return {"pages": request.response.status}
-    else:
-        # OK.
-        return {"pages": request.html}
+    file_request = get(request.registry.settings["exist_server"] + file_path)
+    if file_request:
+        return Response(
+            content_type=file_request.headers["content-type"],
+            body=file_request.content
+        )
+    return HTTPNotFound()
 
 
 @view_config(route_name="document_view_text", renderer="templates/text.pt")
