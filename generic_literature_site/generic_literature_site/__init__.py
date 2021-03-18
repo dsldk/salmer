@@ -57,7 +57,7 @@ def main(global_config, **settings):
     config.add_route(
         "section_view_text", "/text/{document}/{chapter}/{section}"
     )
-    config.add_route("facsimiles", "/facsimiles/{document}")
+    config.add_route("facsimiles", "/{document}/facsimile_info")
     config.add_route("chapter_view_text", "/text/{document}/{chapter}")
     config.add_route("document_view_text", "/text/{document}")
     config.add_route("section_view", "/{document}/{chapter}/{section}")
