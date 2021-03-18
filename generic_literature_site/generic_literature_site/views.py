@@ -115,6 +115,18 @@ def document_view(request):
     return smn_view(request)
 
 
+@view_config(route_name="facsimiles", renderer="templates/raw_text.pt")
+def facsimiles(request):
+    document_id = request.matchdict.get("document")
+    file_path = "facsimiles/{}.json".format(document_id)
+    request = view_html(request, file_path)
+    if request.response.status_code > 400:
+        return {"pages": request.response.status}
+    else:
+        # OK.
+        return {"pages": request.html}
+
+
 @view_config(route_name="document_view_text", renderer="templates/text.pt")
 def document_view_text(request):
     request.GET["id"] = request.matchdict.get("document")
@@ -723,7 +735,6 @@ def smn_view(request):
     is_last_chapter = False
     if chapters_of_document and chapter == chapters_of_document[-1]["no"]:
         is_last_chapter = True
-
 
     title_url = xquery_folder + "/title_of_document.xquery?id=" + document_id
     title_of_current_document = (
