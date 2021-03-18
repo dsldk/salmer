@@ -20,9 +20,14 @@
     </xd:doc>
     
     <xsl:template name="repeatPb">        
-        <xsl:if test="not(preceding-sibling::tei:head              
-            or following-sibling::*[not(name()='pb' or name()='head')][1][preceding::tei:pb]             
-            or following-sibling::*[not(name()='pb' or name()='head')][1]/tei:pb[1][not(preceding-sibling::text())])">
+        <xsl:if test="
+            not(
+                preceding-sibling::tei:head or following-sibling::*[not(name()='pb' or name()='head')][1][preceding::tei:pb]
+                or following-sibling::*[not(name()='pb' or name()='head')][1]/tei:pb[1][not(preceding-sibling::text())]
+            ) and (
+                ancestor::tei:div[1]/preceding-sibling::*[.//tei:pb]
+                or ($n and $facs)
+            )">
             <span class="legacy-page-break">
                 <xsl:element name="a">
                     <xsl:attribute name="class">facsimile-link</xsl:attribute>
@@ -33,6 +38,7 @@
                             <xsl:value-of select="concat('[',$latest-pb/@n,']')"/>
                         </xsl:when>
                         <xsl:otherwise>
+                            <!-- variables $n and $facs are passed as parameters by the calling XQuery -->
                             <xsl:attribute name="href">/static/facsimiles/document_id_placeholder/<xsl:value-of select="$facs"/>.jpg</xsl:attribute>
                             <xsl:value-of select="concat('[',$n,']')"/>
                         </xsl:otherwise>
@@ -50,12 +56,12 @@
             <xsl:when test="@type = 'add'">
                 <!--<h1 class="metadata">
                     <xsl:if test="@n">
-                        <b>
-                            <xsl:value-of select="@n"/> 
-                        </b>
+                    <b>
+                    <xsl:value-of select="@n"/> 
+                    </b>
                     </xsl:if>
                     <xsl:apply-templates/>
-		</h1>-->
+                    </h1>-->
             </xsl:when>
             <xsl:when test="@type = 'original'">
                 <h1>
@@ -75,24 +81,24 @@
             <xsl:when test="tei:reg"/>
             <!--<xsl:otherwise>
                 <h1>
-                    <xsl:apply-templates/>
+                <xsl:apply-templates/>
                 </h1>
-	    </xsl:otherwise>-->
+                </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <!-- Level 2 head -->
     <xsl:template match="/tei:div/tei:div/tei:head">
-<xsl:call-template name="repeatPb"/>        
+        <xsl:call-template name="repeatPb"/>        
         <xsl:choose>
             <xsl:when test="@type = 'add'">
                 <!--<h2 class="metadata">
                     <xsl:if test="@n">
-                        <b>
-                            <xsl:value-of select="@n"/> 
-                        </b>
+                    <b>
+                    <xsl:value-of select="@n"/> 
+                    </b>
                     </xsl:if>
                     <xsl:apply-templates/>
-		</h2>-->
+                    </h2>-->
             </xsl:when>
             <xsl:when test="@type = 'original'">
                 <h2>
@@ -112,9 +118,9 @@
             <xsl:when test="tei:reg"/>
             <!--<xsl:otherwise>
                 <h2>
-                    <xsl:apply-templates/>
+                <xsl:apply-templates/>
                 </h2>
-	    </xsl:otherwise>-->
+                </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <!-- Level 3 head -->
@@ -123,7 +129,7 @@
             <xsl:when test="@type = 'add'">
                 <!--<h3 class="metadata">
                     <xsl:apply-templates/>
-		</h3>-->
+                    </h3>-->
             </xsl:when>
             <xsl:when test="@type = 'original'">
                 <h3>
@@ -143,9 +149,9 @@
             <xsl:when test="tei:reg"/>
             <!--<xsl:otherwise>
                 <h3>
-                    <xsl:apply-templates/>
+                <xsl:apply-templates/>
                 </h3>
-	    </xsl:otherwise>-->
+                </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <!-- Level 4 head -->
@@ -154,7 +160,7 @@
             <xsl:when test="@type = 'add'">
                 <!--<h4 class="metadata">
                     <xsl:apply-templates/>
-		</h4>-->
+                    </h4>-->
             </xsl:when>
             <xsl:when test="@type = 'original'">
                 <h4>
@@ -174,9 +180,9 @@
             <xsl:when test="tei:reg"/>
             <!--<xsl:otherwise>
                 <h4>
-                    <xsl:apply-templates/>
+                <xsl:apply-templates/>
                 </h4>
-	    </xsl:otherwise>-->
+                </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <!-- Level 5 head -->
@@ -185,7 +191,7 @@
             <xsl:when test="@type = 'add'">
                 <!--<h4 class="metadata">
                     <xsl:apply-templates/>
-		</h4>-->
+                    </h4>-->
             </xsl:when>
             <xsl:when test="@type = 'original'">
                 <h5>
@@ -205,9 +211,9 @@
             <xsl:when test="tei:reg"/>
             <!--<xsl:otherwise>
                 <h4>
-                    <xsl:apply-templates/>
+                <xsl:apply-templates/>
                 </h4>
-	    </xsl:otherwise>-->
+                </xsl:otherwise>-->
         </xsl:choose>
     </xsl:template>
     <xsl:template match="tei:lg/tei:head">

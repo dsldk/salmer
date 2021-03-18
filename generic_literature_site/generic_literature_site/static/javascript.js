@@ -167,6 +167,9 @@ $(function(){
 		{
 			'Dansk': 'thomissoen_1569',
 		},
+		{
+			'Dansk': 'vingaard_1553',
+		},
 	]
 
 	// ugly way to transform array of translations to array of text ids
