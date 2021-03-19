@@ -10788,7 +10788,8 @@
                 </div>
             </div>
             <lb/>
-            <div>
+            <div xml:id="errata-jespersen-1573">
+                <head type="add">Errataliste</head>
                 <p>
                     <space extent="2blanks"/><hi rend="italics">Pagina,</hi> 262. <hi rend="italics"
                         >versu vltimo, lege, inaudito. pag:</hi> 290. <hi rend="italics">versu</hi>
