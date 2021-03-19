@@ -5534,11 +5534,11 @@
                   </list>
                </item>
             </list></div>
-         <div>
-            <head type="add">Kolofon</head>
+         <div xml:id="kolofon-dietz-1529">
+            <head type="add" >Kolofon</head>
             <p rend="center">¶ Trycht ÿ Rozstock hooss Ludowich Dietz. xx. Nouembris. M. D. XXiX.
                *</p></div>
-         <div>
+         <div xml:id="bogtrykkermaerke-dietz-1529">
             <head type="add">[Bogtrykkermærke]</head>
             <head><pb facs="194" n="R 4r"/>[Bogtrykkermærke]</head>
             <figure type="image"/>
