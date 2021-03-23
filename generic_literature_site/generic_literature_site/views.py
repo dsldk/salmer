@@ -123,7 +123,7 @@ def facsimiles(request):
     if file_request:
         return Response(
             content_type=file_request.headers["content-type"],
-            body=file_request.content
+            body=file_request.content,
         )
     return HTTPNotFound()
 
@@ -657,9 +657,7 @@ def add_named_chapters(
     end_chapters = [
         {"name": "Appendiks", "no": "back"},
     ]
-    chapters_of_document = (
-        front_chapters + chapters_of_document + end_chapters
-    )
+    chapters_of_document = front_chapters + chapters_of_document + end_chapters
 
     return {
         "chapters_of_document": chapters_of_document,
@@ -723,6 +721,14 @@ def smn_view(request):
     )
     document_id_without_xml = remove_dot_xml(document_id)
     pages = pages.replace("document_id_placeholder", document_id_without_xml)
+    if search_string:
+        # Do a case insensitive search for the search string and insert
+        # highlight tags around the *original* matching text - i.e., ignoring
+        # the user-supplied upper/lowercase occurrences in the search string.
+        match_search_string = re.compile(r"\b(%s)\b" % search_string, re.I)
+        pages = match_search_string.sub(
+            '<span class="search-highlight">\\1</span>', pages
+        )
 
     section_info = get_section_info(
         xquery_folder,
@@ -748,7 +754,7 @@ def smn_view(request):
     pages = insert_note_texts(request, pages)
 
     # Remove main chapter for front matter.
-    redaktionelt_chapter = {'name': 'Redaktionelt', 'no': 'front'}
+    redaktionelt_chapter = {"name": "Redaktionelt", "no": "front"}
     try:
         redaktionelt_index = chapters_and_sections[
             "chapters_of_document"
