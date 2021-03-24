@@ -9,7 +9,7 @@
     <xsl:key name="concordance_key" match="/index/text/ref" use="@id"/>
     <xsl:include href="dsl-basis/byline.xsl"/>
     <xsl:include href="dsl-basis/damage.xsl"/>
-    <xsl:include href="dsl-basis/div.xsl"/>
+    <!--<xsl:include href="dsl-basis/div.xsl"/>-->
     <xsl:include href="dsl-basis/docAuthor.xsl"/>
     <xsl:include href="dsl-basis/docImprint.xsl"/>
     <xsl:include href="dsl-basis/docTitle.xsl"/>
@@ -47,7 +47,7 @@
     <xsl:include href="c.xsl"/>
     <xsl:include href="choice.xsl"/>
     <!--<xsl:include href="cell.xsl"/>-->
-    <!--<xsl:include href="div.xsl"/>-->
+    <xsl:include href="div.xsl"/>
     <xsl:include href="ex.xsl"/>
     <xsl:include href="head.xsl"/>
     <xsl:include href="hi.xsl"/>

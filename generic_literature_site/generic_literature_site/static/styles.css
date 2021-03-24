@@ -1,4 +1,4 @@
-﻿@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
 @import url(//fonts.googleapis.com/css?family=Cormorant:500,600);
 @import url(//fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600);
 body {
@@ -1209,7 +1209,8 @@ element {
     padding-left:23px;
     border-radius:0
 }
-:target {
+:target,
+.search-highlight {
     background-color:#ffa
 }
 #dictionary-lookup-tab :target {
@@ -4581,7 +4582,7 @@ body.home-page #search-field::before {
     display:flex;
     justify-content:center
 }
-.facsimile-link {
+.facsimile-link, .facsimile-link-external {
     font-family:'Montserrat', sans-serif;
     font-size:.75rem;
     font-weight:bold;
@@ -4593,13 +4594,13 @@ body.home-page #search-field::before {
     position:absolute
 }
 @media all and (min-width: 1280px) {
-    .facsimile-link {
+    .facsimile-link, .facsimile-link-external {
         left:auto;
         right:calc(100% - 3rem)
     }
 }
 
-.facsimile-link.inline {
+.facsimile-link.inline, .facsimile-link-external.inline {
     position: relative;
     right: inherit;
 }    
