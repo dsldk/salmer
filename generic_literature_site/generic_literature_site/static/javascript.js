@@ -675,33 +675,80 @@ $(function(){
 	}
 
   // clicking a facsimile link should show it in the right-hand pane.
-  $('.chapter-box, #meta-wrapper').on('click', '.facsimile-link', function(e) {
+  $('.chapter-box, #meta-wrapper, #facsimile-tab').on('click', '.facsimile-link, .facsimile-pagination', function(e) {
     e.preventDefault();
     var pg = $(this).text();
     var href = $(this).attr('href');
-    // small images:
-    // var imgUrl = href.replace(/\.(.*?)$/, '_small.$1');
-    // full resolution images:
-    var imgUrl = href;
-    // check if the small version exists
+    var filenameRegex = /[^\/]+$/;
+    // check if the image exists
     $.ajax({
-      url: imgUrl,
+      url: href,
       method: 'HEAD',
       complete: function (jqXHR, status) {
         var injectedHtml = '';
         var status = jqXHR.status;
+
+        var facsimileList = [
+          {
+            name: 'E1',
+            file: '001.jpg'
+          },
+          {
+            name: 'E57',
+            file: '057.jpg'
+          },
+          {
+            name: 'E58',
+            file: '058.jpg'
+          }
+        ]
+
+        // can't use Array.prototype.findIndex in IE11, so use .map.indexOf
+        var currentFacsimileIndex = facsimileList.map(function (facsimile) {
+          return facsimile.file
+        }).indexOf(href.match(filenameRegex)[0])
+
+        var prevFacsimile = null
+        var nextFacsimile = null
+        if (currentFacsimileIndex > 0) {
+          prevFacsimile = facsimileList[currentFacsimileIndex - 1]
+        }
+        if (currentFacsimileIndex < facsimileList.length - 1) {
+          nextFacsimile = facsimileList[currentFacsimileIndex + 1]
+        }
+
+        var buttonPrev = prevFacsimile ? '<a class="btn btn-primary arrow-l facsimile-pagination" href="' +
+          href.replace(filenameRegex, prevFacsimile.file) + // replace the last path segment of our original URL with our new image
+          '" aria-label="' + __[loc]('Bladr til forrige faksimile') + '">' +
+          '<span class="sr-only">' + prevFacsimile.name + '</span>' +
+          '</a>' : '';
+
+        var buttonNext = nextFacsimile ? '<a class="btn btn-primary arrow-r facsimile-pagination" href="' +
+          href.replace(filenameRegex, nextFacsimile.file) + // replace the last path segment of our original URL with our new image
+          '" aria-label="' + __[loc]('Bladr til næste faksimile') + '">' +
+          '<span class="sr-only">' + nextFacsimile.name + '</span>' +
+          '</a>' : '';
+
         if (status === 200) {
           injectedHtml = '<div class="facsimile-thumb">' + '<span class="facsimile-title">' +
             __[loc]('Faksimile af side') + ' ' +
             pg + '</span>' +
+            '<div class="facsimile-wrapper">' +
+            buttonPrev +
             '<a href="' + href + '" target="_blank">' +
-            '<img src="' + imgUrl + '" alt="">' +
-            '<span>' + __[loc]('Se en stor udgave af') + ' ' + pg + '</span>'
-            '</a>' + '</div>';
+            '<img src="' + href + '" alt="">' +
+            '<span>' + __[loc]('Se en stor udgave af') + ' ' + pg + '</span>' +
+            '</a>' +
+            buttonNext +
+            '</div></div>';
         }
         else {
-          injectedHtml = '<div class="facsimile-thumb">' +
-            __[loc]('Faksimilen') + ' ' + pg + ' ' + __[loc]('kunne ikke findes');
+          injectedHtml = '<div class="facsimile-thumb">' + '<span class="facsimile-title">' +
+            __[loc]('Faksimilen') + ' ' + pg + ' ' + __[loc]('kunne ikke findes') +
+            '</span><div class="facsimile-wrapper">' +
+            buttonPrev +
+            buttonNext +
+            '</div></div>';
         }
 
         $('#facsimile-tab').html(injectedHtml);

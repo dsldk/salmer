@@ -22,7 +22,9 @@ var __ = {
 			'Kolofon': 'Colophon',
 			'Tekstvidner': 'Sources',
       'Der skete en fejl. Teksten kunne ikke indlæses.': 'An error occured. The text could not be loaded',
-      'Der skete en fejl. Kommentarer kunne ikke indlæses.': 'An error occured. Notes could not be loaded'
+      'Der skete en fejl. Kommentarer kunne ikke indlæses.': 'An error occured. Notes could not be loaded',
+      'Bladr til forrige faksimile': 'Show previous facsimile',
+      'Bladr til næste faksimile': 'Show next facsimile'
     }
   }),
   da: i18n.create({
@@ -47,7 +49,9 @@ var __ = {
 			'Kolofon': 'Kolofon',
 			'Tekstvidner': 'Tekstvidner',
       'Der skete en fejl. Teksten kunne ikke indlæses.': 'Der skete en fejl. Teksten kunne ikke indlæses',
-      'Der skete en fejl. Kommentarer kunne ikke indlæses.': 'Der skete en fejl. Kommentarer kunne ikke indlæses.'
+      'Der skete en fejl. Kommentarer kunne ikke indlæses.': 'Der skete en fejl. Kommentarer kunne ikke indlæses.',
+      'Bladr til forrige faksimile': 'Bladr til forrige faksimile',
+      'Bladr til næste faksimile': 'Bladr til næste faksimile'
     }
   })
 }
