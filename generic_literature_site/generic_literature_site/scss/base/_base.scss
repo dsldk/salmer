@@ -1553,12 +1553,14 @@ element {
     border-radius:0;
 }
 
-:target {
+:target,
+.search-highlight {
    background-color: #ffa;
 }
 
 #dictionary-lookup-tab {
-  :target {
+  :target,
+  .search-highlight {
     background-color: transparent;
   }
   .mark, mark {
