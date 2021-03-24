@@ -108,11 +108,11 @@ $(function(){
 
 	// Get new page from backend when paginating a text on a secondary language
 	$('#translations').on('change', '.chapter-dropdown', function() {
-		$('#lang-chapter-wrapper').addClass('loading');
+		$('#lang-chapter-wrapper').addClass('async-loading');
 		getManuscript($(this), '/text')
 		.done(function(result) {
 			updateTextWrapper('#lang-chapter-wrapper', result);
-			$('#lang-chapter-wrapper').removeClass('loading');
+			$('#lang-chapter-wrapper').removeClass('async-loading');
 		});
 	});
 
@@ -129,11 +129,11 @@ $(function(){
 		e.preventDefault();
 		var href = $(this).attr('href');
 		if (href) {
-			$('#lang-chapter-wrapper').addClass('loading');
+			$('#lang-chapter-wrapper').addClass('async-loading');
 			requestText('/text' + href)
 			.done(function(result) {
 				updateTextWrapper('#lang-chapter-wrapper', result);
-				$('#lang-chapter-wrapper').removeClass('loading');
+				$('#lang-chapter-wrapper').removeClass('async-loading');
 			});
 		}
 	})
@@ -192,12 +192,12 @@ $(function(){
 	// get the specified text when changing the language selector, and then show the chapter wrapper
 	rightLanguageSelector.change(function(){
 		var langId = $(this).val()
-		$('#lang-chapter-wrapper').addClass('loading');
+		$('#lang-chapter-wrapper').addClass('async-loading');
 		requestText('/' + langId + '?text_only=1')
 		.done(function(result) {
 			updateTextWrapper('#lang-chapter-wrapper', result);
 			$('#lang-chapter-wrapper').show();
-			$('#lang-chapter-wrapper').removeClass('loading');
+			$('#lang-chapter-wrapper').removeClass('async-loading');
 		})
 	});
 
@@ -459,11 +459,11 @@ $(function(){
   			$('.chapter-box .chapter-dropdown option[data-ajax-url="/text' + window.location.pathname + '"]').prop('selected', true);
 
   			// load the chapter corresponding to the state we just popped
-  			$('.chapter-box').addClass('loading');
+  			$('.chapter-box').addClass('async-loading');
   			requestText('/text' + window.location.pathname)
   			.done(function(result) {
   				updateTextWrapper('.chapter-box', result)
-  				$('.chapter-box').removeClass('loading');
+  				$('.chapter-box').removeClass('async-loading');
   			})
   			.fail(function() {
   				showStatusPopup(__[loc]('Der skete en fejl. Teksten kunne ikke indlæses.'));
@@ -582,11 +582,11 @@ $(function(){
 		e.preventDefault(); // prevent links from being followed (arrow buttons)
 		e.stopPropagation(); // prevent the form from submitting
 
-		$('.chapter-box').addClass('loading');
+		$('.chapter-box').addClass('async-loading');
 		getManuscript($(this), '/text')
 		.done(function(result) {
 			updateTextWrapper('.chapter-box', result);
-			$('.chapter-box').removeClass('loading');
+			$('.chapter-box').removeClass('async-loading');
 		})
 		.done(function(){
 			var textPath = this.url.replace(/^\/text/, ''); // strip leading '/text' as we don't want it to show in the URL. this.url refers to the url property of the ajax method
@@ -624,9 +624,9 @@ $(function(){
 		var commentBox = $('#comments');
 		var commentTab = $('[href="#comments"]').closest('li');
 		commentBox.scrollTop(0);
-		commentBox.addClass('loading');
+		commentBox.addClass('async-loading');
 		jqXHR.done(function(result) {
-			commentBox.removeClass('loading');
+			commentBox.removeClass('async-loading');
 			if (result.length > 1) { // only show the comment tab if there are comments to show
 				commentBox.removeClass('hidden');
 				commentTab.removeClass('hidden');

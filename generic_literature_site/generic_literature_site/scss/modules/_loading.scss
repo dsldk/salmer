@@ -14,7 +14,7 @@
     transform:translate(0,0);
   }
 }
-.loading {
+.async-loading {
   position:relative;
   &::before {
     content:"";
