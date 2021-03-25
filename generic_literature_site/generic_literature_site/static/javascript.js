@@ -377,6 +377,19 @@ $(function(){
 			})
 		});
 
+    // on page load, get the list of available facsimiles
+    var facsimileList = [];
+    $.ajax({
+      url: '/' + docId + '/facsimile_info',
+      method: 'GET',
+      dataType: 'json',
+      complete: function (jqXHR) {
+        if (jqXHR.status === 200) {
+          facsimileList = jqXHR.responseJSON
+        }
+      }
+    });
+
     // toggling reader width
     $('#reader-width').change(function() {
       var isOn = $(this).prop('checked');
@@ -421,7 +434,6 @@ $(function(){
         searchParams = mergeSearchParams(currentSearchParams, newSearchParams);
         // now put it back in the targetHref
         targetHref = window.location.pathname + buildSearchString(searchParams) + window.location.hash;
-        console.log('targetHref', targetHref)
       }
       if (isSameManuscript === true) {
         // stop default action of the link, and do an AJAX pagination instead
@@ -691,21 +703,6 @@ $(function(){
         var injectedHtml = '';
         var status = jqXHR.status;
 
-        var facsimileList = [
-          {
-            name: 'E1',
-            file: '001.jpg'
-          },
-          {
-            name: 'E57',
-            file: '057.jpg'
-          },
-          {
-            name: 'E58',
-            file: '058.jpg'
-          }
-        ]
-
         // can't use Array.prototype.findIndex in IE11, so use .map.indexOf
         var currentFacsimileIndex = facsimileList.map(function (facsimile) {
           return facsimile.file
@@ -724,13 +721,13 @@ $(function(){
           href.replace(filenameRegex, prevFacsimile.file) + // replace the last path segment of our original URL with our new image
           '" aria-label="' + __[loc]('Bladr til forrige faksimile') + '">' +
           '<span class="sr-only">' + prevFacsimile.name + '</span>' +
-          '</a>' : '';
+          '</a>' : '<span></span>'; // empty span to get correct flexbox layout
 
         var buttonNext = nextFacsimile ? '<a class="btn btn-primary arrow-r facsimile-pagination" href="' +
           href.replace(filenameRegex, nextFacsimile.file) + // replace the last path segment of our original URL with our new image
           '" aria-label="' + __[loc]('Bladr til næste faksimile') + '">' +
           '<span class="sr-only">' + nextFacsimile.name + '</span>' +
-          '</a>' : '';
+          '</a>' : '<span></span>'; // empty span to get correct flexbox layout
 
         if (status === 200) {
           injectedHtml = '<div class="facsimile-thumb">' + '<span class="facsimile-title">' +
