@@ -108,11 +108,11 @@ $(function(){
 
 	// Get new page from backend when paginating a text on a secondary language
 	$('#translations').on('change', '.chapter-dropdown', function() {
-		$('#lang-chapter-wrapper').addClass('loading');
+		$('#lang-chapter-wrapper').addClass('async-loading');
 		getManuscript($(this), '/text')
 		.done(function(result) {
 			updateTextWrapper('#lang-chapter-wrapper', result);
-			$('#lang-chapter-wrapper').removeClass('loading');
+			$('#lang-chapter-wrapper').removeClass('async-loading');
 		});
 	});
 
@@ -129,11 +129,11 @@ $(function(){
 		e.preventDefault();
 		var href = $(this).attr('href');
 		if (href) {
-			$('#lang-chapter-wrapper').addClass('loading');
+			$('#lang-chapter-wrapper').addClass('async-loading');
 			requestText('/text' + href)
 			.done(function(result) {
 				updateTextWrapper('#lang-chapter-wrapper', result);
-				$('#lang-chapter-wrapper').removeClass('loading');
+				$('#lang-chapter-wrapper').removeClass('async-loading');
 			});
 		}
 	})
@@ -192,12 +192,12 @@ $(function(){
 	// get the specified text when changing the language selector, and then show the chapter wrapper
 	rightLanguageSelector.change(function(){
 		var langId = $(this).val()
-		$('#lang-chapter-wrapper').addClass('loading');
+		$('#lang-chapter-wrapper').addClass('async-loading');
 		requestText('/' + langId + '?text_only=1')
 		.done(function(result) {
 			updateTextWrapper('#lang-chapter-wrapper', result);
 			$('#lang-chapter-wrapper').show();
-			$('#lang-chapter-wrapper').removeClass('loading');
+			$('#lang-chapter-wrapper').removeClass('async-loading');
 		})
 	});
 
@@ -377,6 +377,19 @@ $(function(){
 			})
 		});
 
+    // on page load, get the list of available facsimiles
+    var facsimileList = [];
+    $.ajax({
+      url: '/' + docId + '/facsimile_info',
+      method: 'GET',
+      dataType: 'json',
+      complete: function (jqXHR) {
+        if (jqXHR.status === 200) {
+          facsimileList = jqXHR.responseJSON
+        }
+      }
+    });
+
     // toggling reader width
     $('#reader-width').change(function() {
       var isOn = $(this).prop('checked');
@@ -421,7 +434,6 @@ $(function(){
         searchParams = mergeSearchParams(currentSearchParams, newSearchParams);
         // now put it back in the targetHref
         targetHref = window.location.pathname + buildSearchString(searchParams) + window.location.hash;
-        console.log('targetHref', targetHref)
       }
       if (isSameManuscript === true) {
         // stop default action of the link, and do an AJAX pagination instead
@@ -459,11 +471,11 @@ $(function(){
   			$('.chapter-box .chapter-dropdown option[data-ajax-url="/text' + window.location.pathname + '"]').prop('selected', true);
 
   			// load the chapter corresponding to the state we just popped
-  			$('.chapter-box').addClass('loading');
+  			$('.chapter-box').addClass('async-loading');
   			requestText('/text' + window.location.pathname)
   			.done(function(result) {
   				updateTextWrapper('.chapter-box', result)
-  				$('.chapter-box').removeClass('loading');
+  				$('.chapter-box').removeClass('async-loading');
   			})
   			.fail(function() {
   				showStatusPopup(__[loc]('Der skete en fejl. Teksten kunne ikke indlæses.'));
@@ -582,11 +594,11 @@ $(function(){
 		e.preventDefault(); // prevent links from being followed (arrow buttons)
 		e.stopPropagation(); // prevent the form from submitting
 
-		$('.chapter-box').addClass('loading');
+		$('.chapter-box').addClass('async-loading');
 		getManuscript($(this), '/text')
 		.done(function(result) {
 			updateTextWrapper('.chapter-box', result);
-			$('.chapter-box').removeClass('loading');
+			$('.chapter-box').removeClass('async-loading');
 		})
 		.done(function(){
 			var textPath = this.url.replace(/^\/text/, ''); // strip leading '/text' as we don't want it to show in the URL. this.url refers to the url property of the ajax method
@@ -624,9 +636,9 @@ $(function(){
 		var commentBox = $('#comments');
 		var commentTab = $('[href="#comments"]').closest('li');
 		commentBox.scrollTop(0);
-		commentBox.addClass('loading');
+		commentBox.addClass('async-loading');
 		jqXHR.done(function(result) {
-			commentBox.removeClass('loading');
+			commentBox.removeClass('async-loading');
 			if (result.length > 1) { // only show the comment tab if there are comments to show
 				commentBox.removeClass('hidden');
 				commentTab.removeClass('hidden');
@@ -678,33 +690,65 @@ $(function(){
 	}
 
   // clicking a facsimile link should show it in the right-hand pane.
-  $('.chapter-box, #meta-wrapper').on('click', '.facsimile-link', function(e) {
+  $('.chapter-box, #meta-wrapper, #facsimile-tab').on('click', '.facsimile-link, .facsimile-pagination', function(e) {
     e.preventDefault();
     var pg = $(this).text();
     var href = $(this).attr('href');
-    // small images:
-    // var imgUrl = href.replace(/\.(.*?)$/, '_small.$1');
-    // full resolution images:
-    var imgUrl = href;
-    // check if the small version exists
+    var filenameRegex = /[^\/]+$/;
+    // check if the image exists
     $.ajax({
-      url: imgUrl,
+      url: href,
       method: 'HEAD',
       complete: function (jqXHR, status) {
         var injectedHtml = '';
         var status = jqXHR.status;
+
+        // can't use Array.prototype.findIndex in IE11, so use .map.indexOf
+        var currentFacsimileIndex = facsimileList.map(function (facsimile) {
+          return facsimile.file
+        }).indexOf(href.match(filenameRegex)[0])
+
+        var prevFacsimile = null
+        var nextFacsimile = null
+        if (currentFacsimileIndex > 0) {
+          prevFacsimile = facsimileList[currentFacsimileIndex - 1]
+        }
+        if (currentFacsimileIndex < facsimileList.length - 1) {
+          nextFacsimile = facsimileList[currentFacsimileIndex + 1]
+        }
+
+        var buttonPrev = prevFacsimile ? '<a class="btn btn-primary arrow-l facsimile-pagination" href="' +
+          href.replace(filenameRegex, prevFacsimile.file) + // replace the last path segment of our original URL with our new image
+          '" aria-label="' + __[loc]('Bladr til forrige faksimile') + '">' +
+          '<span class="sr-only">' + prevFacsimile.name + '</span>' +
+          '</a>' : '<span></span>'; // empty span to get correct flexbox layout
+
+        var buttonNext = nextFacsimile ? '<a class="btn btn-primary arrow-r facsimile-pagination" href="' +
+          href.replace(filenameRegex, nextFacsimile.file) + // replace the last path segment of our original URL with our new image
+          '" aria-label="' + __[loc]('Bladr til næste faksimile') + '">' +
+          '<span class="sr-only">' + nextFacsimile.name + '</span>' +
+          '</a>' : '<span></span>'; // empty span to get correct flexbox layout
+
         if (status === 200) {
           injectedHtml = '<div class="facsimile-thumb">' + '<span class="facsimile-title">' +
             __[loc]('Faksimile af side') + ' ' +
             pg + '</span>' +
+            '<div class="facsimile-wrapper">' +
+            buttonPrev +
             '<a href="' + href + '" target="_blank">' +
-            '<img src="' + imgUrl + '" alt="">' +
-            '<span>' + __[loc]('Se en stor udgave af') + ' ' + pg + '</span>'
-            '</a>' + '</div>';
+            '<img src="' + href + '" alt="">' +
+            '<span>' + __[loc]('Se en stor udgave af') + ' ' + pg + '</span>' +
+            '</a>' +
+            buttonNext +
+            '</div></div>';
         }
         else {
-          injectedHtml = '<div class="facsimile-thumb">' +
-            __[loc]('Faksimilen') + ' ' + pg + ' ' + __[loc]('kunne ikke findes');
+          injectedHtml = '<div class="facsimile-thumb">' + '<span class="facsimile-title">' +
+            __[loc]('Faksimilen') + ' ' + pg + ' ' + __[loc]('kunne ikke findes') +
+            '</span><div class="facsimile-wrapper">' +
+            buttonPrev +
+            buttonNext +
+            '</div></div>';
         }
 
         $('#facsimile-tab').html(injectedHtml);
