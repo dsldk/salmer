@@ -366,9 +366,10 @@
          <lb/>
          <div type="psalm" xml:id="fra-mennesken-haver-jeg-vendt-min-hu-dietz-1536" n="3">
             <head type="add">Fra mennesken haver jeg vendt min hu</head>
-            <head><pb facs="014" n="b 2r"/>¶ Then xxiiij. Psalme/ Ad te domi<lb rend="="/>ne
-               leuaui. Som er een retskaffne Bøn till <lb/>Gudt/ begiærendis hielp och trøst aff
-               <lb/>hannom vdi all nødt oc trang.</head>
+            <head><pb facs="014" n="b 2r"/>¶ <ref target="#sl-25"><orig>Then xxiiij. Psalme/
+                     </orig><reg>Sl 25</reg></ref> Psalme/ Ad te domi<lb rend="="/>ne leuaui. Som er
+               een retskaffne Bøn till <lb/>Gudt/ begiærendis hielp och trøst aff <lb/>hannom vdi
+               all nødt oc trang.</head>
             <lg>
                <l><c function="initials" rend="3">F</c>Raa mennisken haffuer ieg wendt mÿn hw/ </l>
                <l>till tig mÿn siell opløffter/ </l>
@@ -605,8 +606,9 @@
          <lb/>
          <div type="psalm" xml:id="beklage-af-al-min-synd" n="9">
             <head type="add">Beklage af al min sinde</head>
-            <head><pb facs="020" n="c 1r"/>¶ Then l. Psalme/ Huor mandt Be<lb rend="="/>klager sÿn
-               syndt och brøst.</head>
+            <head><pb facs="020" n="c 1r"/>¶ <ref target="#sl-51"><orig>Then l. Psalme/
+                     </orig><reg>Sl 51</reg></ref> Huor mandt Be<lb rend="="/>klager sÿn syndt och
+               brøst.</head>
             <lg>
                <l><c function="initials" rend="3">B</c>Eklage aff all mÿn sÿnde/ </l>
                <l>maa ieg <lb/>mett Koning Dauidt. </l>
@@ -898,7 +900,8 @@
          <lb/>
          <div type="psalm" xml:id="salme-cxiij" n="14">
             <head type="add">Gud ære dit navn og ikke vort</head>
-            <head>¶ Psalmus Cxiij. Non nobis do<lb rend="="/>mine non nobis.</head>
+            <head>¶ <ref target="#sl-115"><orig> Psalmus Cxiij. </orig><reg>Sl 115</reg></ref> Non
+               nobis do<lb rend="="/>mine non nobis.</head>
             <lg>
                <l><c function="initials" rend="3">G</c>Vd ære thit naffn oc icke worth/ </l>
                <l>som <lb/>loffuer miskund oc holler thine ordt.</l>
@@ -955,8 +958,8 @@
          </div>
          <div type="psalm" xml:id="den-som-vil-en-kristen-hedde-dietz-1536" n="15">
             <head type="add">Den som vil en kristen hedde</head>
-            <head>¶ The X. Guds budt/ mett the noder (som) Saa taler then wuiise mundt/
-               <lb/>sywngis mett.</head>
+            <head>¶ The X. Guds budt/ mett the noder (som) Saa taler then wuiise mundt/ <lb/>sywngis
+               mett.</head>
             <lg>
                <l><pb facs="028" n="d 1r"/><c function="initials" rend="3">T</c>Hen som will een
                   Christen hede/ </l>
@@ -1189,8 +1192,9 @@
          <lb/>
          <div type="psalm" xml:id="salig-er-den-mand-der-gud-frygter-dietz-1536" n="19">
             <head type="add">Salig er den mand, der Gud frygter</head>
-            <head>¶ Then Cxxvij. Psalme Beati om<lb rend="="/>nes qui timent dominu<ex>m</ex>/ met
-               the noder Glo<lb rend="="/>ria tibi domine sÿungis mett.</head>
+            <head>¶ <ref target="#sl-128"><orig>Then Cxxvij. Psalme </orig><reg>Sl 128</reg></ref>
+               Psalme Beati om<lb rend="="/>nes qui timent dominu<ex>m</ex>/ met the noder Glo<lb
+                  rend="="/>ria tibi domine sÿungis mett.</head>
             <lg>
                <l><c function="initials" rend="3">S</c>Alig er then mand ther Gudt frÿch<lb rend="="
                   />ter/ </l>
@@ -1243,7 +1247,8 @@
          <lb/>
          <div type="psalm" xml:id="salige-er-alle-i-guds-frygt-staar" n="20">
             <head type="add">Salig er den i Guds frygt står</head>
-            <head>¶ Psalmus Cxxvij. Beati omnes <lb/>qui timent dominum.</head>
+            <head>¶ <ref target="#sl-128"><orig>Psalmus Cxxvij. </orig><reg>Sl 128</reg></ref> Beati
+               omnes <lb/>qui timent dominum.</head>
             <lg>
                <l><pb facs="035" n="d 4v"/><c function="initials" rend="3">S</c>Alige ere alle ÿ
                   Guds fryct staa / </l>
@@ -1460,7 +1465,8 @@
             </lg>
             <lb/>
             <lg>
-               <l><pb facs="040" n="e 3r"/><space extent="2blanks"/>Mitt blodt thet flødt paa iorden nedt/ </l>
+               <l><pb facs="040" n="e 3r"/><space extent="2blanks"/>Mitt blodt thet flødt paa iorden
+                  nedt/ </l>
                <l>ieg baar ther kors mett møde. </l>
                <l>Jeg leedt for <lb/>teg then haarde dødt/ </l>
                <l>troo thet/ och lad teg <lb/>døbe. </l>
@@ -1589,10 +1595,10 @@
          </div>
          <div type="psalm" xml:id="deus-noster" n="26">
             <head type="add">Vor Gud han er så fast en borg</head>
-            <head><pb facs="043" n="e 4v"/>¶ Then Xlv. <app>
-               <lem>Psalme</lem>
-               <rdg wit="#orig">Psame</rdg>
-            </app>/ Deus noster <lb/>refugium.</head>
+            <head><pb facs="043" n="e 4v"/>¶ <ref target="#sl-46"><orig>Then Xlv. <app>
+                        <lem>Psalme</lem>
+                        <rdg wit="#orig">Psame</rdg>
+                     </app>/ </orig><reg>Sl 46</reg></ref> Deus noster <lb/>refugium.</head>
             <lg>
                <l><c function="initials" rend="3">V</c>Or Gudt hand er saa fast een borg/ </l>
                <l>hand er wor skioldt oc wærie. </l>
@@ -1678,7 +1684,8 @@
          <lb/>
          <div type="psalm" xml:id="salme-cxxvij-in-convertendo" n="28">
             <head type="add">Når Gud får løst Sions fængsel</head>
-            <head>¶ Psalmus Cxxvij. Jn conuertendo <lb/>dominus captiuitatem Syon.</head>
+            <head>¶ <ref target="#sl-126"><orig>Psalmus Cxxvij. </orig><reg>Sl 126</reg></ref> Jn
+               conuertendo <lb/>dominus captiuitatem Syon.</head>
             <lg>
                <l><pb facs="045" n="f 1v"/><c function="initials" rend="3">N</c>Aar Gudt faar løøst
                   Syons feng<lb rend="="/>sel/ </l>
@@ -1747,9 +1754,9 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="vi-saade-og-graade-i-babylon-dietz-1536" n="30">
-            <head type="add">Vi saade og graade i Babylon</head>
-            <head>¶ Psalmus Cxxxvij. Super flumi<lb rend="="/>na Babilonis sedimus et
-               fleuimus.</head>
+            <head type="add">Vi sad og græd i Babylon</head>
+            <head>¶ <ref target="#sl-137"><orig>Psalmus Cxxxvij. </orig><reg>Sl 137</reg></ref>
+               Super flumi<lb rend="="/>na Babilonis sedimus et fleuimus.</head>
             <lg>
                <l><c function="initials" rend="3">V</c>Y saade oc graade ÿ Babilon/ </l>
                <l>Nar <lb/>wÿ tenchte paa Syon.</l>
@@ -2307,7 +2314,8 @@
          <lb/>
          <div type="psalm" xml:id="herre-gud-frels-mig-fra-onde-mennesker" n="39">
             <head type="add">Herre Gud, frels mig fra onde mennesker</head>
-            <head>¶ Then Cxl. Psalm Eripe me domi<lb rend="="/>ne/ </head>
+            <head>¶ <ref target="#sl-140"><orig>Then Cxl. Psalm </orig><reg>Sl 140</reg></ref> Eripe
+               me domi<lb rend="="/>ne/ </head>
             <p>Maa huer læse mod sine vwenner som hannom fortale och forfølge/ Ath Gud <pb
                   facs="057" n="g 3v"/>
                <lb/>will frelse hannom fraa them/ och aff hans <lb/>nødt och sorg.</p>
