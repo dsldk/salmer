@@ -712,11 +712,14 @@
                             lære<ex>n</ex>d<ex>is</ex>
                         <lb/> alle folken/ døbendis dennem J naffn faders oc søns och den <lb/>
                         helligaands/ oc lærer dennem att holle alle de ting huilke som <lb/> helst
-                        ieg bødt eder. <!--<hi rend="font_red">--> Mathei xxviii<!--</hi>-->
+                        ieg bødt eder. <!--<hi rend="font_red">-->
+                        <ref target="#">matt-28<orig> Mathei xxviii </orig><reg>Matt
+                        28</reg></ref><!--</hi>-->
                     </p>
                     <lb/>
                     <p> * Huilken som tror oc bliffuer døbt/ han worder salig/ men <lb/> hwo som
-                        icke tror/ han skal fordømmis. <!--<hi rend="font_red">--> Marci vltimo. <lb/>
+                        icke tror/ han skal fordømmis. <!--<hi rend="font_red">-->
+                        <ref target="#">#mark-16<orig> Marci vltimo. </orig><reg>Mark 16</reg></ref><lb/>
                         <!--</hi>-->
                     </p>
                 </div>
@@ -2470,12 +2473,13 @@
                         herre Amen <lb/>
                     </p>
                     <p>Pro Pace Versiculus.</p>
-                    <lg><l>¶ Giiff oss fred o herre Gud wor hymmelske Fader.</l>
+                    <lg>
+                        <l>¶ Giiff oss fred o herre Gud wor hymmelske Fader.</l>
                         <l> Ved din enborne søn Jesum Christum wor herre. </l>
                     </lg>
                     <p> Collecta.</p>
-                    <p>O Almectigste euige Gud som er een kelle til all fredt Ty<lb
-                            rend="="/>melig oc euig/ oc all hiærtens rolighed/ Vy bede din <app>
+                    <p>O Almectigste euige Gud som er een kelle til all fredt Ty<lb rend="="/>melig
+                        oc euig/ oc all hiærtens rolighed/ Vy bede din <app>
                             <lem>god<lb rend="="/>hed</lem>
                             <rdg>
                                 <q>god| hed</q> orig.</rdg>
@@ -2484,18 +2488,20 @@
                         sande fryct maa frelsis fra vaare fie<ex>n</ex>ders rædsle oc <lb/> fare Ved
                         din søn Jesum Christum wor herre. Amen. </p>
                     <p> * * </p>
-                    <p>  * </p>
+                    <p> * </p>
                 </div>
             </div>
             <div type="chapter" xml:id="kolofon-ulricksoen-1535" n="7">
                 <head type="add">Kolofon</head>
-                <p> Satt i Malmøø Taarsdage<ex>n</ex> effter Tyburcii. MDXXXv </p></div>            
+                <p> Satt i Malmøø Taarsdage<ex>n</ex> effter Tyburcii. MDXXXv </p>
+            </div>
             <div type="figure" xml:id="rigsvaaben-ulricksoen-1535">
                 <head type="add">Rigsvåben</head>
-                <head>[Rigsvåben]</head></div>            
+                <head>[Rigsvåben]</head>
+            </div>
             <div type="figure" xml:id="konge-med-vaaben-ulricksoen-1535">
                 <head type="add">Konge med hær og våben</head>
-                <head>[Konge med våben]</head>            
+                <head>[Konge med våben]</head>
                 <p><pb facs="0053L" n="F 4v"/> Arma Regis Danorum. <lb/>
                     <figure>
                         <figDesc>træsnit</figDesc>
