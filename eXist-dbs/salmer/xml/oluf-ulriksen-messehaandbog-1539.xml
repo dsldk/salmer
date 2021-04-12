@@ -4105,7 +4105,7 @@
                 <p>Lege N i. versu xiiij. Vore fie<ex>n</ex>d<ex>er</ex> oc oss. <lb/>giff en sand
                     kerlighedt.</p>
             </div>
-            <div xml:id="epilogue">
+            <div xml:id="epilogue-vormordsen-1539">
                 <head type="add">Ad Lectorem/ Til læseren</head>
                 <head>Ad Lectorem.</head>
                 <lb/>
@@ -4116,13 +4116,14 @@
                         rend="="/>one vtendum. cum declaratione doc<lb rend="="/>toris Martini
                     Lutheri. breui hac eadem <lb/>forma et prelo excudendum curabimus. vale</p>
             </div>
-            <div>
+            <div xml:id="kolofon-vormordsen-1539">
                 <head type="add">Kolofon</head>
                 <p>Jmpressum malmogie per Olauum Vlri<lb rend="="/>ci xvij die Aprilis. Anno domini
                     mdxxxix. </p>
                 <p>Finis.</p>
             </div>
-            <div>
+            <div xml:id="kongevaaben-vormordsen-1539">
+                <head type="add">Kongevåben</head>
                 <head><pb facs="0173L" n="X 4v"/>Jnsignia Regis Danorum.</head>
                 <p>[Kongevåben]</p>
                 <figure type="image"/>
