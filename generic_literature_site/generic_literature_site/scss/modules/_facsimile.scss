@@ -3,6 +3,18 @@
   justify-content: center;
 }
 
+.facsimile-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .facsimile-pagination.arrow-l {
+    margin-right:1em;
+  }
+  .facsimile-pagination.arrow-r {
+    margin-left:1em;
+  }
+}
+
 .facsimile-link {
   font-family: 'Montserrat', sans-serif;
   font-size: .75rem;
