@@ -8515,7 +8515,7 @@
                   <l><app><lem>w<lb rend="="/>di en </lem><rdg wit="#orig.">w<lb rend="="/>den
                               <note>rettet</note></rdg></app> ret tro at wi mue staande/ </l>
                   <l>At wi oss forlade </l>
-                  <l>til Jesu<ex>m</ex>
+                  <l>til Jesu<ex>m</ex> 
                      <app><lem>Chris<lb rend="="/>tum </lem><rdg wit="#orig.">Chri<lb rend="="/>tum
                               <note>rettet</note></rdg></app> all ene/ </l>
                   <l>Som vor hiem<lb rend="="/>melske Fader </l>
@@ -19488,20 +19488,20 @@
                   <l><space extent="2blanks"/> Maneat semper nobiscum, Amen. </l>
                </lg>
                <lb/>
-               <p> * *</p>
+               <p>          * *</p>
                <lb/>
-               <p> *</p>
+               <p>           *</p>
             </div>
          </div>
       </body>
       <back>
          <div type="register" xml:id="register-vingaard-1553" n="11">
             <head type="add">Register</head>
-            <head>Register paa denne Bog</head>
+            <head><pb n_ekstra="Bb1r" n="177r" facs="0420R"/> *  Register paa denne Bog  *</head>
             <lb/>
             <div type="section" xml:id="section-a">
                <head type="add">Sektion A</head>
-               <head><pb n_ekstra="Bb1r" n="177r" facs="0420R"/>A</head>
+               <head>A</head>
                <div type="list">
                   <list rend="simple">
                      <item>All den gantske Christenhed   <ref target="#al-den-ganske-kristenhed"
@@ -20202,7 +20202,7 @@
             <head type="add">Kolofon</head>
             <p>
                * Prentet i Københaffn hoss Hans <lb/>Vingaard/ Aar effter Gudz
-               <lb/>Byrd M. D. Liii. <lb/></p><p>   ⁕    ⁕</p><p>      ⁕
+               <lb/>Byrd M. D. Liii. <lb/></p><p>           ⁕    ⁕</p><p>              ⁕
             </p>
          </div>
       </back>
