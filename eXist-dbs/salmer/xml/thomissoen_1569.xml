@@ -4860,7 +4860,7 @@
                 <head type="add">Kristi komme</head>
                 <head><pb facs="057" n="1r"/> Om Christi Tilkommelse <lb/> til Verden.</head>
                 <div type="psalm" xml:id="veni-redemptor-gentium" n="1">
-                    <head type="add">Kom, hedningers frelser sand</head>
+                    <head type="add">Kom hedningers frelser sand</head>
                     <head>I. <lb/> Den Hymne/ <title><hi rend="italics">Veni redemptor <lb/>
                                 gentium</hi></title>. <lb/> D. Morten Luther.</head>
                     <figure type="image"/>
@@ -5147,7 +5147,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="dies-est-leticie" n="6">
-                    <head type="add">Dies est læticiæ</head>
+                    <head type="add">Dies est lætitiæ</head>
                     <head><pb facs="069" n="7r"/> VI. <lb/>
                         <title><hi rend="italics">DIES EST LÆ<lb rend="="/>ticiæ</hi></title>: </head>
                     <notatedMusic>
@@ -5494,7 +5494,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="en-jomfrue-foedte-et-barn" n="9">
-                    <head type="add">En jomfru fødte et barn i dag (alt. tekst)</head>
+                    <head type="add">En jomfru fødte et barn i dag</head>
                     <head> IX. <lb/>
                         <title>En Jomfru fødde it Barn i dag <ex>etc</ex>.</title>
                         <lb/> siungis met de Noder/ som/ <title>Jt lidet Barn <lb/> saa
@@ -5637,7 +5637,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="lovsang-efter-resonet" n="12">
-                    <head type="add">Al den ganske kristenhed (alt. tekst)</head>
+                    <head type="add">Al den ganske kristenhed</head>
                     <head> XII. <lb/> En Loffsang met de Noder/ som/ <lb/>
                         <hi rend="italics">Resonet in laudibus</hi>, siun<lb rend="="/>gis
                         met.</head>
@@ -5767,7 +5767,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="lov-gud-du-kristenhed" n="14">
-                    <head type="add">Lov Gud du kristenhed (alt. tekst)</head>
+                    <head type="add">Lov Gud, du kristenhed</head>
                     <head> XIIII. <lb/> Loff Gud du Christenhed/ <ex>etc</ex>. siun<lb rend="="/>gis
                         met de Noder/ som/ <hi rend="italics">In dulci iu<lb rend="="/>bilo</hi>,
                         siungis met.</head>
@@ -5973,7 +5973,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="puer-natus-in-bethlehem-thomissoen-1569" n="16">
-                    <head type="add">Puer natus in Bethlehem / Et barn er født i Bethlehem</head>
+                    <head type="add">Puer natus in Bethlehem [og] Et barn er født i Bethlehem</head>
                     <head> XVI. <lb/> PVER NATVS IN <lb/> Bethlehem. </head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_019v.xml"/>
@@ -6136,7 +6136,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="lovsang-vor-herre-jesu-foedsel" n="17">
-                    <head type="add">Lovet være du, Jesus Krist</head>
+                    <head type="add">Lovet være du, Jesu Krist</head>
                     <head><pb facs="097" n="21r"/> XVII. <lb/> En Loffsang om vor Herris <lb/> Jesu
                         Christi Fød<lb rend="="/>zel. <lb/> D. Morten Luther.</head>
                     <notatedMusic>
@@ -6194,7 +6194,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="vaer-glad-du-hellige-kristenhed" n="18">
-                    <head type="add">Vær glad, du hellige Kristenhed</head>
+                    <head type="add">Vær glad, du hellige kristenhed</head>
                     <head><pb facs="099" n="22r"/> XVIII. <lb/>
                         <title>Ver glad du hellige Chri<lb rend="="/>stenhed</title>.</head>
                     <notatedMusic>
@@ -6352,7 +6352,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="fra-himmelen-kom-den-engel" n="20">
-                    <head type="add">Fra himlen kom den engleskare (alt. tekst)</head>
+                    <head type="add">Fra himlen kom den engleskare</head>
                     <head><pb facs="104" n="24v"/>XX. <lb/>
                         <title>Fra Himmelen kom den Engle <lb/> Skar <ex>etc</ex>.</title> Siungis
                         met de noder/ som/ <lb/>
@@ -7395,7 +7395,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-3-hymn-12" n="12">
-                    <head type="add">Salve Jesu Christe vor Frelsermand</head>
+                    <head type="add">Salve Jesu Kriste vor frelsermand</head>
                     <head> XII. <lb/>
                         <hi rend="italics">SALVE REGINA,</hi>
                         <lb/> Chri<lb rend="="/>stelige foruent/ Jesu Christo til <lb/>loff oc ære.
@@ -7719,7 +7719,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-3-hymn-14" n="14">
-                    <head type="add">Nu fryder eder, alle kristne mænd / Gud Fader Søn og
+                    <head type="add">Nu fryder eder, alle kristne mænd [og] Gud Fader Søn og
                         Helligånd</head>
                     <head> XIIII. En Tacksigelse for Guds høymecti<lb rend="="/>ge Velgierninger/
                         som hand oss beuist <lb/>haffuer i sin Søn Jesu <lb/>Christo.</head>
@@ -8212,7 +8212,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-3-hymn-19" n="19">
-                    <head type="add">O, Kriste konning med guddoms kraft</head>
+                    <head type="add">O Kriste konning med guddoms kraft</head>
                     <head><pb facs="176" n="60v"/> XIX. <lb/> Den Hymne/ <hi rend="italics">Gloria
                             laus et honor ti<lb rend="="/>bi sit rex Christe redemptor
                             <ex>etc</ex>.</hi>
@@ -9345,7 +9345,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-4-hymn-7" n="7">
-                    <head type="add">Jesus op på korset stod</head>
+                    <head type="add">Jesus oppå korset stod</head>
                     <head> VII. <lb/> Om de VII. Ord/ vor Herre Je<lb rend="="/>sus Christus talede
                         / den tid hand <lb/> hengde paa Kaarssens <lb/> gallie.</head>
                     <notatedMusic>
@@ -9439,7 +9439,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-4-hymn-8" n="8">
-                    <head type="add">Det hellige kors vor Herre selv bar</head>
+                    <head type="add">Det hellige kors, vor Herre selv bar</head>
                     <head> VIII. <lb/> Almuens gamle sang/ <title>Det hel<lb rend="="/>lige Kaarss
                                 <ex>etc</ex>.</title> Forbedret <lb/>aff <lb/> M. Morten
                         Hegelund.</head>
@@ -10033,7 +10033,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-5-hymn-10" n="10">
-                    <head type="add">Ærens konning o Kriste</head>
+                    <head type="add">Ærens konning, o Kriste</head>
                     <head><pb facs="243" n="94r"/> X. <lb/>
                         <hi rend="italics">Regina coeli,</hi> Christelig foruent/ <lb/> Jesu Christo
                         til loff oc ære.</head>
@@ -10113,7 +10113,7 @@
                 <head type="add">Kristi himmelfart</head>
                 <head><pb facs="248" n="96v"/>Om Christi Him<lb rend="="/>melfart.</head>
                 <div type="psalm" xml:id="section-6-hymn-1" n="1">
-                    <head type="add">Postquam resurrexit (alt. tekst)</head>
+                    <head type="add">Postquam resurrexit</head>
                     <head> I. <lb/>
                         <title><hi rend="italics">POSTQVAM RESVR<lb rend="="/>rexit</hi></title>.
                         Siungis lige som/ <lb/>
@@ -10129,7 +10129,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-6-hymn-2" n="2">
-                    <head type="add">Krist til himmels mon fare (alt. tekst)</head>
+                    <head type="add">Krist til himmels mon fare</head>
                     <head> II. <lb/>
                         <title>Christ til Himmels mon fare</title>/ <lb/> Siungis lige som/
                             <title>Christ stod <lb/>op aff Døde</title>.</head>
@@ -10309,7 +10309,7 @@
                 </div>
             </div>
             <div type="psalmgroup" xml:id="section-7" n="7">
-                <head type="add">Om helligånden</head>
+                <head type="add">Om Helligånden</head>
                 <head n="4">Om den Hellig <lb/> Aand.</head>
                 <div type="psalm" xml:id="section-7-hymn-1" n="1">
                     <head type="add">Kyrie Gud Fader alsomhøjeste trøst</head>
@@ -10345,7 +10345,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-7-hymn-2" n="2">
-                    <head type="add">Christus nos revisit (alt. tekst)</head>
+                    <head type="add">Christus nos revisit</head>
                     <head> II. <lb/>
                         <title><hi rend="italics">Christus nos reuisit</hi></title>, Siungis lige
                         <lb/> som/ <title><hi rend="italics">Resurrexit Christus</hi></title>. </head>
@@ -10360,7 +10360,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-7-hymn-3" n="3">
-                    <head type="add">Krist den helligånd sende (alt. tekst)</head>
+                    <head type="add">Krist den Helligånd sende</head>
                     <head> III. <lb/> Christ den hellig Aand sende <ex>etc</ex>. <lb/> siungis lige
                         som/ Christ stod <lb/> op aff døde.</head>
                     <lg>
@@ -10416,7 +10416,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-7-hymn-5" n="5">
-                    <head type="add">Vi arme Adams børn alle/ Nu bede vi den Helligånd</head>
+                    <head type="add">Vi arme Adams børn alle [og] Nu bede vi den Helligånd</head>
                     <head> V. <lb/> En Sequentze til/ <title>Nu bede wi<lb/>den hellig Aand</title>.
                         <lb/>M. Hans Taussen.</head>
                     <notatedMusic>
@@ -11125,7 +11125,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-9-1-hymn-4" n="4">
-                    <head type="add">Den som vil en kristen hedde (alt. tekst)</head>
+                    <head type="add">Den, som vil en kristen hedde</head>
                     <head> IIII. <lb/>
                         <title>De Thi Guds bud</title>/ met de Noder/ <lb/> som/ <title>Saa taler
                             den wuise Mund</title>
@@ -11507,7 +11507,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-9-3-hymn-4" n="4">
-                    <head type="add">O Herre Gud miskunde dig (alt. tekst)</head>
+                    <head type="add">O Herre Gud miskunde dig</head>
                     <head> IIII. <lb/>
                         <title>O Herre Gud miskunde dig</title>
                         <ex>etc</ex>. <lb/> siungis lige som/ Nu er oss Gud <lb/> miskundelig
@@ -11908,7 +11908,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-9-5-hymn-7" n="7">
-                    <head type="add">Der Jesus Kristus vor Herre (alt. tekst)</head>
+                    <head type="add">Der Jesus Kristus vor Herre</head>
                     <head> VII. <title>Der Jesus Christus vor Herre</title>
                         <ex>etc</ex>. <lb/> siungis lige som/ <title>O Menniske <lb/>begræd din synd
                             saa <lb/>stor</title>
@@ -12473,7 +12473,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-10-hymn-6" n="6">
-                    <head type="add">Et godt beråd, vel betænkt mod (alt. tekst)</head>
+                    <head type="add">Et godt beråd, vel betænkt mod</head>
                     <head> VI. <lb/> Om Guds Ords foractelse. Oc <lb/> siungis met de Noder/ som/
                             <hi rend="italics">Kommer <lb/> til mig sagde Guds Søn/</hi>
                         <lb/>siungis met.</head>
@@ -12792,7 +12792,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-10-hymn-8" n="8">
-                    <head type="add">O Fader vor, barmhjertig og god (alt. tekst)</head>
+                    <head type="add">O Fader vor, barmhjertig og god</head>
                     <head> VIII. <lb/> En Bøn om Guds Ords varaffti<lb rend="="/>ge krafft i vore
                         Hierter. Siungis lige <lb/>som/ Nu er oss Gud miskun<lb rend="="/>delig
                             <ex>etc</ex>.</head>
@@ -12994,7 +12994,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-11-hymn-2" n="2">
-                    <head type="add">Herre Gud Fader være lov og tak (alt. tekst)</head>
+                    <head type="add">Herre Gud Fader være lov og tak</head>
                     <head> II. <lb/>
                         <title>Herre Gud Fader være loff oc tack</title>/ <lb/> siungis lige som/
                             <title>O Stierners <lb/> skabere</title>/ <ex>etc</ex>. <lb/> Her Aruid
@@ -15105,7 +15105,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-13-hymn-9" n="9">
-                    <head type="add">O almægtige evige Gud (alt. tekst)</head>
+                    <head type="add">O almægtige evige Gud</head>
                     <head> IX. <lb/>
                         <title>O Allmectig euige Gud</title>
                         <ex>etc</ex>. Siun<lb rend="="/>gis/ lige som/ <title>Hui storme oc fnyse
@@ -15380,7 +15380,7 @@
                 <head type="add">Den kristelige kirke</head>
                 <head><pb facs="433" n="190r"/>Om den Christelig <lb/> Kircke.</head>
                 <div type="psalm" xml:id="section-14-hymn-1" n="1">
-                    <head type="add">Vel er den mand der vandrer ej (alt. tekst)</head>
+                    <head type="add">Vel er den mand, der vandrer ej</head>
                     <head> I. <lb/> Den <ref target="#sl-1"><orig>I.
                             Psalme</orig><!--<reg>Sl
                             1</reg>--></ref>/
@@ -15425,7 +15425,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-14-hymn-2" n="2">
-                    <head type="add">O Herre Gud i Himmerig (alt. tekst)</head>
+                    <head type="add">O Herre Gud i Himmerig</head>
                     <head> II. <lb/> Den <ref target="#sl-15"><orig>XV.
                             Psalme</orig><!--<reg>Sl
                                 15</reg>--></ref>/
@@ -15468,7 +15468,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-14-hymn-3" n="3">
-                    <head type="add">Salig forvist er alle de (alt. tekst)</head>
+                    <head type="add">Salig forvist er alle de</head>
                     <head> III. <lb/> Begyndelsen aff den <ref target="#sl-119"><orig>CXIX.
                                 Psalme</orig><!--<reg>Sl 119</reg>--></ref>
                         <lb/>
@@ -15688,7 +15688,7 @@
                 <head type="add">Ægteskab</head>
                 <head><pb facs="443" n="195r"/>Om Ecteskab.</head>
                 <div type="psalm" xml:id="section-15-hymn-1" n="1">
-                    <head type="add">Salig er den i Guds frygt står</head>
+                    <head type="add">Salig er den, i Guds frygt står</head>
                     <head> I. <lb/> Den <ref target="#sl-128"><orig>CXXVIII.
                             Psalme</orig><!--<reg>Sl
                                 128</reg>--></ref>.
@@ -15828,7 +15828,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-15-hymn-4" n="4">
-                    <head type="add">Ret salig er forvist den mand (alt. tekst)</head>
+                    <head type="add">Ret salig er forvist den mand</head>
                     <head> IIII. <lb/> Den samme <ref target="#sl-128"><orig>CXXVIII.
                             Psalme</orig><!--<reg>Sl 128</reg>--></ref>/ <lb/> anderledis. Vnder de
                         Noder/ som/ <lb/>
@@ -16613,7 +16613,7 @@
                 <head type="add">Korset og trøst mod modgang og fristelse</head>
                 <head>Om Kaarssit/ oc trøst mod <lb/> atskillige modgang oc <lb/> fristelser.</head>
                 <div type="psalm" xml:id="section-17-hymn-1" n="1">
-                    <head type="add">O Herre for dig ret ynkelig (alt. tekst)</head>
+                    <head type="add">O Herre for dig ret ynkelig</head>
                     <head> I. <lb/> Den <ref target="#sl-3"><orig>III.
                             Psalme</orig><!--<reg>Sl
                             3</reg>--></ref>/
@@ -16693,7 +16693,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-2" n="2">
-                    <head type="add">Gud hør mig snart (alt. tekst)</head>
+                    <head type="add">Gud hør mig snart</head>
                     <head> II. <lb/> Den <ref target="#sl-4"><orig>IIII.
                             Psalme</orig><!--<reg>Sl
                                 4</reg>--></ref>/
@@ -16843,7 +16843,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-4" n="4">
-                    <head type="add">O Herre Gud af Himmerig (alt. tekst)</head>
+                    <head type="add">O Herre Gud af Himmerig</head>
                     <head> IIII. <lb/> Den samme <ref target="#sl-12"><orig>XII.
                             Psalme</orig><!--<reg>Sl 12</reg>--></ref>/ anderle<lb rend="="/>dis.
                         Vnder de Noder/ som/ <title>O Jesu <lb/>Christ som mandom tog</title>/
@@ -17101,7 +17101,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-8" n="8">
-                    <head type="add">Hvi tratzer du og berømmer dig</head>
+                    <head type="add">Hvi trodser du og berømmer dig</head>
                     <head> VIII. <lb/> Den <ref target="#sl-52"><orig>LII.
                             Psalme</orig><!--<reg>Sl
                                 52</reg>--></ref>/
@@ -17512,7 +17512,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-11" n="11">
-                    <head type="add">Herre du gjorde end vel mod mig (alt. tekst)</head>
+                    <head type="add">Herre, du gjorde end vel mod mig</head>
                     <head> XI. <lb/> Jt stycke aff den <ref target="#sl-119"><orig>CXIX.
                                 Psalme</orig><!--<reg>Sl 119</reg>--></ref>/ <lb/>
                         <title><hi rend="italics">Bonitatem fecisti cum seruo tuo Domi<lb rend="="
@@ -17579,7 +17579,7 @@
                     <lb/>
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-12" n="12">
-                    <head type="add">Jeg løfter højt op øjne mine (alt. tekst)</head>
+                    <head type="add">Jeg løfter højt op øjne mine</head>
                     <head><pb facs="509" n="228r"/> XII. <lb/> Den <ref target="#sl-121"><orig>CXXI.
                                 Psalme</orig><!--<reg>Sl 121</reg>--></ref>/ <title><hi
                                 rend="italics">Leuaui ocu<lb rend="="/>los meos in montes
@@ -17920,7 +17920,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-15" n="15">
-                    <head type="add">O menneske, vil du betænke</head>
+                    <head type="add">O menneske, vilt du betænke</head>
                     <head> XV. <lb/> Trøst imod Bugsorg/ Gerigheds <lb/> tancker/ oc mistrøstige
                         omhyggelighed for <lb/>dette Legemis nødtørfftighed/ <lb/>vddragen aff <ref
                             target="#matt-6"><orig>Matthej <lb/> vj.
@@ -18294,7 +18294,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-18" n="18">
-                    <head type="add">Vi bede dig, evige Gud (alt. tekst)</head>
+                    <head type="add">Vi bede dig, evige Gud</head>
                     <head><pb facs="532" n="239v"/> XVIII. <lb/> En Christelig klage vise/ om de
                             Chri<lb rend="="/>stnes forfølgelse. 1547. Siun<lb rend="="/>gis lige
                         som/ <title>Aff Adams fald <lb/>er plat fordærff</title>.</head>
@@ -18486,7 +18486,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-20" n="20">
-                    <head type="add">O Gud, forlene mig med din nåde (alt. tekst)</head>
+                    <head type="add">O Gud, forlene mig med din nåde</head>
                     <head> XX. <lb/> En Aandelig Vise mod Sielens <lb/> trende Hoffuitfiender.
                         Siungis lige <lb/> som/ <title>Maa ieg wlyc<lb rend="="/>ken</title>
                         <ex>etc</ex>.</head>
@@ -19000,7 +19000,7 @@
                     </table>
                 </div>
                 <div xml:id="section-18-prayer-1" n="3">
-                    <head type="add">En bøn om syndernes forladelse</head>
+                    <head type="add">Bøn om syndernes forladelse</head>
                     <head><pb facs="554" n="250v"/> En Bøn om Syndernis <lb/> forladelse.</head>
                     <p><c function="initials" rend="3">O</c> Allmectigste euige Gud/ som er altid
                         <lb/>mild oc miskundelig aff din Guddom<lb rend="="/>melige natur til at
@@ -19010,7 +19010,7 @@
                         Barmhiertighed. </p>
                 </div>
                 <div xml:id="section-18-prayer-2" n="4">
-                    <head type="add">En bøn for kongen og rigets råd</head>
+                    <head type="add">Bøn for kongen og rigens råd</head>
                     <head>For Kongen oc Ri<lb rend="="/>gens Raad.</head>
                     <p><c function="initials" rend="3">O</c> Allmectigste euige Gud/ som viisli<lb
                             rend="="/>ge regerer baade Himmel oc Jord/ <lb/>See miskundelige til vor
@@ -19020,7 +19020,7 @@
                         maa siden beside Himmerigis Rige met <lb/>dig euindelige. </p>
                 </div>
                 <div xml:id="section-18-prayer-3" n="5">
-                    <head type="add">En bøn om fred</head>
+                    <head type="add">Bøn om fred</head>
                     <head>Om Fred.</head>
                     <p><c function="initials" rend="3">O</c> Allmectigste euige Gud/ som er en
                         <lb/>Kilde til all timelig oc Aandelig Fred. <lb/>Wi bede dig ydmygelige/ at
@@ -19031,8 +19031,7 @@
                         Amen.</p>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-3" n="6">
-                    <head type="add">Gud Fader udi Himmerig / Litani på danske rim (alt.
-                        tekst)</head>
+                    <head type="add">Gud Fader udi Himmerig, Guds søn</head>
                     <head> III. <lb/> Litania paa Danske rim/ vnder de <lb/> Noder/ som/
                             <title>Fader vor vdi Him<lb rend="="/>merig</title>/ siungis met.</head>
                     <lg>
@@ -19213,7 +19212,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-5" n="8">
-                    <head type="add">Forlen os med fred nådelig</head>
+                    <head type="add">Forlæ os med fred nådelig</head>
                     <head> V. <lb/> En Bøn om Fred/ <title><hi rend="italics">Da pacem <lb/> Domine
                                     <ex>etc</ex>.</hi></title>
                     </head>
@@ -19259,7 +19258,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-7" n="10">
-                    <head type="add">Gud give vor konning oc al øvrighed</head>
+                    <head type="add">Gud give vor konning og al øvrighed</head>
                     <head> VII. <lb/> Gud giffue vor Konning oc <lb/> all Øffrighed
                         <ex>etc</ex>.</head>
                     <notatedMusic>
@@ -19310,7 +19309,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-9" n="12">
-                    <head type="add">O Gud, hvor længe glemmer du (alt. tekst)</head>
+                    <head type="add">O Gud, hvor længe glemmer du</head>
                     <head> IX. <lb/> Den <ref target="#sl-13"><orig>XIII.
                             Psalme</orig><!--<reg>Sl
                                 13</reg>--></ref>/
@@ -19680,7 +19679,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-13" n="16">
-                    <head type="add">O Herre Gud, betee din magt</head>
+                    <head type="add">O Herre Gud, beté din magt</head>
                     <head> XIII. <lb/> Den <ref target="#sl-79"><orig>LXXIX.
                             Psalme</orig><!--<reg>Sl
                                 79</reg>--></ref>/
@@ -20015,7 +20014,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-17" n="20">
-                    <head type="add">Når mig går sorrig og drøvelse på (alt. tekst)</head>
+                    <head type="add">Når mig går sorrig og drøvelse på</head>
                     <head> XVII. <lb/> Den <ref target="#sl-121"><orig>CXXI.
                             Psalme</orig><!--<reg>Sl
                                 121</reg>--></ref>/
@@ -20144,7 +20143,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-19" n="22">
-                    <head type="add">Gud Fader i himlen, skaber min (alt. tekst)</head>
+                    <head type="add">Gud Fader i himlen, skaber min</head>
                     <head> XIX. <lb/> Gud Fader i Himmelen Skaber <lb/> min/ siungis lige som/
                         Capitan <lb/> Herre Gud <ex>etc</ex>.</head>
                     <lg>
@@ -20642,7 +20641,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-26" n="29">
-                    <head type="add">O nådige Gud i evighed (alt. tekst)</head>
+                    <head type="add">O nådige Gud i evighed</head>
                     <head><pb facs="612" n="279v"/> XXVI. <lb/> En Bøn til Gud Fader Søn oc hel<lb
                             rend="="/>lig Aand/ i allehaande nød/ fare oc forfølgel<lb rend="="/>se/
                         besynderlig naar Tyrcken indfalder i <lb/> Christendommen. Siungis lige
@@ -20786,7 +20785,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-27" n="30">
-                    <head type="add">Jesu Krist, min frelser du est (alt. tekst)</head>
+                    <head type="add">Jesu Krist, min frelser du est</head>
                     <head> XXVII. <lb/> En vise i huilcken Christendommen <lb/> klageligen giør sin
                         bøn til Jesum Christum/ <lb/> oc fanger trøstige suar aff hannem.</head>
                     <p> Siungis lige som/ O Jesu bold <lb/> met megit vold <ex>etc</ex>.</p>
@@ -20910,7 +20909,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-28" n="31">
-                    <head type="add">O Gud Fader i evighed (alt. tekst)</head>
+                    <head type="add">O Gud Fader i evighed</head>
                     <head> XXVIII. <lb/> En Bøn mod Christendoms Fien<lb rend="="/>der/ i denne
                         farlige tid.</head>
                     <p> Siungis lige <lb/>som/ vil Gud vor Herre ey <lb/>met oss staa <ex>etc</ex>.
@@ -20963,7 +20962,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-29" n="32">
-                    <head type="add">Vor Gud ville vi påkalde (alt. tekst)</head>
+                    <head type="add">Vor Gud ville vi påkalde</head>
                     <lb/>
                     <head> XXIX. <lb/> Vor Gud ville wi paakalde <ex>etc</ex>.<lb/>Siungis lige som/
                         Min Siel nu <lb/>loffue Herren <ex>etc</ex>.</head>
@@ -21557,7 +21556,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-11" n="11">
-                    <head type="add">Var Gud ikke med os denne tid</head>
+                    <head type="add">Vare Gud ikke med os denne tid</head>
                     <head> XI. <lb/> Den CXXIIII. Psalme/ <hi rend="italics">Nisi quia <lb/> Dominus
                             erat in nobis <ex>etc</ex>.</hi>
                         <lb/>D. Morten Luther.</head>
@@ -21683,7 +21682,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-13" n="13">
-                    <head type="add">Herre Gud, du som randsager mig</head>
+                    <head type="add">Herre Gud, du som ransager mig</head>
                     <head> XIII. <lb/> Den <ref target="#sl-139"><orig>CXXXIX.
                             Psalme</orig><!--<reg>Sl
                                 139</reg>--></ref>/
@@ -21936,7 +21935,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-16" n="16">
-                    <head type="add">Min sjæl ophøjer Herren</head>
+                    <head type="add">Min sjæl ophøjer Herren [og] Kristum vor salighed [og] Herre, lad nu din tjener fare i fred</head>
                     <head> XVI. XVII. <lb/>
                         <hi rend="italics">Magnificat,</hi> Det er/ Jomfru Ma<lb rend="="/>riæ
                         Loffsang/ oc <hi rend="italics">Nunc dimittis,</hi> Det er/ <lb/> Simeonis
@@ -21987,9 +21986,8 @@
                         <l><space extent="2blanks"/>Som hand sagde til vore Fædre/ Abra<lb rend="="
                             />ham oc hans Sæd euindelige.</l>
                     </lg>
-                    <!--<head type="add">Antifon</head>-->
-                    <head>
-                        <hi rend="italics">Antiphona.</hi></head>
+                    <p>
+                        <hi rend="italics">Antiphona.</hi></p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_302v.xml#mdiv-02"/>
                     </notatedMusic>
@@ -22000,12 +21998,11 @@
                         <l>prise wi vdi euighed </l>
                         <l>Amen. </l>
                     </lg>
-                    <!--<head type="add">Nunc dimittis / Herre, lad nu din tjener fare i fred</head>-->
-                    <head>
+                    <p>
                         <ref target="#luk-2"><orig><hi rend="italics">Lucæ</hi>
                             2.</orig><!--<reg>Luk
                                 2</reg>--></ref>
-                        <hi rend="italics">Nunc dimittis.</hi></head>
+                        <hi rend="italics">Nunc dimittis.</hi></p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_302v.xml#mdiv-03"/>
                     </notatedMusic>
@@ -22149,7 +22146,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-18" n="20">
-                    <head type="add">Alene Gud i det høje være ære (alt. tekst)</head>
+                    <head type="add">Alene Gud i det høje være ære</head>
                     <lb/>
                     <head> XIX. <lb/> Allene Gud i det høye være ære/ </head>
                     <p>Siungis lige som/ Alleniste Gud <lb/>i Himmerig <ex>etc</ex>.</p>
@@ -22345,7 +22342,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-22" n="24">
-                    <head type="add">O trofast hjerte lov, tak og pris (alt. tekst)</head>
+                    <head type="add">O trofast hjerte lov, tak og pris</head>
                     <head> XXIII. <lb/> O trofast hierte loff tack oc priss <ex>etc</ex>. <lb/>
                         Siungis lige som/ Nu fryder eder <lb/> alle Christne mend
                         <ex>etc</ex>.</head>
@@ -22839,7 +22836,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-20-hymn-4" n="4">
-                    <head type="add">Den klare sol nu skinner fri (alt. tekst)</head>
+                    <head type="add">Den klare sol nu skinner fri</head>
                     <head> IIII. <lb/> Den klare Soel nu skinner fri <ex>etc</ex>. <lb/> Siungis
                         lige som/ Salig er den <lb/> Mand der Gud <lb/> frycter.</head>
                     <lg>
@@ -22873,7 +22870,7 @@
                 <head type="add">Taksigelser og bønner om aftenen</head>
                 <head>Tacksigelser oc Bøner<lb/> om Afftenen.</head>
                 <div type="psalm" xml:id="section-21-hymn-1" n="1">
-                    <head type="add">O himmelske Fader (alt. tekst)</head>
+                    <head type="add">O himmelske Fader, vi ere dine</head>
                     <head> I. <lb/> En Christelig Afften vise/ til at befa<lb rend="="/>le sig Gud i
                         vold met/ naar mand vil gaa til <lb/> sengs/ siungis lige som/ Aff dybsens
                         nød raaber ieg <lb/> til dig/ Dictet aff erlig oc velbyrdig Mand <lb/> Her
@@ -23080,7 +23077,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-21-hymn-4" n="4">
-                    <head type="add">O, du trefoldig enighed</head>
+                    <head type="add">O du trefoldig enighed</head>
                     <head> IIII. <lb/> Den Hymne/ <hi rend="italics">O lux beata <lb/> trinitas
                                 <ex>etc</ex>.</hi>
                     </head>
@@ -23108,7 +23105,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-21-hymn-5" n="5">
-                    <head type="add">O Herre Gud som alting skabte (alt. tekst)</head>
+                    <head type="add">O Herre Gud, som alting skabte</head>
                     <head> V. <lb/> Den Hymne/ <lb/>
                         <hi rend="italics">Lucis creator optime,</hi>
                         <lb/> Siungis lige som/ Herre mit <lb/>haab det er til dig
@@ -23191,7 +23188,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-21-hymn-7" n="7">
-                    <head type="add">Solen er nu nedgangen plat (alt. tekst)</head>
+                    <head type="add">Solen er nu nedgangen plat</head>
                     <head><pb facs="704" n="325v"/> VII. <lb/> Solen er nu nedgangen plat/ Siun<lb
                             rend="="/>gis lige som/ Salig er den Mand <lb/>der Gud frycter
                             <ex>etc</ex>.</head>
@@ -23339,7 +23336,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-22-hymn-3" n="3">
-                    <head type="add">Dig bede vi, børnene dine (alt. tekst)</head>
+                    <head type="add">Dig bede vi, børnene dine</head>
                     <head> III. <lb/> Dig bede wi Børnene dine/ </head>
                     <p> Siun<lb rend="="/>gis lige som/ Herre Christ Gud <lb/>Faders enbaarne
                         <lb/>Søn <ex>etc</ex>.</p>
@@ -23378,7 +23375,7 @@
                 <head type="add">Taksigelser efter måltidet</head>
                 <head n="4"><pb facs="711" n="329r"/>Tacksigelser effter<lb/> Maaltid.</head>
                 <div type="psalm" xml:id="section-23-hymn-1" n="1">
-                    <head type="add">Lader os nu alle vor kære Fader takke (alt. tekst)</head>
+                    <head type="add">Lader os nu alle vor kære Fader takke</head>
                     <head> I. <lb/>
                         <hi rend="italics">Gratias,</hi> Lader oss nu alle vor kiere <lb/>Fader
                         tacke/ </head>
@@ -23440,7 +23437,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-23-hymn-3" n="3">
-                    <head type="add">O Gud, din godhed takke vi (alt. tekst)</head>
+                    <head type="add">O Gud, din godhed takke vi</head>
                     <head> III. <lb/> O Gud din godhed tacke wi/ </head>
                     <p>Siungis lige som/ O Gud wi tacke <lb/>oc loffue dig.</p>
                     <lg>
@@ -23482,7 +23479,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-23-hymn-4" n="4">
-                    <head type="add">Takker Herren, thi han er såre venlig (alt. tekst)</head>
+                    <head type="add">Takker Herren, thi han er såre venlig</head>
                     <head> IIII. <lb/> Tacker Herren/ thi hand er saare <lb/>venlig/ </head>
                     <p> Siungis lige som/ Huo som vil <lb/>salig vdi Verden leffue.</p>
                     <lg>
@@ -23528,7 +23525,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-23-hymn-5" n="5">
-                    <head type="add">Herre Gud du være nu priset (alt. tekst)</head>
+                    <head type="add">Herre Gud, du være nu priset</head>
                     <head> V. <lb/> Herre Gud du være nu priset/ Siun<lb rend="="/>gis lige som/
                         Herre Christ Gud Fa<lb rend="="/>Ders enbaarne Søn.</head>
                     <lg>
@@ -23933,7 +23930,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-24-hymn-7" n="7">
-                    <head type="add">Herre Gud hjælp mig, jeg råber til dig (alt. tekst)</head>
+                    <head type="add">Herre Gud, hjælp mig, jeg råber til dig</head>
                     <head> VII. <lb/> Herre Gud hielp mig ieg raaber <lb/>til dig/ </head>
                     <p> Siungis lige som/ O <lb/>Jesu bold <ex>etc</ex>.</p>
                     <lg>
@@ -24108,7 +24105,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-24-hymn-10" n="10">
-                    <head type="add">Hvad min Gud vil det ske alle tid</head>
+                    <head type="add">Hvad min Gud vil, det ske alle tid</head>
                     <head> X. <lb/> Margreffue Albrets Aff Branden<lb rend="="/>borgs
                         <ex>etc</ex>.vise. Huad min Gud vil <lb/> det skee alletid.</head>
                     <notatedMusic>
@@ -24709,7 +24706,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-25-hymn-2" n="2">
-                    <head type="add">Våg op, våg op, du kristenhed (alt. tekst)</head>
+                    <head type="add">Våg op, våg op, du kristenhed</head>
                     <head> II. <lb/> Vaag op vaag op du Christenhed/ <lb/>Siungis lige som/ Jeg
                         beder dig min <lb/>Herre oc Gud.</head>
                     <p>
@@ -25348,7 +25345,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-25-hymn-6" n="6">
-                    <head type="add">I fromme kristen, være køn</head>
+                    <head type="add">I fromme kristen, værer køn</head>
                     <head> VI. <lb/> J fromme Christen <lb/>værer kiøn.</head>
                     <p><pb facs="778" n="362v"/> Erasmus Alberus. </p>
                     <notatedMusic>
@@ -25620,7 +25617,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-25-hymn-8" n="8">
-                    <head type="add">Når tegn er sket i måne og sol (alt. tekst)</head>
+                    <head type="add">Når tegn er sket i måne og sol</head>
                     <head> VIII. <lb/> Naar Tegn ere skeed i Maane oc <lb/> Soel/ Siungis lige som/
                         Synden giør <lb/>Mennisken blind oc lam/ </head>
                     <p> * Denne sang er tagen aff den Bog som Her Michel <lb/> sogne prest i Odensee
