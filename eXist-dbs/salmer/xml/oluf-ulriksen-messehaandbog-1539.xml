@@ -157,7 +157,7 @@
                 <head type="add">Om messen</head>
                 <!--<div type="mainPart">-->
                 <div xml:id="praestens-forberedelse-vo-1539" n="1">
-                    <head type="add">[Præstens forberedelse]</head>
+                    <head type="add">Præstens forberedelse</head>
                     <head><pb facs="0009L" n="A 2v"/> OM Messen oc huorledis ma<ex>n</ex>d hen<lb
                             rend="="/>ne effter Guds vor herris Jesu cris<lb rend="="/>ti ordt oc
                         indsettilse holde skal. med <lb/>vstraffelige sang. bønner oc
@@ -243,7 +243,7 @@
                 </div>
                 <lb/>
                 <div xml:id="af-dybhedsens-noed-raaber-jeg-til-dig-vo-1539" n="2" type="psalm">
-                    <head type="add">Officium/ Af dybhedsens nød råber jeg til dig</head>
+                    <head type="add">Af dybhedsens nød råber jeg til dig</head>
                     <head>Officium.</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b01r.xml"/>
@@ -317,7 +317,7 @@
                 </div>
                 <lb/>
                 <div xml:id="kyrie-gud-fader-alsomhoejeste-troest-vo-1539" n="3" type="psalm">
-                    <head type="add">Kyrie eleison/ Kyrie Gud fader alsomhøjeste trøst</head>
+                    <head type="add">Kyrie Gud Fader alsomhøjeste trøst</head>
                     <head>Kyrieeleison.</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b02r.xml#mdiv-01"/>
@@ -371,7 +371,7 @@
                         />nige christen forsamling forfølges.</p>
                 </div>
                 <div xml:id="gloria-aere-og-pris-vaere-gud-i-det-hoejeste-vo-1539" n="4">
-                    <head type="add">Gloria in excelsis deo/ Gloria ære og pris være Gud i det
+                    <head type="add">Gloria, ære og pris være Gud i det
                         højeste</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b03r.xml#mdiv-01"/>
@@ -411,7 +411,7 @@
                     </lg>
                 </div>
                 <div xml:id="hilsen-1-vo-1539" n="5">
-                    <head type="add">[Hilsen]</head>
+                    <head type="add">Hilsen</head>
                     <p>Saa vender han sig til folket oc siger</p>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000b04v.xml#mdiv-01"/>
@@ -430,7 +430,7 @@
                     </lg>
                 </div>
                 <div xml:id="kollekt-1-vo-1539" n="6">
-                    <head type="add">[Kollekt]</head>
+                    <head type="add">Kollekt</head>
                     <p>Presten vender sig til alterit oc siger.</p>
                     <lb/>
                     <p>Lader oss alle bede.</p>
@@ -546,7 +546,7 @@
                     </lg>
                 </div>
                 <div xml:id="sekvenser-vo-1539" n="9">
-                    <head type="add">[Sekvenser]</head>
+                    <head type="add">Anvisning om sekvenser til kirkeåret</head>
                     <p>Framdelis maa oc i deris tid siu<ex>n</ex>gis <lb/>disse Sequentier Grates
                         nunc omnes <lb/>med sin danske Psalme ibland. Loff<lb rend="="/>uit vere du
                         iesu christ Oc det saa intil <lb/>kyndelmysse. Victime pascali laudes.
@@ -583,7 +583,7 @@
                     <lb/>
                 </div>
                 <div xml:id="hilsen-2-vo-1539" n="10">
-                    <head type="add">[Hilsen]</head>
+                    <head type="add">Hilsen</head>
                     <p>Her effter vender preste<ex>n</ex> sig til folked <lb/>och less Euangelium
                         siendis.</p>
                     <notatedMusic>
@@ -601,7 +601,7 @@
                     </lg>
                 </div>
                 <div xml:id="indledning-til-evangeliet-vo-1539" n="11">
-                    <head type="add">[Indledning til evangeliet]</head>
+                    <head type="add">Indledning til evangeliet</head>
                     <p>Presten siger.</p>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000c04v.xml#mdiv-03"/>
@@ -621,7 +621,7 @@
                 </div>
                 <lb/>
                 <div xml:id="evangeliet-vo-1539" n="12">
-                    <head type="add">Evangeliet</head>
+                    <head type="add">Evangelium</head>
                     <p>Saa leser hand da det hellige euange<lb rend="="/>lium med seduanlige noder.
                         som fald<ex>er</ex>
                         <lb/>om samme dag oc findis i det ny tes<lb rend="="/>tamente.
@@ -717,7 +717,7 @@
                     <lb/>
                 </div>
                 <div xml:id="vi-tro-allesammen-paa-en-gud-vo-1539" n="14" type="psalm">
-                    <head type="add">Credo/ Vi tro allesammen på en Gud </head>
+                    <head type="add">Vi tro allesammen på en Gud </head>
                     <p>Paa lantzbyerne oc der so<ex>m</ex> scoler icke <lb/>ere siu<ex>n</ex>ger
                             ma<ex>n</ex>d Credo. Alleniste paa <lb/>danske. huilken presten omuend
                         til al<pb rend="=" facs="0033L" n="D 2v"/>terid scal begynde Oc folked skal
@@ -770,7 +770,7 @@
                     </lg>
                 </div>
                 <div xml:id="nu-bede-vi-den-helligaand-vo-1539" n="15" type="psalm">
-                    <head type="add">Nu bede vi den helligånd </head>
+                    <head type="add">Nu bede vi den Helligånd </head>
                     <p>Oc naar Credo er vde med de<ex>n</ex>ne loff<lb rend="="/>sang Nu bede vi den
                         helligaand. som <lb/>idelige for predicken siunges skal <lb/></p>
                 </div>
@@ -797,7 +797,7 @@
                     <lb/>
                 </div>
                 <div xml:id="kirkeboen-vo-1539" n="17">
-                    <head type="add">[Kirkebøn] </head>
+                    <head type="add">Kirkebøn </head>
                     <p>Naar predicke<ex>n</ex> er saa at ende Forma<lb rend="="/>ner presten folked
                         att dee i<ex>n</ex>derlige vdi <lb/>een fast tro indfly tiil gudt fader vid
                         <lb/>sin egen enborne søn Jesum christum <lb/>vor herre Vid saada<ex>n</ex>
@@ -1024,7 +1024,7 @@
                         forsagt <lb/>eer. </p>
                 </div>
                 <div xml:id="hellig-hellig-hellig-er-du-vo-1539" n="22" type="psalm">
-                    <head type="add">Sanctus/ Hellig, hellig, hellig er du</head>
+                    <head type="add">Hellig, hellig, hellig est du</head>
                     <head>Sanctus</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000f01r.xml"/>
@@ -1124,7 +1124,7 @@
                         siger.</p>
                 </div>
                 <div xml:id="fadervor-vo-1539" n="24">
-                    <head type="add">Pater noster/ Fadervor</head>
+                    <head type="add">Fadervor</head>
                     <head>Pater noster etc. Alta voce.</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000f04r.xml"/>
@@ -1146,7 +1146,7 @@
                     </lg>
                 </div>
                 <div xml:id="indstiftelsesord-uddeling-broedet-vo-1539" n="25">
-                    <head type="add">Indstiftelsesord, brødet; uddeling af brødet</head>
+                    <head type="add">Indstiftelsesordene om brødet og anvisning om uddelingen</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000f04v.xml"/>
                     </notatedMusic>
@@ -1184,7 +1184,7 @@
                 </div>
                 <lb/>
                 <div xml:id="indstiftelsesord-uddeling-vinen-vo-1539" n="26">
-                    <head type="add">Indstiftelsesord, vinen; uddeling af vinen</head>
+                    <head type="add">Indstiftelsesordene om vinen og anvisning om uddelingen</head>
                     <p>Oc nar det eer giort. skal han begyn<lb rend="="/>de testamentens ord tiil
                         folkedt offuer <lb/>kalken. som her effterfølger. Och giff<lb rend="="/>ue
                         dem hannem lige saa. Oc dette scal <lb/>offuer alt handles paa det
@@ -1209,7 +1209,7 @@
                     </lg>
                 </div>
                 <div xml:id="bestemmelser-om-nadveren-vo-1539" n="27">
-                    <head type="add">Bestemmelser om nadveren</head>
+                    <head type="add">Anvisninger om nadveren</head>
                     <p>Nar der er ingen so<ex>m</ex> viil<lb/> co<ex>m</ex>municeris da scal
                             ma<ex>n</ex>
                         <pb facs="0057L" n="G 2v"/> ingelunde Co<ex>n</ex>secrere. paa det vy icke
@@ -1318,7 +1318,7 @@
                     <lb/>
                 </div>
                 <div xml:id="o-guds-lam-som-borttager-al-verdens-synder-vo-1539" n="29" type="psalm">
-                    <head type="add">Agnus dei/ O Guds lam, som borttager al verdens synder</head>
+                    <head type="add">O Guds Lam, som borttager al verdens synder</head>
                     <head>Agnus dei.</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000g04v.xml"/>
@@ -1341,7 +1341,7 @@
                 </div>
                 <lb/>
                 <div xml:id="hilsen-3-vo-1539" n="30">
-                    <head type="add">[Hilsen]</head>
+                    <head type="add">Hilsen</head>
                     <p>Nar dette altsamme<ex>n</ex> giort er. som for<lb rend="="/>screffuit staar.
                         vender preste<ex>n</ex> sig om til <lb/>folked oc siger. </p>
                     <p>Herren vere med ed<ex>er</ex>
@@ -1372,7 +1372,7 @@
                 </div>
                 <lb/>
                 <div xml:id="fredshilsen-vo-1539" n="32">
-                    <head type="add">Pax domini/ Fredshilsen</head>
+                    <head type="add">Fredshilsen</head>
                     <p>Her effter vender Presten sig om tiil <lb/>folked oc siger.</p>
                     <p> Pax domini.<lb/> Herri<ex>n</ex>s fred vere m<ex>ed</ex> ed<ex>er</ex>.</p>
                     <p> Responsio.</p>
@@ -1386,7 +1386,7 @@
                 </div>
                 <lb/>
                 <div xml:id="velsignelsen-vo-1539" n="33">
-                    <head type="add">Benedictio/ Velsignelsen</head>
+                    <head type="add">Velsignelse</head>
                     <head>Benedictio</head>
                     <p>Gud velsigne dig. oc beuare dig Her<pb rend="=" facs="0063L" n="H 1v"/>ren
                         lade siit ansigt ski<ex>n</ex>ne offuer dig. oc vere dig
@@ -1398,7 +1398,7 @@
                         budord. so<ex>m</ex> her <lb/>efft<ex>er</ex>følger. </p>
                 </div>
                 <div xml:id="gud-fader-udi-himmerig-sin-vilje-vo-1539" n="34" type="psalm">
-                    <head type="add">Gud Fader udi Himmerig/ sin vilje</head>
+                    <head type="add">Gud Fader udi Himmerig</head>
                     <head>Dee x budord.</head>
                     <notatedMusic>
                         <ptr target="Vo_1539_LN0298_000h01v.xml"/>
@@ -1510,7 +1510,7 @@
                 </div>
                 <lb/>
                 <div xml:id="messens-afslutning-vo-1539" n="36">
-                    <head type="add">[Messens afslutning]</head>
+                    <head type="add">Messens afslutning</head>
                     <p>
                         <space extent="2blanks"/>Nar alting eer saa fulko<ex>m</ex>met gaar
                         <lb/>huer hiem tiil siit.</p>
@@ -2953,7 +2953,7 @@
                     liffs fare skyld <lb/>ere hiemmedøpte</head>
                 <lb/>
                 <div xml:id="anvisninger-om-daab-vo-1539" n="1">
-                    <head type="add">[Anvisninger om dåben]</head>
+                    <head type="add">Anvisninger om dåben</head>
                     <p>Børn skulle christnes paa det maal <lb/>som aff menige almue forstaas. Oc y
                         <lb/>Funtten so<ex>m</ex> de pleie att døbes vdi. Oc <lb/>skulle de
                         offuerøses trega<ex>n</ex>ge met vand <lb/>J naffn Faders oc Søns oc
@@ -3055,7 +3055,7 @@
                 </div>
                 <lb/>
                 <div xml:id="daabsritual-vo-1539" n="3">
-                    <head type="add">[Dåbsritual]</head>
+                    <head type="add">Dåbsritual</head>
                     <p>
                         <c function="initials" rend="3">F</c>Ar her vd oc vig du vrene aand <lb/>Och
                         giff den helligaandt rum <lb/>och stedt</p>
@@ -3567,7 +3567,7 @@
                         />d<ex>er</ex>uisni<ex>n</ex>g. Sacrame<ex>n</ex>te<ex>n</ex>s brug oc andit
                         <lb/>so<ex>m</ex> da behoff giøres.</head>
                 <div xml:id="bestemmelser-om-doedsforberedelse" n="1">
-                    <head type="add">Bestemmelser om dødsforberedelse</head>
+                    <head type="add">Anvisninger om dødsforberedelse</head>
                     <p>Efft<ex>er</ex>di at søge de siuge er for g<ex>u</ex>d me<lb rend="="/>git
                         behageligt oc scal paa den yderste <lb/>dommedag opregnes och
                         bete<ex>n</ex>ckis aff <lb/>vor herre iesu christo. so<ex>m</ex>
@@ -4125,7 +4125,7 @@
             <div xml:id="kongevaaben-vormordsen-1539">
                 <head type="add">Kongevåben</head>
                 <head><pb facs="0173L" n="X 4v"/>Jnsignia Regis Danorum.</head>
-                <p>[Kongevåben]</p>
+                <p>Kongevåben</p>
                 <figure type="image"/>
                 <p>(<ref target="#kor-1-14">
                         <orig>Paulus. i cor. xiiii</orig>
