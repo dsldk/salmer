@@ -11029,7 +11029,7 @@
             </div>
             <lb/>
             <div type="psalm" xml:id="antiphona" n="32">
-               <head type="add">Antifon</head>
+               <head type="add">Den tid er kommen, som før var spået</head>
                <head>Antiphona</head>
                <lg>
                   <l><c function="initials" rend="3">D</c>En tid er kommen som før vaar <lb/>spaat/ </l>
@@ -15163,7 +15163,7 @@
                   Christum vor Her<lb rend="="/>re/ Amen. </p>
             </div>
             <div type="psalm" xml:id="hellig-hellig-hellig" n="29">
-               <head type="add">Sanctus/ Hellig, hellig, hellig er du</head>
+               <head type="add">Sanctus/ Hellig, hellig, hellig est du</head>
                <head><pb n_ekstra="Q7r" n="115r" facs="0296R"/>Sanctus.</head>
                <lg>
                   <l><c function="initials" rend="3">H</c>Ellig/ Hellig/ Hellig </l>
