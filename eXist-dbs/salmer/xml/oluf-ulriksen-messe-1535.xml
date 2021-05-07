@@ -86,9 +86,9 @@
         </front>
         <body>
             <div type="chapter" xml:id="messeordning" n="1">
-                <head type="add">[Messeordning]</head>
+                <head type="add">Messeordning</head>
                 <div xml:id="salme-kyrie-gloria-hilsen" n="1">
-                    <head type="add">Salme; Kyrie; Gloria; Hilsen </head>
+                    <head type="add">Anvisning om messens første led </head>
                     <p><pb facs="0007L" n="A 1v"/>¶<!--<hi rend="font_red">--> Først siunger degnend
                         een Psalme <!--</hi>--> pro Offitio
                         <!--<hi
@@ -103,7 +103,7 @@
                         wend til alteridt<!--</hi>--> Lader <lb/> oss alle bede</p>
                 </div>
                 <div xml:id="Kollekt-ulricksoen-1535" n="2">
-                    <head type="add">Collecta / Kollekt</head>
+                    <head type="add">Kollekt</head>
                     <head>Collecta</head>
                     <!--<hi rend="font_red">-->
                     <p><c function="initials" rend="2">O</c><!--</hi>--> almegtiste euige Gud thu
@@ -123,8 +123,7 @@
                     <p> Amen</p>
                 </div>
                 <div xml:id="epistel-evangelium-praediken" n="3">
-                    <head type="add"> Epistel; Halleluja; Evangelium; Credo / Vi tro allesammen på
-                        en Gud; Nu bede vi den helligånd; Prædiken </head>
+                    <head type="add">Anvisning om læsninger med tilhørende salmer og prædiken </head>
                     <p>¶ <!--<hi rend="font_red">--> Eller een anden Collecta effter tidtzens
                         leylighedt Der eff<lb rend="="/>ter wender presten sig til folkedt oc læss <app>
                             <lem>Epistolam</lem>
@@ -317,8 +316,7 @@
                     </p>
                 </div>
                 <div xml:id="absolution" n="6">
-                    <head type="add">Absolution / syndstilgivelse; Nu er os Gud miskundelig;
-                        Sanctus</head>
+                    <head type="add">Syndstilgivelse</head>
                     <p> ¶ <!--<hi rend="font_red">--> Saa giffuer presten <!--</hi>-->
                         <app>
                             <lem>Absolutionem</lem>
@@ -474,7 +472,7 @@
                     </p>
                 </div>
                 <div xml:id="fadervor-ulriksen-1535" n="8">
-                    <head type="add">Pater noster / Fadervor</head>
+                    <head type="add">Fadervor</head>
                     <p> ¶ <!--<hi rend="font_red">-->Saa vender Presten sig til alteritt igen oc
                         sier. <!--</hi>-->
                     </p>
@@ -524,7 +522,7 @@
                     </lg>
                 </div>
                 <div xml:id="indstiftelsesord-uddeling-broedet" n="9">
-                    <head type="add">Indstiftelsesord, brødet; uddeling af brødet</head>
+                    <head type="add">Indstiftelsesordene om brødet og anvisning om uddelingen</head>
                     <p> ¶ <!--<hi rend="font_red">--> Saa tager Presten da diskind med brød oc
                         siunger. <lb/>
                         <!--</hi>-->
@@ -553,8 +551,7 @@
                         </app> som side for alte<lb rend="="/>ridt.</p>
                 </div>
                 <div xml:id="indstiftelsesord-uddeling-vinen" n="10">
-                    <head type="add">Indstiftelsesord, vinen; uddeling af vinen; Jesus Kristus er
-                        vor salighed; Agnus dei / O Guds lam; Hilsen</head>
+                    <head type="add">Indstiftelsesordene om vinen og anvisning om uddelingen</head>
                     <p> Nar det er skifft Tager han Kalken m<ex>eth</ex> viin oc siger<!--</hi>-->
                     </p>
                     <notatedMusic>
@@ -623,7 +620,7 @@
                     </lg>
                 </div>
                 <div xml:id="complenda-ulriksen-1535" n="11">
-                    <head type="add">Complenda / Kollekt</head>
+                    <head type="add">Kollekt</head>
                     <head>
                         <!--<hi rend="font_red">-->Complenda <lb/></head>
                     <p><c function="initials" rend="2">W</c><!--</hi>-->y tacke dig herre
@@ -678,7 +675,7 @@
                 </div>
             </div>
             <div type="chapter" xml:id="daab" n="2">
-                <head type="add">[Dåb]</head>
+                <head type="add">Dåb</head>
                 <div xml:id="fortale-om-daab" n="1">
                     <head type="add">Fortale</head>
                     <head>
@@ -973,7 +970,7 @@
                     </p>
                 </div>
                 <div xml:id="efterskrift" n="4">
-                    <head type="add"> Luthers efterskrift</head>
+                    <head type="add">Luthers efterskrift</head>
                     <p><pb facs="0025L" n="C 2v"/>¶ <!--<hi rend="font_red">--> Martinus Lutter alle
                         Christne læsere naade oc fred <lb/> y Christo Jesu vor herre. <!--</hi>-->
                     </p>
@@ -2051,7 +2048,7 @@
                     </p>
                 </div>
                 <div xml:id="kollekt-for-syge" n="3">
-                    <head type="add">Collecta / Kollekt for syge</head>
+                    <head type="add">Kollekt for syge</head>
                     <p><pb facs="0046R" n="F 1r"/>¶ Denne Collecta scal læssis offuer den siuge der
                             so<ex>m</ex> de andre <lb/> ii staar/ oc næst effter den O almectiste
                         euige gud <lb/>
@@ -2120,7 +2117,7 @@
                     </lg>
                 </div>
                 <div xml:id="kollekter-ved-begravelse" n="3">
-                    <head type="add">Collecta / Kollekter</head>
+                    <head type="add">Kollekter</head>
                     <p> Collecta.</p>
                     <p>
                         <c function="initials" rend="2">O</c> Almectigste euige Gud som oss haffuer
@@ -2269,7 +2266,7 @@
                     </lg>
                 </div>
                 <div xml:id="kollekter-efter-litaniet" n="2">
-                    <head type="add">Collecte / Kollekter efter litaniet</head>
+                    <head type="add">Kollekter efter litaniet</head>
                     <p> Collecte post Letanias.</p>
                     <p>
                         <c function="initials" rend="2">O</c> Almectigste euige Gud du som icke
@@ -2497,11 +2494,11 @@
             </div>
             <div type="figure" xml:id="rigsvaaben-ulricksoen-1535">
                 <head type="add">Rigsvåben</head>
-                <head>[Rigsvåben]</head>
+                <head>Rigsvåben</head>
             </div>
             <div type="figure" xml:id="konge-med-vaaben-ulricksoen-1535">
                 <head type="add">Konge med hær og våben</head>
-                <head>[Konge med våben]</head>
+                <head>Konge med våben</head>
                 <p><pb facs="0053L" n="F 4v"/> Arma Regis Danorum. <lb/>
                     <figure>
                         <figDesc>træsnit</figDesc>
