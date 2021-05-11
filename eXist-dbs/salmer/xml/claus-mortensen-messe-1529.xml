@@ -90,7 +90,7 @@
         </front>
         <body>
             <div xml:id="messens-indledende-boen" n="1">
-                <head type="add">Adjutorium nostrum/ Vor hjælp være i Herrens navn</head>
+                <head type="add">Bøn</head>
                 <head>
                     <pb facs="A_2r" n="A 2r"/>Exordium <lb/> Ceremoniernis begioendellssze <lb/>
                     till nadheren</head>
@@ -117,7 +117,7 @@
                 </lg>
             </div>
             <div xml:id="skriftemaal-mortensen" n="2">
-                <head type="add">Confiteor/ Kort bekendelse</head>
+                <head type="add">Syndsbekendelse</head>
                 <head>Confiteor</head>
                 <head>En korth bekiændilsze y gudz ansycth</head>
                 <p>
@@ -138,7 +138,7 @@
                 </p>
             </div>
             <div xml:id="absolution-mortensen" n="3">
-                <head type="add">Absolutio/ Evangelisk afløsning</head>
+                <head type="add">Tilgivelse</head>
                 <head>Absolutio</head>
                 <head>En<ex>n</ex> ewangelisch affløessningh offwer <lb/> menheden</head>
                 <p>
@@ -163,7 +163,7 @@
             <div type="psalm" xml:id="af-dybsens-noed-raaber-jeg-til-dig-mortensen-1529" n="4">
                 <head>Nu begioender choredh <lb/> eller christen forsamling <lb/> ath syunge
                     introitum til <lb/> messzen <lb/> Officium Deprofundis</head>
-                <head type="add">Introitus: De profundis/ Af dybhedsens nød råber jeg til dig</head>
+                <head type="add">Af dybhedsens nød råber jeg til dig</head>
                 <notatedMusic>
                     <ptr target="Mo_1529_LN0174_000a02v.xml"/>
                 </notatedMusic>
@@ -224,7 +224,7 @@
                 </lg>
             </div>
             <div type="psalm" xml:id="kyrie-gud-fader-alsomhoejeste-troest-mortensen-1529" n="5">
-                <head type="add">Kyrie eleison/ Kyrie Gud Fader alsomhøjeste trøst</head>
+                <head type="add">Kyrie Gud Fader alsomhøjeste trøst</head>
                 <head>Kyrieeleiszon</head>
                 <lg>
                     <l>Kyrie gudh fadher/ alsom høegeste trøest</l>
@@ -259,7 +259,7 @@
                 <p> vt supra</p>
             </div>
             <div xml:id="gloria-aere-og-pris-vaere-gud-i-det-hoejeste-mortensen-1529" n="6">
-                <head type="add">Gloria in excelsis deo/ Gloria ære og pris være Gud i det
+                <head type="add">Gloria, ære og pris være Gud i det
                     højeste</head>
                 <head><pb facs="A_6v" n="A 4v"/> Gloria in excelsis deo <note place="margin">(<ref
                             target="#luk-2"><orig>Luce. ii</orig><reg>Luk 2</reg></ref>)</note>
@@ -304,7 +304,7 @@
                 </div>
             </div>
             <div xml:id="kollekt-o-herre-jesu-kriste" n="8">
-                <head type="add">Kollekt/ O Herre Jesu Kriste</head>
+                <head type="add">Kollekt</head>
                 <head>Collecta * </head>
                 <p> Ladher oss alle bedhe <lb/></p>
                 <p>
@@ -316,7 +316,7 @@
                         rend="="/>deligh * </p>
             </div>
             <div xml:id="kollekt-o-almaegtigste-evige-gud-mortensen-1529" n="9">
-                <head type="add">Kollekt/ O almægtigste evige Gud</head>
+                <head type="add">Kollekt</head>
                 <head>En andhen Collecth * * * *</head>
                 <p>
                     <c function="initials" rend="4">O</c> Almectigste ewighe gudh/ thw som besker<lb
@@ -373,7 +373,7 @@
                     syelff dommen/ ath han icke wnderskee<lb rend="="/>dher herrens legomme</p>
             </div>
             <div type="psalm" xml:id="halleluja-glade-vil-vi-halleluja-sjunge-mortensen-1529" n="11">
-                <head type="add">Halleluja/ Halleluja. Gladelig ville vi halleluja sjunge</head>
+                <head type="add">Halleluja. Gladelig ville vi halleluja sjunge</head>
                 <head> Her effther foelgher en <lb/> laaffszangh m<ex>eth</ex> alleluya</head>
                 <p>Alleluya Graduall</p>
                 <lb/>
@@ -542,7 +542,7 @@
                         so<ex>m</ex> æder thette brød/ han schal leffue euindelige</p>
             </div>
             <div type="psalm" xml:id="vi-tro-allesammen-paa-en-gud-mortensen-1529" n="13">
-                <head type="add">Credo/ Vi tro alle sammen på en Gud</head>
+                <head type="add">Vi tro allesammen på en Gud</head>
                 <head>Christhen forsamlingh <lb/> och choredth syungher <lb/> Credo</head>
                 <lg>
                     <l>
@@ -705,7 +705,7 @@
                 </lg>
             </div>
             <div xml:id="paraclesis-kort-formaning" n="16">
-                <head type="add">Paraclesis/ Kort formaning</head>
+                <head type="add">Formaning</head>
                 <head>Paraclesis. siue succinc<lb rend="="/>ta. dominice p<ex>re</ex>cationis. <lb/>
                     enarratio: <lb/> En korth formaningh: szom <lb/> er Pater Noster. met syn be<lb
                         rend="-"/>slutni<ex>n</ex>gh och vdleggilse: huil<lb rend="="/>ke<ex>n</ex>
@@ -815,7 +815,7 @@
                     faa th<ex>et</ex> och th<ex>et</ex> schal edher giffues amen * *</p>
             </div>
             <div type="psalm" xml:id="hellig-hellig-hellig-mortensen-1529" n="17">
-                <head type="add">Sanctus/ Hellig, hellig, hellig er du</head>
+                <head type="add">Hellig, hellig, hellig est du</head>
                 <head>En loffsa<ex>n</ex>g som chored oc christe<ex>n</ex>
                     <lb/> forsa<ex>m</ex>li<ex>n</ex>g siunger: som er S<ex>an</ex>ctus: <note
                         place="margin">(<ref target="#es-6"><orig>Esaie. vi.</orig><reg>Es
@@ -846,7 +846,7 @@
                 </lg>
             </div>
             <div xml:id="indledning-til-nadveren-mortensen-1529" n="18">
-                <head type="add">[Indledning til nadveren]</head>
+                <head type="add">Indledning til nadveren</head>
                 <head>Effther tiisse ceremonier ko<ex>m</ex><lb rend="="/>mer th<ex>et</ex> rette
                     messe embedhe <lb/> som er Christi nathuoris och <lb/> testame<ex>n</ex>tis ord:
                     y huilke huer <lb/> christen me<ex>n</ex>niskis hierte: som <pb facs="A_27r"
@@ -866,7 +866,7 @@
                     cramente: * </head>
             </div>
             <div xml:id="indstiftelsesordene-mortensen-1529" n="19">
-                <head type="add">[Indstiftelsesordene]</head>
+                <head type="add">Indstiftelsesordene</head>
                 <head>Her effter tager Christe<ex>n</ex>
                     <lb/> forsa<ex>m</ex>li<ex>n</ex>gs tie<ex>n</ex>nere brødet <lb/> y henderne
                     och sygher:</head>
@@ -907,7 +907,7 @@
                 </p>
             </div>
             <div type="psalm" xml:id="dig-vaere-lov-og-pris-o-herre-krist-mortensen-1529" n="20">
-                <head type="add">Tibi laus/ Dig være lov og pris, o Herre Krist</head>
+                <head type="add">Dig være lov og pris, o Herre Krist</head>
                 <head>Tibi laus:</head>
                 <lg>
                     <l>
@@ -937,7 +937,7 @@
                 </lg>
             </div>
             <div xml:id="hilsen-mortensen-1529-2" n="21">
-                <head type="add">[Hilsen]</head>
+                <head type="add">Hilsen</head>
                 <head>Nu ve<ex>n</ex>der christe<ex>n</ex> forsa<ex>m</ex>li<ex>n</ex>gs <lb/>
                         tie<ex>n</ex>nere sigh till faalcket oc <lb/> siger Pax domini:</head>
                 <p>* Herrens frid wære m<ex>eth</ex> edher *</p>
@@ -945,7 +945,7 @@
                 <p>* Och m<ex>eth</ex> thin andh *</p>
             </div>
             <div type="psalm" xml:id="o-guds-lam-som-borttager" n="22">
-                <head type="add">Agnus dei/ O Guds lam som borttager</head>
+                <head type="add">O Guds Lam, som borttager alle verdens synder</head>
                 <head>Nu begiøndis agnus dei</head>
                 <lg>
                     <l>
@@ -995,7 +995,7 @@
                     *</p>
             </div>
             <div xml:id="nadveruddeling-mortensen-1529" n="24">
-                <head type="add">[Nadveruddeling]</head>
+                <head type="add">Nadveruddeling</head>
                 <head>Nu co<ex>m</ex>municerer ha<ex>n</ex> oc be<lb rend="="/>retther faalcket
                     syghendis</head>
                 <p>
@@ -1131,7 +1131,7 @@
                 </lg>
             </div>
             <div type="psalm" xml:id="gud-vaere-lovet-altid-og-benedidet" n="26">
-                <head type="add">Communio/ Gud være lovet altid og benedidet</head>
+                <head type="add">Gud være lovet altid og benedidet</head>
                 <head>Co<ex>m</ex>munio <lb/> En laaffsa<ex>n</ex>g m<ex>eth</ex> huilcke<ex>n</ex>
                         chri<lb rend="="/>ste<ex>n</ex> forsa<ex>m</ex>li<ex>n</ex>g taker oc erer
                     gud</head>
@@ -1211,7 +1211,7 @@
                 </lg>
             </div>
             <div xml:id="hilsen-mortensen-1529-3" n="27">
-                <head type="add">[Hilsen]</head>
+                <head type="add">Hilsen</head>
                 <head>Ther effter ve<ex>n</ex>der christe<ex>n</ex> kirkis <lb/> tie<ex>n</ex>nere
                     sig til folk<ex>et</ex> oc siger D<ex>omi</ex>n<ex>u</ex>s</head>
                 <p>* Herren være m<ex>eth</ex>
@@ -1223,7 +1223,7 @@
                 <p> Et cum spiritu <lb/> *Och m<ex>eth</ex> thin aandh</p>
             </div>
             <div xml:id="kollekt-mortensen-1529" n="28">
-                <head type="add">Kollekt/ Vi takke dig, Herre</head>
+                <head type="add">Kollekt</head>
                 <head>En collecte * Lader oss alle bede</head>
                 <p>
                     <c function="initials" rend="4">W</c>y tacke tiig herre allmectigsthe euige gud
@@ -1236,7 +1236,7 @@
                 <p> Amen * </p>
             </div>
             <div xml:id="hilsen-mortensen-1529-4" n="29">
-                <head type="add">[Hilsen]</head>
+                <head type="add">Hilsen</head>
                 <head>Nu ve<ex>n</ex>der ha<ex>n</ex> sig til folk<ex>et</ex> oc siger</head>
                 <p>Herren wære m<ex>eth</ex> edher </p>
                 <p>Suar </p>
@@ -1368,20 +1368,20 @@
                 </lg>
             </div>
             <div xml:id="alt-indledning-til-nadver-mortensen-1529" n="32">
-                <head type="add">[Alternativ indledning til nadveren]</head>
+                <head type="add">Alternativ indledning til nadveren</head>
                 <head>* En liden Prefatz: som <lb/> maa brugis y natuori<ex>n</ex>s <lb/> ceremonier
                     effter tidse<ex>n</ex>s <lb/> leiligh<ex>ed</ex>: tog ingseeth och <lb/>
                     ingførth bequemmelige</head>
             </div>
             <div xml:id="hilsen-mortensen-1529-5" n="33">
-                <head type="add">[Hilsen]</head>
+                <head type="add">Hilsen</head>
                 <head>Dominus vobiscum *</head>
                 <p>Herren wære m<ex>eth</ex> edher</p>
                 <p>Faalcketh suarer:</p>
                 <p> Et cu<ex>m</ex> Och m<ex>eth</ex> thin andh</p>
             </div>
             <div xml:id="sursum-corda-mortensen-1529" n="34">
-                <head type="add">Sursum corda/ Vore hjerter op i himmelen</head>
+                <head type="add">Indledning</head>
                 <head>* Sursum corda *</head>
                 <p>Uore hierter op y hymmelen</p>
                 <p>Forsamlinge<ex>n</ex> suarer </p>
@@ -1389,15 +1389,14 @@
                     herren</p>
             </div>
             <div xml:id="gratias-agamus-domino-mortensen-1529" n="35">
-                <head type="add">Gratias agamus domino/ Lad os takke Herren</head>
+                <head type="add">Opfordring til bøn</head>
                 <p>Gra<ex>tia</ex>s agamus domino</p>
                 <p>Lader oss tacke gud vor herre</p>
                 <p>Chored suarer </p>
                 <p>Dignu<ex>m</ex> et Th<ex>et</ex> er verdigth och reettuisth</p>
             </div>
             <div xml:id="vere-dignum-et-iustum-est-mortensen-1529" n="36">
-                <head type="add">Vere dignum et justum est/ Sandelig er det værdigt og
-                    retvist</head>
+                <head type="add">Bøn</head>
                 <head><pb facs="A_43r" n="dd 3r"/>Christe<ex>n</ex> kirkis tie<ex>n</ex>nere: Uere
                     dig</head>
                 <p><c function="initials" rend="4">S</c>andeliighe er th<ex>et ver</ex><lb rend="="
@@ -1408,7 +1407,7 @@
                     herre: Amen </p>
             </div>
             <div xml:id="efterskrift-mortensen-1529" n="37">
-                <head type="add">[Efterskrift]</head>
+                <head type="add">Efterskrift</head>
                 <head>.Finis.</head>
                 <p>
                     <c function="initials" rend="4">S</c>aa haffue wy nu endhe paa <lb/>

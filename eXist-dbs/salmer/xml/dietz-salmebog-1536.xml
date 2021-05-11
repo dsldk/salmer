@@ -269,7 +269,7 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="hjaelp-gud-hvor-stor-er-menneskets-sorg-og-noed" n="2">
-            <head type="add">Hjælp Gud, hvor stor er menneskets sorg og nød</head>
+            <head type="add">Hjælp Gud, hvor stor er menneskets sorge og nød</head>
             <head> ¶ Een skøn wise/ vdi huilcken ith men<lb rend="="/>niske bekiender oc begræder
                sÿn elendighedt/ <lb/>begerendis forbedring/ hielp och <lb/>trøst aff Gudtz
                ordt.</head>
@@ -491,7 +491,7 @@
          </div>
          <lb/>
          <div xml:id="sanctus-dietz-1536" n="4">
-            <head type="add">Sanctus / Esajas den profet monne det så gå</head>
+            <head type="add">Esajas den profet monne det så gå</head>
             <head><pb facs="017" n="b 3v"/>¶ Sanctus som sÿungis wdi Norrenberg.</head>
             <lg>
                <l><c function="initials" rend="3">E</c>Saia then Prophet monne thet saa gaa/ </l>
@@ -512,7 +512,7 @@
          </div>
          <lb/>
          <div xml:id="proser-till-salue-foerste-prose" n="5">
-            <head type="add">Proser til salve, første prose / Jesu Kriste Guds søn</head>
+            <head type="add">Jesu Kriste Guds søn</head>
             <head> ¶ Proser till Salue. Første Prose.</head>
             <lg>
                <l><c function="initials" rend="3">I</c>Esu Christe Guds søn/ </l>
@@ -535,7 +535,7 @@
          </div>
          <lb/>
          <div xml:id="anden-prose" n="6">
-            <head type="add">Proser til salve, anden prose / Jesu du est vor trøst</head>
+            <head type="add">Jesu du est vor trøst</head>
             <head n="2" rend="2">Anden Prose.</head>
             <lb/>
             <lg>
@@ -559,7 +559,7 @@
          </div>
          <lb/>
          <div xml:id="tredje-prose" n="7">
-            <head type="add">Proser til salve, tredje prose / Jesu du est vor vej</head>
+            <head type="add">Jesu du est vor vej</head>
             <head n="2" rend="2">Tredie Prose.</head>
             <lb/>
             <lg>
@@ -583,7 +583,7 @@
          </div>
          <lb/>
          <div xml:id="sequentz-aue-preclara" n="8">
-            <head type="add">Sekvens / Benåde os, evige Gud</head>
+            <head type="add">Benåde os, evige Gud</head>
             <head>¶ Een Sequentz aff Aue preclara/ Fra thet Verss Audi nos oc till enden.</head>
             <lg>
                <l><c function="initials" rend="3">B</c>Enaade oss euige Gudt/ </l>
@@ -957,7 +957,7 @@
             </lg>
          </div>
          <div type="psalm" xml:id="den-som-vil-en-kristen-hedde-dietz-1536" n="15">
-            <head type="add">Den som vil en kristen hedde</head>
+            <head type="add">Den, som vil en kristen hedde</head>
             <head>¶ The X. Guds budt/ mett the noder (som) Saa taler then wuiise mundt/ <lb/>sywngis
                mett.</head>
             <lg>
@@ -1011,7 +1011,7 @@
             </lg>
          </div>
          <div type="psalm" xml:id="gud-lod-røst-af-skyen-lyde" n="16">
-            <head type="add">De ti bud, alternativ version/Gud lod røst af skyen lyde</head>
+            <head type="add">Gud lod røst af skyen lyde</head>
             <head>¶ The X. Guds Budt anderledis.</head>
             <lg>
                <l><c function="initials" rend="3">G</c>Vdt lodt røst aff skyen lyde/ </l>
@@ -1148,7 +1148,7 @@
             </lg>
          </div>
          <div type="psalm" xml:id="en-boen-til-den-hellige-trefoldighed" n="18">
-            <head type="add">Herre Gud Fader, stå os bi</head>
+            <head type="add">Herre Gud Fader, stat os bi</head>
             <head>¶ Een Bøn til the hellige Trefol<lb rend="="/>lighedt/ om bistandt och
                beskermelse/ <lb/>mett the same noder som Gudt <lb/>Fader bliff tw nw mett oss
                <lb/>sÿungis mett.</head>
@@ -1246,7 +1246,7 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="salige-er-alle-i-guds-frygt-staar" n="20">
-            <head type="add">Salig er den i Guds frygt står</head>
+            <head type="add">Salige ere alle, i Guds frygt stå</head>
             <head>¶ <ref target="#sl-128"><orig>Psalmus Cxxvij. </orig><reg>Sl 128</reg></ref> Beati
                omnes <lb/>qui timent dominum.</head>
             <lg>
@@ -1285,7 +1285,7 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="salve-regina" n="21">
-            <head type="add">Salve Jesu Christe vor Frelsermand</head>
+            <head type="add">Salve Jesu Kriste vor frelsermand</head>
             <head>¶ Salue Regina Christelig <lb/>forwent oc forbedret.</head>
             <lg>
                <l><c function="initials" rend="3">S</c>Alue Jesu Christe wor frelsermand </l>
@@ -1334,7 +1334,7 @@
             </lg>
          </div>
          <div type="psalm" xml:id="en-anden-salve" n="22">
-            <head type="add">Salve helsæl milde Jesu Christe</head>
+            <head type="add">Salve hilsæl milde Jesu Kriste</head>
             <head>¶ Een anden Salue.</head>
             <lg>
                <l><c function="initials" rend="3">S</c>Alue helsæl milde Jesu Christe/ </l>
@@ -1548,7 +1548,7 @@
          </div>
          <lb/>
          <div xml:id="det-danske-patrem" n="25">
-            <head type="add">Trosbekendelsen / Vi tror på almægtigste Gud</head>
+            <head type="add">Vi tro på almægtigst Gud</head>
             <head><pb facs="042" n="e 4r"/>¶ Thet Danske Patrem.</head>
             <lg>
                <l><c function="initials" rend="3">V</c>Y troo paa almectigest Gud/ </l>
@@ -1645,7 +1645,7 @@
             </lg>
          </div>
          <div type="psalm" xml:id="proser-til-nu-bede-vi-den-helligaand" n="27">
-            <head type="add">Vi arme Adams børn alle</head>
+            <head type="add">Vi arme Adams børn alle [og] Nu bede vi den Helligånd</head>
             <head>¶ Jtem Proser til Nu bede wii then <lb/>Helliaand mellom hwert werss.</head>
             <lg>
                <l><c function="initials" rend="3">W</c>J arme Adams børn alle/ </l>
@@ -1754,7 +1754,7 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="vi-saade-og-graade-i-babylon-dietz-1536" n="30">
-            <head type="add">Vi sad og græd i Babylon</head>
+            <head type="add">Vi sade og gråde i Babylon</head>
             <head>¶ <ref target="#sl-137"><orig>Psalmus Cxxxvij. </orig><reg>Sl 137</reg></ref>
                Super flumi<lb rend="="/>na Babilonis sedimus et fleuimus.</head>
             <lg>
@@ -1801,7 +1801,7 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="visdom-og-raad-og-salighed-dietz-1536" n="31">
-            <head type="add">Antifon: Visdom og råd og salighed</head>
+            <head type="add">Visdom og råd og salighed</head>
             <head>¶ Antiphona.</head>
             <lg>
                <l><c function="initials" rend="3">V</c>Jsdom oc raadt oc salighed/ </l>
@@ -1822,7 +1822,7 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="den-tid-er-kommet-som-foer-var-spaaet" n="32">
-            <head type="add">En anden antifon: Den tid er kommet som før var spået</head>
+            <head type="add">Den tid er kommen, som før var spået</head>
             <head>¶ Een anden Antiphona.</head>
             <lg>
                <l><c function="initials" rend="3">T</c>Hen tÿdt er kommen som før wor <lb/>spaat/ </l>
@@ -2277,7 +2277,7 @@
 
          </div>
          <div xml:id="collecta" n="36">
-            <head type="add">Kollekt: Lader os bede for alle syndere</head>
+            <head type="add">Kollekt</head>
             <head>¶ Collecta. <lb/>Lader oss bede for alle Syndere.</head>
             <p>
                <c function="initials" rend="3">O</c> Almegtiste Gud som er altÿd mildt oc
@@ -2289,7 +2289,7 @@
          </div>
          <lb/>
          <div xml:id="kollekt-o-almaegtigste-evige-gud-dietz-1536" n="37">
-            <head type="add">Kollekt: O allermægtigste evige Gud</head>
+            <head type="add">Kollekt</head>
             <head>¶ Een anden Collect for Kongen <lb/>och Rigens Raadt.</head>
             <p>
                <pb facs="056" n="g 3r"/><c function="initials" rend="3">O</c> Aldermegtiste ewige
@@ -2301,7 +2301,7 @@
          </div>
          <lb/>
          <div xml:id="kollekt-o-almaegtigste-evige-gud-dietz-1536-2" n="38">
-            <head type="add">En anden kollekt: O allermægtigste evige Gud</head>
+            <head type="add">Kollekt</head>
             <head>¶ Een Collect att bede om Fred mett.</head>
             <p>
                <c function="initials" rend="3">O</c> Aldermegtiste ewige Gud/ som er <lb/>en kilde
@@ -2313,7 +2313,7 @@
          </div>
          <lb/>
          <div type="psalm" xml:id="herre-gud-frels-mig-fra-onde-mennesker" n="39">
-            <head type="add">Herre Gud, frels mig fra onde mennesker</head>
+            <head type="add">Herre Gud, frels mig fra onde menneske</head>
             <head>¶ <ref target="#sl-140"><orig>Then Cxl. Psalm </orig><reg>Sl 140</reg></ref> Eripe
                me domi<lb rend="="/>ne/ </head>
             <p>Maa huer læse mod sine vwenner som hannom fortale och forfølge/ Ath Gud <pb
