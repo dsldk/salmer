@@ -1240,7 +1240,7 @@ def search_results_view(request):
         raise RuntimeError("This should never ever happen!!!")
     search_result = listify(document.get("result_list") or [])
 
-    results = process_search_results(search_result, document_ids)
+    results = process_search_results(search_result, document_ids, request)
     no_of_results = len(results)
     page = 1
     paginator = Paginator(total=len(results), by=results_per_page)
@@ -1311,10 +1311,10 @@ def format_kwic_lines(i):
         for part in sentence:
             text = part.get("#text", "")
             if part.get("class") == "hi":
-                link = '<a href="/%s/%s/%s?q=%s%s">%s</a>' % (
+                link = '<a href="/{}/{}{}?q={}{}">{}</a>'.format(
                     i["id"],
                     i["chapter_no"],
-                    i["section_no"],
+                    '/' + i["section_no"] if i["section_no"] else "",
                     i["q"],
                     page_no_str,
                     text,
@@ -1360,7 +1360,7 @@ def order_by_id(results):
     return ordered_dict
 
 
-def process_search_results(search_result, document_ids):
+def process_search_results(search_result, document_ids, request):
     results = []
     if search_result:
         for i in listify(search_result):
@@ -1413,6 +1413,14 @@ def process_search_results(search_result, document_ids):
                 category = convert_to_danish_characters(
                     category.replace("empty", "")
                 )
+
+            # Find out of this chapter has sections or not.
+            database_address = request.registry.settings["exist_server"]
+            xquery_folder = database_address + "xqueries/"
+            sections = get_sections(xquery_folder, id_with_xml, i["chapter_no"])
+            if not sections:
+                i["section_no"] = ''
+
             kwic_lines = format_kwic_lines(i)
             results.append(
                 {
