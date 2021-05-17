@@ -9701,7 +9701,11 @@
                     <head>Antiphona</head>
                     <lg>
                         <l><c function="initials" rend="4">D</c>En tid er ko<ex>m</ex>me<ex>n</ex>
-                                so<ex>m</ex> før vør spaat</l>
+                                so<ex>m</ex> før <app>
+                                <lem>wor</lem>
+                                <rdg>
+                                    <q>vør</q> orig.</rdg>
+                            </app> spaat</l>
                         <l> Giff mig gaat raad</l>
                         <l> Foruar mig vel fra falske lære/</l>
                         <l> thi wi en nw se och <pb facs="199" n="82r"/> høre/ mange forføre</l>
