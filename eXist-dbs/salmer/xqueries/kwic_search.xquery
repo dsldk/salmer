@@ -47,16 +47,16 @@ let $back_results := for $hit in $back_hits
     </result_list>
 
 
-(: This works:)
-let $body_hits := $coll/tei:body/tei:div[ft:query(., $q)]
+(: Revised 2021-05-21 :)
+let $body_hits := $coll/tei:body/tei:div/tei:div[ft:query(., $q)]
 let $body_results := for $hit in $body_hits
     let $page_no := util:expand($hit, "expand-xincludes=no highlight-matches=both")//exist:match/preceding::tei:pb[1]/string(@n)
     order by ft:score($hit) descending
-        return
+    return 
     <result_list>
         <page_no>{$page_no}</page_no>
-        <chapter_no>{count($hit/preceding-sibling::tei:div) + 1}</chapter_no>
-        <section_no>{count($hit/tei:div[ft:query(., $q)]/preceding-sibling::tei:div) +1}</section_no>
+        <section_no>{count($hit/preceding-sibling::tei:div) + 1}</section_no>
+        <chapter_no>{count($hit/ancestor::tei:div[ft:query(., $q)]/preceding-sibling::tei:div) +1}</chapter_no>
         <id>{util:document-name($hit)}</id>
         <title>{$hit/ancestor::*//tei:titleStmt/tei:title/text()}</title>
         <q>{$q}</q>
