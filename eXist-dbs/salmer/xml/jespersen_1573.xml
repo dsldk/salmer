@@ -444,7 +444,7 @@
                     <pb facs="0014R" n="1"/> Den<ex>n</ex> Første Søndag <lb/> i Aduent. </head>
                 <div type="psalm" xml:id="section-1-1" n="1">
                     <figure type="image"/>
-                    <head type="add">Herre Krist, Gud Faders enbårne søn</head>
+                    <head type="add">Herre Krist Gud Faders enbårne søn</head>
                     <head>Introitus dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_001.xml"/>
@@ -2490,7 +2490,7 @@
                     <lb/>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-14-2" n="2">
-                    <head type="add">Haleluia. Dominus regnauit, exultet terra</head>
+                    <head type="add">Haleluia. Dominus regnauit</head>
                     <head>HALELVIA.<lb/>
                         <ref target="#sl-97">Psalm: 97.<reg>Sl 97</reg></ref></head>
                     <notatedMusic>
@@ -3803,7 +3803,7 @@
                     <p><hi rend="italics">vt in Dominica Inuocauit.</hi></p>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-27-2" n="2">
-                    <head type="add">Discubuit Jesus et Discipuli eius cim eo</head>
+                    <head type="add">Discubuit Jesus et Discipuli eius cum eo</head>
                     <head><pb facs="0182R" n="169"/>Haleluia paa Danske/ vdi Landskircker/ som <lb/>
                         paa Søndag <hi rend="italics">Inuocauit:</hi> Men vdi Kiøbstæder for
                         <lb/>Haleluia/ som her effter følger. <lb/>
