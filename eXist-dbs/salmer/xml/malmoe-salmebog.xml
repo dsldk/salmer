@@ -4272,7 +4272,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="laudate-dominum" n="13">
-                    <head type="add">Lover Herren alle hedninge</head>
+                    <head type="add">Lover Herren, alle hedninge</head>
                     <head>[Lover Herren alle hedninge]</head>
                     <p>[Teksten mangler]</p>
                 </div>
@@ -5390,7 +5390,7 @@
                 </div>
                 <div type="psalm" xml:id="kyrie-1" n="34">
 
-                    <head type="add">Kyrie Gud Fader, forbarme dig over os</head>
+                    <head type="add">Kyrie Gud Fader forbarme dig over os</head>
                     <head>Kyrieleyson Paschale</head>
                     <lg>
                         <l><c function="initials" rend="3">K</c>yrie Gud fader</l>
@@ -9289,7 +9289,7 @@
                 </div>
                 <div type="psalm" xml:id="dig-vaere-lov-og-pris" n="26">
 
-                    <head type="add">Dig være lov og pris, o Herre</head>
+                    <head type="add">Dig være lov og pris, o Herre Krist</head>
                     <head>Tibi laus</head>
 
                     <lg>
@@ -10334,7 +10334,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="lover-gud-at-han-er-saa" n="3">
-                    <head type="add">Lover Gud at han er så god</head>
+                    <head type="add">Lover Gud, at han er så god</head>
                     <head><ref target="#sl-118"><orig>Den Cxviii Psalm</orig><reg>Sl 118</reg></ref>
                             Co<ex>n</ex>fitemini domino quoniam bonus</head>
                     <lg>
@@ -11201,7 +11201,7 @@
                 </div>
                 <div type="psalm" xml:id="o-herre-gud-det-kommer-nu-ud-malmoe" n="17">
 
-                    <head type="add">O herre Gud, det kommer nu ud</head>
+                    <head type="add">O Herre Gud, det kommer nu ud</head>
                     <head>En skøn aandelige vise om Gudz ordz krafft oc mact</head>
                     <lg>
                         <l><c function="initials" rend="4">O</c> Herre Gud/ det ko<ex>m</ex>mer nw
@@ -11828,7 +11828,7 @@
                 </div>
                 <div type="psalm" xml:id="jesus-du-er-vor-vej" n="27">
 
-                    <head type="add">Jesus, du est vor vej</head>
+                    <head type="add">Jesu, du est vor vej</head>
                     <head>Tredie Prose</head>
                     <lg>
                         <l><c function="initials" rend="4">I</c>Hesu du est vor vey</l>
