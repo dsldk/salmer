@@ -2023,7 +2023,7 @@
                 <head type="add">Sankt Stefans dag</head>
                 <head>Paa S. Staffens dag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-6-1" n="1">
-                    <head type="add">Introitus latin: Etenim sederunt principes</head>
+                    <head type="add">Etenim sederunt principes</head>
                     <head> Introitus lat.<lb/>
                         <ref target="#sl-119">Psalm: 119.<reg>Sl 119</reg></ref></head>
                     <notatedMusic>
@@ -2442,7 +2442,7 @@
                     <lb/>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-13-2" n="2">
-                    <head type="add">Haleluia. Laudate Deum omnes Angelij eius</head>
+                    <head type="add">Haleluia. Laudate Deum omnes Angeli eius</head>
                     <head>HALELVIA <lb/>
                         <ref target="#sl-148">Psalm: 148.<reg>Sl 148</reg></ref></head>
                     <notatedMusic>
@@ -2462,7 +2462,7 @@
                 <head type="add">Tredje søndag efter helligtrekongersdag</head>
                 <head>Den<ex>n</ex> Tredie Søndag <lb/>effter hellig tre Kongers <lb/>dag. </head>
                 <div type="psalm" xml:lang="la" xml:id="section-14-1" n="1">
-                    <head type="add">Introitus latinus</head>
+                    <head type="add">Adorate Deum omnes angeli eius</head>
                     <head> Introitus latinus <lb/>
                         <ref target="#sl-97">Psalm: 97.<reg>Sl 97</reg></ref></head>
                     <notatedMusic>
@@ -2567,7 +2567,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-15-2" n="2">
-                    <head type="add">Introitus latinus</head>
+                    <head type="add">Anvisning om introitus</head>
                     <head>Introitus latinus. <lb/>Suscepimus Deus misericordiam <ex>etc</ex>. <lb/>
                         <hi rend="italics">Quære infra Dominica</hi> 8. <hi rend="italics">post
                             <lb/>Trinitatis.</hi>
@@ -2823,7 +2823,7 @@
                     <lb/>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-16-2" n="2">
-                    <head type="add">Introitus latinus / Haleluia. Dominus regnauit</head>
+                    <head type="add">Anvisning om introitus</head>
                     <head>Introitus latinus</head>
 
                     <list rend="simple">
@@ -2891,7 +2891,7 @@
                 <head type="add">Septuagesima</head>
                 <head><pb facs="0135L" n="122"/>Den Søndag Sep<lb rend="="/>tuagesima.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-17-1" n="1">
-                    <head type="add">Circumdederunt me gemitus mortis</head>
+                    <head type="add">Circumdederunt me gemitus mortis [og] Diligam te Domine virtus mea</head>
                     <head>Introitus Danske. <lb/>Hierusalem du hellige <app>
                             <lem>Stad</lem>
                             <rdg wit="#orig">Satd</rdg>
@@ -5106,7 +5106,7 @@
                     <lb/>
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-angelus-domini" n="2">
-                    <head type="add">Haleluia. Angelua Domini descendit de coelo</head>
+                    <head type="add">Haleluia. Angelus Domini descendit de coelo</head>
                     <head>HALELVIA. <lb/>
                         <ref target="#matt-28">Matth. 28.<reg>Matt 28</reg></ref></head>
                     <notatedMusic>
@@ -9345,7 +9345,7 @@
             <div type="chapter" xml:id="praestekalent" n="72">
                 <head type="add">Præstekalent</head>
                 <div type="psalm" xml:lang="la" xml:id="sacerdotes-eius-induant-salutare" n="1">
-                    <head type="add">Sacedotes eius induant salutare [og] Haleluia. Non vos me
+                    <head type="add">Sacerdotes eius induant salutare [og] Haleluia. Non vos me
                         elegistis [og] Quicunque vult salvus esse</head>
                     <head>Sang oc ceremonier som <lb/> holdis vdi Preste Calent/ eller Pro<lb
                             rend="="/>uinciali Colloquio. <lb/>Introitus latinus.</head>
