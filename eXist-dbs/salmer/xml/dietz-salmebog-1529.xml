@@ -78,22 +78,22 @@
                ÿ thet gamle Testamente / <lb/>huilke / <lb/>strax nar Gud haffde bewÿst thennom
                nogen merckelig welgierning / <lb/>haffue siungit oc wærid Gud ther fore
                tacknemmelige / <lb/>bode med Psalmer / <lb/>aandelige wÿser oc lofsange.</p>
-            <note place="left">(<ref target="#mos-2-15"><orig>Exo. xv.</orig><reg>2 Mos
-                  15</reg></ref>)</note>
-            <p>Som ther staar (<ref target="#mos-2-15"><orig>Exodi. xv.</orig><reg>2 Mos
-                  15</reg></ref>) Hwor the Jsrael<lb rend="="/>ske børn siunge Gud stor loff oc
-               werdighed / <lb/>for then Egyptiske oc Pharaonis macht oc træl<lb rend="="/>dom han
-               haffde forløøst oc vndlid thennom aff. Desligeste then Kongelig Prophete Da<lb
-                  rend="="/>uid / <lb/>som haffuer med siungende och klinge<ex>n</ex>de / <lb/>med
-               dictelse oc alle honde strengespil / <lb/>oc besyn<lb rend="="/>derlig med Psalmer
-               siungit oc prÿsit Gud for then naade oc seier han hannwm gaff / <lb/>Wder<lb rend="="
-                  /><note place="left">(<ref target="#dom-5"><orig>Judic. v.</orig><reg>Dom
-                     5</reg></ref>)</note>mere (<ref target="#dom-5"><orig>Judicum.
-                     v.</orig><reg>Dom 5</reg></ref>) (<ref target="#mos-5-32"><orig>Deuter.
-                     xxxij.</orig><reg>5 Mos 32</reg></ref>) (<ref target="#sam-1-2"><orig>j. Reg.
-                     ij.</orig><reg>1 Sam 2</reg></ref>) (<ref target="#es-12"><orig>Esa.
-                     xij.</orig><reg>Es 12</reg></ref>) (<ref target="#es-16"
-                     ><orig>xvj.</orig><reg>Es 16</reg></ref>) (<ref target="#es-38"
+
+            <p><note place="left">(<ref target="#mos-2-15"><orig>Exo. xv.</orig><reg>2 Mos
+                     15</reg></ref>)</note>Som ther staar (<ref target="#mos-2-15"><orig>Exodi.
+                     xv.</orig><reg>2 Mos 15</reg></ref>) Hwor the Jsrael<lb rend="="/>ske børn
+               siunge Gud stor loff oc werdighed / <lb/>for then Egyptiske oc Pharaonis macht oc
+                  træl<lb rend="="/>dom han haffde forløøst oc vndlid thennom aff. Desligeste then
+               Kongelig Prophete Da<lb rend="="/>uid / <lb/>som haffuer med siungende och
+                  klinge<ex>n</ex>de / <lb/>med dictelse oc alle honde strengespil / <lb/>oc
+                  besyn<lb rend="="/>derlig med Psalmer siungit oc prÿsit Gud for then naade oc
+               seier han hannwm gaff / <lb/>Wder<lb rend="="/><note place="left">(<ref
+                     target="#dom-5"><orig>Judic. v.</orig><reg>Dom 5</reg></ref>)</note>mere (<ref
+                  target="#dom-5"><orig>Judicum. v.</orig><reg>Dom 5</reg></ref>) (<ref
+                  target="#mos-5-32"><orig>Deuter. xxxij.</orig><reg>5 Mos 32</reg></ref>) (<ref
+                  target="#sam-1-2"><orig>j. Reg. ij.</orig><reg>1 Sam 2</reg></ref>) (<ref
+                  target="#es-12"><orig>Esa. xij.</orig><reg>Es 12</reg></ref>) (<ref
+                  target="#es-16"><orig>xvj.</orig><reg>Es 16</reg></ref>) (<ref target="#es-38"
                      ><orig>xxxviij.</orig><reg>Es 38</reg></ref>) (<ref target="#es-66"
                      ><orig>lxvj.</orig><reg>Es 66</reg></ref>) oc andre mange stæder. Effter thÿ
                att wore forfædre haffue wærid gud for sÿne welgierninger ÿ thet gamle Testamen<lb
@@ -709,10 +709,10 @@
                   <l>oc teg vnderwÿse oc lære wel/ </l>
                   <l>ÿ sandheds wæy att wandre.</l>
                </lg>
-               <note place="left">(<ref target="#matt-24"><orig>Mat. xxiiij</orig><reg>Matt
-                     24</reg></ref>)</note>
                <lg>
-                  <l><space extent="2blanks"/>Hwad ieg haffuer giord vnderwÿst oc lærd/ </l>
+                  <l><note place="left">(<ref target="#matt-24"><orig>Mat. xxiiij</orig><reg>Matt
+                              24</reg></ref>)</note><space extent="2blanks"/>Hwad ieg haffuer giord
+                     vnderwÿst oc lærd/ </l>
                   <l>thet skaltw giøre oc lære/ </l>
                   <l>ther med mit rÿge opfylt wort/ </l>
                   <l>meg sielff til <note place="left">(<ref target="#matt-15"><orig>Mat.
@@ -902,11 +902,11 @@
                   <l>hun bleff een Jomffru klar oc sand/ </l>
                   <l>sÿn søn hun vndfick aff then helliaand.</l>
                </lg>
-               <note place="left">(<ref target="#matt-1"><orig>Mat. j.</orig><reg>Matt
-                  1</reg></ref>) (<ref target="#luk-1"><orig>Luce. j.</orig><reg>Luk
-                  1</reg></ref>)</note>
                <lg>
-                  <l><space extent="2blanks"/>Then ædle moder bar oss then/ </l>
+                  <l><note place="left">(<ref target="#matt-1"><orig>Mat. j.</orig><reg>Matt
+                           1</reg></ref>) (<ref target="#luk-1"><orig>Luce. j.</orig><reg>Luk
+                              1</reg></ref>)</note><space extent="2blanks"/>Then ædle moder bar oss
+                     then/ </l>
                   <l>som Gabriel forkynde wdsend/ </l>
                   <l>then Jom<lb rend="="/>ffru hun søgte Elizabet/ </l>
                   <l>oc fands att haffue thet henne wor iætt.</l>
@@ -4226,8 +4226,7 @@
                </lg>
             </div>
             <div xml:id="gloria-in-excelsis-deo-dietz-1529-2" n="8">
-               <head type="add">Gloria, ære og pris være Gud i det
-                  højeste</head>
+               <head type="add">Gloria, ære og pris være Gud i det højeste</head>
                <head><pb facs="158" n="49r"/>¶ Gloria in excelsis deo.</head>
                <p>
                   <c function="initials" rend="3">G</c>Loria ære oc prÿss wære Gud ÿ thet høgeste.
@@ -5532,11 +5531,13 @@
                            >lx.</ref></item>
                   </list>
                </item>
-            </list></div>
+            </list>
+         </div>
          <div xml:id="kolofon-dietz-1529">
-            <head type="add" >Kolofon</head>
+            <head type="add">Kolofon</head>
             <p rend="center">¶ Trycht ÿ Rozstock hooss Ludowich Dietz. xx. Nouembris. M. D. XXiX.
-               *</p></div>
+               *</p>
+         </div>
          <div xml:id="bogtrykkermaerke-dietz-1529">
             <head type="add">Bogtrykkermærke</head>
             <head><pb facs="194" n="R 4r"/>Bogtrykkermærke</head>
