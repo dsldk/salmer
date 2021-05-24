@@ -141,15 +141,13 @@
                 <head type="add">Tilgivelse</head>
                 <head>Absolutio</head>
                 <head>En<ex>n</ex> ewangelisch affløessningh offwer <lb/> menheden</head>
-                <p>
-                    <c function="initials" rend="4">T</c>hen almectigsthe barmhiertighe gud (som for <lb/>
-                    <note place="margin">(<ref target="#joh-3"><orig>Joh. iii</orig><reg>Joh
+                <p><note place="margin">(<ref target="#joh-3"><orig>Joh. iii</orig><reg>Joh
                             3</reg></ref>)</note>
+                    <c function="initials" rend="4">T</c>hen almectigsthe barmhiertighe gud (som for <lb/>
                     <note place="margin">(<ref target="#rom-7"><orig>Rom. vii</orig><reg>Rom
-                            7</reg></ref>)</note>
-                    <note place="margin">(<ref target="#joh-4"><orig>Joh. iiii</orig><reg>Joh
-                                4</reg></ref>)</note> wore synders skyldh/ y døeden haffwer gy<lb
-                        rend="-"/>ffweth syn <app>
+                            7</reg></ref>)</note> wore synders skyldh/<note place="margin">(<ref
+                            target="#joh-4"><orig>Joh. iiii</orig><reg>Joh 4</reg></ref>)</note> y
+                    døeden haffwer gy<lb rend="-"/>ffweth syn <app>
                         <lem>enborne</lem>
                         <rdg wit="#orig">enborue</rdg>
                     </app> søn/ iesum christum) wil <pb facs="A_2v" n="A 2v"/> forbarme sigh offuer
@@ -259,8 +257,7 @@
                 <p> vt supra</p>
             </div>
             <div xml:id="gloria-aere-og-pris-vaere-gud-i-det-hoejeste-mortensen-1529" n="6">
-                <head type="add">Gloria, ære og pris være Gud i det
-                    højeste</head>
+                <head type="add">Gloria, ære og pris være Gud i det højeste</head>
                 <head><pb facs="A_6v" n="A 4v"/> Gloria in excelsis deo <note place="margin">(<ref
                             target="#luk-2"><orig>Luce. ii</orig><reg>Luk 2</reg></ref>)</note>
                 </head>
@@ -380,12 +377,12 @@
                 <notatedMusic>
                     <ptr target="Mo_1529_LN0174_000B03r.xml"/>
                 </notatedMusic>
-                <app>
+                <p><app>
                     <lem>Alleluya</lem>
                     <rdg wit="#orig"> Alle luya a a<note>under noder</note></rdg>
                 </app>
                 <note place="margin">Alleluia th<ex>et</ex>
-                    <lb/> er loffuer <lb/> herren.</note>
+                    <lb/> er loffuer <lb/> herren.</note></p>
                 <lg>
                     <l>Glaedeligh wylle wy alleluya syunghe/</l>
                     <l>m<ex>eth</ex> kierlig<lb rend="="/>hedhszens begiærringh</l>
@@ -1416,8 +1413,7 @@
                     wndhe oss ath brughe th<ex>et</ex>
                     <lb/> och ha<ex>n</ex>s hellighe ordh effther sin <lb/> benedidhe willie/ oc
                     giiffue <lb/> oss th<ex>et</ex> oss er nøtteligth <lb/> baade til liff oc <lb/>
-                    siel Amen * <lb/> * * <lb/> *
-                    <lb/>
+                    siel Amen * <lb/> * * <lb/> * <lb/>
                 </p>
             </div>
         </body>
