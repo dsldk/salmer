@@ -5315,15 +5315,15 @@
                         <l> Ath Chisti død bedreff det mord/</l>
                         <l> en spot aff døden er worden. Alle<ex>luia</ex></l>
                     </lg>
-                    <note place="right">(<ref target="#hos-13"><orig>Ose xiii</orig><reg>Hos
-                                13</reg></ref>) (<ref target="#kor-1-15"><orig>i Corin
-                                xv</orig><reg>1 Kor 15</reg></ref>) (<ref target="#mos-2-11"
-                                ><orig>Exo xi</orig><reg>2 Mos 11</reg></ref>) (<ref
-                            target="#pet-1-1"><orig>i Petri i</orig><reg>1 Pet 1</reg></ref>) (<ref
-                            target="#mos-2-12"><orig>Exo. xii</orig><reg>2 Mos
-                        12</reg></ref>)</note>
                     <lg>
-                        <l><space extent="2blanks"/>Her er det rette paaske lam/</l>
+                        <l><note place="right">(<ref target="#hos-13"><orig>Ose xiii</orig><reg>Hos
+                                        13</reg></ref>) (<ref target="#kor-1-15"><orig>i Corin
+                                        xv</orig><reg>1 Kor 15</reg></ref>) (<ref target="#mos-2-11"
+                                        ><orig>Exo xi</orig><reg>2 Mos 11</reg></ref>) (<ref
+                                    target="#pet-1-1"><orig>i Petri i</orig><reg>1 Pet 1<space
+                                            extent="2blanks"/></reg></ref>) (<ref target="#mos-2-12"
+                                        ><orig>Exo. xii</orig><reg>2 Mos 12</reg></ref>)</note>Her
+                            er det rette paaske lam/</l>
                         <l> om huilkit Gud haffuer budit</l>
                         <l> Det er det som paa korsit kom/</l>
                         <l> for wor skyld stegt oc dødet/</l>
@@ -5468,10 +5468,10 @@
                             <rdg wit="#orig">meture</rdg>
                         </app></p>
                     <lg>
-                        <l><note place="left">(<ref target="#matt-28"><orig>Mathei
-                                        xxviii</orig><reg>Matt 28</reg></ref>) (<ref
+                        <l><space extent="2blanks"/><note place="left">(<ref target="#matt-28"
+                                        ><orig>Mathei xxviii</orig><reg>Matt 28</reg></ref>) (<ref
                                     target="#mark-16"><orig>Mar xvi</orig><reg>Mark
-                                16</reg></ref>)</note><space extent="2blanks"/>Frøcter icke/</l>
+                                16</reg></ref>)</note>Frøcter icke/</l>
                         <l> ieg siger eder det/</l>
                         <l> ath den leffuer hwilken i lede effter/</l>
                         <l> mene<ex>n</ex>dis død at wære</l>
@@ -5746,11 +5746,11 @@
                         <l> ath en død den ande<ex>n</ex> sløg/</l>
                         <l> ha<ex>n</ex> haffuer sin seyer nu tabit</l>
                     </lg>
-                    <note place="left">(<ref target="#mos-2-12"><orig>Exo xii</orig><reg>2 Mos
-                                12</reg></ref>) (<ref target="#joh-brev-1-1"><orig>i Joa<ex>n</ex>
-                                i</orig><reg>1 Joh 1</reg></ref>)</note>
                     <lg>
-                        <l><space extent="2blanks"/>Her er det rette paaske lam/</l>
+                        <l><space extent="2blanks"/><note place="left">(<ref target="#mos-2-12"
+                                        ><orig>Exo xii</orig><reg>2 Mos 12</reg></ref>) (<ref
+                                    target="#joh-brev-1-1"><orig>i Joa<ex>n</ex> i</orig><reg>1 Joh
+                                        1</reg></ref>)</note>Her er det rette paaske lam/</l>
                         <l> der om Gud hagde screffuit/</l>
                         <l> det bleff paa korssit for huer ma<ex>n</ex>d/</l>
                         <l> bre<ex>n</ex>t i største kerlighed</l>
@@ -5811,11 +5811,11 @@
                         <l><c function="initials" rend="4">H</c>Erren sagde til min Herre/</l>
                         <l> sidh hoss min høgre hand</l>
                     </lg>
-                    <note place="right">(<ref target="#sl-110"><orig>Psal. cx</orig><reg>Sl
-                                110</reg></ref>)</note>
                     <lg>
-                        <l><space extent="2blanks"/>Saa lenge ieg legger dine fiende til en
-                                fodska<ex>m</ex>mel vnder dine føder</l>
+                        <l><space extent="2blanks"/><note place="right">(<ref target="#sl-110"
+                                        ><orig>Psal. cx</orig><reg>Sl 110</reg></ref>)</note>Saa
+                            lenge ieg legger dine fiende til en fodska<ex>m</ex>mel vnder dine
+                            føder</l>
                     </lg>
                     <lg>
                         <l><space extent="2blanks"/>Herren skal vdsende aff Sion din sterckhedz
@@ -7144,10 +7144,10 @@
                         <l> han synis være vred han er dog blit/</l>
                         <l> thi lad dig icke forfære</l>
                     </lg>
-                    <note place="right">(<ref target="#kol-1"><orig>Coloss i</orig><reg>Kol
-                            1</reg></ref>)</note>
                     <lg>
-                        <l><space extent="2blanks"/>Gud fader oc Søn oc den Helligand</l>
+                        <l><space extent="2blanks"/><note place="right">(<ref target="#kol-1"
+                                        ><orig>Coloss i</orig><reg>Kol 1</reg></ref>)</note>Gud
+                            fader oc Søn oc den Helligand</l>
                         <l> hannem wille wi prise alle sa<ex>m</ex>me<ex>n</ex>/</l>
                         <l> hans godhed i alle land/</l>
                         <l> och bede han ville <pb facs="128" n="46v"/>
@@ -7343,14 +7343,14 @@
                         <l> wi loffue dig/ wi prise dig </l>
                     </lg>
                     <lg>
-                        <l><note place="left">(<ref target="#joh-3"><orig>Joa<ex>n</ex>
-                                        iii</orig><reg>Joh 3</reg></ref>) (<ref target="#sl-14"
-                                        ><orig>Psalmo xiiii</orig><reg>Sl 14</reg></ref>) (<ref
-                                    target="#rom-5"><orig>Rom v</orig><reg>Rom 5</reg></ref>) (<ref
-                                    target="#rom-3"><orig>Rom iii</orig><reg>Rom 3</reg></ref>)
-                                    (<ref target="#joh-3"><orig>Joa<ex>n</ex> iii</orig><reg>Joh
-                                        3</reg></ref>)</note><space extent="2blanks"/>Huo haffuer
-                            hørt slig kerlighed/</l>
+                        <l><space extent="2blanks"/><note place="left">(<ref target="#joh-3"
+                                            ><orig>Joa<ex>n</ex> iii</orig><reg>Joh 3</reg></ref>)
+                                    (<ref target="#sl-14"><orig>Psalmo xiiii</orig><reg>Sl
+                                    14</reg></ref>) (<ref target="#rom-5"><orig>Rom v</orig><reg>Rom
+                                        5</reg></ref>) (<ref target="#rom-3"><orig>Rom
+                                        iii</orig><reg>Rom 3</reg></ref>) (<ref target="#joh-3"
+                                            ><orig>Joa<ex>n</ex> iii</orig><reg>Joh
+                                3</reg></ref>)</note>Huo haffuer hørt slig kerlighed/</l>
                         <l> som Gud fader haffuer oss beted?</l>
                         <l> wi som wore aff synder leed/</l>
                         <l> thi alle hans bud hagde wi forget/</l>
@@ -7366,8 +7366,8 @@
                         <l> wi loffue dig/ wi prise dig</l>
                     </lg>
                     <lg>
-                        <l><note place="left">(<ref target="#zak-9"><orig>Zacha ix</orig><reg>Zak
-                                        9</reg></ref>)</note><space extent="2blanks"/>Der fore
+                        <l><space extent="2blanks"/><note place="left">(<ref target="#zak-9"
+                                        ><orig>Zacha ix</orig><reg>Zak 9</reg></ref>)</note>Der fore
                             skulle wi være glad/</l>
                         <l> oc altid Gud fast loffue/</l>
                         <l> han vill inted andit haffue/</l>
@@ -7807,9 +7807,9 @@
                         <l> Beskerm oss ath wi icke i falsk tro falle</l>
                     </lg>
                     <lg>
-                        <l><note place="left">(<ref target="#tim-1-4"><orig>i Tim. iiii</orig><reg>1
-                                        Tim 4</reg></ref>)</note><space extent="2blanks"/>Brende
-                            mercke haffue de i deris samuid/</l>
+                        <l><space extent="2blanks"/><note place="left">(<ref target="#tim-1-4"
+                                        ><orig>i Tim. iiii</orig><reg>1 Tim
+                            4</reg></ref>)</note>Brende mercke haffue de i deris samuid/</l>
                         <l> som oss haffue wret ledit/</l>
                         <l> for dem sancte Pouel beder oss ath tage ware/</l>
                         <l><note place="left">(<ref target="#pet-2-3"><orig>ii Pe. iii</orig><reg>2
@@ -8033,9 +8033,9 @@
                         <l> han hagde visselige det verdzlige rige/</l>
                         <l> dig da til priss forsmaat</l>
                     </lg>
-                    <note place="right">Anno do|M C xx</note>
                     <lg>
-                        <l><space extent="2blanks"/>Hagde Gratianus dig ret kent/</l>
+                        <l><space extent="2blanks"/><note place="right">Anno do|M C xx</note>Hagde
+                            Gratianus dig ret kent/</l>
                         <l> da han begynte at dicte/</l>
                         <l> den paffuelig low som kallis Decret</l>
                         <l> Ro<ex>m</ex>miske hantering paa hitte/</l>
@@ -8124,10 +8124,10 @@
                         <l> han kaaste der paa for vden suig</l>
                         <l> det kæriste der han hagde</l>
                     </lg>
-                    <note place="right">(<ref target="#luk-1"><orig>Luce i</orig><reg>Luk
-                            1</reg></ref>)</note>
                     <lg>
-                        <l><space extent="2blanks"/>Ha<ex>n</ex> talede til sin kære søn/</l>
+                        <l><space extent="2blanks"/><note place="right">(<ref target="#luk-1"
+                                        ><orig>Luce i</orig><reg>Luk
+                                1</reg></ref>)</note>Ha<ex>n</ex> talede til sin kære søn/</l>
                         <l> det er nu tid ath forbarme/</l>
                         <l> du skalt det gøre alt for min bøn/</l>
                         <l> far hen oc frelss de arme/</l>
@@ -9402,11 +9402,11 @@
                         <l> som er skiult i brødse<ex>n</ex>s skin/</l>
                         <l> oc at dricke sit blod i vin</l>
                     </lg>
-                    <note place="right">(<ref target="#matt-26"><orig>Mathei xxvi</orig><reg>Matt
-                                26</reg></ref>) (<ref target="#kor-1-11"><orig>i Cor.
-                                xi</orig><reg>1 Kor 11</reg></ref>)</note>
                     <lg>
-                        <l><space extent="2blanks"/>Huem aff de<ex>n</ex>ne kaast vil æde/</l>
+                        <l><space extent="2blanks"/><note place="right">(<ref target="#matt-26"
+                                        ><orig>Mathei xxvi</orig><reg>Matt 26</reg></ref>) (<ref
+                                    target="#kor-1-11"><orig>i Cor. xi</orig><reg>1 Kor
+                                    11</reg></ref>)</note>Huem aff de<ex>n</ex>ne kaast vil æde/</l>
                         <l> sit hierte oc sin sag ha<ex>n</ex> ey forgæde/</l>
                         <l> huem vuerdig her til gaar/</l>
                         <l> for liffuit da den euige død han faar</l>
@@ -11302,9 +11302,9 @@
                     </lg>
 
                     <lg>
-                        <l><note place="left">(<ref target="#es-42"><orig>Esa xlii</orig><reg>Es
-                                        42</reg></ref>)</note><space extent="2blanks"/>O herre Gud
-                            mod dig all ene</l>
+                        <l><space extent="2blanks"/><note place="left">(<ref target="#es-42"
+                                        ><orig>Esa xlii</orig><reg>Es 42</reg></ref>)</note>O herre
+                            Gud mod dig all ene</l>
                         <l> haffuer ieg syndit/ det kendiss ieg/</l>
                         <l> Jeg haffuer giort ont i dit aasyn/</l>
                         <l> ath det er vist/ som du haffuer sagt/</l>
@@ -11374,9 +11374,9 @@
                         <l> vort offer gør dig ingen forbedring</l>
                     </lg>
                     <lg>
-                        <l><note place="left">(<ref target="#es-66"><orig>Esaie lxvi</orig><reg>Es
-                                        66</reg></ref>)</note><space extent="2blanks"/>En sorgfuld
-                            aand oc bedrøffuit/</l>
+                        <l><space extent="2blanks"/><note place="left">(<ref target="#es-66"
+                                        ><orig>Esaie lxvi</orig><reg>Es 66</reg></ref>)</note>En
+                            sorgfuld aand oc bedrøffuit/</l>
                         <l> ith ydmygt hierte oc forknusit/</l>
                         <l> so<ex>m</ex> for din lærdom giffuer sig/</l>
                         <l> det er dig Gud behageligt</l>
