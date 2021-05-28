@@ -1153,9 +1153,9 @@
                     <table>
                         <row>
                             <cell rend="font_red">Gylden tall</cell>
-                            <cell rend="font_red">Søndagis  bogstaff</cell>
+                            <cell rend="font_red">Søndagis bogstaff</cell>
                             <cell/>
-                            <cell rend="font_red">Tafflen  till tegen</cell>
+                            <cell rend="font_red">Tafflen till tegen</cell>
                         </row>
                         <row>
                             <cell rend="font_red">viii</cell>
@@ -1381,14 +1381,14 @@
                     <table>
                         <row>
                             <cell rend="font_red">Gylden tall</cell>
-                            <cell rend="font_red">Søndagis  bogstaff</cell>
+                            <cell rend="font_red">Søndagis bogstaff</cell>
                             <cell/>
-                            <cell rend="font_red">Tafflen  til tegen</cell>
+                            <cell rend="font_red">Tafflen til tegen</cell>
                         </row>
                         <row>
                             <cell rend="font_red">xvi</cell>
                             <cell>f</cell>
-                            <cell rend="font_red">Egidi  dag</cell>
+                            <cell rend="font_red">Egidi dag</cell>
                             <cell><app>
                                     <lem/>
                                     <rdg wit="#orig">
@@ -1603,9 +1603,9 @@
                     <table>
                         <row>
                             <cell rend="font_red">Gylden tall</cell>
-                            <cell rend="font_red">Søndagis  bogstaff</cell>
+                            <cell rend="font_red">Søndagis bogstaff</cell>
                             <cell/>
-                            <cell rend="font_red">Tafflen  till tegen</cell>
+                            <cell rend="font_red">Tafflen till tegen</cell>
                         </row>
                         <row>
                             <cell rend="font_red">xvi</cell>
@@ -2040,9 +2040,9 @@
                     <table>
                         <row>
                             <cell rend="font_red">Gylden tall</cell>
-                            <cell rend="font_red">Søndagis  bogstaff</cell>
+                            <cell rend="font_red">Søndagis bogstaff</cell>
                             <cell/>
-                            <cell rend="font_red">Tafflen  till tegen</cell>
+                            <cell rend="font_red">Tafflen till tegen</cell>
                         </row>
                         <row>
                             <cell rend="font_red">xiii</cell>
@@ -3229,11 +3229,12 @@
                         <l> scriffuis ath Gud elskte verden saa/</l>
                         <l> sin Søn for he<ex>n</ex>ne ville giffue/</l>
                         <l> huo som tror <note place="right">(<ref target="#joh-3"
-                                            ><orig>Joa<ex>n</ex>. iii</orig><reg>Joh 3</reg></ref>)
-                                    (<ref target="#joh-brev-1-4"><orig>i Joa<ex>n</ex>.
-                                        iiii</orig><reg>1 Joh 4</reg></ref>)</note> paa Jesum
-                            Christ/</l>
-                        <l> han skal met hanne<ex>m</ex> salig bliffue</l>
+                                            ><orig>Joa<ex>n</ex>. iii</orig><reg>Joh
+                                3</reg></ref>)</note> paa Jesum Christ/</l>
+                        <l>
+                            <note place="right">(<ref target="#joh-brev-1-4"><orig>i Joa<ex>n</ex>.
+                                        iiii</orig><reg>1 Joh 4</reg></ref>)</note>han skal met
+                                hanne<ex>m</ex> salig bliffue</l>
                     </lg>
                     <lg>
                         <l><space extent="2blanks"/>Til de Ro<ex>m</ex>merske i det tredye hører
@@ -3866,10 +3867,10 @@
                                 Egypte<ex>n</ex>
                             <note place="left">(<ref target="#sl-114"><orig>Psa.
                                         cxiiii</orig><reg>Sl 114</reg></ref>)</note></l>
-                        <l> och Jacobs hwss fra det  groffue folk</l>
+                        <l> och Jacobs hwss fra det groffue folk</l>
                     </lg>
                     <lg>
-                        <l><space extent="2blanks"/> Da er kommen Juda til  sin hellighed/</l>
+                        <l><space extent="2blanks"/> Da er kommen Juda til sin hellighed/</l>
                         <l> oc Jsrael til sin veldighed</l>
                     </lg>
                     <lg>
@@ -4150,7 +4151,7 @@
                                 1</reg></ref>)</note> i Gud min frelsere</l>
                         <l><space extent="2blanks"/>Faar han saa til sin tienerskis <app>
                                 <lem>ringhed</lem>
-                                <rdg wit="#orig">ring/  hed</rdg>
+                                <rdg wit="#orig">ring/ hed</rdg>
                             </app>/ see her aff skulle alle slecter sige mig salig ath vere</l>
                         <l><space extent="2blanks"/>Forthi den giorde mig stor ting som mectig er/
                             oc hans naffn er helligt</l>
@@ -4937,8 +4938,7 @@
                         <l> At wi vndgaa dieffuelse<ex>n</ex>s list/</l>
                         <l> Oc staa faste i all frist/</l>
                         <l> ved vor herre Jesum Christ</l>
-                        <l> Ame<ex>n</ex>
-                             Ame<ex>n</ex> det være ia/</l>
+                        <l> Ame<ex>n</ex> Ame<ex>n</ex> det være ia/</l>
                         <l> saa siu<ex>n</ex>ge wi Alleluia</l>
                     </lg>
                     <lg>
@@ -6250,7 +6250,7 @@
                 <div xml:id="beklage-af-al-min-sinde-malmoe" n="52">
                     <head type="add">Beklage af al min sinde</head>
                     <head><ref target="#sl-51"><orig>Den li Psalm</orig><reg>Sl 51</reg></ref> Ath
-                            ma<ex>n</ex>d  Beklager sin synd oc brøst</head>
+                            ma<ex>n</ex>d Beklager sin synd oc brøst</head>
                     <lg>
                         <l><c function="initials" rend="4">B</c>Eklage aff alle mine sinde </l>
                         <l> maa ieg met Kong Dauid </l>
@@ -6367,8 +6367,7 @@
                     <lg>
                         <l><c function="initials" rend="4">E</c>Saias den Prophete mo<ex>n</ex>ne
                             det saa gaa/</l>
-                        <l> ath han i aande<ex>n</ex>
-                             herren side saa/</l>
+                        <l> ath han i aande<ex>n</ex> herren side saa/</l>
                         <l> vdi den høye tron oc klare skyn/</l>
                         <l> hans kleder de opfylte det kor om kring/</l>
                         <l> tho Seraphin stode hoss hannem der/</l>
@@ -6434,7 +6433,7 @@
                     </lg>
                     <lg>
                         <l> O Gudz lam/</l>
-                        <l> Forbarme dig offuer oss  o Jesu O Gudz lam/</l>
+                        <l> Forbarme dig offuer oss o Jesu O Gudz lam/</l>
                         <l> Giff oss din fred o Jesu</l>
                     </lg>
                 </div>
