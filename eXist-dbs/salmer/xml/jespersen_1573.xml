@@ -101,13 +101,12 @@
                 <head type="add">
                     <reg xml:lang="da">Frederik 2.s forord</reg>
                 </head>
-                <p><pb facs="0005L" n=")(2v"/>
-                    <c function="initials" rend="2">W</c>J Frederich thend Anden met Guds Naade/
-                    Danmarckis Norgis Wendis och Gottis Konning/ Hertug vdi Slesuig/ Holsten/
-                    Stormarn och Dytmersken/ Greffue vdi Oldenborg och Delmenhorst. Giøre alle
-                    vitterligt/ At effterthi Wj forfare/ at alleuegne her vdi Riget/ sig begiffuer
-                    stor Wenighed met Ceremonier och Sang/ vdi Kirckerne/ Saa vel vdi Kiøbstederne/
-                    som paa Landsbyerne/ Emod thend almindelig Kircke Ordinantz/ som ellers til en
+                <p><pb facs="0005L" n=")(2v"/> WJ Frederich thend Anden met Guds Naade/ Danmarckis
+                    Norgis Wendis och Gottis Konning/ Hertug vdi Slesuig/ Holsten/ Stormarn och
+                    Dytmersken/ Greffue vdi Oldenborg och Delmenhorst. Giøre alle vitterligt/ At
+                    effterthi Wj forfare/ at alleuegne her vdi Riget/ sig begiffuer stor Wenighed
+                    met Ceremonier och Sang/ vdi Kirckerne/ Saa vel vdi Kiøbstederne/ som paa
+                    Landsbyerne/ Emod thend almindelig Kircke Ordinantz/ som ellers til en
                     Christelig Endrechtighed och god Ordning/ paa Ceremonier/ Sang och ald anden
                     Kircke tieniste/ met stor Aluorlighed och flijd/ ordinerit och berammet er/ Gud
                     til ære/ Oc thend Christelige Religion/ til ydermere førdring och
@@ -132,8 +131,8 @@
                     findis at være beramt/ huad Sang/ thet gandske Aar igennem/ aff alle Sognedegne
                     i Kiøbstederne och paa Landsbyerne offuer alt Riget/ til huer thid/ her effter
                     holdis och siungis skal. Thi bede Wj och biude alle vore Superintendenter/
-                    Prouester/ Sognepræster/ och menige Kirckethienere/ offuer alt
-                    vort Rige Danmarck/ <app>
+                    Prouester/ Sognepræster/ och menige Kirckethienere/ offuer alt vort Rige
+                    Danmarck/ <app>
                         <lem>Att j</lem>
                         <rdg wit="#orig">Attj</rdg>
                     </app> tiltencker her effter sa<ex>m</ex>me Gradual och Sangbog for fulde at
@@ -152,17 +151,15 @@
                     oc menige Kircketienere vdi Danmarckis Rige. Ynsker Jeg Niels Jesperssøn
                     Superintendens vdi Fyens Stigt. Naade oc Fred aff Gud Fader ved Jesum Christum
                     vor Herre.</p>
-                <p>
-                    <c function="initials" rend="6">K</c>Jere Venner oc Brødre i Christo Je<lb
-                        rend="="/>su/ Det findis i sandhed klart oc aldelis obenbare/ at den euige
-                    oc allmectige Gud haffuer stedse oc altid fra første Verdens begyndelse
-                    obenbaret sig/ aff sin wsigelige godhed/ for det Menniskelige Slect/ Formedelst
-                    sit ord oc wryggelige vidnisbyrd/ oc samlet sig sin Kircke oc Menighed/ huor det
-                    sande Guds ord/ reent oc wforfalsket/ haffuer wbehindret haffd sin fremgang/ ved
-                    tro oc Gudfryctige Lærefædre/ Oc Jesu Christi den sande Verdens Frelseris
-                    velgierninger ere vorden krafftige vdi Guds børns hierter/ formedelst den Hellig
-                    Aand/ til Guds ære/ oc dennem til Troens Retfærdiggiørelse/ oc til en sand oc
-                    visse Salighed.</p>
+                <p> KJere Venner oc Brødre i Christo Je<lb rend="="/>su/ Det findis i sandhed klart
+                    oc aldelis obenbare/ at den euige oc allmectige Gud haffuer stedse oc altid fra
+                    første Verdens begyndelse obenbaret sig/ aff sin wsigelige godhed/ for det
+                    Menniskelige Slect/ Formedelst sit ord oc wryggelige vidnisbyrd/ oc samlet sig
+                    sin Kircke oc Menighed/ huor det sande Guds ord/ reent oc wforfalsket/ haffuer
+                    wbehindret haffd sin fremgang/ ved tro oc Gudfryctige Lærefædre/ Oc Jesu Christi
+                    den sande Verdens Frelseris velgierninger ere vorden krafftige vdi Guds børns
+                    hierter/ formedelst den Hellig Aand/ til Guds ære/ oc dennem til Troens
+                    Retfærdiggiørelse/ oc til en sand oc visse Salighed.</p>
                 <p>
                     <space extent="2blanks"/>Vdi denne Guds Kircke oc Menighed (som saa er
                     formedelst Guds ord oc sande bekiendelse vdi Troen/ vijt oc langt affskild/ fra
@@ -421,7 +418,7 @@
                         <ptr target="Je_1573_LN0981_001.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials">H</c>ERr Christ Gud Faders enborne Søn/ </l>
+                        <l>HERr Christ Gud Faders enborne Søn/ </l>
                         <l>som er hans euige raad/ </l>
                         <l>Er aff hans hierte vdgangen/ </l>
                         <l>ligeruiss som screffuit staar/ </l>
@@ -484,7 +481,7 @@
                         <ptr target="Je_1573_LN0981_003.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">A</c>D te leuaui animam meam Deus meus, </l>
+                        <l>AD te leuaui animam meam Deus meus, </l>
                         <l>in te confido, </l>
                         <l>non erubescam: </l>
                         <l>neque irrideant me ini<pb rend="=" facs="0017L" n="4"/>mici mei. </l>
@@ -512,8 +509,7 @@
                         <ptr target="Je_1573_LN0981_005.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">K</c>Yrie/ Gud Fader allsom høye<lb
-                                rend="="/>ste trøst/ </l>
+                        <l>KYrie/ Gud Fader allsom høye<lb rend="="/>ste trøst/ </l>
                         <l>du est vor glæde oc lyst/ </l>
                         <l>spar oss ælende/ </l>
                         <l>beuar oss fra Synd/ </l>
@@ -543,8 +539,7 @@
                         <ptr target="Je_1573_LN0981_007.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="3">A</c>Lleniste Gud i Himme<lb rend="="
-                            />rig/ </l>
+                        <l>ALleniste Gud i Himme<lb rend="="/>rig/ </l>
                         <l>være loff oc priss for alle sin naade/ </l>
                         <l>Der hand haffuer giort i Jorderig/ </l>
                         <l>J disse samme naadelig dage. </l>
@@ -601,8 +596,7 @@
                         <ptr target="Je_1573_LN0981_009.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                     </lg>
                     <lg>
                         <l>Ostende nobis Domine misericordiam tuam, </l>
@@ -619,8 +613,7 @@
                         <ptr target="Je_1573_LN0981_010.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">N</c>V bede wi den hellig Aand/ </l>
+                        <l> NV bede wi den hellig Aand/ </l>
                         <l>alt om den Christelig Tro oc ret forstand/ </l>
                         <l>det oss Gud beuare/ </l>
                         <l>oc sin Naade sende/ </l>
@@ -662,7 +655,7 @@
                         <ptr target="Je_1573_LN0981_011.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">W</c>J tro allesammen paa en Gud/ </l>
+                        <l>WJ tro allesammen paa en Gud/ </l>
                         <l>Himmels skabere oc Jordens/ </l>
                         <l>Guds Søn sin Faders <pb facs="0025L" n="12"/> villie giorde/ </l>
                         <l>paa det wi hans børn skulle bliffue/ </l>
@@ -711,7 +704,7 @@
                     <p>Her effter følger strax den vaanlige Predicken: Oc naar den er end/ siungis
                         dette siste Verss aff/ Nu er oss Gud Miskundelig.</p>
                     <lg>
-                        <l><c function="initials" rend="2">Æ</c>Re være Gud Fader i Himmerig</l>
+                        <l>ÆRe være Gud Fader i Himmerig</l>
                         <l>Som alting haffuer at raade/ </l>
                         <l>Disligest hans Søn euindelig</l>
                         <l>Som frelst haffuer oss aff vaade/ </l>
@@ -730,8 +723,7 @@
                         <ptr target="Je_1573_LN0981_014.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">G</c>Vds Søn er kommen aff Himmelen ned/ </l>
+                        <l> GVds Søn er kommen aff Himmelen ned/ </l>
                         <l>thi hand oss inderlig elskte/ </l>
                         <l>Vor gierning er wduelig/ </l>
                         <l>de kunde oss icke frelse. </l>
@@ -858,8 +850,7 @@
                         <l>Thi lad dig icke forfære.</l>
                     </lg>
                     <lg>
-                        <l><c function="initials" rend="3">G</c>Vd Fader oc Søn oc den hellig
-                            Aand</l>
+                        <l>GVd Fader oc Søn oc den hellig Aand</l>
                         <l>Hannem ville wi prise allesammen/ </l>
                         <l>For sin godhed i alle Land/ </l>
                         <l>Oc bede hand vilde fuldkomme</l>
@@ -889,7 +880,7 @@
                     </notatedMusic>
                     <!-- OBS ingen tekstkritisk note ved gentagelse, ok? -->
                     <lg>
-                        <l><c function="initials" rend="2">O</c> Guds lam wskyldig/ </l>
+                        <l>O Guds lam wskyldig/ </l>
                         <l>paa Kaarssit vaar slactet/ </l>
                         <l>din Fader varst du lydig/ </l>
                         <l>Jhuor du varst foractet/ </l>
@@ -898,7 +889,7 @@
                         <l>Forbarme dig offuer oss O Jesu. </l>
                     </lg>
                     <lg>
-                        <l><c function="initials" rend="2">O</c> Guds lam wskyldig/ </l>
+                        <l>O Guds lam wskyldig/ </l>
                         <l>paa Kaarssit vaar slactet/ </l>
                         <l>din Fader varst du lydig/ </l>
                         <l>Jhuor du varst foractet/ </l>
@@ -907,7 +898,7 @@
                         <l>Miskunde dig offuer oss O Jesu. </l>
                     </lg>
                     <lg>
-                        <l><c function="initials" rend="2">O</c> Guds lam wskyldig/ </l>
+                        <l>O Guds lam wskyldig/ </l>
                         <l>paa Kaarssit vaar slactet/ </l>
                         <l>din Fader varst du lydig/ </l>
                         <l>Jhuor du varst foractet/ </l>
@@ -924,7 +915,7 @@
                         <ptr target="Je_1573_LN0981_019.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">J</c>Esus Christus er vor salighed/ </l>
+                        <l>JEsus Christus er vor salighed/ </l>
                         <l>som fra oss tog Gud Faders vrede/ </l>
                         <l>met sin pine oc hellige Død/ </l>
                         <l>frelste hand oss fra Helffuedis nød. </l>
@@ -995,7 +986,7 @@
                         <ptr target="Je_1573_LN0981_020.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="3">G</c>Vd være loffuit altid oc benedidet/ </l>
+                        <l>GVd være loffuit altid oc benedidet/ </l>
                         <l>som oss selff haffuer bespiset/ </l>
                         <l>Met sit Legem oc met sit Blod/ </l>
                         <l>det <pb facs="0034R" n="21"/> giffue oss Herre gud til gode/ </l>
@@ -1010,9 +1001,7 @@
                     </lg>
                     <lg>
                         <head>2.</head>
-                        <l>
-                            <c function="initials" rend="2">D</c>Jt hellige Legem er for oss
-                            giffuit</l>
+                        <l> DJt hellige Legem er for oss giffuit</l>
                         <l>J døden/ at wi skulle leffue.</l>
                         <l>Jngen større gaffue kunde hand oss skencke/ </l>
                         <l>Der met wi hannem oc hans Død betencke.</l>
@@ -1032,8 +1021,7 @@
                     </lg>
                     <lg>
                         <head>3.</head>
-                        <l>
-                            <c function="initials" rend="3">G</c>Vd i alle gaffuer oss vil velsigne/ </l>
+                        <l> GVd i alle gaffuer oss vil velsigne/ </l>
                         <l>At wi paa hans vey skulle bliffue</l>
                         <l>J ret Kierlighed oc brøderlige tro.</l>
                         <l>At den Mad kommer oss icke til wro.</l>
@@ -1063,8 +1051,7 @@
                         <ptr target="Je_1573_LN0981_022.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">F</c>Orlæ oss met Fred naadelig/ </l>
+                        <l> FOrlæ oss met Fred naadelig/ </l>
                         <l>Herre Gud i vore tide/ </l>
                         <l>Der er dog ingen anden meer/ </l>
                         <l>som <pb facs="0036R" n="23"/> for oss kunde stride/ </l>
@@ -1096,7 +1083,7 @@
                         <ptr target="Je_1573_LN0981_023.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">B</c>Eholt oss Herre ved dit Ord/ </l>
+                        <l>BEholt oss Herre ved dit Ord/ </l>
                         <l>oc styr Paffuens oc Tyrckens mord/ </l>
                         <l>som Jesum Christ vor Frelser<pb rend="=" facs="0037L" n="24"/>mand/ </l>
                         <l>ville styrte fra din høyre haand. </l>
@@ -1146,8 +1133,7 @@
                         <ptr target="Je_1573_LN0981_025.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">P</c>Opulus Sion, </l>
+                        <l> POpulus Sion, </l>
                         <l>ecce Dominus veniet ad saluandas gentes, </l>
                         <l>et auditam faciet Dominus gloriam vocis suæ, </l>
                         <l>in lætitia <pb facs="0039L" n="26"/> cordis vestri. </l>
@@ -1176,7 +1162,7 @@
                         <ptr target="Je_1573_LN0981_027.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Lætatus sum in his quæ dicta sunt mihi, </l>
                         <l>in Domum Domini ibi<pb rend="=" facs="0041L" n="28"/>mus. </l>
                         <l>Haleluia. </l>
@@ -1195,7 +1181,7 @@
                         <ptr target="Je_1573_LN0981_028.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">G</c>Audete in Domino semper,</l>
+                        <l>GAudete in Domino semper,</l>
                         <l>iterum dico, gaudete, </l>
                         <l>modestia vestra nota <pb facs="0042R" n="29"/> sit omnibus hominibus. </l>
                         <l>Dominus prope est, </l>
@@ -1223,7 +1209,7 @@
                         <ptr target="Je_1573_LN0981_031.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Excita Domine potentiam tuam, </l>
                         <l>et veni, vt saluos facias nos. </l>
                         <l><pb facs="0045L" n="32"/>Haleluia. </l>
@@ -1241,8 +1227,7 @@
                         <ptr target="Je_1573_LN0981_032.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">M</c>Emento nostri Domine, </l>
+                        <l> MEmento nostri Domine, </l>
                         <l>in beneplacito populi tui, </l>
                         <l>visita nos in sa<pb rend="=" facs="0046R" n="33"/>lutari tuo, </l>
                         <l>ad videndum in bonitate electorum tuorum, </l>
@@ -1270,7 +1255,7 @@
                         <ptr target="Je_1573_LN0981_034.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l><pb facs="0048R" n="35"/>Veni Domine et noli tardare relaxa facinora
                             plebis tuæ. </l>
                         <l>Haleluia.</l>
@@ -1289,7 +1274,7 @@
                         <ptr target="Je_1573_LN0981_036.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">N</c>V er fød oss Jesus Christ/ </l>
+                        <l>NV er fød oss Jesus Christ/ </l>
                         <l>Aff en Jomfru det er vist/ </l>
                         <l>foruden Mands beblandelse/ </l>
                         <l>er hand oss kommen aff Høye<pb rend="=" facs="0050R" n="37"/>ste/ </l>
@@ -1336,7 +1321,7 @@
                         <ptr target="Je_1573_LN0981_037.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">P</c>Ver natus est nobis, </l>
+                        <l>PVer natus est nobis, </l>
                         <l><pb facs="0051L" n="38"/>et Filius datus est nobis, </l>
                         <l>cuius imperium super humerum eius, </l>
                         <l>et vocabitur nome<ex>n</ex> eius, </l>
@@ -1363,7 +1348,7 @@
                     </notatedMusic>
                     <lg>
                         <l><app>
-                                <lem><c function="initials" rend="2">K</c>yrieleison</lem>
+                                <lem>Kyrieleison</lem>
                                 <rdg wit="#orig"><note>rettet</note></rdg>
                             </app>.</l>
                         <l>Christe eleison. </l>
@@ -1380,7 +1365,7 @@
                         <ptr target="Je_1573_LN0981_041.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">G</c>Loria in excelsis Deo. </l>
+                        <l>GLoria in excelsis Deo. </l>
                         <l>Et in terra pax, hominibus bonæ voluntatis. </l>
                         <l>Laudamus te. </l>
                         <l>Benedicimus te. </l>
@@ -1407,7 +1392,7 @@
                         <ptr target="Je_1573_LN0981_044.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Di<pb facs="0058R" n="45"/>es sanctificatus illuxit nobis, </l>
                         <l>venite gentes, </l>
                         <l>et adorate Dominum, </l>
@@ -1420,26 +1405,23 @@
                         Herre</head>
                     <head>Sequentz.</head>
                     <lg>
-                        <l><c function="initials" rend="2">G</c>Rates nunc omnes reddamus Domino
-                            Deo, </l>
+                        <l>GRates nunc omnes reddamus Domino Deo, </l>
                         <l>qui sua natiuitate nos liberauit de diabolica potestate. </l>
                     </lg>
                     <lg>
                         <l>
-                            <pb facs="0060R" n="47"/><c function="initials" rend="2">N</c>V lader
-                            oss alle tacke Gud vor Herre/ </l>
+                            <pb facs="0060R" n="47"/>NV lader oss alle tacke Gud vor Herre/ </l>
                         <l>huilcken met sin Fødelse </l>
                         <l>oss haffuer forløst fra Dieffuelens mact/ </l>
                         <l>loffuer Herren. </l>
                     </lg>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Vic oportet vt canamus cum Angelis
-                            semper, </l>
+                        <l>HVic oportet vt canamus cum Angelis semper, </l>
                         <l>Gloria in excelsis. </l>
                     </lg>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Annem bør altid at wi siunge met
-                                Engle<pb rend="=" facs="0061L" n="48"/>ne/ </l>
+                        <l>HAnnem bør altid at wi siunge met Engle<pb rend="=" facs="0061L" n="48"
+                            />ne/ </l>
                         <l>Ære oc priss være Gud i det Høyeste. </l>
                     </lg>
                 </div>
@@ -1450,8 +1432,7 @@
                         <ptr target="Je_1573_LN0981_048.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">C</c>Redo in vnum Deum. </l>
+                        <l> CRedo in vnum Deum. </l>
                         <l>Patrem omnipotentem, </l>
                         <l>factorem Coeli et Terræ, </l>
                         <l>visibilium omnium et inuisibilium. </l>
@@ -1499,7 +1480,7 @@
                     </p>
 
                     <lg>
-                        <l><c function="initials" rend="3">J</c>T lidet Barn saa lysteligt/ </l>
+                        <l>JT lidet Barn saa lysteligt/ </l>
                         <l>Er fød for oss paa Jorden.</l>
                         <l>Aff en Jomfru reen oc hellig/ </l>
                         <l>Hand vilde vor Frelser vorde.</l>
@@ -1520,7 +1501,7 @@
                         <ptr target="Je_1573_LN0981_053.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">L</c>Offuit være du Jesu Christ/ </l>
+                        <l>LOffuit være du Jesu Christ/ </l>
                         <l><pb facs="0067L" n="54"/>At du Menniske vorden est/ </l>
                         <l>Fød aff en Jomfru reen oc klar/ </l>
                         <l>Thi glæder sig alle Engleskare/ </l>
@@ -1537,8 +1518,7 @@
                         <ptr target="Je_1573_LN0981_054.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">E</c>Ja recolamus laudibus piis, digna
-                            huius diei carmina,</l>
+                        <l>EJa recolamus laudibus piis, digna huius diei carmina,</l>
                         <l>in qua nobis <pb facs="0068R" n="55"/>lux oritur gratissima. </l>
                         <l>Noctis inter it nebula, pereunt nostrj criminis vmbracula. </l>
                         <l>Hodie seculo Virgo sancta est enixa nouæ salutis gaudia. </l>
@@ -1566,8 +1546,7 @@
                         <ptr target="Je_1573_LN0981_059.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">R</c>Esonet in laudibus, </l>
+                        <l> REsonet in laudibus, </l>
                         <l>cum iucundis plausibus, </l>
                         <l>Sion cum fidelibus. </l>
                         <l>Christus natus hodie, </l>
@@ -1597,8 +1576,7 @@
                         Noder.</p>
                     <p>Degnen</p>
                     <lg>
-                        <l>
-                            <c function="initials" rend="4">A</c>Ll den gantske Christenhed/ </l>
+                        <l> ALl den gantske Christenhed/ </l>
                         <l>Priser Guds Barmhiertighed/ </l>
                         <l>For hans store kierlighed/ </l>
                         <l>Det er nu skeet som spaad haffde Esaias.</l>
@@ -1685,7 +1663,7 @@
                         <ptr target="Je_1573_LN0981_062.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">D</c>Ominus vobiscum. </l>
+                        <l>DOminus vobiscum. </l>
                         <l>Et cum Spi<pb rend="=" facs="0076R" n="63"/>ritu tuo. </l>
                         <l>Sursum corda. </l>
                         <l>Habemus ad Dominum. </l>
@@ -1713,8 +1691,7 @@
                         <ptr target="Je_1573_LN0981_066.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">S</c>Anctus. </l>
+                        <l> SAnctus. </l>
                         <l>Sanctus. </l>
                         <l>Sanctus. </l>
                         <l>Dominus Deus Sa<pb rend="=" facs="0080R" n="67"/>baoth. </l>
@@ -1741,7 +1718,7 @@
                         <ptr target="Je_1573_LN0981_068.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">T</c>Jbi laus salus sit Christe,</l>
+                        <l>TJbi laus salus sit Christe,</l>
                         <l>benedictus sit dies iste.</l>
                         <l>Te laudamus nunc et perenniter.</l>
                     </lg>
@@ -1790,8 +1767,7 @@
                         <ptr target="Je_1573_LN0981_070.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">J</c>T Barn er fød i Bethlehem/ </l>
+                        <l> JT Barn er fød i Bethlehem/ </l>
                         <l>i <pb facs="0084R" n="71"/> Bethlehem/ </l>
                         <l>Thi glæder sig Jerusalem/ </l>
                         <l>Haleluia. </l>
@@ -1872,7 +1848,7 @@
                         <ptr target="Je_1573_LN0981_072.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="3">D</c>En signede dag er oss beteed/ </l>
+                        <l>DEn signede dag er oss beteed/ </l>
                         <l>Thi maa wi frilige quæde/ </l>
                         <l>Christ er fød det er nu skeed/ </l>
                         <l>Thi maa wi oss vel glæde/ </l>
@@ -1990,8 +1966,7 @@
                         <ptr target="Je_1573_LN0981_075.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>Tenim sederunt principes, </l>
+                        <l> ETenim sederunt principes, </l>
                         <l>et aduersum me loquebantur, </l>
                         <l>et iniqui persecu<pb rend="=" facs="0089L" n="76"/>ti sunt me. </l>
                         <l>Adiuua me Domine Deus meus. </l>
@@ -2010,8 +1985,7 @@
                         <ptr target="Je_1573_LN0981_077.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">K</c>Yrie/ Gud Fader aff <pb facs="0091L"
-                                n="78"/> Himmerig/ </l>
+                        <l>KYrie/ Gud Fader aff <pb facs="0091L" n="78"/> Himmerig/ </l>
                         <l>du sende oss din Søn til Jorderig/ </l>
                         <l>fordi du vilde være oss miskundelig. </l>
                         <l>Christe Guds Søn aff Himmerig/ </l>
@@ -2033,7 +2007,7 @@
                         <ptr target="Je_1573_LN0981_079.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Vi<pb rend="=" facs="0093L" n="80"/>deo Coelos apertos, et Jesum stantem
                             à dextris virtutis Dej. </l>
                         <l>Haleluia. </l>
@@ -2058,9 +2032,7 @@
                         <ptr target="Je_1573_LN0981_081.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Jg være loff oc priss/ O Herre
-                            Christ/ </l>
+                        <l> DJg være loff oc priss/ O Herre Christ/ </l>
                         <l>benedidet er den dag foruist/ </l>
                         <l>wi loffue dig nu oc til euig tid. </l>
                         <l>Hellig hellig hellig <pb facs="0095L" n="82"/> est du i det Høyeste </l>
@@ -2106,9 +2078,7 @@
                         <ptr target="Je_1573_LN0981_084.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">I</c>N medio ecclesiæ a<lb rend="="
-                            />peruit os eius, </l>
+                        <l> IN medio ecclesiæ a<lb rend="="/>peruit os eius, </l>
                         <l>et impleuit eum Dominus Spiritu sapientiæ et intellectus, </l>
                         <l>stolam gloriæ induit <pb facs="0098R" n="85"/> eum.</l>
                     </lg>
@@ -2133,8 +2103,7 @@
                         <ptr target="Je_1573_LN0981_086.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Hic est discipulus ille qui testimonium perhibet de his, </l>
                         <l>et scimus <pb facs="0100R" n="87"/> quia verum est testimonium eius. </l>
                         <l>Haleluia. </l>
@@ -2152,8 +2121,7 @@
                         <ptr target="Je_1573_LN0981_087.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">D</c>um medium silen<pb facs="0101L"
-                                n="88"/>tium teneret omnia, </l>
+                        <l>Dum medium silen<pb facs="0101L" n="88"/>tium teneret omnia, </l>
                         <l>et nox in suo cursu medium iter haberet,</l>
                         <l>omnipotens sermo tuus Domine de Coelis à regalibus sedibus venit.</l>
                     </lg>
@@ -2179,8 +2147,7 @@
                         <ptr target="Je_1573_LN0981_090.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia.</l>
+                        <l> HAleluia.</l>
                         <l>Dominus regnauit, decorem induit, induit Dominus fortitu<pb facs="0104R"
                                 n="91"/>dinem, et præcinxit se virtute. </l>
                         <l>Haleluia. </l>
@@ -2198,9 +2165,7 @@
                         <ptr target="Je_1573_LN0981_091.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>T postquam consummati sunt <pb
-                                facs="0105L" n="92"/>dies octo, </l>
+                        <l> ET postquam consummati sunt <pb facs="0105L" n="92"/>dies octo, </l>
                         <l>vt circumcideretur puer, </l>
                         <l>vocatum est nomen eius Jesus, </l>
                         <l>quod vocatum est ab Angelo, </l>
@@ -2233,9 +2198,7 @@
                         <ptr target="Je_1573_LN0981_094.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">V</c>Vltum tuum depreca<lb rend="="
-                            />buntur omnes diuites plebis, </l>
+                        <l> VVltum tuum depreca<lb rend="="/>buntur omnes diuites plebis, </l>
                         <l>adducentur Regi virgines post eam, </l>
                         <l>proximæ eius adducentur <pb facs="0108R" n="95"/> tibi in læticia et
                             exultatione.</l>
@@ -2261,8 +2224,7 @@
                         <ptr target="Je_1573_LN0981_096.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Diffusa est gratia in labiis tuis, prop<pb rend="=" facs="0110R" n="97"
                             />terea benedixit te Deus in æternum. </l>
                         <l>Haleluia. </l>
@@ -2280,9 +2242,8 @@
                         <ptr target="Je_1573_LN0981_097.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>Cce aduenit Do<pb rend="="
-                                facs="0111L" n="98"/>minator Dominus, et regnum in manu eius, </l>
+                        <l> ECce aduenit Do<pb rend="=" facs="0111L" n="98"/>minator Dominus, et
+                            regnum in manu eius, </l>
                         <l>et potestas et imperium.</l>
                     </lg>
                     <p><ref target="#sl-72">Psal: 72.<reg>Sl 72</reg></ref>
@@ -2305,7 +2266,7 @@
                         <ptr target="Je_1573_LN0981_099.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia.</l>
+                        <l>HAleluia.</l>
                         <l>Vidimus stellam eius in orien<pb facs="0113L" n="100"/>te, et venimus cum
                             muneribus adorare Dominum. </l>
                         <l>Haleluia. </l>
@@ -2325,7 +2286,7 @@
                         <ptr target="Je_1573_LN0981_101.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">I</c>N excelso throno vidi sedere virum, </l>
+                        <l>IN excelso throno vidi sedere virum, </l>
                         <l>quem adorat multitudo angelorum, </l>
                         <l>psallentes in vnum. </l>
                         <l>Ecce cuius <pb facs="0115L" n="102"/> imperij nomen est in æternum.</l>
@@ -2350,7 +2311,7 @@
                         <ptr target="Je_1573_LN0981_103.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Iubilate Deo omnis terra, </l>
                         <l>Seruite Domino in letitia.</l>
                         <l><pb facs="0117L" n="104"/>Haleluia. </l>
@@ -2368,10 +2329,8 @@
                         <ptr target="Je_1573_LN0981_104.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">O</c>Mnis terra adoret te Deus, et
-                            psallat tibi, psalmum dicat <pb facs="0118R" n="105"/>nomini tuo
-                            altissime.</l>
+                        <l> OMnis terra adoret te Deus, et psallat tibi, psalmum dicat <pb
+                                facs="0118R" n="105"/>nomini tuo altissime.</l>
                     </lg>
                     <p><ref target="#sl-65">Psalm: 65.<reg>Sl 65</reg></ref></p>
                     <notatedMusic>
@@ -2393,8 +2352,7 @@
                         <ptr target="Je_1573_LN0981_106.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Laudate Deum omnes Angelj eius, laudate e<pb facs="0120R" n="107"/>um
                             omnes virtutes eius. </l>
                         <l>Haleluia. </l>
@@ -2413,10 +2371,8 @@
                         <ptr target="Je_1573_LN0981_107.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">A</c>Dorate Deum <pb facs="0121L"
-                                n="108"/>omnes Angelj eius, audiuit et lætata est Sion, et
-                            exultauerunt Filiæ Iudæ.</l>
+                        <l> ADorate Deum <pb facs="0121L" n="108"/>omnes Angelj eius, audiuit et
+                            lætata est Sion, et exultauerunt Filiæ Iudæ.</l>
                     </lg>
                     <p>
                         <ref target="#sl-97">Psalm: 97.<reg>Sl 97</reg></ref>
@@ -2440,7 +2396,7 @@
                         <ptr target="Je_1573_LN0981_109.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Dominus regnauit, exul<pb facs="0123L" n="110"/>tet terra, lætentur
                             insulæ multæ. </l>
                         <l>Haleluia. </l>
@@ -2458,8 +2414,7 @@
                         <ptr target="Je_1573_LN0981_110.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">O</c> Jesu Christ som Mandom tog/ </l>
+                        <l> O Jesu Christ som Mandom tog/ </l>
                         <l>i <pb facs="0124R" n="111"/> rene Jomfru liffue/ </l>
                         <l>Stor kierlighed dig der til drog/ </l>
                         <l>vort haab saa vilde du bliffue/ </l>
@@ -2534,9 +2489,7 @@
                         <ptr target="Je_1573_LN0981_112.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. <pb facs="0126R" n="113"
-                            /></l>
+                        <l> HAleluia. <pb facs="0126R" n="113"/></l>
                         <l>Loffuer Gud i Hedninger alle/ </l>
                         <l>at hand vilde eder til Troen kalde/ </l>
                         <l>Aff sin godhed oc gunstig naade/ </l>
@@ -2565,8 +2518,7 @@
                         <ptr target="Je_1573_LN0981_114.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">A</c>F Adams fald er plat fordærffd/ </l>
+                        <l> AF Adams fald er plat fordærffd/ </l>
                         <l>all vor natur oc sinde/ </l>
                         <l>Den Synds forgifft er paa oss ærffd/ </l>
                         <l>at wi maa plat forsuinde/ </l>
@@ -2678,8 +2630,7 @@
                         <ptr target="Je_1573_LN0981_117.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">M</c>Et glæde oc fred far ieg nu hen/ </l>
+                        <l> MEt glæde oc fred far ieg nu hen/ </l>
                         <l>alt effter Guds villie/ </l>
                         <l>met it frit mod fra denne Verden</l>
                         <l>vil ieg nu skillies/ </l>
@@ -2729,8 +2680,7 @@
                         <ptr target="Je_1573_LN0981_119.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">J</c>Erusalem du hellige Stad/ </l>
+                        <l> JErusalem du hellige Stad/ </l>
                         <l>loffue Herren alle dage/ </l>
                         <l>At hand dine porte saa haffuer tilslutet/ </l>
                         <l>at ingen giør dig wmage/ </l>
@@ -2781,9 +2731,7 @@
                         <ptr target="Je_1573_LN0981_120.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">H</c>Aleluia det bør oss altid
-                            siunge.</l>
+                        <l> HAleluia det bør oss altid siunge.</l>
                         <l>Herren loffue oc prise aff hiertens grunde. </l>
                         <l>Thi hans miskund haffuer vore Synder alle vdslet/ </l>
                         <l><pb facs="0134R" n="121"/> all kierlighed oc gaat haffuer hand oss
@@ -2791,24 +2739,19 @@
                     </lg>
 
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">A</c>Lt det som Liff haffuer det skal
-                            Gud loffue/ </l>
+                        <l> ALt det som Liff haffuer det skal Gud loffue/ </l>
                         <l>For hans megne miskund oc store naade:</l>
                         <l>Hand haffuer oss giffuit venskab/ styrcke/ Liff oc krafft/ </l>
                         <l>Hand haffuer fordærffuit Synd Død oc all Dieffuelens mact.</l>
                     </lg>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">G</c>Vd haffuer dem som tro paa hannem
-                            jet naade/ </l>
+                        <l> GVd haffuer dem som tro paa hannem jet naade/ </l>
                         <l>Vil dem hielpe oc trøste i alle vaade:</l>
                         <l>Himmerigis Rige vil hand dem alle giffue/ </l>
                         <l>Det holder hand vist/ thi hand kand icke liuffue.</l>
                     </lg>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">O</c>Gud Fader/ dig være loff oc ære/ </l>
+                        <l> OGud Fader/ dig være loff oc ære/ </l>
                         <l>Met din Søn Jesu Christ vor Frelser kiere/ </l>
                         <l>Disligest den hellig Aand aff oss allesammen/ </l>
                         <l>Wi tacke dig nu oc euindelig/ Amen.</l>
@@ -2840,8 +2783,7 @@
                         <ptr target="Je_1573_LN0981_122.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">C</c>Jrcumdederunt me gemitus mortis, </l>
+                        <l> CJrcumdederunt me gemitus mortis, </l>
                         <l>dolores inferni circumdederunt me, </l>
                         <l>et in tribulatione mea in<pb facs="0136R" n="123"/>uocaui Dominum, </l>
                         <l>et exaudiuit de Templo sancto suo vocem meam.</l>
@@ -2873,8 +2815,7 @@
                         <ptr target="Je_1573_LN0981_124.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>De pro<pb facs="0138R" n="125"/>fundis clamaui ad te Domine, Domine
                             exaudi vocem meam. </l>
                         <l>Fiant aures tuæ intendentes in orati<pb facs="0139L" n="126"/>onem serui
@@ -2899,8 +2840,7 @@
                         <ptr target="Je_1573_LN0981_126.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>Xurge, </l>
+                        <l> EXurge, </l>
                         <l>quare obdor<pb facs="0140R" n="127"/>mis Domine? </l>
                         <l>exurge, </l>
                         <l>et ne repellas in finem. </l>
@@ -2937,8 +2877,7 @@
                         <ptr target="Je_1573_LN0981_129.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">C</c>Hristus kom selff til Jordans flod/ </l>
+                        <l> CHristus kom selff til Jordans flod/ </l>
                         <l>effter sin Faders villie/ </l>
                         <l>Oc aff Sanct Hans sig døbe loed/ </l>
                         <l>sit Embede at opfylde/ </l>
@@ -3030,8 +2969,7 @@
                         <ptr target="Je_1573_LN0981_132.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>Sto mihi in Deum protectorem, </l>
+                        <l> ESto mihi in Deum protectorem, </l>
                         <l>et in locum refugij, </l>
                         <l>vt saluu<ex>m</ex> me facias: </l>
                         <l>quoniam firmame<ex>n</ex>tum meum, </l>
@@ -3066,8 +3004,7 @@
                         <ptr target="Je_1573_LN0981_134.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">A</c>F dybsens nød raaber ieg til dig/ </l>
+                        <l> AF dybsens nød raaber ieg til dig/ </l>
                         <l>Herre Gud vilt du mig høre/ </l>
                         <l>Din naadsens Øern vent du til mig/ </l>
                         <l>min røst ieg nu framfører/ </l>
@@ -3136,8 +3073,7 @@
                         <ptr target="Je_1573_LN0981_136.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">I</c>Nuocauit me, </l>
+                        <l> INuocauit me, </l>
                         <l>et ego exaudiam eum, </l>
                         <l>eripiam eum, </l>
                         <l>et glorificabo eum, </l>
@@ -3165,8 +3101,7 @@
                         <ptr target="Je_1573_LN0981_138.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                     </lg>
                     <p>Chorus.</p>
                     <notatedMusic>
@@ -3210,8 +3145,7 @@
                         <ptr target="Je_1573_LN0981_142.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><pb facs="0155L" n="142"/>
-                            <c function="initials" rend="2">W</c>J arme Adams børn alle </l>
+                        <l><pb facs="0155L" n="142"/> WJ arme Adams børn alle </l>
                         <l>wi ere saa dybt i Synden faldne/ </l>
                         <l>Thi ville wi alle Gud paakalle. </l>
                     </lg>
@@ -3255,7 +3189,7 @@
                         <ptr target="Je_1573_LN0981_144.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="3">G</c>Vd Fader oc Søn oc Hellig Aand/ </l>
+                        <l>GVd Fader oc Søn oc Hellig Aand/ </l>
                         <l>hannem bør oss prise oc ære/ </l>
                         <l>Hand giør miskund i alle Land/ </l>
                         <l>som wi maa daglige lære/ </l>
@@ -3411,8 +3345,7 @@
                         <ptr target="Je_1573_LN0981_148.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><pb facs="0161L" n="148"/><c function="initials" rend="3">J</c>Esu Christ
-                            dig tacke wi/ </l>
+                        <l><pb facs="0161L" n="148"/>JEsu Christ dig tacke wi/ </l>
                         <l>du loedst oss icke fortabis/ </l>
                         <l>Fra vor Synd giorde du oss fri/ </l>
                         <l>du vilde selff for oss plagis/ </l>
@@ -3481,9 +3414,7 @@
                         <ptr target="Je_1573_LN0981_150.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">R</c>Eminiscere miserationum tuarum
-                            Domine, </l>
+                        <l> REminiscere miserationum tuarum Domine, </l>
                         <l>et misericordiæ tuæ, </l>
                         <l>quæ à <pb facs="0164R" n="151"/>seculo sunt: </l>
                         <l>ne vnquam dominentur nobis inimici nostri, </l>
@@ -3515,8 +3446,7 @@
                         <ptr target="Je_1573_LN0981_153.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">O</c>Culi mei semper ad Dominum, </l>
+                        <l> OCuli mei semper ad Dominum, </l>
                         <l>quia ipse euellet de laqueo pedes meos. </l>
                         <l>Respice in me, </l>
                         <l>et miserere mei: </l>
@@ -3540,8 +3470,7 @@
                         <ptr target="Je_1573_LN0981_155.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">L</c>Ætare Jerusalem, </l>
+                        <l> LÆtare Jerusalem, </l>
                         <l>et conuentum facite omnes <pb facs="0169L" n="156"/>qui diligitis eam. </l>
                         <l>Gaudete cum lætitia, </l>
                         <l>qui in tristitia fuistis, </l>
@@ -3577,8 +3506,7 @@
                         <ptr target="Je_1573_LN0981_158.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">R</c>Orate Coeli desuper, </l>
+                        <l> ROrate Coeli desuper, </l>
                         <l>et nubes pluant iustum: </l>
                         <l>aperiatur terra, </l>
                         <l>et germinet saluatorem.</l>
@@ -3610,8 +3538,7 @@
                         <ptr target="Je_1573_LN0981_160.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Angelus Domini nuntiauit Mariæ, et concepit de Sancto Spiritu, et peperit
                                 saluato<pb facs="0174R" n="161"/>rem.</l>
                         <l>Haleluia. </l>
@@ -3637,8 +3564,7 @@
                         <ptr target="Je_1573_LN0981_161.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">I</c>Vdica me Deus, </l>
+                        <l> IVdica me Deus, </l>
                         <l><pb facs="0175L" n="162"/>et discerne causam meam de gente non sancta, </l>
                         <l>ab homine iniquo et doloso eripe me. </l>
                         <l>Quia tu es Deus meus, </l>
@@ -3670,9 +3596,7 @@
                         <ptr target="Je_1573_LN0981_164.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Omine ne longè facias auxilium tuum
-                            à me, </l>
+                        <l> DOmine ne longè facias auxilium tuum à me, </l>
                         <l>ad defensionem meam aspice, </l>
                         <l>libera me de ore leonis, </l>
                         <l>et <pb facs="0178R" n="165"/>à cornibus vnicornium humilitatem meam.</l>
@@ -3705,9 +3629,8 @@
                         <ptr target="Je_1573_LN0981_166.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">N</c>Os autem gloriari oportet in cruce
-                            Domini <pb facs="0180R" n="167"/>nostri Jesu Christi,</l>
+                        <l> NOs autem gloriari oportet in cruce Domini <pb facs="0180R" n="167"
+                            />nostri Jesu Christi,</l>
                         <l>in quo est salus vita et resurrectio nostra, </l>
                         <l>per quem saluati et liberati sumus.</l>
                     </lg>
@@ -3745,9 +3668,7 @@
                         <ptr target="Je_1573_LN0981_169.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Jscubuit Jesus et Discipuli eius
-                            cum eo, et ait. </l>
+                        <l> DJscubuit Jesus et Discipuli eius cum eo, et ait. </l>
                         <l>Desiderio desideraui hoc pascha manducare vobiscum antequam patiar. </l>
                         <l>Et accepto pane <pb facs="0183L" n="170"/>gratias agens fregit, et dedit
                             illis, dicens. </l>
@@ -3800,8 +3721,7 @@
                         <ptr target="Je_1573_LN0981_172.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">H</c>Jelp Gud at ieg nu kunde/ </l>
+                        <l> HJelp Gud at ieg nu kunde/ </l>
                         <l>Du edele skaber min/ </l>
                         <l>Prise dig aff hiertens grunde/ </l>
                         <l>Guddo<ex>m</ex>melig <pb facs="0186R" n="173"/> ære din. </l>
@@ -3942,8 +3862,7 @@
                         <ptr target="Je_1573_LN0981_176.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">O</c> Gud vor Fader i euighed/ </l>
+                        <l> O Gud vor Fader i euighed/ </l>
                         <l>vden all begyndels oc ende/ </l>
                         <l>Jeg tror paa dig oc visselig ved/ </l>
                         <l>som scrifften giffuer til kiende/ </l>
@@ -4246,8 +4165,7 @@
                     </notatedMusic>
                     <lg>
                         <l>
-                            <pb facs="0196R" n="183"/><c function="initials" rend="2">J</c>Esus
-                            oppaa Kaarssit stod/ </l>
+                            <pb facs="0196R" n="183"/>JEsus oppaa Kaarssit stod/ </l>
                         <l>oc hannem forløb hans hellig Blod/ </l>
                         <l>hans Saar giorde hannem stor pine/ </l>
                         <l>siu Ord hand taled i samme stund/ </l>
@@ -4355,9 +4273,7 @@
                         <ptr target="Je_1573_LN0981_185.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Et hellige Kaarss vor Herre selff
-                            bar/ </l>
+                        <l> DEt hellige Kaarss vor Herre selff bar/ </l>
                         <l>met blodige vunder oc dødelig <pb facs="0199L" n="186"/> Saar/ </l>
                         <l>for oss hand plict oc bod fuldgiorde/ </l>
                         <l>at wi skuld oss der til forlade/ </l>
@@ -4409,8 +4325,7 @@
                         <ptr target="Je_1573_LN0981_187.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">J</c>Esus Christ vor Frelsermand/ </l>
+                        <l> JEsus Christ vor Frelsermand/ </l>
                         <l>den som Døden offueruand/ </l>
                         <l>hand er opstanden/ </l>
                         <l><pb facs="0201L" n="188"/>Synden haffuer hand fangen. </l>
@@ -4441,9 +4356,7 @@
                         <ptr target="Je_1573_LN0981_188.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">R</c>Esurrexi et ad<pb rend="="
-                                facs="0202R" n="189"/>huc tecum sum, </l>
+                        <l> REsurrexi et ad<pb rend="=" facs="0202R" n="189"/>huc tecum sum, </l>
                         <l>Haleluia. </l>
                         <l>Posuisti super me manum tuam, </l>
                         <l>Haleluia. </l>
@@ -4473,7 +4386,7 @@
                     </notatedMusic>
                     <lg>
                         <l><app>
-                                <lem><c function="initials" rend="2">K</c>yrieleison</lem>
+                                <lem>Kyrieleison</lem>
                                 <rdg wit="#orig"><note>rettet</note></rdg>
                             </app>. </l>
                         <l><app>
@@ -4494,9 +4407,7 @@
                         <ptr target="Je_1573_LN0981_191_b.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">G</c>Loria in excelsis <pb facs="0205L"
-                                n="192"/>Deo. </l>
+                        <l> GLoria in excelsis <pb facs="0205L" n="192"/>Deo. </l>
                         <l>Et in terra pax hominibus bonæ voluntatis. </l>
                         <l>Laudamus te. </l>
                         <l>Benedicimus te. </l>
@@ -4524,8 +4435,7 @@
                         <ptr target="Je_1573_LN0981_195.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Pascha nostrum immolatus est Christus. </l>
                         <l>Epulemur in a<pb facs="0209L" n="196"/>zymis synceritatis et veritatis. </l>
                         <l>Haleluia. </l>
@@ -4538,9 +4448,7 @@
                         <ptr target="Je_1573_LN0981_196.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">V</c>Jctimæ paschali laudes immolant
-                            Christiani.</l>
+                        <l> VJctimæ paschali laudes immolant Christiani.</l>
                     </lg>
                     <p>Christ stod op aff Døde <ex>etc</ex>. vt infra.</p>
                     <notatedMusic>
@@ -4597,8 +4505,7 @@
                         <ptr target="Je_1573_LN0981_199.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">C</c>Hrist stod op aff Døde/ </l>
+                        <l> CHrist stod op aff Døde/ </l>
                         <l>oc frelste oss alle aff nøde/ </l>
                         <l>Thi ville wi alle være glad/ </l>
                         <l>oc loffue vor Herre i allen stad/ </l>
@@ -4615,9 +4522,7 @@
                         <ptr target="Je_1573_LN0981_200.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">M</c>Ane prima sabbathi surgens Dei
-                            Filius, nostra spes et gloria. </l>
+                        <l> MAne prima sabbathi surgens Dei Filius, nostra spes et gloria. </l>
                         <l>Victo rege sceleris, redijt ab inferis, cum summa victoria. </l>
                         <l>Cuius resurrectio, omni plena gaudio, consolatur omnia. </l>
                         <l>Resurgentis itaque <pb facs="0214R" n="201"/> Maria Magdalena facta est
@@ -4654,8 +4559,7 @@
                         <ptr target="Je_1573_LN0981_205.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">C</c>Hrist laa i Dødsens baande/ </l>
+                        <l> CHrist laa i Dødsens baande/ </l>
                         <l>for vore Synder giffuen.</l>
                         <l>Hand er igen opstanden/ </l>
                         <l>bar oss det euige leffnet. </l>
@@ -4770,8 +4674,7 @@
                         <ptr target="Je_1573_LN0981_208.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">V</c>Erè dignum et iustum est, </l>
+                        <l> VErè dignum et iustum est, </l>
                         <l>æquum et salutare: </l>
                         <l>Te quidem Domine omni tempore, </l>
                         <l>sed in hoc potissimum die, </l>
@@ -4802,9 +4705,7 @@
                         <ptr target="Je_1573_LN0981_210.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>rens Konning/ O Chri<pb
-                                facs="0224R" n="211"/>ste/ Haleluia. </l>
+                        <l> Erens Konning/ O Chri<pb facs="0224R" n="211"/>ste/ Haleluia. </l>
                     </lg>
                     <lg>
                         <l>O Fader vdi Himmelen/ </l>
@@ -4883,9 +4784,7 @@
                         <ptr target="Je_1573_LN0981_215.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">K</c>yrie Gud Fader forbarme dig <pb
-                                facs="0229L" n="216"/>offuer oss. </l>
+                        <l> Kyrie Gud Fader forbarme dig <pb facs="0229L" n="216"/>offuer oss. </l>
                         <l>Christe du est vort Liff oc Opstandelse/ </l>
                         <l>forbarme dig offuer oss. </l>
                         <l>Kyrie Hellig Aand/ </l>
@@ -4906,8 +4805,7 @@
                     </notatedMusic>
                     <lg>
                         <l>
-                            <pb facs="0230R" n="217"/><c function="initials" rend="2">C</c>Hristus
-                            Jesus for oss offrit/ </l>
+                            <pb facs="0230R" n="217"/>CHristus Jesus for oss offrit/ </l>
                         <l>den loffue wi alle Christne. </l>
                     </lg>
                     <p>Christ stod op aff Døde <ex>etc</ex>.</p>
@@ -5002,9 +4900,7 @@
                         <ptr target="Je_1573_LN0981_220.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">Q</c>Vasi modo geniti infantes,
-                            Haleluia. </l>
+                        <l> QVasi modo geniti infantes, Haleluia. </l>
                         <l>Rationabiles sine dolo lac concupi<pb rend="=" facs="0234R" n="221"
                             />scite,</l>
                         <l>Haleluia, Haleluia, Haleluia.</l>
@@ -5031,8 +4927,7 @@
                         <ptr target="Je_1573_LN0981_222.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Angelus Domini descendit de coelo, </l>
                         <l>et accedens reuoluit lapidem, </l>
                         <l><pb facs="0236R" n="223"/> et sedebat super eum, </l>
@@ -5057,8 +4952,7 @@
                         <ptr target="Je_1573_LN0981_224.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">M</c>Jsericordia Domini plena est terra, </l>
+                        <l> MJsericordia Domini plena est terra, </l>
                         <l>Haleluia. </l>
                         <l>Verbo Dei Coeli firmati sunt, </l>
                         <l>Haleluia, Haleluia.</l>
@@ -5087,8 +4981,7 @@
                         <ptr target="Je_1573_LN0981_226.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Surrexit Pastor bonus, qui posuit animam suam pro ouibus suis, <pb
                                 facs="0240R" n="227"/> et pro suo grege mori dignatus est. </l>
                         <l>Haleluia. </l>
@@ -5107,9 +5000,7 @@
                         <ptr target="Je_1573_LN0981_227.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">I</c>ubilate Deo omnis ter<pb
-                                facs="0241L" n="228"/>ra, </l>
+                        <l> Iubilate Deo omnis ter<pb facs="0241L" n="228"/>ra, </l>
                         <l>Haleluia. </l>
                         <l>Psalmum dicite nomini eius, </l>
                         <l>Haleluia. </l>
@@ -5142,8 +5033,7 @@
                         <ptr target="Je_1573_LN0981_230.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Surgens Jesus Dominus noster, </l>
                         <l>stans in medio discipulorum suorum, </l>
                         <l>dixit <pb facs="0244R" n="231"/> eis. </l>
@@ -5164,8 +5054,7 @@
                         <ptr target="Je_1573_LN0981_231.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">C</c>Antate Domino canticum nouum. </l>
+                        <l> CAntate Domino canticum nouum. </l>
                         <l>Haleluia. </l>
                         <l>Quia <pb facs="0245L" n="232"/> mirabilia fecit Dominus. </l>
                         <l>Haleluia. </l>
@@ -5200,9 +5089,7 @@
                         <ptr target="Je_1573_LN0981_233.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">V</c>Ocem iucunditatis <pb facs="0247L"
-                                n="234"/> annunciate, </l>
+                        <l> VOcem iucunditatis <pb facs="0247L" n="234"/> annunciate, </l>
                         <l>et audiatur, </l>
                         <l>Haleluia. </l>
                         <l>Nunciate vsque ad extremum terræ, </l>
@@ -5231,8 +5118,7 @@
                         <ptr target="Je_1573_LN0981_236.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Surrexit Christus, et illuxit populo suo, quem redemit sanguine suo. </l>
                         <l><pb facs="0250R" n="237"/> Haleluia. </l>
                     </lg>
@@ -5250,8 +5136,7 @@
                         <ptr target="Je_1573_LN0981_237.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">V</c>Jri Galilæi, </l>
+                        <l> VJri Galilæi, </l>
                         <l>quid admiramini, </l>
                         <l>aspicientes in Coelum? </l>
                         <l>Haleluia. </l>
@@ -5280,10 +5165,8 @@
                         <ptr target="Je_1573_LN0981_239.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. Ascendit Deus in
-                                iubilati<pb rend="=" facs="0253L" n="240"/>one, et Dominus in voce
-                            tubæ. </l>
+                        <l> HAleluia. Ascendit Deus in iubilati<pb rend="=" facs="0253L" n="240"
+                            />one, et Dominus in voce tubæ. </l>
                         <l>Haleluia. </l>
                     </lg>
                     <p>All den anden Sang/ som paa anden Paaske dag. </p>
@@ -5300,9 +5183,7 @@
                         <ptr target="Je_1573_LN0981_240.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>Xaudi Domine <pb facs="0254R"
-                                n="241"/> vocem meam, </l>
+                        <l> EXaudi Domine <pb facs="0254R" n="241"/> vocem meam, </l>
                         <l>qua clamaui ad te. </l>
                         <l>Haleluia. </l>
                         <l>Tibi dixit cor meum, </l>
@@ -5336,8 +5217,7 @@
                         <ptr target="Je_1573_LN0981_243.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Ascendens Christus in altum, </l>
                         <l>captiuam duxit captiuitatem, </l>
                         <l>dedit dona homi<pb facs="0257L" n="244"/>nibus. </l>
@@ -5356,8 +5236,7 @@
                         <ptr target="Je_1573_LN0981_244.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">V</c>Eni sancte Spiritus, </l>
+                        <l> VEni sancte Spiritus, </l>
                         <l>reple tuorum corda fidelium, </l>
                         <l>et tui amo<pb rend="=" facs="0258R" n="245"/>ris in eis ignem accende, </l>
                         <l>qui per diuersitatem linguaru<ex>m</ex> cunctaru<ex>m</ex> gentes </l>
@@ -5374,9 +5253,7 @@
                         <ptr target="Je_1573_LN0981_245.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">S</c>Piritus Domini <pb facs="0259L"
-                                n="246"/> repleuit orbem terrarum,</l>
+                        <l> SPiritus Domini <pb facs="0259L" n="246"/> repleuit orbem terrarum,</l>
                         <l>Haleluia: </l>
                         <l>et hoc quod continet omnia, </l>
                         <l>scientiam habet vocis. </l>
@@ -5405,8 +5282,7 @@
                         <ptr target="Je_1573_LN0981_248.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">K</c>Yrie, </l>
+                        <l> KYrie, </l>
                         <l>fons bonitatis Pater ingenite, </l>
                         <l>à quo bona cuncta procedunt, </l>
                         <l>eleison. </l>
@@ -5429,9 +5305,7 @@
                         <ptr target="Je_1573_LN0981_249.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">G</c>Loria in excelsis <pb facs="0263L"
-                                n="250"/> Deo. </l>
+                        <l> GLoria in excelsis <pb facs="0263L" n="250"/> Deo. </l>
                         <l>Et in terra pax hominibus </l>
                         <l>bonæ voluntatis. </l>
                         <l>Laudamus te. </l>
@@ -5462,8 +5336,7 @@
                         <ptr target="Je_1573_LN0981_253.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Veni sancte Spiritus, </l>
                         <l>reple tuorum corda fide<pb rend="=" facs="0267L" n="254"/>lium, </l>
                         <l>et tui amoris in eis ignem accende. </l>
@@ -5478,8 +5351,7 @@
                         <ptr target="Je_1573_LN0981_254.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">V</c>Eni sancte Spiritus, et emitte
-                            coelitus lucis tuæ radium. </l>
+                        <l>VEni sancte Spiritus, et emitte coelitus lucis tuæ radium. </l>
                         <l>Veni <pb facs="0268R" n="255"/> Pater pauperum, veni dator munerum, veni
                             lumen cordium. </l>
                         <l>Consolator optime, dulcis hospes animæ, dulce refrigerium. </l>
@@ -5506,7 +5378,7 @@
                         <ptr target="Je_1573_LN0981_257.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">S</c>Ancti spiritus adsit nobis gratia. </l>
+                        <l>SAncti spiritus adsit nobis gratia. </l>
                         <l><pb facs="0271L" n="258"/> Quæ corda nostra sibi faciat habitacula. </l>
                         <l>Expulsis inde cunctis vitijs spiritalibus. </l>
                         <l>Spiritus alme illustrator hominum. </l>
@@ -5552,8 +5424,7 @@
                         <ptr target="Je_1573_LN0981_263.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">K</c>Om hellig Aand O Herre Gud/ </l>
+                        <l> KOm hellig Aand O Herre Gud/ </l>
                         <l>opfyld met din Naade oc miskund/ </l>
                         <l>Dine Christnes hierte hu oc sind/ </l>
                         <l>din brendendis kierlighed i dem optend/ </l>
@@ -5627,8 +5498,7 @@
                         <ptr target="Je_1573_LN0981_265.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">A</c>Eterne Deus. </l>
+                        <l> AEterne Deus. </l>
                         <l>Per Christum Dominum nostrum. </l>
                         <l>Qui ascendens super omnes coelos, </l>
                         <l>sedensque ad dexteram tuam, promissum Spiritum sanctum, </l>
@@ -5652,8 +5522,7 @@
                         <ptr target="Je_1573_LN0981_267.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">K</c>Om Gud skaber O Hellig Aand/ </l>
+                        <l> KOm Gud skaber O Hellig Aand/ </l>
                         <l>besøg vort hierte met din miskund/ </l>
                         <l>met din naade forny vor sind/ </l>
                         <l>At wi kunde kiende skabning din. </l>
@@ -5731,8 +5600,7 @@
                         <ptr target="Je_1573_LN0981_269.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">K</c>Om O Herre hellig Aand </l>
+                        <l> KOm O Herre hellig Aand </l>
                         <l>opfyld din Christnes hierte met ret forstand/ </l>
                         <l>Oc din brendendis kierlighed i dennem optend/ </l>
                         <l>du som atskillige tungemaal sender/ </l>
@@ -5751,9 +5619,7 @@
                         <ptr target="Je_1573_LN0981_270.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">K</c>Yrie/ Gud Fader allsom hø<lb
-                                rend="="/>yeste trøst/ </l>
+                        <l> KYrie/ Gud Fader allsom hø<lb rend="="/>yeste trøst/ </l>
                         <l>du est vor glæde oc lyst/ </l>
                         <l>spar oss ælende/ </l>
                         <l>beuar oss fra Synd/ </l>
@@ -5810,8 +5676,7 @@
                         <ptr target="Je_1573_LN0981_273.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">G</c>Vd Fader bliff du nu met oss/ </l>
+                        <l> GVd Fader bliff du nu met oss/ </l>
                         <l>oc lad oss icke fordærffuis/ </l>
                         <l>Giør oss aff alle vor synder fri/ </l>
                         <l>den stund wi heden skulle fare. </l>
@@ -5851,8 +5716,7 @@
                         <ptr target="Je_1573_LN0981_274.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">B</c>Enedicta sit sancta Trinitas, </l>
+                        <l> BEnedicta sit sancta Trinitas, </l>
                         <l>atque indiuisa <pb facs="0288R" n="275"/> vnitas, </l>
                         <l>confitebimur ei. </l>
                         <l>Quia fecit nobiscum misericordiam suam. </l>
@@ -5871,8 +5735,7 @@
                         <ptr target="Je_1573_LN0981_276.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Benedictus es Domine Deus Patrum nostrorum, </l>
                         <l>et laudabilis in secula. </l>
                         <l>Haleluia. </l>
@@ -5885,9 +5748,7 @@
                         <ptr target="Je_1573_LN0981_277.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">B</c>Enedicta semper sancta sit
-                            trinitas, </l>
+                        <l> BEnedicta semper sancta sit trinitas, </l>
                         <l>deitas scilicet vnitas coequalis gloria. </l>
                         <l>Pater, Filius, sanctus Spiritus, </l>
                         <l>tria sunt nomina, </l>
@@ -5940,8 +5801,7 @@
                         <ptr target="Je_1573_LN0981_282.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">A</c>Eterne Deus, </l>
+                        <l> AEterne Deus, </l>
                         <l>qui cum vnigenito Filio tuo, </l>
                         <l>et Spiritu sancto, </l>
                         <l>vnus es Deus, </l>
@@ -5985,9 +5845,7 @@
                         <ptr target="Je_1573_LN0981_286.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Omine in tua mi<lb rend="="
-                            />sericordia speraui, </l>
+                        <l> DOmine in tua mi<lb rend="="/>sericordia speraui, </l>
                         <l>exultauit cor meum in salutari tu<pb rend="=" facs="0300R" n="287"/>o: </l>
                         <l>cantabo Domino, </l>
                         <l>qui bona tribuit mihi.</l>
@@ -6019,8 +5877,7 @@
                         <ptr target="Je_1573_LN0981_288.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Domine Deus <pb facs="0302R" n="289"/> meus, </l>
                         <l>in te speraui, </l>
                         <l>saluum me fac, </l>
@@ -6169,9 +6026,7 @@
                         <ptr target="Je_1573_LN0981_293.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">F</c>Actus est Dominus pro<lb rend="="
-                            />tector meus, </l>
+                        <l> FActus est Dominus pro<lb rend="="/>tector meus, </l>
                         <l>et eduxit me in latitudinem, </l>
                         <l>saluu<ex>m</ex> me fecit, </l>
                         <l>quoniam vo<pb facs="0307L" n="294"/>luit me. </l>
@@ -6190,8 +6045,7 @@
                         <ptr target="Je_1573_LN0981_295.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Deus iudex iustus, </l>
                         <l>fortis et paciens, </l>
                         <l>numquid irascetur per singulos <pb facs="0309L" n="296"/> dies? </l>
@@ -6211,9 +6065,7 @@
                         <ptr target="Je_1573_LN0981_296.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">R</c>Espice in me et mise<lb rend="="
-                            />rere mei Domine, </l>
+                        <l> REspice in me et mise<lb rend="="/>rere mei Domine, </l>
                         <l>quoniam vnicus et pauper sum e<pb rend="=" facs="0310R" n="297"/>go. </l>
                         <l>Vide humilitatem meam, </l>
                         <l>et laborem meum, </l>
@@ -6234,9 +6086,7 @@
                         <ptr target="Je_1573_LN0981_298.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. <pb facs="0312R" n="299"
-                            /></l>
+                        <l> HAleluia. <pb facs="0312R" n="299"/></l>
                         <l>Diligam te Domine virtus mea, </l>
                         <l>Dominus firmamentum meum, </l>
                         <l>et refugium meum. </l>
@@ -6257,8 +6107,7 @@
                         <ptr target="Je_1573_LN0981_300.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Ominus illuminatio mea, </l>
+                        <l> DOminus illuminatio mea, </l>
                         <l>et salus mea, </l>
                         <l>quem timebo? </l>
                         <l>Dominus defensor vitæ meæ, </l>
@@ -6280,8 +6129,7 @@
                         <ptr target="Je_1573_LN0981_302.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Domine in virtute tua læta<pb rend="=" facs="0316R" n="303"/>bitur rex, </l>
                         <l>et super salutare tuum, </l>
                         <l>exultabit vehementer. </l>
@@ -6299,8 +6147,7 @@
                         <ptr target="Je_1573_LN0981_304.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">O</c> Gud aff Himmelen see her til/ </l>
+                        <l> O Gud aff Himmelen see her til/ </l>
                         <l>oc lad dig det forbarme/ </l>
                         <l>Gantske faa da ere dine tienere til/ </l>
                         <l>besuigne ere wi arme/ </l>
@@ -6381,9 +6228,7 @@
                         <ptr target="Je_1573_LN0981_306.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>E ventre matris meæ vocauit me
-                            Dominus nomine meo, </l>
+                        <l> DE ventre matris meæ vocauit me Dominus nomine meo, </l>
                         <l>et posuit os meum vt gladium acu<pb rend="=" facs="0320R" n="307"/>tum, </l>
                         <l>sub tegumento manus suæ protexit me, </l>
                         <l>posuit me quasi sagittam electam.</l>
@@ -6410,8 +6255,7 @@
                         <ptr target="Je_1573_LN0981_308.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Jnter natos mulie<pb rend="=" facs="0322R" n="309"/>rum non surrexit
                             maior Johanne Baptista. </l>
                         <l>Haleluia. </l>
@@ -6431,9 +6275,7 @@
                         <ptr target="Je_1573_LN0981_309.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">L</c>Offuer Gud i fromme Christ<lb
-                                rend="="/>ne/ </l>
+                        <l> LOffuer Gud i fromme Christ<lb rend="="/>ne/ </l>
                         <l>quæder oc værer glad/ </l>
                         <l>Met Konning Dauid Psalmiste/ </l>
                         <l>priser Gud i allen stad/ </l>
@@ -6592,8 +6434,7 @@
                         <ptr target="Je_1573_LN0981_313.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">A</c>Lle Christne fryde sig nu/ </l>
+                        <l> ALle Christne fryde sig nu/ </l>
                         <l>oc glædis denne tid/ </l>
                         <l>At Gud Faders enbaarne Søn/ </l>
                         <l>til dem er kommen hid/ </l>
@@ -6682,8 +6523,7 @@
                         <ptr target="Je_1573_LN0981_315.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">G</c>Audeamus omnes in Domino, </l>
+                        <l> GAudeamus omnes in Domino, </l>
                         <l>diem festum celebrantes, </l>
                         <l>in honorem Je<pb rend="=" facs="0329L" n="316"/>su Christi. </l>
                         <l>Quem exultans in vtero Johannes agnouit, </l>
@@ -6727,8 +6567,7 @@
                         <ptr target="Je_1573_LN0981_318.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>Xaudi Domine vocem meam, </l>
+                        <l> EXaudi Domine vocem meam, </l>
                         <l>qua clamaui ad te, </l>
                         <l>adiutor meus esto: </l>
                         <l>ne derelinquas me, </l>
@@ -6756,8 +6595,7 @@
                         <ptr target="Je_1573_LN0981_320.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Jn te Domine speraui, </l>
                         <l>non confundar in æternum, </l>
                         <l>in tua iustitia <pb facs="0334R" n="321"/> libera me, </l>
@@ -6781,9 +6619,7 @@
                         <ptr target="Je_1573_LN0981_321.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Ominus fortitudo ple<pb
-                                facs="0335L" n="322"/>bis suæ, </l>
+                        <l> DOminus fortitudo ple<pb facs="0335L" n="322"/>bis suæ, </l>
                         <l>et protector salutarium Christi sui est. </l>
                         <l>Saluum fac populum tuum Domine, </l>
                         <l>et benedic hæreditati tuæ,</l>
@@ -6813,8 +6649,7 @@
                         <ptr target="Je_1573_LN0981_324.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Omnes gentes plaudite manibus, </l>
                         <l>iubilate Deo in voce exulta<pb rend="=" facs="0338R" n="325"/>tionis: </l>
                         <l>Haleluia. </l>
@@ -6833,8 +6668,7 @@
                         <ptr target="Je_1573_LN0981_325.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">O</c>Mnes gentes plaudite manibus, </l>
+                        <l> OMnes gentes plaudite manibus, </l>
                         <l>iubi<pb rend="=" facs="0339L" n="326"/>late Deo in voce exul<lb rend="="
                             />tationis, </l>
                         <l>Haleluia, Haleluia, Haleluia. </l>
@@ -6861,8 +6695,7 @@
                         <ptr target="Je_1573_LN0981_327.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Eripe me de inimicis meis Deus me<pb rend="=" facs="0341L" n="328"/>us, </l>
                         <l>et ab insurgentibus in me libera me. </l>
                         <l>Haleluia. </l>
@@ -6881,9 +6714,7 @@
                         <ptr target="Je_1573_LN0981_328.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">S</c>Vscepimus Deus mi<pb facs="0342R"
-                                n="329"/>sericordiam tuam,</l>
+                        <l> SVscepimus Deus mi<pb facs="0342R" n="329"/>sericordiam tuam,</l>
                         <l>in medio templi tui, </l>
                         <l>secundum nomen tuum Deus, </l>
                         <l>ita et laus tua in fines terræ, </l>
@@ -6912,8 +6743,7 @@
                         <ptr target="Je_1573_LN0981_331.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Te decet hymnus Deus in Syon, </l>
                         <l>et tibi reddetur votum in Jerusalem. </l>
                         <l><pb facs="0345L" n="332"/> Haleluia. </l>
@@ -6931,8 +6761,7 @@
                         <ptr target="Je_1573_LN0981_332.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">N</c>V er oss Gud miskundelig/ </l>
+                        <l> NV er oss Gud miskundelig/ </l>
                         <l>oc hand vil oss velsigne/ </l>
                         <l>Sit ansict offuer Jorderig/ </l>
                         <l>det lader hand offuer oss skinne/ </l>
@@ -6991,8 +6820,7 @@
                         <ptr target="Je_1573_LN0981_334.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>Cce Deus adiuuat me, </l>
+                        <l> ECce Deus adiuuat me, </l>
                         <l>et Dominus susceptor est animæ meæ, </l>
                         <l>auerte mala inimicis meis in veritate <pb facs="0348R" n="335"/> tua, </l>
                         <l>disperge illos protector meus Domine.</l>
@@ -7018,8 +6846,7 @@
                         <ptr target="Je_1573_LN0981_336.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Attendite popule meus in legem meam. </l>
                         <l><pb facs="0350R" n="337"/> Haleluia. </l>
                     </lg>
@@ -7032,9 +6859,7 @@
                         <ptr target="Je_1573_LN0981_337.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">V</c>Den Herren opholder vort Huss oc
-                            gaard/ </l>
+                        <l> VDen Herren opholder vort Huss oc gaard/ </l>
                         <l>oc skaffer huad der er inde/ </l>
                         <l>Oc sender sin <app>
                                 <lem>benedidelse</lem>
@@ -7120,9 +6945,7 @@
                         <ptr target="Je_1573_LN0981_339.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Vm clamarem ad Do<lb rend="="
-                            />minum exaudiuit vocem </l>
+                        <l> DVm clamarem ad Do<lb rend="="/>minum exaudiuit vocem </l>
                         <l>meam ab his qui appropinquant <pb facs="0353L" n="340"/> mihi, </l>
                         <l>et humiliauit eos, </l>
                         <l>qui est ante secula et manet in æternum. </l>
@@ -7152,8 +6975,7 @@
                         <ptr target="Je_1573_LN0981_342.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Exultate Deo adiutori nostro, </l>
                         <l>iubilate Deo Jacob. </l>
                         <l>Sumite psalmum iucundum <pb facs="0356R" n="343"/> cum cythara. </l>
@@ -7174,8 +6996,7 @@
                         <ptr target="Je_1573_LN0981_343.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Eus in loco sancto suo, </l>
+                        <l> DEus in loco sancto suo, </l>
                         <l>Deus qui inhabitare facit vnanimes <pb facs="0357L" n="344"/> in Domo, </l>
                         <l>ipse dabit virtutem et fortitudinem plebis suæ. </l>
                         <l>Exurgat Deus et dissipentur inimici eius, </l>
@@ -7194,8 +7015,7 @@
                         <ptr target="Je_1573_LN0981_345.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluià. </l>
+                        <l> HAleluià. </l>
                         <l>Domine Deus salutis meæ, </l>
                         <l>in die clama<pb rend="=" facs="0359L" n="346"/>ui et nocte coram te. </l>
                         <l>Haleluia. </l>
@@ -7214,9 +7034,7 @@
                         <ptr target="Je_1573_LN0981_346.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">D</c>Eus in adiutori<pb facs="0360R"
-                                n="347"/>um meum intende, </l>
+                        <l> DEus in adiutori<pb facs="0360R" n="347"/>um meum intende, </l>
                         <l>Domine ad adiuuandum me festina: </l>
                         <l>confundantur et reuereantur inimici mei, </l>
                         <l>qui quærunt animam meam.</l>
@@ -7243,9 +7061,7 @@
                         <ptr target="Je_1573_LN0981_348.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. Do<pb facs="0362R" n="349"
-                            />mine refugium factus es nobis, </l>
+                        <l> HAleluia. Do<pb facs="0362R" n="349"/>mine refugium factus es nobis, </l>
                         <l>a generatione et progenie. </l>
                         <l>Haleluia. </l>
                     </lg>
@@ -7263,8 +7079,7 @@
                         <ptr target="Je_1573_LN0981_350.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">V</c>Aare Gud icke met oss denne tid/ </l>
+                        <l> VAare Gud icke met oss denne tid/ </l>
                         <l>saa skal Jsrael sige/ </l>
                         <l>Vaare Gud icke met oss denne tid/ </l>
                         <l>wi haffde lid angist oc quide/ </l>
@@ -7315,8 +7130,7 @@
                         <ptr target="Je_1573_LN0981_351.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">R</c>Espice Domine in testamentum tuum, </l>
+                        <l> REspice Domine in testamentum tuum, </l>
                         <l>a<pb facs="0365L" n="352"/>nimas pauperum tuorum ne dere<lb rend="="
                             />linquas in finem. </l>
                         <l>Exurge Domine, </l>
@@ -7346,8 +7160,7 @@
                         <ptr target="Je_1573_LN0981_354.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Venite exultemus Domino, </l>
                         <l>iubilemus Deo salutari nostro. </l>
                         <l>Halelu<pb rend="=" facs="0368R" n="355"/>ia. </l>
@@ -7361,8 +7174,7 @@
                         <ptr target="Je_1573_LN0981_355.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">B</c>Eklage aff all min sinde/ </l>
+                        <l> BEklage aff all min sinde/ </l>
                         <l>maa ieg met Konning Dauid/ </l>
                         <l>Jeg kand det oc besinde/ </l>
                         <l>min Gud hand vaar mig vred/ </l>
@@ -7440,8 +7252,7 @@
                         <ptr target="Je_1573_LN0981_357.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">P</c>Rotector noster aspice Deus, </l>
+                        <l> PRotector noster aspice Deus, </l>
                         <l>et respice in faciem Christi tui. </l>
                         <l>Quia melior est dies v<pb rend="=" facs="0371L" n="358"/>na in atriis
                             tuis, </l>
@@ -7469,8 +7280,7 @@
                         <ptr target="Je_1573_LN0981_359.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Quoniam Deus magnus Do<pb rend="=" facs="0373L" n="360"/>minus, </l>
                         <l>et rex magnus super omnem terram. </l>
                         <l>Haleluia. </l>
@@ -7489,8 +7299,7 @@
                         <ptr target="Je_1573_LN0981_360.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">I</c>Nclina Domine aurem tuam ad me, </l>
+                        <l> INclina Domine aurem tuam ad me, </l>
                         <l>et exau<pb facs="0374R" n="361"/>di me, </l>
                         <l>saluum fac seruum tuum Deus meus sperantem in te. </l>
                         <l>Miserere mihi Domine, </l>
@@ -7519,8 +7328,7 @@
                         <ptr target="Je_1573_LN0981_363.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Paratum Cor meum Deus, </l>
                         <l>paratum cor meum, </l>
                         <l>cantabo et psallam tibi in gloria mea. </l>
@@ -7539,8 +7347,7 @@
                         <ptr target="Je_1573_LN0981_364.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">M</c>Jserere mihi Domine, </l>
+                        <l> MJserere mihi Domine, </l>
                         <l>quoniam ad te clamaui tota die. </l>
                         <l>Quia tu Domine suauis, </l>
                         <l>ac mitis es, </l>
@@ -7570,8 +7377,7 @@
                         <ptr target="Je_1573_LN0981_366.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Jn exitu Jsrael ex Egypto, </l>
                         <l><pb facs="0380R" n="367"/> Domus Jacob de populo barbaro. </l>
                         <l>Haleluia. </l>
@@ -7589,9 +7395,7 @@
                         <ptr target="Je_1573_LN0981_367.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">E</c>saias den Prophet monne det saa
-                            gaa/ </l>
+                        <l> Esaias den Prophet monne det saa gaa/ </l>
                         <l>at hand i Aanden Herren sidde saa/ </l>
                         <l><pb facs="0381L" n="368"/>J den høye Throne oc klare skin/ </l>
                         <l>hans klæder opfylte det Chor omkring/ </l>
@@ -7619,8 +7423,7 @@
                         <ptr target="Je_1573_LN0981_370.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">B</c>Enedicite Domino omnes Angeli eius, </l>
+                        <l> BEnedicite Domino omnes Angeli eius, </l>
                         <l>potentes virtute, </l>
                         <l>qui facitis verbum eius </l>
                         <l>ad audiendam vocem sermonum eius.</l>
@@ -7647,8 +7450,7 @@
                         <ptr target="Je_1573_LN0981_372.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Concussum est mare, </l>
                         <l>et contremuit terra, </l>
                         <l>vbi archangelus Michaël descendebat de coelo. </l>
@@ -7671,8 +7473,7 @@
                         <ptr target="Je_1573_LN0981_373.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">T</c>E Deum laudamus, </l>
+                        <l> TE Deum laudamus, </l>
                         <l>te Dominum confitemur. </l>
                         <l>Te æternum patrem omnis terra veneratur. </l>
                         <l>Tibi om<pb rend="=" facs="0387L" n="374"/>nes angeli, </l>
@@ -7723,8 +7524,7 @@
                         <ptr target="Je_1573_LN0981_380.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">O</c> Gud wi loffue dig/ </l>
+                        <l> O Gud wi loffue dig/ </l>
                         <l>wi bekiende dig en Herre. </l>
                     </lg>
                     <lg>
@@ -7851,8 +7651,7 @@
                         <ptr target="Je_1573_LN0981_388.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">V</c>Or Gud hand er saa fast en borg/ </l>
+                        <l> VOr Gud hand er saa fast en borg/ </l>
                         <l>hand er vor skiold oc verie/ </l>
                         <l>Hand hielper oss aff nød oc sorg/ </l>
                         <l>der oss vil her besnerie/ </l>
@@ -7907,8 +7706,7 @@
                         <ptr target="Je_1573_LN0981_390.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">I</c>Vstus es Domine, </l>
+                        <l> IVstus es Domine, </l>
                         <l>et rectum iudicium tuum. </l>
                         <l>Fac cum seruo tuo secundum misericordiam tuam. </l>
                         <l>Beati immacula<pb rend="=" facs="0404R" n="391"/>ti in via, </l>
@@ -7927,7 +7725,7 @@
                         <ptr target="Je_1573_LN0981_392.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Dilexi, quoniam exaudiuit Dominus vocem meam. </l>
                         <l>Haleluia. </l>
                     </lg>
@@ -7939,9 +7737,7 @@
                         <ptr target="Je_1573_LN0981_393.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">F</c>Ra Mennisken haffuer ieg vend min
-                            hu/ </l>
+                        <l> FRa Mennisken haffuer ieg vend min hu/ </l>
                         <l>til dig min Siel oplyffter. </l>
                         <l>O Herre Gud beuar mig nu/ </l>
                         <l>at ingen mig misacter. </l>
@@ -8081,7 +7877,7 @@
                         <ptr target="Je_1573_LN0981_396.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">D</c>A pacem Domine sustinentibus te, </l>
+                        <l>DA pacem Domine sustinentibus te, </l>
                         <l>vt Prophetæ tui fideles inue<pb rend="=" facs="0410R" n="397"/>niantur. </l>
                         <l>Exaudi preces serui tui, et plebis tuæ Jsrael.</l>
                     </lg>
@@ -8106,7 +7902,7 @@
                         <ptr target="Je_1573_LN0981_398.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Laudate Dominum omnes gentes, </l>
                         <l>et collaudate eum omnes <pb facs="0412R" n="399"/> populi. </l>
                         <l>Haleluia. </l>
@@ -8124,7 +7920,7 @@
                         <ptr target="Je_1573_LN0981_399.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">S</c>Alus populi ego sum, dicit Dominus, </l>
+                        <l>SAlus populi ego sum, dicit Dominus, </l>
                         <l>de quacunque tribulatio<pb facs="0413L" n="400"/>ne clamauerint ad me, </l>
                         <l>exaudiam eos, et ero illorum Dominus in perpetuum.</l>
                     </lg>
@@ -8150,7 +7946,7 @@
                         <ptr target="Je_1573_LN0981_401.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Dexte<pb facs="0415L" n="402"/>ra Dei fecit virtutem dextera Domi<lb
                                 rend="="/>ni exaltauit me. </l>
                         <l>Haleluia. </l>
@@ -8169,8 +7965,7 @@
                         <ptr target="Je_1573_LN0981_403.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">O</c>Mnia quæ fecisti nobis Do<lb
-                                rend="="/>mine, </l>
+                        <l>OMnia quæ fecisti nobis Do<lb rend="="/>mine, </l>
                         <l>in vero iudicio fecisti. </l>
                         <l>Quia peccauimus tibi, </l>
                         <l>et mandatis tuis <pb facs="0417L" n="404"/> non obediuimus:</l>
@@ -8200,7 +7995,7 @@
                         <ptr target="Je_1573_LN0981_406.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Qui confidunt in Domino, </l>
                         <l>sicut mons Sion. </l>
                         <l>Non commouebitur in æternum, </l>
@@ -8222,7 +8017,7 @@
                         <ptr target="Je_1573_LN0981_407.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">T</c>Jmete Dominum omnes sancti eius, </l>
+                        <l>TJmete Dominum omnes sancti eius, </l>
                         <l>quoniam nihil deerit timentibus e<pb facs="0421L" n="408"/>um. </l>
                         <l>Diuites eguerunt et esurierunt, </l>
                         <l>inquirentes autem Dominum, </l>
@@ -8242,7 +8037,7 @@
                         <ptr target="Je_1573_LN0981_409.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Ale<pb facs="0423L" n="410"/>luia. </l>
+                        <l>HAle<pb facs="0423L" n="410"/>luia. </l>
                         <l>Judicabunt Sancti nationes, </l>
                         <l>et dominabuntur populis, </l>
                         <l>et regnabit illorum rex in æternum. </l>
@@ -8270,8 +8065,7 @@
                         <ptr target="Je_1573_LN0981_411.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">H</c>Vi storme oc fnyse de Hedninge saa/ </l>
+                        <l> HVi storme oc fnyse de Hedninge saa/ </l>
                         <l>oc lade saa megit ilde/ </l>
                         <l>Wnyttige raad gaar folckene paa/ </l>
                         <l>som Gud icke haffue vilde/ </l>
@@ -8339,8 +8133,7 @@
                         <ptr target="Je_1573_LN0981_413.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">I</c>N voluntate tua Domine vniuersa sunt
-                            posita, </l>
+                        <l>IN voluntate tua Domine vniuersa sunt posita, </l>
                         <l>et <pb facs="0427L" n="414"/> non est qui possit resistere voluntati tuæ. </l>
                         <l>Tu enim fecisti omnia, coelum et terram, </l>
                         <l>et vniuersa quæ coeli ambitu continentur: </l>
@@ -8369,7 +8162,7 @@
                         <ptr target="Je_1573_LN0981_416.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>De profundis clamaui ad te Domine, </l>
                         <l>Domine exaudi vocem meam. </l>
                         <l>Haleluia. </l>
@@ -8382,8 +8175,7 @@
                         <ptr target="Je_1573_LN0981_417.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="3">S</c>Aa taler den wuise mund/ </l>
+                        <l> SAa taler den wuise mund/ </l>
                         <l>Den rette Gud wi mene/ </l>
                         <l>det siger hand ey aff hiertens grund/ </l>
                         <l>ha<ex>n</ex>s gierning giffuer det til kiende/ </l>
@@ -8455,8 +8247,7 @@
                         <ptr target="Je_1573_LN0981_419.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">S</c>J iniquitates obseruaue<lb rend="="
-                            />ris Domine, </l>
+                        <l>SJ iniquitates obseruaue<lb rend="="/>ris Domine, </l>
                         <l>Domine quis sustinebit? </l>
                         <l>Quia apud te propitiatio est, Deus Jsrael. </l>
                         <l>De profundis clamaui ad te <pb facs="0433L" n="420"/> Domine: </l>
@@ -8475,7 +8266,7 @@
                         <ptr target="Je_1573_LN0981_421.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l>HAleluia. </l>
                         <l>Lauda anima mea Dominum, </l>
                         <l>laudabo Dominum in vita mea, </l>
                         <l>psallam Deo meo quamdiu ero. </l>
@@ -8494,7 +8285,7 @@
                         <ptr target="Je_1573_LN0981_422.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">D</c>icit Dominus, </l>
+                        <l>Dicit Dominus, </l>
                         <l>ego cogito cogitationes pacis, </l>
                         <l>et non afflicti<pb facs="0436R" n="423"/>onis: </l>
                         <l>inuocabitis me, et ego exaudiam vos, </l>
@@ -8514,8 +8305,7 @@
                         <ptr target="Je_1573_LN0981_424.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Qui sanat contritos corde, </l>
                         <l><pb facs="0438R" n="425"/> et alligat contritiones eorum. </l>
                         <l>Haleluia. </l>
@@ -8536,7 +8326,7 @@
                         <ptr target="Je_1573_LN0981_427.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="3">O</c> Herre Gud benaade mig/ </l>
+                        <l>O Herre Gud benaade mig/ </l>
                         <l>for din store Barmhiertighed/ </l>
                         <l>Affslet all min wretuished/ </l>
                         <l>ieg kiendis min Synd hun er mig leed/ </l>
@@ -8631,7 +8421,7 @@
                         <ptr target="Je_1573_LN0981_429.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">K</c>Yrie eleison.</l>
+                        <l>KYrie eleison.</l>
                         <l>
                             <app>
                                 <lem>Christe eleison</lem>
@@ -8652,7 +8442,7 @@
                         <ptr target="Je_1573_LN0981_430.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">F</c>Ader vor vdi Himmerig/ </l>
+                        <l>FAder vor vdi Himmerig/ </l>
                         <l>som badst oss leffue brøderlig/ </l>
                         <l>oc dig met flid at kalde paa/ </l>
                         <l>vor bøn du gierne høre maa/ </l>
@@ -8756,8 +8546,7 @@
                         <cell>
                             <notatedMusic>
                                 <ptr target="Je_1573_LN0981_433.xml#mdiv-01"/>
-                            </notatedMusic>
-                            <c function="initials" rend="3">K</c>Yrieeleison. </cell>
+                            </notatedMusic> KYrieeleison. </cell>
                         <cell>
                             <notatedMusic>
                                 <ptr target="Je_1573_LN0981_433.xml#mdiv-02"/>
@@ -9062,9 +8851,7 @@
                     <ptr target="Je_1573_LN0981_439.xml"/>
                 </notatedMusic>
                 <lg>
-                    <l>
-                        <c function="initials" rend="2">S</c>Alig er den Ma<ex>n</ex>d der Gud
-                        frycter/ </l>
+                    <l> SAlig er den Ma<ex>n</ex>d der Gud frycter/ </l>
                     <l>oc vdi hans veye vandrer/ </l>
                     <l>Hand tror Guds ord aff hiertens grund/ </l>
                     <l>det siunis paa hans gierning allelund. </l>
@@ -9137,16 +8924,16 @@
                 <p>Offertorium, Vden Herren opholder vort Huss oc gaard <ex>etc</ex>. <hi
                         rend="italics">vt supra.</hi></p>
                 <p>Der nest denne Collect.</p>
-                <p><c function="initials" rend="5">O</c> Almectige euige Gud oc alsomkieriste Fader/
-                    du som selff haffuer saa skicket det/ at Mand oc Quinde skulle være it Liff: oc
-                    haffuer stadfest denne samme tilhobeføyelse met din Guddommelig velsignelse: Wi
-                    bede dig for din store Barmhiertighed skyld/ at du giffuer denne Brudgom/ met
-                    sin Brud/ Naade Lycke oc Salighed baade til Liff oc Siel: oc giff <pb
-                        facs="0455L" n="442"/> dem naade til at tiene dig troligen/ oc at leffue
-                    tilsammen i en samdrectig Kierlighed/ oc altid at giøre effter dit hellige bud/
-                    Saa at de maatte findis paa den yderste Dag/ at være rette Christne oc dine
-                    kiere Børn/ met din kiere Søn vor Herre Jesu Christo/ som met dig leffuer oc
-                    regnerer i hellig Aands enighed/ en sand Gud fra euighed til euighed/ Amen. </p>
+                <p>O Almectige euige Gud oc alsomkieriste Fader/ du som selff haffuer saa skicket
+                    det/ at Mand oc Quinde skulle være it Liff: oc haffuer stadfest denne samme
+                    tilhobeføyelse met din Guddommelig velsignelse: Wi bede dig for din store
+                    Barmhiertighed skyld/ at du giffuer denne Brudgom/ met sin Brud/ Naade Lycke oc
+                    Salighed baade til Liff oc Siel: oc giff <pb facs="0455L" n="442"/> dem naade
+                    til at tiene dig troligen/ oc at leffue tilsammen i en samdrectig Kierlighed/ oc
+                    altid at giøre effter dit hellige bud/ Saa at de maatte findis paa den yderste
+                    Dag/ at være rette Christne oc dine kiere Børn/ met din kiere Søn vor Herre Jesu
+                    Christo/ som met dig leffuer oc regnerer i hellig Aands enighed/ en sand Gud fra
+                    euighed til euighed/ Amen. </p>
 
                 <p>Effter Velsignelsen/ Salig er den Mand der Gud frycter <ex>etc</ex>.</p>
                 <p rend="indent3">
@@ -9160,8 +8947,7 @@
                     <ptr target="Je_1573_LN0981_442.xml"/>
                 </notatedMusic>
                 <lg>
-                    <l>
-                        <c function="initials" rend="2">H</c>Vo som vil salig vdi Verden leffue/ </l>
+                    <l> HVo som vil salig vdi Verden leffue/ </l>
                     <l>J Herrens ord oc fryct skal hand sig øffue. </l>
                 </lg>
 
@@ -9216,8 +9002,7 @@
                         <ptr target="Je_1573_LN0981_443.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">S</c>Acerdotes eius induant saluta<pb
-                                facs="0457L" n="444"/>re, </l>
+                        <l>SAcerdotes eius induant saluta<pb facs="0457L" n="444"/>re, </l>
                         <l>et sancti eius exultatione exultabunt. </l>
                         <l>Jn omnem terram exiuit sonus eorum, </l>
                         <l>Et in fines terræ verba eorum. </l>
@@ -9240,8 +9025,7 @@
                         <ptr target="Je_1573_LN0981_445.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">H</c>Aleluia. </l>
+                        <l> HAleluia. </l>
                         <l>Non vos me e<pb facs="0459L" n="446"/>legistis, </l>
                         <l>sed ego vos elegi: </l>
                         <l>et posui vos, </l>
@@ -9266,8 +9050,7 @@
                         <ptr target="Je_1573_LN0981_447.xml"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">Q</c>Vicunque vult saluus esse, </l>
+                        <l> QVicunque vult saluus esse, </l>
                         <l>ipsum <pb facs="0461L" n="448"/> fidem est necesse seruare catholicam. </l>
                         <l>Hæc est fides quæ seruatur, </l>
                         <l>et per vocem prædicatur cunctis apostolicam. </l>
@@ -9325,7 +9108,7 @@
                         <ptr target="Je_1573_LN0981_453.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l><c function="initials" rend="2">S</c>Vmmæ trinitati,</l>
+                        <l>SVmmæ trinitati,</l>
                         <l>simplici Deo,</l>
                         <l>vna diuinitas,</l>
                         <l>æqualis gloria,</l>
@@ -9360,9 +9143,7 @@
                         <ptr target="Je_1573_LN0981_456.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">A</c>Pparuerunt Apostolis dispertitæ
-                            linguæ tanqua<ex>m</ex> ignis, </l>
+                        <l> APparuerunt Apostolis dispertitæ linguæ tanqua<ex>m</ex> ignis, </l>
                         <l>Haleluia. </l>
                         <l>Seditque supra singulos eorum Spiritus sanctus, </l>
                         <l>haleluia, hale<pb facs="0470R" n="457"/>luia. </l>
@@ -9388,9 +9169,7 @@
                         <ptr target="Je_1573_LN0981_458.xml#mdiv-01"/>
                     </notatedMusic>
                     <lg>
-                        <l>
-                            <c function="initials" rend="2">I</c>te in orbem vni<lb rend="="
-                            />uersum, </l>
+                        <l> Ite in orbem vni<lb rend="="/>uersum, </l>
                         <l>et prædicate dicentes, </l>
                         <l>Haleluia. </l>
                         <l>Qui crediderit, </l>
