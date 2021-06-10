@@ -1312,7 +1312,7 @@ def format_kwic_lines(i):
             text = part.get("#text", "")
             if part.get("class") == "hi":
                 link = '<a href="/{}/{}{}?q={}{}">{}</a>'.format(
-                    i["id"],
+                    i["id"].replace(".xml", ""),
                     i["chapter_no"],
                     '/' + i["section_no"] if i["section_no"] else "",
                     i["q"],
@@ -1417,7 +1417,9 @@ def process_search_results(search_result, document_ids, request):
             # Find out of this chapter has sections or not.
             database_address = request.registry.settings["exist_server"]
             xquery_folder = database_address + "xqueries/"
-            sections = get_sections(xquery_folder, id_with_xml, i["chapter_no"])
+            sections = get_sections(
+                xquery_folder, id_with_xml, i["chapter_no"]
+            )
             if not sections:
                 i["section_no"] = ''
 
