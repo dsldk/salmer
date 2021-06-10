@@ -20,7 +20,7 @@
     </xd:doc>
     <xsl:template match="tei:front">
         <div class="metadata">
-            <h4 class="caption">Front: </h4>
+            <!--<h4 class="caption">Front: </h4>-->
             <xsl:apply-templates/>
         </div>
     </xsl:template>
