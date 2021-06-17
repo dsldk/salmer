@@ -4882,7 +4882,7 @@
                 <head type="add">Femte søndag efter påske</head>
                 <head>Den femte Søndageffter Paaske. </head>
                 <div type="psalm" xml:lang="la" xml:id="vocem-iucunditatis" n="1">
-                    <head type="add">Vocem iucunditatia annunciate</head>
+                    <head type="add">Vocem iucunditatis annunciate</head>
                     <head>Introitus latinus</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_233.xml#mdiv-01"/>
@@ -8816,7 +8816,7 @@
 
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="responsoriumsecundum" n="3">
-                    <head type="add">Apparuerunt apostolis [og] Spiritus Domini repleuit</head>
+                    <head type="add">Apparuerunt apostolis [og] Spiritus Domini repleuit totam domum</head>
                     <head><pb facs="0469L" n="456"/>Responsorium secundum/ de dono linguarum.</head>
 
                     <notatedMusic>
@@ -8842,7 +8842,7 @@
 
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="responsoriumtertium" n="4">
-                    <head type="add">Ite in orbem vniuersum [og] In nomine Patris et Filii</head>
+                    <head type="add">Ite in orbem vniuersum</head>
                     <head>Responsorium tertium/ de legatione Apostolorum.</head>
 
                     <notatedMusic>
