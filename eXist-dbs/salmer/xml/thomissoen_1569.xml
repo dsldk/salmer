@@ -46,7 +46,7 @@
                 <bibl>
                     <author>Hans Thomissøn</author>
                     <publisher>Andelsbogtrykkeriet</publisher>
-                    <pubPlace>Odense</pubPlace>
+                    <pubPlace>Odense</pubPlace> 
                     <date>1968</date>
                 </bibl>
             </sourceDesc>
@@ -6110,7 +6110,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="troestelig-boernesang-om-det-lille" n="19">
-                    <head type="add">Fra Himlen højt komme vi nu her</head>
+                    <head type="add">Fra himlen højt komme vi nu her</head>
                     <head><pb facs="101" n="23r"/> XIX. En trøstelig Børnesang/ om det lille
                         Velsignede barn Jesus/ vddragen aff S. Lucæ Euangelistis andet Capitel. D.
                         Morten Luther.</head>
@@ -7366,7 +7366,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-3-hymn-13" n="13">
-                    <head type="add">Englen indgangen til Jomfru Marie</head>
+                    <head type="add">Englen indgangen til jomfru Marie</head>
 
                     <head> XIII. <hi rend="italics">Aue Maria</hi> met den Christelige Børne Lærdoms
                         enfoldige forklaring/ oc met Scrifftens exempler aff det Gamle oc Ny
@@ -7558,7 +7558,7 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-3-hymn-14" n="14">
-                    <head type="add">Nu fryder eder, alle kristne mænd [og] Gud Fader Søn og
+                    <head type="add">Nu fryder eder, alle kristne mænd [og] Gud Fader, Søn og
                         Helligånd</head>
                     <head> XIIII. En Tacksigelse for Guds høymectige Velgierninger/ som hand oss
                         beuist haffuer i sin Søn Jesu Christo.</head>
