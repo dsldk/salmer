@@ -3200,13 +3200,10 @@
         <body>
             <div type="chapter" xml:id="kapitel-salmer" n="3">
                 <head type="add">Salmer</head>
-
                 <div type="psalm" xml:id="i-jesu-navn-begynde-vi-malmoe" n="1">
-
                     <head type="add">I Jesu navn begynde vi</head>
                     <head><pb facs="039" n="1r"/> En merckelig Euangeliske vise/ vor salighedz vey
                         anrørindis</head>
-
                     <lg>
                         <l>I Jesu naffn begynde wi/</l>
                         <l>det beste der wi kunde/</l>
@@ -4148,7 +4145,6 @@
                         <l>Som haffuer wærit aff begyndelsen oc nw och altid er/ och bliffuer til
                             ewig tid/ AMEN</l>
                     </lg>
-
                     <p>Benedicamus</p>
                     <lg>
                         <l>Loffuer Christum wor frelsere Alleluia Alleluia Alleluia </l>
@@ -4159,10 +4155,8 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="o-herre-gud-miskunde-dig-malmoe" n="11">
-
-                    <head type="add">Til Natsang</head>
-                    <head>O Herre Gud miskunde dig</head>
-
+                    <head type="add">O Herre Gud miskunde dig</head>
+                    <head>Till Natsang</head>
                     <p>Vor fader/ som gaar met de <pb facs="059" n="11r"/> noder der Deus misereatur
                         siungis met</p>
                     <lg>
@@ -8170,15 +8164,12 @@
                 </div>
             </div>
             <div type="chapter" xml:id="det-evangeliske-messeembede" n="4">
-
                 <head type="add">Det evangeliske messeembede</head>
-                <head><pb facs="153" n="59r"/>Her effter følger det hellige Euangeliske Messe
-                    embede/ som nw i den Christne forsamling siunges/ Mit twenne skøne formaninger
-                    til folkit</head>
-
                 <div xml:id="vor-hjaelp-vaere-i-herrens-navn-malmoe" n="1">
-
                     <head type="add">Bøn</head>
+                    <head><pb facs="153" n="59r"/>Her effter følger det hellige Euangeliske Messe
+                        embede/ som nw i den Christne forsamling siunges/ Mit twenne skøne formaninger
+                        til folkit</head>
                     <head>Adiutorium nostrum</head>
                     <p>Vor hielp wære i Herrens naffn/<note place="right">(<ref target="#sl-124"
                                     ><orig>Psa. cxxiiii</orig><reg>Sl 124</reg></ref>)</note> Som
@@ -8190,7 +8181,6 @@
                         hans barmhiertighed er ewig</p>
                 </div>
                 <div type="psalm" xml:id="jeg-arme-syndige-menneske" n="2">
-
                     <head type="add">Syndsbekendelse</head>
                     <head>Confiteor En kort bekendelse i Gudz ansicte</head>
                     <lg>
@@ -9394,7 +9384,6 @@
             <div type="chapter" xml:id="salmer-litani-m-v" n="5">
                 <head type="add">Salmer, litani, bønner</head>
                 <div type="psalm" xml:id="gud-vaere-lovet-og-benedidet" n="1">
-
                     <head type="add">Gud være lovet og benedidet</head>
                     <head>Communio En lofsang met huilcke<ex>n</ex> den Christne forfamling tacker
                         oc ærer Gud</head>

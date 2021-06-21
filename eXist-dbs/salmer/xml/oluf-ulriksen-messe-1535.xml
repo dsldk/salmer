@@ -1114,11 +1114,10 @@
                 <div xml:id="fortale-om-vielse" n="1">
                     <head type="add">Luthers fortale</head>
                     <head><pb facs="0029L" n="C 4v"/>
-                        <!--<hi rend="font_red">--> Her effterfølger Brudt vielse D. Martinus
-                        Lutter. <!--</hi>-->
+                        <!--<hi rend="font_red">--> Her effterfølger Brudt vielse
+                        <!--</hi>--></head>
+                    <head><!--<hi rend="font_red">-->D. Martinus Lutter. <!--</hi>-->
                     </head>
-
-
                     <p>
                         <!--<hi rend="font_red">--> * Tiil Læsseren Epistola. *<!--</hi>-->
                     </p>
@@ -2271,8 +2270,7 @@
             </div>
             <div type="figure" xml:id="rigsvaaben-ulricksoen-1535">
                 <head type="add">Rigsvåben</head>
-                <head>Rigsvåben</head>
-                <p>[Illustration]</p>
+                <head>[Illustration]</head>
             </div>
             <div type="figure" xml:id="konge-med-vaaben-ulricksoen-1535">
                 <head type="add">Konge med hær og våben</head>

@@ -13781,7 +13781,8 @@
             </div>
             <div type="psalm" xml:id="almaegtigste-gud" n="74">
                <head type="add">Bøn om synderne</head>
-               <head>Lader oss alle bede Faar vore Synder En bøn til Gud</head>
+               <head>Lader oss alle bede</head>
+               <head>Faar vore Synder En bøn til Gud</head>
                <p>O Almectigste Gud/ som er altid mild oc miskundelig aff din Guddommelige nature
                   til ath forlade Syndene/ Verdis nu til at anamme vore ydmygelige bøner/ Ath wi
                   fattige Menniske som bundne ere met vore Synders oc ondskabs baand/ mue snarlige
@@ -13933,11 +13934,10 @@
 
          <div type="chapter" subtype="Messen" xml:id="det-hellige-evangeliske-messeembede" n="5">
             <head type="add">Det hellige evangeliske messeembede</head>
-            <head>HEr effter følger det hellige Euangeliske Messe embede/ met nogre skøne
-               formaninger til Folckit/ Paa det ny Corrigeret oc forbedret M. D. Liii.</head>
-
             <div type="psalm" xml:id="vor-hjaelp-vaere-i-herrens-navn" n="1">
                <head type="add">Bøn</head>
+               <head>HEr effter følger det hellige Euangeliske Messe embede/ met nogre skøne
+                  formaninger til Folckit/ Paa det ny Corrigeret oc forbedret M. D. Liii.</head>
                <head><pb n_ekstra="O5r" n="97rII" facs="0260R"/>Adiutorium nostrum in nomi<lb
                      rend="="/>ne domini</head>
                <lg>
@@ -15224,11 +15224,11 @@
          <div type="chapter" subtype="Kollekter_til_årets_søn-_og_helligdage"
             xml:id="kollekter-til-aarets-soendage-og-helligdage" n="6">
             <head type="add">Søndags- og højtidskollekter</head>
-            <head>Her effter følger alle Søndagers oc Høytiders retskaffne Collecter oc bøner/ Som
-               læsis i den hellige Kircke det gantske Aar om kring/ Met mange andre flere atskillige
-               deylige Bøner. M. D. Liii.</head>
             <div type="psalm" xml:id="_1-soendag-i-advent" n="1">
                <head type="add">Første søndag i advent</head>
+               <head>Her effter følger alle Søndagers oc Høytiders retskaffne Collecter oc bøner/
+                  Som læsis i den hellige Kircke det gantske Aar om kring/ Met mange andre flere
+                  atskillige deylige Bøner. M. D. Liii.</head>
                <head><pb n_ekstra="R_5v" n="121v" facs="0309L"/>Første Søndag i Aduent.</head>
 
                <p>O Herre/ wi bede/ opueck din mact och kom. Ath wi maatte met din beskermmelsse
