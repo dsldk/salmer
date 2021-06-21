@@ -2272,13 +2272,13 @@
             <div type="figure" xml:id="rigsvaaben-ulricksoen-1535">
                 <head type="add">Rigsvåben</head>
                 <head>Rigsvåben</head>
+                <p>[Illustration]</p>
             </div>
             <div type="figure" xml:id="konge-med-vaaben-ulricksoen-1535">
                 <head type="add">Konge med hær og våben</head>
-                <head>Konge med våben</head>
-                <p><pb facs="0053L" n="F 4v"/> Arma Regis Danorum. <figure>
-                        <figDesc>træsnit</figDesc>
-                    </figure> Anno Domini MDXXXv. </p>
+                <head><pb facs="0053L" n="F 4v"/> Arma Regis Danorum.</head>
+                <p>[Illustration]</p>
+                <p> Anno Domini MDXXXv. </p>
             </div>
         </body>
     </text>

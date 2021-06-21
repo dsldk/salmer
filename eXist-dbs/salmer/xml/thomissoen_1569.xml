@@ -46,7 +46,7 @@
                 <bibl>
                     <author>Hans Thomissøn</author>
                     <publisher>Andelsbogtrykkeriet</publisher>
-                    <pubPlace>Odense</pubPlace> 
+                    <pubPlace>Odense</pubPlace>
                     <date>1968</date>
                 </bibl>
             </sourceDesc>
@@ -90,6 +90,7 @@
             <div type="figure" xml:id="kongevaaben-thomissoen-1569">
                 <head type="add">Kongevåben</head>
                 <head><pb facs="002" n="a 1v"/>[Kongevåben]</head>
+                <p>[Illustration]</p>
             </div>
             <div type="toc" xml:id="toc-section-thomissoen-1569">
                 <head type="add">Indholdsfortegnelse</head>
@@ -583,9 +584,8 @@
                     </table>
                 </div>
                 <div>
-                    <p>☙ Huert fierde Aar/ naar det er Skud Aar/ da
-                        forlengis denne Maanet en dag. Oc bliffuer der strax en anden Søndags
-                        Bogstaff effter S. Matthie dag. </p>
+                    <p>☙ Huert fierde Aar/ naar det er Skud Aar/ da forlengis denne Maanet en dag.
+                        Oc bliffuer der strax en anden Søndags Bogstaff effter S. Matthie dag. </p>
                 </div>
                 <div type="month">
                     <head><pb facs="006" n="a 3v"/>Martius/ Tormaanet. haffuer xxxj. dage.</head>
@@ -2943,11 +2943,10 @@
                     huilcke 6. timer giøris huert fierde Aar en dag/ som leggis til
                         Februariu<ex>m</ex> vdi enden: saa at Februarius da haffuer 29. dage/ oc det
                     Aar/ som kaldis Skudaar/ haffuer 366. dage <ex>etc</ex>.</p>
-                <p>☙ Dog haffue wi Christne/ nogle Christi høy<lb rend="="
-                    />tider met Søndagene oc andre hellige dage/ Jtem/ Martirers naffne/ set i
-                    stæden for de Hedenske Fester oc Affguder. Oc wi begynde at tellie Aarene fra
-                    Christi Fødzels tid/ 7. dage for Nytaars dag/ som er/ paa den 25. dag
-                    Decembris.</p>
+                <p>☙ Dog haffue wi Christne/ nogle Christi høy<lb rend="="/>tider met Søndagene oc
+                    andre hellige dage/ Jtem/ Martirers naffne/ set i stæden for de Hedenske Fester
+                    oc Affguder. Oc wi begynde at tellie Aarene fra Christi Fødzels tid/ 7. dage for
+                    Nytaars dag/ som er/ paa den 25. dag Decembris.</p>
                 <p>Jt Aar haffuer <list rend="simple">
                         <item>12. Maaneder.</item>
                         <item>52. Vger oc 1. dag.</item>
@@ -2997,59 +2996,57 @@
                             haffue huer 13. Maaneskiffte. Oc de andre 12. Aar/ haffue huer 12.
                             Maaneskiffte/ saa at der ere i samme Metonis store Aar/ 235. Lunationes/
                             det er/ 235. Maaneskiffte.</p>
-                        <p>☙ Dette Aar kaldis Enneadecateris/ Deca<lb
-                                rend="="/>enneateris/ Cyclus Decemnouenalis/ Cyclus luna<lb rend="="
-                            />ris <ex>etc</ex>. Oc effterdi Julius Cæsar indscreff denne nit<lb
-                                rend="="/>tan Aars Circkel i sit Aars Calendario met forgylte
-                            Bogstaffue/ da bleff den kaldit/ Aureus numerus/ det er/
-                            Gyldentallit.</p>
-                        <p>☙ Beda scriffuer (lib: de natura rerum et
-                            temporum ratione/ Cap. 46.) At Dionysius Exiguus/ Abbas Romanus/
-                            indscreff først vdi Keisers Justiniani tid dette Gyldental fliteligen i
-                            de Christnes Calendarijs/ i det Aar effter Christi fødzel/ 532. Huilckit
-                            Aar vaar det første Aar vdi den 19. Aars Circkel/ oc sigis derfor/ at
-                            det Aars Gyldental vaar 1. Det Aar effter Christi fødzel 533. vaar
-                            Circkelens andit Aar/ huess Gyldental vaar 2. Oc falt da den Fuldmaane
-                            som de regnit Paaske effter/ lige paa den 25. dag Martij.</p>
-                        <p>☙ Oc vilde samme Dionysius icke tællie Aa<lb
-                                rend="="/>rene met Gyldentallit fra Keisers Diocletiani tid/ som de
-                            Gredske besynderlige tilforne pleiede at giøre. Men paa det at hand den
-                            Wgudelige Tyrans naffn kunde vdslette aff de Christnis Krønicker oc
-                            Aartal/ begynte hand obenbarlig at tællie oc scriffue Aarene/ ab
-                            incarnatione Domini/ det er/ fra Christi Mandoms anammelse.</p>
-                        <p>☙ De gamle Calendaria/ som haffue det Gyl<lb
-                                rend="="/>dental 3. paa Januarij første dag/ indeholde Gyl<lb
-                                rend="="/>dentallit/ set ieffne hoss Dagene om Aarit effter som
-                            samme Dionysius Abbas dem indtegnit haffuer/ oc giffue tilkiende at i
-                            det tredie Aar vdi de<ex>n</ex>ne 19. Aars Circkel/ vaar da ny Maane paa
-                            Nyt Aars dag/ huilckit oc nogit nær skede vdi Keiser Augusti tid.</p>
-                        <p><pb facs="019" n="b 2r"/>☙ Oc er Gyldentallit
-                            saa indscreffuit/ at det mindste er 1. det største er 19. Oc er det ene
-                            Tal altid det niende fra det andit/ saa at der leggis 8. til huert/ oc
-                            der aff kommer det nestfølgende tal. Som/</p>
+                        <p>☙ Dette Aar kaldis Enneadecateris/ Deca<lb rend="="/>enneateris/ Cyclus
+                            Decemnouenalis/ Cyclus luna<lb rend="="/>ris <ex>etc</ex>. Oc effterdi
+                            Julius Cæsar indscreff denne nit<lb rend="="/>tan Aars Circkel i sit
+                            Aars Calendario met forgylte Bogstaffue/ da bleff den kaldit/ Aureus
+                            numerus/ det er/ Gyldentallit.</p>
+                        <p>☙ Beda scriffuer (lib: de natura rerum et temporum ratione/ Cap. 46.) At
+                            Dionysius Exiguus/ Abbas Romanus/ indscreff først vdi Keisers Justiniani
+                            tid dette Gyldental fliteligen i de Christnes Calendarijs/ i det Aar
+                            effter Christi fødzel/ 532. Huilckit Aar vaar det første Aar vdi den 19.
+                            Aars Circkel/ oc sigis derfor/ at det Aars Gyldental vaar 1. Det Aar
+                            effter Christi fødzel 533. vaar Circkelens andit Aar/ huess Gyldental
+                            vaar 2. Oc falt da den Fuldmaane som de regnit Paaske effter/ lige paa
+                            den 25. dag Martij.</p>
+                        <p>☙ Oc vilde samme Dionysius icke tællie Aa<lb rend="="/>rene met
+                            Gyldentallit fra Keisers Diocletiani tid/ som de Gredske besynderlige
+                            tilforne pleiede at giøre. Men paa det at hand den Wgudelige Tyrans
+                            naffn kunde vdslette aff de Christnis Krønicker oc Aartal/ begynte hand
+                            obenbarlig at tællie oc scriffue Aarene/ ab incarnatione Domini/ det er/
+                            fra Christi Mandoms anammelse.</p>
+                        <p>☙ De gamle Calendaria/ som haffue det Gyl<lb rend="="/>dental 3. paa
+                            Januarij første dag/ indeholde Gyl<lb rend="="/>dentallit/ set ieffne
+                            hoss Dagene om Aarit effter som samme Dionysius Abbas dem indtegnit
+                            haffuer/ oc giffue tilkiende at i det tredie Aar vdi de<ex>n</ex>ne 19.
+                            Aars Circkel/ vaar da ny Maane paa Nyt Aars dag/ huilckit oc nogit nær
+                            skede vdi Keiser Augusti tid.</p>
+                        <p><pb facs="019" n="b 2r"/>☙ Oc er Gyldentallit saa indscreffuit/ at det
+                            mindste er 1. det største er 19. Oc er det ene Tal altid det niende fra
+                            det andit/ saa at der leggis 8. til huert/ oc der aff kommer det
+                            nestfølgende tal. Som/</p>
                         <p rend="indent1">3. 11. 19. 8. 16. 5. 13. 2. 10. 18. 7. 15. 4. 12. 1. 9.
                             17. 6. 14.</p>
-                        <p>* Och saa begyndis det samme tal igen. 3. 11.
-                            19. <ex>etc</ex>.</p>
-                        <p>☙ Men i disse 1037. Aar forskiuder det sig saa/
-                            at huer ny Maane kommer icke paa den dag/ som det Aars Gyldental staar
-                            effter Dionysij Regel indscreffuit/ Men paa den fierde dag tilforne/ oc
-                            end stundem paa den femte dag tilforne. Thi det er troligt/ at
-                            forscreffne Dionysius Abbas/ som fick aff de Vise oc Gudfryctige mend
-                            vdi Alexandria Gyldentallit/ huilckit hand indscreff i de Christnis
-                            Calendario/ haffuer mesten delen ladit staa Gyldentallit/ oc det samme
-                            indscreffuit vdi Calendario/ lige som de Vise mend vdi Alexandria/ 200.
-                            Aar for hannem det optenckte/ oc begynte paa det Aar effter Christi
-                            fødzel 323. til at finde der aff aarligen Paaskehøytid/ effter som det
-                            strax der effter bleff in Concilio Niceno aff 318. Bisper stadfest oc
-                            endrecteligen besluttet. Jtem/ er ocsaa troligt/ at samme Dionysius/ som
-                            vaar i Rom/ loed ocsaa nogit staa aff Gyldentallit / lige som Julius
-                            Cæsar oc effter de Alexandriner vnderuisning / 573. Aar for hannem/ loed
-                            det i de Romeris Calendario indscriffue.</p>
-                        <p>☙ Derfor haffue wi opflyt Gyldentallit/ 4. dage
-                            oc stundem 5. dage frem bedre/ end det i de gamle Calendarijs
-                            Dionysiacis stod tilforne: Oc set 8. paa den anden dag Januarij/ som
-                            stod tilforne paa den 6. dag Januarij.</p>
+                        <p>* Och saa begyndis det samme tal igen. 3. 11. 19. <ex>etc</ex>.</p>
+                        <p>☙ Men i disse 1037. Aar forskiuder det sig saa/ at huer ny Maane kommer
+                            icke paa den dag/ som det Aars Gyldental staar effter Dionysij Regel
+                            indscreffuit/ Men paa den fierde dag tilforne/ oc end stundem paa den
+                            femte dag tilforne. Thi det er troligt/ at forscreffne Dionysius Abbas/
+                            som fick aff de Vise oc Gudfryctige mend vdi Alexandria Gyldentallit/
+                            huilckit hand indscreff i de Christnis Calendario/ haffuer mesten delen
+                            ladit staa Gyldentallit/ oc det samme indscreffuit vdi Calendario/ lige
+                            som de Vise mend vdi Alexandria/ 200. Aar for hannem det optenckte/ oc
+                            begynte paa det Aar effter Christi fødzel 323. til at finde der aff
+                            aarligen Paaskehøytid/ effter som det strax der effter bleff in Concilio
+                            Niceno aff 318. Bisper stadfest oc endrecteligen besluttet. Jtem/ er
+                            ocsaa troligt/ at samme Dionysius/ som vaar i Rom/ loed ocsaa nogit staa
+                            aff Gyldentallit / lige som Julius Cæsar oc effter de Alexandriner
+                            vnderuisning / 573. Aar for hannem/ loed det i de Romeris Calendario
+                            indscriffue.</p>
+                        <p>☙ Derfor haffue wi opflyt Gyldentallit/ 4. dage oc stundem 5. dage frem
+                            bedre/ end det i de gamle Calendarijs Dionysiacis stod tilforne: Oc set
+                            8. paa den anden dag Januarij/ som stod tilforne paa den 6. dag
+                            Januarij.</p>
                     </div>
                     <div>
                         <head><pb facs="020" n="b 2v"/>II. Huorledis huert Aars Gyldental findis
@@ -3079,13 +3076,12 @@
                                 <cell>19</cell>
                             </row>
                         </table>
-                        <p>☙ J denne Taffle kant du finde Gyldentallit
-                            saaledis. Begynt at tellie paa det Aar effter Christi fødzel 1558. oc
-                            tæl fremdelis/ indtil du kommer til det Aar som du begærer at vide
-                            Gyldentallit paa/ oc huad Tal der findis/ det er samme Aars Gyldental.
-                            Oc naar dette forscreffne Tal oc 19. Aar haffuer ende/ da begynt at
-                            tellie paa det første igen/ och saa alt frem at/ som her effter følger.
-                            1577. 1578 <ex>etc</ex>.</p>
+                        <p>☙ J denne Taffle kant du finde Gyldentallit saaledis. Begynt at tellie
+                            paa det Aar effter Christi fødzel 1558. oc tæl fremdelis/ indtil du
+                            kommer til det Aar som du begærer at vide Gyldentallit paa/ oc huad Tal
+                            der findis/ det er samme Aars Gyldental. Oc naar dette forscreffne Tal
+                            oc 19. Aar haffuer ende/ da begynt at tellie paa det første igen/ och
+                            saa alt frem at/ som her effter følger. 1577. 1578 <ex>etc</ex>.</p>
                     </div>
                     <div>
                         <head n="5">En Taffle paa 38. Aars Gyldental.</head>
@@ -3200,17 +3196,17 @@
                             effter deelingen offuerbliffuer/ er Gyldentallit. Der som intet effter
                             deelingen offuerbliffuer/ Da er samme Aars Gyldental 19. oc er dette det
                             siste Aar i samme Cyclo.</p>
-                        <p>☙ Exempel. Jeg vil vide Gyldentallit til det Aar
-                            effter Christi fødzel 1588. Thi legger ieg it der til/ saa haffuer ieg
-                            1589. Dem deeler ieg ved 19. Oc faar ieg der aff 83. som lærer mig at
-                            der ere saa ma<ex>n</ex>ge Cycli decemnouenales forløben fra Christi
-                            fødzel/ oc bliffuer der til offuers effter deelingen 12. som ere det
-                            Aars Gyldental.</p>
-                        <p>☙ Jt andet Exempel. Jeg vil vide Gylden<lb
-                                rend="="/>tallit til det Aar 1576. Thi legger ieg 1. der til. Saa
-                            haffuer ieg 1577. Naar ieg deeler dem ved 19. som findis der vdi 83.
-                            gange <ex>etc</ex>. Da bliffuer der intet til offuers/ oc derfor tager
-                            ieg den gantske Circkel 19. som er det Aars Gyldental.</p>
+                        <p>☙ Exempel. Jeg vil vide Gyldentallit til det Aar effter Christi fødzel
+                            1588. Thi legger ieg it der til/ saa haffuer ieg 1589. Dem deeler ieg
+                            ved 19. Oc faar ieg der aff 83. som lærer mig at der ere saa
+                                ma<ex>n</ex>ge Cycli decemnouenales forløben fra Christi fødzel/ oc
+                            bliffuer der til offuers effter deelingen 12. som ere det Aars
+                            Gyldental.</p>
+                        <p>☙ Jt andet Exempel. Jeg vil vide Gylden<lb rend="="/>tallit til det Aar
+                            1576. Thi legger ieg 1. der til. Saa haffuer ieg 1577. Naar ieg deeler
+                            dem ved 19. som findis der vdi 83. gange <ex>etc</ex>. Da bliffuer der
+                            intet til offuers/ oc derfor tager ieg den gantske Circkel 19. som er
+                            det Aars Gyldental.</p>
                     </div>
                     <div>
                         <head>III. For huad orsag det røde oc sorte Gyldental staar i
@@ -3221,34 +3217,33 @@
                             alle de dage/ huorsom det Gyldental 1. ieffne hoss staar. Vdi denne
                             Cycli andit Aar/ haffue wi ny Maane/ paa alle de dage huor som det
                             Gyldental/ 2. staar: Och saa fremdelis.</p>
-                        <p>☙ Derfor/ naar wi vide huilckit Aar wi ere vdi/
-                            aff dette Metonis store Aar/ det er/ huilckit der er det neruærende Aars
-                            Gyldental/ da kunde wi vide/ at paa huilcken dag vdi huert Maanet samme
-                            Aars Gyldental staar/ ieffn sides hoss i bredden paa Calendario/ paa den
-                            samme dag faa wi ny Maane.</p>
-                        <p>☙ Exempel. Det Aar effter Christi fødzel/ 1588.
-                            er Gyldentallit 12. Det finder ieg paa den 17. dag Januarij i samme Aar.
-                            Thi siger ieg/ at wi samme dag faa ny Maane/ oc siden i huert Maanet paa
-                            den dag som samme Aars Gyldental 12. findis. Oc huer femtende dag effter
-                            Nyet haffue wi FuldMaane.</p>
-                        <p>☙ Merck/ at naar den ny Maane begyndis vdi en oc
-                            endis vdi en anden aff vore mensibus Politicis/ det er/ disse
-                            almindelige Maaneder/ som staa her vdi Calendario/ da skal den Maane
-                            (mensis lunaris) haffue sit naffn aff den vor Maanet hun endis vdi.</p>
-                        <p>☙ Exempel. J det Aar effter Christi fødzel/
-                            1581. faa wi ny Maanen paa den 3. dag Februarij/ oc kaldis den Maanet
-                            dog Martius/ fordi den endis vdi Martio. Disligest den Maane som er
-                            begynt samme Aar vdi Januario/ oc endis tredie dag Februarij/ kaldis
-                            icke Januarius/ Men Februarius.</p>
+                        <p>☙ Derfor/ naar wi vide huilckit Aar wi ere vdi/ aff dette Metonis store
+                            Aar/ det er/ huilckit der er det neruærende Aars Gyldental/ da kunde wi
+                            vide/ at paa huilcken dag vdi huert Maanet samme Aars Gyldental staar/
+                            ieffn sides hoss i bredden paa Calendario/ paa den samme dag faa wi ny
+                            Maane.</p>
+                        <p>☙ Exempel. Det Aar effter Christi fødzel/ 1588. er Gyldentallit 12. Det
+                            finder ieg paa den 17. dag Januarij i samme Aar. Thi siger ieg/ at wi
+                            samme dag faa ny Maane/ oc siden i huert Maanet paa den dag som samme
+                            Aars Gyldental 12. findis. Oc huer femtende dag effter Nyet haffue wi
+                            FuldMaane.</p>
+                        <p>☙ Merck/ at naar den ny Maane begyndis vdi en oc endis vdi en anden aff
+                            vore mensibus Politicis/ det er/ disse almindelige Maaneder/ som staa
+                            her vdi Calendario/ da skal den Maane (mensis lunaris) haffue sit naffn
+                            aff den vor Maanet hun endis vdi.</p>
+                        <p>☙ Exempel. J det Aar effter Christi fødzel/ 1581. faa wi ny Maanen paa
+                            den 3. dag Februarij/ oc kaldis den Maanet dog Martius/ fordi den endis
+                            vdi Martio. Disligest den Maane som er begynt samme Aar vdi Januario/ oc
+                            endis tredie dag Februarij/ kaldis icke Januarius/ Men Februarius.</p>
                         <lg>
                             <l><hi rend="italics"> In quo completur,mensi lunatio detur.</hi></l>
                         </lg>
-                        <p>☙ Siu gange/ det er 7. Aar vdi huer Cyclo
-                            Decemnouenali/ kommer det Aars første ny/ inden den 12. dag Januarij/ oc
-                            er der i huert aff samme 7. Aar 13. Maaneder eller Maaneskiffte/
-                            Huilckit skeer vdi det andet/ femte/ ottende/ tiende/ trettende/
-                            sextende oc attende Aar/ vdi huer 19. Aars Cir<pb facs="023" rend="="
-                                n="b 4r"/>ckel. Det er/ naar Aarsens Gyldental er/ enten</p>
+                        <p>☙ Siu gange/ det er 7. Aar vdi huer Cyclo Decemnouenali/ kommer det Aars
+                            første ny/ inden den 12. dag Januarij/ oc er der i huert aff samme 7.
+                            Aar 13. Maaneder eller Maaneskiffte/ Huilckit skeer vdi det andet/
+                            femte/ ottende/ tiende/ trettende/ sextende oc attende Aar/ vdi huer 19.
+                            Aars Cir<pb facs="023" rend="=" n="b 4r"/>ckel. Det er/ naar Aarsens
+                            Gyldental er/ enten</p>
                         <p rend="indent1">2. 5. 8. 10. 13. 16. eller 18.</p>
                         <p>oc huilcken Maane som begyndis oc endis inde vdi en Maanet i vort
                             Calendario/ Den skal regnis for denne trettande oc offuerlobs Maanet/ oc
@@ -3256,29 +3251,27 @@
                                 >Embolismalis mensis</hi>, det er/ Skudmaanit. Oc det Aar som
                             haffuer saa 13. Maaneskiffte/ kaldis/ <hi rend="italics"> Annus
                                 Embolismalis, seu, intercalaris.</hi></p>
-                        <p>☙ Exempel. J dette neste Aar/ 1570. er Gyl<lb
-                                rend="="/>dentallit 13. der aff paamindis ieg strax/ at wi faa 13.
-                            Lunationes/ det er/ Ny maanet/ i dette Aar. Oc effterdi der begyndis oc
-                            optendis en Ny Maane/ den 1. dag Augusti/ som icke strecker sig hen til
-                            den effterfølgendis Septemb. Men endis i samme Augusto. Da siger ieg at
-                            denne Maanet kaldis Embolismalis mensis. Men den som endis paa den
-                            første dag Augusti/ kaldis Augustus. Oc den som begyndis paa den 30. dag
-                            Augusti/ kaldis September. Her om paamindis ieg oc/ naar ieg acter at
-                            dette Gyldental 13. staar tøsser vdi Augusto. Oc saaledis om de andre.
-                            Thi saadan en Maanet findis i det Aar/ 1573. vdi Maio. Jtem i det Aar/
-                            1575. vdi Decembri. Jtem/ i det Aar/ 1578. vdi Septembri. Jtem/ i det
-                            Aar/ 1581. vdi Maio. Jtem/ i det Aar/ 1584. vdi Martio. Jtem/ i det Aar
-                            1586. vdi Octobrj <ex>etc</ex>. </p>
+                        <p>☙ Exempel. J dette neste Aar/ 1570. er Gyl<lb rend="="/>dentallit 13. der
+                            aff paamindis ieg strax/ at wi faa 13. Lunationes/ det er/ Ny maanet/ i
+                            dette Aar. Oc effterdi der begyndis oc optendis en Ny Maane/ den 1. dag
+                            Augusti/ som icke strecker sig hen til den effterfølgendis Septemb. Men
+                            endis i samme Augusto. Da siger ieg at denne Maanet kaldis Embolismalis
+                            mensis. Men den som endis paa den første dag Augusti/ kaldis Augustus.
+                            Oc den som begyndis paa den 30. dag Augusti/ kaldis September. Her om
+                            paamindis ieg oc/ naar ieg acter at dette Gyldental 13. staar tøsser vdi
+                            Augusto. Oc saaledis om de andre. Thi saadan en Maanet findis i det Aar/
+                            1573. vdi Maio. Jtem i det Aar/ 1575. vdi Decembri. Jtem/ i det Aar/
+                            1578. vdi Septembri. Jtem/ i det Aar/ 1581. vdi Maio. Jtem/ i det Aar/
+                            1584. vdi Martio. Jtem/ i det Aar 1586. vdi Octobrj <ex>etc</ex>. </p>
                         <p>DJsse Gyldental (saa vel som Solens indgang i Tegnene) ere saaledis
-                            indset/ at huer dags begyndelse skal/ effter den
-                            Astronomiske viss oc vane/ være om høy Middag/ oc vare saa 24. timer/
-                            indtil anden Dagen om Middag/ som wi almindelige tale. </p>
-                        <p>☙ Kand dette icke heller saa nøye her met fin<lb
-                                rend="="/>dis/ som det staar vdi rette Ephimeridibus oc Al<lb
-                                rend="="/>manach flittelig Calculerit oc vdregnit. </p>
-                        <p><pb facs="024" n="b 4v"/>☙ Det sorte Gyldental
-                            er nytteligt til at finde huert Aars Paaskehøytid oc Andre rørlige
-                            Fester. vt infra. </p>
+                            indset/ at huer dags begyndelse skal/ effter den Astronomiske viss oc
+                            vane/ være om høy Middag/ oc vare saa 24. timer/ indtil anden Dagen om
+                            Middag/ som wi almindelige tale. </p>
+                        <p>☙ Kand dette icke heller saa nøye her met fin<lb rend="="/>dis/ som det
+                            staar vdi rette Ephimeridibus oc Al<lb rend="="/>manach flittelig
+                            Calculerit oc vdregnit. </p>
+                        <p><pb facs="024" n="b 4v"/>☙ Det sorte Gyldental er nytteligt til at finde
+                            huert Aars Paaskehøytid oc Andre rørlige Fester. vt infra. </p>
                     </div>
                     <div>
                         <head n="5">Huor lenge Maanen skin om Natten.</head>
@@ -3388,12 +3381,12 @@
                                 <cell cols="2">Skinner Maanen.</cell>
                             </row>
                         </table>
-                        <p><pb facs="025" n="b 5r"/>☙ J denne Taffle/ seer
-                            du paa den ene side/ huor gammel Maanen er: Det er/ huor mange dage der
-                            ere forløbne fra Maaneskifftet/ oc det kant du lettelige tellie i
-                            Calendario fra Gyldentallit oc nyet til den dag du taler om. Paa den
-                            anden side seer du timerne oc minuterne/ huor lenge Maanen skinner
-                            effter sit alders vilkaar.</p>
+                        <p><pb facs="025" n="b 5r"/>☙ J denne Taffle/ seer du paa den ene side/ huor
+                            gammel Maanen er: Det er/ huor mange dage der ere forløbne fra
+                            Maaneskifftet/ oc det kant du lettelige tellie i Calendario fra
+                            Gyldentallit oc nyet til den dag du taler om. Paa den anden side seer du
+                            timerne oc minuterne/ huor lenge Maanen skinner effter sit alders
+                            vilkaar.</p>
                     </div>
                     <div>
                         <head>Om det er Ny eller næde.</head>
@@ -3411,55 +3404,54 @@
                             Ny igen. Der aff haffuer denne Circkel sit naffn/ fordi den handler om
                             Søndag eller Solens dag: oc icke der aff/ lige som Solen paa saa lang
                             tid skulle fuldkomme sit egit lob vdi Zodiaco.</p>
-                        <p>☙ Søndag kaldis vdi Sancte Hansis Obenba<lb
-                                rend="="/>ring/ <foreign xml:lang="gr">κυριακὴ ἡμέρα</foreign>, det
-                            er/ Herrens dag. Thi at paa denne første dag om Vgen/ haffuer Gud giort
-                            sine største oc Vnderligste gierninger. 1. Paa denne dag / begynte Gud
-                            at skabe ved sin Søn Himmel oc Jord oc alle Creatur/ saa at denne dag er
-                            all Verdsens begyndelse. 2. Paa denne dag/ opstod vor Herre Jesus
-                            Christus fra de døde/ oc beuiste sig at haffue vdret oc fuldgiort/ det
-                            hand haffde sig faa<pb facs="026" rend="=" n="b 5v"/>retagit/ at hand
-                            haffde borttagit Synden/ oc er retfærdig/ oc haffuer retfærdighed nock
-                            at vddeele/ At hand haffuer offueruundit døde<ex>n</ex>/ Dieffuelen oc
+                        <p>☙ Søndag kaldis vdi Sancte Hansis Obenba<lb rend="="/>ring/ <foreign
+                                xml:lang="gr">κυριακὴ ἡμέρα</foreign>, det er/ Herrens dag. Thi at
+                            paa denne første dag om Vgen/ haffuer Gud giort sine største oc
+                            Vnderligste gierninger. 1. Paa denne dag / begynte Gud at skabe ved sin
+                            Søn Himmel oc Jord oc alle Creatur/ saa at denne dag er all Verdsens
+                            begyndelse. 2. Paa denne dag/ opstod vor Herre Jesus Christus fra de
+                            døde/ oc beuiste sig at haffue vdret oc fuldgiort/ det hand haffde sig
+                                faa<pb facs="026" rend="=" n="b 5v"/>retagit/ at hand haffde
+                            borttagit Synden/ oc er retfærdig/ oc haffuer retfærdighed nock at
+                            vddeele/ At hand haffuer offueruundit døde<ex>n</ex>/ Dieffuelen oc
                             helffuede <ex>etc</ex>. Til disse velgierningers euig hukommelse/ vilde
                             de hellige Apostler/ at Christne/ effterdi de icke ere forplictet at
                             holde Jødiske Sabbather oc Ceremonier <ex>etc</ex>. skulle holde denne
                             dag hellig.</p>
-                        <p>☙ De 7. Bogstaffue A. B. C. D. E. F. G som staa
-                            52. gange her vdi Calendario igentagit/ saa at huer bogstaff staar hoss
-                            sin dag/ kaldis Søndags Bogstaffue. Thi at i huert Aar/ da betegner en
-                            eller 2. aff dem/ huilcken dag der er det Aar Søndag.</p>
+                        <p>☙ De 7. Bogstaffue A. B. C. D. E. F. G som staa 52. gange her vdi
+                            Calendario igentagit/ saa at huer bogstaff staar hoss sin dag/ kaldis
+                            Søndags Bogstaffue. Thi at i huert Aar/ da betegner en eller 2. aff dem/
+                            huilcken dag der er det Aar Søndag.</p>
                         <p>☙ Men at Søndags <app>
                                 <lem>bogstaffue </lem>
                                 <rdg wit="#orig">bostaffue</rdg>
                             </app> omskifftis oc forskiuder sig huert Aar/ det skeer for tuenne
                             Orsager skyld.</p>
-                        <p>☙ Den ene Orsag er/ at naar wi tage vore
-                            Almindelige Aars dage/ som ere 365. oc deele dem ved 7. da befinde wi at
-                            det Aar haffuer 52. Vger/ oc 1. dag. Derfor naar huer Vgis bogstaffuer/
-                            A. B. C. D. E. F. G. tællis igennem det gantske Calendario/ da bliffuer
-                            der en dag staaendis til offuer/ oc derfor staar den bogstaff A. baade
-                            paa den første oc siste dag om Aarit i vort Calendario Romano. Oc der
-                            aff kommer det/ at Søndags bogstaffuer tællis hoss Solens Circkel til
-                            bage. A. G. F. E. D. C. B. A. saa at nest effter A. bliffuer G. Søndags
-                            Bogstaff/ nest effter G. bliffuer F. <ex>etc</ex>.</p>
-                        <p>☙ Den anden Orsag til Søndags bogstaffs
-                            omskifftelse er Skud Aarit. Thi at Julij Cæsaris Aar (som rettis mesten
-                            effter Solens eget laab igennem de 12. Himmeltegen) er 365. dage oc 6.
-                            timer lang. Huilcke 6. timer giøre huert fierde Aar 1. dag/ som
-                            indsettis hoss den 24. dag Februarij / saa at den bogstaff F. Da tagis
-                            tøsser. Dog saa/ at alle de andre effterfølgende dage oc Fester/
-                            alligeuel beholde deris gamle almindelig Bogstaff<pb facs="027" rend="="
-                                n="b 6r"/>ue. Oc der aff omskifftis ocsaa da Søndags bogstaffuene.
-                            Oc da haffuer Februarius 29. dage / oc det Aar haffuer 366. dage.</p>
-                        <p>☙ Vaar icke Skud Aarit/ da haffde den om<lb
-                                rend="="/>skifftelse met Søndags Bogstaffue ende/ saa snart som 7.
-                            Aar vaare forløbne/ oc begyntis da strax igen. Men nu for Skud Aarnis
-                            skyld/ kand denne atskillighed icke endis aldelis / førend 4. gange 7.
-                            Aar/ det er 28. Aar ere forløbne.</p>
-                        <p>☙ Men effterdi det er læt/ at finde Søndags
-                            Bogstaffue/ naar wi haffue Solens Circkel/ da ville wi først lære den at
-                            opsøge.</p>
+                        <p>☙ Den ene Orsag er/ at naar wi tage vore Almindelige Aars dage/ som ere
+                            365. oc deele dem ved 7. da befinde wi at det Aar haffuer 52. Vger/ oc
+                            1. dag. Derfor naar huer Vgis bogstaffuer/ A. B. C. D. E. F. G. tællis
+                            igennem det gantske Calendario/ da bliffuer der en dag staaendis til
+                            offuer/ oc derfor staar den bogstaff A. baade paa den første oc siste
+                            dag om Aarit i vort Calendario Romano. Oc der aff kommer det/ at Søndags
+                            bogstaffuer tællis hoss Solens Circkel til bage. A. G. F. E. D. C. B. A.
+                            saa at nest effter A. bliffuer G. Søndags Bogstaff/ nest effter G.
+                            bliffuer F. <ex>etc</ex>.</p>
+                        <p>☙ Den anden Orsag til Søndags bogstaffs omskifftelse er Skud Aarit. Thi
+                            at Julij Cæsaris Aar (som rettis mesten effter Solens eget laab igennem
+                            de 12. Himmeltegen) er 365. dage oc 6. timer lang. Huilcke 6. timer
+                            giøre huert fierde Aar 1. dag/ som indsettis hoss den 24. dag Februarij
+                            / saa at den bogstaff F. Da tagis tøsser. Dog saa/ at alle de andre
+                            effterfølgende dage oc Fester/ alligeuel beholde deris gamle almindelig
+                                Bogstaff<pb facs="027" rend="=" n="b 6r"/>ue. Oc der aff omskifftis
+                            ocsaa da Søndags bogstaffuene. Oc da haffuer Februarius 29. dage / oc
+                            det Aar haffuer 366. dage.</p>
+                        <p>☙ Vaar icke Skud Aarit/ da haffde den om<lb rend="="/>skifftelse met
+                            Søndags Bogstaffue ende/ saa snart som 7. Aar vaare forløbne/ oc
+                            begyntis da strax igen. Men nu for Skud Aarnis skyld/ kand denne
+                            atskillighed icke endis aldelis / førend 4. gange 7. Aar/ det er 28. Aar
+                            ere forløbne.</p>
+                        <p>☙ Men effterdi det er læt/ at finde Søndags Bogstaffue/ naar wi haffue
+                            Solens Circkel/ da ville wi først lære den at opsøge.</p>
                     </div>
                     <div>
                         <head n="5">Om Solens Circkel at finde.</head>
@@ -3472,18 +3464,16 @@
                             effter Deelingen offuerbliffuer/ er Solens Circkel. Der som intet effter
                             Deelingen offuerbliffuer/ da er 28. i det Aar Solens Circkel / oc er
                             dette det siste Aar vdi samme Circkel.</p>
-                        <p>☙ Exempel. Jeg vil vide Solens Circkel til det
-                            Aar effter Christi fødzel/ 1576. Thi legger ieg der til 9. Saa haffuer
-                            ieg/ 1585. Det deeler ieg ved 28. Oc faar ieg der aff 56. Som lærer mig/
-                            at der ere saa mange gantske Cycli Solares forløbne fra Christi fødzel.
-                            Oc bliffuer der til offuer Deelingen 17. Som er i dette Aar 1576. Solens
-                            Circkel.</p>
-                        <p>☙ Jt andit Exempel. Jeg vil vide Solens <pb
-                                facs="028" n="b 6v"/> Circkel/ til det Aar effter Christi fødzel
-                            1587. Thi legger ieg der til 9. Saa haffuer ieg 1596. Naar ieg deeler
-                            dem ved 28. (som findis der vdi 57. gange) Da bliffuer der intet til
-                            offuers/ oc derfor tager ieg den gantske Circkel 28. som er i dette Aar
-                            1587. Solens Circkel.</p>
+                        <p>☙ Exempel. Jeg vil vide Solens Circkel til det Aar effter Christi fødzel/
+                            1576. Thi legger ieg der til 9. Saa haffuer ieg/ 1585. Det deeler ieg
+                            ved 28. Oc faar ieg der aff 56. Som lærer mig/ at der ere saa mange
+                            gantske Cycli Solares forløbne fra Christi fødzel. Oc bliffuer der til
+                            offuer Deelingen 17. Som er i dette Aar 1576. Solens Circkel.</p>
+                        <p>☙ Jt andit Exempel. Jeg vil vide Solens <pb facs="028" n="b 6v"/>
+                            Circkel/ til det Aar effter Christi fødzel 1587. Thi legger ieg der til
+                            9. Saa haffuer ieg 1596. Naar ieg deeler dem ved 28. (som findis der vdi
+                            57. gange) Da bliffuer der intet til offuers/ oc derfor tager ieg den
+                            gantske Circkel 28. som er i dette Aar 1587. Solens Circkel.</p>
                     </div>
                     <div>
                         <head n="5">Om Søndags Bogstaffue at finde.</head>
@@ -3662,33 +3652,32 @@
                             1588. <ex>etc</ex>. och saa fremdelis saa lenge som Verden staar.</p>
                     </div>
                     <div>
-                        <p><pb facs="029" n="b 7r"/>Naar du haffuer fundit
-                            Solens Circkel/ Da søg i denne forscreffne taffle/ der finder du Søndags
-                            bogstaffuen ieffne hoss paa den høyre side. Staar der ekon en Bogstaff/
-                            da er det Annus communis: det er / it almindeligt Aar. Men staar der 2.
-                            bogstaffue/ Da er det/ Annus bissextilis: det er/ Skud Aar: Oc den
-                            første Søndags Bogstaff brugis indtil den Søndag/ som er nest Sanct
-                            Matthiæ dag. Den anden Søndags bogstaff brugis siden det gantske Aar
-                            omkring.</p>
-                        <p>☙ Merck ocsaa/ at naar A. er Søndags bog<lb
-                                rend="="/>staff/ da skal den indsettis paa den første dag Januarij.
-                            Saa oc B. paa den anden dag Januarij. C. paa den tredie. D. paa den
-                            fierde. E. paa den femte. F. paa den siette. Saa oc naar G. er Søndags
-                            Bogstaff/ Da skal den indsettis paa den siuende dag Januarij/ oc siden
-                            skal tællies ret frem / det gantske Aar igennem.</p>
-                        <p>☙ Exempel. Jeg vil vide Søndags bogstaff<lb
-                                rend="="/>uen til det Aar effter Christi fødzel 1587. Oc effter at
-                            ieg veed/ at 28. er vdi det Aar Solens Circkel/ da opsøger ieg disse 28.
-                            i denne Taffle/ oc finder ieg paa den høyre side der ieffne hoss/ den
-                            bogstaff A. som i det Aar 1587. er Søndags bogstaff.</p>
-                        <p>☙ Jt andit Exempel. Jeg vil vide Søndags
-                            bogstaffuen til det Aar effter Christi fødzel 1576. Oc effter ieg veed/
-                            at 17. er vdi det Aar Solens Circkel: Da opsøger ieg disse 17. i denne
-                            Taffle/ oc findis paa den høyre side der ieffne hoss disse tuenne
-                            bogstaffue A. G. som ere Søndags bogstaffuer i dette Aar 1576. Oc seer
-                            ieg paa disse 2. bogstaffuer at det Aar 1576. er it Skud Aar/ oc bruger
-                            ieg A. til Søndags Bogstaff/ indtil S. Matthiæ dag. Siden brugis G. til
-                            Søndags Bogstaff Aarit igennem.</p>
+                        <p><pb facs="029" n="b 7r"/>Naar du haffuer fundit Solens Circkel/ Da søg i
+                            denne forscreffne taffle/ der finder du Søndags bogstaffuen ieffne hoss
+                            paa den høyre side. Staar der ekon en Bogstaff/ da er det Annus
+                            communis: det er / it almindeligt Aar. Men staar der 2. bogstaffue/ Da
+                            er det/ Annus bissextilis: det er/ Skud Aar: Oc den første Søndags
+                            Bogstaff brugis indtil den Søndag/ som er nest Sanct Matthiæ dag. Den
+                            anden Søndags bogstaff brugis siden det gantske Aar omkring.</p>
+                        <p>☙ Merck ocsaa/ at naar A. er Søndags bog<lb rend="="/>staff/ da skal den
+                            indsettis paa den første dag Januarij. Saa oc B. paa den anden dag
+                            Januarij. C. paa den tredie. D. paa den fierde. E. paa den femte. F. paa
+                            den siette. Saa oc naar G. er Søndags Bogstaff/ Da skal den indsettis
+                            paa den siuende dag Januarij/ oc siden skal tællies ret frem / det
+                            gantske Aar igennem.</p>
+                        <p>☙ Exempel. Jeg vil vide Søndags bogstaff<lb rend="="/>uen til det Aar
+                            effter Christi fødzel 1587. Oc effter at ieg veed/ at 28. er vdi det Aar
+                            Solens Circkel/ da opsøger ieg disse 28. i denne Taffle/ oc finder ieg
+                            paa den høyre side der ieffne hoss/ den bogstaff A. som i det Aar 1587.
+                            er Søndags bogstaff.</p>
+                        <p>☙ Jt andit Exempel. Jeg vil vide Søndags bogstaffuen til det Aar effter
+                            Christi fødzel 1576. Oc effter ieg veed/ at 17. er vdi det Aar Solens
+                            Circkel: Da opsøger ieg disse 17. i denne Taffle/ oc findis paa den
+                            høyre side der ieffne hoss disse tuenne bogstaffue A. G. som ere Søndags
+                            bogstaffuer i dette Aar 1576. Oc seer ieg paa disse 2. bogstaffuer at
+                            det Aar 1576. er it Skud Aar/ oc bruger ieg A. til Søndags Bogstaff/
+                            indtil S. Matthiæ dag. Siden brugis G. til Søndags Bogstaff Aarit
+                            igennem.</p>
                     </div>
                     <div>
                         <head><pb facs="030" n="b 7v"/>Vilt du vide om det er SkudAar eller
@@ -3712,33 +3701,32 @@
                             indtil du finder samme Aars Gyldental. Leed saa imod den venstre side
                             nest neden faare/ indtil du finder samme Aars Søndags Bogstaff. Oc
                             huilcken dag i Maaneden den findis paa/ den er samme Aars Paaskedag.</p>
-                        <p>☙ Er det Skud Aaar/ da skalt du bruge den siste
-                            Søndags Bogstaff til Paaskedag at finde.</p>
-                        <p>☙ Falder Gyldentallit lige paa en Søndag/ Da
-                            falder Paaskedag neste Søndag der effter.</p>
-                        <p>☙ Denne Paaske Circkel indeholder 35. dage/ paa
-                            huilcke Paaskedag komme kand/ iblant huilcke den <pb facs="031" n="b 8r"
-                            />allerførste Paaskedag er den 22. dag Martij/ men den allersiste
-                            Paaskedag er den 25. dag Aprilis. </p>
-                        <p>☙ Exempel. Jeg vil vide/ naar wi faa Paaske dag/
-                            i det Aar effter Christi fødzel 1573. Naar Gyldentallit er 16. oc
-                            Søndags Bogstaff D. Oc effterdi ieg finder ibla<ex>n</ex>t det sorte
-                            Gyldental/ samme Aars Gyldental/ som er 16. paa den 21. dag Martij. Oc
-                            Søndags Bogstaff D. staar der strax allernest nedenfor: Da siger ieg/ at
-                            Paaskedag kommer i det Aar <ex>etc</ex>. 1573. paa den 22. dag Martij/
-                            effter som det almindeligen nu holdis i Christendommit. Oc falder der
-                            ingen Paaskedag førre i nogit Aar.</p>
-                        <p>☙ Jt andit Exempel. Jeg vil vide/ naar Paa<lb
-                                rend="="/>skedag vaar i det Aar effter Christi fødzel 1546. Hues
-                            Gyldental vaar 8. oc Søndags Bogstaff C. Oc effterdi ieg finder iblant
-                            det sorte Gyldental/ samme Aars Gyldental/ som vaar 8. paa den 18. dag
-                            Aprilis/ oc det Aars Søndags Bogstaff C. staar ieffn sides der hoss/ paa
-                            samme 18. dag Aprilis. Da siger ieg/ at Paaskedag falt i det Aar
-                                <ex>etc</ex>. 1546. neste Søndag der effter/ som vaar paa den 25.
-                            dag Aprilis. Paa huilcken dag/ Paaskedag falder ocsaa/ effter denne
-                            skick/ i det Aar effter Christi fødzel 1641. Thi Gyldentallit/ er oc da
-                            8. oc Søndags Bogstaff C. Oc kommer icke Paaskedag nogen tid seyermere i
-                            nogit Aar.</p>
+                        <p>☙ Er det Skud Aaar/ da skalt du bruge den siste Søndags Bogstaff til
+                            Paaskedag at finde.</p>
+                        <p>☙ Falder Gyldentallit lige paa en Søndag/ Da falder Paaskedag neste
+                            Søndag der effter.</p>
+                        <p>☙ Denne Paaske Circkel indeholder 35. dage/ paa huilcke Paaskedag komme
+                            kand/ iblant huilcke den <pb facs="031" n="b 8r"/>allerførste Paaskedag
+                            er den 22. dag Martij/ men den allersiste Paaskedag er den 25. dag
+                            Aprilis. </p>
+                        <p>☙ Exempel. Jeg vil vide/ naar wi faa Paaske dag/ i det Aar effter Christi
+                            fødzel 1573. Naar Gyldentallit er 16. oc Søndags Bogstaff D. Oc effterdi
+                            ieg finder ibla<ex>n</ex>t det sorte Gyldental/ samme Aars Gyldental/
+                            som er 16. paa den 21. dag Martij. Oc Søndags Bogstaff D. staar der
+                            strax allernest nedenfor: Da siger ieg/ at Paaskedag kommer i det Aar
+                                <ex>etc</ex>. 1573. paa den 22. dag Martij/ effter som det
+                            almindeligen nu holdis i Christendommit. Oc falder der ingen Paaskedag
+                            førre i nogit Aar.</p>
+                        <p>☙ Jt andit Exempel. Jeg vil vide/ naar Paa<lb rend="="/>skedag vaar i det
+                            Aar effter Christi fødzel 1546. Hues Gyldental vaar 8. oc Søndags
+                            Bogstaff C. Oc effterdi ieg finder iblant det sorte Gyldental/ samme
+                            Aars Gyldental/ som vaar 8. paa den 18. dag Aprilis/ oc det Aars Søndags
+                            Bogstaff C. staar ieffn sides der hoss/ paa samme 18. dag Aprilis. Da
+                            siger ieg/ at Paaskedag falt i det Aar <ex>etc</ex>. 1546. neste Søndag
+                            der effter/ som vaar paa den 25. dag Aprilis. Paa huilcken dag/
+                            Paaskedag falder ocsaa/ effter denne skick/ i det Aar effter Christi
+                            fødzel 1641. Thi Gyldentallit/ er oc da 8. oc Søndags Bogstaff C. Oc
+                            kommer icke Paaskedag nogen tid seyermere i nogit Aar.</p>
                         <lg>
                             <l>
                                 <hi rend="italics">Terminus et Pascha nunquam celebrantur
@@ -3761,9 +3749,8 @@
                                 rend="=" n="b 8v"/>dag/ eller Christi Daabs Høytid. Tæl siden der
                             fra tilbage/ til Nyt Aars dag/ oc leg 1. Vge der til/ saa haffuer du
                             huor langt der er imellem Jul oc Fastelaffuen. </p>
-                        <p>☙ Tæl frem at 7. Vger effter Paaskedag/ saa
-                            haffuer du Pindzedag/ oc ottende dag der effter kommer den hellige
-                            Trefoldigheds Søndag.</p>
+                        <p>☙ Tæl frem at 7. Vger effter Paaskedag/ saa haffuer du Pindzedag/ oc
+                            ottende dag der effter kommer den hellige Trefoldigheds Søndag.</p>
                     </div>
                     <div>
                         <head>En Anden maade til at finde Paaskedag oc de andre Rørlige
@@ -3984,30 +3971,26 @@
                                 <cell>6</cell>
                             </row>
                         </table>
-                        <p><pb facs="033" n="c 1r"/>☙ Vilt du vide/ huor
-                            langt der er vdi noget Aar imellem Juledag oc Fastelaffuens Søndag/ Da
-                            gack ret op i denne forscreffne Taffle/ fra Søndags Bogstaffuen i det
-                            Aar om huilcket du dette at vide begærer/ indtil du kommer lige ieffne
-                            for samme Aars Gyldental/ der finder du Vgernis tal imellem Jul oc
-                            Fastelaffuen. </p>
-                        <p>
-                            ☙ Men for Søndags bogstaffuers omskifftelse/
-                            falder icke Juledag altid paa en Søndag/ oc der aff kommer det/ at
-                            foruden de gantske Vger/ som ere imellem Jul oc Fastelaffue<ex>n</ex>/
-                            findis nogle dage mindre end 7. imellem Juledag oc den neste Søndag
-                            effter Juledag. Disse dage kaldis Concurrentes/ det er/ Offuerløbs dage:
-                            Huilcke oss tilkiende giffuis ved Søndags bogstaffuene. Thi at naar A.
-                            er Søndags bogstaff/ da ere der ingen Offuerløbs Dage. Naar B. er der 1.
-                            Naar C. er der 2. <ex>etc</ex>. Som du maat see dem i denne forscreffne
-                            taffle/ neden vnder Søndags bogstaffuene antegnit. </p>
-                        <p>
-                            ☙ Fra Fastelaffuens Søndag til Paaske/ haff<lb
-                                rend="="/>uer du 7. Vger. Den 40. dag der effter/ haffuer du Christi
-                            Himmelfarts dag. Den 10. dag der effter/ haffuer du Pindzedag. Neste
-                            Søndag der effter/ haffuer du den Hellige Trefoldigheds Søndag. Aff
-                            huilcken alle de andre Søndager neffnis oc tællis/ indtil Aduenten. Fra
-                            første Aduent Søndag/ indtil Juledag/ er i det minste 3. Vger oc 1. dag.
-                        </p>
+                        <p><pb facs="033" n="c 1r"/>☙ Vilt du vide/ huor langt der er vdi noget Aar
+                            imellem Juledag oc Fastelaffuens Søndag/ Da gack ret op i denne
+                            forscreffne Taffle/ fra Søndags Bogstaffuen i det Aar om huilcket du
+                            dette at vide begærer/ indtil du kommer lige ieffne for samme Aars
+                            Gyldental/ der finder du Vgernis tal imellem Jul oc Fastelaffuen. </p>
+                        <p> ☙ Men for Søndags bogstaffuers omskifftelse/ falder icke Juledag altid
+                            paa en Søndag/ oc der aff kommer det/ at foruden de gantske Vger/ som
+                            ere imellem Jul oc Fastelaffue<ex>n</ex>/ findis nogle dage mindre end
+                            7. imellem Juledag oc den neste Søndag effter Juledag. Disse dage kaldis
+                            Concurrentes/ det er/ Offuerløbs dage: Huilcke oss tilkiende giffuis ved
+                            Søndags bogstaffuene. Thi at naar A. er Søndags bogstaff/ da ere der
+                            ingen Offuerløbs Dage. Naar B. er der 1. Naar C. er der 2. <ex>etc</ex>.
+                            Som du maat see dem i denne forscreffne taffle/ neden vnder Søndags
+                            bogstaffuene antegnit. </p>
+                        <p> ☙ Fra Fastelaffuens Søndag til Paaske/ haff<lb rend="="/>uer du 7. Vger.
+                            Den 40. dag der effter/ haffuer du Christi Himmelfarts dag. Den 10. dag
+                            der effter/ haffuer du Pindzedag. Neste Søndag der effter/ haffuer du
+                            den Hellige Trefoldigheds Søndag. Aff huilcken alle de andre Søndager
+                            neffnis oc tællis/ indtil Aduenten. Fra første Aduent Søndag/ indtil
+                            Juledag/ er i det minste 3. Vger oc 1. dag. </p>
                     </div>
                     <div>
                         <head>Vilt du vide Aduenten.</head>
@@ -4018,8 +4001,8 @@
                     </div>
                     <div>
                         <head>Mange de besynderligste rørlige Fester ere.</head>
-                        <p>☙ De rørlige Fester om huilcke wi tilforne ta<lb
-                                rend="="/>let haffue/ ere Aarligen disse effterfølgende. </p>
+                        <p>☙ De rørlige Fester om huilcke wi tilforne ta<lb rend="="/>let haffue/
+                            ere Aarligen disse effterfølgende. </p>
                         <list rend="simple">
                             <item n="1."><pb facs="034" n="c 1v"/>Septuagesima/ det er/ den 9.
                                 Søndag for Paaske.</item>
@@ -4034,22 +4017,20 @@
                     </div>
                     <div>
                         <head n="5">Om de wrørlige Fester.</head>
-                        <p>☙ Disse effterfølgende Fester oc Høytider/ som
-                            ere/ Juledag/ Sancte Staphens oc Sancte Hans Euangelistes dag/ Nyt Aars
-                            dag/ Hellige tre Kongers dag/ Kyndelmisse dag/ Marie forkyndelses oc
-                            besøgelses dag/ Sancte Hans Baptistes dag/ Sancte Michels oc Alle
-                            Helligens dag: Kaldes wrørlige Fester oc Høytider. Thi at de altid falde
-                            oc holdis Aarligen paa de samme visse dage i huert Maanit/ Hoss huilcke
-                            de staa optegnit vdi Calendario/ huer hoss sin dag oc Bogstaff. Endog at
-                            de komme icke altid paa den samme dag om Vgen/ for Søndags bogstaffs
-                            omskifftelse skyld. </p>
-                        <p>☙ Exempel. Vor Herris Jesu Christi fødzels dag
-                            er it Wrørligt Fest. Thi den falder oc holdis huert Aar paa den 25. dag
-                            Decembris (Der som den bogstaff B. staar) huad heller B. er Søndags
-                            Bogstaff eller ey. </p>
-                        <p>☙ Merck/ At der som Marie Forkyndelses dag /
-                            falder i Dimmel Vge/ Da skal hand holdis paa Palme Løffuerdag/ effter
-                            gammel sed. </p>
+                        <p>☙ Disse effterfølgende Fester oc Høytider/ som ere/ Juledag/ Sancte
+                            Staphens oc Sancte Hans Euangelistes dag/ Nyt Aars dag/ Hellige tre
+                            Kongers dag/ Kyndelmisse dag/ Marie forkyndelses oc besøgelses dag/
+                            Sancte Hans Baptistes dag/ Sancte Michels oc Alle Helligens dag: Kaldes
+                            wrørlige Fester oc Høytider. Thi at de altid falde oc holdis Aarligen
+                            paa de samme visse dage i huert Maanit/ Hoss huilcke de staa optegnit
+                            vdi Calendario/ huer hoss sin dag oc Bogstaff. Endog at de komme icke
+                            altid paa den samme dag om Vgen/ for Søndags bogstaffs omskifftelse
+                            skyld. </p>
+                        <p>☙ Exempel. Vor Herris Jesu Christi fødzels dag er it Wrørligt Fest. Thi
+                            den falder oc holdis huert Aar paa den 25. dag Decembris (Der som den
+                            bogstaff B. staar) huad heller B. er Søndags Bogstaff eller ey. </p>
+                        <p>☙ Merck/ At der som Marie Forkyndelses dag / falder i Dimmel Vge/ Da skal
+                            hand holdis paa Palme Løffuerdag/ effter gammel sed. </p>
                         <div>
                             <head>De IIII. Tamperdage/ at vide for Aarsens tide oc atskillige
                                 bestilling skyld/ oc icke for den Wgudelige oc Papistiske
@@ -4083,8 +4064,7 @@
                                 <l>Er Natten oc Dagen lige vijd. </l>
                             </lg>
                             <lg>
-                                <l>Sancte Viti er den lengste dag/
-                                    ocsaa</l>
+                                <l>Sancte Viti er den lengste dag/ ocsaa</l>
                                 <l>Sancte Lucia den lengste Nat formaa.</l>
                             </lg>
                         </div>
@@ -4263,133 +4243,106 @@
                 <div>
                     <head n="5">Solens oc Maanens formørckelse/ som skeer vdi disse neste
                         effterfølgende 19. Aar.</head>
-                    <p>
-                        ☙ Solens Formørckelse skeer vdi Maaneskiff<lb
-                            rend="="/>te/ naar Maanen kommer ret lige vnder Solen/ oc skiuder sig
-                        ret lige imellem Solen oc oss/ oc met sin tyckhed betager Solens skin fra
-                        oss. </p>
-                    <p>
-                        ☙ Maanens Formørckelse skeer vdi Fuldmaa<lb
-                            rend="="/>ne/ naar Jorden met sin skugge er ret lige imellem <pb
-                            facs="039" n="c 4r"/> Solen oc Maanen/ som staa ret lige tuert imod huer
-                        andre / saa at Maanen kommer ind i Jordens skugge/ formørckis oc mister sit
-                        skin oc klare liuss/ som hun haffuer aff Solen. </p>
-                    <p>
-                        ☙ Saadanne Formørckelse skeer i disse Aarin<lb
-                            rend="="/>ger saare mange oc forskreckelige/ oc ere verde at acte som
-                        visse tegn/ huilcke der giffue oss tilkiende/ at Jesu Christi tilkommelse oc
-                        Dommedag ere nær/ (<ref target="#luk-21"><orig>Luc. 21.</orig><reg>Luk
-                                21</reg></ref>) Derfor effterdi at dette Calendarium kand icke saa
-                        til pricke vduise Maanens oc Solens lob met beggis deris Formørckelse/ da
-                        haffuer ieg her/ dem til villie som icke altid kunde haffue Aarlige
-                        Almanach/ optegnit aff Cypriano Leouitio saa mange <app>
+                    <p> ☙ Solens Formørckelse skeer vdi Maaneskiff<lb rend="="/>te/ naar Maanen
+                        kommer ret lige vnder Solen/ oc skiuder sig ret lige imellem Solen oc oss/
+                        oc met sin tyckhed betager Solens skin fra oss. </p>
+                    <p> ☙ Maanens Formørckelse skeer vdi Fuldmaa<lb rend="="/>ne/ naar Jorden met
+                        sin skugge er ret lige imellem <pb facs="039" n="c 4r"/> Solen oc Maanen/
+                        som staa ret lige tuert imod huer andre / saa at Maanen kommer ind i Jordens
+                        skugge/ formørckis oc mister sit skin oc klare liuss/ som hun haffuer aff
+                        Solen. </p>
+                    <p> ☙ Saadanne Formørckelse skeer i disse Aarin<lb rend="="/>ger saare mange oc
+                        forskreckelige/ oc ere verde at acte som visse tegn/ huilcke der giffue oss
+                        tilkiende/ at Jesu Christi tilkommelse oc Dommedag ere nær/ (<ref
+                            target="#luk-21"><orig>Luc. 21.</orig><reg>Luk 21</reg></ref>) Derfor
+                        effterdi at dette Calendarium kand icke saa til pricke vduise Maanens oc
+                        Solens lob met beggis deris Formørckelse/ da haffuer ieg her/ dem til villie
+                        som icke altid kunde haffue Aarlige Almanach/ optegnit aff Cypriano Leouitio
+                        saa mange <app>
                             <lem>Formørckelser</lem>
                             <rdg wit="#orig">Formørskelser</rdg>
                         </app>/ som der kand skee vdi Solen oc Maanen/ vdi disse neste
                         effterfølgende 19. Aar. Oc haffuer samme Cyprianus beregnit dem/ ad
                         longitudinem Augustanam. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1570. Formørckis den gantske
-                        Maane tuenne gang. <list rend="simple">
+                    <p> ☙ Aar <ex>etc</ex>. 1570. Formørckis den gantske Maane tuenne gang. <list
+                            rend="simple">
                             <item>* Første gang/ om en Mandag/ paa den 20. dag Februarij/ om
                                 efftermiddag/ ved 7. slæt. </item>
                             <item>* Anden gang/ om en Tisdag/ paa den 15. dag Augusti/ om
                                 efftermiddag/ ved 9. slæt. </item>
                         </list>
                     </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1571. bliffuer her ingen
-                        Formørckelse. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1572. Formørckis Maanen/ om en
-                        Onsdag/ paa den 25. dag Junij/ om efftermiddag ved 9. slæt. </p>
-                    <p>
-                         Aar <ex>etc</ex>. 1573. Formørckis den gantske
-                        Maane/ om en Tisdag/ paa den 8. dag Decembris/ om efftermiddag ved 8. slæt. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1574. Formørckis Solen om en
-                        Løffuerdag/ paa den 13. dag Nouembris/ om efftermiddag ved 4. slæt. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1575. bliffuer her ingen For<lb
-                            rend="="/>mørckelse. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1576. Formørckis Maanen/ om <pb
-                            facs="040" n="c 4v"/> en Søndag/ paa den 7. dag Octobris. Om effter<lb
-                            rend="="/>middag ved 11. slæt. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1577. Formørckis den gantske
-                        Maane tøsser. <list rend="simple">
+                    <p> ☙ Aar <ex>etc</ex>. 1571. bliffuer her ingen Formørckelse. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1572. Formørckis Maanen/ om en Onsdag/ paa den 25. dag
+                        Junij/ om efftermiddag ved 9. slæt. </p>
+                    <p> Aar <ex>etc</ex>. 1573. Formørckis den gantske Maane/ om en Tisdag/ paa den
+                        8. dag Decembris/ om efftermiddag ved 8. slæt. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1574. Formørckis Solen om en Løffuerdag/ paa den 13. dag
+                        Nouembris/ om efftermiddag ved 4. slæt. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1575. bliffuer her ingen For<lb rend="="/>mørckelse. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1576. Formørckis Maanen/ om <pb facs="040" n="c 4v"/> en
+                        Søndag/ paa den 7. dag Octobris. Om effter<lb rend="="/>middag ved 11. slæt. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1577. Formørckis den gantske Maane tøsser. <list
+                            rend="simple">
                             <item>* Første gang/ om en Tisdag/ paa den 2. dag Aprilis/ om
                                 efftermiddag/ ved 9. slæt. </item>
                             <item>* Anden gang/ om en Fredag/ paa den 27. dag Septembris/ aarle ved
                                 1. slæt. </item>
                         </list>
                     </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1578. Formørckis Maanen saare
-                        lidet / om en Tisdag/ paa den 16. dag Septembris/ Aarle ved 1. slæt. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1579. Formørckis Solen om en
-                        Onsdag / paa den 25. dag Februarij/ om Afftenen/ ved Solens nedgang. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1580. Formørckis all Maanen/ om
-                        en Søndag/ paa den 31. dag Januarij/ om efftermiddag/ ved 11. slæt. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1581. Formørckis den gantske
-                        Maane tøsser. <list rend="simple">
+                    <p> ☙ Aar <ex>etc</ex>. 1578. Formørckis Maanen saare lidet / om en Tisdag/ paa
+                        den 16. dag Septembris/ Aarle ved 1. slæt. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1579. Formørckis Solen om en Onsdag / paa den 25. dag
+                        Februarij/ om Afftenen/ ved Solens nedgang. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1580. Formørckis all Maanen/ om en Søndag/ paa den 31.
+                        dag Januarij/ om efftermiddag/ ved 11. slæt. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1581. Formørckis den gantske Maane tøsser. <list
+                            rend="simple">
                             <item>* Første gang/ om en Torsdag/ paa den 19. dag Januarij/ om
                                 efftermiddag/ ved 11. slæt. </item>
                             <item>* Anden gang/ om en Søndag/ paa den 16. dag Julij/ om Morgenen/
                                 ved 5. slæt.</item>
                         </list></p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1582. Formørckis Solen/ om en
-                        Onsdag/ paa den 20. dag Junij/ om Morgenen/ ved 4. slæt. <list rend="simple">
+                    <p> ☙ Aar <ex>etc</ex>. 1582. Formørckis Solen/ om en Onsdag/ paa den 20. dag
+                        Junij/ om Morgenen/ ved 4. slæt. <list rend="simple">
                             <item>* Samme Aar/ skeer der en saare liden Formørckelse i Maanen/ paa
                                 8. minuter. Om en Tisdag/ paa den 9. dag Januarij/ Aarle ved Midnats
                                 tid.</item>
                         </list></p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1583. Skeer her ingen Formør<lb
-                            rend="="/>ckelse. Men de som boer vdi Hispanien/ eller saa langt/ heller
-                        lengre borte imod Vesten/ skulle see at Maanen siddendis vdi Vesten lidet
-                        Formørckis/ paa den 19. dag Nouemb: imod som Solen gaar op. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1584. Skeer der en stor
-                        forsamling aff alle Planeter. Thi at vdi Martij ende oc Aprilis begyndelse/
-                        in Ariete/ kommer alle Planeter tilsammen/ in fine Trigoni Aquei. Oc
-                        scriffuer <pb facs="041" n="c 5r"/>Cyprianus Leouitius en sted/ at vdi denne
-                        Trigoni ende/ er der icke vden tuenne saadan forsamling aff alle Planeter
-                        skeed vdi 1590. Aars tid. Den ene skeede 6. Aar for Christi fødzel oc første
-                        tilkommelse til Verden. Den anden skeede vdi Keiser Caroli Magni tid/ i det
-                        Aar effter Christi Fødzel/ 789. Oc meener samme Cyprianus Leouitius/ at
-                        denne seltzame oc vnderlige Forsamling aff alle Planeter/ kand oc holdis for
-                        it tegn for vor Herris Jesu Christi anden oc siste tilkommelse til Dommen.
-                        Effter som wi ocsaa aff mange andre tegn paamindis/ at denne tilkommelse er
-                        nær. <list rend="simple">
+                    <p> ☙ Aar <ex>etc</ex>. 1583. Skeer her ingen Formør<lb rend="="/>ckelse. Men de
+                        som boer vdi Hispanien/ eller saa langt/ heller lengre borte imod Vesten/
+                        skulle see at Maanen siddendis vdi Vesten lidet Formørckis/ paa den 19. dag
+                        Nouemb: imod som Solen gaar op. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1584. Skeer der en stor forsamling aff alle Planeter.
+                        Thi at vdi Martij ende oc Aprilis begyndelse/ in Ariete/ kommer alle
+                        Planeter tilsammen/ in fine Trigoni Aquei. Oc scriffuer <pb facs="041"
+                            n="c 5r"/>Cyprianus Leouitius en sted/ at vdi denne Trigoni ende/ er der
+                        icke vden tuenne saadan forsamling aff alle Planeter skeed vdi 1590. Aars
+                        tid. Den ene skeede 6. Aar for Christi fødzel oc første tilkommelse til
+                        Verden. Den anden skeede vdi Keiser Caroli Magni tid/ i det Aar effter
+                        Christi Fødzel/ 789. Oc meener samme Cyprianus Leouitius/ at denne seltzame
+                        oc vnderlige Forsamling aff alle Planeter/ kand oc holdis for it tegn for
+                        vor Herris Jesu Christi anden oc siste tilkommelse til Dommen. Effter som wi
+                        ocsaa aff mange andre tegn paamindis/ at denne tilkommelse er nær. <list
+                            rend="simple">
                             <item>* Samme Aar Formørckis Solen/ om en Torsdag/ paa den 30. dag
                                 Aprilis/ om Morgenen/ ved 5. slæt. </item>
                             <item>* Samme Aar Formørckis oc den gantske Maane/ om en Søndag/ paa den
                                 8. dag Nouembris/ Aarle ved 1. slæt. </item>
                         </list></p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1585. Formørckis den gantske
-                        Soel/ saare forskreckeligen/ om en Mandag/ paa den 19. dag Aprilis/ om
-                        efftermiddag/ imod som Solen gaar ned. <list rend="simple">
+                    <p> ☙ Aar <ex>etc</ex>. 1585. Formørckis den gantske Soel/ saare
+                        forskreckeligen/ om en Mandag/ paa den 19. dag Aprilis/ om efftermiddag/
+                        imod som Solen gaar ned. <list rend="simple">
                             <item>* Samme Aar/ Formørckis Maanen lidet/ om en Mandag/ paa den 3. dag
                                 Maij/ strax effter Solens nedgang/ som vdi Vngern / Sibenburgen oc
                                 andre østerlande bliffuer seet allereniste.</item>
                         </list>
                     </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1586. Skeer her ingen Formør<lb
-                            rend="="/>ckelse. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1587. Formørckis Maanen/ Om en
-                        Onsdag/ paa den 6. dag Septembris/ om efftermiddag/ ved 9. slæt. </p>
-                    <p>
-                        ☙ Aar <ex>etc</ex>. 1588. Formørckis den gantske
-                        Maane tuenne gang. <list rend="simple">
+                    <p> ☙ Aar <ex>etc</ex>. 1586. Skeer her ingen Formør<lb rend="="/>ckelse. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1587. Formørckis Maanen/ Om en Onsdag/ paa den 6. dag
+                        Septembris/ om efftermiddag/ ved 9. slæt. </p>
+                    <p> ☙ Aar <ex>etc</ex>. 1588. Formørckis den gantske Maane tuenne gang. <list
+                            rend="simple">
                             <item>* Første gang/ om en Søndag/ den 3. dag Martij/ aarle ved 3. slæt. </item>
                             <item>* Anden gang/ om en Mandag/ den 26. dag Augusti/ om Morgenen/ ved
                                 5. slæt. </item>
@@ -4404,53 +4357,46 @@
                     Kongers/ Jtem Gudfryctige Mends oc Quinders exempel i det gamle Testamente/
                     huilcke met Sang oc Klang/ met Psalmer/ met Harper oc allehaande Strengeleg
                     pleiede at loffue oc prise Gud for sine velgierninger.</p>
-                <p>
-                    Dernest er det oc obenbare/ at saadan en brug/
-                    besynderlig met Psalmer/ haffuer værit fra begyndelsen vdi den menige
-                    Christenhed. Ja end ocsaa Sancte Pouel haffuer saadant beskicket oc befalet/
-                        <ref target="#kor-1-14"><orig>1. Corinth. 14.</orig><reg>1 Kor
-                        14</reg></ref> Oc til de <ref target="#kol-3"><orig>Colosser i det 3.
-                            Capitel</orig><reg>Kol 3</reg></ref>/ befaler at siunge Aan<lb rend="="
-                    />delige Viser oc Psalmer faar Herren aff hiertit/ paa det at Guds Ord oc den
-                    Christelige lærdom kunde der ved i mange atskillige maader forhandlis oc
-                    øffuis.</p>
-                <p>
-                    Gud haffuer jo giort vort hierte/ sind oc mod lystigt
-                    oc glad/ ved sin elskelige Søn som hand gaff for oss til en Genløselse fra
-                    Synden/ Døden oc Dieffuelen. Derfor huem <pb facs="043" n="c 6r"/> saadant tror/
-                    den kand icke andit end met lyst oc glæde siunge oc tale her om/ at andre det oc
-                    saa høre oc anamme kunde. Men den som icke vil siunge eller tale der om/ det er
-                    it tegn til/ at hand icke tror det <ex>etc</ex>.</p>
-                <p>
-                    Derfor haffuer ieg met nogle Andre dictet oc tilsammen
-                    set nogle Aandelige Viser/ at dem som dette bedre giøre kunde / her met en god
-                    begyndelse oc Orsag giffuis maatte: At det hellige Euangelium (som nu aff Guds
-                    Naade er igen opkommit) kunde end oc saaledis komme paa Foden igen/ brugis/
-                    fordis/ fremmis oc beuaris. At wi oc kunde berømme oss/ som Moses giør i sin
-                    Loffsang/ Exod: 15. At Christus er vort Loffsang: oc at wi ey skulle vide nogit
-                    andit at siunge eller tale om/ end Jesum Christum vor Frelsermand. Som Paulus
-                    taler/ <ref target="#kor-1-2"><orig>1. Corinth. 2.</orig><reg>1 Kor
-                        2</reg></ref></p>
-                <p>
-                    Oc vilde ieg gierne/ at disse Sang kunde end oc settis
-                    oc siungis paa fire stemmer/ paa det at Vngdo<ex>m</ex>men (som dog skal vdi
-                    Musica oc andre rette gode Konster opdragis) maatte haffue nogit til at
-                    fordriffue hine forgifftige Boleuiser oc kiødelige sang met/ oc saaledis faa
-                    Orsag til at offuergiffue dem oc skillie sig aff met dem. Oc i deris sted maatte
-                    lære nogit som Gudfryctigt er til deris Saligheds forfremmelse. Saa at det gode
-                    kunde saa <pb facs="044" n="c 6v"/>met lyst aff Vngdommen (som dog bør at haffue
-                    sin lyst) anammis/ oc i dem indplantis. Jtem/ paa det at huer maatte see/ at ieg
-                    er icke i den mening/ at alle Konster skulle ved Euangelium forstørris forgaa oc
-                    ødeleggis/ som somme Suermere (huilcke dog ville siunis megit Aandelige)
-                    faaregiffue: Men at ieg vilde gierne see / at alle Konster/ oc besynderlig
-                    Musica/ maatte forfremmis/ oc tiene den som dem giffuit oc forskaffit haff<lb
-                        rend="="/>uer.</p>
-                <p>
-                    Derfor vil ieg oc haffue alle fromme Chri<lb rend="="
-                    />stne ombedit/ at huer vilde lade sig saadant vel befalde/ oc hielpe til at det
-                    maatte videre forbedris oc forfremmis/ effter som Gud hannem sin Naade giffuer
-                    til at bekomme saadanne flere Sang. Den gantske Verden er dog (diss værre) alt
-                    formegit lad forsømmelig oc skødisløss/ til at opdrage oc lære </p>
+                <p> Dernest er det oc obenbare/ at saadan en brug/ besynderlig met Psalmer/ haffuer
+                    værit fra begyndelsen vdi den menige Christenhed. Ja end ocsaa Sancte Pouel
+                    haffuer saadant beskicket oc befalet/ <ref target="#kor-1-14"><orig>1. Corinth.
+                            14.</orig><reg>1 Kor 14</reg></ref> Oc til de <ref target="#kol-3"
+                            ><orig>Colosser i det 3. Capitel</orig><reg>Kol 3</reg></ref>/ befaler
+                    at siunge Aan<lb rend="="/>delige Viser oc Psalmer faar Herren aff hiertit/ paa
+                    det at Guds Ord oc den Christelige lærdom kunde der ved i mange atskillige
+                    maader forhandlis oc øffuis.</p>
+                <p> Gud haffuer jo giort vort hierte/ sind oc mod lystigt oc glad/ ved sin elskelige
+                    Søn som hand gaff for oss til en Genløselse fra Synden/ Døden oc Dieffuelen.
+                    Derfor huem <pb facs="043" n="c 6r"/> saadant tror/ den kand icke andit end met
+                    lyst oc glæde siunge oc tale her om/ at andre det oc saa høre oc anamme kunde.
+                    Men den som icke vil siunge eller tale der om/ det er it tegn til/ at hand icke
+                    tror det <ex>etc</ex>.</p>
+                <p> Derfor haffuer ieg met nogle Andre dictet oc tilsammen set nogle Aandelige
+                    Viser/ at dem som dette bedre giøre kunde / her met en god begyndelse oc Orsag
+                    giffuis maatte: At det hellige Euangelium (som nu aff Guds Naade er igen
+                    opkommit) kunde end oc saaledis komme paa Foden igen/ brugis/ fordis/ fremmis oc
+                    beuaris. At wi oc kunde berømme oss/ som Moses giør i sin Loffsang/ Exod: 15. At
+                    Christus er vort Loffsang: oc at wi ey skulle vide nogit andit at siunge eller
+                    tale om/ end Jesum Christum vor Frelsermand. Som Paulus taler/ <ref
+                        target="#kor-1-2"><orig>1. Corinth. 2.</orig><reg>1 Kor 2</reg></ref></p>
+                <p> Oc vilde ieg gierne/ at disse Sang kunde end oc settis oc siungis paa fire
+                    stemmer/ paa det at Vngdo<ex>m</ex>men (som dog skal vdi Musica oc andre rette
+                    gode Konster opdragis) maatte haffue nogit til at fordriffue hine forgifftige
+                    Boleuiser oc kiødelige sang met/ oc saaledis faa Orsag til at offuergiffue dem
+                    oc skillie sig aff met dem. Oc i deris sted maatte lære nogit som Gudfryctigt er
+                    til deris Saligheds forfremmelse. Saa at det gode kunde saa <pb facs="044"
+                        n="c 6v"/>met lyst aff Vngdommen (som dog bør at haffue sin lyst) anammis/
+                    oc i dem indplantis. Jtem/ paa det at huer maatte see/ at ieg er icke i den
+                    mening/ at alle Konster skulle ved Euangelium forstørris forgaa oc ødeleggis/
+                    som somme Suermere (huilcke dog ville siunis megit Aandelige) faaregiffue: Men
+                    at ieg vilde gierne see / at alle Konster/ oc besynderlig Musica/ maatte
+                    forfremmis/ oc tiene den som dem giffuit oc forskaffit haff<lb rend="="
+                    />uer.</p>
+                <p> Derfor vil ieg oc haffue alle fromme Chri<lb rend="="/>stne ombedit/ at huer
+                    vilde lade sig saadant vel befalde/ oc hielpe til at det maatte videre forbedris
+                    oc forfremmis/ effter som Gud hannem sin Naade giffuer til at bekomme saadanne
+                    flere Sang. Den gantske Verden er dog (diss værre) alt formegit lad forsømmelig
+                    oc skødisløss/ til at opdrage oc lære </p>
                 <p>Vngdommen/ at mand tør ey selff først der til ocsaa Orsag giffue. Gud giffue oss
                     sin Naade/ AMEN. </p>
             </div>
@@ -4466,65 +4412,59 @@
                     eders hierte. Oc alt det som i giøre/ met ord eller met gierninger / det giører
                     altsammen i vor Herris Jesu naffn/ oc tacker Gud oc Faderen formedelst
                     hannem.</p>
-                <p>
-                    Her befaler den hellige Paulus/ først/ at wi
-                    allesammen/ Vnge oc Gamle/ Mand oc Quinde/ den ene met den anden/ skulle
-                    RJGELJGE lære/ anamme oc stedse beholde det hellige Guds ord/ oc det icke
-                    alleniste i Kirckerne/ eller til vore Naboers: Men oc i vore Huse dagligen
-                    øffue/ høre/ læse/ tencke oc tale Guds Ord/ at det io kunde vel rodfestis i vore
-                    hierter/ saa at ingen fristelse eller forfølgelse vndrycker oss det i nogen
-                    maade.</p>
-                <p><pb facs="046" n="c 7v"/>For det andet/ effterdi at
-                    mange omgaaes saa met Guds Ord/ at de enten icke forstaa det/ men læse eller
-                    siunge det wflitteligen met en forfengelig mundklammer: (lige som hine
-                    Papistiske Prester/ Muncke oc Nunner fremsnurre deris Læsning oc sang/ den de
-                    icke forstaa) heller oc vanbruge det til nogen Ketterj oc falsk Lærdom at
-                    bestyrcke/ som Papisterne/ Gendøbere/ Sacramenterer/ Antinomi oc andre Sophister
-                    oc Suermere giøre: Da vil Paulus at wi icke saaledis/ men i all Visdom skulle
-                    Christi ord anamme oc beholde/ saa at wi det rettelige oc grundelige forstaa/ oc
-                    der aff flitteligen lære at kiende Gud/ lige som hand sig der vdi obenbarit
-                    haffuer: huem oc huad hand er/ oc huad hans villie er imod oss/ huad hand
-                    haffuer ladet sin Enbaarne Søn lide oc giøre for vor skyld/ oc huil<lb rend="="
-                    />cken wbegribelig Naade oc gaffuer hand oss ved hannem skencker. Huad hand igen
-                    vdkreffuer aff oss/ at wi tro/ giøre eller lade oc lide skulle. Oc at Guds Søn
-                    som er Faderens <foreign xml:lang="gr">λογοσ</foreign>/ det er/ euige Ord oc
-                    talende person/ vil ved dette liudelige oc mundelige ord (som predickis/ høris
-                    oc trois) vere krafftig vdi oss (som det høre/ lære oc tro/ oc i vort leffnit
-                    effterfølge) oc giffue oss sin hellig Aand/ som optender i oss liuss/ trøst/
-                    liff oc glæde/ oc opuecker <pb facs="047" n="c 8r"/> vore hierter til at wi
-                    begynde at elske Gud oc vor Næste <ex>etc</ex>. Oc at den hellige Trefoldighed
-                    vil saa bo oc bygge altid oc euig hoss alle dem dette hans Ord beuare. <ref
-                        target="#joh-14"><orig>Johan. 14.</orig><reg>Joh 14</reg></ref></p>
-                <p>
-                    For det tredie/ lærer Paulus/ at det er icke den
-                    ringeste maade til at rigelige oc Christelige bruge/ øffue/ formere oc beuare
-                    Guds Ords salige kundskab iblant oss/ at wi det haffue met skøne Rim befattet
-                    vdi Psalmer oc Loffsange/ oc Aandelige deilige Viser/ som wi skulle siunge for
-                    HERren aff hiertet/ det er/ aff en hiertens tro oc tillid til Gud/ i vor Herris
-                    Jesu Christi naffn/ met den act/ at wi ville loffue oc prise HERren/ oss
-                    indbyrdis til opbyggelse oc forbedring for HERren/ at wi som siunge om de
-                    Aandelige ting/ kunde oc faa den hellig Aands forstand oc trøst i vore
-                    hierter.</p>
-                <p>
-                    Guds ord er i sig selff den allerliffligste Musica /
-                    som giffuer trøst oc liff mit i dødsens nød/ oc rettelige kand fryde hiertet:
-                    Men naar der kommer en sød oc lifflige sang oc Melodie der til (som er ocsaa
-                    Guds synderlig gaffue) da faar denne Sang en ny krafft/ oc gaar dybere ind i
-                    hiertet/ saa at Texten/ som er saa gaat som Sangens Siel/ rører hiertet meer/ oc
-                    glemmis icke lettelig.</p>
-                <p>Derfor befinde wi at den hellig Aand oc<pb facs="048"
-                        rend="=" n="c 8v"/>saa bruger atskillige Rim oc verss vdi de Bi<lb rend="="
-                    />belske Psalmer oc Loffsang/ som wi maa see vdi Mosis loffsang/ Jobs Historie/
-                    Salomons bøger/ Jeremie begrædelse/ vdi Esaie/ Michee / Habacuck oc Danielis
-                    sang/ oc besynderlig vdi den hellige Dicters oc lifflige Harpenslaaers i Jsrael/
-                    konning Dauids Psalmer.</p>
-                <p>Jomfru Maria/ Zacharias S. Hans baptistes Fader/ oc hin
-                    gamle Simeon/ haffue ocsaa/ aff den hellig Aands rørelse / i det ny Testamente
-                    priset vor Herre Jesum Christum met deris herlige Loffsange.</p>
-                <p>De hellige Apostler disligest/ oc siden den hellige
-                    Christelig Apostoliske Kircke/ haffue samptligen i deris Forsamling siungit
-                    deilige Loffsange oc Aandelige viser. <ref target="#kor-1-14"><orig>1. Corinth.
-                            14.</orig><reg>1 Kor 14</reg></ref>
+                <p> Her befaler den hellige Paulus/ først/ at wi allesammen/ Vnge oc Gamle/ Mand oc
+                    Quinde/ den ene met den anden/ skulle RJGELJGE lære/ anamme oc stedse beholde
+                    det hellige Guds ord/ oc det icke alleniste i Kirckerne/ eller til vore Naboers:
+                    Men oc i vore Huse dagligen øffue/ høre/ læse/ tencke oc tale Guds Ord/ at det
+                    io kunde vel rodfestis i vore hierter/ saa at ingen fristelse eller forfølgelse
+                    vndrycker oss det i nogen maade.</p>
+                <p><pb facs="046" n="c 7v"/>For det andet/ effterdi at mange omgaaes saa met Guds
+                    Ord/ at de enten icke forstaa det/ men læse eller siunge det wflitteligen met en
+                    forfengelig mundklammer: (lige som hine Papistiske Prester/ Muncke oc Nunner
+                    fremsnurre deris Læsning oc sang/ den de icke forstaa) heller oc vanbruge det
+                    til nogen Ketterj oc falsk Lærdom at bestyrcke/ som Papisterne/ Gendøbere/
+                    Sacramenterer/ Antinomi oc andre Sophister oc Suermere giøre: Da vil Paulus at
+                    wi icke saaledis/ men i all Visdom skulle Christi ord anamme oc beholde/ saa at
+                    wi det rettelige oc grundelige forstaa/ oc der aff flitteligen lære at kiende
+                    Gud/ lige som hand sig der vdi obenbarit haffuer: huem oc huad hand er/ oc huad
+                    hans villie er imod oss/ huad hand haffuer ladet sin Enbaarne Søn lide oc giøre
+                    for vor skyld/ oc huil<lb rend="="/>cken wbegribelig Naade oc gaffuer hand oss
+                    ved hannem skencker. Huad hand igen vdkreffuer aff oss/ at wi tro/ giøre eller
+                    lade oc lide skulle. Oc at Guds Søn som er Faderens <foreign xml:lang="gr"
+                        >λογοσ</foreign>/ det er/ euige Ord oc talende person/ vil ved dette
+                    liudelige oc mundelige ord (som predickis/ høris oc trois) vere krafftig vdi oss
+                    (som det høre/ lære oc tro/ oc i vort leffnit effterfølge) oc giffue oss sin
+                    hellig Aand/ som optender i oss liuss/ trøst/ liff oc glæde/ oc opuecker <pb
+                        facs="047" n="c 8r"/> vore hierter til at wi begynde at elske Gud oc vor
+                    Næste <ex>etc</ex>. Oc at den hellige Trefoldighed vil saa bo oc bygge altid oc
+                    euig hoss alle dem dette hans Ord beuare. <ref target="#joh-14"><orig>Johan.
+                            14.</orig><reg>Joh 14</reg></ref></p>
+                <p> For det tredie/ lærer Paulus/ at det er icke den ringeste maade til at rigelige
+                    oc Christelige bruge/ øffue/ formere oc beuare Guds Ords salige kundskab iblant
+                    oss/ at wi det haffue met skøne Rim befattet vdi Psalmer oc Loffsange/ oc
+                    Aandelige deilige Viser/ som wi skulle siunge for HERren aff hiertet/ det er/
+                    aff en hiertens tro oc tillid til Gud/ i vor Herris Jesu Christi naffn/ met den
+                    act/ at wi ville loffue oc prise HERren/ oss indbyrdis til opbyggelse oc
+                    forbedring for HERren/ at wi som siunge om de Aandelige ting/ kunde oc faa den
+                    hellig Aands forstand oc trøst i vore hierter.</p>
+                <p> Guds ord er i sig selff den allerliffligste Musica / som giffuer trøst oc liff
+                    mit i dødsens nød/ oc rettelige kand fryde hiertet: Men naar der kommer en sød
+                    oc lifflige sang oc Melodie der til (som er ocsaa Guds synderlig gaffue) da faar
+                    denne Sang en ny krafft/ oc gaar dybere ind i hiertet/ saa at Texten/ som er saa
+                    gaat som Sangens Siel/ rører hiertet meer/ oc glemmis icke lettelig.</p>
+                <p>Derfor befinde wi at den hellig Aand oc<pb facs="048" rend="=" n="c 8v"/>saa
+                    bruger atskillige Rim oc verss vdi de Bi<lb rend="="/>belske Psalmer oc
+                    Loffsang/ som wi maa see vdi Mosis loffsang/ Jobs Historie/ Salomons bøger/
+                    Jeremie begrædelse/ vdi Esaie/ Michee / Habacuck oc Danielis sang/ oc
+                    besynderlig vdi den hellige Dicters oc lifflige Harpenslaaers i Jsrael/ konning
+                    Dauids Psalmer.</p>
+                <p>Jomfru Maria/ Zacharias S. Hans baptistes Fader/ oc hin gamle Simeon/ haffue
+                    ocsaa/ aff den hellig Aands rørelse / i det ny Testamente priset vor Herre Jesum
+                    Christum met deris herlige Loffsange.</p>
+                <p>De hellige Apostler disligest/ oc siden den hellige Christelig Apostoliske
+                    Kircke/ haffue samptligen i deris Forsamling siungit deilige Loffsange oc
+                    Aandelige viser. <ref target="#kor-1-14"><orig>1. Corinth. 14.</orig><reg>1 Kor
+                            14</reg></ref>
                     <ref target="#ef-5"><orig>Ephes. 5.</orig><reg>Ef 5</reg></ref>
                     <ref target="#apg-2"><orig>Acto. 2.</orig><reg>ApG 2</reg></ref>
                     <ref target="#apg-4"><orig>4.</orig><reg>ApG 4</reg></ref>
@@ -4535,18 +4475,17 @@
                     Dagen/ da pleiede de samdrecteligen at siunge deris Gud Christo en Loffsang. Om
                     denne seduaane taler oc Justinus martyr/ Clemens/ Eusebius/ Nicephorus oc
                     Augustinus.</p>
-                <p>Thi at effter som de Christne i Øster<pb facs="049"
-                        rend="=" n="d 1r"/>landene oc Grecken brugede Christelig sang paa deris
-                    maal/ Saa toge de Christne i de Vesterlande/ besynderlig vdi Jtalien/ exempel
-                    aff dem/ at dicte oc bruge Christelig sang i deris Forsamling/ saa at i de 400.
-                    Aar fra Tertuliani indtil Gregorij Magni tid/ bleffue mange Gudelige verss aff
-                    Cypriano/ Juuenco/ Lactantio/ Prospero <ex>etc</ex>. Disligest mange skøne
-                    Hymner aff Hilario/ Ambrosio/ Damaso/ Prudentio/ Sedulio <ex>etc</ex>. dictet/
-                    Den fattige bedrøffuit oc atspredde Christendom til trøst oc vnderuisning imod
-                    den store forfølgelse/ oc mange Ketters Suermerij.</p>
-                <p>
-                    Oc er det merckeligt/ at Hieronimus dictet den
-                    bekiendelse om den hellige Trefoldighed. </p>
+                <p>Thi at effter som de Christne i Øster<pb facs="049" rend="=" n="d 1r"/>landene oc
+                    Grecken brugede Christelig sang paa deris maal/ Saa toge de Christne i de
+                    Vesterlande/ besynderlig vdi Jtalien/ exempel aff dem/ at dicte oc bruge
+                    Christelig sang i deris Forsamling/ saa at i de 400. Aar fra Tertuliani indtil
+                    Gregorij Magni tid/ bleffue mange Gudelige verss aff Cypriano/ Juuenco/
+                    Lactantio/ Prospero <ex>etc</ex>. Disligest mange skøne Hymner aff Hilario/
+                    Ambrosio/ Damaso/ Prudentio/ Sedulio <ex>etc</ex>. dictet/ Den fattige
+                    bedrøffuit oc atspredde Christendom til trøst oc vnderuisning imod den store
+                    forfølgelse/ oc mange Ketters Suermerij.</p>
+                <p> Oc er det merckeligt/ at Hieronimus dictet den bekiendelse om den hellige
+                    Trefoldighed. </p>
                 <lg>
                     <l>
                         <hi rend="italics">Gloria Patri et Filio,</hi></l>
@@ -4578,12 +4517,10 @@
                     siungen/ eller oc hand sang/ Ære være Gud Fader ved Sønnen <ex>etc</ex>. thi
                     hand for ingen deel vilde at den HERre Christus skulde æris lige met
                     Faderen.</p>
-                <p>
-                    Siden bleffue der tillagd jo flere oc flere Sang aff
-                    Syricio/ Celestino/ Gelasio oc andre/ indtil Gregorius magnus ved det Aar
-                        <ex>etc</ex>. 600. stifftet Scholer til at oplære Vngdommen i Chorsang (som
-                    aff hannem bleff kaldit den Gregorian sang) oc giorde store Sangbøger/
-                    Officiarium/ Antiphonariu<ex>m</ex>
+                <p> Siden bleffue der tillagd jo flere oc flere Sang aff Syricio/ Celestino/ Gelasio
+                    oc andre/ indtil Gregorius magnus ved det Aar <ex>etc</ex>. 600. stifftet
+                    Scholer til at oplære Vngdommen i Chorsang (som aff hannem bleff kaldit den
+                    Gregorian sang) oc giorde store Sangbøger/ Officiarium/ Antiphonariu<ex>m</ex>
                     <ex>etc</ex>. Saa at den megen Sang fick da offuerhaand/ for<lb rend="="
                     />hindrede Guds ords predicken/ oc andre Lande oc Riger bleffue ved det Aar
                         <ex>etc</ex>. 666. tiltuungen at bruge det fre<ex>m</ex>mede Latinske maal i
@@ -4598,91 +4535,79 @@
                         facs="051" n="d 2r"/>te end/ at de kunde fortiene sig oc andre stor Afflad
                     met saadanne offuerløbs gierninger: foruden den Bade oc Rente som saadan vraalen
                     dem indføre kunde.</p>
-                <p>
-                    Men der denne Dieffuelens forblindelse oc Affguderij
-                    met atskillige vederstyggelighed vaar paa det allerhøyeste/ Da begynte Gud ved
-                    Doctor Morten Luther/ salige ihukommelse/ sit klare Euangelij liuss at obenbare:
-                    oc iblant andit gaat at lade ved hannem dictis skøne tydske Psalmer oc Aandelige
-                    Viser/ huilckit flere Gudfryctige mend siden ocsaa (effter S. Poffuels lærdom
-                        <ref target="#kor-1-14"><orig>1. Cor. 14.</orig><reg>1 Kor 14</reg></ref>)
+                <p> Men der denne Dieffuelens forblindelse oc Affguderij met atskillige
+                    vederstyggelighed vaar paa det allerhøyeste/ Da begynte Gud ved Doctor Morten
+                    Luther/ salige ihukommelse/ sit klare Euangelij liuss at obenbare: oc iblant
+                    andit gaat at lade ved hannem dictis skøne tydske Psalmer oc Aandelige Viser/
+                    huilckit flere Gudfryctige mend siden ocsaa (effter S. Poffuels lærdom <ref
+                        target="#kor-1-14"><orig>1. Cor. 14.</orig><reg>1 Kor 14</reg></ref>)
                     giorde/ baade i Tydskland oc her i Da<ex>n</ex>marck/ paa det at Guds børn kunde
                     bekiende / loffue oc prise Gud met Psalmer paa deris egit maal/ som de
                     forstaa.</p>
-                <p>
-                    Den fromme Mand her Claus Mortensøn (som endnu leffuer)
-                    der hand haffde faait en ret smag om Guds ord aff Lutheri Bøger oc scriffuelse/
-                    Da bleff hand kaldit til Malmø at predicke det salige Euangelium/ oc at straffe
-                    Paffuens vildfarelse/ oc haffde dog sin første Predicken vden for Malmø vdi
-                    Raadsens vong/ paa den første dag Junij/ som vaar neste Onsdag for Christi
-                    Himmelfarts dag / i det Aar <ex>etc</ex>. 1527. <ex>etc</ex>. Siden i det
-                    nestefølgende Aar <ex>etc</ex>. 1528. vdsette hand no<pb facs="052" rend="="
-                        n="d 2v"/>gle tydske Psalmer paa vort Danske maal/ oc met sin metbroders her
-                    Hans Spandemagers (som er nu Sogneprest i Lund) raad oc hielp/ loed ved Prenten
-                    i Malmø vdgaa den første Danske Psalmebog: Huilcken bleff siden i det Aar
-                        <ex>etc</ex>. 1529. oc 1534. forbedrit aff dem/ oc aff her Aruid Pedersøn/
-                    nu salige hoss Gud/ som vaar Sogneprest til S. Jbs Kircke paa Boringholm/ oc
-                    nogle Gudfryctige mend i Jylland: foruden huess som er tilset aff en oc anden
-                    saa tit som den bleff paa ny igentryckt.</p>
-                <p>
-                    Men i det Aar <ex>etc</ex>. 1529. bleffue danske
-                    Psalmer først siungen her i Kiøbenhaffn om høsten/ aff Mester Hans Taussen/
-                    salige ihukommelse/ som kom da hid fra Viborg/ oc her saa vel som der predickede
-                    dristelig Jesu Christi klare Euangelium met stor fruct/ Gud være loffuit/ som
-                    endnu paakiender. Oc loed hand den danske Psalmebog vdprentis forbedrit/ i det
-                    Aar <ex>etc</ex>. 1544.</p>
-                <p>
-                    J det Aar <ex>etc</ex>. 1557. om Paasken kallede samme
-                    Mester Hans Taussen (som da vaar Superintendent i Riberstict) mig til at være en
-                    Scholemester i Ribe/ oc effterdi ieg da bleff fororsaget/ til at vnderuise
-                    Vngdommen ocsaa om danske Psalmer ret at siunge vdi Kirckerne/ oc der fattedis
-                    icke alleniste Noder til <pb facs="053" n="d 3r"/> mange Psalmer/ men ocsaa
-                    mange skøne Psalmer som Lutheri siste tydske Psalmebog dog indeholt: Begynte ieg
-                    da at beflitte mig her om/ at vdspørre de rette gamle Noder til huer Psalme/ oc
-                    at vdsette nogle besynderlige Psalmer aff Tydsken/ paa det at ieg i nogen maade
-                    kunde/ mig oc andre til bæste/ hielpe oc forbædre den Danske Psalmebog: Oc der
-                    til hialp mig da min kiere Fader Mester Thomas Knudsøn/ som vdi 44. Aar haffuer
-                    predicket/ oc endnu/ i sit 66. Aar/ predicker/ Gud ske loff/ Jesu Christi rene
-                    Euangelium vdi Hygom ved Ribe. Siden at ieg aff Guds gode forsiun bleff i det
-                    Aar <ex>etc</ex>. 1561. paa Pindzeafften kaldit til at være her en Sogneprest/
-                    haffuer ieg oc om samme Psalmer giort saa meget som ieg kunde/ oc tilhobe samlet
-                    mange deilige Loffsange oc Aandelige viser (som ere dictet oc vdset aff
-                    gudfryctige Christne ædel oc wædel) oc indset dem iblant de andre Psalmer.</p>
-                <p>
-                    Denne Psalmebog formerit met mange Christelige Sang
-                    (hen ved 150.) oc offuerseet aff de Høylærde/ som læse den hellige Scrifft/ oc
-                    de andre Professoribus her i Vniuersitetit/ haffuer ieg nu i Jesu naffn/ effter
-                    Kong: Maiest: vor allernaadigste Herris Konning Friderichs den andens/ Konnings
-                    vdi Danmarck oc Norge <ex>etc</ex>. naadigste beuil<pb facs="054" rend="="
-                        n="d 3v"/>ling oc befalning/ ladit flitteligen Corrigerit vdgaa/ met Noder
-                    til alle Psalmer / oc alleniste en Version oc fordanskelse paa huer Psalme/
-                    huilcken her i Kiøbenhaffn brugelig er: paa det at andre / for enigheds skyld/
-                    ocsaa samme Noder oc fordanskelse bruge kunde.</p>
-                <p>
-                    Psalmerne haffuer ieg set ordentlig oc skifft dem vnder
-                    vor Christendoms HoffuitArtickler/ paa det at mand dissbedre kunde finde de
-                    Psalmer/ som komme offuer eens met huer synderlige Høytid eller den dags
-                    Predicken.</p>
-                <p>
-                    Doctor Morten Luthers/ Doct: Justi Jonæ/ Doct. Pauli
-                    Eberi naffn/ met Elisa: Crucigers/ Alberj oc Mathesij/ haffuer ieg set hoss de
-                    Psalmer/ som de dictede/ dog paa Tydsk alleniste: til it vidnisbyrd/ end oc for
-                    vore Effterkom<ex>m</ex>ere/ at wi vdi Danmarckis oc Norrigis Riger predicke
+                <p> Den fromme Mand her Claus Mortensøn (som endnu leffuer) der hand haffde faait en
+                    ret smag om Guds ord aff Lutheri Bøger oc scriffuelse/ Da bleff hand kaldit til
+                    Malmø at predicke det salige Euangelium/ oc at straffe Paffuens vildfarelse/ oc
+                    haffde dog sin første Predicken vden for Malmø vdi Raadsens vong/ paa den første
+                    dag Junij/ som vaar neste Onsdag for Christi Himmelfarts dag / i det Aar
+                        <ex>etc</ex>. 1527. <ex>etc</ex>. Siden i det nestefølgende Aar
+                    <ex>etc</ex>. 1528. vdsette hand no<pb facs="052" rend="=" n="d 2v"/>gle tydske
+                    Psalmer paa vort Danske maal/ oc met sin metbroders her Hans Spandemagers (som
+                    er nu Sogneprest i Lund) raad oc hielp/ loed ved Prenten i Malmø vdgaa den
+                    første Danske Psalmebog: Huilcken bleff siden i det Aar <ex>etc</ex>. 1529. oc
+                    1534. forbedrit aff dem/ oc aff her Aruid Pedersøn/ nu salige hoss Gud/ som vaar
+                    Sogneprest til S. Jbs Kircke paa Boringholm/ oc nogle Gudfryctige mend i
+                    Jylland: foruden huess som er tilset aff en oc anden saa tit som den bleff paa
+                    ny igentryckt.</p>
+                <p> Men i det Aar <ex>etc</ex>. 1529. bleffue danske Psalmer først siungen her i
+                    Kiøbenhaffn om høsten/ aff Mester Hans Taussen/ salige ihukommelse/ som kom da
+                    hid fra Viborg/ oc her saa vel som der predickede dristelig Jesu Christi klare
+                    Euangelium met stor fruct/ Gud være loffuit/ som endnu paakiender. Oc loed hand
+                    den danske Psalmebog vdprentis forbedrit/ i det Aar <ex>etc</ex>. 1544.</p>
+                <p> J det Aar <ex>etc</ex>. 1557. om Paasken kallede samme Mester Hans Taussen (som
+                    da vaar Superintendent i Riberstict) mig til at være en Scholemester i Ribe/ oc
+                    effterdi ieg da bleff fororsaget/ til at vnderuise Vngdommen ocsaa om danske
+                    Psalmer ret at siunge vdi Kirckerne/ oc der fattedis icke alleniste Noder til
+                        <pb facs="053" n="d 3r"/> mange Psalmer/ men ocsaa mange skøne Psalmer som
+                    Lutheri siste tydske Psalmebog dog indeholt: Begynte ieg da at beflitte mig her
+                    om/ at vdspørre de rette gamle Noder til huer Psalme/ oc at vdsette nogle
+                    besynderlige Psalmer aff Tydsken/ paa det at ieg i nogen maade kunde/ mig oc
+                    andre til bæste/ hielpe oc forbædre den Danske Psalmebog: Oc der til hialp mig
+                    da min kiere Fader Mester Thomas Knudsøn/ som vdi 44. Aar haffuer predicket/ oc
+                    endnu/ i sit 66. Aar/ predicker/ Gud ske loff/ Jesu Christi rene Euangelium vdi
+                    Hygom ved Ribe. Siden at ieg aff Guds gode forsiun bleff i det Aar <ex>etc</ex>.
+                    1561. paa Pindzeafften kaldit til at være her en Sogneprest/ haffuer ieg oc om
+                    samme Psalmer giort saa meget som ieg kunde/ oc tilhobe samlet mange deilige
+                    Loffsange oc Aandelige viser (som ere dictet oc vdset aff gudfryctige Christne
+                    ædel oc wædel) oc indset dem iblant de andre Psalmer.</p>
+                <p> Denne Psalmebog formerit met mange Christelige Sang (hen ved 150.) oc offuerseet
+                    aff de Høylærde/ som læse den hellige Scrifft/ oc de andre Professoribus her i
+                    Vniuersitetit/ haffuer ieg nu i Jesu naffn/ effter Kong: Maiest: vor
+                    allernaadigste Herris Konning Friderichs den andens/ Konnings vdi Danmarck oc
+                    Norge <ex>etc</ex>. naadigste beuil<pb facs="054" rend="=" n="d 3v"/>ling oc
+                    befalning/ ladit flitteligen Corrigerit vdgaa/ met Noder til alle Psalmer / oc
+                    alleniste en Version oc fordanskelse paa huer Psalme/ huilcken her i Kiøbenhaffn
+                    brugelig er: paa det at andre / for enigheds skyld/ ocsaa samme Noder oc
+                    fordanskelse bruge kunde.</p>
+                <p> Psalmerne haffuer ieg set ordentlig oc skifft dem vnder vor Christendoms
+                    HoffuitArtickler/ paa det at mand dissbedre kunde finde de Psalmer/ som komme
+                    offuer eens met huer synderlige Høytid eller den dags Predicken.</p>
+                <p> Doctor Morten Luthers/ Doct: Justi Jonæ/ Doct. Pauli Eberi naffn/ met Elisa:
+                    Crucigers/ Alberj oc Mathesij/ haffuer ieg set hoss de Psalmer/ som de dictede/
+                    dog paa Tydsk alleniste: til it vidnisbyrd/ end oc for vore
+                    Effterkom<ex>m</ex>ere/ at wi vdi Danmarckis oc Norrigis Riger predicke
                     samdrectelig bekiende oc anamme den sande Euangeliske lærdom i Kircker oc
                     Scholer/ lige som den vdi den Vittembergiske Kircke oc Schole lærdis aff Doctor
                     Morten Luther/ Philippo Melanthone/ oc de andre merckelige Mend/ oc endnu læris/
                     Gud være loffuit.</p>
-                <p>
-                    De andre naffne/ som staa hoss somme Psalmer/ ere deris
-                    som dem paa Danske dictet oc vdset haffue: Oc paa det at ieg icke skulle <pb
-                        facs="055" n="d 4r"/>siunis at tillegge mig flere Psalmer/ end ieg dictet
-                    eller vdset haffuer: Da haffuer ieg i det siste Register ladit sette dette tegn
-                    ⊕ hoss de Psalmer som ieg dictet haffuer: Oc dette tegn * hoss dem som ieg aff
-                    Tydsken eller noget andet vdset haffuer.</p>
-                <p>
-                    Gunstige fromme Christne/ eder til<lb rend="="
-                    />scriffuer oc skencker ieg denne bog/ som indeholder 268. Psalmer/ bedendis at
-                    i den vilde tage til tacke/ oc bruge den flittelig oc Gudfryctelig i eders
-                    Kircker/ Scholer oc Huse.</p>
+                <p> De andre naffne/ som staa hoss somme Psalmer/ ere deris som dem paa Danske
+                    dictet oc vdset haffue: Oc paa det at ieg icke skulle <pb facs="055" n="d 4r"
+                    />siunis at tillegge mig flere Psalmer/ end ieg dictet eller vdset haffuer: Da
+                    haffuer ieg i det siste Register ladit sette dette tegn ⊕ hoss de Psalmer som
+                    ieg dictet haffuer: Oc dette tegn * hoss dem som ieg aff Tydsken eller noget
+                    andet vdset haffuer.</p>
+                <p> Gunstige fromme Christne/ eder til<lb rend="="/>scriffuer oc skencker ieg denne
+                    bog/ som indeholder 268. Psalmer/ bedendis at i den vilde tage til tacke/ oc
+                    bruge den flittelig oc Gudfryctelig i eders Kircker/ Scholer oc Huse.</p>
                 <p><list rend="simple">
                         <item n="1.">Til at ære/ loffue oc prise Gud met saadanne Gudelige
                             loffsange.</item>
@@ -4710,18 +4635,18 @@
                             søgis.</item>
                     </list>
                 </p>
-                <p>Den alsommectigste Gud/ Fader oc Søn oc hellig Aand/
-                    beuare/ regære/ opholde oc velsigne til liff oc Siel/ vor naadige Herre oc
-                        Ko<ex>n</ex>ning/ Konning Friderich <ex>etc</ex>. met disse Rigers Raad oc
-                    anden Øffrighed/ Disligest alle tro Lærere her i Vniuersitetit/ Scholer oc
-                    Kircker vdi disse Riger/ oc eder allesammen/ at wi saa maatte met vore Børn oc
-                        Effterko<ex>m</ex>mere forfremmis i Guds fryct/ kiende oc bekiende/ loffue
-                    oc prise Gud met saadanne Christelige sang/ at Guds ord maatte bliffue var<lb
-                        rend="="/>afftelig i disse Riger oc land/ at hans Naffn kunde hellig giøris/
-                    hans Rige tilkomme/ oc hans villie skee her paa Jorden iblant oss/ Saa at wi i
-                    det euige liff kunde findis/ oc der tilsammen met de hellige Engler oc andre
-                    Guds helligen loffue oc prise Gud/ met euige oc waffladelige Loffsange/ Amen.
-                    Datum Hafniæ/ den 10. dag Augustj. Aar <ex>etc</ex>.1569.</p>
+                <p>Den alsommectigste Gud/ Fader oc Søn oc hellig Aand/ beuare/ regære/ opholde oc
+                    velsigne til liff oc Siel/ vor naadige Herre oc Ko<ex>n</ex>ning/ Konning
+                    Friderich <ex>etc</ex>. met disse Rigers Raad oc anden Øffrighed/ Disligest alle
+                    tro Lærere her i Vniuersitetit/ Scholer oc Kircker vdi disse Riger/ oc eder
+                    allesammen/ at wi saa maatte met vore Børn oc Effterko<ex>m</ex>mere forfremmis
+                    i Guds fryct/ kiende oc bekiende/ loffue oc prise Gud met saadanne Christelige
+                    sang/ at Guds ord maatte bliffue var<lb rend="="/>afftelig i disse Riger oc
+                    land/ at hans Naffn kunde hellig giøris/ hans Rige tilkomme/ oc hans villie skee
+                    her paa Jorden iblant oss/ Saa at wi i det euige liff kunde findis/ oc der
+                    tilsammen met de hellige Engler oc andre Guds helligen loffue oc prise Gud/ met
+                    euige oc waffladelige Loffsange/ Amen. Datum Hafniæ/ den 10. dag Augustj. Aar
+                        <ex>etc</ex>.1569.</p>
                 <p>Hans Thomissøn Sogneprest til vor Frue Kircke i Kiøbenhaffn. </p>
             </div>
         </front>
@@ -4733,7 +4658,7 @@
                     <head type="add">Kom hedningers frelser sand</head>
                     <head>I. Den Hymne/ <title><hi rend="italics">Veni redemptor
                             gentium</hi></title>. D. Morten Luther.</head>
-                    <figure type="image"/>
+                    <p>[Illustration]</p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_001r.xml"/>
                     </notatedMusic>
@@ -4843,7 +4768,7 @@
                 <div type="psalm" xml:id="kyrie-eleison-christi-foedsel" n="1">
                     <head type="add">Kyrie Gud Fader af Himmerig</head>
                     <head> I. Kyrie Eleyson/ paa Christi Fødzels Høytid.</head>
-                    <figure type="image"/>
+                    <p>[Illustration]</p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_003r.xml"/>
                     </notatedMusic>
@@ -4920,8 +4845,7 @@
                         <l>At Christ vaar fød oss Menniske lig.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="065" n="5r"/>Ære være dig Christ met
-                            Konge naffn/ </l>
+                        <l><pb facs="065" n="5r"/>Ære være dig Christ met Konge naffn/ </l>
                         <l>Som føddis aff en jomfru Verde<ex>n</ex> til gaffn/ </l>
                         <l>Holt din Spir met Kongelig act/ </l>
                         <l>At Dieffuelens rige faar icke mact.</l>
@@ -5113,8 +5037,7 @@
                             <hi rend="italics">antiquo dierum.</hi></l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">Vt vitrum non
-                            læditur,</hi></l>
+                        <l><hi rend="italics">Vt vitrum non læditur,</hi></l>
                         <l>
                             <hi rend="italics">sole penetrante:</hi></l>
                         <l>
@@ -5156,8 +5079,7 @@
                             <hi rend="italics">forma speciosum.</hi></l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">Orbis dum
-                            describitur,</hi></l>
+                        <l><hi rend="italics">Orbis dum describitur,</hi></l>
                         <l>
                             <hi rend="italics">Virgo prægnans ibat</hi></l>
                         <l>
@@ -5178,8 +5100,7 @@
                             <hi rend="italics">bonæ voluntatis.</hi></l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">Christe qui nos
-                            proprijs</hi></l>
+                        <l><hi rend="italics">Christe qui nos proprijs</hi></l>
                         <l>
                             <hi rend="italics">manibus fecisti,</hi></l>
                         <l>
@@ -5540,8 +5461,7 @@
                         <l>Det er nu skeet som spaad haffde Esaias.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="085" n="15r"/>Nu er kommen den salige
-                            tid/ </l>
+                        <l><pb facs="085" n="15r"/>Nu er kommen den salige tid/ </l>
                         <l>Der Propheterne haffde om screffuit/ </l>
                         <l>At Gud skulde giffue sin Søn her ned/ </l>
                         <l>Det er nu skeet som spaad haffde Esaias.</l>
@@ -6016,8 +5936,7 @@
                         <l>Kyrieleis.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="098" n="21v"/>Den som all Verden skal
-                            frelse aff nød/ </l>
+                        <l><pb facs="098" n="21v"/>Den som all Verden skal frelse aff nød/ </l>
                         <l>Ligger i det Jomfruelige skød/ </l>
                         <l>Hand er it Barn saa lidet oc kleen/ </l>
                         <l>Som Himmel oc Jord opholder allen/ </l>
@@ -6078,8 +5997,7 @@
                         <l>At Jomfru fødde wforkrenckt.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="100" n="22v"/>Jt nyt Menniske føddis
-                            her/ </l>
+                        <l><pb facs="100" n="22v"/>Jt nyt Menniske føddis her/ </l>
                         <l>Den som Guds eniste Søn er/ </l>
                         <l>Hand er giffuen oss til trøst/ </l>
                         <l>Oc haffuer oss alle igenløst.</l>
@@ -6131,8 +6049,7 @@
                         <l>Hand vil være lyst oc glæde din.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="102" n="23v"/>Christus vor Gud oc
-                            Herre er fød/ </l>
+                        <l><pb facs="102" n="23v"/>Christus vor Gud oc Herre er fød/ </l>
                         <l>Hand vil eder fri vdaff all nød/ </l>
                         <l>Hand vil selff være eders Frelsermand/ </l>
                         <l>Oc løse eder aff Syndens baand.</l>
@@ -6867,8 +6784,7 @@
                         <l>En Herre til euig tide.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="131" n="38r"/>O Jesu reen/ du est
-                            allene </l>
+                        <l><pb facs="131" n="38r"/>O Jesu reen/ du est allene </l>
                         <l>Alle synderis trøst paa Jorden/ </l>
                         <l>Som vaar forseet aff euighed </l>
                         <l>Jt Menniske skulde vorde/ </l>
@@ -7141,8 +7057,7 @@
                         <l>som offuergaar alle Christnes verdskyld oc død. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="141" n="43r"/>Jesus hand er de gamle
-                            Forfædris skiold/ </l>
+                        <l><pb facs="141" n="43r"/>Jesus hand er de gamle Forfædris skiold/ </l>
                         <l>deris attraa begæring i største nød/ </l>
                         <l>thi haffde de hannem offuer alle vduold/ </l>
                         <l>Salighed findis i hannem baade først oc sist/ </l>
@@ -7697,8 +7612,7 @@
                         <l>Guds ord det bliffuer euindelig.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="163" n="54r"/>Thi ville wi prise i
-                            euighed/ </l>
+                        <l><pb facs="163" n="54r"/>Thi ville wi prise i euighed/ </l>
                         <l>Oc loffue foruden all ende/ </l>
                         <l>Gud Faders store barmhiertighed/ </l>
                         <l>Som oss den naade sende/ </l>
@@ -7917,8 +7831,7 @@
                         <l>Som hielp aff dig ville haffue.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="171" n="58r"/>Fuldkommelig er ieg en
-                            aff de/ </l>
+                        <l><pb facs="171" n="58r"/>Fuldkommelig er ieg en aff de/ </l>
                         <l>Det kærer ieg dig met hiertens vee/ </l>
                         <l>Din naade lad offuer mig skinne. </l>
                         <l>At ieg maatte siunge oc tale der om/ </l>
@@ -8436,8 +8349,7 @@
                         <l>Der til hialp Nicodemus.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="189" n="67r"/>Christus oc ned til
-                            Helffuede foer/ </l>
+                        <l><pb facs="189" n="67r"/>Christus oc ned til Helffuede foer/ </l>
                         <l>At tage til fange oc binde/ </l>
                         <l>Den gantske Dieffuelens mact saa stor/ </l>
                         <l>Der offuer hand seyer monne vinde/ </l>
@@ -8914,8 +8826,7 @@
                         <l>Oc spytte hannem i hans Ansict klar.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="205" n="75r"/>Da lidde den Herre stor
-                            spot oc skam/ </l>
+                        <l><pb facs="205" n="75r"/>Da lidde den Herre stor spot oc skam/ </l>
                         <l>Hand kom siden for Pilato fram/ </l>
                         <l>Der robte Jøderne som de kunde mest/ </l>
                         <l>At hand strax maatte bliffue kaarsfest.</l>
@@ -8933,8 +8844,7 @@
                         <l>Faar hannem Herodes i sin haand.</l>
                     </lg>
                     <lg>
-                        <l>Huad Ræt hand siger/ skulle i hanne<ex>m</ex>
-                            gøre/ </l>
+                        <l>Huad Ræt hand siger/ skulle i hanne<ex>m</ex> gøre/ </l>
                         <l>Hand skal hannem kiende wret at føre. </l>
                         <l>Herodes holt hannem for spe oc spot/ </l>
                         <l>Met sine Tienere som de formaatte.</l>
@@ -8994,8 +8904,7 @@
                         <l>Komme offuer oss oc vore Børn imod.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="207" n="76r"/>Pilatus loed scriffue
-                            Dødsens sag/ </l>
+                        <l><pb facs="207" n="76r"/>Pilatus loed scriffue Dødsens sag/ </l>
                         <l>Oc legge det Kaarss paa Jesu bag. </l>
                         <l>Huo haffuer sligt hørt/ huo haffuer sligt seet/ </l>
                         <l>At nogen paa Jorden vaar saadant veedt.</l>
@@ -9073,8 +8982,7 @@
                         <l>Lignis ieg/ som paa Kaarssit staar.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="209" n="77r"/>Mine senner oc Aarer
-                            haffue ract sig vd/ </l>
+                        <l><pb facs="209" n="77r"/>Mine senner oc Aarer haffue ract sig vd/ </l>
                         <l>Aff mig er reffuit baade kiød oc hud/ </l>
                         <l>Mit Blod er mig nu rundet fra/ </l>
                         <l>For alle maa ieg her nøgen staa.</l>
@@ -9227,8 +9135,7 @@
                         <l>Det er nu altsammen fuldkommit.</l>
                     </lg>
                     <lg>
-                        <l>Saa robte hand saa høyt offuer alle
-                            ma<ex>n</ex>d </l>
+                        <l>Saa robte hand saa høyt offuer alle ma<ex>n</ex>d </l>
                         <l>O Fader ret nu befaler ieg min Aand </l>
                         <l>J dine Guddommelig hender. </l>
                         <l>Saa bøyede hand sit hoffuit ned/ </l>
@@ -9249,8 +9156,7 @@
                         <l>Der nu gaff op sin Aand.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="215" n="80r"/>De fryctede Gud saa
-                            inderlig/ </l>
+                        <l><pb facs="215" n="80r"/>De fryctede Gud saa inderlig/ </l>
                         <l>Oc loffuede Gud Fader i Himmerig. </l>
                         <l>Det ville wi ocsaa giøre/ </l>
                         <l>Hand haffuer sin Søn ey for oss spart/ </l>
@@ -9305,10 +9211,10 @@
                 </div>
                 <div type="psalm" xml:id="section-4-hymn-9" n="9">
                     <head type="add">Hvo som Kristi kors vil pryde</head>
-                    <head> IX. Christi Kaarssis daglige Brug. <figure type="image"/>
-                        <pb facs="218" n="81v"/>
-                        <hi rend="italics">D. Nicolaus Hemmingius.</hi>
-                    </head>
+                    <head> IX. Christi Kaarssis daglige Brug.</head>
+                    <p>[Illustration]</p>
+                    <p><pb facs="218" n="81v"/>
+                        <hi rend="italics">D. Nicolaus Hemmingius.</hi></p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_081r.xml"/>
                     </notatedMusic>
@@ -9969,16 +9875,14 @@
                         <l>vor Herre oc Talsmand at være. </l>
                     </lg>
                     <lg>
-                        <l>Met ære oc glæde ha<ex>n</ex>d op til
-                                Himmele<ex>n</ex> foer </l>
+                        <l>Met ære oc glæde ha<ex>n</ex>d op til Himmele<ex>n</ex> foer </l>
                         <l>Hand prisis herligen aff alle Helgens skar/ </l>
                         <l><pb facs="249a" n="97v"/>Den gantske Engel Chor </l>
                         <l>Siunger hans ære stor/ </l>
                         <l>At hand vor Fiende kunde offueruinde.</l>
                     </lg>
                     <lg>
-                        <l>Hand foer i det høye/ oc tog fengselet
-                                fange<ex>n</ex>
+                        <l>Hand foer i det høye/ oc tog fengselet fange<ex>n</ex>
                         </l>
                         <l>Oc gaff oss menniske/ gaffuer skøne oc mange </l>
                         <l>Sactmodig drog hand bort/ </l>
@@ -9993,16 +9897,14 @@
                         <l>Fra Helffuedis grund oc pine.</l>
                     </lg>
                     <lg>
-                        <l>Naar du vilt gienko<ex>m</ex>me/ oc siunis i
-                            skyen klar </l>
+                        <l>Naar du vilt gienko<ex>m</ex>me/ oc siunis i skyen klar </l>
                         <l>Alle vore gierninger da bliffue obenbar/ </l>
                         <l>Lad oss ey straffis da/ </l>
                         <l>Som wi nu fortiene maa/ </l>
                         <l>Men lad oss euig met dig leffue.</l>
                     </lg>
                     <lg>
-                        <l>Det giff oss o fader/ o Guds søn oc
-                                helligaa<ex>n</ex>d </l>
+                        <l>Det giff oss o fader/ o Guds søn oc helligaa<ex>n</ex>d </l>
                         <l>Hues mact oc rige skinner vijt offuer alle land </l>
                         <l>O hellig Trefoldighed/ </l>
                         <l>Sand Gud aff euighed </l>
@@ -10068,8 +9970,7 @@
                         <l>Kyrie eleison.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="251" n="99r"/>Hand hoss sin Faders
-                            høyre haand </l>
+                        <l><pb facs="251" n="99r"/>Hand hoss sin Faders høyre haand </l>
                         <l>Sidder vor Konning sand/ </l>
                         <l>Vil aff sin Naade </l>
                         <l>Sin Kircke styre oc raade. </l>
@@ -10164,8 +10065,7 @@
                         <l><hi rend="italics">Paracletum misit,</hi></l>
                         <l><hi rend="italics">In cordibus clamantem,</hi></l>
                         <l><hi rend="italics">Abba pater sonantem.</hi></l>
-                        <l><hi rend="italics">
-                                Kyrieleis.</hi></l>
+                        <l><hi rend="italics"> Kyrieleis.</hi></l>
                     </lg>
                 </div>
                 <div type="psalm" xml:id="section-7-hymn-3" n="3">
@@ -10197,8 +10097,7 @@
                         <l>aff dette ælende/ Kyrieleis. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="256" n="101v"/>Du verdige Liuss giff
-                            oss dit skin/</l>
+                        <l><pb facs="256" n="101v"/>Du verdige Liuss giff oss dit skin/</l>
                         <l>Lær oss at kiende Christum Jesum allene/ </l>
                         <l>At wi met hannem bliffue/ </l>
                         <l>Vor kiere Frelsermand/ </l>
@@ -10628,8 +10527,7 @@
                         <l>saa siunge wi Haleluia. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="276" n="111v"/>Jesu Christ bliff du nu
-                            met oss/ </l>
+                        <l><pb facs="276" n="111v"/>Jesu Christ bliff du nu met oss/ </l>
                         <app>
                             <lem><l>oc lad oss icke fordærffuis/ </l>
                                 <l>Giør oss aff alle vor synder fri/ </l>
@@ -10693,8 +10591,7 @@
                         <l>de Thi budord vdsende. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="277" n="112r"/>Det første Budord det
-                            er nu saa/ </l>
+                        <l><pb facs="277" n="112r"/>Det første Budord det er nu saa/ </l>
                         <l>Det bør dig nu at mercke/ </l>
                         <l>Affguder skalt du dig ey faa/ </l>
                         <l>Men en Gud skalt du dyrcke.</l>
@@ -10797,8 +10694,7 @@
                         <l>Gud miskunde oss.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="280" n="113v"/>Elsk din Fader oc din
-                            Moder/ </l>
+                        <l><pb facs="280" n="113v"/>Elsk din Fader oc din Moder/ </l>
                         <l>Tuctemestere/ Herrer oc Konger/ </l>
                         <l>Lyd oc tiene dem aff din mact/ </l>
                         <l>Saa leffuer du lenge i Legems krafft. </l>
@@ -10891,8 +10787,7 @@
                         <l>Gud miskunde oss.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="283" n="115r"/>En andens gods du skalt
-                            ey stiæle. </l>
+                        <l><pb facs="283" n="115r"/>En andens gods du skalt ey stiæle. </l>
                         <l>Oc ey mod hannem falskt vidne bære. </l>
                         <l>Du skalt oc icke hans Hustru begære/ </l>
                         <l>Oc ey nogit aff det hans monne være. </l>
@@ -11072,7 +10967,8 @@
                 </div>
                 <div type="psalm" xml:id="section-9-2-hymn-2" n="2">
                     <head type="add">Vi tro allesammen på en Gud</head>
-                    <head> II. <title>Wi tro allesammen paa en Gud</title>/ Himmels skabere <ex>etc</ex>.</head>
+                    <head> II. <title>Wi tro allesammen paa en Gud</title>/ Himmels skabere
+                            <ex>etc</ex>.</head>
 
                     <lg>
                         <l> WJ tro allesammen paa en Gud/ </l>
@@ -11132,8 +11028,7 @@
                         <l>hielp at det gaar aff hiertens grund. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="292" n="119v"/>Helligt vorde Herre dit
-                            Naffn / </l>
+                        <l><pb facs="292" n="119v"/>Helligt vorde Herre dit Naffn / </l>
                         <l>Dit ord lad komme oss til gaffn/ </l>
                         <l>At wi maa leffue Christelig/ </l>
                         <l>Dit Naffn kand æris flitelig/ </l>
@@ -11237,8 +11132,7 @@
                         <l>Den rette hielp vilt vise.</l>
                     </lg>
                     <lg>
-                        <l>Vor Misgierning oc all vor skyld forlad <lb
-                                rend="("/>oss her/ </l>
+                        <l>Vor Misgierning oc all vor skyld forlad <lb rend="("/>oss her/ </l>
                         <l>Huad du aff oss fortørnit er </l>
                         <l>Vilt du det oc vdslette/ </l>
                         <l>Disligest giøre wi i sa<ex>m</ex>me maade vor skyldere/ </l>
@@ -11270,8 +11164,7 @@
                         <l>oss her paa Jorde<ex>n</ex> altid beskermer. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="297" n="122r"/>Helligt vorde dit Naffn
-                            altid/ </l>
+                        <l><pb facs="297" n="122r"/>Helligt vorde dit Naffn altid/ </l>
                         <l>J huilcket allene wi salige bliffue/ </l>
                         <l>Giff oss din krafft at prise det/ </l>
                         <l>Met ord oc gierninger christelig leffue. </l>
@@ -11387,8 +11280,7 @@
                         <l>Hand selff er den oss Døber.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="301" n="124r"/>Det vilde Gud for
-                            Verden klar </l>
+                        <l><pb facs="301" n="124r"/>Det vilde Gud for Verden klar </l>
                         <l>Met Ord oc tegen giøre/ </l>
                         <l>Gud Faders røst mand obenbar </l>
                         <l>Da kunde hoss Jordan høre/ </l>
@@ -11585,8 +11477,7 @@
                         <l>frelste hand oss fra Helffuedis nød. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="310" n="128v"/>At wi aldrig det
-                            forgæde/ </l>
+                        <l><pb facs="310" n="128v"/>At wi aldrig det forgæde/ </l>
                         <l>Gaff hand oss sit Legem at æde </l>
                         <l>Som er skiult vdi Brødsens skin/ </l>
                         <l>Oc at dricke sit Blod i Vin.</l>
@@ -11765,8 +11656,7 @@
                         <l>Christo Guds lam til ære.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="316" n="131v"/>Der for lader oss alle
-                            tillige </l>
+                        <l><pb facs="316" n="131v"/>Der for lader oss alle tillige </l>
                         <l>Gud Fader vdi Himmerige </l>
                         <l>Aff gantske hierte bede/ </l>
                         <l>Ved Jesum Christ hans enbaarne Søn/ </l>
@@ -12074,8 +11964,7 @@
                         <l>J Døden ocsaa i Liffue.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="327" n="137r"/>O Herre ieg haabis at
-                            du vilt dem </l>
+                        <l><pb facs="327" n="137r"/>O Herre ieg haabis at du vilt dem </l>
                         <l>Vdi ingen nød forlade/ </l>
                         <l>Der dit Ord nu aff hierte oc hu </l>
                         <l>Som gode Tienere fatte/ </l>
@@ -12297,8 +12186,7 @@
                         <l>Vissdom skulle dig ey tryde.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="335" n="141r"/>Pharao vaar en Konge
-                            rig </l>
+                        <l><pb facs="335" n="141r"/>Pharao vaar en Konge rig </l>
                         <l>Guds Folck hand haffde fast fangit </l>
                         <l>Giorde dem platz alle stunde/ </l>
                         <l>Guds ord vaar hannem ret tuert imod/ </l>
@@ -12388,8 +12276,7 @@
                         <l>for Onde oc for Fromme. </l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">ADAM</hi> for sin wlydigheds
-                            skyld </l>
+                        <l><hi rend="italics">ADAM</hi> for sin wlydigheds skyld </l>
                         <l>Haffde visselig fortabt bleffuit/ </l>
                         <l>Men Gud som er aff Naaden fuld </l>
                         <l>Haffuer hannem it Lyffte giffuit/ </l>
@@ -12789,8 +12676,7 @@
                         <l>At de skulle giøre hannem ære stor.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="351" n="149r"/>Men da en part aff
-                            Englernis tal/ </l>
+                        <l><pb facs="351" n="149r"/>Men da en part aff Englernis tal/ </l>
                         <l>Lode sig formegit tycke met all/ </l>
                         <l>Støttis de strax aff Himmelen ned/ </l>
                         <l>Til euige pine i Helffuedis glød.</l>
@@ -13240,8 +13126,7 @@
                         <l>J ondskab frijt.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="366" n="156v"/>Brask/ bram/ Guds ædele
-                            gaffuer skender/ </l>
+                        <l><pb facs="366" n="156v"/>Brask/ bram/ Guds ædele gaffuer skender/ </l>
                         <l>Stor kaast huer tiluender </l>
                         <l>Oc blender vden sorrig/ </l>
                         <l>Skulde hand end laane oc borge/ </l>
@@ -13707,8 +13592,7 @@
                         <l>Som Paulus oss beuise kand.</l>
                     </lg>
                     <lg>
-                        <l>Guds retuished oss kommer ved Jesum <lb rend="("
-                            /> Christ/ </l>
+                        <l>Guds retuished oss kommer ved Jesum <lb rend="("/> Christ/ </l>
                         <l>Salig er den som det tror vist/ </l>
                         <l>Sig gantske der paa forlader/ </l>
                         <l><pb facs="383" n="165r"/>Fordi hans Synder beteckis da/ </l>
@@ -13729,8 +13613,7 @@
                         <l>Oss til en euig lære.</l>
                     </lg>
                     <lg>
-                        <l>At wi tro paa Christ Guds gierning mon<lb
-                                rend="=("/>ne være/ </l>
+                        <l>At wi tro paa Christ Guds gierning mon<lb rend="=("/>ne være/ </l>
                         <l>Johannis vdi det siette/ </l>
                         <l>Hand er oss fød oc giffuen gantske/ </l>
                         <l>Kom aff en Jomfru reen oc klar/ </l>
@@ -13744,8 +13627,7 @@
                         <l>Mod onde oc gode Menniske.</l>
                     </lg>
                     <lg>
-                        <l>Nu hører huad Gud ved Mosen haffuer <lb rend="("
-                            />budit/ </l>
+                        <l>Nu hører huad Gud ved Mosen haffuer <lb rend="("/>budit/ </l>
                         <l>Er nogen Arm i eders Land/ </l>
                         <l>Da lad hannem op din Miskunds haand/ </l>
                         <l>Hans nød oc modgang lad være din/ </l>
@@ -13787,8 +13669,7 @@
                         <l>Louen fuldkom for alle.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="385" n="166r"/>En anden ting ieg dig
-                            sige vil/ </l>
+                        <l><pb facs="385" n="166r"/>En anden ting ieg dig sige vil/ </l>
                         <l>Guds Ridder om du vilt være/ </l>
                         <l>Spot/ Spee/ Skam/ nød skalt du bære </l>
                         <l>Met Christo din Herre oc Høffuitzmand/ </l>
@@ -13809,8 +13690,7 @@
                         <l>Saa finder du hannem din Jesum vist.</l>
                     </lg>
                     <lg>
-                        <l>Hand haffuer offueruundit synd Helffue<lb
-                                rend="=("/>de oc nød/ </l>
+                        <l>Hand haffuer offueruundit synd Helffue<lb rend="=("/>de oc nød/ </l>
                         <l>Oc frelst oss fra den euige Død/ </l>
                         <l>Oss alle til glæde oc fromme/ </l>
                         <l>Hans Børn de hadis oc fortryckis her/ </l>
@@ -13863,8 +13743,7 @@
                         <l>straff mig ey aff den vrede dig rør. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="388" n="167v"/>Mit hierte er mig aff
-                            haardhed skend/ </l>
+                        <l><pb facs="388" n="167v"/>Mit hierte er mig aff haardhed skend/ </l>
                         <l>Oc saare betend </l>
                         <l>Met egen kæde oc Kiødsens lyst/ </l>
                         <l>Mod sind fornufft er gantske foruend </l>
@@ -14112,8 +13991,7 @@
                     </lg>
                     <lg>
                         <head>Sielen.</head>
-                        <l>Sielen suarer/ den tid mo<ex>n</ex>ne visselig
-                            komme </l>
+                        <l>Sielen suarer/ den tid mo<ex>n</ex>ne visselig komme </l>
                         <l>At Legem oc Siel skal gaa for Domme/ </l>
                         <l>Huad hielper dig da din Gerighed stor/ </l>
                         <l>Du maat vorde til Aske som andre flere/ </l>
@@ -14185,8 +14063,7 @@
                         <l>at sig min wuenner ey glæde.</l>
                     </lg>
                     <lg>
-                        <l>Beskemmet bliffuer ingen Quinde eller <lb
-                                rend="("/>Mand/ </l>
+                        <l>Beskemmet bliffuer ingen Quinde eller <lb rend="("/>Mand/ </l>
                         <l><pb facs="399" n="173r"/>Som sig paa dig forlade/ </l>
                         <l>Din veldige Haand dem frelse kand </l>
                         <l>Fra sorrig oc alskens vaade/ </l>
@@ -14222,8 +14099,7 @@
                         <l>O Herre ihukom dette.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="400" n="173v"/>Herren er sød/ retuiss
-                            oc god </l>
+                        <l><pb facs="400" n="173v"/>Herren er sød/ retuiss oc god </l>
                         <l>Alle dem som hannem paakalde/ </l>
                         <l>Om de end noget aff veyen gaa </l>
                         <l>Hand vil dem dog ey vndfalde/ </l>
@@ -14854,8 +14730,7 @@
                         <l>Oc Diefflens list saa fra mig vend.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="422" n="184v"/>Gud Fader skee loff
-                            priss oc ære/ </l>
+                        <l><pb facs="422" n="184v"/>Gud Fader skee loff priss oc ære/ </l>
                         <l>Som oss alt gaat monne giffue/ </l>
                         <l>Oc Jesu Christ vor broder kier/ </l>
                         <l>At hand hoss oss vil bliffue. </l>
@@ -15032,8 +14907,7 @@
                         <l>O Herre Gud/ lad det for oss haffue taalit.</l>
                     </lg>
                     <lg>
-                        <l>Fryde dig met snildhed/ du som est ha<ex>n</ex>s
-                            folck </l>
+                        <l>Fryde dig met snildhed/ du som est ha<ex>n</ex>s folck </l>
                         <l>Forsmaad skalt du ey bliffue/ </l>
                         <l>Men see at du ey plat forsige skalt </l>
                         <l>Den skat/ hand dig haffuer giffuit. </l>
@@ -15557,8 +15431,7 @@
                         <l>Som it Vintræ mange vindruer mon bære.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="447" n="197r"/>Oc skulle dine Børn
-                            deilige oc rene </l>
+                        <l><pb facs="447" n="197r"/>Oc skulle dine Børn deilige oc rene </l>
                         <l>Om dit bord side/ som Oliue grene.</l>
                     </lg>
                     <lg>
@@ -15570,8 +15443,7 @@
                         <l>Oc altid met sit salige Ord beuare.</l>
                     </lg>
                     <lg>
-                        <l>At du maat see dine Børnebørn vde<ex>n</ex>
-                                ska<ex>m</ex>me/ </l>
+                        <l>At du maat see dine Børnebørn vde<ex>n</ex> ska<ex>m</ex>me/ </l>
                         <l>Oc siden Jsraels fred euig anamme.</l>
                     </lg>
                     <lg>
@@ -15881,8 +15753,7 @@
                         <l>Saa vorde io Jesus vor skiold i huerinde vaade.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="457" n="202r"/>O Herre Guds Søn som
-                            himmelen reger </l>
+                        <l><pb facs="457" n="202r"/>O Herre Guds Søn som himmelen reger </l>
                         <l>Til euig tid </l>
                         <l>Da bliffuer dit Rige oc Kongelig spir/ </l>
                         <l>Met loff oc priss giør du din flid/ </l>
@@ -15903,8 +15774,7 @@
                         <l>Saa vorde io Jesus vor skiold i huerinde vaade.</l>
                     </lg>
                     <lg>
-                        <l>Her dantze de Jo<ex>m</ex>fruer baade skøne oc
-                            blide </l>
+                        <l>Her dantze de Jo<ex>m</ex>fruer baade skøne oc blide </l>
                         <l>Oc Sallen er fuld/ </l>
                         <l>Din Brud staar ved din høyre side/ </l>
                         <l>Prydet met Perler oc Guld/ </l>
@@ -15947,8 +15817,7 @@
                             vaade.</l>
                     </lg>
                     <lg>
-                        <l>Dine Jo<ex>m</ex>fruer føre sig vdi skarlagen
-                            skind/ </l>
+                        <l>Dine Jo<ex>m</ex>fruer føre sig vdi skarlagen skind/ </l>
                         <l>Met glæde oc fryd </l>
                         <l>Gaa de til Kongen i Høyelofft ind/ </l>
                         <l>Altsammen met ære oc dyd/ </l>
@@ -15995,8 +15864,7 @@
                         <l>ellers er vort arbeid forlaarit. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="461" n="204r"/>Vden Herren selff den
-                            Stad beuarer </l>
+                        <l><pb facs="461" n="204r"/>Vden Herren selff den Stad beuarer </l>
                         <l>Oc vocter baade Land oc Rige/ </l>
                         <l>Oc met sin Guddoms mact forsuarer/ </l>
                         <l>Oc holder dem saa ved lige/ </l>
@@ -16141,8 +16009,7 @@
                         <l>fra synd oc sorg oc all din wlycke. </l>
                     </lg>
                     <lg>
-                        <l>Du haabte til Gud/ oc satte til hanne<ex>m</ex>
-                            din tro </l>
+                        <l>Du haabte til Gud/ oc satte til hanne<ex>m</ex> din tro </l>
                         <l>J din store nød oc trang/ </l>
                         <l>Thi skal hand nu sende dig sin hielp til euig ro </l>
                         <l>Aff sit hellige Zion/ </l>
@@ -16152,8 +16019,7 @@
                         <l>Fra Synd oc sorrig hand dem altid frelser.</l>
                     </lg>
                     <lg>
-                        <l>Dit hierte<ex>n</ex>s gudelig Offer hand oc
-                            anseer/ </l>
+                        <l>Dit hierte<ex>n</ex>s gudelig Offer hand oc anseer/ </l>
                         <l>Blidelig det anammer/ </l>
                         <l>Oc dig sin tacknemmelig gode villie beteer/ </l>
                         <l>Til liff oc Siel allsammen/ </l>
@@ -16173,8 +16039,7 @@
                         <l>Fra synd oc sorrig oc all nød dig fører.</l>
                     </lg>
                     <lg>
-                        <l>Da siger huer mand/ der de<ex>n</ex>ne din
-                            gierning hører oc seer/ </l>
+                        <l>Da siger huer mand/ der de<ex>n</ex>ne din gierning hører oc seer/ </l>
                         <l>Ja nu kand ieg oc det skønne/ </l>
                         <l>At Herren hielper sin salffuede Konning/ jo lenger jo meer/ </l>
                         <l>Oc haffuer hørt hannem sin Bøn/ </l>
@@ -16194,8 +16059,8 @@
                         <l>Fra synd oc sorrig altid til det bæste.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="468" n="207v"/>Du Gud som est vor
-                            rette Herre oc Ko<ex>n</ex>ning </l>
+                        <l><pb facs="468" n="207v"/>Du Gud som est vor rette Herre oc
+                            Ko<ex>n</ex>ning </l>
                         <l>Haffuer oss denne dag frelsit/ </l>
                         <l>Der wi dig paakalde/ at see gode villien din/ </l>
                         <l>Vore wuenner bleffue da reffsit. </l>
@@ -16264,8 +16129,8 @@
                         <l>Thi du allene vor Frelser est.</l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">MAR</hi>ck/ Stæder/ oc alle
-                            mine vnder<lb rend="=("/>saatte</l>
+                        <l><hi rend="italics">MAR</hi>ck/ Stæder/ oc alle mine vnder<lb rend="=("
+                            />saatte</l>
                         <l>Haffuer ieg aff dig faat/ </l>
                         <l>Beskerme dem alle for falske lære. </l>
                         <l><pb facs="471" n="209r"/> Herre Gud her er nu kommen fram </l>
@@ -16493,8 +16358,7 @@
                         <l>Oc at wi vel kunde leffue.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="478" n="212v"/>Jeg glæder mig/ allene
-                            ved dig/ </l>
+                        <l><pb facs="478" n="212v"/>Jeg glæder mig/ allene ved dig/ </l>
                         <l>Ved dit venskab oc gaffue: </l>
                         <l>Giffuer ingen act paa deris mact </l>
                         <l>Som Vin oc Korn nock haffue. </l>
@@ -16545,8 +16409,7 @@
                         <l>Huem er den der oss vil straffe?</l>
                     </lg>
                     <lg>
-                        <l><pb facs="480" n="213v"/>Derfor taler Gud/ Jeg
-                            vil opsee/ </l>
+                        <l><pb facs="480" n="213v"/>Derfor taler Gud/ Jeg vil opsee/ </l>
                         <l>De arme leggis fast øde: </l>
                         <l>Deris suck oc sorrig de mig betee/ </l>
                         <l>Jeg vil deris kæremaal høre. </l>
@@ -16778,15 +16641,13 @@
                                 46</reg>--></ref>/
                                 <title><hi rend="italics">Deus noster refugium et virtus
                                     <ex>etc</ex>.</hi></title> D. Morten Luther.</head>
-                    <p>
-                        Denne Psalme/ som trøstelig taler om den hellige
-                        Kirckis oc Guds ords beskermelse/ lod salige D. Morten Luther vdgaa i
-                        sanguise/ Anno Domini/ 1530. Alle fattige bedrøffuede Christne til <pb
-                            facs="488" n="217v"/> trøst oc husualelse. Thi at den tid Keyser Karl
-                        den Femte vaar Kronet vdi Bononia aff Paffue Cleme<ex>n</ex>s den
-                        siuffuende/ oc holt samme Aar almindelig Herredage til Augsburg/ mest om
-                        Religionens sager/ befryctede huer mand sig for en gruelig offueruold oc
-                        forfølgelse for Guds ords skyld. </p>
+                    <p> Denne Psalme/ som trøstelig taler om den hellige Kirckis oc Guds ords
+                        beskermelse/ lod salige D. Morten Luther vdgaa i sanguise/ Anno Domini/
+                        1530. Alle fattige bedrøffuede Christne til <pb facs="488" n="217v"/> trøst
+                        oc husualelse. Thi at den tid Keyser Karl den Femte vaar Kronet vdi Bononia
+                        aff Paffue Cleme<ex>n</ex>s den siuffuende/ oc holt samme Aar almindelig
+                        Herredage til Augsburg/ mest om Religionens sager/ befryctede huer mand sig
+                        for en gruelig offueruold oc forfølgelse for Guds ords skyld. </p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_217r.xml"/>
                     </notatedMusic>
@@ -16802,8 +16663,7 @@
                         <l>paa Jorden er ey hans lige. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="489" n="218r"/>Vor egen mact er intet
-                            verd </l>
+                        <l><pb facs="489" n="218r"/>Vor egen mact er intet verd </l>
                         <l>Wi ere snart offueruunden/ </l>
                         <l>Der strider for oss en veldige Herre </l>
                         <l>Alting maa for hannem bugne/ </l>
@@ -17150,8 +17010,7 @@
                         <l>De bliffue aff hunger ey døde.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="504" n="225v"/>Den retuise mildelig
-                            hielper i nød/ </l>
+                        <l><pb facs="504" n="225v"/>Den retuise mildelig hielper i nød/ </l>
                         <l>Hans børn velsignelse fange. </l>
                         <l>Giør du oc gaat/ som Gud dig bød/ </l>
                         <l>Fra det onde skalt du gange. </l>
@@ -17704,8 +17563,7 @@
                         <l>Som samme Lilier bær.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="522" n="234v"/>See Fulene i lucten
-                            flue </l>
+                        <l><pb facs="522" n="234v"/>See Fulene i lucten flue </l>
                         <l>Huor Gud forsiuner dem/ </l>
                         <l>De Diur i deris kule </l>
                         <l>De haffue deris føde aff hannem/ </l>
@@ -17764,8 +17622,7 @@
                         <l>Der alting skabte met sit bud. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="524" n="235v"/>Hand vil eller kand dig
-                            ey forlade/ </l>
+                        <l><pb facs="524" n="235v"/>Hand vil eller kand dig ey forlade/ </l>
                         <l>Hand veed din trang din nød oc skade/ </l>
                         <l>Hans er Himmel oc Jord. </l>
                         <l>Min Fader oc min Herre sød/ </l>
@@ -18108,8 +17965,7 @@
                         <l>Vor tro sig monne ret grunde.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="535" n="241r"/>Nu huiler Verden ey
-                            fordi </l>
+                        <l><pb facs="535" n="241r"/>Nu huiler Verden ey fordi </l>
                         <l>Er kommen slet fra sinde/ </l>
                         <l>Oc dicter paa oss Løgen fri/ </l>
                         <l>Alle vegne oss tuinger. </l>
@@ -18178,8 +18034,7 @@
                         <l>dem hans Ord fra mig tage.</l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">RI</hi>ctig vil ieg nu føre
-                            min sag/ </l>
+                        <l><hi rend="italics">RI</hi>ctig vil ieg nu føre min sag/ </l>
                         <l>Der ieg er suag </l>
                         <l>Gud lader mig fryct befinde. </l>
                         <l>Jeg veed at ingen velde bliffuer ved mact/ </l>
@@ -18723,11 +18578,11 @@
                 <div xml:id="section-18-prayer-2" n="4">
                     <head type="add">Bøn for kongen og rigens råd</head>
                     <head>For Kongen oc Rigens Raad.</head>
-                    <p>O Allmectigste euige Gud/ som viislige regerer baade Himmel oc
-                        Jord/ See miskundelige til vor Naadige Herre Konning N. oc til Rigens Raad/
-                        oc til alle andre som skulle styre oc regere Land/ Riger/ Steder oc Byer/ oc
-                        lad dem alle Retfærdelige regere deris Almu her i Verden/ at de maa siden
-                        beside Himmerigis Rige met dig euindelige. </p>
+                    <p>O Allmectigste euige Gud/ som viislige regerer baade Himmel oc Jord/ See
+                        miskundelige til vor Naadige Herre Konning N. oc til Rigens Raad/ oc til
+                        alle andre som skulle styre oc regere Land/ Riger/ Steder oc Byer/ oc lad
+                        dem alle Retfærdelige regere deris Almu her i Verden/ at de maa siden beside
+                        Himmerigis Rige met dig euindelige. </p>
                 </div>
                 <div xml:id="section-18-prayer-3" n="5">
                     <head type="add">Bøn om fred</head>
@@ -19288,8 +19143,7 @@
                         <l>Det vil ieg for dig klage. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="575" n="261r"/>Herre du est min Klippe
-                            / mit Slaat/ </l>
+                        <l><pb facs="575" n="261r"/>Herre du est min Klippe / mit Slaat/ </l>
                         <l>Din hielp monne ieg tillide. </l>
                         <l>Du haffuer beuist mig megit gaat/ </l>
                         <l>Alt fra min Vngdoms tide. </l>
@@ -19445,8 +19299,7 @@
                         <l>Oc dit Naffn saa forsmaade.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="580" n="263v"/>De dræbe oc myrde i
-                            alle Land </l>
+                        <l><pb facs="580" n="263v"/>De dræbe oc myrde i alle Land </l>
                         <l>Dit folck/ foruden all ende/ </l>
                         <l>Oc skone huercken Quinde eller Mand </l>
                         <l>Kircker oc Skoler de skende. </l>
@@ -19628,7 +19481,6 @@
                         <l>Wi vocte paa din milde haand </l>
                         <l>Den oss dit ord vel vise kand. </l>
                         <l>
-                            
                             <hi rend="italics">Pro serenitate.</hi>
                         </l>
                     </lg>
@@ -19638,7 +19490,6 @@
                         <l>Voxe/ til Folcks oc Queggis spise/ </l>
                         <l>At wi din gaffue kunde faa oc prise. </l>
                         <l>
-                            
                             <hi rend="italics">Pro pluuia tempestiua.</hi>
                         </l>
                     </lg>
@@ -19726,8 +19577,7 @@
                         <l>Oc fra falske tungers snare.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="589" n="268r"/>Min Siel huad kant du
-                            værre faa </l>
+                        <l><pb facs="589" n="268r"/>Min Siel huad kant du værre faa </l>
                         <l>End en falsk løgnactig tunge? </l>
                         <l>Huor hun sit spil bedriffue maa/ </l>
                         <l>Baade met gamle oc vnge. </l>
@@ -19810,8 +19660,7 @@
                         <l>Nu oc foruden all ende.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="592" n="269v"/>Lad ingen modgang lyst
-                            eller nød </l>
+                        <l><pb facs="592" n="269v"/>Lad ingen modgang lyst eller nød </l>
                         <l>Saa sterck mig komme til hænde/ </l>
                         <l>Huad heller ieg skal leffue eller dø/ </l>
                         <l>At de mig fra dig vende. </l>
@@ -19903,8 +19752,7 @@
                         <l>Som scrifften oss siger den rette grund.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="595" n="271r"/>Din Barmhiertighed
-                            monne det volde/ </l>
+                        <l><pb facs="595" n="271r"/>Din Barmhiertighed monne det volde/ </l>
                         <l>Din Søn hand taalde </l>
                         <l>Paa Kaarssit for oss den haarde Død. </l>
                         <l>Jeg flyer til dig met ydmyghed/ </l>
@@ -20722,7 +20570,8 @@
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-30" n="33">
                     <head type="add">Eviger Gud, efter dine bud</head>
-                    <head><pb facs="625" n="286r"/> XXX. En Bøn om taalmodighed oc bestandighed hoss Guds ord/ </head>
+                    <head><pb facs="625" n="286r"/> XXX. En Bøn om taalmodighed oc bestandighed hoss
+                        Guds ord/ </head>
                     <p> dictet aff erlig oc velbyrdig Mand Her Eyler Hardenberg til Mattrup/
                         Danmarckis Rigis Hoffmester/ Ridder.</p>
                     <notatedMusic>
@@ -20774,8 +20623,8 @@
                         <l>O Herre i fristelser alle.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="627" n="287r"/><hi rend="italics"
-                                >BERG</hi>e oc Sten/ O Gud ieg meen/ </l>
+                        <l><pb facs="627" n="287r"/><hi rend="italics">BERG</hi>e oc Sten/ O Gud ieg
+                            meen/ </l>
                         <l>Kunde icke saa tunge være: </l>
                         <l>Som Menniskens synd met falske fund </l>
                         <l>Den du vilde wskyldig bære </l>
@@ -20981,8 +20830,7 @@
                         <l>haffuer hand eder frelst fra alskens vaade. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="636" n="291v"/>Alle Jsraels folck
-                            loffuer hannem met/ </l>
+                        <l><pb facs="636" n="291v"/>Alle Jsraels folck loffuer hannem met/ </l>
                         <l>Fordi hans miskundelig Barmhiertighed </l>
                         <l>Regnerer offuer oss saa rundelig/ </l>
                         <l>Oc Herrens sandhed bliffuer euindelig.</l>
@@ -21044,16 +20892,13 @@
                         <l>den rette vey til Himmerig. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="639" n="293r"/>Johel Prophet i fordom
-                            tid kundgiorde det </l>
+                        <l><pb facs="639" n="293r"/>Johel Prophet i fordom tid kundgiorde det </l>
                         <l>At Gud skulde sende offuer alle Slect </l>
                         <l>Sin Aand/ oc naade/ oc ret forstand/ </l>
                         <l>At kiendis vijt offuer alle Land.</l>
                     </lg>
                     <lg>
-                        <l>Dig loff oc priss O Herre Christ/ vor kon<lb
-                                rend="="/>
-                            ning viss/ </l>
+                        <l>Dig loff oc priss O Herre Christ/ vor kon<lb rend="="/> ning viss/ </l>
                         <l>Du som haffuer opladt Paradiss/ </l>
                         <l>At wi nu for din Opstandelse </l>
                         <l>Til euig tid faa Salighed.</l>
@@ -21201,8 +21046,7 @@
                         <l> Haleluia.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="645" n="296r"/>Den stercke Gud senckte
-                            den Tiran </l>
+                        <l><pb facs="645" n="296r"/>Den stercke Gud senckte den Tiran </l>
                         <l>Sathan/ oc Pharaonem met ham </l>
                         <l>J Haffuit/ oc frelste sit Folck. </l>
                         <l>Gud til intet giorde hans stat/ </l>
@@ -21306,8 +21150,7 @@
                         <l>Gud lade sig det forbarme.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="649" n="298r"/>De straffe oss for
-                            Ketters lære/ </l>
+                        <l><pb facs="649" n="298r"/>De straffe oss for Ketters lære/ </l>
                         <l>Oc effter vort Blod tracte: </l>
                         <l>Dog sige de sig gode Christne være/ </l>
                         <l>De Gud allene stort acte. </l>
@@ -21450,8 +21293,7 @@
                         <l>Saa mange du mig vdualde.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="654" n="300v"/>O Gud huor dyrebar er
-                            for mig </l>
+                        <l><pb facs="654" n="300v"/>O Gud huor dyrebar er for mig </l>
                         <l>Din Vissdoms raad oc tancker/ </l>
                         <l>Som Sand vdi Haffuit wtallig/ </l>
                         <l>Fra dig vil ieg ey vancke. </l>
@@ -21567,13 +21409,11 @@
                         <l>oc tencke paa sin hellige Pact.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="658" n="302v"/>Oc paa den Eed som hand
-                            soer vor Fader Abraham/ </l>
+                        <l><pb facs="658" n="302v"/>Oc paa den Eed som hand soer vor Fader Abraham/ </l>
                         <l>at giffue oss.</l>
                     </lg>
                     <lg>
-                        <l>At naar wi vaare forløsde aff vore Fien<lb
-                                rend="="/>ders haand/ </l>
+                        <l>At naar wi vaare forløsde aff vore Fien<lb rend="="/>ders haand/ </l>
                         <l>skulle wi tiene hannem vden redzel vor liffs tid.</l>
                     </lg>
                     <lg>
@@ -21581,18 +21421,15 @@
                         <l>som hannem er behagelig.</l>
                     </lg>
                     <lg>
-                        <l>Oc du Barn lille skalt kaldis den høyestis
-                            Prophete/ </l>
+                        <l>Oc du Barn lille skalt kaldis den høyestis Prophete/ </l>
                         <l>Du skalt gaa frem for HERREN at berede hans vey.</l>
                     </lg>
                     <lg>
-                        <l>Oc at giffue hans Folck Salighedsens for<lb
-                                rend="="/>stand/ </l>
+                        <l>Oc at giffue hans Folck Salighedsens for<lb rend="="/>stand/ </l>
                         <l>som er i deris Synders forladelse.</l>
                     </lg>
                     <lg>
-                        <l>Ved vor Guds hiertelig Barmhiertig<lb rend="="
-                            />hed/ </l>
+                        <l>Ved vor Guds hiertelig Barmhiertig<lb rend="="/>hed/ </l>
                         <l>ved huilcken Opgangen aff det Høye haffuer besøgt oss.</l>
                     </lg>
                     <lg>
@@ -21624,32 +21461,30 @@
                         <l>See her effter skulle alle Børns børn prise mig Salig.</l>
                     </lg>
                     <lg>
-                        <l>Thi hand haffuer giort store ting mod mig/ som
-                            er mectig: Oc hans Naffn er helligt.</l>
+                        <l>Thi hand haffuer giort store ting mod mig/ som er mectig: Oc hans Naffn
+                            er helligt.</l>
                     </lg>
                     <lg>
-                        <l>Oc hans Barmhiertighed varer vden affladelse
-                            stedse oc altid/ Hoss dem som hannem frycte.</l>
+                        <l>Oc hans Barmhiertighed varer vden affladelse stedse oc altid/ Hoss dem
+                            som hannem frycte.</l>
                     </lg>
                     <lg>
-                        <l>Hand bruger Mact met sin Arm/ Oc atspreder dem
-                            som ere Hoffmodige i deris Hiertis sind.</l>
+                        <l>Hand bruger Mact met sin Arm/ Oc atspreder dem som ere Hoffmodige i deris
+                            Hiertis sind.</l>
                     </lg>
                     <lg>
-                        <l>Hand støder de Mectige aff stolen/ Oc ophøyer de
-                            Ælendige.</l>
+                        <l>Hand støder de Mectige aff stolen/ Oc ophøyer de Ælendige.</l>
                     </lg>
                     <lg>
-                        <l>De Hungrige fylder hand met gaat/ Oc lader de
-                            Rige tomme.</l>
+                        <l>De Hungrige fylder hand met gaat/ Oc lader de Rige tomme.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="660" n="303v"/>Hand tencker paa
-                            Barmhiertighed/ Oc hielper sin Tienere Jsrael op.</l>
+                        <l><pb facs="660" n="303v"/>Hand tencker paa Barmhiertighed/ Oc hielper sin
+                            Tienere Jsrael op.</l>
                     </lg>
                     <lg>
-                        <l>Som hand sagde til vore Fædre/ Abra<lb rend="="
-                            />ham oc hans Sæd euindelige.</l>
+                        <l>Som hand sagde til vore Fædre/ Abra<lb rend="="/>ham oc hans Sæd
+                            euindelige.</l>
                     </lg>
                     <p>
                         <hi rend="italics">Antiphona.</hi></p>
@@ -21687,7 +21522,8 @@
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-17" n="19">
                     <head type="add">O Gud, vi love dig</head>
-                    <head><pb facs="662" n="304v"/> XVIII. S. Ambrosij oc Augustini Loffsang. <title><hi rend="italics">Te Deum laudamus</hi></title>. </head>
+                    <head><pb facs="662" n="304v"/> XVIII. S. Ambrosij oc Augustini Loffsang.
+                                <title><hi rend="italics">Te Deum laudamus</hi></title>. </head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_304v.xml"/>
                     </notatedMusic>
@@ -21829,8 +21665,7 @@
                         <l>Vel er oss for saadan en Herre.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="670" n="308v"/>O Jesu Christ Guds
-                            enbaarne/ </l>
+                        <l><pb facs="670" n="308v"/>O Jesu Christ Guds enbaarne/ </l>
                         <l>En Søn vor Himmelske Faders: </l>
                         <l>Forløst haffuer du de forlaarne/ </l>
                         <l>At Gud dem vel behager. </l>
@@ -21916,8 +21751,7 @@
                         <l>der offuer lad dig forbarme.</l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">LOFF</hi> dig nu skeer
-                            ydmygelig/ </l>
+                        <l><hi rend="italics">LOFF</hi> dig nu skeer ydmygelig/ </l>
                         <l>O Herre vær nu til rede: </l>
                         <l>Vor trøst hun er allene hoss dig/ </l>
                         <l>Beskerme dine Arme wi bede. </l>
@@ -21927,8 +21761,7 @@
                         <l>Tilbage du vilt ey vende.</l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">TROL</hi>ig mig giffuis
-                            salighed </l>
+                        <l><hi rend="italics">TROL</hi>ig mig giffuis salighed </l>
                         <l>Aff Gud/ den ieg vil prise: </l>
                         <l><pb facs="674" n="310v"/>Sin Faderlig naade ieg visselig veed </l>
                         <l>At hand mig vil beuise. </l>
@@ -21938,8 +21771,7 @@
                         <l>Jeg tacker hannem aff mit hierte.</l>
                     </lg>
                     <lg>
-                        <l><hi rend="italics">LE</hi>nge da vaar dit Ansict
-                            blid </l>
+                        <l><hi rend="italics">LE</hi>nge da vaar dit Ansict blid </l>
                         <l>Bortuent fra mig met alle: </l>
                         <l>Men du hialpst mig i rette tid/ </l>
                         <l>Oc loedst min sorrig bortfalde. </l>
@@ -22022,8 +21854,7 @@
                         <l>Offueruinde/ oc dit gods deele.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="677" n="312r"/>Hand saare barmhiertig
-                            er oc god </l>
+                        <l><pb facs="677" n="312r"/>Hand saare barmhiertig er oc god </l>
                         <l>Mod de Arme oc ælende/ </l>
                         <l>Som sig fra falskhed oc hoffmod </l>
                         <l>Til hans Sandhed omuende. </l>
@@ -22171,8 +22002,7 @@
                         <l>J dag de leffue/ i morgen ere døde.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="682" n="314v"/>Wi tacke Gud oc vor
-                            Frelser kier/ </l>
+                        <l><pb facs="682" n="314v"/>Wi tacke Gud oc vor Frelser kier/ </l>
                         <l>Loffue dem/ for de all ære er verd/ </l>
                         <l>Met den hellig Aand vor trøstermand </l>
                         <l>Som wi her i nøden hoss oss fand/ </l>
@@ -22337,8 +22167,7 @@
                         <l>Det slycker vd synder mine.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="688" n="317v"/>Vaar alle de træ i
-                            Verden er </l>
+                        <l><pb facs="688" n="317v"/>Vaar alle de træ i Verden er </l>
                         <l>Løff gress oc Sand paa haffsens bonde/ </l>
                         <l>Haffde de maal oc kunde de tale </l>
                         <l>Oc siunge met Engle stemme/ </l>
@@ -22395,8 +22224,7 @@
                         <l>oc fri fra euig død. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="690" n="318v"/>Jeg vil dig tacken
-                            giøre </l>
+                        <l><pb facs="690" n="318v"/>Jeg vil dig tacken giøre </l>
                         <l>O du min Herre oc Gud/ </l>
                         <l>Du vilt oc gierne høre </l>
                         <l>Paa Jorden kunde holdis dit bud. </l>
@@ -22744,8 +22572,7 @@
                         <l>dit Guddoms liuss lad hoss oss staa. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="701" n="324r"/>Wi loffue dig om
-                            Morgenstund/ </l>
+                        <l><pb facs="701" n="324r"/>Wi loffue dig om Morgenstund/ </l>
                         <l>Om Afftenen bede om din miskund. </l>
                         <l>Vor Arme loffsang priser dig </l>
                         <l>Nu oc altid euindelig.</l>
@@ -22780,8 +22607,7 @@
                         <l>At hand alle Diur skal faarestaa.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="702" n="324v"/>Men huer mand maa
-                            beklage det </l>
+                        <l><pb facs="702" n="324v"/>Men huer mand maa beklage det </l>
                         <l>At synden er indkommen met/ </l>
                         <l>Vort regiment haffuer hun forkrenckt </l>
                         <l>Oc oss met sig i Døden senckt.</l>
@@ -23125,8 +22951,7 @@
                         <l>Thi hans godhed oc sandhed bliffuereuig</l>
                     </lg>
                     <lg>
-                        <l><pb facs="715" n="331r"/>Hand som en naadig Gud
-                            vdaff sin mi skund/ </l>
+                        <l><pb facs="715" n="331r"/>Hand som en naadig Gud vdaff sin mi skund/ </l>
                         <l>Er mod oss Arme Creatur saare rund.</l>
                     </lg>
                     <lg>
@@ -23503,8 +23328,7 @@
                         <l>oc synden sønderknuser. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="729" n="338r"/>Huad heller ieg vaage
-                            eller soffue maa/ </l>
+                        <l><pb facs="729" n="338r"/>Huad heller ieg vaage eller soffue maa/ </l>
                         <l>Din hellige Død oc pine </l>
                         <l>Lad ret aldrig aff min hu gaa/ </l>
                         <l>Ey heller vunderne dine. </l>
@@ -23689,8 +23513,7 @@
                         <l>at ieg dig stedse kand frycte.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="735" n="341r"/>Som en haandbred er all
-                            min tid/ </l>
+                        <l><pb facs="735" n="341r"/>Som en haandbred er all min tid/ </l>
                         <l>Mit Liff er sorrig oc vaande: </l>
                         <l>Slet intet er all Menniskens ijd/ </l>
                         <l>Suaghed kommer mig paa haande. </l>
@@ -23943,8 +23766,7 @@
                         <l>Wi skulle da alle for Dommen møde.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="744" n="345v"/>De onde dømmer hand til
-                            helffuedis tuang </l>
+                        <l><pb facs="744" n="345v"/>De onde dømmer hand til helffuedis tuang </l>
                         <l>Der skal dem tiden giøris vel lang: </l>
                         <l>J hede oc kuld skulle de da bliffue/ </l>
                         <l>De vilde gierne dø/ bliffue dog i liffue.</l>
@@ -24140,8 +23962,7 @@
                         <l>Som Elias i Lucten.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="751" n="349r"/>Wi her nu i skrøbelig
-                            Jordkar </l>
+                        <l><pb facs="751" n="349r"/>Wi her nu i skrøbelig Jordkar </l>
                         <l>Vort Liggendefæ frembære/ </l>
                         <l>Men vor Gud det først sønderslaar/ </l>
                         <l>Før wi kunde komme til ære. </l>
@@ -24199,8 +24020,7 @@
                         <l>Jt nyt Legem/ oc er mig huld.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="753" n="350r"/>Jt skønt Legem/ rent/
-                            liust oc klart/ </l>
+                        <l><pb facs="753" n="350r"/>Jt skønt Legem/ rent/ liust oc klart/ </l>
                         <l>Som met Gud leffuer euige Aar/ </l>
                         <l>J vished oc retfærtighed/ </l>
                         <l>J fryd oc euig herlighed.</l>
@@ -24632,8 +24452,7 @@
                         <l>Thi Gud haffuer hannem forblindt.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="767" n="357r"/>Mord Krig oc stor
-                            Blodslactning/ </l>
+                        <l><pb facs="767" n="357r"/>Mord Krig oc stor Blodslactning/ </l>
                         <l>Stor Hunger oc dyr tid/ </l>
                         <l>Kranckhed/ oprør oc forføring </l>
                         <l>Had oc forræderi/ </l>
@@ -24780,8 +24599,7 @@
                         <l>om du vilt salig være. </l>
                     </lg>
                     <lg>
-                        <l><pb facs="772" n="359v"/>Tenck paa at tiden
-                            stunder til/ </l>
+                        <l><pb facs="772" n="359v"/>Tenck paa at tiden stunder til/ </l>
                         <l>At Herren snarlig komme vil/ </l>
                         <l>Oc giøre paa Verden en ende. </l>
                         <l>Det kant du mercke oc vel forstaa </l>
@@ -24897,8 +24715,7 @@
                         <l>Hand vil den anden suige.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="776" n="361v"/>Gesten hand tror sin
-                            Vert ey vel/ </l>
+                        <l><pb facs="776" n="361v"/>Gesten hand tror sin Vert ey vel/ </l>
                         <l>Verten giør hannem det samme skel/ </l>
                         <l>Løss tro de sammen sette: </l>
                         <l>Aff ringe ting nu yppis en kiff/ </l>
@@ -25030,8 +24847,7 @@
                         <l>At hand sin fordeel søge maa.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="780" n="363v"/>Det du befaler laster
-                            hand/ </l>
+                        <l><pb facs="780" n="363v"/>Det du befaler laster hand/ </l>
                         <l>Forbiuder det met mord oc brand: </l>
                         <l>At ingen der aff holde skal/ </l>
                         <l>Thi det til intet giør hans Praal.</l>
@@ -25274,8 +25090,7 @@
                         <l>Før hand vil komme obenbare.</l>
                     </lg>
                     <lg>
-                        <l>Guds Engel raaber side<ex>n</ex> i Sønder oc
-                            Nør/ </l>
+                        <l>Guds Engel raaber side<ex>n</ex> i Sønder oc Nør/ </l>
                         <l>J Øster oc Vester/ som hand vel tør: </l>
                         <l>Stander op nu alle Døde/ </l>
                         <l>Denne liud hører nu all Verden omkring/ </l>
@@ -25283,8 +25098,7 @@
                         <l>J skulle nu for hannem møde.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="787" n="367r"/>Saa stande strax op de
-                            døde Been/ </l>
+                        <l><pb facs="787" n="367r"/>Saa stande strax op de døde Been/ </l>
                         <l>J dem giffuis Sielen da igien/ </l>
                         <l>De ere da baade tilhobe: </l>
                         <l>Huo da leffue/ i it øyeblick </l>
@@ -25292,8 +25106,7 @@
                         <l>Om Himmerig Alle da raabe.</l>
                     </lg>
                     <lg>
-                        <l>Guds Søn ko<ex>m</ex>mer siden met mact oc vold
-                            / </l>
+                        <l>Guds Søn ko<ex>m</ex>mer siden met mact oc vold / </l>
                         <l>At dømme Menniske mangefold/ </l>
                         <l>For hannem kand ingen vige: </l>
                         <l>De Gode kalder hand til glæde oc fryd/ </l>
@@ -25391,8 +25204,7 @@
                         <l>Effter naade tør i ey bide.</l>
                     </lg>
                     <lg>
-                        <l><pb facs="790" n="368v"/>Den euige Jld skulle i
-                            nu faa </l>
+                        <l><pb facs="790" n="368v"/>Den euige Jld skulle i nu faa </l>
                         <l>Met grumme Dieffle/ som her nu staa/ </l>
                         <l>Forbandede skulle i vorde: </l>
                         <l>Jeg vil eder met Retuisheden slaa/ </l>
@@ -25567,8 +25379,8 @@
                     <head>Jntroitus.</head>
                     <p>
                         <list rend="simple">
-                            <item>Aff Dybsens nød raaber ieg <ex>etc</ex>.
-                                    <ref target="#section-13-hymn-4"> 178. </ref>
+                            <item>Aff Dybsens nød raaber ieg <ex>etc</ex>. <ref
+                                    target="#section-13-hymn-4"> 178. </ref>
                             </item>
                         </list> * Eller en anden danske psalme/ som mest kommer offuer Eens met
                         høytiden eller den dags Euangelio. </p>
@@ -25597,9 +25409,7 @@
                         <l> Alleniste Gud i Himmerig/</l>
                         <l> være <pb facs="796" n="Aaa 3v"/> loff oc priss for alle sin naade.</l>
                     </lg>
-                    <p>
-                         Degnen oc Folckit forfølger det/ siungendis. <list
-                            rend="simple">
+                    <p> Degnen oc Folckit forfølger det/ siungendis. <list rend="simple">
                             <item>Der hand haffuer giort i Jorderig <ex>etc</ex>. <ref
                                     target="#section-8-hymn-2"> 109: </ref>
                             </item>
@@ -25701,8 +25511,7 @@
                 <div>
                     <head> Sequentzer. </head>
                     <list rend="simple">
-                        <item>
-                            * Fra Jul til Kyndelmisse/ <list rend="simple">
+                        <item> * Fra Jul til Kyndelmisse/ <list rend="simple">
                                 <item>
                                     <hi rend="italics">Grates nunc omnes.</hi> Met sin Danske der
                                     hoss/ </item>
@@ -25711,8 +25520,7 @@
                                 </item>
                             </list>
                         </item>
-                        <item>
-                            * Fra Paaske til Pindzedag/ <list rend="simple">
+                        <item> * Fra Paaske til Pindzedag/ <list rend="simple">
                                 <item><hi rend="italics">Victimæ paschali <ex>etc</ex>.</hi></item>
                                 <item>Christus Jesus for oss Offrit <ref target="#section-5-hymn-4">
                                         83: </ref></item>
@@ -25720,8 +25528,7 @@
                                     eller huert andet Verss.</item>
                             </list>
                         </item>
-                        <item><pb facs="798" n="Aaa 4v"/>
-                            * Om Pindzedage. <list rend="simple">
+                        <item><pb facs="798" n="Aaa 4v"/> * Om Pindzedage. <list rend="simple">
                                 <item><hi rend="italics">Veni sancte Spiritus,</hi> Kom hellig Aand
                                     Herre Gud <ex>etc</ex>. <ref target="#section-7-hymn-6"> 103.
                                     </ref></item>
@@ -25730,9 +25537,8 @@
                                 </item>
                             </list>
                         </item>
-                        <item>* Fra Pindzehøytid indtil Jull/ Oc siden
-                            effter Kyndelmisse indtil Paaske/ siungis effter Haleluia i Messen/
-                                <list rend="simple">
+                        <item>* Fra Pindzehøytid indtil Jull/ Oc siden effter Kyndelmisse indtil
+                            Paaske/ siungis effter Haleluia i Messen/ <list rend="simple">
                                 <item>Nu bede wi den hellig Aand/ <ref target="#section-7-hymn-4">
                                         101. </ref></item>
                             </list></item>
@@ -25832,11 +25638,9 @@
                 </div>
                 <div>
                     <head>Presten for Alterit vender sig om til Folckit/</head>
-                    <p>
-                         Oc Formaningen/ til dem som ville berettis/ læ<lb
-                            rend="="/>ser hand aff Alterbogen/ som den der staar paa Skertorsdag/
-                        effter som den bleff samtyckt in Synodo Hafniensi/ Anno <ex>etc</ex>.
-                        1541.</p>
+                    <p> Oc Formaningen/ til dem som ville berettis/ læ<lb rend="="/>ser hand aff
+                        Alterbogen/ som den der staar paa Skertorsdag/ effter som den bleff samtyckt
+                        in Synodo Hafniensi/ Anno <ex>etc</ex>. 1541.</p>
                 </div>
                 <div>
                     <head>Paa det kieriste Christi venner <ex>etc</ex>.</head>
@@ -25852,23 +25656,19 @@
                             besynderlig/ <list rend="simple">
                                 <item>Dig være loff oc priss/ <ref target="#section-9-5-hymn-3">
                                         127. </ref></item>
-                                <item>O Guds lam wskyldig/ <ref
-                                        target="#section-9-5-hymn-4"> 127: </ref></item>
-                                <item>
-                                    Jesus Christus er vor salighed/ <ref
+                                <item>O Guds lam wskyldig/ <ref target="#section-9-5-hymn-4"> 127:
+                                    </ref></item>
+                                <item> Jesus Christus er vor salighed/ <ref
                                         target="#section-9-5-hymn-5"> 128. </ref>
                                 </item>
-                                <item>
-                                    Gud være loffuit <ex>etc</ex>. (til
-                                    enden) <ref target="#section-9-5-hymn-6"> 129. </ref>
+                                <item> Gud være loffuit <ex>etc</ex>. (til enden) <ref
+                                        target="#section-9-5-hymn-6"> 129. </ref>
                                 </item>
                             </list>
                         </item>
                         <item/>
                     </list>
-                    <p>
-                         Strax Folckit er beret/ vender Presten sig til
-                        Folckit/ Sigendis:</p>
+                    <p> Strax Folckit er beret/ vender Presten sig til Folckit/ Sigendis:</p>
                     <lg>
                         <l> Herren være met eder.</l>
                     </lg>
@@ -25876,9 +25676,8 @@
                     <lg>
                         <l>Oc met din Aand.</l>
                     </lg>
-                    <p>
-                         Men hand vender sig om igen til Alterit/ oc læser
-                        Collecten aff Alterbogen for en Tacksigelse. </p>
+                    <p> Men hand vender sig om igen til Alterit/ oc læser Collecten aff Alterbogen
+                        for en Tacksigelse. </p>
                     <lg>
                         <l><pb facs="801" n="Aaa 6r"/>Wi tacke dig Herre almectigste euige Gud
                                 <ex>etc</ex>.</l>
@@ -25904,16 +25703,15 @@
                     <lg>
                         <l>Amen.</l>
                     </lg>
-                    <p>
-                         Til Beslutningen siungis en kort Psalme. Oc er det
-                        vel beramt i den Christelig Euangeliske Messe paa Danske/ som Her Claus
-                        Mortensøn/ Guds ords Tienere oc forfremmere i Malmø oc andersteds i Skaane
-                            <ex>etc</ex>. loed Prente i Malmø aff Oluff Vlrickss Anno 1529. At der
-                        skulde siungis sist i Messen de Ti Guds Budord. Gud Fader vdi Himmerig/ sin
-                        villie hand oss kiende <ex>etc</ex>. Blad 111: Thi at naar der saa siungis i
-                        Messen/ de Ti Budord. Jtem/ Fader vor/ Troens Artickler: Oc Daaben oc
-                        Alterens Sacrament der ocsaa forhandlis/ Da bliffuer den gantske Catechismus
-                        der tilsammen tracterit oc forhandlit. </p>
+                    <p> Til Beslutningen siungis en kort Psalme. Oc er det vel beramt i den
+                        Christelig Euangeliske Messe paa Danske/ som Her Claus Mortensøn/ Guds ords
+                        Tienere oc forfremmere i Malmø oc andersteds i Skaane <ex>etc</ex>. loed
+                        Prente i Malmø aff Oluff Vlrickss Anno 1529. At der skulde siungis sist i
+                        Messen de Ti Guds Budord. Gud Fader vdi Himmerig/ sin villie hand oss kiende
+                            <ex>etc</ex>. Blad 111: Thi at naar der saa siungis i Messen/ de Ti
+                        Budord. Jtem/ Fader vor/ Troens Artickler: Oc Daaben oc Alterens Sacrament
+                        der ocsaa forhandlis/ Da bliffuer den gantske Catechismus der tilsammen
+                        tracterit oc forhandlit. </p>
                     <p> *</p>
                 </div>
             </div>
@@ -26384,8 +26182,7 @@
                                     <seg n="2">Herren</seg>
                                 </choice> loffue/ <ref target="#section-3-hymn-8">39.</ref>
                             </item>
-                            <item>
-                                Herren </item>
+                            <item> Herren </item>
                         </list>
                     </div>
                 </div>
@@ -26433,11 +26230,10 @@
                         n="Bbb 1v"/>danne gammel Papistiske Surdey oc andre farlige Bøger: Thi der
                     findis i disse tider (diss værre) mange som vnderligen oc ilde scriffue om Guds
                     ord oc de hellige Sacramenter/ ja om den gantske Christendoms Lærdom. </p>
-                <p>
-                    ☙ Huad der findis ilde aff hannem lagd Jomfru Marie
-                    til/ det haffuer ieg met rette set om vor Herre Jesu Christo. Findis der end oc
-                    noget got iblant disse Affner/ som/ i de Rim om Synden. Jtem huad kand bedre
-                    sigis/ end det hand beslutter Jesu Christi pines Historie met?</p>
+                <p> ☙ Huad der findis ilde aff hannem lagd Jomfru Marie til/ det haffuer ieg met
+                    rette set om vor Herre Jesu Christo. Findis der end oc noget got iblant disse
+                    Affner/ som/ i de Rim om Synden. Jtem huad kand bedre sigis/ end det hand
+                    beslutter Jesu Christi pines Historie met?</p>
                 <lg>
                     <l> O Menniske tenck paa Jesu død/</l>
                     <l> Som dig haffuer frelst aff Synd oc nød/</l>
@@ -27689,18 +27485,14 @@
                         suo carissimo.</hi></head>
                 <lg>
                     <l><hi rend="italics">VIdit et vt vidit peruerso lumine Momus,</hi></l>
-                    <l><hi rend="italics">Tam pulcrum eximij forte laboris
-                            opus:</hi></l>
+                    <l><hi rend="italics">Tam pulcrum eximij forte laboris opus:</hi></l>
                     <l><hi rend="italics">Quorsum inquit, parui precij, mediocris opellæ,</hi></l>
-                    <l><hi rend="italics">Nullius ingenij, res iterare
-                            leues?</hi></l>
+                    <l><hi rend="italics">Nullius ingenij, res iterare leues?</hi></l>
                     <l><hi rend="italics">Legit at hoc idem, et penitus lecto, arbiter
                         æquus,</hi></l>
-                    <l><hi rend="italics">Omnia Musarum numina testor,
-                            ait:</hi></l>
+                    <l><hi rend="italics">Omnia Musarum numina testor, ait:</hi></l>
                     <l><hi rend="italics">Non melius forma, præstantius ordine, maius</hi></l>
-                    <l><hi rend="italics">Iudicio quicquam hoc prodijt in
-                            genere.</hi></l>
+                    <l><hi rend="italics">Iudicio quicquam hoc prodijt in genere.</hi></l>
                     <l><hi rend="italics">Andreas Seuerinus V.</hi></l>
                 </lg>
             </div>
@@ -27708,19 +27500,19 @@
                 <head type="add">Til læseren</head>
                 <head><pb facs="825" n="Bbb 10r"/>Til Læseren.</head>
 
-                <p> CHristelige fromme Læsere/ denne Psalmebog met mange Gudelige
-                    Psalmer/ aff Hederlig oc høylerd Mand M. Hans Thomissøn Sogneprest til vor Frue
-                    Kircke i Kiøbenhaffn oc Prouest <ex>etc</ex>. Ordentlig oc flittelig
-                    tilsammenset/ formerit oc forbedrit/ Haffuer ieg nu/ Den allsommectigste Gud til
-                    loff oc ære/ hans hellige Ord til forfremmelse/ den hellige Christelig Kircke
-                    til opbyggelse/ oc alle fromme Gudfryctige Christne her vdi Danmarckis oc Norgis
-                    Riger til nytte gaffn oc gode/ fuldkommet/ oc met stor bekostning arbeid oc
-                    wmage/ som ieg wspart der paa vent haffuer/ ved Prent ladit vdgaa. Thi beder ieg
-                    ydmygeligen/ at du dette mit arbeid vilde tage til tacke/ oc bruge det
-                    Christeligen/ at Guds naffn kunde end oc i saa maade iblant oss varaffteligen
-                    prisis. Den euige gode Gud/ Fader oc Søn oc hellig Aand/ samle sig her stedse
-                    sin Kircke/ oc lade sit hellige Ord altid reent oc klart bliffue iblant oss/
-                    Amen. Giffuit i Kiøbenhaffn/ den 8. Septemb. Aar <ex>etc</ex>. 1569. </p>
+                <p> CHristelige fromme Læsere/ denne Psalmebog met mange Gudelige Psalmer/ aff
+                    Hederlig oc høylerd Mand M. Hans Thomissøn Sogneprest til vor Frue Kircke i
+                    Kiøbenhaffn oc Prouest <ex>etc</ex>. Ordentlig oc flittelig tilsammenset/
+                    formerit oc forbedrit/ Haffuer ieg nu/ Den allsommectigste Gud til loff oc ære/
+                    hans hellige Ord til forfremmelse/ den hellige Christelig Kircke til opbyggelse/
+                    oc alle fromme Gudfryctige Christne her vdi Danmarckis oc Norgis Riger til nytte
+                    gaffn oc gode/ fuldkommet/ oc met stor bekostning arbeid oc wmage/ som ieg
+                    wspart der paa vent haffuer/ ved Prent ladit vdgaa. Thi beder ieg ydmygeligen/
+                    at du dette mit arbeid vilde tage til tacke/ oc bruge det Christeligen/ at Guds
+                    naffn kunde end oc i saa maade iblant oss varaffteligen prisis. Den euige gode
+                    Gud/ Fader oc Søn oc hellig Aand/ samle sig her stedse sin Kircke/ oc lade sit
+                    hellige Ord altid reent oc klart bliffue iblant oss/ Amen. Giffuit i
+                    Kiøbenhaffn/ den 8. Septemb. Aar <ex>etc</ex>. 1569. </p>
                 <p rend="right">Laurentz Benedicht.</p>
 
             </div>
