@@ -3280,14 +3280,12 @@
                                 <cell cols="2">
                                     <hi rend="italics"> Dies Aetatis Lunæ.</hi> Dage fra
                                     Maaneskiffte.</cell>
-                                <!--<cell/>-->
                                 <cell>Timer.</cell>
                                 <cell>Minuter.</cell>
                             </row>
                             <row>
                                 <cell>1</cell>
                                 <cell>29</cell>
-                                <!--<cell rows="16"/>-->
                                 <cell>0</cell>
                                 <cell>48</cell>
                             </row>
@@ -4653,9 +4651,9 @@
         <body>
             <div type="psalmgroup" xml:id="section-1" n="1">
                 <head type="add">Kristi komme</head>
-                <head><pb facs="057" n="1r"/> Om Christi Tilkommelse til Verden.</head>
                 <div type="psalm" xml:id="veni-redemptor-gentium" n="1">
                     <head type="add">Kom hedningers frelser sand</head>
+                    <head><pb facs="057" n="1r"/> Om Christi Tilkommelse til Verden.</head>
                     <head>I. Den Hymne/ <title><hi rend="italics">Veni redemptor
                             gentium</hi></title>. D. Morten Luther.</head>
                     <p>[Illustration]</p>
@@ -4764,9 +4762,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-2" n="2">
                 <head type="add">Kristi fødsel</head>
-                <head n="4">Om Christi Fødzel.</head>
                 <div type="psalm" xml:id="kyrie-eleison-christi-foedsel" n="1">
                     <head type="add">Kyrie Gud Fader af Himmerig</head>
+                    <head n="4">Om Christi Fødzel.</head>
                     <head> I. Kyrie Eleyson/ paa Christi Fødzels Høytid.</head>
                     <p>[Illustration]</p>
                     <notatedMusic>
@@ -6367,9 +6365,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-3" n="3">
                 <head type="add">Kristi person og embede</head>
-                <head>Om Christi Person oc Embede.</head>
                 <div type="psalm" xml:id="section-3-hymn-1" n="1">
                     <head type="add">Herre Krist Gud Faders enbårne søn</head>
+                    <head>Om Christi Person oc Embede.</head>
                     <head> I. <title>Her Christ Gud Faders enborne Søn</title>
                         <ex>etc</ex>. Elizabeth Crucigers.</head>
                     <notatedMusic>
@@ -6433,8 +6431,8 @@
                 <div type="psalm" xml:id="section-3-hymn-2" n="2">
                     <head type="add">Hvi storme og fnyse de hedninge så</head>
                     <head><pb facs="116" n="30v"/> II. Den <ref target="#sl-2"><orig>II. Dauids
-                                Psalme</orig><!--<reg>Sl 2</reg>--></ref>/ <title><hi rend="italics"
-                                >Quare fremuerunt gentes <ex>etc</ex>.</hi></title>
+                                Psalme</orig></ref>/ <title><hi rend="italics">Quare fremuerunt
+                                gentes <ex>etc</ex>.</hi></title>
                     </head>
 
                     <notatedMusic>
@@ -6615,9 +6613,7 @@
                 <div type="psalm" xml:id="section-3-hymn-5" n="5">
                     <head type="add">En visse tale er denne her</head>
                     <head> V. Sancte Pouels Loffsang om sin Omuendelse. <ref target="#tim-1-1"
-                                ><orig>j. Timoth.
-                            j.</orig><!--<reg>1 Tim
-                        1</reg>--></ref></head>
+                                ><orig>j. Timoth. j.</orig></ref></head>
 
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_034r.xml"/>
@@ -8037,10 +8033,10 @@
                 </div>
             </div>
             <div type="psalmgroup" xml:id="section-4" n="4">
-                <head>Om Christi pine oc Død.</head>
                 <head type="add">Om Kristi pine og død</head>
                 <div type="psalm" xml:id="section-4-hymn-1" n="1">
                     <head type="add">Hjælp Gud, at jeg nu kunne</head>
+                    <head>Om Christi pine oc Død.</head>
                     <head> I. Hielp Gud at ieg nu kunde.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_061v.xml"/>
@@ -9278,9 +9274,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-5" n="5">
                 <head type="add">Om Kristi opstandelse</head>
-                <head>Om Christi Opstandelse.</head>
                 <div type="psalm" xml:id="section-5-hymn-1" n="1">
                     <head type="add">Kyrie Gud Fader forbarme dig over os</head>
+                    <head>Om Christi Opstandelse.</head>
                     <head> I. Kyrie eleison/ som siungis om Paaske høytid.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_082v.xml"/>
@@ -9833,9 +9829,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-6" n="6">
                 <head type="add">Kristi himmelfart</head>
-                <head><pb facs="248" n="96v"/>Om Christi Himmelfart.</head>
                 <div type="psalm" xml:id="section-6-hymn-1" n="1">
                     <head type="add">Postquam resurrexit</head>
+                    <head><pb facs="248" n="96v"/>Om Christi Himmelfart.</head>
                     <head> I. <title><hi rend="italics">POSTQVAM RESVRrexit</hi></title>. Siungis
                         lige som/ <hi rend="italics">Resurrexit Christus.</hi>
                     </head>
@@ -10023,9 +10019,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-7" n="7">
                 <head type="add">Om Helligånden</head>
-                <head n="4">Om den Hellig Aand.</head>
                 <div type="psalm" xml:id="section-7-hymn-1" n="1">
                     <head type="add">Kyrie Gud Fader alsomhøjeste trøst</head>
+                    <head n="4">Om den Hellig Aand.</head>
                     <head> I. <title><hi rend="italics">Kyrie fons bonitatis
                             <ex>etc</ex>.</hi></title> Som siungis i Pindze dage/ oc siden om
                         Søndagerne ind til Jull/ oc effter Kyndelmisse ind til Paaske.</head>
@@ -10420,9 +10416,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-8" n="8">
                 <head type="add">Den hellige treenighed</head>
-                <head><pb facs="270" n="108v"/>Om den Hellige Trefoldighed.</head>
                 <div type="psalm" xml:id="section-8-hymn-1" n="1">
                     <head type="add">O Herre Gud Fader, med din kraft</head>
+                    <head><pb facs="270" n="108v"/>Om den Hellige Trefoldighed.</head>
                     <head> I. <title>O Herre Gud Fader met din krafft</title>.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_108v.xml"/>
@@ -10572,9 +10568,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-9" n="9">
                 <head type="add">Katekismus</head>
-                <head><hi rend="italics">Catechismus.</hi></head>
                 <div type="psalmgroup" xml:id="section-9-1" n="1">
                     <head type="add">Om de ti bud</head>
+                    <head><hi rend="italics">Catechismus.</hi></head>
                     <head n="4">Om de Thi Guds Bud.</head>
                 </div>
                 <div type="psalm" xml:id="section-9-1-hymn-1" n="1">
@@ -11342,8 +11338,7 @@
                 <div type="psalm" xml:id="section-9-5-hymn-1" n="1">
                     <head type="add">Esajas den profet monne det så gå</head>
                     <head> I. Jt <hi rend="italics">Sanctus</hi> som D. Morten Luther vdsette aff
-                            <ref target="#es-6"><orig>Esaiæ vj.
-                            Capitel</orig><!--<reg>Es 6</reg>--></ref>.</head>
+                            <ref target="#es-6"><orig>Esaiæ vj. Capitel</orig></ref>.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_125r.xml"/>
                     </notatedMusic>
@@ -11673,9 +11668,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-10" n="10">
                 <head type="add">Guds ord</head>
-                <head>Om Guds Ord.</head>
                 <div type="psalm" xml:id="section-10-hymn-1" n="1">
                     <head type="add">Lover Gud, I fromme kristne</head>
+                    <head>Om Guds Ord.</head>
                     <head> I. <title>Loffuer Gud i fromme Christne</title>
                         <ex>etc</ex>. M. D. xxx.</head>
                     <notatedMusic>
@@ -12509,9 +12504,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-11" n="11">
                 <head type="add">Skabelsen</head>
-                <head>Om Skabelsen.</head>
                 <div type="psalm" xml:id="section-11-hymn-1" n="1">
                     <head type="add">Den signede dag, o skaber god</head>
+                    <head>Om Skabelsen.</head>
                     <head> I. En ny Dageuise/ om alle Creaturis Skabelse/ giort aff Doctore Petro
                         Palladio.</head>
                     <notatedMusic>
@@ -12752,15 +12747,13 @@
             </div>
             <div type="psalmgroup" xml:id="section-12" n="12">
                 <head type="add">Loven og evangeliet</head>
-                <head><pb facs="353" n="150r"/>Om Louen oc Euangelio/ om Synden/ Syndernis
-                    forladelse/ Retfærdighed/ Troen oc gode Gierninger. </head>
                 <div type="psalm" xml:id="section-12-hymn-1" n="1">
                     <head type="add">Så taler den uvise mund</head>
-                    <head> I. Den <ref target="#sl-14"><orig>XIIII.
-                            Psalme</orig><!--<reg>Sl
-                                14</reg>--></ref>/
-                                <title><hi rend="italics">Dixit insipiens in corde suo, non est
-                                Deus.</hi></title> D. Morten Luther.</head>
+                    <head><pb facs="353" n="150r"/>Om Louen oc Euangelio/ om Synden/ Syndernis
+                        forladelse/ Retfærdighed/ Troen oc gode Gierninger. </head>
+                    <head> I. Den <ref target="#sl-14"><orig>XIIII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Dixit insipiens in corde suo, non est
+                            Deus.</hi></title> D. Morten Luther.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_150r.xml"/>
                     </notatedMusic>
@@ -14040,16 +14033,16 @@
                 </div>
             </div>
             <div type="psalmgroup" xml:id="section-13" n="13">
-                <head type="add">Pønitens</head>
-                <head><pb facs="398" n="172v"/>Om Penitentze.</head>
+                <head type="add">Pønitense</head>
                 <div type="psalm" xml:id="section-13-hymn-1" n="1">
                     <head type="add">Fra mennesken haver jeg vendt min hu</head>
+                    <head><pb facs="398" n="172v"/>Om Penitentze.</head>
                     <head>
                         <orig> I. Den <ref target="#sl-25">XXV. Psalme</ref>/ <title><hi
                                     rend="italics">Ad te Domine leuaui animam meam
                                     <ex>etc</ex>.</hi></title>
                         </orig>
-                        <!--<reg>Sl 25</reg>--></head>
+                    </head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_172v.xml"/>
                     </notatedMusic>
@@ -14175,7 +14168,6 @@
                     <head type="add">O Herre Gud, benåde mig</head>
                     <head><orig> II. Den <ref target="#sl-51">LI. Psalme</ref>/ <title><hi
                                     rend="italics">Miserere mei Deus</hi></title>. </orig>
-                        <!--<reg>Sl 51</reg>-->
                     </head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_174v.xml"/>
@@ -14264,9 +14256,7 @@
                 <div type="psalm" xml:id="section-13-hymn-3" n="3">
                     <head type="add">O Herre Gud, benåde mig</head>
 
-                    <head> III. Den samme <ref target="#sl-51"><orig>LI.
-                            Psalme</orig><!--<reg>Sl
-                                51</reg>--></ref>/
+                    <head> III. Den samme <ref target="#sl-51"><orig>LI. Psalme</orig></ref>/
                                 <title><hi rend="italics">Miserere mei Deus
                             <ex>etc</ex>.</hi></title> anderledis.</head>
                     <notatedMusic>
@@ -14365,9 +14355,7 @@
                 </div>
                 <div type="psalm" xml:id="section-13-hymn-4" n="4">
                     <head type="add">Af dybsens nød råber jeg til dig</head>
-                    <head> IIII. Den <ref target="#sl-130"><orig>CXXX.
-                            Psalme</orig><!--<reg>Sl
-                                130</reg>--></ref>/
+                    <head> IIII. Den <ref target="#sl-130"><orig>CXXX. Psalme</orig></ref>/
                                 <title><hi rend="italics">De profundis clamaui at te Domine
                                     <ex>etc</ex>.</hi></title> D. Morten Luther.</head>
                     <notatedMusic>
@@ -15012,14 +15000,12 @@
             </div>
             <div type="psalmgroup" xml:id="section-14" n="14">
                 <head type="add">Den kristelige kirke</head>
-                <head><pb facs="433" n="190r"/>Om den Christelig Kircke.</head>
                 <div type="psalm" xml:id="section-14-hymn-1" n="1">
                     <head type="add">Vel er den mand, der vandrer ej</head>
-                    <head> I. Den <ref target="#sl-1"><orig>I.
-                            Psalme</orig><!--<reg>Sl
-                            1</reg>--></ref>/
-                                <title><hi rend="italics">Beatus vir qui non abijt in consilio
-                                impiorum</hi></title>. Siungis lige som/ <title>Saa taler den wuise
+                    <head><pb facs="433" n="190r"/>Om den Christelig Kircke.</head>
+                    <head> I. Den <ref target="#sl-1"><orig>I. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Beatus vir qui non abijt in consilio
+                            impiorum</hi></title>. Siungis lige som/ <title>Saa taler den wuise
                             Mund</title>.</head>
                     <lg>
                         <l>VEl er den Mand der vandrer ey </l>
@@ -15060,12 +15046,10 @@
                 </div>
                 <div type="psalm" xml:id="section-14-hymn-2" n="2">
                     <head type="add">O Herre Gud i Himmerig</head>
-                    <head> II. Den <ref target="#sl-15"><orig>XV.
-                            Psalme</orig><!--<reg>Sl
-                                15</reg>--></ref>/
-                                <title><hi rend="italics">Domine quis habitabit in tabernaculo tuo
-                                    <ex>etc</ex>.</hi></title> Siungis lige som/ <title>En vise ny
-                            ville wi nu quæde</title>.</head>
+                    <head> II. Den <ref target="#sl-15"><orig>XV. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Domine quis habitabit in tabernaculo tuo
+                                <ex>etc</ex>.</hi></title> Siungis lige som/ <title>En vise ny ville
+                            wi nu quæde</title>.</head>
                     <lg>
                         <l>O Herre Gud i Himmerig/ </l>
                         <l>Huo skal bo i din Leyre/ </l>
@@ -15103,7 +15087,7 @@
                 <div type="psalm" xml:id="section-14-hymn-3" n="3">
                     <head type="add">Salig forvist er alle de</head>
                     <head> III. Begyndelsen aff den <ref target="#sl-119"><orig>CXIX.
-                            Psalme</orig><!--<reg>Sl 119</reg>--></ref>
+                            Psalme</orig></ref>
                         <title><hi rend="italics">Beati immaculati</hi></title>. Siungis lige som/
                             <title>O Menniske begræd din Synd saa stor</title>.</head>
                     <lg>
@@ -15313,12 +15297,10 @@
             </div>
             <div type="psalmgroup" xml:id="section-15" n="15">
                 <head type="add">Ægteskab</head>
-                <head><pb facs="443" n="195r"/>Om Ecteskab.</head>
                 <div type="psalm" xml:id="section-15-hymn-1" n="1">
                     <head type="add">Salig er den, i Guds frygt står</head>
-                    <head> I. Den <ref target="#sl-128"><orig>CXXVIII.
-                            Psalme</orig><!--<reg>Sl
-                                128</reg>--></ref>.
+                    <head><pb facs="443" n="195r"/>Om Ecteskab.</head>
+                    <head> I. Den <ref target="#sl-128"><orig>CXXVIII. Psalme</orig></ref>.
                                 <title><hi rend="italics">Beati omnes qui timent Domi<lb rend="="
                                 />num</hi></title>. D. Morten Luther.</head>
                     <notatedMusic>
@@ -15357,8 +15339,8 @@
                 </div>
                 <div type="psalm" xml:id="section-15-hymn-2" n="2">
                     <head type="add">Salig er den mand, der Gud frygter</head>
-                    <head> II. Den samme <ref target="#sl-128"><orig>CXXVIII.
-                            Psalme</orig><!--<reg>Sl 128</reg>--></ref>/ anderledis.</head>
+                    <head> II. Den samme <ref target="#sl-128"><orig>CXXVIII. Psalme</orig></ref>/
+                        anderledis.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_195v.xml"/>
                     </notatedMusic>
@@ -15407,9 +15389,9 @@
                 </div>
                 <div type="psalm" xml:id="section-15-hymn-3" n="3">
                     <head type="add">Hvo som vil salig udi verden leve</head>
-                    <head> III. Den samme <ref target="#sl-128"><orig>CXXVIII.
-                            Psalme</orig><!--<reg>Sl 128</reg>--></ref>/ om Guds velsignelse vdi en
-                        Gudfryctig Hussholdning. D. Petrus Palladius.</head>
+                    <head> III. Den samme <ref target="#sl-128"><orig>CXXVIII. Psalme</orig></ref>/
+                        om Guds velsignelse vdi en Gudfryctig Hussholdning. D. Petrus
+                        Palladius.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_196v.xml"/>
                     </notatedMusic>
@@ -15453,10 +15435,9 @@
                 </div>
                 <div type="psalm" xml:id="section-15-hymn-4" n="4">
                     <head type="add">Ret salig er forvist den mand</head>
-                    <head> IIII. Den samme <ref target="#sl-128"><orig>CXXVIII.
-                            Psalme</orig><!--<reg>Sl 128</reg>--></ref>/ anderledis. Vnder de Noder/
-                        som/ <title>Vden Herren opholder vort Huss oc gaard</title>/ siun<lb
-                            rend="="/>gis met.</head>
+                    <head> IIII. Den samme <ref target="#sl-128"><orig>CXXVIII. Psalme</orig></ref>/
+                        anderledis. Vnder de Noder/ som/ <title>Vden Herren opholder vort Huss oc
+                            gaard</title>/ siun<lb rend="="/>gis met.</head>
                     <lg>
                         <l>RÆt salig er foruist den mand/ </l>
                         <l>Som sig paa Gud forlader: </l>
@@ -15694,11 +15675,9 @@
                 </div>
                 <div type="psalm" xml:id="section-15-hymn-6" n="6">
                     <head type="add">Hjælp os, O Herre Jesu Krist</head>
-                    <head> VI. Den <ref target="#sl-45"><orig>XLV.
-                            Psalme</orig><!--<reg>Sl
-                                45</reg>--></ref>/
-                                <title><hi rend="italics">Eructauit <ex>etc</ex>.</hi></title> Vor
-                        Herris Christi Brude Vise. D. Petrus Palladius. </head>
+                    <head> VI. Den <ref target="#sl-45"><orig>XLV. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Eructauit <ex>etc</ex>.</hi></title> Vor Herris
+                        Christi Brude Vise. D. Petrus Palladius. </head>
                     <head n="5">Til Læseren.</head>
                     <p> DEr faare er denne Merckelig oc Trøstelig Christi Brudpsalme paa rim vdsæt/
                         at erlige Quindfolck/ Fruer oc Jomfruer/ Dannequinder oc gode Møer/ kunde
@@ -15842,12 +15821,10 @@
             </div>
             <div type="psalmgroup" xml:id="section-16" n="16">
                 <head type="add">Verdslig øvrighed</head>
-                <head><pb facs="460" n="203v"/> Om Verdzlig Øffrighed.</head>
                 <div type="psalm" xml:id="section-16-hymn-1" n="1">
                     <head type="add">Uden Herren opholder vort hus og gård</head>
-                    <head> I. Den <ref target="#sl-127"><orig>CXXVII.
-                            Psalme</orig><!--<reg>Sl
-                                127</reg>--></ref>/
+                    <head><pb facs="460" n="203v"/> Om Verdzlig Øffrighed.</head>
+                    <head> I. Den <ref target="#sl-127"><orig>CXXVII. Psalme</orig></ref>/
                                 <title><hi rend="italics">Nisi Dominus ædificauerit domum
                                     <ex>etc</ex>.</hi></title>
                     </head>
@@ -15920,8 +15897,8 @@
                 </div>
                 <div type="psalm" xml:id="section-16-hymn-2" n="2">
                     <head type="add">Forgæves er alt arbejd og kost</head>
-                    <head> II. Den samme <ref target="#sl-127"><orig>CXXVII.
-                            Psalme</orig><!--<reg>Sl 127</reg>--></ref> anderledis.</head>
+                    <head> II. Den samme <ref target="#sl-127"><orig>CXXVII. Psalme</orig></ref>
+                        anderledis.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_204v.xml"/>
                     </notatedMusic>
@@ -15988,11 +15965,9 @@
                 </div>
                 <div type="psalm" xml:id="section-16-hymn-3" n="3">
                     <head type="add">Herren høre dig bøn i din modgangs tid</head>
-                    <head> III. Den <ref target="#sl-20"><orig>XX.
-                            Psalme</orig><!--<reg>Sl
-                                20</reg>--></ref>/
-                                <title><hi rend="italics">Exaudiat te Dominus in die
-                                tribulationis</hi></title>. </head>
+                    <head> III. Den <ref target="#sl-20"><orig>XX. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Exaudiat te Dominus in die
+                        tribulationis</hi></title>. </head>
                     <p>Denne Psalme er Vndersaatters Bøn til Gud for deris Kong oc anden øffrighed.
                         M. D. xxxvij.</p>
                     <notatedMusic>
@@ -16218,15 +16193,12 @@
             </div>
             <div type="psalmgroup" xml:id="section-17" n="17">
                 <head type="add">Korset og trøst mod modgang og fristelse</head>
-                <head>Om Kaarssit/ oc trøst mod atskillige modgang oc fristelser.</head>
                 <div type="psalm" xml:id="section-17-hymn-1" n="1">
                     <head type="add">O Herre for dig ret ynkelig</head>
-                    <head> I. Den <ref target="#sl-3"><orig>III.
-                            Psalme</orig><!--<reg>Sl
-                            3</reg>--></ref>/
-                                <title><hi rend="italics">Domine quid multiplicati
-                                <ex>etc</ex>.</hi></title> Siungis lige som/ <title>O Jesu bold/ met
-                            megit vold</title>
+                    <head>Om Kaarssit/ oc trøst mod atskillige modgang oc fristelser.</head>
+                    <head> I. Den <ref target="#sl-3"><orig>III. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Domine quid multiplicati <ex>etc</ex>.</hi></title>
+                        Siungis lige som/ <title>O Jesu bold/ met megit vold</title>
                         <ex>etc</ex>. M. B.</head>
                     <lg>
                         <l>O HERRE for dig ret ynckelig </l>
@@ -16301,11 +16273,9 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-2" n="2">
                     <head type="add">Gud hør mig snart</head>
-                    <head> II. Den <ref target="#sl-4"><orig>IIII.
-                            Psalme</orig><!--<reg>Sl
-                                4</reg>--></ref>/
-                                <title><hi rend="italics">Cum inuocarem <ex>etc</ex>.</hi></title>
-                        Siungis lige som/ <title>O Herre Gud det kommer nu vd</title>
+                    <head> II. Den <ref target="#sl-4"><orig>IIII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Cum inuocarem <ex>etc</ex>.</hi></title> Siungis lige
+                        som/ <title>O Herre Gud det kommer nu vd</title>
                         <ex>etc</ex>.</head>
                     <lg>
                         <l>GVd hør mig snart/ oc hielp met fart/ </l>
@@ -16370,11 +16340,8 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-3" n="3">
                     <head type="add">O Gud, af himmelen se her til</head>
-                    <head> III. Den <ref target="#sl-12"><orig>XII.
-                            Psalme</orig><!--<reg>Sl
-                                12</reg>--></ref>/
-                                <title><hi rend="italics">Saluum me fac Domine
-                            <ex>etc</ex>.</hi></title>
+                    <head> III. Den <ref target="#sl-12"><orig>XII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Saluum me fac Domine <ex>etc</ex>.</hi></title>
                     </head>
                     <p>Denne Psalme er it Klagemaal om Antichristens oc alle Ketters vold oc Løgn
                         mod Guds Ord. Oc en trøst om Euangelij fremgang. D. Morten Luther.</p>
@@ -16447,9 +16414,9 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-4" n="4">
                     <head type="add">O Herre Gud af Himmerig</head>
-                    <head> IIII. Den samme <ref target="#sl-12"><orig>XII.
-                            Psalme</orig><!--<reg>Sl 12</reg>--></ref>/ anderledis. Vnder de Noder/
-                        som/ <title>O Jesu Christ som mandom tog</title>/ siungis met.</head>
+                    <head> IIII. Den samme <ref target="#sl-12"><orig>XII. Psalme</orig></ref>/
+                        anderledis. Vnder de Noder/ som/ <title>O Jesu Christ som mandom
+                        tog</title>/ siungis met.</head>
                     <lg>
                         <l>O HERRE Gud aff Himmerig </l>
                         <l>Wi maa det alle klage/ </l>
@@ -16508,8 +16475,8 @@
                 <div type="psalm" xml:id="section-17-hymn-5" n="5">
                     <head type="add">Hvad kan os komme til for nød</head>
                     <head><pb facs="483" n="215r"/> V. Den <ref target="#sl-23"><orig>XXIII.
-                                Psalme</orig><!--<reg>Sl 23</reg>--></ref>/ <title><hi
-                                rend="italics">Dominus pastor meus, nihil mihi deerit</hi></title>. </head>
+                                Psalme</orig></ref>/ <title><hi rend="italics">Dominus pastor meus,
+                                nihil mihi deerit</hi></title>. </head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_215r.xml"/>
                     </notatedMusic>
@@ -16588,11 +16555,9 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-6" n="6">
                     <head type="add">O Herre, frels mig og døm min sag</head>
-                    <head> VI. Den <ref target="#sl-43"><orig>XLIII.
-                            Psalme</orig><!--<reg>Sl
-                                43</reg>--></ref>/
-                                <title><hi rend="italics">Iudica me Deus, et discerne causam meam
-                                    <ex>etc</ex>.</hi></title>
+                    <head> VI. Den <ref target="#sl-43"><orig>XLIII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Iudica me Deus, et discerne causam meam
+                                <ex>etc</ex>.</hi></title>
                     </head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_216r.xml"/>
@@ -16636,11 +16601,9 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-7" n="7">
                     <head type="add">Vor Gud han er så fast en borg</head>
-                    <head> VII. Den <ref target="#sl-46"><orig>XLVI.
-                            Psalme</orig><!--<reg>Sl
-                                46</reg>--></ref>/
-                                <title><hi rend="italics">Deus noster refugium et virtus
-                                    <ex>etc</ex>.</hi></title> D. Morten Luther.</head>
+                    <head> VII. Den <ref target="#sl-46"><orig>XLVI. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Deus noster refugium et virtus
+                            <ex>etc</ex>.</hi></title> D. Morten Luther.</head>
                     <p> Denne Psalme/ som trøstelig taler om den hellige Kirckis oc Guds ords
                         beskermelse/ lod salige D. Morten Luther vdgaa i sanguise/ Anno Domini/
                         1530. Alle fattige bedrøffuede Christne til <pb facs="488" n="217v"/> trøst
@@ -16698,12 +16661,9 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-8" n="8">
                     <head type="add">Hvi trodser du og berømmer dig</head>
-                    <head> VIII. Den <ref target="#sl-52"><orig>LII.
-                            Psalme</orig><!--<reg>Sl
-                                52</reg>--></ref>/
-                                <title><hi rend="italics">Quid gloriaris in malitia <ex>etc</ex>.
-                            </hi></title> Vnder de Noder/ som/ <title>Vden Herren opholder vort huss
-                            oc gaard</title>
+                    <head> VIII. Den <ref target="#sl-52"><orig>LII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Quid gloriaris in malitia <ex>etc</ex>. </hi></title>
+                        Vnder de Noder/ som/ <title>Vden Herren opholder vort huss oc gaard</title>
                         <ex>etc</ex>. siungis met. M. D. lxvj.</head>
                     <lg>
                         <l>HVi tratzer du oc berømmer dig/ </l>
@@ -16771,9 +16731,7 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-9" n="9">
                     <head type="add">Sandelig Gud er Israel god og nådig</head>
-                    <head> IX. Den <ref target="#sl-73"><orig>LXXIII.
-                            Psalme</orig><!--<reg>Sl
-                                73</reg>--></ref>.
+                    <head> IX. Den <ref target="#sl-73"><orig>LXXIII. Psalme</orig></ref>.
                                 <title><hi rend="italics">Quam bonus Israel Deus</hi></title>. D.
                         Petrus palladius. </head>
                     <p>Denne Psalme saa vdrimet/ om de wgudelige Mammons trælle/ som ere Aagerkarle/
@@ -16861,11 +16819,8 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-10" n="10">
                     <head type="add">Fortørnes ikke, når du end ser</head>
-                    <head> X. Den <ref target="#sl-37"><orig>XXXVII.
-                            Psalme</orig><!--<reg>Sl
-                                37</reg>--></ref>/
-                                <title><hi rend="italics">Noli æmulari in
-                        malignantibus</hi></title>. </head>
+                    <head> X. Den <ref target="#sl-37"><orig>XXXVII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Noli æmulari in malignantibus</hi></title>. </head>
                     <p>Denne Psalme trøster ocsaa Guds børn/ at de icke skulle forargis paa de
                         wgudeligis traadzighed oc fremgang her i Verde<ex>n</ex>. Oc lærer/ <list
                             rend="simple">
@@ -17103,9 +17058,9 @@
                 <div type="psalm" xml:id="section-17-hymn-11" n="11">
                     <head type="add">Herre, du gjorde end vel mod mig</head>
                     <head> XI. Jt stycke aff den <ref target="#sl-119"><orig>CXIX.
-                            Psalme</orig><!--<reg>Sl 119</reg>--></ref>/ <title><hi rend="italics"
-                                >Bonitatem fecisti cum seruo tuo Domine <ex>etc</ex>.</hi></title>
-                        Siungis lige som/ <title>O Menniske begræd din Synd</title>
+                            Psalme</orig></ref>/ <title><hi rend="italics">Bonitatem fecisti cum
+                                seruo tuo Domine <ex>etc</ex>.</hi></title> Siungis lige som/
+                            <title>O Menniske begræd din Synd</title>
                         <ex>etc</ex>.</head>
                     <lg>
                         <l><pb facs="507" n="227r"/>HERRE du giorde end vel mod mig/ </l>
@@ -17168,10 +17123,9 @@
                 <div type="psalm" xml:id="section-17-hymn-12" n="12">
                     <head type="add">Jeg løfter højt op øjne mine</head>
                     <head><pb facs="509" n="228r"/> XII. Den <ref target="#sl-121"><orig>CXXI.
-                                Psalme</orig><!--<reg>Sl 121</reg>--></ref>/ <title><hi
-                                rend="italics">Leuaui oculos meos in montes
-                            <ex>etc</ex>.</hi></title> Siungis lige som/ <title>Fader vor vdi
-                            Himmerig</title>
+                                Psalme</orig></ref>/ <title><hi rend="italics">Leuaui oculos meos in
+                                montes <ex>etc</ex>.</hi></title> Siungis lige som/ <title>Fader vor
+                            vdi Himmerig</title>
                         <ex>etc</ex>. M. D. lxv.</head>
                     <lg>
                         <l> JEg løffter høyt op øyen mine/ </l>
@@ -17240,9 +17194,7 @@
                 </div>
                 <div type="psalm" xml:id="section-17-hymn-13" n="13">
                     <head type="add">Hen hos Babylons flod</head>
-                    <head> XIII. Den <ref target="#sl-137"><orig>CXXXVII.
-                            Psalme</orig><!--<reg>Sl
-                                137</reg>--></ref>/
+                    <head> XIII. Den <ref target="#sl-137"><orig>CXXXVII. Psalme</orig></ref>/
                                 <title><hi rend="italics">Super flumina Babylonis
                             <ex>etc</ex>.</hi></title> Vdset paa danske/ alle fattige fortrengde
                         Christne til Saligheds trøst oc husualelse. D. Petrus Palladius.</head>
@@ -17314,9 +17266,8 @@
                 <div type="psalm" xml:id="section-17-hymn-14" n="14">
                     <head type="add">Kommer til mig, sagde Guds søn</head>
                     <head><pb facs="514" n="230v"/> XIIII. En Aandelig Vise/ aff <ref
-                            target="#matt-11"><orig>Matthei xj.
-                            Capitel</orig><!--<reg>Matt 11</reg>--></ref>. <title><hi rend="italics"
-                                >Venite ad me omnes <ex>etc</ex>.</hi></title>
+                            target="#matt-11"><orig>Matthei xj. Capitel</orig></ref>. <title><hi
+                                rend="italics">Venite ad me omnes <ex>etc</ex>.</hi></title>
                     </head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_230v.xml"/>
@@ -17502,9 +17453,7 @@
                     <head type="add">O menneske, vilt du betænke</head>
                     <head> XV. Trøst imod Bugsorg/ Gerigheds tancker/ oc mistrøstige omhyggelighed
                         for dette Legemis nødtørfftighed/ vddragen aff <ref target="#matt-6"
-                                ><orig>Matthej vj.
-                            Capitel</orig><!--<reg>Matt
-                            6</reg>--></ref>.</head>
+                                ><orig>Matthej vj. Capitel</orig></ref>.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_233r.xml"/>
                     </notatedMusic>
@@ -18284,9 +18233,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-18" n="18">
                 <head type="add">Bøn og taksigelse</head>
-                <head>Om Bøn oc tacksigelse.</head>
                 <div type="psalm" xml:id="section-18-hymn-1" n="1">
                     <head type="add">Kyrie eleison</head>
+                    <head>Om Bøn oc tacksigelse.</head>
                     <head> I. Kyrie eleison vdi Bededage.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_246r.xml"/>
@@ -18326,7 +18275,6 @@
                         <row>
                             <cell role="label" cols="1"><hi rend="italics">Pater de coelis
                                     Deus.</hi></cell>
-                            <!--<cell></cell>-->
                         </row>
                         <row>
                             <cell>
@@ -18348,7 +18296,6 @@
                         <row>
                             <cell role="label" cols="1"><hi rend="italics">Propitius
                                 esto.</hi></cell>
-                            <!--<cell></cell>-->
                         </row>
                         <row>
                             <cell>
@@ -18869,12 +18816,10 @@
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-9" n="12">
                     <head type="add">O Gud, hvor længe glemmer du</head>
-                    <head> IX. Den <ref target="#sl-13"><orig>XIII.
-                            Psalme</orig><!--<reg>Sl
-                                13</reg>--></ref>/
-                                <title><hi rend="italics">Vsquequo Domine obliuisceris
-                            mei</hi></title>, Siungis lige som/ <title>Jeg raaber til dig O Herre
-                            Christ</title>. M. D. lxvj.</head>
+                    <head> IX. Den <ref target="#sl-13"><orig>XIII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Vsquequo Domine obliuisceris mei</hi></title>,
+                        Siungis lige som/ <title>Jeg raaber til dig O Herre Christ</title>. M. D.
+                        lxvj.</head>
                     <lg>
                         <l> O Gud/ huor lenge glemmer du </l>
                         <l>Mig/ i min store ælende? </l>
@@ -18946,10 +18891,9 @@
                 <div type="psalm" xml:id="section-18-hymn-10" n="13">
                     <head type="add">Herre, mit håb det er til dig</head>
                     <head><pb facs="568" n="257v"/> X. Den <ref target="#sl-31"><orig>XXXI.
-                                Psalme</orig><!--<reg>Sl 31</reg>--></ref>/ <title><hi
-                                rend="italics">In te Domine speraui</hi></title>/ Vdset i denne Sang
-                        aff Erlig oc Velbyrdig Mand/ Her Herluff Trolle til Herluffsholm/
-                        Ridder.</head>
+                                Psalme</orig></ref>/ <title><hi rend="italics">In te Domine
+                                speraui</hi></title>/ Vdset i denne Sang aff Erlig oc Velbyrdig
+                        Mand/ Her Herluff Trolle til Herluffsholm/ Ridder.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_257v.xml"/>
                     </notatedMusic>
@@ -19070,11 +19014,9 @@
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-11" n="14">
                     <head type="add">Nu er os Gud miskundelig</head>
-                    <head> XI. Den <ref target="#sl-67"><orig>LXVII.
-                            Psalme</orig><!--<reg>Sl
-                                67</reg>--></ref>/
-                                <title><hi rend="italics">Deus misereatur nostri
-                            <ex>etc</ex>.</hi></title> D. Morten Luther.</head>
+                    <head> XI. Den <ref target="#sl-67"><orig>LXVII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Deus misereatur nostri <ex>etc</ex>.</hi></title> D.
+                        Morten Luther.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_259r.xml"/>
                     </notatedMusic>
@@ -19235,9 +19177,7 @@
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-13" n="16">
                     <head type="add">O Herre Gud, beté din magt</head>
-                    <head> XIII. Den <ref target="#sl-79"><orig>LXXIX.
-                            Psalme</orig><!--<reg>Sl
-                                79</reg>--></ref>/
+                    <head> XIII. Den <ref target="#sl-79"><orig>LXXIX. Psalme</orig></ref>/
                                 <title><hi rend="italics">Deus venerunt gentes
                             <ex>etc</ex>.</hi></title> At siunge oc bede i denne siste oc farlige
                         tid/ mod Tyrcken/ Paffuen/ oc andre Christendoms Fiender.</head>
@@ -19356,9 +19296,9 @@
                 <div type="psalm" xml:id="section-18-hymn-14" n="17">
                     <head type="add">O Herre Gud i højeste tron</head>
                     <head> XIIII. En Bøn at siunge oc bede vdi Pestilentze tid. Aff den <ref
-                            target="#sl-91"><orig>XCI. Psalme</orig><!--<reg>Sl 91</reg>--></ref>/
-                                <title><hi rend="italics">Qui habitat <ex>etc</ex>.</hi></title> M.
-                        D. lxix.</head>
+                            target="#sl-91"><orig>XCI. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Qui habitat <ex>etc</ex>.</hi></title> M. D.
+                        lxix.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_264r.xml"/>
                     </notatedMusic>
@@ -19446,8 +19386,8 @@
                 <div type="psalm" xml:id="section-18-hymn-15" n="18">
                     <head type="add">O Gud Fader, din sol så skøn</head>
                     <head> XV. En Bøn/ aff den <ref target="#sl-104"><orig>CIIII.
-                            Psalme</orig><!--<reg>Sl 104</reg>--></ref>/ at bede om timelig Verlig/
-                        Regn eller Solskin/ oc for Jordens grøde <ex>etc</ex>. M. D. lxix.</head>
+                            Psalme</orig></ref>/ at bede om timelig Verlig/ Regn eller Solskin/ oc
+                        for Jordens grøde <ex>etc</ex>. M. D. lxix.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_265v.xml"/>
                     </notatedMusic>
@@ -19509,9 +19449,9 @@
                 <div type="psalm" xml:id="section-18-hymn-16" n="19">
                     <head type="add">Når vi i største nøden stå</head>
                     <head> XVI. <ref target="#kron-2-20"><orig>Josaphats Bøn. II. <hi rend="italics"
-                                    >Paral:</hi> XX</orig><!--<reg>2 Krøn 20</reg>--></ref>. At bede
-                        naar Krig oc Feide/ eller anden stor plage oc trang er for haanden. <hi
-                            rend="italics">D. Paulus Eberus.</hi> M. D. lxvj.</head>
+                                    >Paral:</hi> XX</orig></ref>. At bede naar Krig oc Feide/ eller
+                        anden stor plage oc trang er for haanden. <hi rend="italics">D. Paulus
+                            Eberus.</hi> M. D. lxvj.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_266v.xml"/>
                     </notatedMusic>
@@ -19560,11 +19500,9 @@
                 </div>
                 <div type="psalm" xml:id="section-18-hymn-17" n="20">
                     <head type="add">Når mig går sorrig og drøvelse på</head>
-                    <head> XVII. Den <ref target="#sl-121"><orig>CXXI.
-                            Psalme</orig><!--<reg>Sl
-                                121</reg>--></ref>/
-                            <hi rend="italics">ad Dominum cum tribularer clamaui</hi>/ siungis lige
-                        som/ <title>O Herre Gud i høyeste thron</title>
+                    <head> XVII. Den <ref target="#sl-121"><orig>CXXI. Psalme</orig></ref>/ <hi
+                            rend="italics">ad Dominum cum tribularer clamaui</hi>/ siungis lige som/
+                            <title>O Herre Gud i høyeste thron</title>
                         <ex>etc</ex>.</head>
                     <lg>
                         <l> Naar mig gaar sorrig oc drøffuelse paa </l>
@@ -20679,9 +20617,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-19" n="19">
                 <head type="add">Taksigelser</head>
-                <head n="4"><pb facs="629" n="288r"/> Tacksigelser.</head>
                 <div type="psalm" xml:id="section-19-hymn-1" n="1">
                     <head type="add">Halleluja. Gladelig ville vi halleluja sjunge</head>
+                    <head n="4"><pb facs="629" n="288r"/> Tacksigelser.</head>
                     <head> I. Haleluia/ Gladelig ville wi <ex>etc</ex>.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_288r.xml"/>
@@ -20731,7 +20669,7 @@
                     <head type="add">Halleluja. Lover Herren</head>
                     <head><pb facs="631" n="289r"/> II. Jt andet Haleluia/ aff S. Pouels Ord. <ref
                             target="#fil-4"><orig><hi rend="italics">Philippens.</hi>
-                            4.</orig><!--<reg>Fil 4</reg>--></ref>
+                            4.</orig></ref>
                         <hi rend="italics">Gaudete in Domino semper.</hi></head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_289r.xml"/>
@@ -20759,10 +20697,8 @@
                 <div type="psalm" xml:id="section-19-hymn-3" n="3">
                     <head type="add">Halleluja det bør os altid sjunge</head>
 
-                    <head> III. Den <ref target="#sl-117"><orig>CXVII.
-                            Psalme</orig><!--<reg>Sl
-                                117</reg>--></ref>/
-                            <hi rend="italics">Laudate Dominum omnes gentes.</hi></head>
+                    <head> III. Den <ref target="#sl-117"><orig>CXVII. Psalme</orig></ref>/ <hi
+                            rend="italics">Laudate Dominum omnes gentes.</hi></head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_289v.xml"/>
                     </notatedMusic>
@@ -20798,8 +20734,7 @@
                 <div type="psalm" xml:id="section-19-hymn-4" n="4">
                     <head type="add">Lover Herren, hedninger alle</head>
                     <head><pb facs="634" n="290v"/> IIII. Den samme <ref target="#sl-117"
-                                ><orig>CXVII Psalme</orig><!--<reg>Sl 117</reg>--></ref>/
-                        anderledis.</head>
+                                ><orig>CXVII Psalme</orig></ref>/ anderledis.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_290v.xml"/>
                     </notatedMusic>
@@ -20816,8 +20751,8 @@
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-5" n="5">
                     <head type="add">Halleluja. Lover Gud, I hedninger alle</head>
-                    <head> V. Den samme <ref target="#sl-117"><orig>CXVII.
-                            Psalme</orig><!--<reg>Sl 117</reg>--></ref>/ anderledis.</head>
+                    <head> V. Den samme <ref target="#sl-117"><orig>CXVII. Psalme</orig></ref>/
+                        anderledis.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_291r.xml"/>
                     </notatedMusic>
@@ -20906,10 +20841,8 @@
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-9" n="9">
                     <head type="add">Min sjæl nu love Herren</head>
-                    <head> IX. Den <ref target="#sl-103"><orig>CIII.
-                            Psalme</orig><!--<reg>Sl
-                                103</reg>--></ref>/
-                                <title><hi rend="italics">Benedic anima mea Domino</hi></title>. </head>
+                    <head> IX. Den <ref target="#sl-103"><orig>CIII. Psalme</orig></ref>/ <title><hi
+                                rend="italics">Benedic anima mea Domino</hi></title>. </head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_293r.xml"/>
                     </notatedMusic>
@@ -20972,9 +20905,7 @@
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-10" n="10">
                     <head type="add">Der Israel af Ægypten drog</head>
-                    <head> X. Den <ref target="#sl-114"><orig>CXIIII.
-                            Psalme</orig><!--<reg>Sl
-                                114</reg>--></ref>/
+                    <head> X. Den <ref target="#sl-114"><orig>CXIIII. Psalme</orig></ref>/
                                 <title><hi rend="italics">In exitu Israel de Ægypto</hi></title>. M.
                         Tyge Asmundss.</head>
                     <notatedMusic>
@@ -21197,10 +21128,8 @@
                 </div>
                 <div type="psalm" xml:id="section-19-hymn-13" n="13">
                     <head type="add">Herre Gud, du som ransager mig</head>
-                    <head> XIII. Den <ref target="#sl-139"><orig>CXXXIX.
-                            Psalme</orig><!--<reg>Sl
-                                139</reg>--></ref>/
-                            <hi rend="italics">Domine probasti me.</hi></head>
+                    <head> XIII. Den <ref target="#sl-139"><orig>CXXXIX. Psalme</orig></ref>/ <hi
+                            rend="italics">Domine probasti me.</hi></head>
                     <p>Vdsat paa Danske/ ved Erlig oc Velbyrdig Mand Her Erich Krabbe til Bustrup/
                         Ridder.</p>
                     <notatedMusic>
@@ -21344,8 +21273,8 @@
                 <div type="psalm" xml:id="section-19-hymn-14" n="14">
                     <head type="add">Jerusalem, du hellige stad</head>
                     <head> XIIII. En part aff den <ref target="#sl-147"><orig>CXLVII.
-                            Psalme</orig><!--<reg>Sl 147</reg>--></ref>/ <hi rend="italics">Lauda
-                            Ierusalem Dominum <ex>etc</ex>.</hi></head>
+                            Psalme</orig></ref>/ <hi rend="italics">Lauda Ierusalem Dominum
+                                <ex>etc</ex>.</hi></head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_301r.xml"/>
                     </notatedMusic>
@@ -21447,7 +21376,7 @@
                         besynderlig i Kircken met Peblingene/ om Søndagerne effter Afftens
                         predicken. M. D. liij.</head>
                     <head><pb facs="659" n="303r"/><ref target="#luk-1"><orig><hi rend="italics"
-                                    >Luc:</hi> 1.</orig><!--<reg>Luk 1</reg>--></ref>
+                                    >Luc:</hi> 1.</orig></ref>
                         <hi rend="italics">Magnificat.</hi></head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_302v.xml#mdiv-01"/>
@@ -21499,9 +21428,7 @@
                         <l>Amen. </l>
                     </lg>
                     <p>
-                        <ref target="#luk-2"><orig><hi rend="italics">Lucæ</hi>
-                            2.</orig><!--<reg>Luk
-                                2</reg>--></ref>
+                        <ref target="#luk-2"><orig><hi rend="italics">Lucæ</hi> 2.</orig></ref>
                         <hi rend="italics">Nunc dimittis.</hi></p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_302v.xml#mdiv-03"/>
@@ -21921,10 +21848,9 @@
                     <head type="add">Ikke os, ikke os, min Gud og Herre</head>
                     <head><pb facs="679" n="313r"/> XXIIII. En Christelig tacksigelse aff
                             de<ex>n</ex>
-                        <ref target="#sl-115"><orig>CXV Psalme</orig><!--<reg>Sl 115</reg>--></ref>/
-                        for Guds gode befrielse fra Legemlige Fiender oc wuenner/ Dictet aff Er<lb
-                            rend="="/>lig oc Velbyrdig Frue Elsabe Krabbe til Wrup. M. D.
-                        lxiiij.</head>
+                        <ref target="#sl-115"><orig>CXV Psalme</orig></ref>/ for Guds gode befrielse
+                        fra Legemlige Fiender oc wuenner/ Dictet aff Er<lb rend="="/>lig oc
+                        Velbyrdig Frue Elsabe Krabbe til Wrup. M. D. lxiiij.</head>
                     <head><hi rend="italics">Die conuersionis Paulj.</hi></head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_313r.xml"/>
@@ -22013,9 +21939,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-20" n="1">
                 <head type="add">Taksigelser og bønner om morgenen</head>
-                <head>Tacksigelser oc Bøner Om Morgenen.</head>
                 <div type="psalm" xml:id="section-20-hymn-1" n="1">
                     <head type="add">Det dages nu i Østen</head>
+                    <head>Tacksigelser oc Bøner Om Morgenen.</head>
                     <head> I. En ny Dageuise/ at tacke Gud for sin beskermelse i den fremfarne Nat/
                         oc at bede hannem om lycke oc raad/ om Morgenstunden til en salig oc
                         lyckelig dag/ Dictet aff erlig oc velbyrdig Mand/ Her Erick Krabbe til
@@ -22350,9 +22276,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-21" n="21">
                 <head type="add">Taksigelser og bønner om aftenen</head>
-                <head>Tacksigelser oc Bøner om Afftenen.</head>
                 <div type="psalm" xml:id="section-21-hymn-1" n="1">
                     <head type="add">O himmelske Fader, vi ere dine</head>
+                    <head>Tacksigelser oc Bøner om Afftenen.</head>
                     <head> I. En Christelig Afften vise/ til at befale sig Gud i vold met/ naar mand
                         vil gaa til sengs/ siungis lige som/ Aff dybsens nød raaber ieg til dig/
                         Dictet aff erlig oc velbyrdig Mand Her Erick Krabbe til Bustrup/
@@ -22735,9 +22661,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-22" n="22">
                 <head type="add">Bordbønner</head>
-                <head>Bøner for Maaltid.</head>
                 <div type="psalm" xml:id="section-22-hymn-1" n="1">
                     <head type="add">Velsignere, ja det skal Herren gøre</head>
+                    <head>Bøner for Maaltid.</head>
                     <head> I. <hi rend="italics">Benedicite,</hi> Velsignere/ ja det skal Herren
                         giøre <ex>etc</ex>. </head>
                     <p>Her Peder Borgsmid.</p>
@@ -22841,9 +22767,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-23" n="23">
                 <head type="add">Taksigelser efter måltidet</head>
-                <head n="4"><pb facs="711" n="329r"/>Tacksigelser effter Maaltid.</head>
                 <div type="psalm" xml:id="section-23-hymn-1" n="1">
                     <head type="add">Lader os nu alle vor kære Fader takke</head>
+                    <head n="4"><pb facs="711" n="329r"/>Tacksigelser effter Maaltid.</head>
                     <head> I. <hi rend="italics">Gratias,</hi> Lader oss nu alle vor kiere Fader
                         tacke/ </head>
                     <p> Siungis lige som/ Velsignere/ ja det skal Herren <ex>etc</ex>.</p>
@@ -23018,9 +22944,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-24" n="24">
                 <head type="add">Døden og begravelse</head>
-                <head><pb facs="717" n="332r"/>Om Døden/ oc begraffuelse.</head>
                 <div type="psalm" xml:id="section-24-hymn-1" n="1">
                     <head type="add">Men vi leve på jorden her</head>
+                    <head><pb facs="717" n="332r"/>Om Døden/ oc begraffuelse.</head>
                     <head> I. <hi rend="italics">Media vita in morte sumus,</hi> D. Morten
                         Luther.</head>
                     <notatedMusic>
@@ -23233,8 +23159,10 @@
                     <lg>
                         <l>Som du oc haffuer tilsagt mig </l>
                         <l>J dit Ord/ der til tror ieg dig. </l>
-                        <l>Sandelig sandelig eder siger ieg/ (<ref target="#">Joh: 5.
-                            8.</ref><!-- KOR. hjælp --></l>
+                        <l><note place="right">
+                                <ref target="#joh-6">( Joh: 5. </ref>
+                                <ref target="#joh-8">8.</ref>
+                            </note>Sandelig sandelig eder siger ieg/ </l>
                         <l>Huo mit Ord holder oc tror paa mig/ </l>
                     </lg>
                     <lg>
@@ -23495,9 +23423,9 @@
                 <div type="psalm" xml:id="section-24-hymn-9" n="9">
                     <head type="add">Herre Gud, lær mig mit endeligt</head>
                     <head><pb facs="734" n="340v"/> IX. En Bøn om at kunde ret betencke sin Død/ </head>
-                    <p> aff den <ref target="#sl-39"><orig>XXXIX.</orig><reg>Sl 39</reg>--&gt;</ref>
-                        oc <ref target="#sl-90"><orig>XC. Psalme.</orig><reg>Sl 90</reg>--&gt;</ref>
-                        M. D. lxix.</p>
+                    <p> aff den <ref target="#sl-39"><orig>XXXIX.</orig><reg>Sl 39</reg></ref> oc
+                            <ref target="#sl-90"><orig>XC. Psalme.</orig><reg>Sl 90</reg></ref> M.
+                        D. lxix.</p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_340v.xml"/>
                     </notatedMusic>
@@ -23610,7 +23538,7 @@
                 <div type="psalm" xml:id="section-24-hymn-11" n="11">
                     <head type="add">Guds nåde og barmhjertighed</head>
                     <head> XI. Om merckelige Mends Død/ aff <ref target="#es-56"><orig>Esaiæ/ LVI.
-                                Capitel.</orig><!--<reg>Es 56</reg>--></ref>
+                                Capitel.</orig></ref>
                         <hi rend="italics">Iustus perit, et non est qui recogitet in corde suo.</hi>
                         Anders Sørenssøn Vedel.</head>
                     <notatedMusic>
@@ -24047,9 +23975,9 @@
             </div>
             <div type="psalmgroup" xml:id="section-25" n="25">
                 <head type="add">Dommedag og opstandelse</head>
-                <head>Om Dommedag oc Opstandelse.</head>
                 <div type="psalm" xml:id="section-25-hymn-1" n="1">
                     <head type="add">Våger op, I kristen alle</head>
+                    <head>Om Dommedag oc Opstandelse.</head>
                     <head> I. Vaager op i Christen alle/ vaager op <ex>etc</ex>.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_350r.xml"/>
@@ -25111,9 +25039,9 @@
                         <l>For hannem kand ingen vige: </l>
                         <l>De Gode kalder hand til glæde oc fryd/ </l>
                         <l>De Onde dømmer hand for deris wdyd/ </l>
-                        <l>Hand sider i Menniske lige. (<ref target="#matt-25"><orig>Matth:
-                                    25.</orig><reg>Matt 25</reg></ref><!-- KOR. hjælp -->
-                        </l>
+                        <l><note place="right">
+                                <ref target="#matt-25">( Matth: 25.</ref>
+                            </note>Hand sider i Menniske lige.</l>
                     </lg>
                     <lg>
                         <l>J gode som haffue min villie giord/ </l>
@@ -25300,8 +25228,8 @@
                     <lg>
                         <l>De Mure oc Gader aff puriste guld/ </l>
                         <l>De Grunduol aff dyrebar Stene er fuld/ </l>
-                        <l>De Porte aff Perler hin klare. <note place="margin"><ref target="#nil"
-                                    >Apoc</ref>: 21.)</note><!-- KOR. hjælp -->
+                        <l><note place="margin"><ref target="#aab-21"
+                            >(Apoc: 21)</ref></note>De Porte aff Perler hin klare. 
                         </l>
                         <l>Wi skulle oc allesammen da </l>
                         <l>Paa gader oc stræder siunge Haleluia/ </l>
@@ -26917,8 +26845,7 @@
                         <item>Hielp oss O Herre Jesu Christ <ref target="#section-15-hymn-6"
                                 >200:</ref>
                         </item>
-                        <item>Hierusalem/ see hoss/ Jerusalem
-                            <!-- OBS: Mgl. ref, men kan ikke gennemskue hvor den hører til --></item>
+                        <item>Hierusalem/ see hoss/ Jerusalem</item>
                         <item>Hør til i gode Christne <ref target="#section-9-1-hymn-5">116.</ref>
                         </item>
                         <item>Huad kand oss komme til for nød <ref target="#section-17-hymn-5"
