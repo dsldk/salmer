@@ -371,10 +371,10 @@
         <body>
             <div type="chapter" xml:id="foerste-soendag-i-advent" n="1">
                 <head type="add">Første søndag i advent</head>
-                <head>
-                    <pb facs="0014R" n="1"/> Den<ex>n</ex> Første Søndag i Aduent. </head>
                 <div type="psalm" xml:id="section-1-1" n="1">
                     <head type="add">Herre Krist Gud Faders enbårne søn</head>
+                    <head>
+                        <pb facs="0014R" n="1"/> Den<ex>n</ex> Første Søndag i Aduent. </head>
                     <head>Introitus dansk.</head>
                     <p>[Illustration]</p>
                     <notatedMusic>
@@ -1062,9 +1062,9 @@
             </div>
             <div type="chapter" xml:id="anden-soendag-i-advent" n="2">
                 <head type="add">Anden søndag i advent</head>
-                <head><pb facs="0038R" n="25"/>Den Anden Søndag i Aduent.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-2-1" n="1">
                     <head type="add">Populus Sion</head>
+                    <head><pb facs="0038R" n="25"/>Den Anden Søndag i Aduent.</head>
                     <head>Introitus Latinus. <ref target="#es-30">Esaiæ. <app>
                                 <lem>30</lem>
                                 <rdg wit="#orig.">3<note>rettet</note></rdg>
@@ -1112,9 +1112,9 @@
             </div>
             <div type="chapter" xml:id="tredje-soendag-i-advent" n="3">
                 <head type="add">Tredje søndag i advent</head>
-                <head>Den Tredie Søndag i Aduent.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-3-1" n="1">
                     <head type="add">Gaudete in Domino semper</head>
+                    <head>Den Tredie Søndag i Aduent.</head>
                     <head>Introitus Latinus. <ref target="fil-4">Philipp: 4.<reg>Fil
                         4</reg></ref></head>
                     <notatedMusic>
@@ -1158,9 +1158,9 @@
             </div>
             <div type="chapter" xml:id="fjerde-soendag-i-advent" n="4">
                 <head type="add">Fjerde søndag i advent</head>
-                <head>Den Fierde Søndag i Aduent.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-4-1" n="1">
                     <head type="add">Memento nostri Domine</head>
+                    <head>Den Fierde Søndag i Aduent.</head>
                     <head>Introitus Latinus. <ref target="sl-106">Psalm: 106.<reg>Sl
                         106</reg></ref></head>
                     <notatedMusic>
@@ -1205,9 +1205,9 @@
             </div>
             <div type="chapter" xml:id="paa-kristi-foedselsdag" n="5">
                 <head type="add">På Kristi fødselsdag</head>
-                <head><pb facs="0049L" n="36"/>Paa Christi fødzels dag.</head>
                 <div type="psalm" xml:id="section-5-1" n="1">
                     <head type="add">Nu er født os Jesus Krist</head>
+                    <head><pb facs="0049L" n="36"/>Paa Christi fødzels dag.</head>
                     <head>Introitus dansk.</head>
                     <p>[Illustration]</p>
                     <notatedMusic>
@@ -1870,9 +1870,9 @@
             </div>
             <div type="chapter" xml:id="sankt-stefans-dag" n="6">
                 <head type="add">Sankt Stefans dag</head>
-                <head>Paa S. Staffens dag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-6-1" n="1">
                     <head type="add">Etenim sederunt principes</head>
+                    <head>Paa S. Staffens dag.</head>
                     <head> Introitus lat. <ref target="#sl-119">Psalm: 119.<reg>Sl
                         119</reg></ref></head>
                     <notatedMusic>
@@ -1978,9 +1978,9 @@
             </div>
             <div type="chapter" xml:id="hans-evangeliste-dag" n="7">
                 <head type="add">Hans Evangeliste Dag</head>
-                <head><pb facs="0097L" n="84"/>Paa S. Hans Euangeliste dag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-7-1" n="1">
                     <head type="add">In medio ecclesiæ</head>
+                    <head><pb facs="0097L" n="84"/>Paa S. Hans Euangeliste dag.</head>
                     <head> Introitus Latinus. <ref target="#sir-15">Syrach, 15.<reg>Sir
                             15</reg></ref></head>
                     <notatedMusic>
@@ -2021,9 +2021,9 @@
             </div>
             <div type="chapter" xml:id="foerste-soendag-efter-jul" n="8">
                 <head type="add">Første søndag efter jul</head>
-                <head>Den første Søndag effter Jul.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-8-1" n="1">
                     <head type="add">Dum medium silentium teneret omnia</head>
+                    <head>Den første Søndag effter Jul.</head>
                     <head>Introitus Latinus. <ref target="#visd-18">Sapientiæ. 18.<reg>Visd
                             18</reg></ref></head>
                     <notatedMusic>
@@ -2066,9 +2066,9 @@
             </div>
             <div type="chapter" xml:id="nytaarsdag-jespersen-1573" n="9">
                 <head type="add">Nytårsdag</head>
-                <head>Paa Nyt Aarsdag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-9-1-jespersen-1573" n="1">
                     <head type="add">Et postquam consummati sunt dies octo</head>
+                    <head>Paa Nyt Aarsdag.</head>
                     <head>Introitus lat. <ref target="luk-2">Lucæ. 2.<reg>Luk 2</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_091.xml#mdiv-01"/>
@@ -2092,15 +2092,15 @@
                         <l>Sic ut erat in principio et nunc et sem per, et in secula seculorum,
                             Amen. </l>
                     </lg>
+                    <p><pb facs="0107L" n="94"/>HALELVIA. Dies Sanctificatus <ex>etc</ex>. vt supra
+                            <hi rend="italics">die Natiuitatis Christj.</hi></p>
                 </div>
             </div>
             <div type="chapter" xml:id="soendag-mellem-nytaar-og-helligtrekonger" n="10">
                 <head type="add">Søndagen mellem nytårsdag og helligtrekongersdag</head>
                 <div type="psalm" xml:lang="la" xml:id="section-10-1" n="1">
                     <head type="add">Vultum tuum deprecabuntur omnes diuites plebis</head>
-                    <head><pb facs="0107L" n="94"/>HALELVIA. Dies Sanctificatus <ex>etc</ex>. vt
-                        supra <hi rend="italics">die Natiuitatis Christj.</hi> Den Søndag imellom
-                        Nyt Aars dag och hellige tre Kongers dag. </head>
+                    <head> Den Søndag imellom Nyt Aars dag och hellige tre Kongers dag. </head>
                     <head>Introitus lati: <ref target="#sl-45">Psalm: 45.<reg>Sl
                         45</reg></ref></head>
                     <notatedMusic>
@@ -2142,9 +2142,9 @@
             </div>
             <div type="chapter" xml:id="helligtrekongersdag-jespersen-1573" n="11">
                 <head type="add">Helligtrekongersdag</head>
-                <head>Paa hellig tre Kongers dag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-11-1" n="1">
                     <head type="add">Ecce advenit Dominator Dominus</head>
+                    <head>Paa hellig tre Kongers dag.</head>
                     <head>Introitus latinus. Ex <ref target="#mal-3">Malachi: 3.<reg>Mal
                             3</reg></ref></head>
                     <notatedMusic>
@@ -2185,10 +2185,10 @@
             </div>
             <div type="chapter" xml:id="foerste-soendag-efter-helligtrekongersdag" n="12">
                 <head type="add">Første søndag efter helligtrekongersdag</head>
-                <head><pb facs="0114R" n="101"/>Den<ex>n</ex> Første Søndag effter hellig tre
-                    Kongers dag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-12-1" n="1">
                     <head type="add">In excelso throno vidi sedere virum</head>
+                    <head><pb facs="0114R" n="101"/>Den<ex>n</ex> Første Søndag effter hellig tre
+                        Kongers dag.</head>
                     <head> Introitus latinus. Ex <ref target="#es-6">Esaiæ. 6.<reg>Es 6</reg></ref>
                         et <ref target="#apg-4">Apocal: 4.<reg>ApG 4</reg></ref></head>
                     <notatedMusic>
@@ -2229,9 +2229,9 @@
             </div>
             <div type="chapter" xml:id="anden-soendag-efter-helligtrekongersdag" n="13">
                 <head type="add">Anden søndag efter helligtrekongersdag</head>
-                <head>Den Anden Søndag effter hellig tre Kongers dag. </head>
                 <div type="psalm" xml:lang="la" xml:id="section-13-1" n="1">
                     <head type="add">Omnis terra adoret te Deus</head>
+                    <head>Den Anden Søndag effter hellig tre Kongers dag. </head>
                     <head> Introitus latinus <ref target="#sl-65">Psalm: 65.<reg>Sl
                         65</reg></ref></head>
                     <notatedMusic>
@@ -2271,9 +2271,9 @@
             </div>
             <div type="chapter" xml:id="tredje-soendag-efter-helligtrekongersdag" n="14">
                 <head type="add">Tredje søndag efter helligtrekongersdag</head>
-                <head>Den<ex>n</ex> Tredie Søndag effter hellig tre Kongers dag. </head>
                 <div type="psalm" xml:lang="la" xml:id="section-14-1" n="1">
                     <head type="add">Adorate Deum omnes angeli eius</head>
+                    <head>Den<ex>n</ex> Tredie Søndag effter hellig tre Kongers dag. </head>
                     <head> Introitus latinus <ref target="#sl-97">Psalm: 97.<reg>Sl
                         97</reg></ref></head>
                     <notatedMusic>
@@ -2315,9 +2315,9 @@
             </div>
             <div type="chapter" xml:id="marie-renselses-dag" n="15">
                 <head type="add">Marias renselsesdag</head>
-                <head>Paa Marie renselsis dag.</head>
                 <div type="psalm" xml:id="section-15-1" n="1">
                     <head type="add">O Jesu Krist, som manddom tog</head>
+                    <head>Paa Marie renselsis dag.</head>
                     <head>Introitus dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_110.xml"/>
@@ -2564,10 +2564,10 @@
             <div type="chapter" xml:id="fjerde-femte-sjette-soendag-efter-helligtrekongersdag"
                 n="16">
                 <head type="add">Fjerde, femte og sjette søndag efter helligtrekongersdag</head>
-                <head><pb facs="0132R" n="119"/>iiij. v. oc vj. Søndag effter hellig tre Kongers
-                    dag. </head>
                 <div type="psalm" xml:id="section-16-1" n="1">
                     <head type="add">Jerusalem, du hellige stad</head>
+                    <head><pb facs="0132R" n="119"/>iiij. v. oc vj. Søndag effter hellig tre Kongers
+                        dag. </head>
                     <head> Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_119.xml"/>
@@ -2661,10 +2661,10 @@
             </div>
             <div type="chapter" xml:id="soendag-septuagesima" n="17">
                 <head type="add">Septuagesima</head>
-                <head><pb facs="0135L" n="122"/>Den Søndag Septuagesima.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-17-1" n="1">
                     <head type="add">Circumdederunt me gemitus mortis [og] Diligam te Domine virtus
                         mea</head>
+                    <head><pb facs="0135L" n="122"/>Den Søndag Septuagesima.</head>
                     <head>Introitus Danske. Hierusalem du hellige <app>
                             <lem>Stad</lem>
                             <rdg wit="#orig">Satd</rdg>
@@ -2713,16 +2713,14 @@
                             tuj. </l>
                         <l>Haleluia. </l>
                     </lg>
-
+                    <p>For oc effter Predicken som <hi rend="italics">Dominica prima Aduentus.</hi>
+                    </p>
                 </div>
             </div>
             <div type="chapter" xml:id="soendag-seksagesima" n="18">
                 <head type="add">Seksagesima</head>
                 <div type="psalm" xml:lang="la" xml:id="section-18-1" n="1">
                     <head type="add">Exurge [og] Deus auribus nostris</head>
-                    <head>For oc effter Predicken som <hi rend="italics">Dominica prima
-                            Aduentus.</hi>
-                    </head>
                     <head>Den Søndag Sexagesima. </head>
                     <head>Introitus Dansk. Jerusalem du hellige Stad <ex>etc</ex>.</head>
                     <head> Introitus latinus <ref target="#sl-44">Psal: 44.<reg>Sl
@@ -2754,15 +2752,15 @@
                         <l>Sicut erat in principio et nunc et semper, et in secula seculorum, Amen.
                         </l>
                     </lg>
+                    <p>All den anden Sang <hi rend="italics">vt Domi<lb rend="="/>nica
+                            præcedente.</hi></p>
                 </div>
             </div>
             <div type="chapter" xml:id="fastelavns-soendag" n="19">
                 <head type="add">Fastelavnssøndag</head>
                 <div type="psalm" xml:id="section-19-1" n="1">
                     <head type="add">Kristus kom selv til Jordans flod</head>
-                    <head><pb facs="0142R" n="129"/>All den anden Sang <hi rend="italics">vt Domi<lb
-                                rend="="/>nica præcedente.</hi> Paa fastelaffns Søndag/ Om Christi
-                        Daab. </head>
+                    <head><pb facs="0142R" n="129"/> Paa fastelaffns Søndag/ Om Christi Daab. </head>
                     <head>Introitus Dansk.</head>
                     <p>[Illustration]</p>
                     <notatedMusic>
@@ -2882,9 +2880,9 @@
             </div>
             <div type="chapter" xml:id="foerste-soendag-i-faste" n="20">
                 <head type="add">Første søndag i fasten</head>
-                <head>Den første Søndag i Faste.</head>
                 <div type="psalm" xml:id="section-20-1" n="1">
                     <head type="add">Af dybsens nød råber jeg til dig</head>
+                    <head>Den første Søndag i Faste.</head>
                     <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_134.xml"/>
@@ -3271,9 +3269,9 @@
             </div>
             <div type="chapter" xml:id="anden-soendag-i-faste" n="21">
                 <head type="add">Anden søndag i fasten</head>
-                <head>Den<ex>n</ex> Anden Søndagi Faste.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-21-1" n="1">
                     <head type="add">Reminiscere miserationum tuarum Domine</head>
+                    <head>Den<ex>n</ex> Anden Søndagi Faste.</head>
                     <head>Introitus latinus. <ref target="#sl-25">Psalm: 25.<reg>Sl
                         25</reg></ref></head>
                     <notatedMusic>
@@ -3303,9 +3301,9 @@
             </div>
             <div type="chapter" xml:id="tredje-soendag-i-faste" n="22">
                 <head type="add">Tredje søndag i fasten</head>
-                <head><pb facs="0166R" n="153"/>Den Tredie Søndag iFaste.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-22-1" n="1">
                     <head type="add">Oculi mei semper ad Dominum</head>
+                    <head><pb facs="0166R" n="153"/>Den Tredie Søndag iFaste.</head>
                     <head>Introitus latinus. <ref target="#sl-25">Psalm: 25.<reg>Sl
                         25</reg></ref></head>
                     <notatedMusic>
@@ -3327,9 +3325,9 @@
             </div>
             <div type="chapter" xml:id="midfaste-soendag" n="23">
                 <head type="add">Midfastesøndag</head>
-                <head>Paa Medfaste Søndag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-23-1" n="1">
                     <head type="add">Lætare Jerusalem</head>
+                    <head>Paa Medfaste Søndag.</head>
                     <head>Introitus latinus <ref target="#sl-66">Psalm: 66.<reg>Sl
                         66</reg></ref></head>
                     <notatedMusic>
@@ -3362,9 +3360,9 @@
             </div>
             <div type="chapter" xml:id="marie-bebudelsesdag" n="24">
                 <head type="add">Mariæ bebudelsesdag</head>
-                <head><pb facs="0171L" n="158"/>Marie Bebudelsisdag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-24-1" n="1">
                     <head type="add">Rorate Coeli desuper</head>
+                    <head><pb facs="0171L" n="158"/>Marie Bebudelsisdag.</head>
                     <head>Introitus Dansk/ Jesu Christ som Mandom tog: Som paa Kyndelmisse dag.
                         Introitus latinus <ref target="#sl-45">Psal: 45.<reg>Sl
                         45</reg></ref></head>
@@ -3421,9 +3419,9 @@
             </div>
             <div type="chapter" xml:id="soendag-efter-midfaste" n="25">
                 <head type="add">Søndag efter midfaste</head>
-                <head>Den Søndag effter Medfaste.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-25-1" n="1">
                     <head type="add">Iudica me Deus</head>
+                    <head>Den Søndag effter Medfaste.</head>
                     <head>Introitus latinus. <ref target="#sl-43">Psalm: 43.<reg>Sl
                         43</reg></ref></head>
                     <notatedMusic>
@@ -3453,9 +3451,9 @@
             </div>
             <div type="chapter" xml:id="palmesoendag-jespersen-1573" n="26">
                 <head type="add">Palmesøndag</head>
-                <head><pb facs="0177L" n="164"/>Paa Palme Søndag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-26-1" n="1">
                     <head type="add">Domine ne longe facias</head>
+                    <head><pb facs="0177L" n="164"/>Paa Palme Søndag.</head>
                     <head>Introitus latinus. <ref target="#sl-22">Psalm: 22.<reg>Sl
                         22</reg></ref></head>
                     <notatedMusic>
@@ -3485,9 +3483,9 @@
             </div>
             <div type="chapter" xml:id="skaertorsdag-jespersen-1573" n="27">
                 <head type="add">Skærtorsdag</head>
-                <head>Paa Skiertorsdag.</head>
                 <div type="psalm" xml:lang="la" xml:id="section-27-1" n="1">
                     <head type="add">Nos autem gloriari oportet in cruce Domini</head>
+                    <head>Paa Skiertorsdag.</head>
                     <head> Introitus Dansk. Aff dybsens nød: <hi rend="italics">vt
                         supra.</hi>Introitus latinus. Ex <ref target="#gal-6">Galat: 6.<reg>Gal
                                 6</reg></ref></head>
@@ -3708,9 +3706,9 @@
             </div>
             <div type="chapter" xml:id="langfredag" n="28">
                 <head type="add">Langfredag</head>
-                <head><pb facs="0189L" n="176"/>Lang Fredag.</head>
                 <div type="psalm" xml:id="section-28-1" n="1">
                     <head type="add">O Gud, vor Fader i evighed</head>
+                    <head><pb facs="0189L" n="176"/>Lang Fredag.</head>
                     <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_176.xml"/>
@@ -4128,9 +4126,9 @@
             </div>
             <div type="chapter" xml:id="paaskedag-jespersen-1573" n="29">
                 <head type="add">Påskedag</head>
-                <head><pb facs="0200R" n="187"/>Sommer Parten. Paaske dag. </head>
                 <div type="psalm" xml:id="section-29-1" n="1">
                     <head type="add">Jesus Krist vor frelsermand</head>
+                    <head><pb facs="0200R" n="187"/>Sommer Parten. Paaske dag. </head>
                     <head>Introitus Dansk.</head>
                     <p>[Illustration]</p>
                     <notatedMusic>
@@ -4568,9 +4566,9 @@
             </div>
             <div type="chapter" xml:id="anden-og-tredje-paaskedag" n="30">
                 <head type="add">Anden og tredje påskedag</head>
-                <head>Anden oc TrediePaaske dag.</head>
                 <div type="psalm" xml:id="introitus-dansk" n="1">
                     <head type="add">Anvisning om introitus</head>
+                    <head>Anden oc Tredie Paaske dag.</head>
                     <list rend="simple">
                         <item>Introitus Dansk.</item>
                         <item>Introitus latinus.</item>
@@ -4690,9 +4688,9 @@
             </div>
             <div type="chapter" xml:id="foerste-soendag-efter-paaske" n="31">
                 <head type="add">Første søndag efter påske</head>
-                <head>Den første Søndageffter Paaske. </head>
                 <div type="psalm" xml:lang="la" xml:id="quasi-modo" n="1">
                     <head type="add">Quasi modo geniti infantes</head>
+                    <head>Den første Søndageffter Paaske. </head>
                     <head>Introitus latinus. <ref target="#pet-1-2">1. Pet: 2.<reg>1 Pet
                             2</reg></ref></head>
                     <notatedMusic>
@@ -4742,9 +4740,9 @@
             </div>
             <div type="chapter" xml:id="anden-soendag-efter-paaske" n="32">
                 <head type="add">Anden søndag efter påske</head>
-                <head><pb facs="0237L" n="224"/>Den<ex>n</ex> Anden Søndageffter Paaske.</head>
                 <div type="psalm" xml:lang="la" xml:id="misericordia-domini" n="1">
                     <head type="add">Misericordia Domini plena est terra</head>
+                    <head><pb facs="0237L" n="224"/>Den<ex>n</ex> Anden Søndageffter Paaske.</head>
                     <head>Introitus latinus. <ref target="#sl-33">Psalm:33.<reg>Sl
                         33</reg></ref></head>
                     <notatedMusic>
@@ -4790,9 +4788,9 @@
             </div>
             <div type="chapter" xml:id="tredje-soendag-efter-paaske" n="33">
                 <head type="add">Tredje søndag efter påske</head>
-                <head>Den<ex>n</ex> Tredie Søndageffter Paaske.</head>
                 <div type="psalm" xml:lang="la" xml:id="iubilate-deo-omnis-terra" n="1">
                     <head type="add">Iubilate Deo omnis terra</head>
+                    <head>Den<ex>n</ex> Tredie Søndageffter Paaske.</head>
                     <head> Introitus latinus. <ref target="#sl-66">Psalm: 66.<reg>Sl
                         66</reg></ref></head>
                     <notatedMusic>
@@ -4844,9 +4842,9 @@
             </div>
             <div type="chapter" xml:id="fjerde-soendag-efter-paaske" n="34">
                 <head type="add">Fjerde søndag efter påske</head>
-                <head>Den fierde Søndageffter Paaske.</head>
                 <div type="psalm" xml:lang="la" xml:id="cantate-domino" n="1">
                     <head type="add">Cantate Domino canticum novum</head>
+                    <head>Den fierde Søndageffter Paaske.</head>
                     <head>Introitus latinus. <ref target="#sl-98">Psalm: 98.<reg>Sl
                         98</reg></ref></head>
                     <notatedMusic>
@@ -4880,9 +4878,9 @@
             </div>
             <div type="chapter" xml:id="femte-soendag-efter-paaske" n="35">
                 <head type="add">Femte søndag efter påske</head>
-                <head>Den femte Søndageffter Paaske. </head>
                 <div type="psalm" xml:lang="la" xml:id="vocem-iucunditatis" n="1">
                     <head type="add">Vocem iucunditatis annunciate</head>
+                    <head>Den femte Søndageffter Paaske. </head>
                     <head>Introitus latinus</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_233.xml#mdiv-01"/>
@@ -4926,9 +4924,9 @@
             </div>
             <div type="chapter" xml:id="kristi-himmelfartsdag" n="36">
                 <head type="add">Kristi himmelfartsdag</head>
-                <head>Vor Herris Himmelferds dag.</head>
                 <div type="psalm" xml:lang="la" xml:id="viri-galilaei" n="1">
                     <head type="add">Viri Galilæi</head>
+                    <head>Vor Herris Himmelferds dag.</head>
                     <head>Introitus latinus. <ref target="#apg-1">Actorum.1.<reg>ApG
                         1</reg></ref></head>
                     <notatedMusic>
@@ -4973,9 +4971,9 @@
             </div>
             <div type="chapter" xml:id="sjette-soendag-efter-paaske" n="37">
                 <head type="add">Sjette søndag efter påske</head>
-                <head>Den siette Søndag effter Paaske.</head>
                 <div type="psalm" xml:lang="la" xml:id="exaudi-domine" n="1">
                     <head type="add">Exaudi Domine vocem meam</head>
+                    <head>Den siette Søndag effter Paaske.</head>
                     <head>Introitus latinus. <ref target="#sl-27">Psalm: 27.<reg>Sl
                         27</reg></ref></head>
                     <notatedMusic>
@@ -5027,9 +5025,9 @@
             </div>
             <div type="chapter" xml:id="pinsedag" n="38">
                 <head type="add">Pinsedag</head>
-                <head>Paa Pintze dag.</head>
                 <div type="psalm" xml:lang="la" xml:id="veni-sancte-spiritus-jespersen-1573" n="1">
                     <head type="add">Veni sancte Spiritus</head>
+                    <head>Paa Pintze dag.</head>
                     <p>[Illustration]</p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_244.xml"/>
@@ -5381,9 +5379,9 @@
             </div>
             <div type="chapter" xml:id="anden-og-tredje-pinsedag" n="39">
                 <head type="add">Anden og tredje pinsedag</head>
-                <head><pb facs="0282R" n="269"/>Paa Anden Pintzedag oc Tredie.</head>
                 <div type="psalm" xml:id="kom-o-herre-hellig-aand" n="1">
                     <head type="add">Kom, o Herre Helligånd</head>
+                    <head><pb facs="0282R" n="269"/>Paa Anden Pintzedag oc Tredie.</head>
                     <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_269.xml"/>
@@ -5457,9 +5455,9 @@
             </div>
             <div type="chapter" xml:id="trinitatis-jespersen-1573" n="40">
                 <head type="add">Trinitatis</head>
-                <head><pb facs="0286R" n="273"/>Den hellige Trefoldigheds Søndag.</head>
                 <div type="psalm" xml:id="gud-fader-bliv-du-nu-med-os-jespersen-1573" n="1">
                     <head type="add">Gud Fader, bliv du nu med os</head>
+                    <head><pb facs="0286R" n="273"/>Den hellige Trefoldigheds Søndag.</head>
                     <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_273.xml"/>
@@ -5623,9 +5621,9 @@
             </div>
             <div type="chapter" xml:id="foerste-soendag-efter-trinitatis" n="41">
                 <head type="add">Første søndag efter trinitatis</head>
-                <head><pb facs="0299L" n="286"/>Den første Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="domine-in-tua" n="1">
                     <head type="add">Domine in tua misericordia speraui</head>
+                    <head><pb facs="0299L" n="286"/>Den første Søndageffter Trinitatis.</head>
                     <head>Introitus Dansk. vide Dominica Trinitatis. Introitus latinus. <ref
                             target="#sl-13">Psalm: 13.<reg>Sl 13</reg></ref></head>
                     <notatedMusic>
@@ -5793,9 +5791,9 @@
             </div>
             <div type="chapter" xml:id="anden-soendag-efter-trinitatis" n="42">
                 <head type="add">Anden søndag efter trinitatis</head>
-                <head>Den Anden Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="factus-est-dominus-protector-meus" n="1">
                     <head type="add">Factus est Dominus protector meus</head>
+                    <head>Den Anden Søndageffter Trinitatis.</head>
                     <head>Introitus latinus. <ref target="#sl-18">Psalm: 18.<reg>Sl
                         18</reg></ref></head>
                     <notatedMusic>
@@ -5832,9 +5830,9 @@
             </div>
             <div type="chapter" xml:id="tredje-soendag-efter-trinitatis" n="43">
                 <head type="add">Tredje søndag efter trinitatis</head>
-                <head>Den<ex>n</ex> Tredie Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="respice-in-me" n="1">
                     <head type="add">Respice in me et miserere mei Domine</head>
+                    <head>Den<ex>n</ex> Tredie Søndag effter Trinitatis.</head>
                     <head>Introitus latinus. <ref target="#sl-25">Psalm: 25.<reg>Sl
                         25</reg></ref></head>
                     <notatedMusic>
@@ -5874,9 +5872,10 @@
             </div>
             <div type="chapter" xml:id="fjerde-soendag-efter-trinitatis" n="44">
                 <head type="add">Fjerde søndag efter trinitatis</head>
-                <head><pb facs="0313L" n="300"/>Den<ex>n</ex> Fierde Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="dominus-illuminatio-mea" n="1">
                     <head type="add">Dominus illuminatio mea</head>
+                    <head><pb facs="0313L" n="300"/>Den<ex>n</ex> Fierde Søndag effter
+                        Trinitatis.</head>
                     <head>Introitus latinus. <ref target="#sl-27">Psalm: 27.<reg>Sl
                         27</reg></ref></head>
                     <notatedMusic>
@@ -5915,9 +5914,9 @@
             </div>
             <div type="chapter" xml:id="hans-baptiste-dag" n="45">
                 <head type="add">Sankthansdag</head>
-                <head><pb facs="0317L" n="304"/>Paa S. Hans Baptiste dag.</head>
                 <div type="psalm" xml:id="o-gud-af-himlen-se-hertil" n="1">
                     <head type="add">O Gud, af himmelen se her til</head>
+                    <head><pb facs="0317L" n="304"/>Paa S. Hans Baptiste dag.</head>
                     <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_304.xml"/>
@@ -6177,17 +6176,16 @@
                         <l>Oc vor Jeffnchristen at tiene/ </l>
                         <l>Det vnde oss Christus alle.</l>
                     </lg>
-
+                    <p><pb facs="0326R" n="313"/>All den anden Sang/ for oc effter Pre<lb rend="="/>dicken/ skal holdis/ som
+                            <hi rend="italics">Dominica Trinitatis.</hi></p>
                 </div>
             </div>
             <div type="chapter" xml:id="marie-besoegelsesdag" n="46">
                 <head type="add">Mariæ besøgelsesdag</head>
                 <div type="psalm" xml:id="alle-kristne-fryde-sig-nu-jespersen-1573" n="1">
                     <head type="add">Alle kristne fryde sig nu</head>
-                    <head><pb facs="0326R" n="313"/>All den anden Sang/ for oc effter Pre<lb
-                            rend="="/>dicken/ skal holdis/ som <hi rend="italics">Dominica
-                            Trinitatis.</hi></head>
-                    <head>Paa Marie besøgelsis Dag. Introitus Dansk.</head>
+                    <head>Paa Marie besøgelsis Dag.</head>
+                    <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_313.xml"/>
                     </notatedMusic>
@@ -6306,9 +6304,9 @@
             </div>
             <div type="chapter" xml:id="femte-soendag-efter-trinitatis" n="47">
                 <head type="add">Femte søndag efter trinitatis</head>
-                <head><pb facs="0331L" n="318"/>Den<ex>n</ex> Femte Søndag effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="exaudi-domine-vocem-meam" n="1">
                     <head type="add">Exaudi Domine vocem meam</head>
+                    <head><pb facs="0331L" n="318"/>Den<ex>n</ex> Femte Søndag effter Trinitatis.</head>
                     <head>Introitus Dansk.</head>
                     <p>Som paa S. Hans dag. Oc skal fremdelis siungis til Dominicam Nonam
                         Trinitatis. Introitus latinus. <ref target="#sl-27">Psalm: 27.<reg>Sl
@@ -6361,9 +6359,9 @@
             </div>
             <div type="chapter" xml:id="sjette-soendag-efter-trinitatis" n="48">
                 <head type="add">Sjette søndag efter trinitatis</head>
-                <head>Den Siette Søndag effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="dominus-fortitudo" n="1">
                     <head type="add">Dominus fortitudo plebis suæ</head>
+                    <head>Den Siette Søndag effter Trinitatis.</head>
                     <head>Introitus latinus. <ref target="#sl-28">Psalm: 28.<reg>Sl
                         28</reg></ref></head>
                     <notatedMusic>
@@ -6410,9 +6408,9 @@
             </div>
             <div type="chapter" xml:id="syvende-soendag-efter-trinitatis" n="49">
                 <head type="add">Syvende søndag efter trinitatis</head>
-                <head>Den<ex>n</ex> Siuende Søndag effter Trinitatis. </head>
                 <div type="psalm" xml:lang="la" xml:id="omnes-gentes-plaudite-manibus" n="1">
                     <head type="add">Omnes gentes plaudite manibus</head>
+                    <head>Den<ex>n</ex> Siuende Søndag effter Trinitatis. </head>
                     <head>Introitus latinus. <ref target="#sl-47">Psalm: 47.<reg>Sl
                         47</reg></ref></head>
                     <notatedMusic>
@@ -6456,9 +6454,9 @@
             </div>
             <div type="chapter" xml:id="ottende-soendag-efter-trinitatis" n="50">
                 <head type="add">Ottende søndag efter trinitatis</head>
-                <head>Den Ottende Søndag effter Trinitatis. </head>
                 <div type="psalm" xml:lang="la" xml:id="suscepimus-deus" n="1">
                     <head type="add">Suscepimus Deus misericordiam tuam</head>
+                    <head>Den Ottende Søndag effter Trinitatis. </head>
                     <head>Introitus latinus. <ref target="#sl-48">Psalm: 48.<reg>Sl
                         48</reg></ref></head>
                     <notatedMusic>
@@ -6504,9 +6502,9 @@
             </div>
             <div type="chapter" xml:id="niende-soendag-efter-trinitatis" n="51">
                 <head type="add">Niende søndag efter trinitatis</head>
-                <head>Den Niende Søndag effter Trinitatis.</head>
                 <div type="psalm" xml:id="nu-er-os-gud-miskundelig-jespersen-1573" n="1">
                     <head type="add">Nu er os Gud miskundelig</head>
+                    <head>Den Niende Søndag effter Trinitatis.</head>
                     <head> Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_332.xml"/>
@@ -6678,9 +6676,9 @@
             </div>
             <div type="chapter" xml:id="tiende-soendag-efter-trinitatis" n="52">
                 <head type="add">10. søndag efter trinitatis</head>
-                <head>Den<ex>n</ex> Tiende Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="dum-clamarem-ad-dominum" n="1">
                     <head type="add">Dum clamarem ad dominum</head>
+                    <head>Den<ex>n</ex> Tiende Søndag effter Trinitatis.</head>
                     <head> Introitus latinus. <ref target="#sl-55">Psalm: 55.<reg>Sl
                         55</reg></ref></head>
                     <notatedMusic>
@@ -6728,10 +6726,9 @@
             </div>
             <div type="chapter" xml:id="ellevte-soendag-efter-trinitatis" n="53">
                 <head type="add">11. søndag efter trinitatis</head>
-                <head>Den<ex>n</ex> Elleffte Søndageffter Trinitatis. </head>
-
                 <div type="psalm" xml:lang="la" xml:id="deus-in-loco-sancto" n="1">
                     <head type="add">Deus in loco sancto suo</head>
+                    <head>Den<ex>n</ex> Elleffte Søndag effter Trinitatis. </head>
                     <head>Introitus latinus. <ref target="#sl-68">Psalm: 68.<reg>Sl
                         68</reg></ref></head>
                     <notatedMusic>
@@ -6767,9 +6764,9 @@
             </div>
             <div type="chapter" xml:id="tolvte-soendag-efter-trinitatis" n="54">
                 <head type="add">Tolvte søndag efter trinitatis</head>
-                <head>Den Tolffte Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="deus-in-adiutorium-meum" n="1">
                     <head type="add">Deus in adiutorium meum</head>
+                    <head>Den Tolffte Søndag effter Trinitatis.</head>
                     <head> Introitus latinus. <ref target="#sl-39">Psalm: 39.<reg>Sl
                         39</reg></ref></head>
                     <notatedMusic>
@@ -6813,9 +6810,9 @@
             </div>
             <div type="chapter" xml:id="trettende-soendag-efter-trinitatis" n="55">
                 <head type="add">13. søndag efter trinitatis</head>
-                <head><pb facs="0363L" n="350"/>Den Trettende Søndag effter Trinitatis.</head>
                 <div type="psalm" xml:id="var-gud-ikke-med-os-denne-tid" n="1">
                     <head type="add">Vare Gud ikke med os denne tid</head>
+                    <head><pb facs="0363L" n="350"/>Den Trettende Søndag effter Trinitatis.</head>
                     <head>Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_350.xml"/>
@@ -6977,9 +6974,9 @@
             </div>
             <div type="chapter" xml:id="fjortende-soendag-efter-trinitatis" n="56">
                 <head type="add">14. søndag efter trinitatis</head>
-                <head>Den<ex>n</ex> Fiortende Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="protector-noster" n="1">
                     <head type="add">Protector noster aspice Deus</head>
+                    <head>Den<ex>n</ex> Fiortende Søndag effter Trinitatis.</head>
                     <head>Introitus latinus. <ref target="#sl-84">Psalm: 84.<reg>Sl
                         84</reg></ref></head>
                     <notatedMusic>
@@ -7024,9 +7021,9 @@
             </div>
             <div type="chapter" xml:id="femtende-soendag-efter-trinitatis" n="57">
                 <head type="add">15. søndag efter trinitatis</head>
-                <head>Den Femtende Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="inclina-domine" n="1">
                     <head type="add">Inclina domine aurem tuam ad me</head>
+                    <head>Den Femtende Søndag effter Trinitatis.</head>
                     <head> Introitus latinus. <ref target="#sl-86">Psalm: 86.<reg>Sl
                         86</reg></ref></head>
                     <notatedMusic>
@@ -7072,9 +7069,9 @@
             </div>
             <div type="chapter" xml:id="sekstende-soendag-efter-trinitatis" n="58">
                 <head type="add">16. søndag efter trinitatis</head>
-                <head><pb facs="0377L" n="364"/>Den<ex>n</ex> xvj. Søndag effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="miserere-mihi-domine" n="1">
                     <head type="add">Miserere mihi Domine</head>
+                    <head><pb facs="0377L" n="364"/>Den<ex>n</ex> xvj. Søndag effter Trinitatis.</head>
                     <head> Introitus latinus. <ref target="#sl-86">Psalm: 86.<reg>Sl
                         86</reg></ref></head>
                     <notatedMusic>
@@ -7121,9 +7118,9 @@
             </div>
             <div type="chapter" xml:id="skt-michels-dag-jespersen-1573" n="59">
                 <head type="add">Mikkelsdag</head>
-                <head>Paa S. Michels dag.</head>
                 <div type="psalm" xml:id="esaias-den-prophet" n="1">
                     <head type="add">Esajas den profet monne det så gå</head>
+                    <head>Paa S. Michels dag.</head>
                     <head> Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_367.xml"/>
@@ -7371,16 +7368,17 @@
                         <l>derfor lad oss icke bliffue til skendzel euindelig. </l>
                     </lg>
                     <p> *</p>
+                    <p><pb facs="0401L" n="388"/>Vnder Sacramentens vddelelse: Dig være loff och
+                        priss/ vt supra. All den anden Sang/ for oc effter predicken/ Som Dominica
+                        prima Trinitatis.</p>
                 </div>
             </div>
             <div type="chapter" xml:id="syttende-soendag-efter-trinitatis" n="60">
                 <head type="add">17. søndag efter trinitatis</head>
                 <div type="psalm" xml:id="vor-gud-han-er-saa-fast" n="1">
                     <head type="add">Vor Gud han er så fast en borg</head>
-                    <head><pb facs="0401L" n="388"/>Vnder Sacramentens vddelelse: Dig være loff och
-                        priss/ vt supra. All den anden Sang/ for oc effter predicken/ Som Dominica
-                        prima Trinitatis. Den<ex>n</ex> xvij. Søndag effter Trinitatis. Introitus
-                        Dansk.</head>
+                    <head> Den<ex>n</ex> xvij. Søndag effter Trinitatis.</head>
+                    <head> Introitus Dansk.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_388.xml"/>
                     </notatedMusic>
@@ -7588,9 +7586,9 @@
             </div>
             <div type="chapter" xml:id="attende-soendag-efter-trinitatis" n="61">
                 <head type="add">18. søndag efter trinitatis</head>
-                <head>Den xviij. Søndag effter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="da-pacem-domine-jespersen-1573" n="1">
                     <head type="add">Da pacem domine</head>
+                    <head>Den xviij. Søndag effter Trinitatis.</head>
                     <head> Introitus latinus.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_396.xml#mdiv-01"/>
@@ -7630,9 +7628,9 @@
             </div>
             <div type="chapter" xml:id="nittende-soendag-efter-trinitatis" n="62">
                 <head type="add">19. søndag efter trinitatis</head>
-                <head>Den<ex>n</ex> xix. Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="salus-populi-ego-sum" n="1">
                     <head type="add">Salus populi ego sum</head>
+                    <head>Den<ex>n</ex> xix. Søndageffter Trinitatis.</head>
                     <head> Introitus latinus. Ex <ref target="#sl-34">Psalm: 34.<reg>Sl
                             34</reg></ref> et <ref target="#sl-35">35.<reg>Sl 35</reg></ref></head>
                     <notatedMusic>
@@ -7675,9 +7673,9 @@
             </div>
             <div type="chapter" xml:id="tyvende-soendag-efter-trinitatis" n="63">
                 <head type="add">20. søndag efter trinitatis</head>
-                <head><pb facs="0416R" n="403"/>Den xx. Søndag effterTrinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="omnia-quae-fecisti" n="1">
                     <head type="add">Omnia quæ fecisti nobis Domine</head>
+                    <head><pb facs="0416R" n="403"/>Den xx. Søndag effterTrinitatis.</head>
                     <head> Introitus latinus. Ex <ref target="#tob-3">Tobiæ, 3.<reg>Tob
                             3</reg></ref></head>
                     <notatedMusic>
@@ -7725,10 +7723,9 @@
             </div>
             <div type="chapter" xml:id="allehelgensdag-jespersen-1573" n="64">
                 <head type="add">Allehelgensdag</head>
-                <head>Paa alle Helligens Dag. </head>
-
                 <div type="psalm" xml:lang="la" xml:id="allehelgensdag-introitus" n="1">
                     <head type="add">Timete Dominum omnes sancti eius</head>
+                    <head>Paa alle Helligens Dag. </head>
                     <head> Introitus Dansk. Vor Gud hand er: vide supra Dominica Decima septima
                         Trinitatis <ex>etc</ex>. Introitus latinus. <ref target="#sl-34">Psalm:
                                 34.<reg>Sl 34</reg></ref></head>
@@ -7776,9 +7773,9 @@
             </div>
             <div type="chapter" xml:id="enogtyvende-soendag-efter-trinitatis" n="65">
                 <head type="add">21. søndag efter trinitatis</head>
-                <head> Den xxj. Søndag effter Trinitatis. </head>
                 <div type="psalm" xml:id="hvi-storme-og-fnyse" n="1">
                     <head type="add">Hvi storme og fnyse de hedninge så</head>
+                    <head> Den xxj. Søndag effter Trinitatis. </head>
                     <head> Introitus Danske.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_411.xml"/>
@@ -7948,9 +7945,9 @@
             </div>
             <div type="chapter" xml:id="toogtyvende-soendag-efter-trinitatis" n="66">
                 <head type="add">22. søndag efter trinitatis</head>
-                <head><pb facs="0432R" n="419"/>Den<ex>n</ex> xxij. Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="si-iniquitates" n="1">
                     <head type="add">Si iniquitates obseruaueris Domine</head>
+                    <head><pb facs="0432R" n="419"/>Den<ex>n</ex> xxij. Søndageffter Trinitatis.</head>
                     <head> Introitus latinus. <ref target="#sl-130">Psalm: 130.<reg>Sl
                             130</reg></ref></head>
                     <notatedMusic>
@@ -7986,9 +7983,9 @@
             </div>
             <div type="chapter" xml:id="treogtyvende-soendag-efter-trinitatis" n="67">
                 <head type="add">23. søndag efter trinitatis</head>
-                <head>Den xxiij. Søndageffter Trinitatis.</head>
                 <div type="psalm" xml:lang="la" xml:id="dicit-dominus" n="1">
                     <head type="add">Dicit Dominus</head>
+                    <head>Den xxiij. Søndageffter Trinitatis.</head>
                     <head> Introitus latinus. <ref target="#jer-29">Ieremiæ, 29.<reg>Jer
                             29</reg></ref></head>
                     <notatedMusic>
@@ -8028,9 +8025,9 @@
             </div>
             <div type="chapter" xml:id="onsdagsbededage" n="68">
                 <head type="add">Onsdagsbededage</head>
-                <head><pb facs="0440R" n="427"/>Om odens dags Bede dage. </head>
                 <div type="psalm" xml:id="o-herre-gud-benaade-mig-jespersen-1573" n="1">
                     <head type="add">O Herre Gud, benåde mig</head>
+                    <head><pb facs="0440R" n="427"/>Om odens dags Bede dage. </head>
                     <head> Introitus Danske.</head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_427.xml"/>
