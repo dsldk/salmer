@@ -14351,7 +14351,7 @@
             <div xml:id="sekvenser" n="16">
                <head type="add">Anvisning om sekvenser i kirkeåret</head>
                <head>Sequentzer.</head>
-               <p>Fra Christi fødsels høytid oc til kyn<lb rend="="/>delmøsse/ Grates nunc omnes/
+               <p>Fra Christi fødsels høytid oc til kyndelmøsse/ Grates nunc omnes/
                   met sin Dantske. Nu lader oss alle tacke Gud vor Herre Fo<ex>lio</ex> viii</p>
 
                <p>Fra Kyndelmøsse och til Faste/ Lumen ad reuelationem/ met den Dantske Nunc
@@ -14464,13 +14464,14 @@
                   vdsende mig/ saa leffuer ieg oc for Fadere<ex>n</ex> Huo som æder mig/ han skal oc
                   leffue for min skyld/ Dette er det brød som kom ned aff Hiemmelen/ Men icke som
                   eders forfædre ode brød aff Hiemmelen oc ere døde Huo som æder aff dette brød/ han
-                  skal leffue euindelige<pb n_ekstra="P7r" n="107r" facs="0280R"/></p>
+                  skal leffue euindelige</p>
             </div>
 
 
             <div type="psalm" xml:id="vi-tro-allesammen-paa-en-gud" n="18">
                <head type="add">Vi tro allesammen på en Gud</head>
-               <head>Den Christne forsamling oc Chorid siunge till haabe Credo</head>
+               <head><pb n_ekstra="P7r" n="107r" facs="0280R"/>Den Christne forsamling oc Chorid
+                  siunge till haabe Credo</head>
 
                <notatedMusic>
                   <ptr target="Vi_1553_LN1421_107r.xml"/>
@@ -15386,7 +15387,7 @@
 
             <div type="psalm" xml:id="_1-soendag-efter-helligtrekongersdag" n="16">
                <head type="add">Første søndag efter helligtrekongersdag</head>
-               <head>Første Søndag effter hellige Tre Kongers dag=</head>
+               <head>Første Søndag effter hellige Tre Kongers dag:</head>
 
                <p>O Almectige euige Gud/ som styrer alle ting baade i Hiemmelen oc paa Jorden/ Hør
                   mildelige dine folckis Bøner/ oc giff Fred i vore tider/ Ved vor Herre Jesum

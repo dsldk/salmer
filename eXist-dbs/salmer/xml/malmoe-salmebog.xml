@@ -3708,7 +3708,7 @@
                         <l> de kunde ey døden offuerwinde/</l>
                         <l> den<note place="right">(<ref target="#luk-11"><orig>Luce
                                         xi</orig><reg>Luk 11</reg></ref>)</note>
-                            <pb facs="050" n="6V"/> stercke dieffuel han sagde ney/</l>
+                            <pb facs="050" n="6v"/> stercke dieffuel han sagde ney/</l>
                         <l> han vilde icke lade sig binde/</l>
                         <l> Aff mig eller noget creature/</l>
                         <l> Jeg vor i hans wold aff min nature/</l>
@@ -8951,7 +8951,7 @@
                 </div>
                 <div type="psalm" xml:id="trosbekendelse-foer-nadver" n="20">
 
-                    <head type="add">Syndssbekendelse</head>
+                    <head type="add"><pb facs="178" n="[71v]"/>Syndsbekendelse</head>
                     <head>Den Christelige Trois beke<ex>n</ex>delse/ met ith ret Euangelisk
                         scrifftemaal so<ex>m</ex> pleyes at opregnis aff presten effter
                             predicke<ex>n</ex>/ før man ana<ex>m</ex>mer vor <pb facs="179" n="72r"
@@ -11490,10 +11490,9 @@
                         <l>Du est wort liff oc søde trøst</l>
                         <l> bode i modgand oc i løst/</l>
                         <l> paa dig wi haabe O Jesu Christ</l>
-                    </lg>
-                    <pb facs="249" n="107r"/>
+                    </lg>                    
                     <lg>
-                        <l>Vi paakalde dig vdi vor nød/</l>
+                        <l><pb facs="249" n="107r"/>Vi paakalde dig vdi vor nød/</l>
                         <l> som ere falne i euig død/</l>
                         <l> met Heua wor moder alle</l>
                     </lg>

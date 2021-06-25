@@ -225,14 +225,15 @@
                     Gudelige oc hellige rørelser.</p>
                 <p> Oc skal fordi saadanne Psalmer oc Aandelige Loffsange ret oc Christelig bruges
                     aff Guds Børn vdi Aand oc Sandhed/ som all Guds rette dyrckelse oc tieniste.
-                    Huor om den hellige Apostel Paulus oss merckeligen lærer oc formaner/ til de
-                    Epheser vdi det <ref target="ef-5">5. Cap<reg>Ef 5</reg></ref>: huor hand siger.
-                    Bliffuer fulde aff Aanden/ oc taler met huer andre om Psalmer oc Loffsange oc
-                    Aandelige Viser/ siunger oc leger for HERREN i eders hierte/ oc siger altid Gud
-                    oc Faderen tack for alting/ i vor HERRJS Jesu Christi Naffn. Oc til de Colosser
-                    i det tredie Capittel/ siger hand: Lader Christi ord boe rigelig iblant eder i
-                    all Vijsdom/ lærer oc formaner eder selffuer met Psalmer/ Loffsang oc Aandelige
-                    deilige Viser/ oc siunger for HERREN i eders hierte.</p>
+                    Huor om den hellige Apostel Paulus oss merckeligen lærer oc formaner/ <ref
+                        target="ef-5"><orig>til de Epheser vdi det 5. Cap:</orig><reg>Ef
+                        5</reg></ref> huor hand siger. Bliffuer fulde aff Aanden/ oc taler met huer
+                    andre om Psalmer oc Loffsange oc Aandelige Viser/ siunger oc leger for HERREN i
+                    eders hierte/ oc siger altid Gud oc Faderen tack for alting/ i vor HERRJS Jesu
+                    Christi Naffn. Oc <ref target="#kol-3"><orig>til de Colosser i det tredie
+                            Capittel</orig><reg>Kol 3</reg></ref>/ siger hand: Lader Christi ord boe
+                    rigelig iblant eder i all Vijsdom/ lærer oc formaner eder selffuer met Psalmer/
+                    Loffsang oc Aandelige deilige Viser/ oc siunger for HERREN i eders hierte.</p>
                 <p> Huilcke ord lære oss/ som saadan Aandelige sang ret bruge ville/ besynderligen
                     try stycker.</p>
                 <p> Først/ at teckis oc være Gud behagelige/ all den Loffsang oc Tacksigelse/ som
@@ -1537,7 +1538,6 @@
                     <p>Almuen.</p>
                     <lg>
                         <l>Gabrielis ord de erefuldkommen nu <ex>etc</ex>.</l>
-                        <l>$$2}</l>
                         <l>Saa suaris til huert Vers.</l>
                     </lg>
                     <lg>
@@ -3261,7 +3261,7 @@
                     </lg>
                     <p rend="indent1"> All anden Sang skal holdis paa disse effterfølgende Søndage/
                         lige som paa denne Søndag <hi rend="italics">Inuocauit.</hi> Men hues ingen
-                        Offer skeer/ ey heller ere <hi rend="italics">Communicantes</hi> , Da skal
+                        Offer skeer/ ey heller ere <hi rend="italics">Communicantes</hi>, Da skal
                         siungis/ Gud Fader oc Søn oc helligAand: ind til enden/ Oc siden alting
                         endis/ som paa denne Søndag <hi rend="italics">Inuocauit.</hi>
                     </p>
@@ -6176,8 +6176,8 @@
                         <l>Oc vor Jeffnchristen at tiene/ </l>
                         <l>Det vnde oss Christus alle.</l>
                     </lg>
-                    <p><pb facs="0326R" n="313"/>All den anden Sang/ for oc effter Pre<lb rend="="/>dicken/ skal holdis/ som
-                            <hi rend="italics">Dominica Trinitatis.</hi></p>
+                    <p><pb facs="0326R" n="313"/>All den anden Sang/ for oc effter Pre<lb rend="="
+                        />dicken/ skal holdis/ som <hi rend="italics">Dominica Trinitatis.</hi></p>
                 </div>
             </div>
             <div type="chapter" xml:id="marie-besoegelsesdag" n="46">
@@ -6306,7 +6306,8 @@
                 <head type="add">Femte søndag efter trinitatis</head>
                 <div type="psalm" xml:lang="la" xml:id="exaudi-domine-vocem-meam" n="1">
                     <head type="add">Exaudi Domine vocem meam</head>
-                    <head><pb facs="0331L" n="318"/>Den<ex>n</ex> Femte Søndag effter Trinitatis.</head>
+                    <head><pb facs="0331L" n="318"/>Den<ex>n</ex> Femte Søndag effter
+                        Trinitatis.</head>
                     <head>Introitus Dansk.</head>
                     <p>Som paa S. Hans dag. Oc skal fremdelis siungis til Dominicam Nonam
                         Trinitatis. Introitus latinus. <ref target="#sl-27">Psalm: 27.<reg>Sl
@@ -7071,7 +7072,8 @@
                 <head type="add">16. søndag efter trinitatis</head>
                 <div type="psalm" xml:lang="la" xml:id="miserere-mihi-domine" n="1">
                     <head type="add">Miserere mihi Domine</head>
-                    <head><pb facs="0377L" n="364"/>Den<ex>n</ex> xvj. Søndag effter Trinitatis.</head>
+                    <head><pb facs="0377L" n="364"/>Den<ex>n</ex> xvj. Søndag effter
+                        Trinitatis.</head>
                     <head> Introitus latinus. <ref target="#sl-86">Psalm: 86.<reg>Sl
                         86</reg></ref></head>
                     <notatedMusic>
@@ -7947,7 +7949,8 @@
                 <head type="add">22. søndag efter trinitatis</head>
                 <div type="psalm" xml:lang="la" xml:id="si-iniquitates" n="1">
                     <head type="add">Si iniquitates obseruaueris Domine</head>
-                    <head><pb facs="0432R" n="419"/>Den<ex>n</ex> xxij. Søndag effter Trinitatis.</head>
+                    <head><pb facs="0432R" n="419"/>Den<ex>n</ex> xxij. Søndag effter
+                        Trinitatis.</head>
                     <head> Introitus latinus. <ref target="#sl-130">Psalm: 130.<reg>Sl
                             130</reg></ref></head>
                     <notatedMusic>
@@ -8865,7 +8868,7 @@
                         <l>Jn nomine Patris et Filij, </l>
                         <l>et Spiritus sancti. </l>
                         <l>Qui credi: </l>
-                        <l>Gloria Patri et Fi<pb facs="0473L" n="460"/>lio, et Spiritui Sanc<lb
+                        <l>Gloria Patri et Fi-<pb facs="0473L" n="460"/>lio, et Spiritui Sanc<lb
                                 rend="="/>to. </l>
                         <l>Qui credi: </l>
                     </lg>
@@ -9234,7 +9237,7 @@
                     </head>
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Adorate Deum omnes Angeli eius</hi> , <ref
+                            <hi rend="italics">Adorate Deum omnes Angeli eius</hi>, <ref
                                 target="#section-14-1" type="SheetNumber">107. </ref>
                         </item>
                         <item>
@@ -9254,7 +9257,7 @@
                             <ref target="#benedicite-domino" type="SheetNumber">370.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Benedicta sit sancta trinitas</hi> , <ref
+                            <hi rend="italics">Benedicta sit sancta trinitas</hi>, <ref
                                 target="#benedicta-sit-sancta-trinitas" type="SheetNumber"
                                 >274.</ref>
                         </item>
@@ -9271,7 +9274,7 @@
                             <ref target="#cantate-domino" type="SheetNumber">231.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Circumdederunt me gemitus mortis</hi> , <ref
+                            <hi rend="italics">Circumdederunt me gemitus mortis</hi>, <ref
                                 target="#section-17-1" type="SheetNumber">122.</ref>
                         </item>
                     </list>
@@ -9283,7 +9286,7 @@
                     </head>
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Da pacem Domine sustinentibus te</hi> , <ref
+                            <hi rend="italics">Da pacem Domine sustinentibus te</hi>, <ref
                                 target="#da-pacem-domine-jespersen-1573" type="SheetNumber"
                                 >396.</ref>
                         </item>
@@ -9292,11 +9295,11 @@
                             <ref target="#de-ventre-matris" type="SheetNumber">306.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Deus in adiutorium meum intende</hi> , <ref
+                            <hi rend="italics">Deus in adiutorium meum intende</hi>, <ref
                                 target="#deus-in-adiutorium-meum" type="SheetNumber">346.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Deus in loco sancto suo</hi> , <ref
+                            <hi rend="italics">Deus in loco sancto suo</hi>, <ref
                                 target="#deus-in-loco-sancto" type="SheetNumber">343.</ref>
                         </item>
                         <item>
@@ -9304,7 +9307,7 @@
                             <ref target="#dicit-dominus" type="SheetNumber">422.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Domine in tua misericordia sperauj</hi> , <ref
+                            <hi rend="italics">Domine in tua misericordia sperauj</hi>, <ref
                                 target="#domine-in-tua" type="SheetNumber">286.</ref>
                         </item>
                         <item>
@@ -9312,11 +9315,11 @@
                             <ref target="#section-26-1" type="SheetNumber">164.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Dominus fortitudo plebis suæ</hi> , <ref
+                            <hi rend="italics">Dominus fortitudo plebis suæ</hi>, <ref
                                 target="#dominus-fortitudo" type="SheetNumber">321.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Dominus illuminatio mea, et salus mea</hi> , <ref
+                            <hi rend="italics">Dominus illuminatio mea, et salus mea</hi>, <ref
                                 target="#dominus-illuminatio-mea" type="SheetNumber">300.</ref>
                         </item>
                         <item>
@@ -9324,7 +9327,7 @@
                             <ref target="#dum-clamarem-ad-dominum" type="SheetNumber">339.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Dum medium silentium teneret omnia</hi> , <ref
+                            <hi rend="italics">Dum medium silentium teneret omnia</hi>, <ref
                                 target="#section-8-1" type="SheetNumber">87.</ref>
                         </item>
                     </list>
@@ -9336,7 +9339,7 @@
                     </head>
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Ecce aduenit Dominator Dominus</hi> , <ref
+                            <hi rend="italics">Ecce aduenit Dominator Dominus</hi>, <ref
                                 target="#section-11-1" type="SheetNumber">97.</ref>
                         </item>
                         <item>
@@ -9344,7 +9347,7 @@
                             <ref target="#ecce-deus" type="SheetNumber">334.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Esto mihi in Deum protectorem</hi> , <ref
+                            <hi rend="italics">Esto mihi in Deum protectorem</hi>, <ref
                                 target="#section-19-2" type="SheetNumber">132.</ref>
                         </item>
                         <item>
@@ -9353,7 +9356,7 @@
                             <ref target="#section-6-1" type="SheetNumber">75.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Et postquam consummati sunt dies octo</hi> , <ref
+                            <hi rend="italics">Et postquam consummati sunt dies octo</hi>, <ref
                                 target="#section-9-1-jespersen-1573" type="SheetNumber">91.</ref>
                         </item>
                         <item>
@@ -9410,15 +9413,15 @@
                             <ref target="#inclina-domine" type="SheetNumber">360.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">In excelso throno vidj sedere virum</hi> , <ref
+                            <hi rend="italics">In excelso throno vidj sedere virum</hi>, <ref
                                 target="#section-12-1" type="SheetNumber">101.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">In medio Ecclesiæ aperuit os eius</hi> , <ref
+                            <hi rend="italics">In medio Ecclesiæ aperuit os eius</hi>, <ref
                                 target="#section-7-1" type="SheetNumber">84.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Inuocauit me, et ego exaudiam eum</hi> , <ref
+                            <hi rend="italics">Inuocauit me, et ego exaudiam eum</hi>, <ref
                                 target="#section-20-2" type="SheetNumber">136.</ref>
                         </item>
                         <item>
@@ -9427,7 +9430,7 @@
                         </item>
                         <item>
                             <hi rend="italics">Iubilate Deo Omnis terra, haleluia.</hi>
-                            <ref target="#iubilate-deo-omnis-terra" type="SheetNumber">227.</ref>
+                            <ref target="#iubilate-deo-omnis-terra" type="SheetNumber">227. </ref>
                         </item>
                         <item>
                             <hi rend="italics">Iudica me Deus, et discerne causam meam</hi>
@@ -9466,7 +9469,7 @@
                             <ref target="#miserere-mihi-domine" type="SheetNumber">364.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Misericordia Domini plena est terra</hi> , <ref
+                            <hi rend="italics">Misericordia Domini plena est terra</hi>, <ref
                                 target="#misericordia-domini" type="SheetNumber">224.</ref>
                         </item>
                     </list>
@@ -9548,16 +9551,16 @@
                     </head>
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Reminiscere miserationum tuarum Domine</hi> , <ref
+                            <hi rend="italics">Reminiscere miserationum tuarum Domine</hi>, <ref
                                 target="#section-21-1" type="SheetNumber">150.</ref>
                         </item>
                         <item>
                             <hi rend="italics"><pb facs="0478R" n="Rr 3r"/>Respice Domine in
-                                testamentum tuum</hi> , <ref target="#respice-domine"
+                                testamentum tuum</hi>, <ref target="#respice-domine"
                                 type="SheetNumber">351.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Respice in me, et miserere mei Domine</hi> , <ref
+                            <hi rend="italics">Respice in me, et miserere mei Domine</hi>, <ref
                                 target="#respice-in-me" type="SheetNumber">296.</ref>
                         </item>
                         <item>
@@ -9582,19 +9585,19 @@
                                 >443.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Salus populi ego sum, dicit Dominus</hi> , <ref
+                            <hi rend="italics">Salus populi ego sum, dicit Dominus</hi>, <ref
                                 target="#salus-populi-ego-sum" type="SheetNumber">399.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Si iniquitates obseruaueris Domine</hi> , <ref
+                            <hi rend="italics">Si iniquitates obseruaueris Domine</hi>, <ref
                                 target="#si-iniquitates" type="SheetNumber">419.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Spiritus Domini repleuit orbem terrarum</hi> , <ref
+                            <hi rend="italics">Spiritus Domini repleuit orbem terrarum</hi>, <ref
                                 target="#spiritus-domini" type="SheetNumber">245.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Suscepimus Deus misericordiam tuam</hi> , <ref
+                            <hi rend="italics">Suscepimus Deus misericordiam tuam</hi>, <ref
                                 target="#suscepimus-deus" type="SheetNumber">328.</ref>
                         </item>
                     </list>
@@ -9606,7 +9609,7 @@
                     </head>
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Timete Dominum omnes Sancti eius</hi> , <ref
+                            <hi rend="italics">Timete Dominum omnes Sancti eius</hi>, <ref
                                 target="#allehelgensdag-introitus" type="SheetNumber">407.</ref>
                         </item>
                     </list>
@@ -9622,8 +9625,8 @@
                             <ref target="#viri-galilaei" type="SheetNumber">237.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Vocem iucunditatis annunciate, et audiatur</hi> ,
-                                <ref target="#vocem-iucunditatis" type="SheetNumber">233.</ref>
+                            <hi rend="italics">Vocem iucunditatis annunciate, et audiatur</hi>, <ref
+                                target="#vocem-iucunditatis" type="SheetNumber">233.</ref>
                         </item>
                         <item>
                             <hi rend="italics">Vultum tuum deprecabuntur omnes diuites</hi>
@@ -9640,7 +9643,7 @@
 
                 <list rend="simple">
                     <item>
-                        <hi rend="italics">Veni sancte Spiritus, reple tuorum corda</hi>
+                        <hi rend="italics">Veni sancte Spiritus, reple tuorum corda </hi>
                         <ref target="#veni-sancte-spiritus-jespersen-1573" type="SheetNumber"
                             >244.</ref>
                     </item>
@@ -9661,7 +9664,7 @@
                             <ref target="#haleluia-angelus-domini" type="SheetNumber">222.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Angelus domini nunciauit Mariæ</hi> , <ref
+                            <hi rend="italics">Angelus domini nunciauit Mariæ</hi>, <ref
                                 target="#haleluia-angelus-domini-nuntiauit-mariae"
                                 type="SheetNumber">160.</ref>
                         </item>
@@ -9701,7 +9704,7 @@
 
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Concussum est mare, et contremuit terra</hi> ,
+                                <hi rend="italics">Concussum est mare, et contremuit terra</hi>,
                                     <ref target="#haleluia-concussum-est-mare" type="SheetNumber"
                                     >372.</ref>
                             </item>
@@ -9714,29 +9717,29 @@
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">De profundis clamaui ad te Domine</hi> , <ref
+                                <hi rend="italics">De profundis clamaui ad te Domine</hi>, <ref
                                     target="#section-17-2" type="SheetNumber">124.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">De profundis clamaui ad te Domine</hi> , <ref
+                                <hi rend="italics">De profundis clamaui ad te Domine</hi>, <ref
                                     target="#haleluia-de-profundis-clamaui-ad-te-domine"
                                     type="SheetNumber">416.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Deus iudex iustus, fortis et paciens</hi> , <ref
+                                <hi rend="italics">Deus iudex iustus, fortis et paciens</hi>, <ref
                                     target="#haleluia-deus-iudex-iustus" type="SheetNumber"
                                     >295.</ref>
                             </item>
                             <item>
                                 <hi rend="italics">Dextera Dei fecit virtutem, dextera</hi>
-                                <ref target="#haleluia-dextera-dei" type="SheetNumber">401.</ref>
+                                <ref target="#haleluia-dextera-dei" type="SheetNumber">401. </ref>
                             </item>
                             <item>
                                 <hi rend="italics">Dies sanctificatus illuxit nobis, venite</hi>
                                 <ref target="#section-5-5" type="SheetNumber">44.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Diffusa est gratia in labijs tuis</hi> , <ref
+                                <hi rend="italics">Diffusa est gratia in labijs tuis</hi>, <ref
                                     target="#section-10-2" type="SheetNumber">96.</ref>
                             </item>
                             <item>
@@ -9760,7 +9763,7 @@
                                     >345.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Domine in virtute tua lætabitur rex</hi> , <ref
+                                <hi rend="italics">Domine in virtute tua lætabitur rex</hi>, <ref
                                     target="#haleluia-domine-in-virtute" type="SheetNumber"
                                     >302.</ref>
                             </item>
@@ -9769,15 +9772,15 @@
                                 <ref target="#section-20-3" type="SheetNumber">138.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Domine refugium factus es nobis</hi> , <ref
+                                <hi rend="italics">Domine refugium factus es nobis</hi>, <ref
                                     target="#haleluia-domine-refugium" type="SheetNumber">348.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Dominus regnauit, decorem induit</hi> , <ref
+                                <hi rend="italics">Dominus regnauit, decorem induit</hi>, <ref
                                     target="#section-8-2" type="SheetNumber">90.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Dominus regnauit, exultet terra</hi> , <ref
+                                <hi rend="italics">Dominus regnauit, exultet terra</hi>, <ref
                                     target="#section-14-2" type="SheetNumber">109.</ref>
                             </item>
                         </list>
@@ -9789,11 +9792,11 @@
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Eripe me de inimicis meis Deus meus</hi> , <ref
+                                <hi rend="italics">Eripe me de inimicis meis Deus meus</hi>, <ref
                                     target="#haleluia-eripe-me" type="SheetNumber">327.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Excita Domine potentiam tuam, et venj</hi> , <ref
+                                <hi rend="italics">Excita Domine potentiam tuam, et venj</hi>, <ref
                                     target="#section-3-2" type="SheetNumber">31.</ref>
                             </item>
                             <item>
@@ -9839,11 +9842,11 @@
                                 <ref target="#haleluia-inter-natos" type="SheetNumber">308.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Iudicabunt sancti nationes</hi> , <ref
+                                <hi rend="italics">Iudicabunt sancti nationes</hi>, <ref
                                     target="#allehelgensdag-haleluja" type="SheetNumber">409.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Iubilate Deo omnis terra</hi> , <ref
+                                <hi rend="italics">Iubilate Deo omnis terra</hi>, <ref
                                     target="#section-12-2" type="SheetNumber">103.</ref>
                             </item>
                         </list>
@@ -9855,19 +9858,19 @@
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Lætatus sum in his quæ dicta sunt mihi</hi> ,
-                                    <ref target="#section-2-2" type="SheetNumber">27.</ref>
+                                <hi rend="italics">Lætatus sum in his quæ dicta sunt mihi</hi>, <ref
+                                    target="#section-2-2" type="SheetNumber">27.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Lauda anima mea Dominum</hi> , <ref
+                                <hi rend="italics">Lauda anima mea Dominum</hi>, <ref
                                     target="#haleluia-lauda-anima" type="SheetNumber">421.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Laudate Deum omnes Angeli eius</hi> , <ref
+                                <hi rend="italics">Laudate Deum omnes Angeli eius</hi>, <ref
                                     target="#section-13-2" type="SheetNumber">106.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Laudate Dominum omnes gentes</hi> , <ref
+                                <hi rend="italics">Laudate Dominum omnes gentes</hi>, <ref
                                     target="#haleluia-laudate-dominum-omnes-gentes"
                                     type="SheetNumber">398.</ref>
                             </item>
@@ -9897,12 +9900,12 @@
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Omnes gentes plaudite manibus</hi> , <ref
+                                <hi rend="italics">Omnes gentes plaudite manibus</hi>, <ref
                                     target="#haleluia-omnes-gentes-plaudite" type="SheetNumber"
                                     >324.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Ostende nobis domine misericordiam tuam</hi> ,
+                                <hi rend="italics">Ostende nobis domine misericordiam tuam</hi>,
                                     <ref target="#section-1-5" type="SheetNumber">9.</ref>
                             </item>
                         </list>
@@ -9941,7 +9944,7 @@
                                     >424.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Quoniam Deus magnus Dominus</hi> , <ref
+                                <hi rend="italics">Quoniam Deus magnus Dominus</hi>, <ref
                                     target="#haleluia-quoniam-deus-magnus-dominus"
                                     type="SheetNumber">359.</ref>
                             </item>
@@ -9965,7 +9968,7 @@
                             </item>
                             <item>
                                 <hi rend="italics"><pb facs="0480R" n="Rr 4r"/>Surrexit Christus et
-                                    illuxit populo suo</hi> , <ref
+                                    illuxit populo suo</hi>, <ref
                                     target="#haleluia-surrexit-christus" type="SheetNumber"
                                     >236.</ref>
                             </item>
@@ -9978,7 +9981,7 @@
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Te decet hymnus Deus in Sion</hi> , <ref
+                                <hi rend="italics">Te decet hymnus Deus in Sion</hi>, <ref
                                     target="#haleluia-te-decet-hymnus-deus-in-syon"
                                     type="SheetNumber">331.</ref>
                             </item>
@@ -9991,7 +9994,7 @@
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Veni Domine, et noli tardare</hi> , <ref
+                                <hi rend="italics">Veni Domine, et noli tardare</hi>, <ref
                                     target="#section-4-2" type="SheetNumber">34.</ref>
                             </item>
                             <item>
@@ -10009,7 +10012,7 @@
                                 <ref target="#section-6-3" type="SheetNumber">79.</ref>
                             </item>
                             <item>
-                                <hi rend="italics">Vidimus stellam eius in oriente</hi> , <ref
+                                <hi rend="italics">Vidimus stellam eius in oriente</hi>, <ref
                                     target="#section-11-2" type="SheetNumber">99.</ref>
                             </item>
                         </list>
@@ -10026,23 +10029,23 @@
 
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Benedicta semper sancta sit trinitas</hi> , <ref
-                                target="#benedicta-semper" type="SheetNumber">277.</ref>
+                            <hi rend="italics">Benedicta semper sancta sit trinitas</hi>, <ref
+                                target="#benedicta-semper" type="SheetNumber">277. </ref>
                         </item>
                         <item>
-                            <hi rend="italics">Eia recolamus laudibus pijs, digna</hi>
+                            <hi rend="italics">Eia recolamus laudibus pijs,digna </hi>
                             <ref target="#section-5-10" type="SheetNumber">54.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Grates nunc omnes reddamus domino Deo</hi> , <ref
+                            <hi rend="italics">Grates nunc omnes reddamus domino Deo</hi>, <ref
                                 target="#section-5-6" type="SheetNumber">46.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Mane prima sabbathi surgens Dej filius</hi> , <ref
+                            <hi rend="italics">Mane prima sabbathi surgens Dej filius</hi>, <ref
                                 target="#section-29-8" type="SheetNumber">200.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Sancti spiritus adsit nobis gratia.</hi>
+                            <hi rend="italics">Sancti spiritus adsit nobis gratia. </hi>
                             <ref target="#sancti-spiritus-adsit-nobis-gratia" type="SheetNumber"
                                 >257.</ref>
                         </item>
@@ -10052,7 +10055,7 @@
                                 >254.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Victimæ paschali laudes immolant Christiani.</hi>
+                            <hi rend="italics">Victimæ paschali laudes immolant Christiani. </hi>
                             <ref target="#section-29-6" type="SheetNumber">196.</ref>
                         </item>
                     </list>
@@ -10062,16 +10065,16 @@
 
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Credo in vnum deum. Patrem omnipotentem</hi> , <ref
+                            <hi rend="italics">Credo in vnum deum. Patrem omnipotentem</hi>, <ref
                                 target="#section-5-7" type="SheetNumber">48.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Te Deum laudamus, te dominum confitemur.</hi>
+                            <hi rend="italics">Te Deum laudamus, te dominum confitemur. </hi>
                             <ref target="#te-deum-laudamus-jespersen-1573" type="SheetNumber"
                                 >373.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Quicun{que} vult saluus esse, ipsum fidem</hi>
+                            <hi rend="italics">Quicun<ex>que</ex> vult saluus esse, ipsum fidem</hi>
                             <ref target="#offertorium-quicunque" type="SheetNumber">447.</ref>
                         </item>
                         <item>
@@ -10079,11 +10082,11 @@
                             <ref target="#section-5-13" type="SheetNumber">66.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Tibi laus salus sit Christe</hi> , <ref
+                            <hi rend="italics">Tibi laus salus sit Christe</hi>, <ref
                                 target="#section-5-14" type="SheetNumber">68.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Agnus dei qui tollis peccata mundi</hi> , <ref
+                            <hi rend="italics">Agnus dei qui tollis peccata mundi</hi>, <ref
                                 target="#section-5-14" type="SheetNumber">69.</ref>
                         </item>
                     </list>
@@ -10099,19 +10102,19 @@
 
                     <list rend="simple">
                         <item>
-                            <hi rend="italics">Apparuerunt apostolis dispertitæ linguæ</hi> , <ref
+                            <hi rend="italics">Apparuerunt apostolis dispertitæ linguæ</hi>, <ref
                                 target="#responsoriumsecundum" type="SheetNumber">456.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Discubuit Iesus et discipuli eius cum eo</hi> , <ref
+                            <hi rend="italics">Discubuit Iesus et discipuli eius cum eo</hi>, <ref
                                 target="#section-27-2" type="SheetNumber">169.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Ite in orbem vniuersum, et prædicate</hi>
+                            <hi rend="italics">Ite in orbem vniuersum, et prædicate</hi> 
                             <ref target="#responsoriumtertium" type="SheetNumber">458.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Summæ Trinitati, simplicj Deo</hi> , <ref
+                            <hi rend="italics">Summæ Trinitati, simplicj Deo</hi>, <ref
                                 target="#responsoriumprimum" type="SheetNumber">453.</ref>
                         </item>
                     </list>
@@ -10124,8 +10127,8 @@
                 <p>
                     <hi rend="italics">Pagina,</hi> 262. <hi rend="italics">versu vltimo, lege,
                         inaudito. pag:</hi> 290. <hi rend="italics">versu</hi>
-                    <hi rend="italics">vltimo, pro</hi> , O Gud Fader vdi/ <hi rend="italics"
-                        >lege</hi> , Gud Fader vdi <ex>etc</ex>.</p>
+                    <hi rend="italics">vltimo, pro</hi>, O Gud Fader vdi/ <hi rend="italics"
+                        >lege</hi>, Gud Fader vdi <ex>etc</ex>.</p>
                 <p> *</p>
             </div>
         </back>

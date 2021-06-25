@@ -21311,8 +21311,12 @@
                     <head type="add">Lovet være Herren Israels Gud</head>
                     <head> XV. Zachariæ Loffsang/ </head>
                     <p><ref target="#luk-1"><orig><hi rend="italics">Lucæ </hi>1.</orig><reg>Luk
-                                1</reg>--&gt;</ref>
-                        <hi rend="italics">Benenedictus Dominus Deus Israel.</hi></p>
+                                1</reg></ref> 
+                        <hi rend="italics"><app>
+                            <lem>Benedictus</lem>
+                            <rdg>
+                                <q>Benenedictus</q> orig.</rdg>
+                        </app> Dominus Deus Israel.</hi></p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_302r.xml"/>
                     </notatedMusic>
@@ -23005,7 +23009,7 @@
                     <head type="add">Med glæde og fred far jeg nu hen</head>
                     <head><pb facs="720" n="333v"/> II. Simeonis Loffsang. </head>
                     <p><ref target="#luk-2"><orig><hi rend="italics">Lucæ.</hi> II.</orig><reg>Luk
-                                2</reg>--&gt;</ref>
+                                2</reg></ref>
                         <hi rend="italics">Nunc dimittis <ex>etc</ex>.</hi> D. Morten Luther.</p>
 
                     <notatedMusic>
@@ -24840,7 +24844,7 @@
                     <head> VII. Om Opstandelsen/ oc det euige liff <ex>etc</ex>. </head>
                     <p>
                         <hi rend="italics"><ref target="#kor-1-15"><orig>I. Corinth:
-                                    XV.</orig><reg>1 Kor 15</reg>--&gt;</ref></hi>
+                                    XV.</orig><reg>1 Kor 15</reg></ref></hi>
                     </p>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_364r.xml"/>
