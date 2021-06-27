@@ -6433,8 +6433,8 @@
                 <div type="psalm" xml:id="section-3-hymn-2" n="2">
                     <head type="add">Hvi storme og fnyse de hedninge så</head>
                     <head><pb facs="116" n="30v"/> II. Den <ref target="#sl-2"><orig>II. Dauids
-                        Psalme</orig><reg>Sl 2</reg></ref>/ <title><hi rend="italics">Quare fremuerunt
-                                gentes <ex>etc</ex>.</hi></title>
+                                Psalme</orig><reg>Sl 2</reg></ref>/ <title><hi rend="italics">Quare
+                                fremuerunt gentes <ex>etc</ex>.</hi></title>
                     </head>
 
                     <notatedMusic>
@@ -6616,7 +6616,7 @@
                 <div type="psalm" xml:id="section-3-hymn-5" n="5">
                     <head type="add">En visse tale er denne her</head>
                     <head> V. Sancte Pouels Loffsang om sin Omuendelse. <ref target="#tim-1-1"
-                        ><orig>j. Timoth. j.</orig><reg>1 Tim 1</reg></ref></head>
+                                ><orig>j. Timoth. j.</orig><reg>1 Tim 1</reg></ref></head>
 
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_034r.xml"/>
@@ -11341,7 +11341,8 @@
                 <div type="psalm" xml:id="section-9-5-hymn-1" n="1">
                     <head type="add">Esajas den profet monne det så gå</head>
                     <head> I. Jt <hi rend="italics">Sanctus</hi> som D. Morten Luther vdsette aff
-                        <ref target="#es-6"><orig>Esaiæ vj. Capitel</orig><reg>Es 6</reg></ref>.</head>
+                            <ref target="#es-6"><orig>Esaiæ vj. Capitel</orig><reg>Es
+                        6</reg></ref>.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_125r.xml"/>
                     </notatedMusic>
@@ -12754,9 +12755,9 @@
                     <head type="add">Så taler den uvise mund</head>
                     <head><pb facs="353" n="150r"/>Om Louen oc Euangelio/ om Synden/ Syndernis
                         forladelse/ Retfærdighed/ Troen oc gode Gierninger. </head>
-                    <head> I. Den <ref target="#sl-14"><orig>XIIII. Psalme</orig><reg>Sl 14</reg></ref>/ <title><hi
-                                rend="italics">Dixit insipiens in corde suo, non est
-                            Deus.</hi></title> D. Morten Luther.</head>
+                    <head> I. Den <ref target="#sl-14"><orig>XIIII. Psalme</orig><reg>Sl
+                            14</reg></ref>/ <title><hi rend="italics">Dixit insipiens in corde suo,
+                                non est Deus.</hi></title> D. Morten Luther.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_150r.xml"/>
                     </notatedMusic>
@@ -14259,9 +14260,9 @@
                 <div type="psalm" xml:id="section-13-hymn-3" n="3">
                     <head type="add">O Herre Gud, benåde mig</head>
 
-                    <head> III. Den samme <ref target="#sl-51"><orig>LI. Psalme</orig><reg>Sl 51</reg></ref>/
-                                <title><hi rend="italics">Miserere mei Deus
-                            <ex>etc</ex>.</hi></title> anderledis.</head>
+                    <head> III. Den samme <ref target="#sl-51"><orig>LI. Psalme</orig><reg>Sl
+                                51</reg></ref>/ <title><hi rend="italics">Miserere mei Deus
+                                    <ex>etc</ex>.</hi></title> anderledis.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_176r.xml"/>
                     </notatedMusic>
@@ -14358,9 +14359,9 @@
                 </div>
                 <div type="psalm" xml:id="section-13-hymn-4" n="4">
                     <head type="add">Af dybsens nød råber jeg til dig</head>
-                    <head> IIII. Den <ref target="#sl-130"><orig>CXXX. Psalme</orig><reg>Sl 130</reg></ref>/
-                                <title><hi rend="italics">De profundis clamaui at te Domine
-                                    <ex>etc</ex>.</hi></title> D. Morten Luther.</head>
+                    <head> IIII. Den <ref target="#sl-130"><orig>CXXX. Psalme</orig><reg>Sl
+                                130</reg></ref>/ <title><hi rend="italics">De profundis clamaui at
+                                te Domine <ex>etc</ex>.</hi></title> D. Morten Luther.</head>
                     <notatedMusic>
                         <ptr target="Th_1569_LN1426_178r.xml"/>
                     </notatedMusic>
@@ -14816,7 +14817,12 @@
                     </lg>
                     <lg>
                         <l>Loff ære oc priss til euighed </l>
-                        <l><pb facs="425" n="186r"/>Dig skee O Herre Gud allene/ </l>
+                        <l><pb facs="425" n="186r"/>
+                            <app>
+                                <lem/>
+                                <rdg wit="#orig"><note>blad 186 fejlagtigt nummereret
+                                    187</note></rdg>
+                            </app>Dig skee O Herre Gud allene/ </l>
                         <l>En Fader vdi euighed </l>
                         <l>Met Christ din Søn/ vor broder venne/ </l>
                         <l>Oc den hellig Aand vor trøstermand </l>
@@ -23558,7 +23564,7 @@
                 <div type="psalm" xml:id="section-24-hymn-11" n="11">
                     <head type="add">Guds nåde og barmhjertighed</head>
                     <head> XI. Om merckelige Mends Død/ aff <ref target="#es-56"><orig>Esaiæ/ LVI.
-                        Capitel.</orig><reg>Es 56</reg></ref>
+                                Capitel.</orig><reg>Es 56</reg></ref>
                         <hi rend="italics">Iustus perit, et non est qui recogitet in corde suo.</hi>
                         Anders Sørenssøn Vedel.</head>
                     <notatedMusic>
