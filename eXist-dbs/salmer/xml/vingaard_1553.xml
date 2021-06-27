@@ -14351,8 +14351,8 @@
             <div xml:id="sekvenser" n="16">
                <head type="add">Anvisning om sekvenser i kirkeåret</head>
                <head>Sequentzer.</head>
-               <p>Fra Christi fødsels høytid oc til kyndelmøsse/ Grates nunc omnes/
-                  met sin Dantske. Nu lader oss alle tacke Gud vor Herre Fo<ex>lio</ex> viii</p>
+               <p>Fra Christi fødsels høytid oc til kyndelmøsse/ Grates nunc omnes/ met sin Dantske.
+                  Nu lader oss alle tacke Gud vor Herre Fo<ex>lio</ex> viii</p>
 
                <p>Fra Kyndelmøsse och til Faste/ Lumen ad reuelationem/ met den Dantske Nunc
                   dimittis/ som begyndis/ Met glæde oc fred/ Folio xvii</p>
@@ -18914,7 +18914,7 @@
                      <item>Gloria in excelsis Deo / All eniste Gud i Hiemmerig <ref
                            target="#aleneste-gud-i-himmerig">xcix</ref></item>
                      <item>Den anderledis / All ene Gud i det høyeste <ref
-                           target="#gloria-in-excelsis-deo2">C</ref></item>
+                           target="#alene-gud-i-det-højeste">C</ref></item>
                      <item>Alleluia/ Gladelig ville wi <ref
                            target="#halleluja-glade-vil-vi-halleluja-sjunge">Ciii</ref></item>
                      <item>Om vor Synd oc fald / Aff Adams fald <ref
@@ -18968,8 +18968,8 @@
                         <ref target="#om-kristi-opstandelse">xxxv</ref></item>
                      <item>Capitan Herre Gud Fader <ref target="#capitan-herre-gud-fader-min"
                            >lxxxix</ref></item>
-                     <item>Collecterne følger <ref target="#Kollekter_til_årets_søn-_og_helligdage"
-                           >cxxi</ref></item>
+                     <item>Collecterne følger <ref
+                           target="#kollekter-til-aarets-soendage-og-helligdage">cxxi</ref></item>
                      <item>Christus pro nobis <ref target="#christus-pro-nobis-passus-est"
                            >clxxiiii</ref></item>
                      <item>Cognoscimus <ref target="#cognoscimus">clxxvi</ref></item>
@@ -18999,7 +18999,8 @@
                         <ref target="#evangelisk-afloesning-vingaard-1553">xcvii</ref></item>
                      <item>Euangelium Joannis vi / Der Almuen saa at Jesus vor <ref
                            target="#evangelium">ciiii</ref></item>
-                     <item>Dig vere loff oc pris o Herre <ref target="#tibi-laus">cxvii</ref></item>
+                     <item>Dig vere loff oc pris o Herre <ref
+                           target="#tibi-laus-dig-vaere-lov-og-pris">cxvii</ref></item>
                      <item>Om Tro haab oc kerlighed / Dig tacker ieg kære Herre <ref
                            target="#dig-takker-jeg-kaere-herre">cxl</ref></item>
                      <item>Distubuit Jesus <ref target="#discubuit-jesus">clxxv</ref></item>
@@ -19038,7 +19039,11 @@
                            target="#erens-konning">xxxiii</ref></item>
                      <item>Ad te leuaui oculos / Fra Mennisken haffuer ieg <ref
                            target="#fra-mennesken-haver-jeg-vendt-min-hu">lix</ref></item>
-                     <item>Kon Frederics vise / Fred giff oss o kære Herre <ref
+                     <item><app>
+                           <lem>Kong</lem>
+                           <rdg>
+                              <q>Kon</q> orig.</rdg>
+                        </app> Frederics vise / Fred giff oss o kære Herre <ref
                            target="#fred-giv-os-kaere-herre">lxxxxiii</ref></item>
                      <item>Da pacem domine / Forlæ oss met fred. <ref
                            target="#forlen-os-med-fred-naadelig">xcv</ref></item>
@@ -19047,7 +19052,7 @@
                      <item>Formaning til dem som ville annamme Sacramentet <ref target="#formaning"
                            >Cxiii</ref></item>
                      <item>Fader vor Martini Lutheri / Fader vor vdi Hiemmerig <ref
-                           target="#giver-agt-herpaa-i-himlen">Clv</ref></item>
+                           target="fadervor-andet-tillaeg">Clv</ref></item>
                      <item>Cxxvii Psalm nisi dominus / Forgeffuis er alt Arbeyde <ref
                            target="#forgaeves-er-alt-arbejd-og-kost">Clxvii</ref></item>
                   </list>
@@ -19072,12 +19077,8 @@
                      <item>Gud Fader søn oc helligaand <ref target="#gud-fader-soen-og-helligaand"
                            >xxxxii</ref></item>
                      <item>Gud Fader i hiemmelen <ref target="#gud-fader-i-himlen">lxvi</ref></item>
-                     <item> Non nobis domine / <ref target="#gud-aere-dit-navn-og-ikke-vort">cxiiii
-                           Psalm</ref>
-                     </item>
-                     <item>Gud ære dit naffn oc icke vort <ref
+                     <item> Non nobis domine cxiiii Psalm / Gud ære dit naffn oc icke vort <ref
                            target="#gud-aere-dit-navn-og-ikke-vort">lxvii</ref></item>
-                     <!-- OBS dublet -->
                      <item>En vise met Capitans noder / Gud Fader i hiemmelen <ref
                            target="#gud-fader-i-himlen">xci</ref></item>
                      <item>De X Gudz budord / Gud lod røst aff Skyen lyde <ref
@@ -19138,7 +19139,7 @@
                <head><pb n_ekstra="Bb4r" n="180r" facs="0426R"/>J</head>
                <div type="list">
                   <list rend="simple">
-                     <item> Jesu naffn begynde wi <ref target="#i-jesu-navn-begynde-vi"
+                     <item>I Jesu naffn begynde wi <ref target="#i-jesu-navn-begynde-vi"
                         >ii</ref></item>
                      <item>Om Christi fødelse / Jth lidet barn saa ærefult <ref
                            target="#et-lidet-barn-så-aerefuldt">xiii</ref></item>
@@ -19158,13 +19159,12 @@
                      <item>Confiteor / Jeg arme syndige menniske <ref target="#bekendelse"
                            >xcvii</ref></item>
                      <item>Troens bekendelse met ith ret Euangeliskt scrifftemaal. / Jeg arme
-                        syndige <ref target="#trosbekendelse">cx.</ref></item>
+                        syndige <ref target="#trosbekendelse-med-skriftemaal">cx.</ref></item>
                      <item>Formaning til dem som ville anamme Christi Testamente. / Jeg formaner
                         eder i Jesu <ref target="#jeg-formaner-eder">cxviii</ref></item>
                      <item>Jesus Christus er vor salighed <ref
                            target="#jesus-kristus-er-vor-salighed">cxix</ref></item>
-                     <item>Jesu fødelsis dags Bøn <ref>clxxxi</ref></item>
-                     <!-- OBS -->
+                     <item>Jesu fødelsis dags Bøn clxxxi</item>
                      <item><pb n_ekstra="Bb4v" n="180v" facs="0427L"/> Om bestandighed vnder Kaars
                         och forfølgelse. / Jeg raaber til dig o Herre <ref
                            target="#jeg-raaber-til-dig-o-herre-krist">Cxxxix</ref></item>
@@ -19207,9 +19207,7 @@
                            target="#kyrie-gud-fader-forbarme-dig-over-os">xcix</ref></item>
                      <item>Formaning til dem som ville anamme det hellige Sacramente / Kære venner/
                         Effterdi <ref target="#formaning">Cxiii</ref></item>
-                     <item>Kyndelmyssis dags bøn <ref target="#fra-jul-til-kyndelmisse"
-                        >cxxxvi</ref></item>
-                     <!-- OBS usikker på denne -->
+                     <item>Kyndelmyssis dags bøn <ref target="#andre-hoejtider">cxxxvi</ref></item>
                   </list>
                </div>
             </div>
@@ -19246,7 +19244,8 @@
                      <item>Nunc dimittis / Med glæde oc Fred far ieg nu <ref
                            target="#med-glaede-og-fred-far-jeg-nu-hen">xvii</ref></item>
                      <item><pb n_ekstra="Bb5v" n="181v" facs="0429L"/> Media vita. / Men wi leffue
-                        paa iorden <ref target="#men-vi-leve-paa-jorden-her">xx oc xxi</ref></item>
+                        paa iorden <ref target="#men-vi-leve-paa-jorden-her">xx</ref> oc <ref
+                           target="#vi-som-leve-paa-jorden-her">xxi</ref></item>
                      <item>Min siæl holder megit aff Herren <ref
                            target="#min-sjael-holder-meget-af-herren">lxix</ref></item>
                      <item>Den xliiii Psalm Eructauit / Mit hierte opgaff it lystigt ord/ <ref
@@ -19274,7 +19273,6 @@
                      <item>Nu bede wi den Helligaand <ref target="#nu-bede-vi-den-helligaand"
                            >xl</ref> oc <ref target="#nu-bede-vi-den-helligaand-alt"
                         >xli</ref></item>
-                     <!-- OBS sidetal og henv passer sammen, men der er en udgave mere på side 39 -->
                      <item>Deus misereatur nostri / Nu er oss Gud miskundelig <ref
                            target="#nu-er-os-gud-miskundelig">lvii</ref></item>
                      <item>cxxviii Psalm Jnconuertendo / Naar Gud fonger løst Sions feng <ref
@@ -19296,8 +19294,8 @@
                <head type="add">Sektion O</head>
                <div type="list">
                   <list rend="simple">
-                     <item><pb n_ekstra="Bb6r" n="182r" facs="0430R"/>Hymnus Conditor alme siderum /
-                        O stierners skabere i Hiemmelske <ref
+                     <item>Hymnus Conditor alme siderum / <pb n_ekstra="Bb6r" n="182r" facs="0430R"
+                        /> O stierners skabere i Hiemmelske <ref
                            target="#o-stjerners-skaber-i-himmelske-hus">iiii</ref></item>
                      <item>Den samme anderledis / O hellige skabere oc Fader <ref
                            target="#o-hellige-skaber-og-fader-kaer">v</ref></item>
@@ -19332,14 +19330,13 @@
                            >lxxxvi</ref></item>
                      <item>O Christe huor vor din <ref target="#o-kriste-hvor-var-din-kundskab"
                            >lxxxvii</ref></item>
-                     <item>Ordining paa Sequentzer det gantske Aar omkring <ref>ciii</ref></item>
-                     <!-- OBS -->
+                     <item>Ordining paa Sequentzer det gantske Aar omkring <ref target="#sekvenser"
+                           >ciii</ref></item>
                      <item>Te deum laudamus / O Gud wi loffue dig <ref target="#o-gud-vi-love-dig"
-                           >xciiii oc xcv</ref></item>
+                           >xciiii</ref> oc <ref target="#o-gud-vi-love-dig2">xcv</ref></item>
                      <item>Pater noster / O Gud vor Fader <ref
                            target="#o-gud-vor-fader-du-som-est-i-himmerig">xcvii</ref></item>
-                     <item>O Fader vor barmhiertig <ref>xcvii</ref></item>
-                     <!-- OBS -->
+                     <item>O Fader vor barmhiertig <ref target="#fadervor">xcvii</ref></item>
                      <item>O Fader vor wi bede <ref target="#o-fader-vor-vi-bede-dig"
                         >xcviii</ref></item>
                      <item>Collect for Kongen / O Altmectiste euige Gud <ref
