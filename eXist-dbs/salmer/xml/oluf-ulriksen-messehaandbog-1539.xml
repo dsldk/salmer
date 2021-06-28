@@ -2775,8 +2775,8 @@
                         huilcke gaffuer som ere. først den verdige helligaand. syndernis forladelse.
                         oc det euige liff. derfore siger sanctus Paulus. Att vij som ere døpte. vij
                         ere ikledde oc iførde i Jesu christo. d<ex>et</ex><pb facs="0129L" n="Q 2v"
-                        /> er. vij ere christne. oc alt det Jesu christo tilhører er bleffuit
-                            vort. (<ref target="#gal-3">
+                        /> er. vij ere christne. oc alt det Jesu christo tilhører er bleffuit vort.
+                            (<ref target="#gal-3">
                             <orig>Gala. 3.</orig>
                             <reg>Gal 3</reg>
                         </ref>) Saa bliffue vij vdij Doben vidt ordet guds kiere børn. och den
@@ -3620,92 +3620,113 @@
                     <head type="add"> Index</head>
                     <head><pb facs="0170R" n="X 3r"/>Jndex articulorum huius libri.</head>
                     <list rend="simple">
-                        <item>Collecte Dominicales et trium festorum christi <ref>h iij</ref>
+                        <item>Collecte Dominicales et trium festorum christi <ref
+                                target="#dominica-prima-adventus-collecta">h iij</ref>
                         </item>
 
-                        <item>Collecta die purificationis Marie. <ref>l iiij</ref>
+                        <item>Collecta die purificationis Marie. <ref
+                                target="#die-purificationis-marie-collecta">l iiij</ref>
                         </item>
 
-                        <item>Collecta die Annuntiationis Marie. <ref>ibidem</ref>
+                        <item>Collecta die Annuntiationis Marie. <ref
+                                target="#die-annuntiationis-marie-collecta">ibidem</ref>
                         </item>
 
-                        <item>Collecta die sancti Joannis baptiste. <ref>ibidem</ref>
+                        <item>Collecta die sancti Joannis baptiste. <ref
+                                target="#die-nativitatis-joannis-baptiste-collecta">ibidem</ref>
                         </item>
 
-                        <item>Collecta die visitationis Marie. <ref>ibidem</ref>
+                        <item>Collecta die visitationis Marie. <ref
+                                target="#die-visitationis-marie-collecta">ibidem</ref>
                         </item>
 
-                        <item>Collecta die micaelis et anglorum. <ref>m i</ref>
+                        <item>Collecta die micaelis et anglorum. <ref
+                                target="#die-michaelis-collecta">m i</ref>
                         </item>
 
-                        <item>Collecta die omnium sanctorum. <ref>ibidem</ref>
+                        <item>Collecta die omnium sanctorum. <ref
+                                target="#die-omnium-sanctorum-collecta">ibidem</ref>
                         </item>
 
-                        <item>Collecta pro Ecclesia. <ref>ibidem</ref>
+                        <item>Collecta pro Ecclesia. <ref target="#pro-ecclesia-collecta"
+                                >ibidem</ref>
                         </item>
 
-                        <item>Collecta pro ministris ecclesie. <ref>ibidem</ref>
+                        <item>Collecta pro ministris ecclesie. <ref target="#pro-ministris-collecta"
+                                >ibidem</ref>
                         </item>
 
-                        <item>Collecta Letaniarum in ebdomeda. <ref>m ij</ref>
+                        <item>Collecta Letaniarum in ebdomeda. <ref
+                                target="#die-letaniarum-in-ebdomeda-orationis">m ij</ref>
                         </item>
 
-                        <item>Collecta pro peccatis. <ref>ibidem</ref>
+                        <item>Collecta pro peccatis. <ref target="#pro-peccatis-oratio">ibidem</ref>
                         </item>
 
-                        <item>Collecta pro pace. <ref>ibidem</ref>
+                        <item>Collecta pro pace. <ref target="#pro-pace-oratio">ibidem</ref>
                         </item>
 
-                        <item>Collecta pro Rege nostro. <ref>ibidem</ref>
+                        <item>Collecta pro Rege nostro. <ref target="#pro-rege-oratio">ibidem</ref>
                         </item>
 
-                        <item>Collecta pro regibus et omnibus etc. <ref>m iij</ref>
+                        <item>Collecta pro regibus et omnibus etc. <ref
+                                target="#pro-rege-et-omnibus-in-eminentia-oratio">m iij</ref>
                         </item>
 
-                        <item>Collecta pro congregatione nostra. <ref>ibidem</ref>
+                        <item>Collecta pro congregatione nostra. <ref
+                                target="#pro-congregatione-nostra-oratio">ibidem</ref>
                         </item>
 
-                        <item>Collecta ad postulandam pluuiam. <ref>m iiij</ref>
+                        <item>Collecta ad postulandam pluuiam. <ref
+                                target="#ad-postulandam-pluviam-oratio">m iiij</ref>
                         </item>
 
-                        <item>Collecta die micaelis pro gratiarum actione. <ref>ibidem</ref>
+                        <item>Collecta die micaelis pro gratiarum actione. <ref
+                                target="#die-michaelis-pro-gratiarum-actione-oratio">ibidem</ref>
                         </item>
 
-                        <item>Collecta pro publicis peccatoribus. homicidis et excommunicatis.
-                                <ref>n i</ref>
+                        <item>Collecta pro publicis peccatoribus. homicidis et excommunicatis. <ref
+                                target="#collecta-letaniarum-generalis">n i</ref>
                         </item>
 
                         <item>
                             <pb facs="0171L" n="X 3v"/>collecta pro recipiendis ad sanctorum
-                            communione. etc <ref>n ij</ref>
+                            communione. etc <ref target="#pro-peccatoribus-recipiendis-collecta">n
+                                ij</ref>
                         </item>
 
-                        <item>collecta ad ordinationem sacerdotum. <ref>n iij</ref>
+                        <item>collecta ad ordinationem sacerdotum. <ref
+                                target="#ad-ordinationem-sacerdotum-collecta">n iij</ref>
                         </item>
 
-                        <item>collecta ad ordinationem superintendum. <ref>o i</ref>
+                        <item>collecta ad ordinationem superintendum. <ref
+                                target="#ad-ordinationem-superintendentum-collecta">o i</ref>
                         </item>
 
-                        <item>collecta tempore electionis regis. <ref>o ij</ref>
+                        <item>collecta tempore electionis regis. <ref
+                                target="#tempore-electionis-regis-oratio">o ij</ref>
                         </item>
 
-                        <item>collecta pro rege die coronationis eius. <ref>ibidem</ref>
+                        <item>collecta pro rege die coronationis eius. <ref
+                                target="#die-coronationis-pro-rege-oratio">ibidem</ref>
                         </item>
 
-                        <item>collecte apud infirmos. <ref>v iij</ref>
+                        <item>collecte apud infirmos. <ref target="#nadver-til-den-syge">v iij</ref>
                         </item>
 
-                        <item>collecta ad sepulturam. <ref>x ij</ref>
+                        <item>collecta ad sepulturam. <ref target="#kollekt-ved-begravelse-vo-139">x
+                                ij</ref>
                         </item>
 
-                        <item>Nar ingen communica<ex>n</ex>ter ere. <ref>g ij</ref>
+                        <item>Nar ingen communica<ex>n</ex>ter ere. <ref
+                                target="#bestemmelser-om-nadveren-vo-1539">g ij</ref>
                         </item>
 
                         <item>Om <app>
                                 <lem>hiemmedøpte</lem>
                                 <rdg wit="#orig.">himmedøpte <note>rettet</note>
                                 </rdg>
-                            </app> børn. <ref>r iij</ref>
+                            </app> børn. <ref target="#hjemmedoebte-boern-vo-1539">r iij</ref>
                         </item>
 
                         <item>Om Messen oc he<ex>n</ex>dis <app>
@@ -3713,50 +3734,62 @@
                                 <rdg wit="#orig.">ceremi<ex>n</ex>oer <note>rettet</note>
                                 </rdg>
                             </app>
-                            <ref>a ij</ref>
+                            <ref target="#praestens-forberedelse-vo-1539">a ij</ref>
                         </item>
 
-                        <item>Om børn att christne. <ref>q i</ref>
+                        <item>Om børn att christne. <ref target="#anvisninger-om-daab-vo-1539">q
+                                i</ref>
                         </item>
 
-                        <item>Om bruduielse. <ref>r iiii</ref>
+                        <item>Om bruduielse. <ref target="#brudevielse-vo-1539">r iiii</ref>
                         </item>
 
-                        <item>Om vlofflige oc lønlige trolof. <ref>s i</ref>
+                        <item>Om vlofflige oc lønlige trolof. <ref target="#brudevielse-vo-1539">s
+                                i</ref>
                         </item>
 
-                        <item>Om siuge atsøge paa deris yd<ex>er</ex>ste. <ref>t z</ref>
+                        <item>Om siuge atsøge paa deris yd<ex>er</ex>ste. <ref
+                                target="#bestemmelser-om-doedsforberedelse">t 3</ref>
                         </item>
 
-                        <item>Om at søge fengslede misde. etc. <ref>v iiii</ref>
+                        <item>Om at søge fengslede misde. etc. <ref
+                                target="#beredelse-af-doedsdoemte">v iiii</ref>
                         </item>
 
-                        <item>Om Jordeferdt. <ref>x i</ref>
+                        <item>Om Jordeferdt. <ref target="#begravelsesritual-oluf-ulriksen-1539">x
+                                i</ref>
                         </item>
 
-                        <item>Prefatio communis <ref>e iij</ref>
+                        <item>Prefatio communis <ref target="#prefatio-communis-vo-1539">e iij</ref>
                         </item>
 
-                        <item>Prefatio de nativitate christi. <ref>o ij</ref>
+                        <item>Prefatio de nativitate christi. <ref
+                                target="#prefatio-nativitate-christi">o ij</ref>
                         </item>
 
-                        <item>Prefatio de passione cristi <ref>o iij</ref>
+                        <item>Prefatio de passione cristi <ref
+                                target="#prefatio-de-passione-christi">o iij</ref>
                         </item>
 
-                        <item>Prefatio de resurrectione <ref>o iiij</ref>
+                        <item>Prefatio de resurrectione <ref target="#prefatio-de-resurrectione">o
+                                iiij</ref>
                         </item>
 
                         <item>
-                            <pb facs="0172R" n="X 4r"/>Prefatio de ascensione. <ref>p i</ref>
+                            <pb facs="0172R" n="X 4r"/>Prefatio de ascensione. <ref
+                                target="#prefatio-ascensione-domine">p i</ref>
                         </item>
 
-                        <item>Prefatio de sancto spiritu. <ref>p ij</ref>
+                        <item>Prefatio de sancto spiritu. <ref target="#prefatio-sancto-spiritu">p
+                                ij</ref>
                         </item>
 
-                        <item>Prefatio de sancta trinitate. <ref>ibidem</ref>
+                        <item>Prefatio de sancta trinitate. <ref target="#prefatio-trinitate"
+                                >ibidem</ref>
                         </item>
 
-                        <item>Prefatio de beata virgine. <ref>p iiij</ref>
+                        <item>Prefatio de beata virgine. <ref target="#prefatio-virgine">p
+                                iiij</ref>
                         </item>
                     </list>
 
