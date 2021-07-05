@@ -9526,8 +9526,8 @@
                             <ref target="#protector-noster" type="SheetNumber">357.</ref>
                         </item>
                         <item>
-                            <hi rend="italics">Puer natus est nobis, et filius datus est nobis </hi>
-                            , <ref target="#section-5-2" type="SheetNumber">37.</ref>
+                            <hi rend="italics">Puer natus est nobis, et filius datus est nobis
+                            </hi>, <ref target="#section-5-2" type="SheetNumber">37.</ref>
                         </item>
                     </list>
                 </div>
@@ -9703,7 +9703,7 @@
 
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Concussum est mare, et contremuit terra </hi>,
+                                <hi rend="italics">Concussum est mare, et contremuit terra</hi>,
                                     <ref target="#haleluia-concussum-est-mare" type="SheetNumber"
                                     >372.</ref>
                             </item>

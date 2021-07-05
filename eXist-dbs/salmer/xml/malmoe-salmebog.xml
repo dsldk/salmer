@@ -8168,8 +8168,8 @@
                 <div xml:id="vor-hjaelp-vaere-i-herrens-navn-malmoe" n="1">
                     <head type="add">Bøn</head>
                     <head><pb facs="153" n="59r"/>Her effter følger det hellige Euangeliske Messe
-                        embede/ som nw i den Christne forsamling siunges/ Mit twenne skøne formaninger
-                        til folkit</head>
+                        embede/ som nw i den Christne forsamling siunges/ Mit twenne skøne
+                        formaninger til folkit</head>
                     <head>Adiutorium nostrum</head>
                     <p>Vor hielp wære i Herrens naffn/<note place="right">(<ref target="#sl-124"
                                     ><orig>Psa. cxxiiii</orig><reg>Sl 124</reg></ref>)</note> Som
@@ -8390,7 +8390,9 @@
 
                     <p>* Jth andet Gloria in excelsis som saa begyndis/ Al ene Gud i de høgiste Det
                         skalt du finde i det xxx blad</p>
-
+                </div>
+                <div type="psalm" xml:id="o-herre-jesus-krist-du-som-har-ladet" n="5">
+                    <head type="add">Kollekt</head>
                     <p>Effter denne lofsang we<ex>n</ex>der preste<ex>n</ex> sig om til folkit oc
                             siu<ex>n</ex>ger </p>
                     <lg>
@@ -8404,10 +8406,7 @@
                     <lg>
                         <l>Lader oss nu alle bede</l>
                     </lg>
-                </div>
-                <div type="psalm" xml:id="o-herre-jesus-krist-du-som-har-ladet" n="5">
-                    <head type="add">Kollekt</head>
-                    <head> * Collecta *</head>
+                    <p> * Collecta *</p>
                     <p> O Herre Jesu Christe du som haffuer effter ladit oss dit brød at æde/ oc din
                         kalk at dricke til din pines ihuko<ex>m</ex>melse/ Vi bede dig/ ath du vilt
                         giffue oss i vaar prøffuelse din sa<ex>n</ex>de beke<ex>n</ex>delse/ til at
@@ -8432,7 +8431,6 @@
                     </lg>
                 </div>
                 <div xml:id="broedre-i-de-ting" n="7">
-
                     <head type="add">Epistel</head>
                     <head>Her effter maa mand læse encthen de<ex>n</ex>ne effterfølgende Epistel
                         eller en anden i det Gamle Testamente * <ref target="#kor-1-11"><orig>i.
@@ -8471,7 +8469,6 @@
                         oc dricker sig selff dommen/ om han icke dømer om Herrens legeme </p>
                 </div>
                 <div type="psalm" xml:id="gladelig-ville-vi-halleluja" n="8">
-
                     <head type="add">Halleluja. Gladelig ville vi halleluja sjunge</head>
                     <head>Her efter følger en lofsang met Alleluia Alleluia Alleluia Alleluia</head>
                     <lg>
@@ -8583,8 +8580,8 @@
                         faderen/ vden den so<ex>m</ex> er aff gud/ han saa faderen </p>
                 </div>
                 <div type="psalm" xml:id="divisio" n="10">
+                    <head type="add">Evangelium fortsat</head>
                     <head>Diuisio</head>
-
                     <p>Sandelige Sandelige siger ieg eder Huo som tror paa mig/ han haffuer det
                         ewige liff/ ieg er liffsens brød/ <pb facs="167" n="66r"/> Eders forfedre
                         ode hiemmelens brød i ørcken/ och de ere døde/ Dette er det brød som kom ned
@@ -8600,6 +8597,7 @@
                         haffuer det euige liff Oc ieg skal opreyse hannem paa den yderste dag </p>
                 </div>
                 <div type="psalm" xml:id="divisio-2" n="11">
+                    <head type="add">Evangelium afslutning</head>
                     <head>Diuisio</head>
 
                     <p>Men mit kød er sa<ex>n</ex>t mad/ oc mit blod er sa<ex>n</ex>t dricke Huo
@@ -8667,7 +8665,6 @@
                 </div>
 
                 <div type="psalm" xml:id="dansk-patrem" n="13">
-
                     <head type="add">Vi tro på almægtigste Gud</head>
                     <head>Det danske patrem</head>
                     <lg>
@@ -8713,7 +8710,6 @@
                 </div>
 
                 <div type="psalm" xml:id="trosbekendelse" n="14">
-
                     <head type="add">Vi tro allesammen på en Gud</head>
                     <head>Credo</head>
                     <lg>
@@ -8754,7 +8750,6 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="nu-bede-vi-den-helligaand-malmoe-2" n="15">
-
                     <head type="add">Nu bede vi den Helligånd</head>
                     <head>En lofsa<ex>n</ex>g so<ex>m</ex> siungis for predicke<ex>n</ex> met
                             huilke<ex>n</ex> de<ex>n</ex> christne kircke christi brud paa kaller
@@ -8793,7 +8788,6 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="nu-bede-vi-den-helligaand-malmoe-3" n="16">
-
                     <head type="add">Nu bede vi den Helligånd</head>
                     <head>Den samme sang anderledis fordansket </head>
                     <lg>
@@ -8822,7 +8816,6 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="nu-bede-vi-helligaand-malmoe-4" n="17">
-
                     <head type="add">Anvisning om salme</head>
                     <head>En anden lofsang ath bede om den Helligandz naade/ som saa begyndis/ Nu
                         bede wi den Helligand om den Christelige tro oc ret forstand ath wi Gud
@@ -8952,7 +8945,7 @@
                 <div type="psalm" xml:id="trosbekendelse-foer-nadver" n="20">
 
                     <head type="add"><pb facs="178" n="[71v]"/>Syndsbekendelse</head>
-                    <head>Den Christelige Trois beke<ex>n</ex>delse/ met ith ret Euangelisk
+                    <head><pb facs="178" n="71v"/> Den Christelige Trois beke<ex>n</ex>delse/ met ith ret Euangelisk
                         scrifftemaal so<ex>m</ex> pleyes at opregnis aff presten effter
                             predicke<ex>n</ex>/ før man ana<ex>m</ex>mer vor <pb facs="179" n="72r"
                         /> herris Jesu Christi legemis oc blodis verdige Sacramente</head>
@@ -9124,8 +9117,9 @@
                     <p>* Vor Herre Jesus Christus i den nat der han bleff forraad/ tog han brødet
                         tackede/ och brød det/ och gaff sine <pb facs="187" n="76r"/> disciple och
                         sagde/ Tager det hen och æderit det er mit legeme so<ex>m</ex> bliffuer
-                        giffuit for eder/ det gører i min huko<ex>m</ex>melse Nu løffter han det och
-                        strax der effter tager ha<ex>n</ex> kalken i henderne och siger</p>
+                        giffuit for eder/ det gører i min huko<ex>m</ex>melse </p>
+                    <p>Nu løffter han det och strax der effter tager ha<ex>n</ex> kalken i henderne
+                        och siger</p>
 
                     <p>Lige maade tog han och kalken effter<note place="right">(<ref
                                 target="#matt-26"><orig>Ma xxvi</orig><reg>Matt 26</reg></ref>)
@@ -9137,12 +9131,11 @@
                             place="right">(<ref target="#kor-1-11"><orig>i Corin xi</orig><reg>1 Kor
                                     11</reg></ref>)</note> bliffuer vdgiffuit for eder oc for
                             ma<ex>n</ex>ge till syndernis forladelse/ Dette gører saa offte som i
-                        dricke i min huko<ex>m</ex>melse Nu løffter han/ oc men begynder Chorid
-                        eller de<ex>n</ex> Christne forsamling en lofsang som følger effter Messe
-                        embedet.</p>
+                        dricke i min huko<ex>m</ex>melse </p>
+                    <p>Nu løffter han/ oc men begynder Chorid eller de<ex>n</ex> Christne forsamling
+                        en lofsang som følger effter Messe embedet.</p>
                 </div>
                 <div type="psalm" xml:id="dig-vaere-lov-og-pris" n="26">
-
                     <head type="add">Dig være lov og pris, o Herre Krist</head>
                     <head>Tibi laus</head>
 
@@ -9213,7 +9206,8 @@
 
                 <div xml:id="introduktion-til-jesus-kristus-er-vor-salighed" n="29">
                     <head type="add">Nadveruddeling</head>
-                    <p><pb facs="190" n="77v"/>Nu beretter han folkit sigendis</p>
+                    <head><pb facs="190" n="77v"/>Nu beretter han folkit</head>
+                    <p>sigendis</p>
                     <lg>
                         <l>* Jesu Christi legemis anammelse styrrke dig till det euige liff</l>
                         <l>Jesu Christi blodz delactighed være dig til hielp oc trøst/ Amen</l>
@@ -9222,23 +9216,23 @@
 
                 <div type="psalm" xml:id="jesus-kristus-er-vor-salighed-malmoe" n="30">
                     <head type="add">Jesus Kristus er vor salighed</head>
-                    <p>En gudelig oc krafftig loffsang ath siunge i Christi naduere/ naar Christi
-                        brud skall gaa til Gudz bord/ først ath anamme aandelige met troens mund
-                        Christi legeme/ oc dricke met troens læber Christi blod/ som <note
-                            place="left">(<ref target="#joh-6"><orig>Joa<ex>n</ex>.
-                                    vi</orig><reg>Joh 6</reg></ref>)</note>Christus siger selff
-                            Joa<ex>n</ex>nis vi/ Vden i æde menniskens Søns kød/ oc dricke hans
-                        blod/ da skulle i icke haffue liff i <note place="left">(<ref
-                                target="#matt-26"><orig>Mathei xxvi</orig><reg>Matt
-                            26</reg></ref>)</note>eder/ Der til oc saa ana<ex>m</ex>mer hun vdi
-                            Sacrame<ex>n</ex>tet i win oc brød Christi Te<note place="left">(<ref
-                                target="#ef-5"><orig>Eph. v</orig><reg>Ef 5</reg></ref>) (<ref
-                                target="#hebr-7"><orig>Heb vii</orig><reg>Hebr
-                        7</reg></ref>)</note>stamente/ i huilkit ihukommiss/ Herre<ex>n</ex>s korss/
-                        død/ pine/ oc hans verdige oc dyrebare blodz vdgiffuelse/ oc serdelis det
-                        eniste oc euige offer/ som ha<ex>n</ex> offrede sig selff Gud fader paa
-                        korssens galye/ giffuendis sig til en fyllist gørelse och vederlag for all
-                        verdens synder</p>
+                    <head>En gudelig oc krafftig loffsang</head>
+                    <p>ath siunge i Christi naduere/ naar Christi brud skall gaa til Gudz bord/
+                        først ath anamme aandelige met troens mund Christi legeme/ oc dricke met
+                        troens læber Christi blod/ som <note place="left">(<ref target="#joh-6"
+                                        ><orig>Joa<ex>n</ex>. vi</orig><reg>Joh
+                            6</reg></ref>)</note>Christus siger selff Joa<ex>n</ex>nis vi/ Vden i
+                        æde menniskens Søns kød/ oc dricke hans blod/ da skulle i icke haffue liff i
+                            <note place="left">(<ref target="#matt-26"><orig>Mathei
+                                    xxvi</orig><reg>Matt 26</reg></ref>)</note>eder/ Der til oc saa
+                            ana<ex>m</ex>mer hun vdi Sacrame<ex>n</ex>tet i win oc brød Christi
+                            Te<note place="left">(<ref target="#ef-5"><orig>Eph. v</orig><reg>Ef
+                                    5</reg></ref>) (<ref target="#hebr-7"><orig>Heb
+                                    vii</orig><reg>Hebr 7</reg></ref>)</note>stamente/ i huilkit
+                        ihukommiss/ Herre<ex>n</ex>s korss/ død/ pine/ oc hans verdige oc dyrebare
+                        blodz vdgiffuelse/ oc serdelis det eniste oc euige offer/ som ha<ex>n</ex>
+                        offrede sig selff Gud fader paa korssens galye/ giffuendis sig til en
+                        fyllist gørelse och vederlag for all verdens synder</p>
                     <lg>
                         <l><pb facs="191" n="78r"/>IEsus Christus er vaar salighed/</l>
                         <l> som fra oss tog<note place="right">(<ref target="#es-53"><orig>Esa.
@@ -9316,7 +9310,6 @@
                     </lg>
                 </div>
                 <div type="psalm" xml:id="jesus-kristus-er-vor-frelsermand" n="31">
-
                     <head type="add">Jesus Kristus er vor frelsermand</head>
                     <head>En anden fordanskni<ex>n</ex>g paa samme vise</head>
                     <lg>
@@ -9385,8 +9378,11 @@
                 <head type="add">Salmer, litani, bønner</head>
                 <div type="psalm" xml:id="gud-vaere-lovet-og-benedidet" n="1">
                     <head type="add">Gud være lovet og benedidet</head>
-                    <head>Communio En lofsang met huilcke<ex>n</ex> den Christne forfamling tacker
-                        oc ærer Gud</head>
+                    <head>Communio En lofsang met huilcke<ex>n</ex> den Christne <app>
+                            <lem>forsamling</lem>
+                            <rdg>
+                                <q>forfamling</q> orig.</rdg>
+                        </app> tacker oc ærer Gud</head>
                     <lg>
                         <l><note place="left">(<ref target="#kor-1-11"><orig>i Cor. xi</orig><reg>1
                                         Kor 11</reg></ref>)</note>GVd være loffuit oc benedidet</l>
@@ -9464,20 +9460,18 @@
                     <lg>
                         <l> Amen </l>
                     </lg>
-                </div>
-                <div type="part" xml:id="velsignelse-over-folket" n="3">
-                    <head type="add">Hilsen, velsignelse og afslutning</head>
                     <p>Nu wender han sig til folkit oc siger </p>
                     <lg>
                         <l>Herren være met eder</l>
                     </lg>
-
                     <p>Suar</p>
                     <lg>
                         <l>Oc met din aand </l>
                     </lg>
-
-                    <p>Velsignelse offuer folkit effter Messen </p>
+                </div>
+                <div type="part" xml:id="velsignelse-over-folket" n="3">
+                    <head type="add">Hilsen, velsignelse og afslutning</head>
+                    <head>Velsignelse offuer folkit effter Messen </head>
                     <p><pb facs="197" n="81r"/>VOr Herre welsigne eder/ oc beskerme eder alle/ och
                         obenbare eder sit ansigte/ oc være eder miskundelig oc vende sit milde
                         ansigte till eder oc giffue eder den euige fred</p>
@@ -11490,7 +11484,7 @@
                         <l>Du est wort liff oc søde trøst</l>
                         <l> bode i modgand oc i løst/</l>
                         <l> paa dig wi haabe O Jesu Christ</l>
-                    </lg>                    
+                    </lg>
                     <lg>
                         <l><pb facs="249" n="107r"/>Vi paakalde dig vdi vor nød/</l>
                         <l> som ere falne i euig død/</l>
