@@ -9050,9 +9050,8 @@
                         <item>Hui storme oc fnyse de Hedninge saa/ <ref
                                 target="#hvi-storme-og-fnyse" type="SheetNumber">411.</ref>
                         </item>
-                        <item>Huo som vil salig vdi Verden leffue/ <ref
-                            target="#mandagsbrudemesse" type="SheetNumber"
-                                >442.</ref>
+                        <item>Huo som vil salig vdi Verden leffue/ <ref target="#mandagsbrudemesse"
+                                type="SheetNumber">442.</ref>
                         </item>
                     </list>
                 </div>
@@ -9888,7 +9887,7 @@
                         <list rend="simple">
                             <item>
                                 <hi rend="italics">Non vos me elegistis, sed ego vos elegj: </hi>
-                                <ref target="#haleluia-non-vos-me-elegistis" type="SheetNumber"
+                                <ref target="#sacerdotes-eius-induant-salutare" type="SheetNumber"
                                     >445.</ref>
                             </item>
                         </list>
@@ -10075,7 +10074,8 @@
                         </item>
                         <item>
                             <hi rend="italics">Quicun<ex>que</ex> vult saluus esse, ipsum fidem </hi>
-                            <ref target="#sacerdotes-eius-induant-salutare" type="SheetNumber">447.</ref>
+                            <ref target="#sacerdotes-eius-induant-salutare" type="SheetNumber"
+                                >447.</ref>
                         </item>
                         <item>
                             <hi rend="italics">Sanctus. Sanctus. Sanctus. </hi>
