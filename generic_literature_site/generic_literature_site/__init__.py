@@ -19,8 +19,7 @@ import django
 
 
 def main(global_config, **settings):
-    """ This function returns a Pyramid WSGI application.
-    """
+    """This function returns a Pyramid WSGI application."""
     config = Configurator(settings=settings)
     facsimile_dir = settings["facsimiles"]
     config.include("pyramid_chameleon")
@@ -37,6 +36,10 @@ def main(global_config, **settings):
     config.add_route("meta_view", "/meta/{document}/{type}")
     config.add_route("register_view", "/register/{type}/{first_letter}")
     config.add_route("guidelines_view", "/guidelines")
+    config.add_route(
+        "toplevel_image_view",
+        "/{page:.*?}.{extension:(?i)" + "(jpg|jpeg|gif|png|webp)$}",
+    )
     config.add_route(
         "research_page_view",
         "/research/{page:.*?}.{extension:(?i)(html|pdf|jpg|jpeg|"
