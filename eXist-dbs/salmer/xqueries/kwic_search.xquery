@@ -15,11 +15,14 @@ let $q := request:get-parameter('q', '')
 let $coll := collection("/db/apps/salmer/xml")/tei:TEI/tei:text
 
 (: Here, generate results for front and back matter :)
-let $front_hits := $coll/tei:front/tei:div[ft:query(., $q)]
+let $front_hits := $coll/tei:front/*[ft:query(., $q)]
 let $back_hits := $coll/tei:back/tei:div[ft:query(., $q)]
+
 
 let $front_results := for $hit in $front_hits
     let $page_no := util:expand($hit, "expand-xincludes=no highlight-matches=both")//exist:match/preceding::tei:pb[1]/string(@n)
+    let $title := $hit/ancestor::*//tei:titleStmt/tei:title/text()
+    where ($title)
     order by ft:score($hit) descending
         return
     <result_list>
@@ -70,4 +73,4 @@ return
        {$front_results}
        {$body_results}
        {$back_results}
-   </results>
+    </results>
