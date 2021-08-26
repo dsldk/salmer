@@ -1144,6 +1144,19 @@ def guidelines_view(request):
     return smn_view(request)
 
 
+@view_config(route_name="toplevel_image_view", renderer="templates/about.pt")
+def toplevel_image_view(request):
+    page = request.matchdict["page"]
+    extension = request.matchdict["extension"]
+    path = page + "." + extension
+    file = get(request.registry.settings["exist_server"] + path)
+    if file:
+        return Response(
+            content_type=file.headers["content-type"], body=file.content
+        )
+    return HTTPNotFound()
+
+
 @view_config(route_name="research_page_view", renderer="templates/about.pt")
 def research_page_view(request):
     request.title = _("Forskning")
@@ -1314,7 +1327,7 @@ def format_kwic_lines(i):
                 link = '<a href="/{}/{}{}?q={}{}">{}</a>'.format(
                     i["id"].replace(".xml", ""),
                     i["chapter_no"],
-                    '/' + i["section_no"] if i["section_no"] else "",
+                    "/" + i["section_no"] if i["section_no"] else "",
                     i["q"],
                     page_no_str,
                     text,
@@ -1421,7 +1434,7 @@ def process_search_results(search_result, document_ids, request):
                 xquery_folder, id_with_xml, i["chapter_no"]
             )
             if not sections:
-                i["section_no"] = ''
+                i["section_no"] = ""
 
             kwic_lines = format_kwic_lines(i)
             results.append(
