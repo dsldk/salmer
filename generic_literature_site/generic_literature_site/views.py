@@ -1230,28 +1230,9 @@ def search_results_view(request):
 
     document_ids = request.GET.getall("document_id")
 
-    xquery = "kwic_search.xquery?q=%s&%s%s" % (
-        word,
-        category_argument,
-        language_argument,
+    search_result = get_search_result(
+        "kwic_search", word, category_argument, language_argument, request
     )
-
-    mem_cache = memcache.Client(["127.0.0.1:11211"], debug=0)
-    mc_key = xquery.replace(" ", "")
-    cached_document = mem_cache.get(mc_key)
-    if cached_document:
-        document = zlib.decompress(cached_document).decode()
-        document = loads(document)
-    elif word and word.lower() not in Stopwords.stopwords():
-        document = execute_xquery(request, xquery)
-        zipped_document = zlib.compress(dumps(document).encode())
-        mem_cache.set(mc_key, zipped_document, time=86400)
-    else:
-        document = {"no_of_results": 0, "result_list": []}
-
-    if isinstance(document, bytes):
-        raise RuntimeError("This should never ever happen!!!")
-    search_result = listify(document.get("result_list") or [])
 
     results = process_search_results(search_result, document_ids, request)
     no_of_results = len(results)
@@ -1299,6 +1280,38 @@ def search_results_view(request):
     }
 
     return result_dict
+
+
+def get_search_result(
+    xquery_script, word, category_argument, language_argument, request
+):
+    """Helper to get search results from eXist for a given xQuery script."""
+
+    xquery = "%s.xquery?q=%s&%s%s" % (
+        xquery_script,
+        word,
+        category_argument,
+        language_argument,
+    )
+
+    mem_cache = memcache.Client(["127.0.0.1:11211"], debug=0)
+    mc_key = xquery.replace(" ", "")
+    cached_document = mem_cache.get(mc_key)
+    if cached_document:
+        document = zlib.decompress(cached_document).decode()
+        document = loads(document)
+    elif word and word.lower() not in Stopwords.stopwords():
+        document = execute_xquery(request, xquery)
+        zipped_document = zlib.compress(dumps(document).encode())
+        mem_cache.set(mc_key, zipped_document, time=86400)
+    else:
+        document = {"no_of_results": 0, "result_list": []}
+
+    if isinstance(document, bytes):
+        raise RuntimeError("This should never ever happen!!!")
+    search_result = listify(document.get("result_list") or [])
+
+    return search_result
 
 
 def format_kwic_lines(i):
