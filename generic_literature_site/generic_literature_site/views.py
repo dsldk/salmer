@@ -1233,8 +1233,23 @@ def search_results_view(request):
     search_result = get_search_result(
         "kwic_search", word, category_argument, language_argument, request
     )
+    two_level_result = get_search_result(
+        "two_level_kwic", word, category_argument, language_argument, request
+    )
 
     results = process_search_results(search_result, document_ids, request)
+    if not results:
+        results = collections.OrderedDict()
+
+    two_level_results = process_search_results(
+        two_level_result, document_ids, request
+    )
+
+    for rid in two_level_results:
+        if rid not in results:
+            # This document has hits, but not in standard three-level search -
+            # it may be in only two levels, so we include these hits.
+            results[rid] = two_level_results[rid]
     no_of_results = len(results)
     page = 1
     paginator = Paginator(total=len(results), by=results_per_page)
