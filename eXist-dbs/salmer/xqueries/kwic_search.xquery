@@ -65,8 +65,7 @@ let $back_results := for $hit in $back_hits
 
 
 (: Revised 2021-05-21 :)
-(: Revised again 2021-09-07 :)
-let $body_hits := if (fn:exists($coll/tei:body/tei:div/tei:div[ft:query(., $q)])) then $coll/tei:body/tei:div/tei:div[ft:query(., $q)]  else $coll/tei:body/tei:div[ft:query(., $q)]
+let $body_hits := $coll/tei:body/tei:div/tei:div[ft:query(., $q)]
 let $body_results := for $hit in $body_hits
     let $page_no := util:expand($hit, "expand-xincludes=no highlight-matches=both")//exist:match/preceding::tei:pb[1]/string(@n)
     order by ft:score($hit) descending
