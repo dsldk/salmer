@@ -27,7 +27,7 @@ let $title_results := for $hit in $title_hits
         return
     <result_list>
         <page_no>{$page_no}</page_no>
-        <chapter_no>front</chapter_no>
+        <chapter_no>titelblad</chapter_no>
         <section_no>{count($hit/tei:div[ft:query(., $q)]/preceding-sibling::tei:div) +1}</section_no>
         <id>{util:document-name($hit)}</id>
         <title>{$hit/ancestor::*//tei:titleStmt/tei:title/text()}</title>

@@ -1461,7 +1461,8 @@ def process_search_results(search_result, document_ids, request):
             sections = get_sections(
                 xquery_folder, id_with_xml, i["chapter_no"]
             )
-            if not sections:
+            # import pdb; pdb.set_trace()
+            if not (sections or i["chapter_no"] in ["back", "front"]):
                 i["section_no"] = ""
 
             kwic_lines = format_kwic_lines(i)
