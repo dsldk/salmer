@@ -725,7 +725,15 @@ def smn_view(request):
         # Do a case insensitive search for the search string and insert
         # highlight tags around the *original* matching text - i.e., ignoring
         # the user-supplied upper/lowercase occurrences in the search string.
-        match_search_string = re.compile(r"\b(%s)\b" % search_string, re.I)
+
+        # However, we demand an actual blank either after ...
+        match_search_string = re.compile(r"\b(%s)\s" % search_string, re.I)
+        pages = match_search_string.sub(
+            '<span class="search-highlight">\\1</span>', pages
+        )
+        # or before the search string - this is to avoid occurences in URIs,
+        # surrounded by hyphens.
+        match_search_string = re.compile(r"\s(%s)\b" % search_string, re.I)
         pages = match_search_string.sub(
             '<span class="search-highlight">\\1</span>', pages
         )
