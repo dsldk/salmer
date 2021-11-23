@@ -727,13 +727,13 @@ def smn_view(request):
         # the user-supplied upper/lowercase occurrences in the search string.
 
         # However, we demand an actual blank either after ...
-        match_search_string = re.compile(r"\b(%s)\s" % search_string, re.I)
+        match_search_string = re.compile(r"\b(%s)(?!\">)\s" % search_string, re.I)
         pages = match_search_string.sub(
             '<span class="search-highlight">\\1</span>', pages
         )
         # or before the search string - this is to avoid occurences in URIs,
         # surrounded by hyphens.
-        match_search_string = re.compile(r"\s(%s)\b" % search_string, re.I)
+        match_search_string = re.compile(r"\s(%s)(?!\">)\b" % search_string, re.I)
         pages = match_search_string.sub(
             '<span class="search-highlight">\\1</span>', pages
         )
@@ -1237,7 +1237,6 @@ def search_results_view(request):
     word = search_string
 
     document_ids = request.GET.getall("document_id")
-
     search_result = get_search_result(
         "kwic_search", word, category_argument, language_argument, request
     )
