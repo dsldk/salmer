@@ -726,14 +726,9 @@ def smn_view(request):
         # highlight tags around the *original* matching text - i.e., ignoring
         # the user-supplied upper/lowercase occurrences in the search string.
 
-        # However, we demand an actual blank either after ...
-        match_search_string = re.compile(r"\b(%s)(?!\">)\s" % search_string, re.I)
-        pages = match_search_string.sub(
-            '<span class="search-highlight">\\1</span>', pages
-        )
-        # or before the search string - this is to avoid occurences in URIs,
-        # surrounded by hyphens.
-        match_search_string = re.compile(r"\s(%s)(?!\">)\b" % search_string, re.I)
+        # However, we demand an actual blank after the search string to avoid
+        # occurrences inside URLs etc.
+        match_search_string = re.compile(r"\b(%s)\s" % search_string, re.I)
         pages = match_search_string.sub(
             '<span class="search-highlight">\\1</span>', pages
         )
