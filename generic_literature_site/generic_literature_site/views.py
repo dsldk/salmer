@@ -725,7 +725,10 @@ def smn_view(request):
         # Do a case insensitive search for the search string and insert
         # highlight tags around the *original* matching text - i.e., ignoring
         # the user-supplied upper/lowercase occurrences in the search string.
-        match_search_string = re.compile(r"\b(%s)\b" % search_string, re.I)
+
+        # However, we demand an actual blank after the search string to avoid
+        # occurrences inside URLs etc.
+        match_search_string = re.compile(r"\b(%s)\s" % search_string, re.I)
         pages = match_search_string.sub(
             '<span class="search-highlight">\\1</span>', pages
         )
@@ -1229,7 +1232,6 @@ def search_results_view(request):
     word = search_string
 
     document_ids = request.GET.getall("document_id")
-
     search_result = get_search_result(
         "kwic_search", word, category_argument, language_argument, request
     )
