@@ -18,6 +18,14 @@
             </label>
         </li>
         <li>
+            <label class="checkbox-inline" for="pdf-display">
+              <input type="checkbox"
+                   id="pdf-display"
+                   ${req.cookies.get('.clickLookup')} />
+              <a class="checkbox-label-text" href="https://melodier.dsl.dk">PDF</a>
+            </label>
+        </li>
+        <li>
             <label class="checkbox-inline" for="reader-width">
               <input type="checkbox"
                    id="reader-width"/>
