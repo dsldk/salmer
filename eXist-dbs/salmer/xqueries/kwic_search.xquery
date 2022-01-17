@@ -42,7 +42,7 @@ let $front_results := for $hit in $front_hits
     <result_list>
         <page_no>{$page_no}</page_no>
         <chapter_no>front</chapter_no>
-        <section_no>{count($hit/tei:div[ft:query(., $q)]/preceding-sibling::tei:div) +1}</section_no>
+        <section_no>{count($hit/preceding-sibling::tei:div) +1}</section_no>
         <id>{util:document-name($hit)}</id>
         <title>{$hit/ancestor::*//tei:titleStmt/tei:title/text()}</title>
         <q>{$q}</q>
@@ -56,7 +56,7 @@ let $back_results := for $hit in $back_hits
     <result_list>
         <page_no>{$page_no}</page_no>
         <chapter_no>back</chapter_no>
-        <section_no>{count($hit/tei:div[ft:query(., $q)]/preceding-sibling::tei:div) +1}</section_no>
+        <section_no>{count($hit/preceding-sibling::tei:div) +1}</section_no>
         <id>{util:document-name($hit)}</id>
         <title>{$hit/ancestor::*//tei:titleStmt/tei:title/text()}</title>
         <q>{$q}</q>
