@@ -22,7 +22,7 @@
               <input type="checkbox"
                    id="pdf-display"
                    ${req.cookies.get('.clickLookup')} />
-              <a class="checkbox-label-text" href="https://melodier.dsl.dk">PDF</a>
+	      <a class="checkbox-label-text" href="https://melodier.dsl.dk/pdf.xq?url=${req.url}">PDF</a>
             </label>
         </li>
         <li>
