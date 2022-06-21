@@ -679,6 +679,10 @@ $(function(){
 	function pushToHistory(url, replace) {
 		var dropdowns = ['#translations select[name="chapter"]', 'select[name="meta"]', 'select[name="language"]']; // CSS selectors for the dropdowns whose state we want to (re)load on popstate
 		var stateObj = {}
+		var pdf_link = document.getElementById('pdf-link');
+		var melodier = 'https://melodier.dsl.dk/pdf.xq?url=';
+
+		pdf_link.href = melodier + url;
 
 		dropdowns.forEach(function (dropdown) { // add the current value of all the relevant dropdowns to the state obj
 			stateObj[dropdown] = $(dropdown).val()
