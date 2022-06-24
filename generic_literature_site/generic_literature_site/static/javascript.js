@@ -681,16 +681,21 @@ $(function(){
 		var stateObj = {}
 		var pdf_link = document.getElementById('pdf-link');
 		var melodier = 'https://melodier.dsl.dk/pdf.xq?url=';
-
-		pdf_link.href = melodier + url;
+		var result;
 
 		dropdowns.forEach(function (dropdown) { // add the current value of all the relevant dropdowns to the state obj
 			stateObj[dropdown] = $(dropdown).val()
 		});
 		if (replace) {
-			return history.replaceState(stateObj, '', url);
+			result = history.replaceState(stateObj, '', url);
 		}
-		return history.pushState(stateObj, '', url);
+		result =  history.pushState(stateObj, '', url);
+
+		if (pdf_link) {
+		    pdf_link.href = melodier + window.location.href;
+		}
+
+		return result;
 	}
 
   // clicking a facsimile link should show it in the right-hand pane.
