@@ -16,12 +16,20 @@
 		"file" : "0009L.jpg"
 	},
 	{
+		"name" : "A 3r",
+		"file" : "0010R.jpg"
+	},
+	{
 		"name" : "A 3v",
 		"file" : "0011L.jpg"
 	},
 	{
 		"name" : "A 4r",
 		"file" : "0012R.jpg"
+	},
+	{
+		"name" : "A 4v",
+		"file" : "0013L.jpg"
 	},
 	{
 		"name" : "B 1r",
@@ -48,6 +56,14 @@
 		"file" : "0019L.jpg"
 	},
 	{
+		"name" : "B 4r",
+		"file" : "0020R.jpg"
+	},
+	{
+		"name" : "B 4v",
+		"file" : "0021L.jpg"
+	},
+	{
 		"name" : "C 1r",
 		"file" : "0022R.jpg"
 	},
@@ -62,6 +78,10 @@
 	{
 		"name" : "C 2v",
 		"file" : "0025L.jpg"
+	},
+	{
+		"name" : "C 3r",
+		"file" : "0026R.jpg"
 	},
 	{
 		"name" : "C 3v",
@@ -84,6 +104,10 @@
 		"file" : "0031L.jpg"
 	},
 	{
+		"name" : "D 2r",
+		"file" : "0032R.jpg"
+	},
+	{
 		"name" : "D 2v",
 		"file" : "0033L.jpg"
 	},
@@ -92,12 +116,28 @@
 		"file" : "0034R.jpg"
 	},
 	{
+		"name" : "D 3v",
+		"file" : "0035L.jpg"
+	},
+	{
+		"name" : "D 4r",
+		"file" : "0036R.jpg"
+	},
+	{
 		"name" : "D 4v",
 		"file" : "0037L.jpg"
 	},
 	{
+		"name" : "E 1r",
+		"file" : "0038R.jpg"
+	},
+	{
 		"name" : "E 1v",
 		"file" : "0039L.jpg"
+	},
+	{
+		"name" : "E 2r",
+		"file" : "0040R.jpg"
 	},
 	{
 		"name" : "E 2v",
@@ -106,6 +146,10 @@
 	{
 		"name" : "E 3r",
 		"file" : "0042R.jpg"
+	},
+	{
+		"name" : "E 3v",
+		"file" : "0043L.jpg"
 	},
 	{
 		"name" : "E 4r",
@@ -120,6 +164,10 @@
 		"file" : "0046R.jpg"
 	},
 	{
+		"name" : "F 1v",
+		"file" : "0047L.jpg"
+	},
+	{
 		"name" : "F 2r",
 		"file" : "0048R.jpg"
 	},
@@ -128,11 +176,18 @@
 		"file" : "0049L.jpg"
 	},
 	{
+		"name" : "F 3r",
+		"file" : "0050R.jpg"
+	},
+	{
 		"name" : "F 3v",
 		"file" : "0051L.jpg"
+	},{
+		"name" : "F 4r",
+		"file" : "0052R.jpg"
 	},
 	{
 		"name" : "F 4v",
 		"file" : "0053L.jpg"
-	},
+	}
 ]

@@ -3,7 +3,7 @@
         <xsl:apply-templates/>
         <xsl:text> </xsl:text>
         <em>
-           <xsl:value-of select="@wit/tokenize(., '#')"/>
+            <xsl:value-of select="@wit/tokenize(., '#')"/>
         </em>
     </xsl:template>
     <xsl:template match="tei:app[tei:lem]">
@@ -28,7 +28,7 @@
                     <xsl:if test="tei:lem/@wit">
                         <em>
                             <!-- Since values in the must be prefixed with a #
-                                    we use tokenize() to obtain the substring after # -->
+                                we use tokenize() to obtain the substring after # -->
                             <xsl:value-of select="tei:lem/@wit/tokenize(., '#')"/>
                         </em>
                         <xsl:text>, </xsl:text>
@@ -47,7 +47,7 @@
             </xsl:for-each>
             <xsl:text> </xsl:text>
             <!--<xsl:apply-templates select="tei:rdg"/>
-            <xsl:text> </xsl:text>-->
+                <xsl:text> </xsl:text>-->
         </span>
     </xsl:template>
     <xsl:template name="appN">

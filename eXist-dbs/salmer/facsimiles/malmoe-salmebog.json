@@ -108,6 +108,10 @@
 		"file" : "039.jpg"
 	},
 	{
+		"name" : "1v",
+		"file" : "040.jpg"
+	},
+	{
 		"name" : "2r",
 		"file" : "041.jpg"
 	},
@@ -128,6 +132,10 @@
 		"file" : "045.jpg"
 	},
 	{
+		"name" : "4v",
+		"file" : "046.jpg"
+	},
+	{
 		"name" : "5r",
 		"file" : "047.jpg"
 	},
@@ -140,7 +148,7 @@
 		"file" : "049.jpg"
 	},
 	{
-		"name" : "6V",
+		"name" : "6v",
 		"file" : "050.jpg"
 	},
 	{
@@ -198,6 +206,14 @@
 	{
 		"name" : "14v",
 		"file" : "064.jpg"
+	},
+	{
+		"name" : "15r",
+		"file" : "065.jpg"
+	},
+	{
+		"name" : "15v",
+		"file" : "066.jpg"
 	},
 	{
 		"name" : "16r",
@@ -456,6 +472,10 @@
 		"file" : "130.jpg"
 	},
 	{
+		"name" : "48r",
+		"file" : "131.jpg"
+	},
+	{
 		"name" : "48v",
 		"file" : "132.jpg"
 	},
@@ -492,7 +512,11 @@
 		"file" : "140.jpg"
 	},
 	{
-		"name" : "153v",
+		"name" : "53r",
+		"file" : "141.jpg"
+	},
+	{
+		"name" : "53v",
 		"file" : "142.jpg"
 	},
 	{
@@ -540,6 +564,10 @@
 		"file" : "153.jpg"
 	},
 	{
+		"name" : "59v",
+		"file" : "154.jpg"
+	},
+	{
 		"name" : "60r",
 		"file" : "155.jpg"
 	},
@@ -568,6 +596,10 @@
 		"file" : "161.jpg"
 	},
 	{
+		"name" : "63v",
+		"file" : "162.jpg"
+	},
+	{
 		"name" : "64r",
 		"file" : "163.jpg"
 	},
@@ -584,8 +616,16 @@
 		"file" : "166.jpg"
 	},
 	{
+		"name" : "66r",
+		"file" : "167.jpg"
+	},
+	{
 		"name" : "66v",
 		"file" : "168.jpg"
+	},
+	{
+		"name" : "67r",
+		"file" : "169.jpg"
 	},
 	{
 		"name" : "67v",
@@ -612,6 +652,21 @@
 		"file" : "175.jpg"
 	},
 	{
+		"name" : "70v",
+		"file" : "176.jpg"
+	},{
+		"name" : "71r",
+		"file" : "177.jpg"
+	},
+	{
+		"name" : "71v",
+		"file" : "178.jpg"
+	},
+	{
+		"name" : "72r",
+		"file" : "179.jpg"
+	},
+	{
 		"name" : "72v",
 		"file" : "180.jpg"
 	},
@@ -622,6 +677,10 @@
 	{
 		"name" : "73v",
 		"file" : "182.jpg"
+	},
+	{
+		"name" : "74r",
+		"file" : "183.jpg"
 	},
 	{
 		"name" : "74v",
@@ -700,6 +759,10 @@
 		"file" : "202.jpg"
 	},
 	{
+		"name" : "84r",
+		"file" : "203.jpg"
+	},
+	{
 		"name" : "84v",
 		"file" : "204.jpg"
 	},
@@ -730,6 +793,14 @@
 	{
 		"name" : "88r",
 		"file" : "211.jpg"
+	},
+	{
+		"name" : "88v",
+		"file" : "212.jpg"
+	},
+	{
+		"name" : "89r",
+		"file" : "213.jpg"
 	},
 	{
 		"name" : "89v",
@@ -844,6 +915,10 @@
 		"file" : "241.jpg"
 	},
 	{
+		"name" : "103v",
+		"file" : "242.jpg"
+	},
+	{
 		"name" : "104r",
 		"file" : "243.jpg"
 	},
@@ -946,5 +1021,5 @@
 	{
 		"name" : "† 4v",
 		"file" : "268.jpg"
-	},
+	}
 ]

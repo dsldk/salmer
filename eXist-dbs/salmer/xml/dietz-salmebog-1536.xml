@@ -1,6 +1,5 @@
 <!--<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>--><TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -1357,8 +1356,7 @@
          <div type="psalm" xml:id="en-kristelig-vise" n="23">
             <head type="add">Vær glad og fro, al kristenhed</head>
             <head>¶ Een Christelige wiise om menniske<ex>n</ex>s wselhed oc fordømmelse/</head>
-            <p>ther hun ikommen er for Adams wlydelse skyldt. Jtem aff hen<pb rend="=" facs="038"
-                  n="e 2r"/>nes oprettelse oc salighed/ ther hun faar for Christi fortiæneste skyldt
+            <p>ther hun ikommen er for Adams wlydelse skyldt. Jtem aff hen<pb rend="=" facs="038" n="e 2r"/>nes oprettelse oc salighed/ ther hun faar for Christi fortiæneste skyldt
                / Thi skal hun priise hannom/ bliffue hart widt hans ord/ oc tage seg ware for
                menniskens lærdom som er forgenlig/ Men Guds ord bliffuer ewindelig/ </p>
             <p> Oc gaar mett the noder som Nu fryder eder alle Christene sÿungis mett.</p>
@@ -2269,8 +2267,7 @@
             <head type="add">Herre Gud, frels mig fra onde menneske</head>
             <head>¶ <ref target="#sl-140"><orig>Then Cxl. Psalm </orig><reg>Sl 140</reg></ref> Eripe
                me domine/ </head>
-            <p>Maa huer læse mod sine vwenner som hannom fortale och forfølge/ Ath Gud <pb
-                  facs="057" n="g 3v"/> will frelse hannom fraa them/ och aff hans nødt och
+            <p>Maa huer læse mod sine vwenner som hannom fortale och forfølge/ Ath Gud <pb facs="057" n="g 3v"/> will frelse hannom fraa them/ och aff hans nødt och
                sorg.</p>
             <lg>
                <l>HErre Gud frels meg fra onde menniske/ </l>

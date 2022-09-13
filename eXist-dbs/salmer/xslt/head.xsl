@@ -20,14 +20,7 @@
     </xd:doc>
     
     <xsl:template name="repeatPb">        
-        <xsl:if test="
-            not(
-                preceding-sibling::tei:head or following-sibling::*[not(name()='pb' or name()='head')][1][preceding::tei:pb]
-                or following-sibling::*[not(name()='pb' or name()='head')][1]/tei:pb[1][not(preceding-sibling::text())]
-            ) and (
-                ancestor::tei:div[1]/preceding-sibling::*[.//tei:pb]
-                or ($n and $facs)
-            )">
+        <xsl:if test="             not(                 preceding-sibling::tei:head or following-sibling::*[not(name()='pb' or name()='head')][1][preceding::tei:pb]                 or following-sibling::*[not(name()='pb' or name()='head')][1]/tei:pb[1][not(preceding-sibling::text())]             ) and (                 ancestor::tei:div[1]/preceding-sibling::*[.//tei:pb]                 or ($n and $facs)             )">
             <span class="legacy-page-break">
                 <xsl:element name="a">
                     <xsl:attribute name="class">facsimile-link</xsl:attribute>

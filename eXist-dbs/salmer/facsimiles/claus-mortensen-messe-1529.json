@@ -60,6 +60,10 @@
 		"file" : "A_13r.jpg"
 	},
 	{
+		"name" : "B 4v",
+		"file" : "A_14v.jpg"
+	},
+	{
 		"name" : "C 1r",
 		"file" : "A_15r.jpg"
 	},
@@ -96,12 +100,28 @@
 		"file" : "A_23r.jpg"
 	},
 	{
+		"name" : "cc 2v",
+		"file" : "A_24v.jpg"
+	},
+	{
 		"name" : "cc 2r",
 		"file" : "A_25r.jpg"
 	},
 	{
 		"name" : "cc 2v",
 		"file" : "A_26v.jpg"
+	},
+	{
+		"name" : "cc 3r",
+		"file" : "A_27r.jpg"
+	},
+	{
+		"name" : "cc 3v",
+		"file" : "A_28v.jpg"
+	},
+	{
+		"name" : "cc 4r",
+		"file" : "A_29r.jpg"
 	},
 	{
 		"name" : "cc 4v",
@@ -116,12 +136,20 @@
 		"file" : "A_32v.jpg"
 	},
 	{
+		"name" : "D 2r",
+		"file" : "A_33r.jpg"
+	},
+	{
 		"name" : "D 2v",
 		"file" : "A_34v.jpg"
 	},
 	{
 		"name" : "D 3r",
 		"file" : "A_35r.jpg"
+	},
+	{
+		"name" : "D 3v",
+		"file" : "A_36v.jpg"
 	},
 	{
 		"name" : "D 4r",
@@ -154,5 +182,5 @@
 	{
 		"name" : "dd 3v",
 		"file" : "A_44v.jpg"
-	},
+	}
 ]

@@ -49,6 +49,7 @@
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
+            <span class="caption">Calendar: </span>
             <xsl:apply-templates/>
         </div>
     </xsl:template>

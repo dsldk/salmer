@@ -16,7 +16,7 @@
 		"file" : "004.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 3r",
 		"file" : "005.jpg"
 	},
 	{
@@ -24,11 +24,11 @@
 		"file" : "006.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 4r",
 		"file" : "007.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 4v",
 		"file" : "008.jpg"
 	},
 	{
@@ -36,35 +36,35 @@
 		"file" : "009.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 5v",
 		"file" : "010.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 6r",
 		"file" : "011.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 6v",
 		"file" : "012.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : " a7r",
 		"file" : "013.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 7v",
 		"file" : "014.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 8r",
 		"file" : "015.jpg"
 	},
 	{
-		"name" : "5",
+		"name" : "a 8v",
 		"file" : "016.jpg"
 	},
 	{
-		"name" : "ij.",
+		"name" : "b 1r.",
 		"file" : "017.jpg"
 	},
 	{
@@ -100,6 +100,10 @@
 		"file" : "025.jpg"
 	},
 	{
+		"name" : "b 5v",
+		"file" : "026.jpg"
+	},
+	{
 		"name" : "b 6r",
 		"file" : "027.jpg"
 	},
@@ -112,11 +116,19 @@
 		"file" : "030.jpg"
 	},
 	{
+		"name" : "b 8r",
+		"file" : "031.jpg"
+	},
+	{
+		"name" : "b 8v",
+		"file" : "032.jpg"
+	},
+	{
 		"name" : "c 1r",
 		"file" : "033.jpg"
 	},
 	{
-		"name" : "1.",
+		"name" : "c 1v.",
 		"file" : "034.jpg"
 	},
 	{
@@ -136,8 +148,24 @@
 		"file" : "038.jpg"
 	},
 	{
-		"name" : "4",
+		"name" : "c 4r",
+		"file" : "039.jpg"
+	},
+	{
+		"name" : "c 4v",
+		"file" : "040.jpg"
+	},
+	{
+		"name" : "c 5r",
+		"file" : "041.jpg"
+	},
+	{
+		"name" : "c 5v",
 		"file" : "042.jpg"
+	},
+	{
+		"name" : "c 6r",
+		"file" : "043.jpg"
 	},
 	{
 		"name" : "c 6v",
@@ -150,6 +178,18 @@
 	{
 		"name" : "c 7v",
 		"file" : "046.jpg"
+	},
+	{
+		"name" : "c 8r",
+		"file" : "047.jpg"
+	},
+	{
+		"name" : "c 8v",
+		"file" : "048.jpg"
+	},
+	{
+		"name" : "d 1r",
+		"file" : "049.jpg"
 	},
 	{
 		"name" : "d 1v",
@@ -168,11 +208,15 @@
 		"file" : "053.jpg"
 	},
 	{
+		"name" : "d 3v",
+		"file" : "054.jpg"
+	},
+	{
 		"name" : "d 4r",
 		"file" : "055.jpg"
 	},
 	{
-		"name" : "8.",
+		"name" : "d 4v.",
 		"file" : "056.jpg"
 	},
 	{
@@ -270,6 +314,10 @@
 	{
 		"name" : "12v",
 		"file" : "080.jpg"
+	},
+	{
+		"name" : "13r",
+		"file" : "081.jpg"
 	},
 	{
 		"name" : "13v",
@@ -856,6 +904,10 @@
 		"file" : "227.jpg"
 	},
 	{
+		"name" : "86v",
+		"file" : "228.jpg"
+	},
+	{
 		"name" : "87r",
 		"file" : "229.jpg"
 	},
@@ -1112,7 +1164,7 @@
 		"file" : "290.jpg"
 	},
 	{
-		"name" : "4",
+		"name" : "119r",
 		"file" : "291.jpg"
 	},
 	{
@@ -1160,7 +1212,7 @@
 		"file" : "302.jpg"
 	},
 	{
-		"name" : "4",
+		"name" : "125r",
 		"file" : "303.jpg"
 	},
 	{
@@ -1217,19 +1269,19 @@
 	},
 	{
 		"name" : "132r",
-		"file" : "319.jpg"
-	},
-	{
-		"name" : "132v",
 		"file" : "317.jpg"
 	},
 	{
-		"name" : "133r",
+		"name" : "132v",
 		"file" : "318.jpg"
 	},
 	{
-		"name" : "133v",
+		"name" : "133r",
 		"file" : "319.jpg"
+	},
+	{
+		"name" : "133v",
+		"file" : "320.jpg"
 	},
 	{
 		"name" : "134r",
@@ -1653,7 +1705,7 @@
 	},
 	{
 		"name" : "186v",
-		"file" : "428.jpg"
+		"file" : "426.jpg"
 	},
 	{
 		"name" : "187r",
@@ -1825,7 +1877,7 @@
 	},
 	{
 		"name" : "208r",
-		"file" : "471.jpg"
+		"file" : "469.jpg"
 	},
 	{
 		"name" : "208v",
@@ -1925,7 +1977,7 @@
 	},
 	{
 		"name" : "220v",
-		"file" : "496.jpg"
+		"file" : "494.jpg"
 	},
 	{
 		"name" : "221r",
@@ -2200,6 +2252,10 @@
 		"file" : "562.jpg"
 	},
 	{
+		"name" : "255r",
+		"file" : "563.jpg"
+	},
+	{
 		"name" : "255v",
 		"file" : "564.jpg"
 	},
@@ -2333,7 +2389,7 @@
 	},
 	{
 		"name" : "272r",
-		"file" : "599.jpg"
+		"file" : "597.jpg"
 	},
 	{
 		"name" : "272v",
@@ -2460,7 +2516,7 @@
 		"file" : "628.jpg"
 	},
 	{
-		"name" : "4",
+		"name" : "288r",
 		"file" : "629.jpg"
 	},
 	{
@@ -2474,6 +2530,10 @@
 	{
 		"name" : "289v",
 		"file" : "632.jpg"
+	},
+	{
+		"name" : "290r",
+		"file" : "633.jpg"
 	},
 	{
 		"name" : "290v",
@@ -2513,7 +2573,7 @@
 	},
 	{
 		"name" : "295r",
-		"file" : "645.jpg"
+		"file" : "643.jpg"
 	},
 	{
 		"name" : "295v",
@@ -2617,7 +2677,7 @@
 	},
 	{
 		"name" : "308r",
-		"file" : "671.jpg"
+		"file" : "669.jpg"
 	},
 	{
 		"name" : "308v",
@@ -2773,7 +2833,7 @@
 	},
 	{
 		"name" : "327v",
-		"file" : "710.jpg"
+		"file" : "708.jpg"
 	},
 	{
 		"name" : "328r",
@@ -2784,7 +2844,7 @@
 		"file" : "710.jpg"
 	},
 	{
-		"name" : "4",
+		"name" : "329r",
 		"file" : "711.jpg"
 	},
 	{
@@ -3120,7 +3180,7 @@
 		"file" : "794.jpg"
 	},
 	{
-		"name" : "4",
+		"name" : "Aaa 3r",
 		"file" : "795.jpg"
 	},
 	{
@@ -3242,5 +3302,5 @@
 	{
 		"name" : "Bbb 10r",
 		"file" : "825.jpg"
-	},
+	}
 ]

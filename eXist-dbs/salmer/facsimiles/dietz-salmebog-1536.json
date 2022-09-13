@@ -12,6 +12,10 @@
 		"file" : "006.jpg"
 	},
 	{
+		"name" : "a 2v",
+		"file" : "007.jpg"
+	},
+	{
 		"name" : "a 3r",
 		"file" : "008.jpg"
 	},
@@ -26,6 +30,10 @@
 	{
 		"name" : "a 4v",
 		"file" : "011.jpg"
+	},
+	{
+		"name" : "b 1r",
+		"file" : "012.jpg"
 	},
 	{
 		"name" : "b 1v",
@@ -128,6 +136,10 @@
 		"file" : "037.jpg"
 	},
 	{
+		"name" : "e 2r",
+		"file" : "038.jpg"
+	},
+	{
 		"name" : "e 2v",
 		"file" : "039.jpg"
 	},
@@ -200,11 +212,15 @@
 		"file" : "056.jpg"
 	},
 	{
+		"name" : "g 3v",
+		"file" : "057.jpg"
+	},
+	{
 		"name" : "g 4r",
 		"file" : "058.jpg"
 	},
 	{
 		"name" : "g 4v",
 		"file" : "059.jpg"
-	},
+	}
 ]
