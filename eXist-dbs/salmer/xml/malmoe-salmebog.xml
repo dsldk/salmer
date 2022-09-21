@@ -9043,6 +9043,7 @@
 
                     <p> Leser en Pater noster</p>
                 </div>
+                
                 <div xml:id="en-formaning" n="23">
                     <head type="add">Formaning til nadvergæsterne</head>
                     <head>En formani<ex>n</ex>g til de<ex>n</ex> so<ex>m</ex> vil for alterit
@@ -9104,6 +9105,7 @@
                         <l> Salig gør oss vdi det øffuerste</l>
                     </lg>
                 </div>
+                
                 <div type="part" xml:id="nadver-malmoe" n="25">
                     <head type="add">Indstiftelsesordene</head>
                     <p>Effter disse ceremonier kommer det rette Messe embede/ som er Christi
@@ -9143,8 +9145,8 @@
                         eller de<ex>n</ex> Christne forsamling en lofsang som følger effter Messe
                         embedet.</p>
                 </div>
+                
                 <div type="psalm" xml:id="dig-vaere-lov-og-pris" n="26">
-
                     <head type="add">Dig være lov og pris, o Herre Krist</head>
                     <head>Tibi laus</head>
 
@@ -9317,8 +9319,8 @@
                         <l> der met dem hielp som Gud haffuer budit</l>
                     </lg>
                 </div>
+                
                 <div type="psalm" xml:id="jesus-kristus-er-vor-frelsermand" n="31">
-
                     <head type="add">Jesus Kristus er vor frelsermand</head>
                     <head>En anden fordanskni<ex>n</ex>g paa samme vise</head>
                     <lg>
