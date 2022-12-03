@@ -3,7 +3,7 @@
         <fileDesc>
             <titleStmt>
                 <title>Håndbog om den rette evangeliske Messe</title>
-                <author xml:id="frands-vormodsen">Frands Vormodsen</author>
+                <author xml:id="frands-vormodsen">Frands Vormordsen</author>
                 <editor>
                     <name xml:id="mette.svendsen">
                         <persName>
@@ -80,7 +80,7 @@
                 </docTitle>
             </titlePage>
             <div type="preface" xml:id="preface-oluf-ulriksen-1539">
-                <head type="add">Frands Vormodsens fortale</head>
+                <head type="add">Frands Vormordsens fortale</head>
                 <p>
                     <pb facs="0007L" n="A 1v"/>¶ Franciscus wormordi ynsker alle retsindige oc
                     gudfryctige Predickere oc sogneherrer</p>
