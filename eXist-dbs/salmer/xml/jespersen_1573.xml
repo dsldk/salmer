@@ -225,7 +225,7 @@
                 <p> Oc skal fordi saadanne Psalmer oc Aandelige Loffsange ret oc Christelig bruges
                     aff Guds Børn vdi Aand oc Sandhed/ som all Guds rette dyrckelse oc tieniste.
                     Huor om den hellige Apostel Paulus oss merckeligen lærer oc formaner/ <ref
-                        target="ef-5"><orig>til de Epheser vdi det 5. Cap:</orig><reg>Ef
+                        target="#ef-5"><orig>til de Epheser vdi det 5. Cap:</orig><reg>Ef
                         5</reg></ref> huor hand siger. Bliffuer fulde aff Aanden/ oc taler met huer
                     andre om Psalmer oc Loffsange oc Aandelige Viser/ siunger oc leger for HERREN i
                     eders hierte/ oc siger altid Gud oc Faderen tack for alting/ i vor HERRJS Jesu
@@ -256,7 +256,8 @@
                     met/ lige som oc all anden falsk Gudstieniste foruden Troen/ maa vel lignes ved
                     en liud aff en Klocke eller Malm/ som snart forsuinder. Oc Christus selffuer
                     kalder det en Mundtieniste/ som ingenlunde teckis Gud/ effterdi hiertet er der
-                    langt fra. <ref target="matt-15">Matth: 15<reg>Matt 15</reg></ref>.</p>
+                    langt fra. <ref target="#matt-15"><orig>Matth: 15</orig><reg>Matt
+                    15</reg></ref>.</p>
                 <p> Saa er fordi Psalmer oc Aandelige Loffsang/ som aff Gudfryctige Mennisker
                     formedelst den hellig Aands indskydelse ere sammen screffne/ paa huad Tungemaal
                     de findis/ som haffue deris grund i Guds ord/ saare gaffnlige oc nyttelige vdi
@@ -293,9 +294,9 @@
                     skickelser der met kunde fortiene sig Himmerige: Saa findis der dog andre fromme
                     godhiertige Christne/ som met gaat skæl oc forstand/ støde sig paa denne
                     wskickelige wenighed/ icke for nogen saadan Papistiske Aarsag/ men fordi at de
-                    vilde gierne effter Sancte Pouels regel (<ref target="kor-1-14">1. Corinth:
-                            14<reg>1 Kor 14</reg></ref>.) at alting maatte/ end oc vdi Sangen/ gaa
-                    skickelige oc ordentlige til i den Christen menighed.</p>
+                    vilde gierne effter Sancte Pouels regel (<ref target="#kor-1-14"><orig>1.
+                            Corinth: 14</orig><reg>1 Kor 14</reg></ref>.) at alting maatte/ end oc
+                    vdi Sangen/ gaa skickelige oc ordentlige til i den Christen menighed.</p>
                 <p> Huor paa sig gierne befliter alle retsindige Guds ords tienere baade vdi
                     Kirckerne oc Skoler/ met god indseelse/ at alltingest sig ret oc tilbørligen
                     skicker til Guds ære oc den Christelig Religion til des ydermere gaffn oc
@@ -437,8 +438,8 @@
                 </div>
                 <div type="psalm" xml:id="section-1-2" xml:lang="la" n="2">
                     <head type="add">Ad te leuaui animam meam Deus meus</head>
-                    <head> Introitus lat. <ref target="#sl-25">Psalm. 25.<reg>Sl
-                        25</reg></ref></head>
+                    <head> Introitus lat. <ref target="#sl-25"><orig>Psalm. 25.</orig><reg>Sl
+                                25</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_003.xml"/>
                     </notatedMusic>
@@ -548,8 +549,8 @@
                 </div>
                 <div type="psalm" xml:id="section-1-5" xml:lang="la" n="5">
                     <head type="add">Haleluia. Ostende nobis Domine misericordiam tuam</head>
-                    <head><pb facs="0022R" n="9"/>HALELVIA. <ref target="#sl-85">Psalm.
-                            85.</ref><reg>Sl 85</reg></head>
+                    <head><pb facs="0022R" n="9"/>HALELVIA. <ref target="#sl-85"><orig>Psalm.
+                                85.</orig></ref><reg>Sl 85</reg></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_009.xml"/>
                     </notatedMusic>
@@ -986,8 +987,8 @@
                 <div type="psalm" xml:id="section-1-13" n="13">
                     <head type="add">Forlæ os med fred nådelig</head>
                     <p>Her effter læsis den siste Collect: Och saa velsignelsen: <ref
-                            target="#mos-4-6">Num: 6<reg>4 Mos 6</reg></ref> Til huilcken Menig<lb
-                            rend="="/>heden suarer/ Amen. </p>
+                            target="#mos-4-6"><orig>Num: 6</orig><reg>4 Mos 6</reg></ref> Til
+                        huilcken Menig<lb rend="="/>heden suarer/ Amen. </p>
                     <p> Dissimellem at Presten fører sig aff Messe klæderne/ oc falder paa knæ:
                         siungis aff den hele Menighed: <hi rend="italics">Da pacem
                             <ex>etc</ex>.</hi> Som her effter følger.</p>
@@ -1065,10 +1066,10 @@
                 <div type="psalm" xml:lang="la" xml:id="section-2-1" n="1">
                     <head type="add">Populus Sion</head>
                     <head><pb facs="0038R" n="25"/>Den Anden Søndag i Aduent.</head>
-                    <head>Introitus Latinus. <ref target="#es-30">Esaiæ. <app>
-                                <lem>30</lem>
-                                <rdg wit="#orig.">3<note>rettet</note></rdg>
-                            </app><reg>Es 30</reg></ref></head>
+                    <head>Introitus Latinus. <ref target="#es-30"><orig>Esaiæ. <app>
+                                    <lem>30</lem>
+                                    <rdg wit="#orig.">3<note>rettet</note></rdg>
+                                </app></orig><reg>Es 30</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_025.xml#mdiv-01"/>
                     </notatedMusic>
@@ -1078,7 +1079,7 @@
                         <l>et auditam faciet Dominus gloriam vocis suæ, </l>
                         <l>in lætitia <pb facs="0039L" n="26"/> cordis vestri. </l>
                     </lg>
-                    <p><ref target="sl-80">Psalm: 80.<reg>Sl 80</reg></ref></p>
+                    <p><ref target="#sl-80">Psalm: 80.<reg><orig>Sl 80</orig></reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_025.xml#mdiv-02"/>
                     </notatedMusic>
@@ -1096,8 +1097,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-2-2" n="2">
                     <head type="add">Haleluia. Lætatus sum in his quæ dicta sunt mihi</head>
-                    <head><pb facs="0040R" n="27"/>HALELVIA. <ref target="sl-122">Psalm: 122.<reg>Sl
-                                122</reg></ref></head>
+                    <head><pb facs="0040R" n="27"/>HALELVIA. <ref target="#sl-122"><orig>Psalm:
+                                122.</orig><reg>Sl 122</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_027.xml"/>
                     </notatedMusic>
@@ -1115,8 +1116,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-3-1" n="1">
                     <head type="add">Gaudete in Domino semper</head>
                     <head>Den Tredie Søndag i Aduent.</head>
-                    <head>Introitus Latinus. <ref target="fil-4">Philipp: 4.<reg>Fil
-                        4</reg></ref></head>
+                    <head>Introitus Latinus. <ref target="#fil-4"><orig>Philipp: 4.</orig><reg>Fil
+                                4</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_028.xml#mdiv-01"/>
                     </notatedMusic>
@@ -1128,7 +1129,7 @@
                         <l>nihil soliciti sitis, </l>
                         <l>sed in omni oratione petitiones vestræ innotescant apud Deum. </l>
                     </lg>
-                    <p><ref target="sl-85">Psal: 85.<reg>Sl 85</reg></ref></p>
+                    <p><ref target="#sl-85"><orig>Psal: 85.</orig><reg>Sl 85</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_028.xml#mdiv-02"/>
                     </notatedMusic>
@@ -1143,8 +1144,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-3-2" n="2">
                     <head type="add">Haleluia. Excita Domine potentiam tuam</head>
-                    <head><pb facs="0044R" n="31"/>HALELVIA. <ref target="sl-80">Psalm: 80.<reg>Sl
-                                80</reg></ref></head>
+                    <head><pb facs="0044R" n="31"/>HALELVIA. <ref target="#sl-80"><orig>Psalm:
+                                80.</orig><reg>Sl 80</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_031.xml"/>
                     </notatedMusic>
@@ -1161,8 +1162,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-4-1" n="1">
                     <head type="add">Memento nostri Domine</head>
                     <head>Den Fierde Søndag i Aduent.</head>
-                    <head>Introitus Latinus. <ref target="sl-106">Psalm: 106.<reg>Sl
-                        106</reg></ref></head>
+                    <head>Introitus Latinus. <ref target="#sl-106"><orig>Psalm: 106.</orig><reg>Sl
+                                106</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_032.xml#mdiv-01"/>
                     </notatedMusic>
@@ -1175,7 +1176,7 @@
                         <l>vt lauderis cum hæreditate tua.</l>
                     </lg>
                     <p>
-                        <ref target="sl-106">Psal: 106.<reg>Sl 106</reg></ref></p>
+                        <ref target="#sl-106"><orig>Psal: 106.</orig><reg>Sl 106</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_032.xml#mdiv-02"/>
                     </notatedMusic>
@@ -1251,8 +1252,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-5-2" n="2">
                     <head type="add">Puer natus est nobis</head>
-                    <head>Introitus Latinus. <ref target="#es-9">Esaiæ, 9.<reg>Es
-                        9</reg></ref></head>
+                    <head>Introitus Latinus. <ref target="#es-9"><orig>Esaiæ, 9.</orig><reg>Es
+                                9</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_037.xml#mdiv-01"/>
                     </notatedMusic>
@@ -1264,7 +1265,8 @@
                         <l>magni consilij Angelus. </l>
                     </lg>
                     <p>
-                        <ref target="#sl-98">Psalm: 98. <reg>Sl 98</reg></ref></p>
+                        <ref target="#sl-98"><orig>Psalm: 98.</orig>
+                            <reg>Sl 98</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_037.xml#mdiv-02"/>
                     </notatedMusic>
@@ -1323,7 +1325,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-5-5" n="5">
                     <head type="add">Haleluia. Dies sanctificatus illuxit nobis</head>
-                    <head>HALELVIA. Ex<ref target="#es-9"> Esaiæ: 9.<reg>Es 9</reg></ref></head>
+                    <head>HALELVIA. Ex<ref target="#es-9"><orig> Esaiæ: 9.</orig><reg>Es
+                            9</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_044.xml"/>
                     </notatedMusic>
@@ -1612,8 +1615,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-5-13" n="13">
                     <head type="add">Sanctus</head>
-                    <head>Sanctus. Sanctus. Sanctus <ref target="#es-6">Esaiæ: 6.<reg>Es
-                            6</reg></ref></head>
+                    <head>Sanctus. Sanctus. Sanctus <ref target="#es-6"><orig>Esaiæ:
+                                6.</orig><reg>Es 6</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_066.xml#mdiv-01"/>
                     </notatedMusic>
@@ -1625,8 +1628,8 @@
                         <l>Pleni sunt Coelj et Terra gloria tua. </l>
                     </lg>
                     <p>
-                        <ref target="#sl-118">Psal: 118.<reg>Sl 118</reg></ref>
-                        <ref target="#matt-21">Matth: 21.<reg>Matt 18</reg></ref></p>
+                        <ref target="#sl-118"><orig>Psal: 118.</orig><reg>Sl 118</reg></ref>
+                        <ref target="#matt-21"><orig>Matth: 21.</orig><reg>Matt 18</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_066.xml#mdiv-02"/>
                     </notatedMusic>
@@ -1673,7 +1676,7 @@
                         <l>Sanctus sanctus sanctus in excelsis.</l>
                     </lg>
                     <p>
-                        <ref target="#joh-1"> Iohan: 1. <reg>Joh 1</reg></ref></p>
+                        <ref target="#joh-1"><orig> Iohan: 1. </orig><reg>Joh 1</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_068.xml#mdiv-05"/>
                     </notatedMusic>
@@ -1872,8 +1875,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-6-1" n="1">
                     <head type="add">Etenim sederunt principes</head>
                     <head>Paa S. Staffens dag.</head>
-                    <head> Introitus lat. <ref target="#sl-119">Psalm: 119.<reg>Sl
-                        119</reg></ref></head>
+                    <head> Introitus lat. <ref target="#sl-119"><orig>Psalm: 119.</orig><reg>Sl
+                                119</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_075.xml"/>
                     </notatedMusic>
@@ -1914,7 +1917,8 @@
                     <head type="add">Haleluia. Video Coelos apertos</head>
                     <head>Gloria <ex>etc</ex>. Alleniste Gud i Himmerig <ex>etc</ex>. vt supra.
                         HALELVIA. <ref target="#apg-7">
-                            <hi rend="italics">Actorum</hi>, 7.<reg>ApG 7</reg></ref></head>
+                            <orig><hi rend="italics">Actorum</hi>, 7.</orig><reg>ApG
+                        7</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_079.xml"/>
                     </notatedMusic>
@@ -1980,8 +1984,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-7-1" n="1">
                     <head type="add">In medio ecclesiæ</head>
                     <head><pb facs="0097L" n="84"/>Paa S. Hans Euangeliste dag.</head>
-                    <head> Introitus Latinus. <ref target="#sir-15">Syrach, 15.<reg>Sir
-                            15</reg></ref></head>
+                    <head> Introitus Latinus. <ref target="#sir-15"><orig>Syrach, 15.</orig><reg>Sir
+                                15</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_084.xml#mdiv-01"/>
                     </notatedMusic>
@@ -1991,7 +1995,7 @@
                         <l>stolam gloriæ induit <pb facs="0098R" n="85"/> eum.</l>
                     </lg>
                     <p>
-                        <ref target="#sir-15">Syrach. 15.<reg>Sir 15</reg></ref></p>
+                        <ref target="#sir-15"><orig>Syrach. 15.</orig><reg>Sir 15</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_084.xml#mdiv-02"/>
                     </notatedMusic>
@@ -2005,8 +2009,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-7-2" n="2">
                     <head type="add">Haleluia. Hic est discipulus</head>
-                    <head><pb facs="0099L" n="86"/>HALELVIA. <ref target="#joh-21">Iohan:
-                                21.<reg>Joh 21</reg></ref></head>
+                    <head><pb facs="0099L" n="86"/>HALELVIA. <ref target="#joh-21"><orig>Iohan:
+                                21.</orig><reg>Joh 21</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_086.xml"/>
                     </notatedMusic>
@@ -2023,8 +2027,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-8-1" n="1">
                     <head type="add">Dum medium silentium teneret omnia</head>
                     <head>Den første Søndag effter Jul.</head>
-                    <head>Introitus Latinus. <ref target="#visd-18">Sapientiæ. 18.<reg>Visd
-                            18</reg></ref></head>
+                    <head>Introitus Latinus. <ref target="#visd-18"><orig>Sapientiæ.
+                                18.</orig><reg>Visd 18</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_087.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2034,8 +2038,8 @@
                         <l>omnipotens sermo tuus Domine de Coelis à regalibus sedibus venit.</l>
                     </lg>
                     <p>
-                        <pb facs="0102R" n="89"/><ref target="#sl-93">Psal: 93.<reg>Sl
-                            93</reg></ref></p>
+                        <pb facs="0102R" n="89"/><ref target="#sl-93"><orig>Psal: 93.</orig><reg>Sl
+                                93</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_087.xml#mdiv-02"/>
                     </notatedMusic>
@@ -2049,8 +2053,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-8-2" n="2">
                     <head type="add">Haleluia. Dominus regnauit</head>
-                    <head><pb facs="0103L" n="90"/>HALELVIA. <ref target="#sl-93">Psalm: 93.<reg>Sl
-                                93</reg></ref></head>
+                    <head><pb facs="0103L" n="90"/>HALELVIA. <ref target="#sl-93"><orig>Psalm:
+                                93.</orig><reg>Sl 93</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_090.xml"/>
                     </notatedMusic>
@@ -2068,7 +2072,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-9-1-jespersen-1573" n="1">
                     <head type="add">Et postquam consummati sunt dies octo</head>
                     <head>Paa Nyt Aarsdag.</head>
-                    <head>Introitus lat. <ref target="luk-2">Lucæ. 2.<reg>Luk 2</reg></ref></head>
+                    <head>Introitus lat. <ref target="#luk-2"><orig>Lucæ. 2.</orig><reg>Luk
+                            2</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_091.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2079,7 +2084,7 @@
                         <l>quod vocatum est ab Angelo, </l>
                         <l>priusquam in vtero conciperetur. </l>
                     </lg>
-                    <p> Ex <ref target="#matt-1">Matthe. 1.<reg>Matt 1</reg></ref>
+                    <p> Ex <ref target="#matt-1"><orig>Matthe. 1.</orig><reg>Matt 1</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_091.xml#mdiv-02"/>
@@ -2100,8 +2105,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-10-1" n="1">
                     <head type="add">Vultum tuum deprecabuntur omnes diuites plebis</head>
                     <head> Den Søndag imellom Nyt Aars dag och hellige tre Kongers dag. </head>
-                    <head>Introitus lati: <ref target="#sl-45">Psalm: 45.<reg>Sl
-                        45</reg></ref></head>
+                    <head>Introitus lati: <ref target="#sl-45"><orig>Psalm: 45.</orig><reg>Sl
+                                45</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_094.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2111,7 +2116,7 @@
                         <l>proximæ eius adducentur <pb facs="0108R" n="95"/> tibi in læticia et
                             exultatione.</l>
                     </lg>
-                    <p><ref target="#sl-45">Psalm: 45.<reg>Sl 45</reg></ref>
+                    <p><ref target="#sl-45"><orig>Psalm: 45.</orig><reg>Sl 45</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_094.xml#mdiv-02"/>
@@ -2127,7 +2132,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-10-2" n="2">
                     <head type="add">Haleluia. Diffusa est gratia in labiis tuis</head>
-                    <head>HALELVIA. <ref target="#sl-45">Psalm: 45.<reg>Sl 45</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-45"><orig>Psalm: 45.</orig><reg>Sl
+                            45</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_096.xml"/>
                     </notatedMusic>
@@ -2144,8 +2150,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-11-1" n="1">
                     <head type="add">Ecce advenit Dominator Dominus</head>
                     <head>Paa hellig tre Kongers dag.</head>
-                    <head>Introitus latinus. Ex <ref target="#mal-3">Malachi: 3.<reg>Mal
-                            3</reg></ref></head>
+                    <head>Introitus latinus. Ex <ref target="#mal-3"><orig>Malachi:
+                                3.</orig><reg>Mal 3</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_097.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2154,7 +2160,7 @@
                             regnum in manu eius, </l>
                         <l>et potestas et imperium.</l>
                     </lg>
-                    <p><ref target="#sl-72">Psal: 72.<reg>Sl 72</reg></ref>
+                    <p><ref target="#sl-72"><orig>Psal: 72.</orig><reg>Sl 72</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_097.xml#mdiv-02"/>
@@ -2169,7 +2175,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-11-2" n="2">
                     <head type="add">Haleluia. Vidimus stellam eius in oriente</head>
-                    <head>HALELVIA. <ref target="#matt-2">Matth: 2.<reg>Matt 2</reg></ref></head>
+                    <head>HALELVIA. <ref target="#matt-2"><orig>Matth: 2.</orig><reg>Matt
+                            2</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_099.xml"/>
                     </notatedMusic>
@@ -2188,8 +2195,9 @@
                     <head type="add">In excelso throno vidi sedere virum</head>
                     <head><pb facs="0114R" n="101"/>Den<ex>n</ex> Første Søndag effter hellig tre
                         Kongers dag.</head>
-                    <head> Introitus latinus. Ex <ref target="#es-6">Esaiæ. 6.<reg>Es 6</reg></ref>
-                        et <ref target="#apg-4">Apocal: 4.<reg>ApG 4</reg></ref></head>
+                    <head> Introitus latinus. Ex <ref target="#es-6"><orig>Esaiæ. 6.</orig><reg>Es
+                                6</reg></ref> et <ref target="#apg-4"><orig>Apocal:
+                                4.</orig><reg>ApG 4</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_101.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2200,7 +2208,7 @@
                         <l>Ecce cuius <pb facs="0115L" n="102"/> imperij nomen est in æternum.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-100">Psal: 100.<reg>Sl 100</reg></ref></p>
+                        <ref target="#sl-100"><orig>Psal: 100.</orig><reg>Sl 100</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_101.xml#mdiv-02"/>
                     </notatedMusic>
@@ -2214,7 +2222,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-12-2" n="2">
                     <head type="add">Haleluia. Iubilate Deo omnis terra</head>
-                    <head>HALELVIA. <ref target="#sl-100">Psalm: 100.<reg>Sl 100</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-100"><orig>Psalm: 100.</orig><reg>Sl
+                            100</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_103.xml"/>
                     </notatedMusic>
@@ -2231,8 +2240,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-13-1" n="1">
                     <head type="add">Omnis terra adoret te Deus</head>
                     <head>Den Anden Søndag effter hellig tre Kongers dag. </head>
-                    <head> Introitus latinus <ref target="#sl-65">Psalm: 65.<reg>Sl
-                        65</reg></ref></head>
+                    <head> Introitus latinus <ref target="#sl-65"><orig>Psalm: 65.</orig><reg>Sl
+                                65</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_104.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2240,7 +2249,7 @@
                         <l> OMnis terra adoret te Deus, et psallat tibi, psalmum dicat <pb
                                 facs="0118R" n="105"/>nomini tuo altissime.</l>
                     </lg>
-                    <p><ref target="#sl-65">Psalm: 65.<reg>Sl 65</reg></ref></p>
+                    <p><ref target="#sl-65"><orig>Psalm: 65.</orig><reg>Sl 65</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_104.xml#mdiv-02"/>
                     </notatedMusic>
@@ -2255,7 +2264,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-13-2" n="2">
                     <head type="add">Haleluia. Laudate Deum omnes Angeli eius</head>
-                    <head>HALELVIA <ref target="#sl-148">Psalm: 148.<reg>Sl 148</reg></ref></head>
+                    <head>HALELVIA <ref target="#sl-148"><orig>Psalm: 148.</orig><reg>Sl
+                            148</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_106.xml"/>
                     </notatedMusic>
@@ -2273,8 +2283,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-14-1" n="1">
                     <head type="add">Adorate Deum omnes angeli eius</head>
                     <head>Den<ex>n</ex> Tredie Søndag effter hellig tre Kongers dag. </head>
-                    <head> Introitus latinus <ref target="#sl-97">Psalm: 97.<reg>Sl
-                        97</reg></ref></head>
+                    <head> Introitus latinus <ref target="#sl-97"><orig>Psalm: 97.</orig><reg>Sl
+                                97</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_107.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2283,7 +2293,7 @@
                             lætata est Sion, et exultauerunt Filiæ Iudæ.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-97">Psalm: 97.<reg>Sl 97</reg></ref>
+                        <ref target="#sl-97"><orig>Psalm: 97.</orig><reg>Sl 97</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_107.xml#mdiv-02"/>
@@ -2299,7 +2309,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-14-2" n="2">
                     <head type="add">Haleluia. Dominus regnauit</head>
-                    <head>HALELVIA. <ref target="#sl-97">Psalm: 97.<reg>Sl 97</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-97"><orig>Psalm: 97.</orig><reg>Sl
+                            97</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_109.xml"/>
                     </notatedMusic>
@@ -2668,7 +2679,8 @@
                             <lem>Stad</lem>
                             <rdg wit="#orig">Satd</rdg>
                         </app><ex>etc</ex>. <hi rend="italics">vt supra.</hi> Introitus latinus.
-                            <ref target="#sl-18">Psalm: 18.<reg>Sl 18</reg></ref></head>
+                            <ref target="#sl-18"><orig>Psalm: 18.</orig><reg>Sl
+                        18</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_122.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2679,7 +2691,7 @@
                         <l>et exaudiuit de Templo sancto suo vocem meam.</l>
                     </lg>
                     <p>
-                        <ref target="sl-18#">Psal: 18.<reg>Sl 18</reg></ref>
+                        <ref target="sl-18#"><orig>Psal: 18.</orig><reg>Sl 18</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_122.xml#mdiv-02"/>
@@ -2700,7 +2712,7 @@
                             <ex>etc</ex>. Haleluia Vdi Kiøbstæderne ind til den Søndag <hi
                             rend="italics">Inuocauit</hi>, Maa være denne effterfølgende <hi
                             rend="italics">tractus:</hi> met/ Nu bede wi den hellig Aand. <ref
-                            target="#sl-130">Psalm: 130.<reg>Sl 130</reg></ref></head>
+                            target="#sl-130"><orig>Psalm: 130.</orig><reg>Sl 130</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_124.xml"/>
                     </notatedMusic>
@@ -2722,8 +2734,8 @@
                     <head type="add">Exurge [og] Deus auribus nostris</head>
                     <head>Den Søndag Sexagesima. </head>
                     <head>Introitus Dansk. Jerusalem du hellige Stad <ex>etc</ex>.</head>
-                    <head> Introitus latinus <ref target="#sl-44">Psal: 44.<reg>Sl
-                        44</reg></ref></head>
+                    <head> Introitus latinus <ref target="#sl-44"><orig>Psal: 44.</orig><reg>Sl
+                                44</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_126.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2739,8 +2751,8 @@
                         <l>adiuua nos, </l>
                         <l>et libera <pb facs="0141L" n="128"/> nos. </l>
                     </lg>
-                    <p><ref target="#sl-44"><hi rend="italics">Psal:</hi> 44:<reg>Sl
-                        44</reg></ref></p>
+                    <p><ref target="#sl-44"><orig><hi rend="italics">Psal:</hi> 44:</orig><reg>Sl
+                                44</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_126.xml#mdiv-02"/>
                     </notatedMusic>
@@ -2846,8 +2858,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-19-2" n="2">
                     <head type="add">Esto mihi in Deum protectorem</head>
-                    <head><pb facs="0145L" n="132"/>Introitus latinus. <ref target="#sl-31">Psalm:
-                                31.<reg>Sl 31</reg></ref></head>
+                    <head><pb facs="0145L" n="132"/>Introitus latinus. <ref target="#sl-31"
+                                ><orig>Psalm: 31.</orig><reg>Sl 31</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_132.xml#mdiv-01"/>
                     </notatedMusic>
@@ -2861,7 +2873,7 @@
                         <l>et enutries me. </l>
                     </lg>
                     <p>
-                        <ref target="#sl-31">Psal: 31.<reg>Sl 31</reg></ref></p>
+                        <ref target="#sl-31"><orig>Psal: 31.</orig><reg>Sl 31</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_132.xml#mdiv-02"/>
                     </notatedMusic>
@@ -2945,8 +2957,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-20-2" n="2">
                     <head type="add">Inuocauit me</head>
-                    <head>Introitus latinus <ref target="#sl-91">Psal: 91.<reg>Sl
-                        91</reg></ref></head>
+                    <head>Introitus latinus <ref target="#sl-91"><orig>Psal: 91.</orig><reg>Sl
+                                91</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_136.xml"/>
                     </notatedMusic>
@@ -2969,8 +2981,8 @@
                         nobis</head>
                     <head>Kyrie <ex>etc</ex>. vt Dominica <hi rend="italics">prima Aduentus.</hi>
                         Vdi steden for Haleluia skal vdi Kiøbstederne/ paa alle Søndager i Fasten/
-                        siungis denne effterfølgendis Tract. <ref target="#sl-103">Psalm:
-                                103.<reg>Sl 103</reg></ref>
+                        siungis denne effterfølgendis Tract. <ref target="#sl-103"><orig>Psalm:
+                                103.</orig><reg>Sl 103</reg></ref>
                     </head>
                     <p>
                         <hi rend="italics">Duo Pueri.</hi>
@@ -2989,8 +3001,8 @@
                         <l>Domine non secundum peccata nostra faci<pb facs="0152R" n="139"/>as
                             nobis, neque secundu<ex>m</ex> iniquitates nostras retribuas nobis. </l>
                     </lg>
-                    <p>Duo Pueri sequentem versum. <ref target="#sl-79">Psal: 79.<reg>Sl
-                            79</reg></ref>
+                    <p>Duo Pueri sequentem versum. <ref target="#sl-79"><orig>Psal:
+                                79.</orig><reg>Sl 79</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_138.xml#mdiv-03"/>
@@ -3000,7 +3012,7 @@
                         <l><pb facs="0153L" n="140"/>Cito anticipent nos misericordiæ tuæ. </l>
                         <l>Quia pauperes facti sumus nimis. </l>
                     </lg>
-                    <p>Chorus.<ref target="#sl-79">Psal: 79.<reg>Sl 79</reg></ref></p>
+                    <p>Chorus.<ref target="#sl-79"><orig>Psal: 79.</orig><reg>Sl 79</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_138.xml#mdiv-04"/>
                     </notatedMusic>
@@ -3271,8 +3283,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-21-1" n="1">
                     <head type="add">Reminiscere miserationum tuarum Domine</head>
                     <head>Den<ex>n</ex> Anden Søndag i Faste.</head>
-                    <head>Introitus latinus. <ref target="#sl-25">Psalm: 25.<reg>Sl
-                        25</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-25"><orig>Psalm: 25.</orig><reg>Sl
+                                25</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_150.xml"/>
                     </notatedMusic>
@@ -3303,8 +3315,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-22-1" n="1">
                     <head type="add">Oculi mei semper ad Dominum</head>
                     <head><pb facs="0166R" n="153"/>Den Tredie Søndag i Faste.</head>
-                    <head>Introitus latinus. <ref target="#sl-25">Psalm: 25.<reg>Sl
-                        25</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-25"><orig>Psalm: 25.</orig><reg>Sl
+                                25</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_153.xml"/>
                     </notatedMusic>
@@ -3327,8 +3339,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-23-1" n="1">
                     <head type="add">Lætare Jerusalem</head>
                     <head>Paa Medfaste Søndag.</head>
-                    <head>Introitus latinus <ref target="#sl-66">Psalm: 66.<reg>Sl
-                        66</reg></ref></head>
+                    <head>Introitus latinus <ref target="#sl-66"><orig>Psalm: 66.</orig><reg>Sl
+                                66</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_155.xml#mdiv-01"/>
                     </notatedMusic>
@@ -3341,7 +3353,7 @@
                         <l>ab vberibus consolationis <pb facs="0170R" n="157"/> vestræ. </l>
                     </lg>
                     <p>
-                        <ref target="#sl-122">Psal: 122. <reg>Sl 122</reg></ref></p>
+                        <ref target="#sl-122"><orig>Psal: 122. </orig><reg>Sl 122</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_155.xml#mdiv-02"/>
                     </notatedMusic>
@@ -3363,8 +3375,8 @@
                     <head type="add">Rorate Coeli desuper</head>
                     <head><pb facs="0171L" n="158"/>Marie Bebudelsisdag.</head>
                     <head>Introitus Dansk/ Jesu Christ som Mandom tog: Som paa Kyndelmisse dag.
-                        Introitus latinus <ref target="#sl-45">Psal: 45.<reg>Sl
-                        45</reg></ref></head>
+                        Introitus latinus <ref target="#sl-45"><orig>Psal: 45.</orig><reg>Sl
+                                45</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_158.xml#mdiv-01"/>
                     </notatedMusic>
@@ -3376,7 +3388,7 @@
                     </lg>
                     <p>
                         <pb facs="0172R" n="159"/>
-                        <ref target="#sl-19">Psalm: 19.<reg>Sl 19</reg></ref>
+                        <ref target="#sl-19"><orig>Psalm: 19.</orig><reg>Sl 19</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_158.xml#mdiv-02"/>
@@ -3396,7 +3408,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-angelus-domini-nuntiauit-mariae">
                     <head type="add">Haleluia. Angelus Domini nuntiauit Mariæ</head>
-                    <head>HALELVIA. Ex <ref target="#luk-1">Lucæ, 1.<reg>Luk 1</reg></ref></head>
+                    <head>HALELVIA. Ex <ref target="#luk-1"><orig>Lucæ, 1.</orig><reg>Luk
+                            1</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_160.xml"/>
                     </notatedMusic>
@@ -3421,8 +3434,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-25-1" n="1">
                     <head type="add">Iudica me Deus</head>
                     <head>Den Søndag effter Medfaste.</head>
-                    <head>Introitus latinus. <ref target="#sl-43">Psalm: 43.<reg>Sl
-                        43</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-43"><orig>Psalm: 43.</orig><reg>Sl
+                                43</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_161.xml#mdiv-01"/>
                     </notatedMusic>
@@ -3434,7 +3447,7 @@
                         <l>et fortitudo mea. </l>
                     </lg>
                     <p>
-                        <ref target="#sl-43">Psalm: 43.<reg>Sl 43</reg></ref>
+                        <ref target="#sl-43"><orig>Psalm: 43.</orig><reg>Sl 43</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_161.xml#mdiv-02"/>
@@ -3453,8 +3466,8 @@
                 <div type="psalm" xml:lang="la" xml:id="section-26-1" n="1">
                     <head type="add">Domine ne longe facias</head>
                     <head><pb facs="0177L" n="164"/>Paa Palme Søndag.</head>
-                    <head>Introitus latinus. <ref target="#sl-22">Psalm: 22.<reg>Sl
-                        22</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-22"><orig>Psalm: 22.</orig><reg>Sl
+                                22</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_164.xml#mdiv-01"/>
                     </notatedMusic>
@@ -3465,7 +3478,7 @@
                         <l>et <pb facs="0178R" n="165"/>à cornibus vnicornium humilitatem meam.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-22">Psalm: 22.<reg>Sl 22</reg></ref>
+                        <ref target="#sl-22"><orig>Psalm: 22.</orig><reg>Sl 22</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_164.xml#mdiv-02"/>
@@ -3486,8 +3499,8 @@
                     <head type="add">Nos autem gloriari oportet in cruce Domini</head>
                     <head>Paa Skiertorsdag.</head>
                     <head> Introitus Dansk. Aff dybsens nød: <hi rend="italics">vt
-                        supra.</hi>Introitus latinus. Ex <ref target="#gal-6">Galat: 6.<reg>Gal
-                                6</reg></ref></head>
+                        supra.</hi>Introitus latinus. Ex <ref target="#gal-6"><orig>Galat:
+                                6.</orig><reg>Gal 6</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_166.xml#mdiv-01"/>
                     </notatedMusic>
@@ -3497,7 +3510,7 @@
                         <l>in quo est salus vita et resurrectio nostra, </l>
                         <l>per quem saluati et liberati sumus.</l>
                     </lg>
-                    <p><ref target="#sl-67">Psalm: 67.<reg>Sl 67</reg></ref></p>
+                    <p><ref target="#sl-67"><orig>Psalm: 67.</orig><reg>Sl 67</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_166.xml#mdiv-02"/>
                     </notatedMusic>
@@ -3519,14 +3532,14 @@
                     <head type="add">Discubuit Jesus et Discipuli eius cum eo</head>
                     <head><pb facs="0182R" n="169"/>Haleluia paa Danske/ vdi Landskircker/ som paa
                         Søndag <hi rend="italics">Inuocauit:</hi> Men vdi Kiøbstæder for Haleluia/
-                        som her effter følger. <ref target="#matt-26">Matth. 26.<reg>Matt
-                            26</reg></ref>
-                        <ref target="#mark-14">Mar: 14.<reg>Mark 14</reg></ref>
-                        <ref target="#luk-22">Lucæ, 22.<reg>Luk 22</reg></ref>
-                        <ref target="#kor-1-11"><app>
-                                <lem>1. Corinth</lem>
-                                <rdg wit="#orig">Coriuth</rdg>
-                            </app>: 11.<reg>1 Kor 11</reg></ref></head>
+                        som her effter følger. <ref target="#matt-26"><orig>Matth.
+                                26.</orig><reg>Matt 26</reg></ref>
+                        <ref target="#mark-14"><orig>Mar: 14.</orig><reg>Mark 14</reg></ref>
+                        <ref target="#luk-22"><orig>Lucæ, 22.</orig><reg>Luk 22</reg></ref>
+                        <ref target="#kor-1-11"><orig><app>
+                                    <lem>1. Corinth</lem>
+                                    <rdg wit="#orig">Coriuth</rdg>
+                                </app>: 11.</orig><reg>1 Kor 11</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_169.xml#mdiv-01"/>
                     </notatedMusic>
@@ -4157,8 +4170,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-29-2" n="2">
                     <head type="add">Resurrexi et adhuc tecum sum</head>
-                    <head>Introitus latinus <ref target="#sl-139">Psalm: 139.<reg>Sl
-                        139</reg></ref></head>
+                    <head>Introitus latinus <ref target="#sl-139"><orig>Psalm: 139.</orig><reg>Sl
+                                139</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_188.xml#mdiv-01"/>
                     </notatedMusic>
@@ -4172,7 +4185,7 @@
                         <l>haleluia.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-139">Psal: 139.<reg>Sl 139</reg></ref>
+                        <ref target="#sl-139"><orig>Psal: 139.</orig><reg>Sl 139</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_188.xml#mdiv-02"/>
@@ -4236,8 +4249,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="section-29-5" n="5">
                     <head type="add">Haleluia. Pascha nostrum immolatus est Christus</head>
-                    <head><pb facs="0208R" n="195"/>HALELVIA. <ref target="#kor-1-5">1. Corinth.
-                                5.<reg>1 Kor 5</reg></ref></head>
+                    <head><pb facs="0208R" n="195"/>HALELVIA. <ref target="#kor-1-5"><orig>1.
+                                Corinth. 5.</orig><reg>1 Kor 5</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_195.xml"/>
                     </notatedMusic>
@@ -4690,8 +4703,8 @@
                 <div type="psalm" xml:lang="la" xml:id="quasi-modo" n="1">
                     <head type="add">Quasi modo geniti infantes</head>
                     <head>Den første Søndag effter Paaske. </head>
-                    <head>Introitus latinus. <ref target="#pet-1-2">1. Pet: 2.<reg>1 Pet
-                            2</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#pet-1-2"><orig>1. Pet: 2.</orig><reg>1
+                                Pet 2</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_220.xml#mdiv-01"/>
                     </notatedMusic>
@@ -4702,7 +4715,7 @@
                         <l>Haleluia, Haleluia, Haleluia.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-81">Psalm: 81.<reg>Sl 81</reg></ref>
+                        <ref target="#sl-81"><orig>Psalm: 81.</orig><reg>Sl 81</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_220.xml#mdiv-02"/>
@@ -4718,7 +4731,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-angelus-domini" n="2">
                     <head type="add">Haleluia. Angelus Domini descendit de coelo</head>
-                    <head>HALELVIA. <ref target="#matt-28">Matth. 28.<reg>Matt 28</reg></ref></head>
+                    <head>HALELVIA. <ref target="#matt-28"><orig>Matth. 28.</orig><reg>Matt
+                            28</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_222.xml"/>
                     </notatedMusic>
@@ -4742,8 +4756,8 @@
                 <div type="psalm" xml:lang="la" xml:id="misericordia-domini" n="1">
                     <head type="add">Misericordia Domini plena est terra</head>
                     <head><pb facs="0237L" n="224"/>Den<ex>n</ex> Anden Søndag effter Paaske.</head>
-                    <head>Introitus latinus. <ref target="#sl-33">Psalm:33.<reg>Sl
-                        33</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-33"><orig>Psalm:33.</orig><reg>Sl
+                                33</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_224.xml#mdiv-01"/>
                     </notatedMusic>
@@ -4754,7 +4768,7 @@
                         <l>Haleluia, Haleluia.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-33">Psalm: 33.<reg>Sl 33</reg></ref>
+                        <ref target="#sl-33"><orig>Psalm: 33.</orig><reg>Sl 33</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_224.xml#mdiv-02"/>
@@ -4771,8 +4785,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-surrexit-pastor-bonus" n="2">
                     <head type="add">Haleluia. Surrexit Pastor bonus</head>
-                    <head><pb facs="0239L" n="226"/>HALELVIA. Ex <ref target="#joh-10">Ioh:
-                                10.<reg>Joh 10</reg></ref></head>
+                    <head><pb facs="0239L" n="226"/>HALELVIA. Ex <ref target="#joh-10"><orig>Ioh:
+                                10.</orig><reg>Joh 10</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_226.xml"/>
                     </notatedMusic>
@@ -4790,8 +4804,8 @@
                 <div type="psalm" xml:lang="la" xml:id="iubilate-deo-omnis-terra" n="1">
                     <head type="add">Iubilate Deo omnis terra</head>
                     <head>Den<ex>n</ex> Tredie Søndag effter Paaske.</head>
-                    <head> Introitus latinus. <ref target="#sl-66">Psalm: 66.<reg>Sl
-                        66</reg></ref></head>
+                    <head> Introitus latinus. <ref target="#sl-66"><orig>Psalm: 66.</orig><reg>Sl
+                                66</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_227.xml#mdiv-01"/>
                     </notatedMusic>
@@ -4804,7 +4818,7 @@
                         <l>Haleluia, Haleluia, Haleluia.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-66">Psalm: 66.<reg>Sl 66</reg></ref>
+                        <ref target="#sl-66"><orig>Psalm: 66.</orig><reg>Sl 66</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_227.xml#mdiv-02"/>
@@ -4822,9 +4836,9 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-surgens-jesus-dominus-noster" n="2">
                     <head type="add">Haleluia. Surgens Jesus Dominus noster</head>
-                    <head><pb facs="0243L" n="230"/>HALELVIA. <ref target="#luk-24">Lucæ.
-                                24.<reg>Luk 24</reg></ref>
-                        <ref target="#joh-20">Ioh: 20.<reg>Joh 20</reg></ref></head>
+                    <head><pb facs="0243L" n="230"/>HALELVIA. <ref target="#luk-24"><orig>Lucæ.
+                                24.</orig><reg>Luk 24</reg></ref>
+                        <ref target="#joh-20"><orig>Ioh: 20.</orig><reg>Joh 20</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_230.xml"/>
                     </notatedMusic>
@@ -4844,8 +4858,8 @@
                 <div type="psalm" xml:lang="la" xml:id="cantate-domino" n="1">
                     <head type="add">Cantate Domino canticum novum</head>
                     <head>Den fierde Søndag effter Paaske.</head>
-                    <head>Introitus latinus. <ref target="#sl-98">Psalm: 98.<reg>Sl
-                        98</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-98"><orig>Psalm: 98.</orig><reg>Sl
+                                98</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_231.xml#mdiv-01"/>
                     </notatedMusic>
@@ -4858,7 +4872,7 @@
                         <l>Haleluia, Haleluia. </l>
                     </lg>
                     <p>
-                        <ref target="#sl-98">Psalm: 98.<reg>Sl 98</reg></ref>
+                        <ref target="#sl-98"><orig>Psalm: 98.</orig><reg>Sl 98</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_231.xml#mdiv-02"/>
@@ -4894,7 +4908,7 @@
                     </lg>
                     <p>
                         <pb facs="0248R" n="235"/>
-                        <ref target="#sl-66">Psalm: 66.<reg>Sl 66</reg></ref>
+                        <ref target="#sl-66"><orig>Psalm: 66.</orig><reg>Sl 66</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_233.xml#mdiv-02"/>
@@ -4926,8 +4940,8 @@
                 <div type="psalm" xml:lang="la" xml:id="viri-galilaei" n="1">
                     <head type="add">Viri Galilæi</head>
                     <head>Vor Herris Himmelferds dag.</head>
-                    <head>Introitus latinus. <ref target="#apg-1">Actorum.1.<reg>ApG
-                        1</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#apg-1"><orig>Actorum.1.</orig><reg>ApG
+                                1</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_237.xml#mdiv-01"/>
                     </notatedMusic>
@@ -4941,7 +4955,7 @@
                         <l>ita veniet. </l>
                         <l>Haleluia, Haleluia, Haleluia.</l>
                     </lg>
-                    <p><ref target="#sl-47">Psal: 47.<reg>Sl 47</reg></ref></p>
+                    <p><ref target="#sl-47"><orig>Psal: 47.</orig><reg>Sl 47</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_237.xml#mdiv-02"/>
                     </notatedMusic>
@@ -4956,7 +4970,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-ascendit-deus" n="2">
                     <head type="add">Haleluia. Ascendit Deus in iubilatione</head>
-                    <head>HALELVIA. <ref target="#sl-47">Psalm: 47.<reg>Sl 47</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-47"><orig>Psalm: 47.</orig><reg>Sl
+                            47</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_239.xml"/>
                     </notatedMusic>
@@ -4973,8 +4988,8 @@
                 <div type="psalm" xml:lang="la" xml:id="exaudi-domine" n="1">
                     <head type="add">Exaudi Domine vocem meam</head>
                     <head>Den siette Søndag effter Paaske.</head>
-                    <head>Introitus latinus. <ref target="#sl-27">Psalm: 27.<reg>Sl
-                        27</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-27"><orig>Psalm: 27.</orig><reg>Sl
+                                27</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_240.xml#mdiv-01"/>
                     </notatedMusic>
@@ -4990,7 +5005,7 @@
                     </lg>
                     <p>
                         <pb facs="0255L" n="242"/>
-                        <ref target="#sl-27">Psal: 27.<reg>Sl 27</reg></ref>
+                        <ref target="#sl-27"><orig>Psal: 27.</orig><reg>Sl 27</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_240.xml#mdiv-02"/>
@@ -5006,9 +5021,9 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-ascendens-christus" n="2">
                     <head type="add">Haleluia. Ascendens Christus in altum</head>
-                    <head><pb facs="0256R" n="243"/>Haleluia. <ref target="#sl-68">Psal: 68.<reg>Sl
-                                68</reg></ref><ref target="#es-4">Ephes: 4.<reg>Es
-                        4</reg></ref></head>
+                    <head><pb facs="0256R" n="243"/>Haleluia. <ref target="#sl-68"><orig>Psal:
+                                68.</orig><reg>Sl 68</reg></ref><ref target="#ef-4"><orig>Ephes:
+                                4.</orig><reg>Ef 4</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_243.xml"/>
                     </notatedMusic>
@@ -5043,8 +5058,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="spiritus-domini" n="2">
                     <head type="add">Spiritus Domini repleuit orbem terrarum</head>
-                    <head>Introitus latinus. <ref target="#visd-1">Sapientiæ, 1.<reg>Visd
-                            1</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#visd-1"><orig>Sapientiæ,
+                                1.</orig><reg>Visd 1</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_245.xml#mdiv-01"/>
                     </notatedMusic>
@@ -5055,7 +5070,7 @@
                         <l>scientiam habet vocis. </l>
                         <l>Haleluia, Haleluia, Haleluia.</l>
                     </lg>
-                    <p><ref target="#sl-68">Psalm: 68.<reg>Sl 68</reg></ref>
+                    <p><ref target="#sl-68"><orig>Psalm: 68.</orig><reg>Sl 68</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_245.xml#mdiv-02"/>
@@ -5513,8 +5528,8 @@
                 <div type="psalm" xml:lang="la" xml:id="haleluia-benedictus-es-domine-deus" n="3">
                     <head type="add">Haleluia. Benedictus es Domine Deus Patrum nostrorum</head>
                     <head><pb facs="0289L" n="276"/>Kyrie et Gloria in excelsis, vt in die
-                        Pentecostes. HALELVIA. <ref target="#dan-3">Daniel: 3.<reg>Dan
-                        3</reg></ref></head>
+                        Pentecostes. HALELVIA. <ref target="#dan-3"><orig>Daniel: 3.</orig><reg>Dan
+                                3</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_276.xml"/>
                     </notatedMusic>
@@ -5624,7 +5639,7 @@
                     <head type="add">Domine in tua misericordia speraui</head>
                     <head><pb facs="0299L" n="286"/>Den første Søndag effter Trinitatis.</head>
                     <head>Introitus Dansk. vide Dominica Trinitatis. Introitus latinus. <ref
-                            target="#sl-13">Psalm: 13.<reg>Sl 13</reg></ref></head>
+                            target="#sl-13"><orig>Psalm: 13.</orig><reg>Sl 13</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_286.xml#mdiv-01"/>
                     </notatedMusic>
@@ -5635,7 +5650,7 @@
                         <l>qui bona tribuit mihi.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-13">Psal: 13.<reg>Sl 13</reg></ref></p>
+                        <ref target="#sl-13"><orig>Psal: 13.</orig><reg>Sl 13</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_286.xml#mdiv-02"/>
                     </notatedMusic>
@@ -5793,8 +5808,8 @@
                 <div type="psalm" xml:lang="la" xml:id="factus-est-dominus-protector-meus" n="1">
                     <head type="add">Factus est Dominus protector meus</head>
                     <head>Den Anden Søndag effter Trinitatis.</head>
-                    <head>Introitus latinus. <ref target="#sl-18">Psalm: 18.<reg>Sl
-                        18</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-18"><orig>Psalm: 18.</orig><reg>Sl
+                                18</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_293.xml"/>
                     </notatedMusic>
@@ -5813,7 +5828,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-deus-iudex-iustus" n="2">
                     <head type="add">Haleluia. Deus iudex iustus</head>
-                    <head>HALELVIA. <ref target="#sl-7">Psalm: 7.<reg>Sl 7</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-7"><orig>Psalm: 7.</orig><reg>Sl
+                        7</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_295.xml"/>
                     </notatedMusic>
@@ -5832,8 +5848,8 @@
                 <div type="psalm" xml:lang="la" xml:id="respice-in-me" n="1">
                     <head type="add">Respice in me et miserere mei Domine</head>
                     <head>Den<ex>n</ex> Tredie Søndag effter Trinitatis.</head>
-                    <head>Introitus latinus. <ref target="#sl-25">Psalm: 25.<reg>Sl
-                        25</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-25"><orig>Psalm: 25.</orig><reg>Sl
+                                25</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_296.xml"/>
                     </notatedMusic>
@@ -5854,7 +5870,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-diligam-te-domine" n="2">
                     <head type="add">Haleluia. Diligam te Domine virtus mea</head>
-                    <head>Haleluia. <ref target="#sl-18">Psal: 18.<reg>Sl 18</reg></ref></head>
+                    <head>Haleluia. <ref target="#sl-18"><orig>Psal: 18.</orig><reg>Sl
+                            18</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_298.xml"/>
                     </notatedMusic>
@@ -5875,8 +5892,8 @@
                     <head type="add">Dominus illuminatio mea</head>
                     <head><pb facs="0313L" n="300"/>Den<ex>n</ex> Fierde Søndag effter
                         Trinitatis.</head>
-                    <head>Introitus latinus. <ref target="#sl-27">Psalm: 27.<reg>Sl
-                        27</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-27"><orig>Psalm: 27.</orig><reg>Sl
+                                27</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_300.xml"/>
                     </notatedMusic>
@@ -5898,7 +5915,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-domine-in-virtute" n="2">
                     <head type="add">Haleluia. Domine et virtute tua lætabitur rex</head>
-                    <head>Haleluia. <ref target="#sl-21">Psal: 21.<reg>Sl 21</reg></ref></head>
+                    <head>Haleluia. <ref target="#sl-21"><orig>Psal: 21.</orig><reg>Sl
+                            21</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_302.xml"/>
                     </notatedMusic>
@@ -5990,8 +6008,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="de-ventre-matris" n="2">
                     <head type="add">De ventre matris meæ</head>
-                    <head>Introitus latinus. <ref target="#es-49">Esaiæ, 49.<reg>Es
-                        49</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#es-49"><orig>Esaiæ, 49.</orig><reg>Es
+                                49</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_306.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6002,7 +6020,7 @@
                         <l>posuit me quasi sagittam electam.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-92">Psalm: 92.<reg>Sl 92</reg></ref></p>
+                        <ref target="#sl-92"><orig>Psalm: 92.</orig><reg>Sl 92</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_306.xml#mdiv-02"/>
                     </notatedMusic>
@@ -6018,7 +6036,8 @@
                 <div type="psalm" xml:lang="la" xml:id="haleluia-inter-natos" n="3">
                     <head type="add">Haleluia. Inter natos mulierum non surrexit maior Johanne
                         Baptista</head>
-                    <head>HALELVIA. <ref target="#matt-11">Matth. 11.<reg>Matt 11</reg></ref></head>
+                    <head>HALELVIA. <ref target="#matt-11"><orig>Matth. 11.</orig><reg>Matt
+                            11</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_308.xml"/>
                     </notatedMusic>
@@ -6265,8 +6284,8 @@
                 </div>
                 <div type="psalm" xml:lang="lat" xml:id="gaudeamus-omnes-in-domino" n="2">
                     <head type="add">Gaudeamus omnes in Domino</head>
-                    <head>Introitus latinus. Ex <ref target="#luk-1">Lu: 1.<reg>Luk
-                        1</reg></ref></head>
+                    <head>Introitus latinus. Ex <ref target="#luk-1"><orig>Lu: 1.</orig><reg>Luk
+                                1</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_315.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6277,7 +6296,7 @@
                         <l>Quem exultans in vtero Johannes agnouit, </l>
                         <l>et confessus est filium Dei.</l>
                     </lg>
-                    <p><ref target="#sl-113">Psalm: 113.<reg>Sl 113</reg></ref>
+                    <p><ref target="#sl-113"><orig>Psalm: 113.</orig><reg>Sl 113</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_315.xml#mdiv-02"/>
@@ -6309,8 +6328,8 @@
                         Trinitatis.</head>
                     <head>Introitus Dansk.</head>
                     <p>Som paa S. Hans dag. Oc skal fremdelis siungis til Dominicam Nonam
-                        Trinitatis. Introitus latinus. <ref target="#sl-27">Psalm: 27.<reg>Sl
-                                27</reg></ref></p>
+                        Trinitatis. Introitus latinus. <ref target="#sl-27"><orig>Psalm:
+                                27.</orig><reg>Sl 27</reg></ref></p>
 
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_318.xml#mdiv-01"/>
@@ -6323,7 +6342,7 @@
                         <l>neque despici<pb rend="=" facs="0332R" n="319"/>as me, </l>
                         <l>Deus salutaris meus.</l>
                     </lg>
-                    <p><ref target="#sl-27">Psal: 27.<reg>Sl 27</reg></ref></p>
+                    <p><ref target="#sl-27"><orig>Psal: 27.</orig><reg>Sl 27</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_318.xml#mdiv-02"/>
                     </notatedMusic>
@@ -6339,7 +6358,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-in-te-domine-speraui" n="2">
                     <head type="add">Haleluia. In te Domine speraui</head>
-                    <head>HALELVIA. <ref target="#sl-71">Psalm: 71.<reg>Sl 71</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-71"><orig>Psalm: 71.</orig><reg>Sl
+                            71</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_320.xml"/>
                     </notatedMusic>
@@ -6362,8 +6382,8 @@
                 <div type="psalm" xml:lang="la" xml:id="dominus-fortitudo" n="1">
                     <head type="add">Dominus fortitudo plebis suæ</head>
                     <head>Den Siette Søndag effter Trinitatis.</head>
-                    <head>Introitus latinus. <ref target="#sl-28">Psalm: 28.<reg>Sl
-                        28</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-28"><orig>Psalm: 28.</orig><reg>Sl
+                                28</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_321.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6376,7 +6396,7 @@
                     </lg>
                     <p>
                         <pb facs="0336R" n="323"/>
-                        <ref target="#sl-28">Psalm: 28.<reg>Sl 28</reg></ref>
+                        <ref target="#sl-28"><orig>Psalm: 28.</orig><reg>Sl 28</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_321.xml#mdiv-02"/>
@@ -6392,8 +6412,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-omnes-gentes-plaudite" n="2">
                     <head type="add">Haleluia. Omnes gentes plaudite manibus</head>
-                    <head><pb facs="0337L" n="324"/>HALELVIA. <ref target="#sl-47">Psalm: 47.<reg>Sl
-                                47</reg></ref></head>
+                    <head><pb facs="0337L" n="324"/>HALELVIA. <ref target="#sl-47"><orig>Psalm:
+                                47.</orig><reg>Sl 47</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_324.xml"/>
                     </notatedMusic>
@@ -6411,8 +6431,8 @@
                 <div type="psalm" xml:lang="la" xml:id="omnes-gentes-plaudite-manibus" n="1">
                     <head type="add">Omnes gentes plaudite manibus</head>
                     <head>Den<ex>n</ex> Siuende Søndag effter Trinitatis. </head>
-                    <head>Introitus latinus. <ref target="#sl-47">Psalm: 47.<reg>Sl
-                        47</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-47"><orig>Psalm: 47.</orig><reg>Sl
+                                47</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_325.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6423,7 +6443,7 @@
                         <l>Haleluia, Haleluia, Haleluia. </l>
                     </lg>
                     <p>
-                        <ref target="#sl-47">Psal: 47.<reg>Sl 47</reg></ref>
+                        <ref target="#sl-47"><orig>Psal: 47.</orig><reg>Sl 47</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_325.xml#mdiv-02"/>
@@ -6439,7 +6459,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-eripe-me" n="2">
                     <head type="add">Haleluia. Eripe me de inimicis meis Deus meus</head>
-                    <head>HALELVIA. <ref target="#sl-59">Psalm: 59.<reg>Sl 59</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-59"><orig>Psalm: 59.</orig><reg>Sl
+                            59</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_327.xml"/>
                     </notatedMusic>
@@ -6457,8 +6478,8 @@
                 <div type="psalm" xml:lang="la" xml:id="suscepimus-deus" n="1">
                     <head type="add">Suscepimus Deus misericordiam tuam</head>
                     <head>Den Ottende Søndag effter Trinitatis. </head>
-                    <head>Introitus latinus. <ref target="#sl-48">Psalm: 48.<reg>Sl
-                        48</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-48"><orig>Psalm: 48.</orig><reg>Sl
+                                48</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_328.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6470,7 +6491,7 @@
                         <l>iustitia plena est dextera tua.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-48">Psalm: 48.<reg>Sl 48</reg></ref>
+                        <ref target="#sl-48"><orig>Psalm: 48.</orig><reg>Sl 48</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_328.xml#mdiv-02"/>
@@ -6486,8 +6507,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-te-decet-hymnus-deus-in-syon" n="2">
                     <head type="add">Haleluia. Te decet hymnus Deus in Syon</head>
-                    <head><pb facs="0344R" n="331"/>Haleluia. <ref target="#sl-65">Psal: 65.<reg>Sl
-                                65</reg></ref></head>
+                    <head><pb facs="0344R" n="331"/>Haleluia. <ref target="#sl-65"><orig>Psal:
+                                65.</orig><reg>Sl 65</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_331.xml"/>
                     </notatedMusic>
@@ -6560,8 +6581,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="ecce-deus" n="2">
                     <head type="add">Ecce deus adiuvat me</head>
-                    <head>Introitus latinus. <ref target="#sl-54">Psalm: 54.<reg>Sl
-                        54</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-54"><orig>Psalm: 54.</orig><reg>Sl
+                                54</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_334.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6571,7 +6592,7 @@
                         <l>auerte mala inimicis meis in veritate <pb facs="0348R" n="335"/> tua, </l>
                         <l>disperge illos protector meus Domine.</l>
                     </lg>
-                    <p><ref target="#sl-54">Psalm: 54<reg>Sl 54</reg></ref></p>
+                    <p><ref target="#sl-54"><orig>Psalm: 54</orig><reg>Sl 54</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_334.xml#mdiv-02"/>
                     </notatedMusic>
@@ -6587,7 +6608,8 @@
                 <div type="psalm" xml:lang="la"
                     xml:id="haleluia-attendite-popule-meus-in-legem-meam" n="3">
                     <head type="add">Haleluia. Attendite popule meus in legem meam</head>
-                    <head>HALELVIA. <ref target="#sl-78">Psalm: 78.<reg>Sl 78</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-78"><orig>Psalm: 78.</orig><reg>Sl
+                            78</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_336.xml"/>
                     </notatedMusic>
@@ -6679,8 +6701,8 @@
                 <div type="psalm" xml:lang="la" xml:id="dum-clamarem-ad-dominum" n="1">
                     <head type="add">Dum clamarem ad dominum</head>
                     <head>Den<ex>n</ex> Tiende Søndag effter Trinitatis.</head>
-                    <head> Introitus latinus. <ref target="#sl-55">Psalm: 55.<reg>Sl
-                        55</reg></ref></head>
+                    <head> Introitus latinus. <ref target="#sl-55"><orig>Psalm: 55.</orig><reg>Sl
+                                55</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_339.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6692,7 +6714,7 @@
                         <l>Jacta cogitatum tuum in Domino, </l>
                         <l>et ipse te enutriet.</l>
                     </lg>
-                    <p><ref target="#sl-55">Psalm: 55.<reg>Sl 55</reg></ref>
+                    <p><ref target="#sl-55"><orig>Psalm: 55.</orig><reg>Sl 55</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_339.xml#mdiv-02"/>
@@ -6709,8 +6731,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-exultate-deo" n="2">
                     <head type="add">Haleluia. Exultate Deo adiutori nostro</head>
-                    <head><pb facs="0355L" n="342"/>HALELVIA. <ref target="#sl-81">Psalm: 81.<reg>Sl
-                                81</reg></ref></head>
+                    <head><pb facs="0355L" n="342"/>HALELVIA. <ref target="#sl-81"><orig>Psalm:
+                                81.</orig><reg>Sl 81</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_342.xml"/>
                     </notatedMusic>
@@ -6729,8 +6751,8 @@
                 <div type="psalm" xml:lang="la" xml:id="deus-in-loco-sancto" n="1">
                     <head type="add">Deus in loco sancto suo</head>
                     <head>Den<ex>n</ex> Elleffte Søndag effter Trinitatis. </head>
-                    <head>Introitus latinus. <ref target="#sl-68">Psalm: 68.<reg>Sl
-                        68</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-68"><orig>Psalm: 68.</orig><reg>Sl
+                                68</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_343.xml"/>
                     </notatedMusic>
@@ -6748,7 +6770,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-domine-deus-salutis-meae" n="2">
                     <head type="add">Haleluia. Domine Deus salutis meæ</head>
-                    <head>Haleluia. <ref target="#sl-88">Psal: 88.<reg>Sl 88</reg></ref>
+                    <head>Haleluia. <ref target="#sl-88"><orig>Psal: 88.</orig><reg>Sl
+                            88</reg></ref>
                     </head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_345.xml"/>
@@ -6767,8 +6790,8 @@
                 <div type="psalm" xml:lang="la" xml:id="deus-in-adiutorium-meum" n="1">
                     <head type="add">Deus in adiutorium meum</head>
                     <head>Den Tolffte Søndag effter Trinitatis.</head>
-                    <head> Introitus latinus. <ref target="#sl-39">Psalm: 39.<reg>Sl
-                        39</reg></ref></head>
+                    <head> Introitus latinus. <ref target="#sl-39"><orig>Psalm: 39.</orig><reg>Sl
+                                39</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_346.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6779,7 +6802,7 @@
                         <l>qui quærunt animam meam.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-39">Psalm: 39.<reg>Sl 39</reg></ref>
+                        <ref target="#sl-39"><orig>Psalm: 39.</orig><reg>Sl 39</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_346.xml#mdiv-02"/>
@@ -6795,7 +6818,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-domine-refugium" n="2">
                     <head type="add">Haleluia. Domine refugium factus es nobis</head>
-                    <head>HALELVIA. <ref target="#sl-90">Psalm: 90.<reg>Sl 90</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-90"><orig>Psalm: 90.</orig><reg>Sl
+                            90</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_348.xml"/>
                     </notatedMusic>
@@ -6860,8 +6884,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="respice-domine" n="2">
                     <head type="add">Respice Domine in testamentum tuum</head>
-                    <head>Introitus latinus. <ref target="#sl-74">Psalm: 74.<reg>Sl
-                        74</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-74"><orig>Psalm: 74.</orig><reg>Sl
+                                74</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_351.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6873,7 +6897,7 @@
                         <l>et iudica causam tuam, </l>
                         <l>et ne obliuiscaris voces quærentium te. </l>
                     </lg>
-                    <p><ref target="#sl-74">Psal: 74.<reg>Sl 74</reg></ref></p>
+                    <p><ref target="#sl-74"><orig>Psal: 74.</orig><reg>Sl 74</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_351.xml#mdiv-02"/>
                     </notatedMusic>
@@ -6890,8 +6914,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-venite-exultemus-domino" n="3">
                     <head type="add">Haleluia. Venite exultemus Domino</head>
-                    <head><pb facs="0367L" n="354"/>HALELVIA. <ref target="#sl-95">Psalm: 95.<reg>Sl
-                                95</reg></ref></head>
+                    <head><pb facs="0367L" n="354"/>HALELVIA. <ref target="#sl-95"><orig>Psalm:
+                                95.</orig><reg>Sl 95</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_354.xml"/>
                     </notatedMusic>
@@ -6977,8 +7001,8 @@
                 <div type="psalm" xml:lang="la" xml:id="protector-noster" n="1">
                     <head type="add">Protector noster aspice Deus</head>
                     <head>Den<ex>n</ex> Fiortende Søndag effter Trinitatis.</head>
-                    <head>Introitus latinus. <ref target="#sl-84">Psalm: 84.<reg>Sl
-                        84</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-84"><orig>Psalm: 84.</orig><reg>Sl
+                                84</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_357.xml#mdiv-01"/>
                     </notatedMusic>
@@ -6990,7 +7014,7 @@
                         <l>super milia.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-84">Psalm: 84<reg>Sl 84</reg></ref></p>
+                        <ref target="#sl-84"><orig>Psalm: 84</orig><reg>Sl 84</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_357.xml#mdiv-02"/>
                     </notatedMusic>
@@ -7006,7 +7030,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-quoniam-deus-magnus-dominus" n="2">
                     <head type="add">Haleluia. Quoniam Deus magnus Dominus</head>
-                    <head>Haleluia. <ref target="#sl-95">Psal: 95.<reg>Sl 95</reg></ref></head>
+                    <head>Haleluia. <ref target="#sl-95"><orig>Psal: 95.</orig><reg>Sl
+                            95</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_359.xml"/>
                     </notatedMusic>
@@ -7024,8 +7049,8 @@
                 <div type="psalm" xml:lang="la" xml:id="inclina-domine" n="1">
                     <head type="add">Inclina domine aurem tuam ad me</head>
                     <head>Den Femtende Søndag effter Trinitatis.</head>
-                    <head> Introitus latinus. <ref target="#sl-86">Psalm: 86.<reg>Sl
-                        86</reg></ref></head>
+                    <head> Introitus latinus. <ref target="#sl-86"><orig>Psalm: 86.</orig><reg>Sl
+                                86</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_360.xml#mdiv-01"/>
                     </notatedMusic>
@@ -7037,7 +7062,7 @@
                         <l>quoniam ad te clamaui tota die.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-86">Psalm: 86.<reg>Sl 86</reg></ref></p>
+                        <ref target="#sl-86"><orig>Psalm: 86.</orig><reg>Sl 86</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_360.xml#mdiv-02"/>
                     </notatedMusic>
@@ -7053,8 +7078,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-paratum-cor-meum-deus" n="2">
                     <head type="add">Haleluia. Paratum Cor meum Deus</head>
-                    <head><pb facs="0376R" n="363"/>HALELVIA. <ref target="#sl-108">Psalm:
-                                108.<reg>Sl 108</reg></ref></head>
+                    <head><pb facs="0376R" n="363"/>HALELVIA. <ref target="#sl-108"><orig>Psalm:
+                                108.</orig><reg>Sl 108</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_363.xml"/>
                     </notatedMusic>
@@ -7073,8 +7098,8 @@
                     <head type="add">Miserere mihi Domine</head>
                     <head><pb facs="0377L" n="364"/>Den<ex>n</ex> xvj. Søndag effter
                         Trinitatis.</head>
-                    <head> Introitus latinus. <ref target="#sl-86">Psalm: 86.<reg>Sl
-                        86</reg></ref></head>
+                    <head> Introitus latinus. <ref target="#sl-86"><orig>Psalm: 86.</orig><reg>Sl
+                                86</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_364.xml#mdiv-01"/>
                     </notatedMusic>
@@ -7086,7 +7111,7 @@
                         <l>et copiosus in miseri<pb facs="0378R" n="365"/>cordia, </l>
                         <l>omnibus inuocantibus te.</l>
                     </lg>
-                    <p><ref target="#sl-86">Psalm: 86.<reg>Sl 86</reg></ref>
+                    <p><ref target="#sl-86"><orig>Psalm: 86.</orig><reg>Sl 86</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_364.xml#mdiv-02"/>
@@ -7104,7 +7129,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-in-exitu-israel-ex-egypto" n="2">
                     <head type="add">Haleluia. In exitu Israel ex Egypto</head>
-                    <head>Haleluia. <ref target="#sl-114">Psal: 114.<reg>Sl 114</reg></ref></head>
+                    <head>Haleluia. <ref target="#sl-114"><orig>Psal: 114.</orig><reg>Sl
+                            114</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_366.xml"/>
                     </notatedMusic>
@@ -7149,8 +7175,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="benedicite-domino" n="2">
                     <head type="add">Benedicite domino</head>
-                    <head><pb facs="0383L" n="370"/>Introitus latinus. <ref target="#sl-103">Psalm:
-                                103.<reg>Sl 103</reg></ref></head>
+                    <head><pb facs="0383L" n="370"/>Introitus latinus. <ref target="#sl-103"
+                                ><orig>Psalm: 103.</orig><reg>Sl 103</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_370.xml#mdiv-01"/>
                     </notatedMusic>
@@ -7161,7 +7187,7 @@
                         <l>ad audiendam vocem sermonum eius.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-103">Psal: 103.<reg>Sl 103</reg></ref></p>
+                        <ref target="#sl-103"><orig>Psal: 103.</orig><reg>Sl 103</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_370.xml#mdiv-02"/>
                     </notatedMusic>
@@ -7430,8 +7456,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="iustus-es-domine" n="2">
                     <head type="add">Iustus es Domine</head>
-                    <head>Introitus latinus. <ref target="#sl-119">Psalm: 119.<reg>Sl
-                            119</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#sl-119"><orig>Psalm: 119.</orig><reg>Sl
+                                119</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_390.xml"/>
                     </notatedMusic>
@@ -7449,8 +7475,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-dilexi">
                     <head type="add">Haleluia. Dilexi, quoniam exaudiuit Dominus vocem meam</head>
-                    <head><pb facs="0405L" n="392"/>HALELVIA. <ref target="#sl-116">Psalm:
-                                116.<reg>Sl 116</reg></ref></head>
+                    <head><pb facs="0405L" n="392"/>HALELVIA. <ref target="#sl-116"><orig>Psalm:
+                                116.</orig><reg>Sl 116</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_392.xml"/>
                     </notatedMusic>
@@ -7600,7 +7626,7 @@
                         <l>Exaudi preces serui tui, et plebis tuæ Jsrael.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-122">Psalm: 122.<reg>Sl 122</reg></ref>
+                        <ref target="#sl-122"><orig>Psalm: 122.</orig><reg>Sl 122</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_396.xml#mdiv-02"/>
@@ -7615,7 +7641,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-laudate-dominum-omnes-gentes" n="2">
                     <head type="add">Haleluia. Laudate Dominum omnes gentes</head>
-                    <head>HALELVIA. <ref target="#sl-117">Psalm: 117.<reg>Sl 117</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-117"><orig>Psalm: 117.</orig><reg>Sl
+                            117</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_398.xml"/>
                     </notatedMusic>
@@ -7632,8 +7659,9 @@
                 <div type="psalm" xml:lang="la" xml:id="salus-populi-ego-sum" n="1">
                     <head type="add">Salus populi ego sum</head>
                     <head>Den<ex>n</ex> xix. Søndag effter Trinitatis.</head>
-                    <head> Introitus latinus. Ex <ref target="#sl-34">Psalm: 34.<reg>Sl
-                            34</reg></ref> et <ref target="#sl-35">35.<reg>Sl 35</reg></ref></head>
+                    <head> Introitus latinus. Ex <ref target="#sl-34"><orig>Psalm: 34.</orig><reg>Sl
+                                34</reg></ref> et <ref target="#sl-35">35.<reg><orig>Sl
+                                35</orig></reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_399.xml#mdiv-01"/>
                     </notatedMusic>
@@ -7643,7 +7671,7 @@
                         <l>exaudiam eos, et ero illorum Dominus in perpetuum.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-78">Psalm: 78.<reg>Sl 78</reg></ref>
+                        <ref target="#sl-78"><orig>Psalm: 78.</orig><reg>Sl 78</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_399.xml#mdiv-02"/>
@@ -7659,7 +7687,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-dextera-dei" n="2">
                     <head type="add">Haleluia. Dextera Dei fecit virtutem</head>
-                    <head>Haleluia. <ref target="#sl-118">Psal: 118.<reg>Sl 118</reg></ref></head>
+                    <head>Haleluia. <ref target="#sl-118"><orig>Psal: 118.</orig><reg>Sl
+                            118</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_401.xml"/>
                     </notatedMusic>
@@ -7677,8 +7706,8 @@
                 <div type="psalm" xml:lang="la" xml:id="omnia-quae-fecisti" n="1">
                     <head type="add">Omnia quæ fecisti nobis Domine</head>
                     <head><pb facs="0416R" n="403"/>Den xx. Søndag effter Trinitatis.</head>
-                    <head> Introitus latinus. Ex <ref target="#tob-3">Tobiæ, 3.<reg>Tob
-                            3</reg></ref></head>
+                    <head> Introitus latinus. Ex <ref target="#tob-3"><orig>Tobiæ, 3.</orig><reg>Tob
+                                3</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_403.xml#mdiv-01"/>
                     </notatedMusic>
@@ -7691,7 +7720,7 @@
                         <l>et fac nobiscum secundum multitudinem misericordiæ tuæ.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-48">Psalm: 48.<reg>Sl 48</reg></ref></p>
+                        <ref target="#sl-48"><orig>Psalm: 48.</orig><reg>Sl 48</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_403.xml#mdiv-02"/>
                     </notatedMusic>
@@ -7707,8 +7736,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-qui-confidunt-in-domino" n="2">
                     <head type="add">Haleluia. Qui confidunt in Domino</head>
-                    <head><pb facs="0419L" n="406"/>HALELVIA. <ref target="#sl-125">Psalm:
-                                125.<reg>Sl 125</reg></ref></head>
+                    <head><pb facs="0419L" n="406"/>HALELVIA. <ref target="#sl-125"><orig>Psalm:
+                                125.</orig><reg>Sl 125</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_406.xml"/>
                     </notatedMusic>
@@ -7728,8 +7757,8 @@
                     <head type="add">Timete Dominum omnes sancti eius</head>
                     <head>Paa alle Helligens Dag. </head>
                     <head> Introitus Dansk. Vor Gud hand er: vide supra Dominica Decima septima
-                        Trinitatis <ex>etc</ex>. Introitus latinus. <ref target="#sl-34">Psalm:
-                                34.<reg>Sl 34</reg></ref></head>
+                        Trinitatis <ex>etc</ex>. Introitus latinus. <ref target="#sl-34"
+                                ><orig>Psalm: 34.</orig><reg>Sl 34</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_407.xml"/>
                     </notatedMusic>
@@ -7748,8 +7777,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="allehelgensdag-haleluja" n="2">
                     <head type="add">Haleluia. Iudicabunt Sancti nationes</head>
-                    <head>HALELVIA. <ref target="#visd-3">Sapientiæ, 3.<reg>Visd
-                        3</reg></ref></head>
+                    <head>HALELVIA. <ref target="#visd-3"><orig>Sapientiæ, 3.</orig><reg>Visd
+                                3</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_409.xml"/>
                     </notatedMusic>
@@ -7840,8 +7869,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="in-voluntate-tua-domine" n="2">
                     <head type="add">In voluntate tua Domine</head>
-                    <head>Introitus latinus. <ref target="#est-13">Esther, 13.<reg>Est
-                            13</reg></ref></head>
+                    <head>Introitus latinus. <ref target="#est-13"><orig>Esther, 13.</orig><reg>Est
+                                13</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_413.xml#mdiv-01"/>
                     </notatedMusic>
@@ -7853,7 +7882,7 @@
                         <l>Dominus vniuersorum <pb facs="0428R" n="415"/> tu es.</l>
                     </lg>
                     <p>
-                        <ref target="#sl-119">Psalm: 119.<reg>Sl 119</reg></ref>
+                        <ref target="#sl-119"><orig>Psalm: 119.</orig><reg>Sl 119</reg></ref>
                     </p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_413.xml#mdiv-02"/>
@@ -7869,8 +7898,8 @@
                 <div type="psalm" xml:lang="la" xml:id="haleluia-de-profundis-clamaui-ad-te-domine"
                     n="3">
                     <head type="add">Haleluia. De profundis clamaui ad te Domine</head>
-                    <head><pb facs="0429L" n="416"/>Haleluia. <ref target="#sl-130">Psal:
-                                130.<reg>Sl 130</reg></ref></head>
+                    <head><pb facs="0429L" n="416"/>Haleluia. <ref target="#sl-130"><orig>Psal:
+                                130.</orig><reg>Sl 130</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_416.xml"/>
                     </notatedMusic>
@@ -7950,8 +7979,8 @@
                     <head type="add">Si iniquitates obseruaueris Domine</head>
                     <head><pb facs="0432R" n="419"/>Den<ex>n</ex> xxij. Søndag effter
                         Trinitatis.</head>
-                    <head> Introitus latinus. <ref target="#sl-130">Psalm: 130.<reg>Sl
-                            130</reg></ref></head>
+                    <head> Introitus latinus. <ref target="#sl-130"><orig>Psalm: 130.</orig><reg>Sl
+                                130</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_419.xml"/>
                     </notatedMusic>
@@ -7969,8 +7998,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-lauda-anima" n="2">
                     <head type="add">Haleluia. Lauda anima mea Dominum</head>
-                    <head><pb facs="0434R" n="421"/>Haleluia. <ref target="#sl-146">Psal:
-                                146.<reg>Sl 146</reg></ref></head>
+                    <head><pb facs="0434R" n="421"/>Haleluia. <ref target="#sl-146"><orig>Psal:
+                                146.</orig><reg>Sl 146</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_421.xml"/>
                     </notatedMusic>
@@ -7988,8 +8017,8 @@
                 <div type="psalm" xml:lang="la" xml:id="dicit-dominus" n="1">
                     <head type="add">Dicit Dominus</head>
                     <head>Den xxiij. Søndag effter Trinitatis.</head>
-                    <head> Introitus latinus. <ref target="#jer-29">Ieremiæ, 29.<reg>Jer
-                            29</reg></ref></head>
+                    <head> Introitus latinus. <ref target="#jer-29"><orig>Ieremiæ,
+                                29.</orig><reg>Jer 29</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_422.xml"/>
                     </notatedMusic>
@@ -8009,7 +8038,8 @@
                 </div>
                 <div type="psalm" xml:lang="la" xml:id="haleluia-qui-sanat-contritos-corde" n="2">
                     <head type="add">Haleluia. Qui sanat contritos corde</head>
-                    <head>HALELVIA. <ref target="#sl-147">Psalm: 147.<reg>Sl 147</reg></ref></head>
+                    <head>HALELVIA. <ref target="#sl-147"><orig>Psalm: 147.</orig><reg>Sl
+                            147</reg></ref></head>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_424.xml"/>
                     </notatedMusic>
@@ -8137,8 +8167,8 @@
                 </div>
                 <div type="psalm" xml:id="fader-vor-udi-himmerig" n="3">
                     <head type="add">Fader vor udi Himmerig</head>
-                    <head><pb facs="0443L" n="430"/>Epistelen/ <ref target="#jak-5">Jacobj/ 5.
-                                Cap:<reg>Jak 5</reg></ref> findes i Alter Bogen. </head>
+                    <head><pb facs="0443L" n="430"/>Epistelen/ <ref target="#jak-5"><orig>Jacobj/ 5.
+                                Cap:</orig><reg>Jak 5</reg></ref> findes i Alter Bogen. </head>
                     <p>Der nest siungis denne Sang.</p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_430.xml"/>
@@ -8217,8 +8247,8 @@
                         <l>Thi siunge wi nu Amen frijt.</l>
                     </lg>
 
-                    <p>Euangelium <ref target="#luk-11"> Lucæ xi.<reg>Luk 11</reg></ref> Aff Alter
-                        bogen.</p>
+                    <p>Euangelium <ref target="#luk-11"><orig> Lucæ xi.</orig><reg>Luk
+                            11</reg></ref> Aff Alter bogen.</p>
                     <p>Her effter: Nu bede wi den hellig Aand.</p>
                     <p>Strax effter Predicken/ skal nogle Peblinge/ som god Røst haffue/ siunge den
                         Danske Litanie: Oc Menigheden met Chorit skulle suare/ som her effter
@@ -8599,13 +8629,13 @@
                 <p>Introitus. Kom hellig Aand O Herre Gud: vide Offertor: die Pentecostes. </p>
                 <p>Kyrie, Som til Søndagen hører.</p>
                 <p>Collect, Aff Alterbogen som læsis offuer Brudfolckene naar de sammen vijes.
-                    Epistel, <ref target="#ef-5">Ephes: 5.<reg>Ef 5</reg></ref> J Mend elsker eders
-                        <ex>etc</ex>. finis: Saa skulle oc Quinderne være deris Mend vnderdanige i
-                    alle maade. <hi>Haleluia</hi>, Gladelig ville wi <ex>etc</ex>. vt supra.
-                        <hi>Euangelium</hi>, <ref target="#matt-19">Mat: XiX.<reg>Matt
-                        19</reg></ref> Oc Phariseerne traadde til Jesum/ frestendis hannem
-                        <ex>etc</ex>. finis: huad Gud haffuer sammen føyet. Der nest/ Nu bede wi den
-                    hellig Aand.</p>
+                    Epistel, <ref target="#ef-5"><orig>Ephes: 5.</orig><reg>Ef 5</reg></ref> J Mend
+                    elsker eders <ex>etc</ex>. finis: Saa skulle oc Quinderne være deris Mend
+                    vnderdanige i alle maade. <hi>Haleluia</hi>, Gladelig ville wi <ex>etc</ex>. vt
+                    supra. <hi>Euangelium</hi>, <ref target="#matt-19"><orig>Mat:
+                            XiX.</orig><reg>Matt 19</reg></ref> Oc Phariseerne traadde til Jesum/
+                    frestendis hannem <ex>etc</ex>. finis: huad Gud haffuer sammen føyet. Der nest/
+                    Nu bede wi den hellig Aand.</p>
 
                 <p>Offertorium, Vden Herren opholder vort Huss oc gaard <ex>etc</ex>. <hi
                         rend="italics">vt supra.</hi></p>
@@ -8698,10 +8728,11 @@
                     <p><hi rend="italics">vt in die Pentecostes.</hi></p>
 
                     <p>Collect/ for Ordens tienere/ oc det Hellige Predicke Embet/ aff Alterbogen.
-                        Epistelen skal læsis paa Danske/ aff Bibelen/ <ref target="#tim-1-3">1.
-                            Timoth: 3.<reg>1 Tim 3</reg></ref> fra begyndelsen oc til (Disligeste
-                        skulle deris Hustruer.) </p>
-                    <p>HALELVIA. <ref target="#joh-15">Iohan: 15.<reg>Joh 15</reg></ref></p>
+                        Epistelen skal læsis paa Danske/ aff Bibelen/ <ref target="#tim-1-3"
+                                ><orig>1. Timoth: 3.</orig><reg>1 Tim 3</reg></ref> fra begyndelsen
+                        oc til (Disligeste skulle deris Hustruer.) </p>
+                    <p>HALELVIA. <ref target="#joh-15"><orig>Iohan: 15.</orig><reg>Joh
+                            15</reg></ref></p>
                     <notatedMusic>
                         <ptr target="Je_1573_LN0981_445.xml"/>
                     </notatedMusic>
@@ -9885,9 +9916,9 @@
                         </head>
                         <list rend="simple">
                             <item>
-                                <hi rend="italics">Non vos me elegistis, sed ego vos elegj: </hi>
-                                <ref target="#haleluia-non-vos-me-elegistis" type="SheetNumber"
-                                    >445.</ref>
+                                <hi rend="italics">Non vos me elegistis, sed ego vos elegj:
+                                    </hi><ref target="#sacerdotes-eius-induant-salutare"
+                                    type="SheetNumber">445.</ref>
                             </item>
                         </list>
                     </div>
