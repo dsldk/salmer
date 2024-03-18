@@ -26,6 +26,7 @@ $(document).ready(function() {
             queryWord = queryWord.replace(/[()!;.,]/gi, '')
             queryWord = queryWord.replace(/^ +/gi, '')
             queryWord = queryWord.replace(/ +$/gi, '')
+            queryWord = queryWord.replace(/\|\d+[vr]/gi, '')
             
             // only allow lookups of words that are not people, works of art, characters etc.
             if (queryWord) {
